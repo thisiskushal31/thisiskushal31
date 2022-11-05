@@ -40,6 +40,7 @@ Want to know more about me? [Check out my portfolio](https://kushalgupta.netlify
 |      --      |      --     |
 |      [Agility](https://github.com/thisiskushal31/Agility)      |      Agilty is a task management tool that allows you to plan, organise, and prioritise all of your tasks so that you can complete them in the shortest amount of time possible built using ReactJS on the frontend and MongoDB on the backend.     |
 |      [SocialSplit](https://github.com/thisiskushal31/SocialSplit)      |      SocialSplit is a real-time chat application built on the backend with NodeJS, Express, and Socket.io and the frontend with React.     |
+|      [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension)      |      LinkSaver is a chrome extension that saves all your tabs. LinkSave will save all of the tabs in the currently active chrome window into your bookmarks. We created this app to help you keep track of all the tabs you want to read one day.     |
 |      [Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms)      |   A curated list of all the Datastructures and Algorithms basic to advanced concept and Question upon them to solidfy concepts.     |
 |      [My Portfolio](https://github.com/thisiskushal31/portfolio)      |   My Portfolio Website Built using ReactJS and Material UI     |
 
