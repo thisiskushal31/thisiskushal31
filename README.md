@@ -12,11 +12,11 @@
     </a>
 </p> 
 
-<img width="30%" align="right" src="https://github.com/thisiskushal31/thisiskushal31/blob/main/assets/workbench.svg?raw=true">   
+<img width="30%" align="right" src="./assets/workbench.svg">   
 
 <h4>Hey There,</h4>  
 
-I'm Kushal, a *Full Stack Web Developer* pursuing my Computer Science Degree who is passionate about building user-friendly, easy-to-use applications, that makes a difference to the lives of those around me. I like to explore new trends and learn new technologies. As of now, I am focused on Web Development and DevOps, but I still wish to explore many fields.    
+I'm Kushal, a ***Full Stack Software Developer*** passionate about building user-friendly, easy-to-use applications, that makes a difference to the lives of those around me. I like to explore new trends and learn new technologies. As of now, I am focused on ***DevOps***.    
 
 Want to know more about me? [Check out my portfolio](https://kushalgupta.netlify.app/)
 
