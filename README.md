@@ -18,7 +18,7 @@
 
 I'm Kushal, a ***Full Stack Software Developer*** passionate about building user-friendly, easy-to-use applications, that makes a difference to the lives of those around me. I like to explore new trends and learn new technologies. As of now, I am focused on ***DevOps***.    
 
-Want to know more about me? [Check out my portfolio](https://kushalgupta.netlify.app/)
+Want to know more about me? [Check out my portfolio](https://kushalgupta.netlify.app/) and [Linktree](https://linktr.ee/thisiskushalgupta)   
 
 <h2>Technical Skills 🛠</h2>
 
@@ -44,20 +44,3 @@ Want to know more about me? [Check out my portfolio](https://kushalgupta.netlify
 |      [My Portfolio](https://github.com/thisiskushal31/portfolio)      |   My Portfolio Website Built using ReactJS and Material UI     |
 |      [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension)      |      LinkSaver is a chrome extension that saves all your tabs. LinkSave will save all of the tabs in the currently active chrome window into your bookmarks. We created this app to help you keep track of all the tabs you want to read one day.     |
 |      [Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms)      |   A curated list of all the Datastructures and Algorithms basic to advanced concept and Question upon them to solidfy concepts.     |
-
-<h2>Coding Platforms and Links💻</h2>     
-
-<p>
-    <a href="https://leetcode.com/Quick067/">
-        <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" alt="Leetcode" />
-    </a>
-    <a href="https://codepen.io/thisiskushal31/">
-        <img src="https://img.shields.io/badge/CodePen-FFFFE6?style=for-the-badge&logo=codepen&logoColor=black" alt="Codepen" />
-    </a>
-    <a href="https://linktr.ee/thisiskushalgupta">
-        <img src="https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree" />
-    </a>
-</p>   
-
-[![GitHub followers](https://img.shields.io/github/followers/thisiskushal31.svg?style=social&label=Follow)](https://github.com/thisiskushal31?tab=followers)
-
