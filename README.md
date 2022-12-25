@@ -1,6 +1,6 @@
-![Kushal's GitHub Banner](./assets/TopBanner.png)    
+<!-- ![Kushal's GitHub Banner](./assets/TopBanner.png)     -->
 
-<p align="center">
+<!-- <p align="center">
     <a href="https://www.linkedin.com/in/thisiskushalgupta/">
         <img src="https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" />
     </a>
@@ -10,15 +10,15 @@
     <a href="mailto:guptakushal070@gmail.com">
         <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=MAIL.RU&logoColor=white" alt="Gmail" />
     </a>
-</p> 
+</p>  -->
 
-<img width="30%" align="right" src="./assets/workbench.svg">   
+<!-- <img width="30%" align="right" src="./assets/workbench.svg">    -->
 
 <h4>Hey There,</h4>  
 
 I'm Kushal, a ***Full Stack Software Developer*** passionate about building user-friendly, easy-to-use applications, that makes a difference to the lives of those around me. I like to explore new trends and learn new technologies. As of now, I am focused on ***DevOps***.    
 
-Want to know more about me? [Check out my portfolio](https://kushalgupta.netlify.app/) and [Linktree](https://linktr.ee/thisiskushalgupta)   
+Want to know more about me? Take a look at my [portfolio](https://kushalgupta.netlify.app/) and [external links](https://linktr.ee/thisiskushalgupta)     
 
 <h2>Technical Skills 🛠</h2>
 
