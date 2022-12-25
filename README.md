@@ -18,7 +18,7 @@
 
 I'm Kushal, a ***Full Stack Software Developer*** passionate about building user-friendly, easy-to-use applications, that makes a difference to the lives of those around me. I like to explore new trends and learn new technologies. As of now, I am focused on ***DevOps***.    
 
-Want to know more about me? Take a look at my [portfolio](https://kushalgupta.netlify.app/) and [external links](https://linktr.ee/thisiskushalgupta)     
+Want to know more about me? Take a look at my [portfolio](https://kushalgupta.netlify.app/) and [external links](https://linktr.ee/thisiskushalgupta).     
 
 <h2>Technical Skills 🛠</h2>
 
