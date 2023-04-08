@@ -14,7 +14,7 @@
 
 <!-- <img width="30%" align="right" src="./assets/workbench.svg">    -->
 
-<h4>Hey There,</h4>  
+##### Hey There, 
 
 I'm Kushal, a ***Full Stack Software Developer*** passionate about building user-friendly, easy-to-use applications, that makes a difference to the lives of those around me. I like to explore new trends and learn new technologies. As of now, I am focused on ***DevOps*** and ***Cloud*** technologies and tools.    
 
@@ -22,7 +22,7 @@ Want to know more about me? [Take a look at my portfolio](https://kushalgupta.ne
 
 I would love to start a conversation on [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/), [Twitter](https://twitter.com/thisis_kushal), and [Email](mailto:guptakushal070@gmail.com). You can also check out my other profile on [Linktree](https://linktr.ee/thisiskushalgupta).    
 
-<h2>Technical Skills 🛠</h2>
+### Technical Skills 🛠
 
 | Skill Type      | Skills | 
 | :---:        |    :----   |
@@ -35,12 +35,21 @@ I would love to start a conversation on [LinkedIn](https://www.linkedin.com/in/t
 | **Version Control**        |    ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)   |
 | **Design**        |    ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)  |
 
-<h2>Projects 🪧</h2>   
+### Projects 🪧  
 
 | Project Name | Description |
-|      --      |      --     |
-|      [Agility](https://github.com/thisiskushal31/Agility)      |      Agilty is a task management tool that allows you to plan, organise, and prioritise all of your tasks so that you can complete them in the shortest amount of time possible built using ReactJS on the frontend and MongoDB on the backend.     |
-|      [SocialSplit](https://github.com/thisiskushal31/SocialSplit)      |      SocialSplit is a real-time chat application built on the backend with NodeJS, Express, and Socket.io and the frontend with React.     |
-|      [My Portfolio](https://github.com/thisiskushal31/portfolio)      |   My Portfolio Website Built using ReactJS and Material UI     |
-|      [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension)      |      LinkSaver is a chrome extension that saves all your tabs. LinkSave will save all of the tabs in the currently active chrome window into your bookmarks. We created this app to help you keep track of all the tabs you want to read one day.     |
-|      [Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms)      |   A curated list of all the Datastructures and Algorithms basic to advanced concept and Question upon them to solidfy concepts.     |
+| -- | -- |
+| [Agility](https://github.com/thisiskushal31/Agility) | Agilty is a task management tool that allows you to plan, organise, and prioritise all of your tasks so that you can complete them in the shortest amount of time possible built using ReactJS on the frontend and MongoDB on the backend. |
+| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | SocialSplit is a real-time chat application built on the backend with NodeJS, Express, and SocketIO and the frontend with React. |
+| [User-Authenticated-JSON-Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | User Authenticated JSON Viewer uses embedded RedisDB to store a randomly generated session key and embedded MongoDB to collect user credentials, while Docker is used to deploy backend APIs and embedded databases. This is to ensure the security of a communication session between a user and another computer or between two computers. |
+| [My Portfolio](https://github.com/thisiskushal31/portfolio) | My Portfolio Website Built using ReactJS and Material UI. |
+| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension)  | LinkSaver is a Chrome extension that saves all your tabs. LinkSave will save all tabs in the currently active Chrome window to your bookmarks. This app comes in handy while you try to keep track of all the tabs you want to read later. |
+
+### Documentations 📝  
+
+| Name | Description |
+| -- | -- |
+| [Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | A curated list of all the Datastructures and Algorithms basic to advanced concept and question upon them to solidfy concepts. |
+| [Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | A collection of notes for the Google Cloud Platform (GCP) qwiklabs learning path useful for GCP certification preparation. |
+| [Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | A curated list for all essential commands and cheatsheet being collected at one place. |
+| [Get Hired](https://github.com/thisiskushal31/Get-Hired) | A curated list of all the company hiring in india!! |
