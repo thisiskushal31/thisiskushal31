@@ -26,7 +26,7 @@ I would love to start a conversation on [LinkedIn](https://www.linkedin.com/in/t
 
 - **Language:** C/C++, Java, JavaScript, Python
 - **Development:** HTML, Cascading Style Sheets (CSS), SASS, Chakra UI, Material UI, React.js, Node.js, Express.js, Springboot
-- **DevOps:** Linux, YAML, Shell Scripting, CI, Docker, Kubernates, Grafana, Prometheus, Terraform, Ansible, Jenkins
+- **DevOps:** Linux, YAML, Shell Scripting, CI, Docker, Kubernetes, Grafana, Prometheus, Terraform, Ansible, Jenkins
 - **Databases:** SQL, MongoDB, Redis, Elasticsearch
 - **Platform:** Google Cloud Platform (GCP)
 - **Others:** Algorithm Design & Analysis, Data Structures, Object-Oriented Programming, Problem Solving, Database Management System, Operating System, Full Stack Software Development, DevOps
