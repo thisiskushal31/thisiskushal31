@@ -31,10 +31,10 @@ I would love to start a conversation on [LinkedIn](https://www.linkedin.com/in/t
 - **Platform:** Google Cloud Platform (GCP)
 - **Others:** Algorithm Design & Analysis, Data Structures, Object-Oriented Programming, Problem Solving, Database Management System, Operating System, Full Stack Software Development, DevOps
 
-<!-- ### Technical Writing Profiles 📃
-- [Hashnode.com](https://hashnode.com/)
-- [Medium.com](https://medium.com/)
-- [Dev.to](https://dev.to/) -->
+### Technical Writing Profiles 📃
+- [Hashnode.com](https://thisiskushal.hashnode.dev/)
+- [Medium.com](https://thisiskushalgupta.medium.com/)
+<!-- - [Dev.to](https://dev.to/) -->
 
 ### Projects 🪧  
 
