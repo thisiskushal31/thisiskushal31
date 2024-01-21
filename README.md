@@ -52,4 +52,3 @@ I would love to start a conversation on [LinkedIn](https://www.linkedin.com/in/t
 | [Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | A curated list of all the Datastructures and Algorithms basic to advanced concept and question upon them to solidfy concepts. |
 | [Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | A collection of notes for the Google Cloud Platform (GCP) qwiklabs learning path useful for GCP certification preparation. |
 | [Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | A curated list for all essential commands and cheatsheet being collected at one place. |
-| [Get Hired](https://github.com/thisiskushal31/Get-Hired) | A curated list of all the company hiring in india!! |
