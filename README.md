@@ -16,9 +16,7 @@
 
 ### Hey There, 
 
-I'm Kushal, a ***Full Stack Software Developer*** passionate about building user-friendly, easy-to-use applications, that makes a difference to the lives of those around me. I like to explore new trends and learn new technologies. As of now, I am focused on ***DevOps*** and ***Cloud*** technologies and tools.    
-
-Want to know more about me? [Take a look at my portfolio](https://kushalgupta.netlify.app/).     
+I'm Kushal, a ***Full Stack Software Developer*** passionate about building user-friendly, easy-to-use applications, that makes a difference to the lives of those around me. I like to explore new trends and learn new technologies. As of now, I am focused on ***DevOps*** and ***Cloud*** technologies and tools.     
 
 I would love to start a conversation on [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/), [Twitter](https://twitter.com/thisis_kushal), and [Email](mailto:guptakushal070@gmail.com). You can also check out my other profile on [Linktree](https://linktr.ee/thisiskushalgupta).    
 
