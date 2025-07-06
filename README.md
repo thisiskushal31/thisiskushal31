@@ -1,80 +1,100 @@
-<!-- GitHub Profile README for Kushal Gupta -->
+<!--
+README crafted to showcase my software engineering journey with a focus on Cloud Infrastructure, DevOps, Security, and Platform Engineering.
+I regularly update this profile as I explore emerging technologies and trends.
+-->
+
+### 👋 Hey there!
+
+I'm **Kushal Gupta**, a software engineer passionate about building secure, scalable systems that enable engineering teams to move faster and safer.
+
+Currently, I focus on:
+- **DevOps & Platform Engineering**
+- **Cloud Infrastructure Automation**
+- **Security-Focused Software Development**
+- **Cloud-Native Engineering & System Design**
+
+I’m always learning and experimenting with modern technologies across software and infrastructure, and I love solving real-world engineering challenges.  
+Explore my personal website at [thisiskushal31.github.io](https://thisiskushal31.github.io/#/).
 
 ---
 
-### 👋 Hey there! Welcome to my GitHub space.
+### 🚀 Technical Skills
 
-I’m **Kushal Gupta**, a **Software Engineer** passionate about solving problems and building secure, scalable, and efficient systems.
+**Languages:** Python, JavaScript, Bash, C/C++, Java  
+**Software Development:** React, Node.js, Spring Boot, REST APIs, Microservices, Cloud-Native Apps  
+**Cloud Platforms:** GCP, AWS  
+**DevOps & Automation:** Docker, Kubernetes, Terraform, GitHub Actions, GitLab CI, Jenkins  
+**Security & Monitoring:** Prometheus, Grafana, IAM, Secrets Management, Secure Boot  
+**Databases & Messaging:** MySQL, MongoDB, Redis, Elasticsearch, Kafka  
+**Foundations:** Data Structures, Algorithms, System Design, Networking, Operating Systems  
 
-I work at the intersection of **platform engineering**, **DevOps**, **cloud infrastructure**, and **security-first development**—with a strong focus on improving developer experience and enabling teams to deliver faster and safer.
+<!--
+💡 Note for Visitors:
+This tech stack reflects my current core skills and focus areas.
 
-💡 I'm always exploring new technologies, experimenting with tools, and learning about cloud-native solutions, automation, and software architecture.
+I'm actively exploring:
+- Service Mesh & API Gateways (Istio, Envoy)
+- Cloud-Native Security (Vault, OPA, Cloud Security Posture Tools)
+- Serverless & Event-Driven Architectures (Cloud Run, AWS Lambda)
+- Infrastructure Testing & Policy as Code (Checkov, Terratest)
+- Advanced Observability & Tracing (OpenTelemetry, Jaeger)
 
-I also share my work and learning through my [personal website](https://thisiskushal31.github.io/) where you’ll find my projects, blogs, and more.
+This section evolves as I continue learning and growing in the software engineering space.
+-->
 
 ---
 
-### 🛠️ What I Work With
+### 📃 Certifications
 
-#### ☁️ Cloud & DevOps
-- **Platforms:** Google Cloud (GCP), AWS, Azure, DigitalOcean  
-- **Tools & Automation:** Terraform, Docker, Kubernetes, Ansible, Jenkins, GitHub Actions, GitLab CI, GitOps  
-- **Monitoring & Security:** Prometheus, Grafana, ELK Stack, Vault, SRE Practices, IAM, Networking
-
-#### 💻 Software Engineering
-- **Languages:** Python, Bash, JavaScript, Go  
-- **Frameworks & Tech:** MERN Stack, Spring Boot, Microservices, REST APIs  
-- **Databases:** PostgreSQL, MongoDB, Redis, MinIO, Elasticsearch  
-- **Core Skills:** System Design, Data Structures & Algorithms, Networking, Operating Systems
+- Google Cloud Associate Cloud Engineer  
+- Preparing for Google Cloud Professional Cloud Architect 
 
 ---
 
-### 🚀 Featured Projects
+### ✨ Featured Projects
 
 | Project | Description |
 |---------|-------------|
-| [Agility](https://github.com/thisiskushal31/Agility) | A task management tool to organize and prioritize tasks, built with React and MongoDB. |
-| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | A real-time chat app built with Node.js, Express, Socket.io, and React. |
-| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | A secure JSON viewer with Redis, MongoDB, and Dockerized deployment. |
-| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | A handy Chrome extension for saving browser tabs for later. |
+| [Agility](https://github.com/thisiskushal31/Agility) | Task management app using React and MongoDB to plan and organize tasks efficiently. |
+| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Real-time chat app with Node.js, Socket.io, Express, and React. |
+| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | JSON viewer with secure session management using Redis, MongoDB, and Docker. |
+| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | Chrome extension to save active tabs for later reading and organization. |
 
 ---
 
-### ✍️ Where I Share Knowledge
-
-| Platform | Description |
-|----------|-------------|
-| [My Blog](https://thisiskushal31.github.io/blog) *(Main Hub)* | My latest thoughts on cloud, DevOps, and automation. |
-| [Hashnode](https://thisiskushal.hashnode.dev/) | Articles on infrastructure, cloud, and developer tooling. |
-| [Medium](https://thisiskushalgupta.medium.com/) | Technical blogs and learning notes. |
-
----
-
-### 📚 Learning & Resources
+### 📚 Documentation & Learning Resources
 
 | Repository | Description |
 |------------|-------------|
-| [Data Structures & Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | Curated notes and coding solutions for DSA. |
-| [GCP Qwiklabs Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | Notes from GCP labs and certifications. |
-| [Commands & Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Helpful tech commands and cheat sheets in one place. |
+| [Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | Curated notes and solved problems for DSA concepts. |
+| [Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | Notes from Google Cloud Qwiklabs for certification prep. |
+| [Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Common terminal commands and infrastructure tool references. |
 
 ---
 
-### 🎯 What’s Next?
-I’m excited to contribute more to open-source projects in **cloud-native**, **DevOps tooling**, and **platform engineering** spaces as I continue to grow.
+### 📝 Technical Blogs & Insights
+
+- [My Primary Blog (on Portfolio Site)](https://thisiskushal31.github.io/blog) — Deep dives, tutorials, and technical insights.
+- [Hashnode Blog](https://thisiskushal.hashnode.dev/)
+- [Medium](https://thisiskushalgupta.medium.com/)
 
 ---
 
-### 📬 Let’s Connect & Chat!
+### 🤝 Connect with Me
 
-- 🌐 [Portfolio Website](https://thisiskushal31.github.io/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/)
-- 🐙 [GitHub](https://github.com/thisiskushal31)
-- ✉️ [Email](mailto:guptakushal070@gmail.com)
-- 🐦 [X (Twitter)](https://twitter.com/thisis_kushal)
+Whether you're working on an exciting project, seeking collaboration, or just want to chat about software engineering, cloud infrastructure, or DevOps — feel free to reach out!
 
-> ✨ Feel free to connect—whether for collaboration, sharing ideas, or just to chat about tech!
+- [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/)
+- [X (Twitter)](https://x.com/thisis_kushal)
+- [Email](mailto:guptakushal070@gmail.com)
+
+🌐 Visit my website: [thisiskushal31.github.io](https://thisiskushal31.github.io/#/)
 
 ---
 
-Thanks for stopping by! 🚀
+<!--
+🚀 Future Plans:
+- Contribute to open-source projects (in-progress goal)
+- Share upcoming portfolio projects here
+- Update progress on certifications and deeper tech explorations
+-->
