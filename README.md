@@ -1,52 +1,83 @@
-<!-- ![Kushal's GitHub Banner](./assets/TopBanner.png)     -->
+<!-- ![Kushal's GitHub Banner](./assets/TopBanner.png) -->
 
-<!-- <p align="center">
-    <a href="https://www.linkedin.com/in/thisiskushalgupta/">
-        <img src="https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" />
-    </a>
-    <a href="https://twitter.com/thisis_kushal">
-        <img src="https://img.shields.io/badge/-Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter" />
-    </a>
-    <a href="mailto:guptakushal070@gmail.com">
-        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=MAIL.RU&logoColor=white" alt="Gmail" />
-    </a>
-</p>  -->
+<!-- Social Badges -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/thisiskushalgupta/">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/thisis_kushal">
+    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="mailto:guptakushal070@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-<!-- <img width="30%" align="right" src="./assets/workbench.svg">    -->
+---
 
-### Hey There, 
+### Hey there! 👋  
 
-I'm Kushal, a ***Full Stack Software Developer*** passionate about building user-friendly, easy-to-use applications, that makes a difference to the lives of those around me. I like to explore new trends and learn new technologies. As of now, I am focused on ***DevOps*** and ***Cloud*** technologies and tools.     
+I'm **Kushal Gupta**, a **software engineer** passionate about cloud infrastructure, DevOps, and modern software engineering. I love experimenting with cloud-native technologies, infrastructure automation, and secure, scalable systems.
 
-I would love to start a conversation on [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/), [Twitter](https://twitter.com/thisis_kushal), and [Email](mailto:guptakushal070@gmail.com). You can also check out my other profile on [Linktree](https://linktr.ee/thisiskushalgupta).    
+Currently, I’m focused on:
+- Cloud platforms (GCP, AWS)
+- Platform engineering & DevOps tooling
+- Automation, monitoring, and system security
+- Software development for cloud-native environments
 
-### Technical Skills 🛠
+I enjoy exploring new technologies and sharing insights through projects, blogs, and open-source contributions.
 
-- **Language:** C/C++, Java, JavaScript, Python
-- **Development:** HTML, Cascading Style Sheets (CSS), SASS, Chakra UI, Material UI, React.js, Node.js, Express.js, Springboot
-- **DevOps:** Linux, YAML, Shell Scripting, CI, Docker, Kubernetes, Kafka, Grafana, Prometheus, Terraform, Ansible, Jenkins
-- **Databases:** SQL, MongoDB, Redis, Elasticsearch
-- **Platform:** Google Cloud Platform (GCP)
-- **Others:** Algorithm Design & Analysis, Data Structures, Object-Oriented Programming, Problem Solving, Database Management System, Operating System, Full Stack Software Development, DevOps
+🌐 Explore more on my [portfolio website](https://thisiskushal31.github.io/#/).
 
-### Technical Writing Profiles 📃
-- [Hashnode.com](https://thisiskushal.hashnode.dev/)
-- [Medium.com](https://thisiskushalgupta.medium.com/)
-<!-- - [Dev.to](https://dev.to/) -->
+---
 
-### Projects 🪧  
+### 🛠 Technical Skills
 
-| Project Name | Description |
-| -- | -- |
-| [Agility](https://github.com/thisiskushal31/Agility) | Agilty is a task management tool that allows you to plan, organise, and prioritise all of your tasks so that you can complete them in the shortest amount of time possible built using ReactJS on the frontend and MongoDB on the backend. |
-| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | SocialSplit is a real-time chat application built on the backend with NodeJS, Express, and SocketIO and the frontend with React. |
-| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | User Authenticated JSON Viewer uses embedded RedisDB to store a randomly generated session key and embedded MongoDB to collect user credentials, while Docker is used to deploy backend APIs and embedded databases. This is to ensure the security of a communication session between a user and another computer or between two computers. |
-| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension)  | LinkSaver is a Chrome extension that saves all your tabs. LinkSave will save all tabs in the currently active Chrome window to your bookmarks. This app comes in handy while you try to keep track of all the tabs you want to read later. |
+- **Languages:** C/C++, Python, JavaScript, Bash/Shell, Java  
+- **Software Development:** React.js, Node.js, Express.js, Spring Boot, REST APIs, Microservices, Cloud-Native Apps  
+- **Cloud Platforms:** Google Cloud Platform (GCP), Amazon Web Services (AWS) 
+- **DevOps & Automation:** Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, GitLab CI, GitOps  
+- **Security & Monitoring:** Prometheus, Grafana, Secrets Management, IAM, Secure Boot  
+- **Databases & Messaging:** MySQL, MongoDB, Redis, Elasticsearch, Kafka  
+- **Computer Science Fundamentals:** Data Structures, Algorithms, System Design, Networking, OS Concepts  
 
-### Documentations 📝  
+---
 
-| Name | Description |
-| -- | -- |
-| [Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | A curated list of all the Datastructures and Algorithms basic to advanced concept and question upon them to solidfy concepts. |
-| [Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | A collection of notes for the Google Cloud Platform (GCP) qwiklabs learning path useful for GCP certification preparation. |
-| [Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | A curated list for all essential commands and cheatsheet being collected at one place. |
+### 📄 Projects
+
+| Project | Description |
+|---------|-------------|
+| [Agility](https://github.com/thisiskushal31/Agility) | Task management tool built with ReactJS and MongoDB for streamlined planning and productivity. |
+| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Real-time chat app using Node.js, Express, Socket.io, and React for collaborative messaging. |
+| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | Secure JSON viewer with embedded Redis and MongoDB for session-based API access and authentication. |
+| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | Chrome extension for saving active browser tabs for later reference and productivity. |
+
+---
+
+### 📚 Documentation & Learning Resources
+
+| Repository | Description |
+|------------|-------------|
+| [Data Structures & Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | Curated learning materials and solutions for algorithms and data structures. |
+| [Qwiklabs GCP Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | Notes for Google Cloud Platform (GCP) learning paths and certification preparation. |
+| [Commands & Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Handy commands, scripts, and cheatsheets for quick DevOps reference. |
+
+---
+
+### ✍️ Technical Writing
+
+Here are some of my technical blogs and articles:
+- 📖 [Primary Blog (Hosted on my portfolio)](https://thisiskushal31.github.io/blog) — My main hub for deep-dive articles on DevOps, cloud, and software engineering.
+- ✍️ [Hashnode](https://thisiskushal.hashnode.dev/) — Occasional articles and insights.
+- ✍️ [Medium](https://thisiskushalgupta.medium.com/) — Older posts and archives.
+
+---
+
+### 📬 Let’s Connect
+
+Let's connect via  
+[LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/) • [Twitter](https://twitter.com/thisis_kushal) • [Portfolio Website](https://thisiskushal31.github.io/#/)
+
+---
+
+_⚡ Always exploring new ideas in cloud, DevOps, and software engineering!_
