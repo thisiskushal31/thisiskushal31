@@ -20,13 +20,13 @@ Explore my personal website at [thisiskushal31.github.io](https://thisiskushal31
 
 ### 🚀 Technical Skills
 
-**Languages:** Python, JavaScript, Bash, C/C++, Java  
-**Software Development:** React, Node.js, Spring Boot, REST APIs, Microservices, Cloud-Native Apps  
-**Cloud Platforms:** GCP, AWS  
-**DevOps & Automation:** Docker, Kubernetes, Terraform, GitHub Actions, GitLab CI, Jenkins  
-**Security & Monitoring:** Prometheus, Grafana, IAM, Secrets Management, Secure Boot  
-**Databases & Messaging:** MySQL, MongoDB, Redis, Elasticsearch, Kafka  
-**Foundations:** Data Structures, Algorithms, System Design, Networking, Operating Systems  
+- **Languages:**  C/C++, Python, JavaScript, Bash/Shell, Java
+- **Software Development:**  React.js, Node.js, Express.js, Spring Boot, REST APIs, Microservices, Cloud-Native Apps
+- **Cloud Platforms:**  Google Cloud Platform (GCP), Amazon Web Services (AWS)
+- **DevOps & Automation:**  Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, GitLab CI, GitOps
+- **Security & Monitoring:**  Prometheus, Grafana, Secrets Management, IAM, Secure Boot
+- **Databases & Messaging:**  MySQL, MongoDB, Redis, Elasticsearch, Kafka
+- **Computer Science Fundamentals:**  Data Structures, Algorithms, System Design, Networking, Operating Systems
 
 <!--
 💡 Note for Visitors:
