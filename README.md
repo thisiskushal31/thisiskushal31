@@ -38,7 +38,7 @@ This tech stack reflects my current core skills and focus areas.
 - **Software Development:**  React.js, Node.js, Express.js, Spring Boot, REST APIs, Microservices, Cloud-Native Apps
 - **Cloud Platforms:**  Google Cloud Platform (GCP), Amazon Web Services (AWS)
 - **DevOps & Automation:**  Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, GitLab CI, GitOps
-- **Security & Monitoring:**  Prometheus, Grafana, Secrets Management, IAM, Secure Boot
+- **Security & Monitoring:**  Prometheus, Grafana, Secrets Management, IAM, Cloud Infra Security Practices
 - **Databases & Messaging:**  MySQL, MongoDB, Redis, Elasticsearch, Kafka
 - **Computer Science Fundamentals:**  Data Structures, Algorithms, System Design, Networking, Operating Systems
 
