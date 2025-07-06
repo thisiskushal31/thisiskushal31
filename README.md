@@ -50,8 +50,8 @@ This section evolves as I continue learning and growing in the software engineer
 
 ### 📃 Certifications
 
-- Google Cloud **Associate Cloud Engineer** ✅  
-- Preparing for **Google Cloud Professional Cloud Architect**
+- [**Google Cloud Associate Cloud Engineer**](https://www.credly.com/badges/7af9ebab-6364-42a3-b1b8-200fb56b101a/public_url) ✅  
+- Preparing for [**Google Cloud Professional Cloud Architect**](https://cloud.google.com/certification/cloud-architect)
 
 ---
 
