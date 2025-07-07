@@ -34,7 +34,7 @@ This tech stack reflects my current core skills and focus areas.
 
 -->
 
-- **Languages:**  C/C++, Python, JavaScript, Bash/Shell, Java
+- **Languages:**  C/C++, Python, JavaScript, Bash/Shell
 - **Software Development:**  React.js, Node.js, Express.js, Spring Boot, REST APIs, Microservices, Cloud-Native Apps
 - **Cloud Platforms:**  Google Cloud Platform (GCP), Amazon Web Services (AWS)
 - **DevOps & Automation:**  Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, GitLab CI, GitOps
