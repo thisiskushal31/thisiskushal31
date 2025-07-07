@@ -39,7 +39,7 @@ This tech stack reflects my current core skills and focus areas.
 - **Cloud Platforms:**  Google Cloud Platform (GCP), Amazon Web Services (AWS)
 - **DevOps & Automation:**  Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, GitLab CI, GitOps
 - **Security & Monitoring:**  Prometheus, Grafana, Secrets Management, IAM, Cloud Infra Security Practices
-- **Databases & Messaging:**  MySQL, MongoDB, Redis, Elasticsearch, Kafka
+- **Databases & Messaging:**  MySQL, MongoDB, Redis, Elasticsearch
 - **Computer Science Fundamentals:**  Data Structures, Algorithms, System Design, Networking, Operating Systems
 
 <!--
@@ -55,9 +55,24 @@ This section evolves as I continue learning and growing in the software engineer
 
 ---
 
-### ✨ Featured Projects
+### ✨ Featured Projects (Cloud & DevOps)
 
-Here are some of my projects where I applied my skills and built end-to-end solutions:
+Some of my most impactful projects in cloud infrastructure, automation, and DevOps:
+
+| Project | Description |
+|---------|-------------|
+| [Infra Provision System Automation](https://thisiskushal31.github.io/#/projects#featured-projects) | Automated infrastructure provisioning, backups, and IAM role management using Terraform, Python, Jenkins, and GitLab CI—reduced deployment time by 50% and improved data resilience. |
+| [Nexus - Internal POS Application Infrastructure](https://thisiskushal31.github.io/#/projects#featured-projects) | Designed high-availability infrastructure for Nexus POS, integrated monitoring with Grafana/Prometheus, and implemented WAF for security—ensured reliable retail operations. |
+| [Monitoring & Alerting Automation](https://thisiskushal31.github.io/#/projects#featured-projects) | Migrated legacy alerting to Grafana Alerts, reducing MTTR from 30 to 7 minutes; built proactive monitoring dashboards for production systems. |
+| [Cloud Infrastructure Security Enhancements](https://thisiskushal31.github.io/#/projects#featured-projects) | Strengthened cloud security by automating IAM cleanup, firewall policies, secrets management, and zero-trust practices across GCP and Kubernetes. |
+
+🌐 See all projects on [my portfolio site](https://thisiskushal31.github.io/#/projects#featured-projects).
+
+---
+
+### 🛠️ Other Projects (Apps & Tools)
+
+Some earlier apps and tools I built:
 
 | Project | Description |
 |---------|-------------|
