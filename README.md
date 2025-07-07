@@ -70,9 +70,7 @@ Some of my most impactful projects in cloud infrastructure, automation, and DevO
 
 ---
 
-### 🛠️ Other Projects (Apps & Tools)
-
-Some earlier apps and tools I built:
+### 🛠️ Experimental Projects & Tools
 
 | Project | Description |
 |---------|-------------|
