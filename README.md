@@ -5,15 +5,15 @@ I regularly update this profile as I explore emerging technologies and trends.
 
 # 👋 Hey there, I'm Kushal Gupta!
 
-Welcome to my GitHub space! I'm a passionate **Software Engineer** focused on building **secure, scalable systems** that help engineering teams move faster and safer.
+Welcome to my GitHub space! I'm a passionate **Software Engineer** focused on building **secure, scalable, and intelligent systems** that help engineering teams move faster and safer.
 
-### 🚀 What I Focus On:
+### 🚀 Areas of Expertise & Interest:
+- **Generative AI & LLM Engineering**
 - **DevOps & Platform Engineering**
-- **Cloud Infrastructure Automation**
 - **Security-Focused Software Development**
 - **Cloud-Native Engineering & System Design**
 
-I love solving real-world engineering challenges and am always exploring modern tools, technologies, and system designs.  
+I love solving real-world engineering challenges and am always exploring modern tools, technologies, and system designs. I am particularly interested in how we can leverage the power of **AI** to build more robust and efficient systems. 
 
 🌐 Explore more about me on my website: [thisiskushal31.github.io](https://thisiskushal31.github.io/#/)
 
