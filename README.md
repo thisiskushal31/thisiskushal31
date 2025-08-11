@@ -91,9 +91,9 @@ I enjoy documenting and sharing my learning journey — here are some of my know
 
 If you enjoy reading technical blogs and deep dives, here are my blogging spaces:
 
-- [Primary Blog (on my Portfolio Site)](https://thisiskushal31.github.io/blog) — In-depth tutorials, guides & personal tech stories.
-- [Hashnode Blog](https://thisiskushal.hashnode.dev/)
-- [Medium Blog](https://thisiskushalgupta.medium.com/)
+- [Personal Blog ](https://thisiskushal31.github.io/blog) - (Primary)
+- [Hashnode Blog ](https://thisiskushal.hashnode.dev/) - (Secondary)
+- [Medium Blog](https://thisiskushalgupta.medium.com/) - (Secondary)
 
 ---
 
