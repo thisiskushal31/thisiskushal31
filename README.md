@@ -1,8 +1,3 @@
-<!--
-README crafted to showcase my software engineering journey with a focus on Cloud Infrastructure, DevOps, Security, and Platform Engineering.
-I regularly update this profile as I explore emerging technologies and trends.
--->
-
 # 👋 Hey there, I'm Kushal Gupta!
 
 Welcome to my GitHub space! I'm a passionate **Software Engineer** focused on building **secure, scalable, and intelligent systems** that help engineering teams move faster and safer.
@@ -13,16 +8,15 @@ Welcome to my GitHub space! I'm a passionate **Software Engineer** focused on bu
 - **Security-Focused Software Development**
 - **Cloud-Native Engineering & System Design**
 
-I love solving real-world engineering challenges and am always exploring modern tools, technologies, and system designs. I am particularly interested in how we can leverage the power of **AI** to build more robust and efficient systems. 
+I'm dedicated to solving real-world engineering challenges. I'm always exploring modern tools and system designs, and I'm particularly interested in how we can leverage **AI** to build more robust and efficient systems. 
 
 🌐 Explore more about me on my website: [thisiskushal31.github.io](https://thisiskushal31.github.io/#/)
 
 ---
 
-### 🚀 Technical Skills
+### 🛠️ Core Technical Skills
 
-<!--
-💡 Note for Visitors:
+<!-- 💡 Note for Visitors:
 This tech stack reflects my current core skills and focus areas.
 
 🎯 **Currently Exploring:**  
@@ -31,16 +25,15 @@ This tech stack reflects my current core skills and focus areas.
 - Serverless & Event-Driven Architectures (Cloud Run, AWS Lambda)  
 - Infrastructure Testing & Policy as Code (Checkov, Terratest)  
 - Advanced Observability & Tracing (OpenTelemetry, Jaeger)
+- AI/ML Integration in DevOps (MLOps, AI-Powered Monitoring) -->
 
--->
-
-- **Languages:**  C/C++, Python, JavaScript, Bash/Shell
-- **Software Development:**  React.js, Node.js, Express.js, Spring Boot, REST APIs, Microservices, Cloud-Native Apps
-- **Cloud Platforms:**  Google Cloud Platform (GCP), Amazon Web Services (AWS)
-- **DevOps & Automation:**  Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, GitLab CI, GitOps
-- **Security & Monitoring:**  Prometheus, Grafana, Secrets Management, IAM, Cloud Infra Security Practices
-- **Databases & Messaging:**  MySQL, MongoDB, Redis, Elasticsearch
-- **Computer Science Fundamentals:**  Data Structures, Algorithms, System Design, Networking, Operating Systems
+- **Languages:** C/C++, Python, JavaScript, Bash/Shell
+- **Cloud Platforms:** Google Cloud Platform (GCP), Amazon Web Services (AWS)
+- **DevOps & Automation:** Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, GitLab CI, GitOps
+- **Security & Monitoring:** Prometheus, Grafana, Secrets Management, IAM, Cloud Infrastructure Security
+- **Backend & Web:** React.js, Node.js, Express.js, Spring Boot, REST APIs, Microservices
+- **Databases:** MySQL, MongoDB, Redis, Elasticsearch
+- **Computer Science:** Data Structures, Algorithms, System Design, Networking, Operating Systems
 
 <!--
 This section evolves as I continue learning and growing in the software engineering space.
@@ -60,11 +53,11 @@ This section evolves as I continue learning and growing in the software engineer
 Some of my most impactful projects in cloud infrastructure, automation, and DevOps:
 
 | Project | Description |
-|---------|-------------|
-| [Infra Provision System Automation](https://thisiskushal31.github.io/#/projects#featured-projects) | Automated infrastructure provisioning, backups, and IAM role management using Terraform, Python, Jenkins, and GitLab CI—reduced deployment time by 50% and improved data resilience. |
-| [Nexus - Internal POS Application Infrastructure](https://thisiskushal31.github.io/#/projects#featured-projects) | Designed high-availability infrastructure for Nexus POS, integrated monitoring with Grafana/Prometheus, and implemented WAF for security—ensured reliable retail operations. |
-| [Monitoring & Alerting Automation](https://thisiskushal31.github.io/#/projects#featured-projects) | Migrated legacy alerting to Grafana Alerts, reducing MTTR from 30 to 7 minutes; built proactive monitoring dashboards for production systems. |
-| [Cloud Infrastructure Security Enhancements](https://thisiskushal31.github.io/#/projects#featured-projects) | Strengthened cloud security by automating IAM cleanup, firewall policies, secrets management, and zero-trust practices across GCP and Kubernetes. |
+| :--- | :--- |
+| **Infra Provision System Automation** | Automated infrastructure provisioning, backups, and IAM role management using **Terraform**, **Python**, **Jenkins**, and **GitLab CI**—reduced deployment time by 50% and improved data resilience. |
+| **Nexus - Internal POS Application Infrastructure** | Designed high-availability infrastructure for Nexus POS, integrated monitoring with **Grafana/Prometheus**, and implemented **WAF** for security—ensured reliable retail operations. |
+| **Monitoring & Alerting Automation** | Migrated legacy alerting to **Grafana Alerts**, reducing MTTR from 30 to 7 minutes; built proactive monitoring dashboards for production systems. |
+| **Cloud Infrastructure Security Enhancements** | Strengthened cloud security by automating IAM cleanup, firewall policies, secrets management, and zero-trust practices across **GCP** and **Kubernetes**. |
 
 🌐 See all projects on [my portfolio site](https://thisiskushal31.github.io/#/projects#featured-projects).
 
@@ -73,12 +66,12 @@ Some of my most impactful projects in cloud infrastructure, automation, and DevO
 ### 🛠️ Experimental Projects & Tools
 
 | Project | Description |
-|---------|-------------|
-| [Agility](https://github.com/thisiskushal31/Agility) | Task management app built with React and MongoDB to organize work and life efficiently. |
-| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Real-time chat app powered by Node.js, Socket.io, Express, and React. |
-| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | JSON viewer with secure session management via Redis, MongoDB, and Docker. |
+| :--- | :--- |
+| [Agility](https://github.com/thisiskushal31/Agility) | Task management app built with **React** and **MongoDB** to organize work and life efficiently. |
+| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Real-time chat app powered by **Node.js**, **Socket.io**, **Express**, and **React**. |
+| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | JSON viewer with secure session management via **Redis**, **MongoDB**, and **Docker**. |
 | [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | Chrome extension to save active tabs for later reading and organization. |
-| [Configurable React Blog Starter](https://github.com/thisiskushal31/configurable-react-blog-starter)  | A customizable React starter template for modern blogs. Easily configure themes, layouts, and content sources. Supports Markdown posts, responsive design, and built-in SEO. |
+| [Configurable React Blog Starter](https://github.com/thisiskushal31/configurable-react-blog-starter) | A customizable **React** starter template for modern blogs, supporting Markdown and responsive design. |
 
 ---
 
@@ -87,7 +80,7 @@ Some of my most impactful projects in cloud infrastructure, automation, and DevO
 I enjoy documenting and sharing my learning journey — here are some of my knowledge repositories:
 
 | Repository | Description |
-|------------|-------------|
+| :--- | :--- |
 | [Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | My notes and solved problems on DSA concepts. |
 | [Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | Notes from Google Cloud Qwiklabs for certification preparation. |
 | [Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Useful terminal commands and infrastructure tool references I often revisit. |
