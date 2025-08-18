@@ -10,7 +10,7 @@ Welcome to my GitHub space! I'm a passionate **Software Engineer** focused on bu
 
 I'm dedicated to solving real-world engineering challenges. I'm always exploring modern tools and system designs, and I'm particularly interested in how we can leverage **AI** to build more robust and efficient systems. 
 
-🌐 Explore more about me on my website: [thisiskushal31.github.io](https://thisiskushal31.github.io/#/)
+🌐 **Portfolio:** [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) | **Bio Links:** [thisiskushal31.github.io/link](https://thisiskushal31.github.io/link/)
 
 ---
 
@@ -109,7 +109,7 @@ Whether it's collaborating on a project, discussing technology, or sharing ideas
 - [X (Twitter)](https://x.com/thisis_kushal)
 - [Email](mailto:guptakushal070@gmail.com)
 
-🌐 Visit my website: [thisiskushal31.github.io](https://thisiskushal31.github.io/#/)
+🌐 Visit my website: [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) | [Bio Links](https://thisiskushal31.github.io/link/)
 
 ---
 
