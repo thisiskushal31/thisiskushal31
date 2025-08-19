@@ -71,6 +71,8 @@ Some of my most impactful projects in cloud infrastructure, automation, and DevO
 | [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Real-time chat app powered by **Node.js**, **Socket.io**, **Express**, and **React**. |
 | [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | JSON viewer with secure session management via **Redis**, **MongoDB**, and **Docker**. |
 | [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | Chrome extension to save active tabs for later reading and organization. |
+| [Modern React Portfolio Starter](https://github.com/thisiskushal31/modern-react-portfolio-starter) | A customizable **React** starter template for modern portfolio websites, supporting Markdown and responsive design. |
+| [Configurable React Bio Link Starter](https://github.com/thisiskushal31/configurable-react-bio-link-starter) | A customizable **React** starter template for modern linktree style bio links websites with responsive design. |
 | [Configurable React Blog Starter](https://github.com/thisiskushal31/configurable-react-blog-starter) | A customizable **React** starter template for modern blogs, supporting Markdown and responsive design. |
 
 ---
