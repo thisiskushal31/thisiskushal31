@@ -16,7 +16,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 - **Portfolio** — [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) — My projects, experience, and technical journey
 - **Bio Links** — [thisiskushal31.github.io/link](https://thisiskushal31.github.io/link/) — All my social profiles and important links in one place
 - **Blog** — [thisiskushal31.github.io/blog](https://thisiskushal31.github.io/blog) — Technical deep dives, tutorials, and fresh engineering ideas
-- **DocHub** — [thisiskushal31.github.io/dochub](https://thisiskushal31.github.io/dochub/) — Centralized documentation hub for all my learning notes and resources
+- **DocHub** — [thisiskushal31.github.io/dochub](https://thisiskushal31.github.io/dochub/) — Centralized hub for learning notes and resources
 
 ---
 
