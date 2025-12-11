@@ -1,31 +1,46 @@
-# 👋 Hey there, I'm Kushal Gupta!
+# 👋 Hey there, I'm Kushal Gupta
 
 Welcome to my GitHub space! I'm a passionate **Software Engineer** focused on building **secure, scalable, and intelligent systems** that help engineering teams move faster and safer.
 
-### 🚀 Areas of Expertise & Interest:
-- **Generative AI & LLM Engineering**
+## 🚀 Areas of Expertise & Interest
+
+<!-- - **Generative AI & LLM Engineering** -->
 - **DevOps & Platform Engineering**
 - **Security-Focused Software Development**
 - **Cloud-Native Engineering & System Design**
 
-I'm dedicated to solving real-world engineering challenges. I'm always exploring modern tools and system designs, and I'm particularly interested in how we can leverage **AI** to build more robust and efficient systems. 
+I'm dedicated to solving real-world engineering challenges. I'm always exploring modern tools and system designs, and I'm particularly interested in how we can leverage **AI** to build more robust and efficient systems.
 
-🌐 **Portfolio:** [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) | **Bio Links:** [thisiskushal31.github.io/link](https://thisiskushal31.github.io/link/)
+🌐 **Quick Links:**
+
+- **Portfolio** — [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) — My projects, experience, and technical journey
+- **Bio Links** — [thisiskushal31.github.io/link](https://thisiskushal31.github.io/link/) — All my social profiles and important links in one place
+- **Blog** — [thisiskushal31.github.io/blog](https://thisiskushal31.github.io/blog) — Technical deep dives, tutorials, and fresh engineering ideas
+- **DocHub** — [thisiskushal31.github.io/dochub](https://thisiskushal31.github.io/dochub/) — Centralized documentation hub for all my learning notes and resources
 
 ---
 
-### 🛠️ Core Technical Skills
+## 💼 Technical Capabilities
 
-<!-- 💡 Note for Visitors:
-This tech stack reflects my current core skills and focus areas.
+**Production Systems & Infrastructure:**
 
-🎯 **Currently Exploring:**  
-- Service Mesh & API Gateways (Istio, Envoy)  
-- Cloud-Native Security (Vault, OPA, Cloud Security Posture Tools)  
-- Serverless & Event-Driven Architectures (Cloud Run, AWS Lambda)  
-- Infrastructure Testing & Policy as Code (Checkov, Terratest)  
-- Advanced Observability & Tracing (OpenTelemetry, Jaeger)
-- AI/ML Integration in DevOps (MLOps, AI-Powered Monitoring) -->
+- **Production Metrics:** 50% faster deployments, 76% MTTR reduction, zero-trust security implementations
+- **Cloud Infrastructure:** Real-world experience with GCP/AWS, automation, and platform engineering
+- **Infrastructure Engineering:** Transform complexity into reliable, maintainable systems through IaC and automation
+- **Security-First Approach:** Zero-trust patterns, automated compliance, and proactive threat mitigation
+- **Documentation & Knowledge Sharing:** Clear docs, runbooks, and knowledge transfer
+
+**Technical Approach:**
+
+- **Full-Stack Infrastructure:** Architecture design, IaC (Terraform), CI/CD pipelines, observability (Prometheus/Grafana), and security hardening
+- **Production-Grade Patterns:** Zero-trust networking, automated IAM policies, secrets management, and infrastructure-as-code best practices
+- **Open to Collaboration:** Available for technical projects involving cloud infrastructure, automation, and platform engineering
+
+---
+
+### 🛠️ Technical Stack
+
+*Technologies I work with daily to build and operate production systems:*
 
 - **Languages:** C/C++, Python, JavaScript, Bash/Shell
 - **Cloud Platforms:** Google Cloud Platform (GCP), Amazon Web Services (AWS)
@@ -35,83 +50,90 @@ This tech stack reflects my current core skills and focus areas.
 - **Databases:** MySQL, MongoDB, Redis, Elasticsearch
 - **Computer Science:** Data Structures, Algorithms, System Design, Networking, Operating Systems
 
-<!--
-This section evolves as I continue learning and growing in the software engineering space.
--->
-
 ---
 
-### 📃 Certifications
+### ✨ Featured Projects
 
-- [**Google Cloud Associate Cloud Engineer**](https://www.credly.com/badges/7af9ebab-6364-42a3-b1b8-200fb56b101a/public_url) ✅  
-- Preparing for [**Google Cloud Professional Cloud Architect**](https://cloud.google.com/certification/cloud-architect)
+*Real-world impact through automation, infrastructure, and security:*
 
----
-
-### ✨ Featured Projects (Cloud & DevOps)
-
-Some of my most impactful projects in cloud infrastructure, automation, and DevOps:
-
-| Project | Description |
+| Project | Impact & Technologies |
 | :--- | :--- |
-| **Infra Provision System Automation** | Automated infrastructure provisioning, backups, and IAM role management using **Terraform**, **Python**, **Jenkins**, and **GitLab CI**—reduced deployment time by 50% and improved data resilience. |
-| **Nexus - Internal POS Application Infrastructure** | Designed high-availability infrastructure for Nexus POS, integrated monitoring with **Grafana/Prometheus**, and implemented **WAF** for security—ensured reliable retail operations. |
-| **Monitoring & Alerting Automation** | Migrated legacy alerting to **Grafana Alerts**, reducing MTTR from 30 to 7 minutes; built proactive monitoring dashboards for production systems. |
-| **Cloud Infrastructure Security Enhancements** | Strengthened cloud security by automating IAM cleanup, firewall policies, secrets management, and zero-trust practices across **GCP** and **Kubernetes**. |
+| **Infra Provision System Automation** | **50% faster deployments** • Automated provisioning, backups, and IAM using Terraform, Python, Jenkins, GitLab CI • Improved data resilience |
+| **Nexus POS Infrastructure** | **High-availability retail operations** • Designed HA infrastructure, Grafana/Prometheus monitoring, WAF security • Zero-downtime deployments |
+| **Monitoring & Alerting Automation** | **76% MTTR reduction** (30min → 7min) • Migrated legacy alerting to Grafana Alerts • Proactive dashboards for production systems |
+| **Cloud Security Enhancements** | **Zero-trust implementation** • Automated IAM cleanup, firewall policies, secrets management • Security across GCP and Kubernetes |
 
-🌐 See all projects on [my portfolio site](https://thisiskushal31.github.io/#/projects#featured-projects).
+👉 **[View detailed case studies →](https://thisiskushal31.github.io/#/projects#featured-projects)**
 
 ---
 
-### 🛠️ Experimental Projects & Tools
+### 📃 Certifications & Continuous Learning
 
-| Project | Description |
+- ✅ [**Google Cloud Associate Cloud Engineer**](https://www.credly.com/badges/7af9ebab-6364-42a3-b1b8-200fb56b101a/public_url)
+- 🎯 Preparing for **Google Cloud Professional Cloud Architect**
+
+---
+
+### 📝 Technical Writing & Insights
+
+*Sharing knowledge through deep dives, tutorials, and engineering insights:*
+
+- **📖 [Personal Blog](https://thisiskushal31.github.io/blog)** — Latest articles on cloud-native engineering, DevOps patterns, and AI integration • *Updated most often*
+- **🌐 [Hashnode](https://thisiskushal.hashnode.dev/)** — Cross-posts and select tech articles on cloud, DevOps, and AI
+- **✍️ [Medium](https://thisiskushalgupta.medium.com/)** — Tech stories and occasional non-tech rambles
+
+---
+
+### 🛠️ Open Source & Side Projects
+
+*Tools and templates you can use today:*
+
+| Project | What It Does |
 | :--- | :--- |
-| [Agility](https://github.com/thisiskushal31/Agility) | Task management app built with **React** and **MongoDB** to organize work and life efficiently. |
-| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Real-time chat app powered by **Node.js**, **Socket.io**, **Express**, and **React**. |
-| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | JSON viewer with secure session management via **Redis**, **MongoDB**, and **Docker**. |
-| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | Chrome extension to save active tabs for later reading and organization. |
-| [Modern React Portfolio Starter](https://github.com/thisiskushal31/modern-react-portfolio-starter) | A customizable **React** starter template for modern portfolio websites, supporting Markdown and responsive design. |
-| [Configurable React Bio Link Starter](https://github.com/thisiskushal31/configurable-react-bio-link-starter) | A customizable **React** starter template for modern linktree style bio links websites with responsive design. |
-| [Configurable React Blog Starter](https://github.com/thisiskushal31/configurable-react-blog-starter) | A customizable **React** starter template for modern blogs, supporting Markdown and responsive design. |
+| [Agility](https://github.com/thisiskushal31/Agility) | Task management app (React + MongoDB) for organizing work and life |
+| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Real-time chat app (Node.js + Socket.io + React) |
+| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | Secure JSON viewer with Redis + MongoDB session management |
+| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | Save active tabs for later reading and organization |
+| [Modern React Portfolio Starter](https://github.com/thisiskushal31/modern-react-portfolio-starter) | Customizable React portfolio template with Markdown support |
+| [Configurable React Bio Link Starter](https://github.com/thisiskushal31/configurable-react-bio-link-starter) | Linktree-style bio links template with responsive design |
+| [Configurable React Blog Starter](https://github.com/thisiskushal31/configurable-react-blog-starter) | Modern blog template with Markdown and responsive design |
 
 ---
 
-### 📚 Documentation & Learning Resources
+### 📚 Learning Resources & Documentation
 
-I enjoy documenting and sharing my learning journey — here are some of my knowledge repositories:
+*Comprehensive guides I've curated to help others learn:*
 
-| Repository | Description |
+| Repository | What's Inside |
 | :--- | :--- |
-| [Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | My notes and solved problems on DSA concepts. |
-| [Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | Notes from Google Cloud Qwiklabs for certification preparation. |
-| [Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Useful terminal commands and infrastructure tool references I often revisit. |
+| [🔢 Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | DSA notes and solved problems from basic to advanced |
+| [📋 Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Essential commands and tool references |
+| [📦 Containerization Deep Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Containerization fundamentals, Docker, Kubernetes |
+| [🚀 DevOps Handbook](https://github.com/thisiskushal31/DevOps-Handbook) | DevOps methodologies, best practices, CI/CD, IaC, cloud-native architectures, observability, and security |
+| [🗄️ Databases Deep Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) | Relational, NoSQL, analytical, and managed services |
+| [🌐 Networks Deep Dive](https://github.com/thisiskushal31/Networks-Deep-Dive) | Networking from physical layers to cloud-native |
+| [🏗️ System Design Concepts](https://github.com/thisiskushal31/System-Design-Concepts) | Patterns, components, and trade-offs |
+| [☁️ Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | Google Cloud certification preparation notes |
 
 ---
 
-### 📝 Technical Blogs & Insights
+### 🤝 Let's Connect
 
-If you enjoy reading technical blogs and deep dives, here are my blogging spaces:
+**Interested in connecting?** I'm always open to:
 
-- **Personal Blog:** [thisiskushal31.github.io/blog](https://thisiskushal31.github.io/blog)  
-    Where I nerd out on tech—deep dives, tutorials, and fresh engineering ideas. Updated most often!
-- **Hashnode:** [thisiskushal.hashnode.dev](https://thisiskushal.hashnode.dev/)  
-    Occasional cross-posts and select tech articles—think cloud, DevOps, and AI.
-- **Medium:** [thisiskushalgupta.medium.com](https://thisiskushalgupta.medium.com/)  
-    A mix of tech stories and the occasional non-tech ramble—something for everyone.
+- 💼 **Job opportunities** in DevOps, Platform Engineering, or Cloud-Native roles
+- 🚀 **Technical collaboration** on infrastructure, automation, and platform engineering projects
+- 🌟 **Open source contributions** and community collaboration
+- 💡 **Technical discussions** on cloud architecture, security, or system design
+- 📚 **Knowledge sharing** and mentoring opportunities
 
----
+**Get in touch:**
 
-### 🤝 Let’s Connect & Collaborate!
+- 💼 [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/) — Professional updates and networking
+- 🐦 [X (Twitter)](https://x.com/thisis_kushal) — Quick thoughts and tech discussions
+- 📧 [Email](mailto:guptakushal070@gmail.com) — Technical collaboration and discussions
 
-I'm always open to connecting with fellow developers, cloud enthusiasts, and problem-solvers!  
-Whether it's collaborating on a project, discussing technology, or sharing ideas—feel free to reach out:
-
-- [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/)
-- [X (Twitter)](https://x.com/thisis_kushal)
-- [Email](mailto:guptakushal070@gmail.com)
-
-🌐 Visit my website: [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) | [Bio Links](https://thisiskushal31.github.io/link/)
+🌐 **More ways to connect:** [Portfolio](https://thisiskushal31.github.io/#/) | [Bio Links](https://thisiskushal31.github.io/link/)
 
 ---
 
