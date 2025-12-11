@@ -109,7 +109,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 | [🔢 Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | DSA notes and solved problems from basic to advanced |
 | [📋 Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Essential commands and tool references |
 | [📦 Containerization Deep Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Containerization fundamentals, Docker, Kubernetes |
-| [🚀 DevOps Handbook](https://github.com/thisiskushal31/DevOps-Handbook) | CI/CD, IaC, cloud-native, observability, and security best practices |
+| [🚀 DevOps Handbook](https://github.com/thisiskushal31/DevOps-Handbook) | DevOps methodologies, best practices, CI/CD, IaC, cloud-native architectures, observability, and security |
 | [🗄️ Databases Deep Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) | Relational, NoSQL, analytical, and managed services |
 | [🌐 Networks Deep Dive](https://github.com/thisiskushal31/Networks-Deep-Dive) | Networking from physical layers to cloud-native |
 | [🏗️ System Design Concepts](https://github.com/thisiskushal31/System-Design-Concepts) | Patterns, components, and trade-offs |
