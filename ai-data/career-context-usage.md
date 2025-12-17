@@ -1,7 +1,5 @@
 # Career Context Usage Guide
 
-**GitHub URL:** https://github.com/thisiskushal31/thisiskushal31/blob/main/ai-data/career-context-usage.md
-
 Quick reference for using `career-context.md` with AI prompts for various career-related tasks.
 
 ---
