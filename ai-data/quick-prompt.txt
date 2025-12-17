@@ -1,0 +1,38 @@
+I need to generate a cold email/referral request. Here's my complete career context and the job information:
+
+=== MY CAREER CONTEXT ===
+[PASTE ENTIRE CONTENTS OF career-context.md HERE]
+
+=== JOB INFORMATION ===
+Company Website/LinkedIn: [PASTE HERE]
+Job Role: [PASTE HERE]
+Job Description: [PASTE HERE]
+
+=== TASK ===
+Generate the following in one response:
+
+1. **COLD EMAIL/REFERRAL REQUEST** (under 150 words):
+   - Subject line (max 50 chars)
+   - Personalized opening
+   - 3-4 value propositions with quantifiable achievements
+   - Show genuine excitement
+   - Clear, actionable ask
+   - Professional closing
+
+2. **CV UPDATE SUGGESTIONS**:
+   - Specific sections to emphasize
+   - Keywords to add
+   - Projects/achievements to highlight
+   - Skills to move up
+   - Quantifiable metrics to include
+
+3. **PUBLIC PROFILE UPDATE SUGGESTIONS**:
+   - LinkedIn headline optimization
+   - LinkedIn summary updates
+   - Skills to add/prioritize
+   - GitHub profile updates
+   - Portfolio website updates
+   - Any missing keywords
+
+Make it specific, value-driven, and actionable.
+
