@@ -1,7 +1,5 @@
 # Career Context - Kushal Gupta
 
-**GitHub Raw URL:** https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
-
 **Purpose:** This document consolidates all career information, achievements, skills, and projects to be used as context for:
 - Generating value-driven cold emails
 - Finding and matching job opportunities
@@ -20,8 +18,7 @@
 **Name:** Kushal Gupta  
 **Location:** Mumbai, India  
 **Timezone:** IST (UTC+5:30)  
-**Email:** guptakushal070@gmail.com  
-**Phone:** +91-9330437846
+**Email:** guptakushal070@gmail.com
 
 **Professional Title:** Software Engineer | Platform Engineering · DevOps · Cloud Infrastructure · Cloud-Native Software Development
 
