@@ -1,7 +1,5 @@
 # Quick Email Generator - Mobile-Friendly
 
-**GitHub URL:** https://github.com/thisiskushal31/thisiskushal31/blob/main/ai-data/quick-email-generator.md
-
 **Use this when you don't have your laptop** - Just copy-paste this prompt with 3 prerequisites.
 
 > **💡 Even Faster:** Use `quick-prompt.txt` - it's a standalone file you can copy directly without any formatting!

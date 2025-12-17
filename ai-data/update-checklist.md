@@ -1,7 +1,5 @@
 # Career Context Update Checklist
 
-**GitHub URL:** https://github.com/thisiskushal31/thisiskushal31/blob/main/ai-data/update-checklist.md
-
 **When to update:** Weekly or after major milestones
 
 ---

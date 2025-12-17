@@ -1,7 +1,5 @@
 # Cold Email Generator - Value-Driven Prompt System
 
-**GitHub URL:** https://github.com/thisiskushal31/thisiskushal31/blob/main/ai-data/cold-email-generator.md
-
 A recursive prompt system to generate short, crisp, and value-driven cold emails that demonstrate excitement and clear value proposition.
 
 > **📌 Important:** Before using these prompts, load the comprehensive career context from `../career-context.md` which contains all your professional information, achievements, skills, projects, and metrics. This will ensure your emails are accurate and value-driven.
