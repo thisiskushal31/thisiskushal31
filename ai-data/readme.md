@@ -1,7 +1,7 @@
 # 🚀 START HERE - Quick Reference
 
 
-**GitHub Raw URL:** https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/readme.md
+**GitHub URL.*readme.md
 
 **Mobile-friendly system for generating cold emails, CV suggestions, and profile updates on the go.**
 
