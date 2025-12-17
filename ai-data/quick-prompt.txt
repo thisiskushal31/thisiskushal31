@@ -1,7 +1,10 @@
+GitHub URL: https://github.com/thisiskushal31/thisiskushal31/blob/main/ai-data/quick-prompt.txt
+
 I need to generate a cold email/referral request. Here's my complete career context and the job information:
 
 === MY CAREER CONTEXT ===
-[PASTE ENTIRE CONTENTS OF career-context.md HERE]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 === JOB INFORMATION ===
 Company Website/LinkedIn: [PASTE HERE]
