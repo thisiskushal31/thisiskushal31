@@ -1,5 +1,7 @@
 # Cold Email Generator - Value-Driven Prompt System
 
+**GitHub URL:** https://github.com/thisiskushal31/thisiskushal31/blob/main/ai-data/cold-email-generator.md
+
 A recursive prompt system to generate short, crisp, and value-driven cold emails that demonstrate excitement and clear value proposition.
 
 > **📌 Important:** Before using these prompts, load the comprehensive career context from `../career-context.md` which contains all your professional information, achievements, skills, projects, and metrics. This will ensure your emails are accurate and value-driven.
@@ -16,7 +18,8 @@ A recursive prompt system to generate short, crisp, and value-driven cold emails
 I need to craft a value-driven cold email. I've provided my complete career context below. Please use it along with the following information:
 
 **My Career Context:**
-[PASTE CONTENTS FROM ../career-context.md HERE]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 **Stage 1 - Additional Information Needed:**
 
@@ -53,7 +56,8 @@ Once you have all this information, I'll move to Stage 2 to generate the persona
 Based on the following information, generate a short, crisp, value-driven cold email:
 
 **My Complete Career Context:**
-[PASTE CONTENTS FROM ../career-context.md HERE - OR reference it if already loaded]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 **Job Description:**
 [PASTE JD HERE]

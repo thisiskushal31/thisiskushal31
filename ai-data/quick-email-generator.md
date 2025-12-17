@@ -1,5 +1,7 @@
 # Quick Email Generator - Mobile-Friendly
 
+**GitHub URL:** https://github.com/thisiskushal31/thisiskushal31/blob/main/ai-data/quick-email-generator.md
+
 **Use this when you don't have your laptop** - Just copy-paste this prompt with 3 prerequisites.
 
 > **💡 Even Faster:** Use `quick-prompt.txt` - it's a standalone file you can copy directly without any formatting!
@@ -14,7 +16,8 @@ Copy this entire prompt and fill in the 3 prerequisites:
 I need to generate a cold email/referral request. Here's my complete career context and the job information:
 
 === MY CAREER CONTEXT ===
-[PASTE ENTIRE CONTENTS OF career-context.md HERE]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 === JOB INFORMATION ===
 Company Website/LinkedIn: [PASTE HERE]
@@ -56,24 +59,23 @@ Make it specific, value-driven, and actionable.
 
 ### Option 1: Using quick-prompt.txt (Fastest)
 1. **Open** `quick-prompt.txt` on your phone
-2. **Copy** entire file
-3. **Open** `career-context.md`
-4. **Copy** entire document
-5. **Paste both** into your AI tool
-6. **Fill in** the 3 prerequisites
-7. **Get** results!
-
-### Option 2: Using This File
-1. **Open** `career-context.md` on your phone
-2. **Copy** entire document
-3. **Open** this file (`quick-email-generator.md`)
-4. **Copy** the prompt template above
-5. **Paste** into your AI tool (ChatGPT, Claude, etc.)
-6. **Fill in** the 3 prerequisites:
+2. **Copy** entire file (career context URL is already included - constant, never changes)
+3. **Paste** prompt into your AI tool
+4. **Fill in** the 3 prerequisites:
    - Company Website/LinkedIn
    - Job Role
    - Job Description
-7. **Get** email + CV suggestions + profile suggestions in one response
+5. **Get** results!
+
+### Option 2: Using This File
+1. **Open** this file (`quick-email-generator.md`)
+2. **Copy** the prompt template above (career context URL is already included)
+3. **Paste** into your AI tool (ChatGPT, Claude, etc.)
+4. **Fill in** the 3 prerequisites:
+   - Company Website/LinkedIn
+   - Job Role
+   - Job Description
+5. **Get** email + CV suggestions + profile suggestions in one response
 
 ---
 
@@ -84,6 +86,8 @@ Before generating, make sure you have:
 - [ ] **Company Website & LinkedIn** - Research the company
 - [ ] **Job Role** - Exact job title
 - [ ] **Job Description** - Full JD text
+
+**Note:** Career context URL is already included in the prompt (constant, never changes).
 
 That's it! Just 3 things needed.
 

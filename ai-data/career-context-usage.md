@@ -1,5 +1,7 @@
 # Career Context Usage Guide
 
+**GitHub URL:** https://github.com/thisiskushal31/thisiskushal31/blob/main/ai-data/career-context-usage.md
+
 Quick reference for using `career-context.md` with AI prompts for various career-related tasks.
 
 ---
@@ -12,7 +14,8 @@ Quick reference for using `career-context.md` with AI prompts for various career
 ```
 I need to write a value-driven cold email. Here's my complete career context:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 And here's the job/opportunity information:
 - Company: [COMPANY_NAME]
@@ -38,7 +41,8 @@ Generate a short, crisp cold email (under 150 words) that:
 ```
 Based on my career context below, help me find and match job opportunities:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 Criteria:
 - Target roles: Platform Engineer, DevOps Engineer, Cloud Engineer, SRE
@@ -62,7 +66,8 @@ Analyze job postings and identify:
 ```
 I need to optimize my resume/CV keywords for ATS systems. Here's my career context:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 And here's a job description:
 [JOB_DESCRIPTION]
@@ -85,7 +90,8 @@ Create a keyword-optimized version of my experience section.
 ```
 I need to customize my resume for this specific job. Here's my complete career context:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 Job Description:
 [JOB_DESCRIPTION]
@@ -111,7 +117,8 @@ Generate a customized resume section for this role.
 ```
 I'm applying to [COMPANY_NAME]. Here's my career context:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 Company Information:
 - Industry: [INDUSTRY]
@@ -136,7 +143,8 @@ Customize my application by:
 ```
 Optimize my LinkedIn profile. Here's my career context:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 Current LinkedIn: [LINKEDIN_URL]
 
@@ -157,7 +165,8 @@ Generate:
 ```
 I have an interview for [ROLE] at [COMPANY]. Here's my career context:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 Job Description: [JD]
 
@@ -178,7 +187,8 @@ Prepare me by:
 ```
 I'm negotiating salary for [ROLE] at [COMPANY]. Here's my career context:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 Offer Details:
 - Base Salary: [AMOUNT]
@@ -201,7 +211,8 @@ Help me:
 ```
 Analyze skill gaps for my target role. Here's my career context:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 Target Role: [ROLE_TITLE]
 Job Description: [JD]
@@ -223,7 +234,8 @@ Identify:
 ```
 I want to connect with [PERSON_NAME] at [COMPANY]. Here's my career context:
 
-[PASTE CONTENTS FROM career-context.md]
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+(Please fetch and read the content from this URL)
 
 Their Profile: [LINKEDIN_PROFILE or INFO]
 
