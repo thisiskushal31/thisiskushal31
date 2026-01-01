@@ -1,0 +1,124 @@
+---
+# Security Improvement Initiative - Multi-Layer Security Architecture Diagram
+# Reference: See architecture details in architecture.md
+# This Mermaid diagram provides a representation of the 5-layer security architecture
+# Based on actual security implementation: Network Security, IAM, Application Security,
+# Data Security, and Monitoring & Compliance layers
+---
+
+flowchart TB
+    subgraph Layer1["Layer 1: Network Security"]
+        WAF[Reblaze WAF<br/>Web Application Firewall]
+        VPC[VPC Segmentation<br/>Network Isolation]
+        Firewall[Firewall Rules<br/>Ports 80/443 Only]
+        GeoBlock[Geo-blocking<br/>Restrict Access]
+        RateLimit[Rate Limiting<br/>Prevent Abuse]
+        BotProtect[Bot Protection<br/>Detect & Block Bots]
+        WAF --> VPC
+        VPC --> Firewall
+        Firewall --> GeoBlock
+        GeoBlock --> RateLimit
+        RateLimit --> BotProtect
+    end
+    
+    subgraph Layer2["Layer 2: Identity & Access Management"]
+        K8sRBAC[Kubernetes RBAC<br/>Role-Based Access Control]
+        SecureBoot[Secure Boot<br/>Enhanced Security]
+        IAMMin[Automated IAM Minimization<br/>Python Scripts]
+        SSO[Single Sign-On<br/>SSO Authentication]
+        IPWhitelist[IP Whitelisting<br/>Authorized IPs Only]
+        ServiceAcct[Service Account Auth<br/>Inter-Service Communication]
+        OAuth[OAuth Keys Management<br/>API Authentication]
+        K8sRBAC --> SecureBoot
+        SecureBoot --> IAMMin
+        IAMMin --> SSO
+        SSO --> IPWhitelist
+        IPWhitelist --> ServiceAcct
+        ServiceAcct --> OAuth
+    end
+    
+    subgraph Layer3["Layer 3: Application Security"]
+        Trivy[Trivy Container Scanning<br/>GitLab CI Integration]
+        SecretsMgr[Secrets Manager<br/>GCP Secrets Manager]
+        ContainerSec[Container Hardening<br/>Zero-Trust Architecture]
+        DevSecOps[DevSecOps Principles<br/>Security in CI/CD]
+        Trivy --> SecretsMgr
+        SecretsMgr --> ContainerSec
+        ContainerSec --> DevSecOps
+    end
+    
+    subgraph Layer4["Layer 4: Data Security"]
+        EncryptTransit[Encryption in Transit<br/>TLS/SSL]
+        EncryptRest[Encryption at Rest<br/>Cloud SQL & Storage]
+        DBProxy[Cloud SQL Proxy<br/>Secure DB Connections]
+        DPDP[DPDP Compliance<br/>Data Protection Act]
+        SSLCerts[SSL/TLS Certificates<br/>Self-Managed]
+        EncryptTransit --> EncryptRest
+        EncryptRest --> DBProxy
+        DBProxy --> DPDP
+        DPDP --> SSLCerts
+    end
+    
+    subgraph Layer5["Layer 5: Monitoring & Compliance"]
+        SecMonitor[Security Monitoring<br/>Prometheus, Grafana, Stackdriver]
+        SecAudit[Security Audits<br/>Regular Assessments]
+        IncidentResp[Incident Response<br/>MTTR: 30min → 7min]
+        ComplianceTrack[Compliance Tracking<br/>DPDP, ISO, NIST, CIS, OWASP]
+        SecMonitor --> SecAudit
+        SecAudit --> IncidentResp
+        IncidentResp --> ComplianceTrack
+    end
+    
+    subgraph Compliance["Compliance Standards"]
+        DPDP[DPDP Compliance<br/>Digital Personal Data Protection Act 2023]
+        ISO27001[ISO 27001 Alignment<br/>Information Security Management]
+        ISO27018[ISO 27018 Alignment<br/>Cloud Privacy - PII Protection]
+        ISO27017[ISO 27017 Alignment<br/>Cloud Security]
+        ISO27002[ISO 27002 Alignment<br/>Security Controls Guidelines]
+        NIST[NIST Framework<br/>Identify, Protect, Detect, Respond, Recover]
+        CIS[CIS Benchmarks<br/>Cloud & Container Security]
+        OWASP[OWASP Guidelines<br/>Web Application Security]
+        DPDP --> ISO27001
+        ISO27001 --> ISO27018
+        ISO27018 --> ISO27017
+        ISO27017 --> ISO27002
+        ISO27002 --> NIST
+        NIST --> CIS
+        CIS --> OWASP
+    end
+    
+    subgraph Infrastructure["Infrastructure Coverage"]
+        K8sDeploy[125+ K8s Deployments<br/>Secured]
+        ComputeInst[300+ Compute Instances<br/>Hardened]
+        Environments[4 Environments<br/>DEV, SIT, UAT, PROD]
+        Platforms[3 Production Platforms<br/>purplle.com, nexus, adtech]
+    end
+    
+    Layer1 --> Layer2
+    Layer2 --> Layer3
+    Layer3 --> Layer4
+    Layer4 --> Layer5
+    
+    Layer1 --> Infrastructure
+    Layer2 --> Infrastructure
+    Layer3 --> Infrastructure
+    Layer4 --> Infrastructure
+    Layer5 --> Infrastructure
+    
+    Layer5 --> Compliance
+    Compliance --> Layer1
+    Compliance --> Layer2
+    Compliance --> Layer3
+    Compliance --> Layer4
+    
+    External[External Traffic] --> Layer1
+    Layer5 --> Internal[Secure Internal Services]
+    
+    style Layer1 fill:#e1f5ff
+    style Layer2 fill:#fff4e1
+    style Layer3 fill:#e8f5e9
+    style Layer4 fill:#fce4ec
+    style Layer5 fill:#f3e5f5
+    style Infrastructure fill:#fff9c4
+    style Compliance fill:#e8eaf6
+
