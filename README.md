@@ -24,16 +24,18 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 **Production Systems & Infrastructure:**
 
-- **Production Metrics:** 50% faster deployments, 76% MTTR reduction, zero-trust security implementations
-- **Cloud Infrastructure:** Real-world experience with GCP/AWS, automation, and platform engineering
+- **Production Metrics:** 40%+ faster deployments, 76% MTTR reduction (30min → 7min), 30% cloud cost reduction, 99%+ uptime
+- **Cloud Infrastructure:** Real-world experience with GCP/AWS, GKE, automation, and platform engineering
 - **Infrastructure Engineering:** Transform complexity into reliable, maintainable systems through IaC and automation
-- **Security-First Approach:** Zero-trust patterns, automated compliance, and proactive threat mitigation
+- **Security-First Approach:** Zero-trust patterns, automated compliance, Kubernetes RBAC, Trivy scanning, and proactive threat mitigation
+- **AI-Powered Automation:** Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python
 - **Documentation & Knowledge Sharing:** Clear docs, runbooks, and knowledge transfer
 
 **Technical Approach:**
 
-- **Full-Stack Infrastructure:** Architecture design, IaC (Terraform), CI/CD pipelines, observability (Prometheus/Grafana), and security hardening
-- **Production-Grade Patterns:** Zero-trust networking, automated IAM policies, secrets management, and infrastructure-as-code best practices
+- **Full-Stack Infrastructure:** Architecture design, IaC (Terraform, Ansible), CI/CD pipelines (Jenkins, GitLab CI, GitHub CI), observability (Prometheus/Grafana), and security hardening
+- **Production-Grade Patterns:** Zero-trust networking, automated IAM policies, secrets management, Kubernetes RBAC, and infrastructure-as-code best practices
+- **Kubernetes Expertise:** Managed 100+ Kubernetes deployments on GKE, ensuring production reliability and scalability
 - **Open to Collaboration:** Available for technical projects involving cloud infrastructure, automation, and platform engineering
 
 ---
@@ -42,13 +44,12 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 *Technologies I work with daily to build and operate production systems:*
 
-- **Languages:** C/C++, Python, JavaScript, Bash/Shell
-- **Cloud Platforms:** Google Cloud Platform (GCP), Amazon Web Services (AWS)
-- **DevOps & Automation:** Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, GitLab CI, GitOps
-- **Security & Monitoring:** Prometheus, Grafana, Secrets Management, IAM, Cloud Infrastructure Security
-- **Backend & Web:** React.js, Node.js, Express.js, Spring Boot, REST APIs, Microservices
-- **Databases:** MySQL, MongoDB, Redis, Elasticsearch
-- **Computer Science:** Data Structures, Algorithms, System Design, Networking, Operating Systems
+- **Languages & Scripting:** Python, Bash/Shell, JavaScript, C/C++
+- **Cloud & Infrastructure:** Google Cloud Platform (GCP), Amazon Web Services (AWS), Google Kubernetes Engine (GKE), GCR, GCS, Compute Engine, Cloud SQL, Load Balancer, VPC, WAF, Docker, Kubernetes
+- **CI/CD & Automation:** Git, Jenkins, GitLab CI, GitHub CI, GitOps workflows, n8n, Ansible, Terraform
+- **Monitoring, Databases & Messaging:** Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Redis, Kafka
+- **Security & Operations:** Secrets Manager, SSO, IAM, Zero-Trust Architecture, Defense-in-Depth, Trivy, Incident Response
+- **Fundamentals:** Data Structures, Algorithms, System Design, Networking, Operating Systems
 
 ---
 
@@ -58,10 +59,11 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 | Project | Impact & Technologies |
 | :--- | :--- |
-| **Infra Provision System Automation** | **50% faster deployments** • Automated provisioning, backups, and IAM using Terraform, Python, Jenkins, GitLab CI • Improved data resilience |
-| **Nexus POS Infrastructure** | **High-availability retail operations** • Designed HA infrastructure, Grafana/Prometheus monitoring, WAF security • Zero-downtime deployments |
-| **Monitoring & Alerting Automation** | **76% MTTR reduction** (30min → 7min) • Migrated legacy alerting to Grafana Alerts • Proactive dashboards for production systems |
-| **Cloud Security Enhancements** | **Zero-trust implementation** • Automated IAM cleanup, firewall policies, secrets management • Security across GCP and Kubernetes |
+| **Infra Provision System Automation** | **40%+ faster deployments** • Automated provisioning, backups, and IAM using Terraform, Python, Jenkins, GitLab CI • Improved data resilience for MySQL, MongoDB, Elasticsearch |
+| **Nexus POS Infrastructure** | **99%+ uptime across retail stores** • Deployed HA infrastructure using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) • Grafana/Prometheus monitoring • Zero-downtime deployments |
+| **Elasticsearch Cluster Management** | **AI-powered automation** • Built agentic AI automation using n8n, Terraform, Ansible, and Python • Streamlined cluster provisioning and management |
+| **Monitoring & Alerting Automation** | **76% MTTR reduction** (30min → 7min) • Unified observability stack (Prometheus, Grafana) with automated escalation • Proactive dashboards for production systems |
+| **Cloud Security Enhancements** | **Zero-trust implementation** • Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning, Secrets Manager, SSO • Security across GCP and Kubernetes |
 
 👉 **[View detailed case studies →](https://thisiskushal31.github.io/#/projects#featured-projects)**
 

@@ -41,43 +41,47 @@ Experienced Software Engineer specializing in Platform Engineering, DevOps, and 
 
 ## 💼 Work Experience
 
-### DevOps Engineer (Associate, SDE-1) | Purplle.com
+### SDE1 - DevOps | Purplle.com
 **Location:** Mumbai, Maharashtra, India  
-**Period:** June 2023 - Present  
+**Period:** May 2024 - Present  
 **Type:** Hybrid
 
 **Role Description:**
-Led automation, cost optimization, CI/CD, and cloud infrastructure initiatives to boost uptime, security, and scalability at Purplle.com.
+Leading high-availability infrastructure deployments, automation, and observability initiatives to ensure 99%+ uptime and optimize cloud operations at Purplle.com.
 
 **Key Achievements:**
-- Automated 40%+ of infrastructure provisioning using Terraform, Jenkins, and GitOps pipelines, accelerating deployment speed and reducing manual tasks
-- Achieved and sustained 99%+ service uptime by managing production infrastructure, ensuring availability during high-traffic sales events
-- Reduced cloud costs by 40-50% on GCP and AWS through autoscaling, rightsizing, resource cleanup, and usage audits
-- Decreased incident response time (MTTR) from 30 minutes to 7 minutes by implementing on-call alerting systems with Prometheus and Grafana
-- Designed and deployed disaster recovery and backup solutions for critical databases and services using Python and automation scripts, enhancing resilience and data integrity
-- Led infrastructure deployment for Nexus POS (in-house retail POS) and Hypertest (third-party QA testing tool), ensuring reliable operations and smooth handover to DevOps and development teams
-- Collaborated cross-functionally to diagnose and resolve production issues, improving overall system reliability and incident resolution workflows
+- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC)
+- Engineered DR solutions and automated backups for MySQL, MongoDB, and Elasticsearch, ensuring data resilience and integrity
+- Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining provisioning
+- Managed 100+ Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring production reliability and scalability
+- Accelerated infrastructure delivery by 40%+ through CI/CD automation (Terraform, Jenkins, GitOps), automating 40%+ of provisioning tasks
+- Modernized CI/CD by migrating Jenkins from freestyle to scripted pipelines with Slack alerts, reducing incident response time
+- Reduced MTTR from 30 to 7 minutes by architecting unified observability stack (Prometheus, Grafana) with automated escalation
+- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup
+- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
 
 **Technologies Used:**
-GCP, AWS, Terraform, Jenkins, GitOps, Python, CI/CD, Prometheus, Grafana, Container Orchestration
+GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/CD, Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Trivy, GitLab CI, Secrets Manager, SSO, IAM
 
-**Detailed Role Breakdown (from Resume):**
+### Associate Software Engineer | Purplle.com
+**Location:** Mumbai, Maharashtra, India  
+**Period:** June 2023 - May 2024  
+**Type:** Hybrid
 
-**SDE1 - DevOps (May 2024 - Present):**
-- Accelerated infrastructure delivery speed by 40%+ by collaborating on CI/CD automation using Terraform, Jenkins, and GitOps, automating over 40% of provisioning tasks
-- Enabled offline retail operations by independently deploying and securing the infrastructure for Purplle's custom-built POS application, Nexus, across all offline stores, delivering ahead of schedule
-- Ensured consistent 99%+ service availability during peak load by managing critical production infrastructure
-- Improved cost efficiency by optimising GCP and AWS usage through autoscaling, usage audits, and resource cleanup
-- Boosted system reliability by collaborating with the cross-functional team to troubleshoot and resolve infrastructure issues
+**Role Description:**
+Focused on cloud cost optimization, disaster recovery, and security enhancements to improve operational efficiency and system resilience.
 
-**Associate Software Engineer - DevOps (June 2023 - May 2024):**
-- Achieved 30% cloud cost savings by rightsizing infrastructure and cleaning up unused resources
+**Key Achievements:**
+- Achieved 40–50% cost savings by performing cloud infrastructure rightsizing and cleaning up unused resources, resulting in optimized cloud spend
 - Improved system resilience by designing and implementing backup and disaster recovery solutions, with multiple PoCs promoted to production
 - Enhanced operational efficiency by deploying an on-call alerting system, reducing mean incident response time from 30 to 7 minutes
-- Accelerated QA velocity by independently deploying Hypertest (a third-party QA tool) infrastructure ahead of schedule, serving as the sole POC for the entire deployment
-- Strengthened cloud security posture by leading initiatives in IAM role minimisation, Secure Boot, and automated cleanup of public IPs and service accounts, improving compliance and reducing attack surface
+- Enabled QA velocity by deploying Hypertest (A Third Party Testing Tool) infrastructure, delivering it ahead of schedule and handing over to the dev team
+- Strengthened cloud security posture by leading initiatives in IAM role minimization, Secure Boot, and automated cleanup of public IPs and service accounts — resulting in improved compliance and reduced attack surface
 
-### DevOps Engineer - Intern | Purplle.com
+**Technologies Used:**
+GCP, AWS, Terraform, Python, Prometheus, Grafana, Kubernetes, CI/CD
+
+### DevOps Intern | Purplle.com
 **Location:** Mumbai, Maharashtra, India  
 **Period:** January 2023 - June 2023  
 **Type:** Remote
@@ -86,15 +90,11 @@ GCP, AWS, Terraform, Jenkins, GitOps, Python, CI/CD, Prometheus, Grafana, Contai
 Built and deployed monitoring systems for cloud infrastructure to improve uptime and system reliability.
 
 **Key Achievements:**
-- Implemented monitoring and alerting stack using Prometheus and Grafana, achieving >98% uptime and enabling faster incident response
-- Collaborated with DevOps and platform teams to troubleshoot high-impact production issues, improving platform stability and observability
+- Achieved >98% uptime by deploying a robust monitoring and alerting system using Prometheus and Grafana, resulting in faster detection and resolution of issues
+- Improved platform reliability by collaborating across teams to resolve high-impact issues in production infrastructure
 
 **Technologies Used:**
 Prometheus, Grafana, GCP
-
-**Detailed Achievement (from Resume):**
-- Achieved >98% uptime and faster issue resolution by deploying a robust, unified monitoring and alerting system using Prometheus and Grafana, which included migrating and consolidating 100% of fragmented legacy systems into a single Grafana instance with custom dashboards
-- Improved platform reliability by collaborating with the cross-functional team to resolve high-impact production infrastructure issues
 
 ---
 
@@ -120,37 +120,35 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 
 ## 🛠️ Technical Skills
 
-### Cloud Platforms
-- Google Cloud Platform (GCP) - Production experience
-- Amazon Web Services (AWS) - Production experience
-
-### DevOps & Automation
-- **Infrastructure as Code:** Terraform, OpenTofu, GitOps
-- **Containerization:** Docker, Kubernetes, Helm, ArgoCD
-- **CI/CD:** GitHub Actions, Jenkins, GitLab CI
-- **Orchestration:** Kubernetes, Container Orchestration
-
-### Programming & Scripting Languages
-- **Primary:** Python, C/C++, JavaScript, Bash/Shell
+### Languages & Scripting
+- **Primary:** Python, Bash/Shell, JavaScript, C/C++
 - **Familiar:** Go (for Kubernetes operators), TypeScript
 
-### Software Development
-- **Frontend:** React.js, React 19+
-- **Backend:** Node.js, Express.js, REST APIs
-- **Architecture:** Microservices, Cloud-Native Applications
+### Cloud & Infrastructure
+- **Cloud Platforms:** Google Cloud Platform (GCP), Amazon Web Services (AWS) - Production experience
+- **GCP Services:** Google Kubernetes Engine (GKE), GCR, GCS, Compute Engine, Cloud SQL, Load Balancer, VPC, WAF
+- **Containerization:** Docker, Kubernetes
+- **Orchestration:** Kubernetes, Container Orchestration
 
-### Security & Monitoring
+### CI/CD & Automation
+- **Version Control:** Git
+- **CI/CD:** Jenkins, GitLab CI, GitHub CI, GitOps workflows
+- **Automation:** n8n, Ansible, Terraform
+- **Infrastructure as Code:** Terraform, GitOps
+
+### Monitoring, Databases & Messaging
 - **Monitoring:** Prometheus, Grafana
-- **Security:** Secrets Management, IAM & Security Policies, Cloud Infrastructure Security Practices
-- **Compliance:** Zero-trust security principles, Automated compliance
+- **Relational Databases:** MySQL
+- **NoSQL Databases:** MongoDB, Elasticsearch, Redis
+- **Messaging:** Kafka
 
-### Databases & Messaging
-- **Relational:** MySQL
-- **NoSQL:** MongoDB, Redis, Elasticsearch
+### Security & Operations
+- **Security Tools:** Secrets Manager, SSO, IAM, Trivy
+- **Security Practices:** Zero-Trust Architecture, Defense-in-Depth, Incident Response
+- **Compliance:** Automated compliance, Security hardening
 
-### Computer Science Fundamentals
+### Fundamentals
 - Data Structures, Algorithms, System Design, Networking, Operating Systems
-- Object-Oriented Programming (OOP), Concurrency, Scalability
 
 ---
 
@@ -167,29 +165,31 @@ Automated infrastructure provisioning, backups, and role management to reduce ma
 **Key Features:**
 - Automated IAM role management using Python and CI/CD pipelines, reducing role misconfigurations and manual overhead
 - Developed backup automation for MySQL, MongoDB, Elasticsearch, and GCP VMs using Python, Bash, and cron, improving data resilience
-- Provisioned infrastructure using Terraform and GitOps workflows, reducing deployment time by 50% and improving environment consistency
+- Provisioned infrastructure using Terraform and GitOps workflows, reducing deployment time by 40%+ and improving environment consistency
 - Enabled scheduled automated backups, ensuring reliable disaster recovery processes and compliance with backup policies
 
 **Impact:**
-- 50% faster deployments
+- 40%+ faster deployments
 - Improved data resilience
 - Reduced manual overhead
 
 ### 2. Nexus - Internal Inhouse POS Application
 **Status:** Production  
 **Category:** Platform Engineering  
-**Technologies:** GCP, Grafana, Prometheus, Python, WAF, Terraform
+**Technologies:** GCP, GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC, Grafana, Prometheus, Terraform
 
 **Description:**
-Deployed and optimized resilient infrastructure for Nexus, an internal POS system, ensuring high availability and robust monitoring for retail operations at purplle.com.
+Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP services for retail operations at purplle.com.
 
 **Key Features:**
-- Designed and deployed high-availability infrastructure using Terraform and GCP services, ensuring uninterrupted retail operations
+- Deployed high-availability infrastructure across retail stores using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC)
 - Integrated monitoring and alerting with Grafana and Prometheus, enabling real-time system performance visibility
 - Implemented WAF to protect the application from common web threats, enhancing security posture
+- Maintained 99%+ uptime across all retail store deployments
 - Successfully transitioned infrastructure management to DevOps and development teams post-deployment for long-term sustainability
 
 **Impact:**
+- 99%+ uptime across retail stores
 - High-availability retail operations
 - Zero-downtime deployments
 - Secure, monitored infrastructure
@@ -216,12 +216,13 @@ Automated infrastructure monitoring and alerting to improve incident response, r
 ### 4. Cloud Infrastructure Security Enhancements
 **Status:** Production  
 **Category:** DevSecOps  
-**Technologies:** GCP, Python, Terraform, Kubernetes, Secrets Manager
+**Technologies:** GCP, Python, Terraform, Kubernetes, GKE, Secrets Manager, Trivy, GitLab CI, SSO, IAM
 
 **Description:**
 Strengthened cloud infrastructure security by automating key security controls, minimizing risks, and reducing attack surface at purplle.com.
 
 **Key Features:**
+- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
 - Automated IAM role minimization and unused service account cleanup, reducing unauthorized access risks
 - Implemented Secure Boot and automated firewall rule cleanups to harden infrastructure security
 - Deployed Secrets Manager for secure handling of sensitive data across Kubernetes (GKE), VMs, and services
@@ -232,8 +233,27 @@ Strengthened cloud infrastructure security by automating key security controls, 
 - Zero-trust implementation
 - Reduced attack surface
 - Improved compliance
+- Automated security scanning and compliance
 
-### 5. SocialSplit - Real-Time Chat Application
+### 5. Elasticsearch Cluster Management Automation
+**Status:** Production  
+**Category:** DevOps / AI Automation  
+**Technologies:** n8n, Terraform, Ansible, Python, Elasticsearch
+
+**Description:**
+Built agentic AI automation for Elasticsearch cluster management, streamlining provisioning and management processes at purplle.com.
+
+**Key Features:**
+- Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python
+- Streamlined cluster provisioning and management processes
+- Automated complex workflows for cluster operations
+
+**Impact:**
+- Streamlined provisioning processes
+- Reduced manual cluster management overhead
+- AI-powered automation for infrastructure operations
+
+### 6. SocialSplit - Real-Time Chat Application
 **Status:** Personal Project  
 **Technologies:** MongoDB, ReactJS, Socket.IO, NodeJS
 
@@ -247,17 +267,22 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 ## 📊 Key Metrics & Impact
 
 ### Production Metrics
-- **50% faster deployments** - Infrastructure automation
+- **40%+ faster deployments** - Infrastructure automation and CI/CD
 - **76% MTTR reduction** - From 30 minutes to 7 minutes
-- **99%+ service uptime** - Sustained during peak load
-- **40-50% cloud cost reduction** - Through optimization
+- **99%+ service uptime** - Sustained across retail stores and production systems
+- **30% cloud cost reduction** - Through rightsizing, autoscaling, and resource cleanup
+- **40-50% cost savings** - Achieved during Associate Software Engineer role
+- **100+ Kubernetes deployments** - Managed on GKE
 - **100% legacy system migration** - Unified monitoring
 
 ### Experience
-- **2+ years** professional experience
-- **4+ projects** deployed to production
+- **3+ years** total professional experience at Purplle.com
+- **1 year 8 months** as SDE1 - DevOps (May 2024 - Present)
+- **1 year** as Associate Software Engineer (June 2023 - May 2024)
+- **6 months** as DevOps Intern (January 2023 - June 2023)
+- **5+ projects** deployed to production
 - **2+ cloud platforms** (GCP, AWS)
-- **99.9% uptime** achieved
+- **99%+ uptime** achieved across production systems
 
 ---
 
@@ -315,17 +340,19 @@ Comprehensive documentation and learning resources across multiple repositories:
 ## 💡 Unique Value Propositions
 
 ### What Sets Me Apart
-1. **Production-Proven Impact:** Quantifiable results (50% faster deployments, 76% MTTR reduction, 40-50% cost savings)
+1. **Production-Proven Impact:** Quantifiable results (40%+ faster deployments, 76% MTTR reduction, 30% cloud cost reduction, 99%+ uptime)
 2. **Full-Stack Infrastructure Expertise:** From code to cloud, covering development, automation, and operations
-3. **Security-First Mindset:** Zero-trust implementations, automated compliance, proactive threat mitigation
-4. **Knowledge Sharing:** Active technical writer with comprehensive learning resources
-5. **Continuous Learning:** Building expertise in emerging technologies (Go, Crossplane, Kubernetes operators)
+3. **AI-Powered Automation:** Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python
+4. **Kubernetes Expertise:** Managed 100+ Kubernetes deployments on GKE, ensuring production reliability and scalability
+5. **Security-First Mindset:** Zero-trust implementations, Kubernetes RBAC, Trivy scanning, automated compliance, proactive threat mitigation
+6. **Knowledge Sharing:** Active technical writer with comprehensive learning resources
+7. **Continuous Learning:** Building expertise in emerging technologies (Go, Crossplane, Kubernetes operators)
 
 ### Key Differentiators
-- **Automation-Focused:** Reduced manual tasks by 40%+ through intelligent automation
-- **Cost-Conscious:** Achieved 40-50% cloud cost reduction through optimization
-- **Reliability-Driven:** Maintained 99%+ uptime during critical business events
-- **Security-Minded:** Implemented zero-trust principles and automated security controls
+- **Automation-Focused:** Reduced manual tasks by 40%+ through intelligent automation and AI-powered workflows
+- **Cost-Conscious:** Achieved 30% cloud cost reduction (SDE1 role) and 40-50% cost savings (Associate role) through optimization
+- **Reliability-Driven:** Maintained 99%+ uptime across retail stores and production systems
+- **Security-Minded:** Implemented zero-trust principles, Kubernetes RBAC, Trivy scanning, and automated security controls
 - **Documentation-Oriented:** Clear docs, runbooks, and knowledge transfer
 
 ---
@@ -380,11 +407,12 @@ Comprehensive documentation and learning resources across multiple repositories:
 ### For Cold Email Generation
 ```
 Use this career context to generate value-driven cold emails. Focus on:
-- Quantifiable achievements (50% faster deployments, 76% MTTR reduction)
-- Specific technologies matching the company's stack
-- Production experience and impact
-- Security-first approach
-- Cost optimization expertise
+- Quantifiable achievements (40%+ faster deployments, 76% MTTR reduction, 30% cost reduction, 99%+ uptime)
+- Specific technologies matching the company's stack (GKE, Kubernetes, Terraform, Ansible, n8n, etc.)
+- Production experience and impact (100+ Kubernetes deployments, AI-powered automation)
+- Security-first approach (Zero-trust, Kubernetes RBAC, Trivy scanning)
+- Cost optimization expertise (30% cloud cost reduction)
+- AI-powered automation capabilities
 ```
 
 ### For Job Matching

@@ -1,0 +1,49 @@
+flowchart TB
+    subgraph Tier1["Tier 1: DNS & Security Layer"]
+        DNS[DNS Service]
+        Security[Security Filter]
+        DNS --> Security
+    end
+    
+    subgraph Tier2["Tier 2: Load Balancing Layer"]
+        LB1[Load Balancer 1]
+        LB2[Load Balancer 2]
+        Security --> LB1
+        LB1 --> LB2
+    end
+    
+    subgraph Tier3["Tier 3: Application Layer"]
+        Ingress[Ingress Controller]
+        Services[Application Services]
+        Deployments[Application Deployments]
+        LB2 --> Ingress
+        Ingress --> Services
+        Services --> Deployments
+    end
+    
+    subgraph Tier4["Tier 4: Data Layer"]
+        Cache[Cache Layer]
+        Proxy[Database Proxy]
+        Database[Primary Database]
+        Deployments --> Cache
+        Cache --> Proxy
+        Proxy --> Database
+    end
+    
+    Client[Client/User] --> DNS
+    Database --> Proxy
+    Proxy --> Cache
+    Cache --> Deployments
+    Deployments --> Services
+    Services --> Ingress
+    Ingress --> LB2
+    LB2 --> LB1
+    LB1 --> Security
+    Security --> DNS
+    DNS --> Client
+    
+    style Tier1 fill:#e1f5ff
+    style Tier2 fill:#fff4e1
+    style Tier3 fill:#e8f5e9
+    style Tier4 fill:#fce4ec
+
