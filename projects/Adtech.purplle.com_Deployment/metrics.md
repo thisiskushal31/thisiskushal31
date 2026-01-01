@@ -5,12 +5,13 @@
 ### System Performance
 - **Uptime:** Target 99.9%+ (Production environment)
 - **Average Response Time:** [To be measured - target <100ms for ad serving]
-- **Peak Throughput:** Supports 7M+ monthly users
-  - Regular days: ~146K daily users
-  - Sales events: ~670K daily users (4.6x spike)
+- **Peak Throughput:** Supports 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales)
+  - Regular days: ~150K DAU typically
+  - Major sales events: ~600K DAU (4x spike)
+  - Minor sales events: ~300K DAU (2x spike)
   - Overall average: ~233K daily users
 - **Error Rate:** Target <0.1% error rate
-- **Scalability:** Infrastructure handles 4.6x traffic spikes during sales events
+- **Scalability:** Infrastructure handles 4x traffic spikes during major sales events and 2x during minor sales events
 
 ### Infrastructure Metrics
 - **Infrastructure Deployment:** Fully deployed and operational across all environments
@@ -26,7 +27,7 @@
 - **Infrastructure Cost:** ₹5.7 Lakh/year (GKE infrastructure)
 - **Net Annual Savings:** ₹74.3 Lakh/year (after infrastructure costs)
 - **ROI:** Exceptional return on investment - infrastructure cost is only 7.1% of software savings
-- **Cost Efficiency:** Infrastructure handles 7M+ users and 133M+ clicks at minimal cost
+- **Cost Efficiency:** Infrastructure handles 7M total users and 133M+ clicks at minimal cost
 
 ### Infrastructure Cost Metrics
 - **Monthly Infrastructure Cost:** ~₹48,000/month (~$570/month)
@@ -38,11 +39,11 @@
 ## Business Impact Metrics
 
 ### User Metrics
-- **Monthly Active Users:** 7,000,000 users/month
-- **Average Daily Active Users (Regular Days):** 146,000 users/day
-- **Peak Daily Active Users (Sales Events):** ~670,000 users/day (4.6x regular average)
-- **Overall Average DAU:** ~233,333 users/day (7M ÷ 30)
-- **Platform Scale:** High-volume ad serving infrastructure designed to handle 4.6x traffic spikes during sales
+- **Total Users:** 7,000,000 total users
+- **Daily Active Users (Regular):** 150,000 DAU typically
+- **Daily Active Users (Major Sales):** 600,000 DAU during major sales events (4x spike)
+- **Daily Active Users (Minor Sales):** 300,000 DAU during minor sales events (2x spike)
+- **Platform Scale:** High-volume ad serving infrastructure designed to handle 4x traffic spikes during major sales and 2x during minor sales
 
 ### Click Metrics
 - **Total Annual Clicks:** ~13.33 Crore clicks/year (133.3 million clicks)
@@ -64,20 +65,21 @@
 - **Revenue Contribution:** 40% of Purplle's total operating revenue
 
 ### Key Performance Indicators (KPIs)
-- **Average Daily Active Users (Regular):** 146,000 users/day
-- **Peak Daily Active Users (Sales):** ~670,000 users/day (4.6x spike)
-- **Overall Average DAU:** ~233,333 users/day
+- **Total Users:** 7,000,000 total users
+- **Daily Active Users (Regular):** 150,000 DAU typically
+- **Daily Active Users (Major Sales):** 600,000 DAU during major sales events (4x spike)
+- **Daily Active Users (Minor Sales):** 300,000 DAU during minor sales events (2x spike)
 - **Daily Brand Revenue:** ~₹1.1 Crore/day (₹400 Cr ÷ 365)
 - **Daily Marketing Cost:** ~₹0.49-0.58 Crore/day (₹180-210 Cr ÷ 365)
 - **Infrastructure Deployment:** Fully deployed and operational across all environments
-- **Traffic Spike Handling:** Successfully handles 4.6x traffic increase during sales events
+- **Traffic Spike Handling:** Successfully handles 4x traffic increase during major sales events and 2x during minor sales events
 
 ### Cost Metrics
 - **Infrastructure Cost:** ₹5.7 Lakh/year (~₹48,000/month) - GCP/GKE costs tracked and monitored
 - **Cost per User (Monthly):** ~₹0.0069/user/month (0.69 paise per user)
 - **Cost per User (Annual):** ~₹0.081/user/year (8.1 paise per user)
 - **Cost per Click:** ~₹0.0043/click (0.43 paise per click)
-- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling, handling 7M+ users and 133M+ clicks at minimal cost
+- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling, handling 7M total users and 133M+ clicks at minimal cost
 - **Cost Efficiency:** Infrastructure cost is only 7.1% of software savings (₹5.7 Lakh vs ₹80 Lakh saved)
 
 ### Detailed Infrastructure Cost Breakdown
@@ -162,10 +164,10 @@
 ## User/Client Impact
 
 ### Platform Adoption
-- **Production Status:** Fully live and operational, actively serving 7M+ monthly active users
+- **Production Status:** Fully live and operational, actively serving 7M total users
 - **Platform Usage:** Successfully replacing ₹80 Lakh/year third-party business management software
 - **Brand Adoption:** Platform supports 5 major house brands (Faces Canada, Alps Goodness, Good Vibes, NY Bae, Carmesi)
-- **Traffic Handling:** Successfully handles regular traffic (146K daily users) and sales event spikes (670K daily users - 4.6x increase)
+- **Traffic Handling:** Successfully handles regular traffic (150K DAU typically) and sales event spikes (600K DAU during major sales - 4x increase, 300K DAU during minor sales - 2x increase)
 
 ### Client Metrics
 - **Brand Revenue Support:** ₹400+ Crore in brand advertising revenue
@@ -187,14 +189,14 @@
 - **Infrastructure Cost:** ₹5.7 Lakh/year (only 7.1% of previous software cost)
 - **Net Savings:** ₹74.3 Lakh/year (93% cost reduction)
 - **Independence:** Fully independent, self-managed platform
-- **Scalability:** Built to handle 7M+ users with 4.6x traffic spikes
+- **Scalability:** Built to handle 7M total users with 4x traffic spikes during major sales and 2x during minor sales
 - **Control:** Full control over infrastructure, customization, and feature development
 - **Cost per User:** ₹0.0069/user/month (extremely cost-efficient)
 
 ### Improvement
 - **Cost Reduction:** 93% reduction in software costs (₹80 Lakh → ₹5.7 Lakh infrastructure cost)
 - **ROI:** Exceptional ROI - infrastructure cost is only 7.1% of software savings
-- **Scalability:** Platform handles 7M+ monthly users and 4.6x traffic spikes during sales events
+- **Scalability:** Platform handles 7M total users with 4x traffic spikes during major sales events and 2x during minor sales events
 - **Operational Efficiency:** Self-service platform reduces manual campaign management overhead
 - **Performance:** 99.9%+ uptime target with sub-100ms latency for ad serving
 - **Strategic Value:** Platform supports 40% of Purplle's total operating revenue through house brands
@@ -218,9 +220,9 @@
 ### What Went Well
 - **Successful Infrastructure Deployment:** Complete infrastructure stack deployed across Production, Pre-Production, and Sandbox environments
 - **Cost Optimization:** Achieved significant cost savings by replacing ₹80 Lakh/year third-party software with in-house solution
-- **Scalability:** Built platform capable of handling 4.6x traffic spikes during sales events (146K to 670K daily users)
+- **Scalability:** Built platform capable of handling 4x traffic spikes during major sales events (150K to 600K DAU) and 2x during minor sales (150K to 300K DAU)
 - **Cross-Functional Collaboration:** Effective collaboration between DevOps, Product, and Engineering teams
-- **Production Readiness:** Successfully deployed live platform serving 7M+ monthly active users
+- **Production Readiness:** Successfully deployed live platform serving 7M total users
 - **Security Implementation:** Comprehensive security measures including zero-trust, WAF, geo-blocking, and DPDP compliance
 
 ### What Could Be Improved

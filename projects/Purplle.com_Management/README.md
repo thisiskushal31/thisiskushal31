@@ -11,14 +11,14 @@
 
 ## Executive Summary
 
-Purplle.com is the main e-commerce platform infrastructure supporting beauty and personal care retail operations. The platform serves 7 million users generally (10 million at peak) with 300+ compute instances, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) and AWS (Route53). The platform follows a 4-tier architecture pattern with comprehensive security, monitoring, and disaster recovery capabilities. Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved ₹1 Crore in cost savings through infrastructure optimization and automation.
+Purplle.com is the main e-commerce platform infrastructure supporting beauty and personal care retail operations, generating ₹700 Crore annually (as of January 1, 2026). The platform serves 7 million total users with 150,000 daily active users (DAU) typically, scaling to 600,000 DAU during major sales events (4x) and 300,000 DAU during minor sales events (2x). Infrastructure includes 300+ compute instances, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) and AWS (Route53). The platform follows a 4-tier architecture pattern with comprehensive security, monitoring, and disaster recovery capabilities. Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved ₹1 Crore in cost savings through infrastructure optimization and automation.
 
 **Note:** Infrastructure deployment and management handled by DevOps team. Application code developed by engineering team.
 
 ## Business Objectives
 
 **Primary Goal:** Build and maintain robust, scalable infrastructure for the main e-commerce platform supporting:
-- **User Scale:** Serve 7 million users generally (10 million at peak)
+- **User Scale:** Serve 7 million total users with 150,000 DAU typically, scaling to 600,000 DAU during major sales (4x) and 300,000 DAU during minor sales (2x)
 - **High Availability:** 99%+ uptime for critical e-commerce operations
 - **Scalability:** Support 300+ compute instances and 125+ Kubernetes deployments
 - **Reliability:** Robust infrastructure for core e-commerce operations
@@ -27,7 +27,7 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 - **Cost Optimization:** Achieve significant cost savings through automation and optimization
 
 **Business Drivers:**
-- Support core e-commerce business operations and growth
+- Support core e-commerce business operations generating ₹700 Crore annually (as of January 1, 2026)
 - Ensure high availability for critical services (product catalog, checkout, payments)
 - Enable scalable infrastructure for business expansion
 - Maintain secure and reliable platform operations
@@ -36,7 +36,8 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 ## Business Metrics
 
 ### Scale & Infrastructure
-- **User Base:** 7 million users generally, 10 million at peak
+- **Annual Revenue:** ₹700 Crore annually (as of January 1, 2026)
+- **User Base:** 7 million total users, 150,000 DAU typically (600,000 DAU during major sales, 300,000 DAU during minor sales)
 - **Kubernetes Deployments:** 125+ deployments managed on GKE
 - **Compute Instances:** 300+ compute instances
 - **Infrastructure:** GCP-based infrastructure (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) + AWS (Route53)
@@ -49,7 +50,7 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 
 ### Key Achievements
 
-- ✅ **Production Infrastructure** - Successfully deployed and operational, serving 7M users (10M at peak)
+- ✅ **Production Infrastructure** - Successfully deployed and operational, serving 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales)
 - ✅ **125+ Kubernetes Deployments** - Managed 125+ high-availability Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring optimal performance, scalability, and reliability in production
 - ✅ **300+ Compute Instances** - Managed 300+ compute instances across infrastructure
 - ✅ **High Availability** - 99%+ uptime maintained across all environments
@@ -112,4 +113,4 @@ For detailed information, see:
 
 ---
 
-**Note:** This is a production platform actively serving 7 million users generally (10 million at peak) with 300+ compute instances and 125+ Kubernetes deployments. All metrics and infrastructure details are based on actual production deployment. Infrastructure deployment and management was handled by DevOps team; application code was developed by the engineering team.
+**Note:** This is a production platform actively serving 7 million total users with 150,000 DAU typically (600,000 DAU during major sales, 300,000 DAU during minor sales) with 300+ compute instances and 125+ Kubernetes deployments. All metrics and infrastructure details are based on actual production deployment. Infrastructure deployment and management was handled by DevOps team; application code was developed by the engineering team.

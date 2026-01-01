@@ -5,7 +5,7 @@
 ### System Performance
 - **Uptime:** 99%+ maintained across all environments
 - **Average Response Time:** Optimized for e-commerce operations
-- **Peak Throughput:** Supports 7 million users generally, 10 million at peak
+- **Peak Throughput:** Supports 7 million total users with 150K DAU typically (600K during major sales, 300K during minor sales)
 - **Error Rate:** Target <0.1% error rate
 - **Scalability:** Infrastructure handles traffic spikes during sales events and promotions
 - **Infrastructure Scale:** 300+ compute instances supporting platform operations
@@ -13,7 +13,7 @@
 ### Infrastructure Metrics
 - **Infrastructure Deployment:** Fully deployed and operational across all environments
 - **Environment Coverage:** DEV, SIT, UAT, PROD (Production, Pre-Production, Sandbox)
-- **Production Status:** Live and actively serving 7 million users (10 million at peak)
+- **Production Status:** Live and actively serving 7 million total users with 150K DAU typically (600K during major sales, 300K during minor sales)
 - **Resource Utilization:** Monitored via Prometheus/Grafana
 - **Network Performance:** ALB and GCLB (provisioned by GKE Ingress) handling high-volume traffic
 - **Kubernetes Cluster Health:** GKE clusters operational across environments
@@ -23,7 +23,7 @@
 - **Total Cost Savings:** ₹1 Crore achieved through infrastructure optimization and automation
 - **Cloud Cost Reduction:** 30% reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup
 - **Infrastructure Rightsizing:** 40-50% cost savings achieved through cloud infrastructure rightsizing and cleaning up unused resources
-- **Cost Efficiency:** High - supports 7M users (10M at peak) and 300+ compute instances efficiently
+- **Cost Efficiency:** High - supports 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) and 300+ compute instances efficiently
 - **Resource Optimization:** Automated resource cleanup and rightsizing
 - **Step Scaling:** Implemented step scaling for cost savings during night time
 
@@ -41,9 +41,16 @@
 
 ## Business Impact Metrics
 
+### Financial Metrics
+- **Annual Revenue:** ₹700 Crore annually (as of January 1, 2026)
+- **Revenue Growth:** Platform supporting significant annual revenue generation
+- **Business Scale:** E-commerce platform generating substantial revenue through beauty and personal care retail operations
+
 ### User Metrics
-- **User Base (General):** 7 million users
-- **User Base (Peak):** 10 million users at peak times
+- **Total Users:** 7 million total users
+- **Daily Active Users (Regular):** 150,000 DAU typically
+- **Daily Active Users (Major Sales):** 600,000 DAU during major sales events (4x spike)
+- **Daily Active Users (Minor Sales):** 300,000 DAU during minor sales events (2x spike)
 - **Platform Scale:** E-commerce infrastructure supporting beauty and personal care retail operations
 - **User Reach:** Global accessibility for e-commerce platform
 - **Traffic Handling:** Successfully handles traffic spikes during sales events
@@ -62,8 +69,10 @@
 - **Multi-Zone Deployment:** High availability across zones
 
 ### Key Performance Indicators (KPIs)
-- **User Base (General):** 7 million users
-- **User Base (Peak):** 10 million users at peak times
+- **Total Users:** 7 million total users
+- **Daily Active Users (Regular):** 150,000 DAU typically
+- **Daily Active Users (Major Sales):** 600,000 DAU during major sales events (4x spike)
+- **Daily Active Users (Minor Sales):** 300,000 DAU during minor sales events (2x spike)
 - **Infrastructure Scale:** 300+ compute instances
 - **Kubernetes Deployments:** 125+ deployments
 - **Uptime:** 99%+ uptime maintained across all environments
@@ -77,7 +86,7 @@
 - **Total Cost Savings:** ₹1 Crore achieved through infrastructure optimization and automation
 - **Cloud Cost Reduction:** 30% reduction through rightsizing and optimization
 - **Infrastructure Cost:** GCP/GKE costs tracked and monitored
-- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling and step scaling, supporting 7M users (10M at peak) and 300+ compute instances
+- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling and step scaling, supporting 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) and 300+ compute instances
 - **Step Scaling:** Implemented step scaling for cost savings during night time
 - **Cost Efficiency:** High-availability infrastructure supporting e-commerce operations efficiently
 - **Resource Cleanup:** Automated cleanup of unused resources contributing to cost savings
@@ -107,14 +116,17 @@
 ## User/Client Impact
 
 ### Platform Adoption
-- **Production Status:** Fully live and operational, actively serving 7 million users (10 million at peak)
+- **Production Status:** Fully live and operational, actively serving 7 million total users with 150K DAU typically (600K during major sales, 300K during minor sales)
 - **Platform Usage:** Main e-commerce platform supporting beauty and personal care retail operations
-- **User Base (General):** 7 million users
-- **User Base (Peak):** 10 million users at peak times accessing the platform
+- **Total Users:** 7 million total users
+- **Daily Active Users (Regular):** 150,000 DAU typically
+- **Daily Active Users (Major Sales):** 600,000 DAU during major sales events (4x spike)
+- **Daily Active Users (Minor Sales):** 300,000 DAU during minor sales events (2x spike)
 - **Infrastructure Scale:** 300+ compute instances supporting platform operations
 
 ### Business Impact
-- **User Scale:** Platform serves 7 million users generally (10 million at peak)
+- **Annual Revenue:** ₹700 Crore annually (as of January 1, 2026)
+- **User Scale:** Platform serves 7 million total users with 150K DAU typically (600K during major sales, 300K during minor sales)
 - **E-Commerce Operations:** Enables seamless e-commerce operations (product catalog, checkout, payments)
 - **Operational Efficiency:** Automated infrastructure reduces operational overhead
 - **High Availability:** 99%+ uptime ensuring reliable e-commerce operations
@@ -143,7 +155,7 @@
 - **Cost Optimization:** ₹1 Crore cost savings (30% cloud cost reduction)
 - **Reliability:** 99%+ uptime maintained across all environments
 - **Performance:** Reduced MTTR from 30 to 7 minutes
-- **Scalability:** Infrastructure supports 7M users (10M at peak) and 300+ compute instances with 125+ Kubernetes deployments
+- **Scalability:** Infrastructure supports 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) and 300+ compute instances with 125+ Kubernetes deployments
 - **Horizontal Scaling:** Infrastructure scales horizontally without manual intervention using HPA, cluster autoscaling, and node pool autoscaling
 - **Event-Driven Architecture:** Kafka and Redis enable decoupled services and improved scalability
 - **Strategic Value:** Platform infrastructure supporting core e-commerce business operations

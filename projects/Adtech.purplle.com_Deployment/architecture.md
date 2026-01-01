@@ -2,7 +2,7 @@
 
 ## System Overview
 
-PurplleAds is a Kubernetes-based adtech platform deployed on GCP (GKE) with a multi-tier architecture supporting high-volume ad serving for 7 million monthly active users. The platform is deployed at `adtech.purplle.com`. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB pointing to `adtech.purplle.com`. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational.
+PurplleAds is a Kubernetes-based adtech platform deployed on GCP (GKE) with a multi-tier architecture supporting high-volume ad serving for 7 million total users with 150,000 daily active users (DAU) typically, scaling to 600,000 DAU during major sales events (4x) and 300,000 DAU during minor sales events (2x). The platform is deployed at `adtech.purplle.com`. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB pointing to `adtech.purplle.com`. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational.
 
 **Important Notes:**
 - **ALB** is an **independent infrastructure component** deployed separately from GKE
@@ -631,7 +631,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
   - **Kubernetes Usage-Based Scaling:** 
     - Horizontal Pod Autoscaler (HPA) configured based on CPU, memory, and custom metrics
     - Pods automatically scale up/down based on actual usage and demand
-    - Supports traffic spikes during peak hours and sales events (4.6x traffic increase during sales events)
+    - Supports traffic spikes during peak hours and sales events (4x traffic increase during major sales events, 2x during minor sales events)
   - **Nginx Ingress Scaling:** 
     - Nginx ingress controller scales automatically based on network load
     - Handles increased traffic volume during high-demand periods
