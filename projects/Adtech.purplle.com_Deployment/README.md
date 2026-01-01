@@ -100,7 +100,7 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 **Cloud & Infrastructure:** GCP (GKE), AWS (Route53), Kubernetes, ALB, GCLB  
 **Container Orchestration:** Kubernetes (GKE), K8s Ingress, Deployments, Services  
 **Service Discovery:** kubedns (Kubernetes DNS) for internal cluster networking  
-**Databases:** Cloud SQL (MySQL/PostgreSQL), Redis, Cloud SQL Proxy  
+**Databases:** Cloud SQL (MySQL), Redis, Cloud SQL Proxy  
 **CI/CD:** Jenkins (scripted pipeline jobs with Slack integration), GitLab CI (with automated testing and Trivy security scanning), GitOps workflows  
 **Infrastructure as Code:** Terraform (reusable modules), Ansible, GitOps workflows  
 **Monitoring:** Prometheus, Grafana, GCP Stackdriver (unified observability stack)  
@@ -119,7 +119,7 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 - Standardized on Terraform for Infrastructure as Code and integrated into GitOps workflows
 - Created reusable, parameterized Terraform modules for:
   - GKE clusters with multi-environment support
-  - Cloud SQL instances (MySQL/PostgreSQL) with automated backups
+  - Cloud SQL instances (MySQL) with automated backups
   - VPCs and network configurations
   - Load balancers (ALB, GCLB) with WAF integration
   - Kubernetes deployments and services

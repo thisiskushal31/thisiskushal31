@@ -43,9 +43,10 @@ Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE)
 - Redis/Redis persistence/Memorystore (caching)
 - Elasticsearch (search and analytics)
 - MongoDB (document database)
+- Aerospike (A/B testing)
 - Cloud SQL Proxy (Layer 7) for secure connections
 - GCP Cloud NAT for outgoing internet access
-- Traffic Flow: Application → Redis/Elasticsearch/MongoDB → MySQL Master/Slaves
+- Traffic Flow: Application → Redis/Elasticsearch/MongoDB/Aerospike → MySQL Master/Slaves
 
 ### Complete Data Flow
 
@@ -56,10 +57,10 @@ Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE)
 4. Production LB → GCP Kubernetes Engine (Zone A/B) OR app-server IG (Zone A/B)
 5. For Kubernetes: GCLB → Kubernetes Ingress → K8s Services → K8s Deployments
 6. For Management: Management LBs → manage-01, manage-api, manage-util-01
-7. Application → Redis/Redis persistence/Memorystore → MySQL (Master/Slave) OR Elasticsearch OR MongoDB
+7. Application → Redis/Redis persistence/Memorystore → MySQL (Master/Slave) OR Elasticsearch OR MongoDB OR Aerospike
 
 **Response Flow:**
-1. MySQL/Redis/Elasticsearch/MongoDB → Application
+1. MySQL/Redis/Elasticsearch/MongoDB/Aerospike → Application
 2. Application → K8s Services → K8s Ingress (for Kubernetes) OR Management Instances
 3. K8s Ingress → GCLB → Production LB → WAF → Route53 → User/Client
 4. Management Instances → Management LBs → Route53 → User/Client
@@ -90,6 +91,7 @@ Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE)
 - **Cloud SQL:** GCP-managed database service
 - **Cloud SQL Proxy:** Layer 7 (Application Layer) proxy for secure database connections from different subnet in same VPC
 - **Redis:** Separate caching infrastructure
+- **Aerospike:** In-memory NoSQL database for A/B testing
 
 **GKE-Managed Components:**
 - **Kubernetes Ingress:** Managed by GKE (Nginx ingress controller)
@@ -161,6 +163,10 @@ Purplle.com follows a **Multi-Tier Architecture** pattern with clear separation 
   - **Memorystore:** GCP managed caching service
 - **Elasticsearch:** Search and analytics engine for product search and log analysis
 - **MongoDB:** Document database for specific use cases
+- **Aerospike:** In-memory NoSQL database used for A/B testing
+  - High-performance key-value store for A/B testing experiments
+  - Enables real-time feature flagging and experiment management
+  - Supports high-throughput read/write operations for testing scenarios
 - **Cloud SQL Proxy (Layer 7):** Secure database connection proxy
   - Enables secure connection from different subnet in same VPC
   - Layer 7 (Application Layer) proxy
@@ -194,7 +200,7 @@ Purplle.com follows a **Multi-Tier Architecture** pattern with clear separation 
 **Private/Internal Traffic:**
 - Service-to-service communication within cluster via kubedns → Services
 - Internal API calls between microservices
-- Application layer to database layer communication (MySQL, Redis, Elasticsearch, MongoDB)
+- Application layer to database layer communication (MySQL, Redis, Elasticsearch, MongoDB, Aerospike)
 
 **Outgoing Internet:**
 - All private subnet components access internet via GCP Cloud NAT

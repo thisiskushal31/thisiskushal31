@@ -135,7 +135,7 @@ Nexus follows a **Multi-Tier Architecture** pattern with clear separation of con
 - **Traffic Flow:** Receives both public and private traffic, processes requests, interacts with messaging (Kafka), caching (Redis), data layer, and Cloud Functions
 
 ### Tier 4: Data Layer
-- **Cloud SQL:** Primary database (MySQL/PostgreSQL) with Point-in-Time Recovery and daily backups
+- **Cloud SQL:** Primary database (MySQL) with Point-in-Time Recovery and daily backups
 - **Redis Cache:** High-performance caching layer (reduces database load by 60-80%)
 - **Kafka:** Messaging and event streaming infrastructure
 - **Purpose:** Persistent data storage, transaction processing, caching for performance optimization, asynchronous messaging
@@ -249,7 +249,7 @@ Nexus follows a **Multi-Tier Architecture** pattern with clear separation of con
 
 ### 9. Cloud SQL Database
 - **Purpose:** Primary database for campaign data, user preferences, and transactions
-- **Technology:** Cloud SQL (MySQL/PostgreSQL)
+- **Technology:** Cloud SQL (MySQL)
 - **Responsibilities:**
   - Persistent data storage
   - Transaction processing (handles 30 Rs/click rate)
@@ -446,7 +446,7 @@ Nexus follows a **Multi-Tier Architecture** pattern with clear separation of con
 
 ### Storage & Databases
 - **Primary Database:** 
-  - Cloud SQL (MySQL/PostgreSQL) for persistent data storage
+  - Cloud SQL (MySQL) for persistent data storage
   - Handles POS transaction data, retail operations data, and business records
   - **Point-in-Time Recovery (PITR):** Enabled for data recovery to any point in time
   - **Daily Backup:** Automated daily backups for disaster recovery

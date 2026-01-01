@@ -133,7 +133,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
 - **Traffic Flow:** Receives traffic from load balancers, processes requests through authentication/authorization, interacts with data layer and Cloud Functions
 
 ### Tier 4: Data Layer
-- **Cloud SQL:** Primary database (MySQL/PostgreSQL) with Point-in-Time Recovery and daily backups
+- **Cloud SQL:** Primary database (MySQL) with Point-in-Time Recovery and daily backups
 - **Redis Cache:** High-performance caching layer (reduces database load by 60-80%)
 - **Purpose:** Persistent data storage, transaction processing, caching for performance optimization
 - **Data Flow:** Application services query Redis first, then Cloud SQL for persistent data
@@ -236,7 +236,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
 
 ### 9. Cloud SQL Database
 - **Purpose:** Primary database for campaign data, user preferences, and transactions
-- **Technology:** Cloud SQL (MySQL/PostgreSQL)
+- **Technology:** Cloud SQL (MySQL)
 - **Responsibilities:**
   - Persistent data storage
   - Transaction processing (handles 30 Rs/click rate)
@@ -416,7 +416,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
 
 ### Storage & Databases
 - **Primary Database:** 
-  - Cloud SQL (MySQL/PostgreSQL) for persistent data storage
+  - Cloud SQL (MySQL) for persistent data storage
   - Handles campaign data, user preferences, bidding data, and transaction records
   - **Point-in-Time Recovery (PITR):** Enabled for data recovery to any point in time
   - **Daily Backup:** Automated daily backups for disaster recovery

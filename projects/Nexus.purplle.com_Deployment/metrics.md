@@ -121,7 +121,7 @@
 - **Application Deployment:** Single service with auto-scaling pods (1-6 pods based on demand)
 - **Node Pools:** Main workload pool and Ingress/LB pool
 - **Load Balancers:** ALB and GCLB (provisioned by GKE Ingress)
-- **Databases:** Cloud SQL (MySQL/PostgreSQL) with automated backups
+- **Databases:** Cloud SQL (MySQL) with automated backups
 - **Caching & Messaging:** Redis for caching, Kafka for messaging
 - **Networking:** VPC, kubedns for service discovery, Cloud SQL Proxy
 
