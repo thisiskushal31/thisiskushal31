@@ -29,9 +29,10 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 ## Business Metrics
 
 ### Scale & Users
-- **Monthly Active Users:** 7 million users/month
-- **Average Daily Active Users:** 146,000 users/day (regular days)
-- **Peak Daily Active Users:** ~670,000 users/day (4.6x spike during sales events)
+- **Total Users:** 7 million total users
+- **Daily Active Users (Regular):** 150,000 DAU typically
+- **Daily Active Users (Major Sales):** 600,000 DAU (4x spike during major sales events)
+- **Daily Active Users (Minor Sales):** 300,000 DAU (2x spike during minor sales events)
 - **Annual Clicks:** 133.3 million clicks/year (~365K clicks/day)
 
 ### Financial Performance
@@ -79,10 +80,10 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 
 ### Key Achievements
 
-- ✅ **Live Production Platform** - Fully deployed at `adtech.purplle.com`, actively serving 7M+ users
+- ✅ **Live Production Platform** - Fully deployed at `adtech.purplle.com`, actively serving 7M total users
 - ✅ **100+ Kubernetes Deployments** - Managed 100+ high-availability Kubernetes deployments on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
 - ✅ **Cost Optimization** - 93% reduction in software costs (₹80 Lakh → ₹5.7 Lakh infrastructure). Optimized resource utilization and cost-efficiency by rightsizing GCP/AWS instances and implementing autoscaling policies, achieving a 30% reduction in cloud spend through usage audits and resource cleanup
-- ✅ **Scalability** - Handles 4.6x traffic spikes during sales events (146K → 670K daily users)
+- ✅ **Scalability** - Handles 4x traffic spikes during major sales events (150K → 600K DAU) and 2x during minor sales (150K → 300K DAU)
 - ✅ **Revenue Support** - Platform supports ₹400+ Crore in brand advertising revenue
 - ✅ **House Brand Support** - Critical platform for 5 major house brands (₹680-₹800 Cr revenue)
 - ✅ **CI/CD Modernization** - Accelerated infrastructure delivery speed by 40%+ by collaborating on CI/CD automation using Terraform, Jenkins, and GitOps, automating over 40% of provisioning tasks. Modernized CI/CD infrastructure by migrating from freestyle bash jobs to scripted pipeline jobs in Jenkins, integrated with Slack for real-time job failure alerts, improving monitoring and reducing incident response time

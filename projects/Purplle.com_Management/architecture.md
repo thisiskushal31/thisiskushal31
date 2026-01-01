@@ -2,7 +2,7 @@
 
 ## System Overview
 
-Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE) with a multi-tier architecture supporting 7 million users generally (10 million at peak) with 300+ compute instances and 125+ Kubernetes deployments. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB pointing to the main platform. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved ₹1 Crore in cost savings through infrastructure optimization and automation.
+Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE) with a multi-tier architecture supporting 7 million total users with 150,000 daily active users (DAU) typically, scaling to 600,000 DAU during major sales events (4x) and 300,000 DAU during minor sales events (2x), with 300+ compute instances and 125+ Kubernetes deployments. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB pointing to the main platform. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved ₹1 Crore in cost savings through infrastructure optimization and automation.
 
 **Important Notes:**
 - **ALB** is an **independent infrastructure component** deployed separately from GKE
@@ -189,7 +189,7 @@ Purplle.com follows a **Multi-Tier Architecture** pattern with clear separation 
 **Public Traffic:**
 - External traffic from Mobile/Desktop users flows through Route53 → Reblaze WAF → Production LB → GCP Kubernetes Engine/app-server IG
 - Management traffic flows through Route53 → Management LBs → manage-01, manage-api, manage-util-01
-- Handles 7M users (10M at peak) with 300+ compute instances
+- Handles 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) with 300+ compute instances
 
 **Private/Internal Traffic:**
 - Service-to-service communication within cluster via kubedns → Services
@@ -476,10 +476,17 @@ Purplle.com follows a **Multi-Tier Architecture** pattern with clear separation 
 - **Consistent Infrastructure:** Parameterized Terraform modules enable consistent deployment across all environments
 - **Multi-Zone Deployment:** High availability across zones
 
+### Business Scale
+- **Annual Revenue:** ₹700 Crore annually (as of January 1, 2026)
+- **Revenue Generation:** Platform supporting significant annual revenue through e-commerce operations
+- **Business Impact:** Infrastructure supporting substantial business operations and growth
+
 ### User Scale
-- **7 Million Users (General):** Platform serves 7 million users generally
-- **10 Million Users (Peak):** Handles 10 million users at peak times
-- **High Traffic:** Handles traffic spikes during sales events
+- **7 Million Total Users:** Platform serves 7 million total users
+- **150,000 DAU (Regular):** Typically serves 150,000 daily active users
+- **600,000 DAU (Major Sales):** Scales to 600,000 DAU during major sales events (4x spike)
+- **300,000 DAU (Minor Sales):** Scales to 300,000 DAU during minor sales events (2x spike)
+- **Traffic Handling:** Successfully handles traffic spikes during sales events
 - **Global Reach:** E-commerce platform accessible worldwide
 
 ## Cost Optimization

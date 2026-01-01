@@ -8,9 +8,9 @@ This directory contains comprehensive documentation for infrastructure projects 
 
 #### [Adtech.purplle.com Deployment](./Adtech.purplle.com_Deployment/)
 **In-House AdTech Platform** - Brand management and advertising platform  
-- **Scale:** 7M+ monthly active users, ₹400+ Crore brand advertising revenue
+- **Scale:** 7M total users, 150K DAU (600K during major sales, 300K during minor sales), ₹400+ Crore brand advertising revenue
 - **Infrastructure:** 100+ Kubernetes deployments, GKE, multi-cloud (AWS + GCP)
-- **Achievements:** 93% cost reduction (₹80 Lakh → ₹5.7 Lakh), 4.6x traffic spike handling
+- **Achievements:** 93% cost reduction (₹80 Lakh → ₹5.7 Lakh), 4x traffic spike handling during major sales
 - **Key Technologies:** Kubernetes, Terraform, GitLab CI, Keycloak, Sentinel Service
 - [View Details →](./Adtech.purplle.com_Deployment/)
 
@@ -24,7 +24,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 
 #### [Purplle.com Management](./Purplle.com_Management/)
 **Main E-Commerce Platform** - Core e-commerce infrastructure  
-- **Scale:** 7M users (10M peak), 300+ compute instances, 125+ Kubernetes deployments
+- **Scale:** ₹700 Crore annual revenue (as of Jan 1, 2026), 7M total users, 150K DAU (600K during major sales, 300K during minor sales), 300+ compute instances, 125+ Kubernetes deployments
 - **Infrastructure:** 4TB MySQL database, multi-zone deployment, hybrid cloud
 - **Achievements:** ₹1 Crore cost savings, 99%+ uptime, zero-lag MySQL migrations (gh-ost)
 - **Key Technologies:** Kubernetes, MySQL, Elasticsearch, MongoDB, Redis, Cloud Functions
@@ -62,7 +62,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Total Compute Instances:** 300+ instances across infrastructure
 - **Production Platforms:** 3 major platforms
 - **Environments:** 4 environments (DEV, SIT, UAT, PROD)
-- **User Base:** 7M+ users (10M at peak)
+- **User Base:** 7M total users, 150K DAU (600K during major sales, 300K during minor sales)
 - **Database Size:** 4TB MySQL primary database
 
 ### Key Achievements Across Projects
@@ -115,7 +115,7 @@ Each project follows a consistent documentation structure:
 |---------|------|------------|--------|
 | [Adtech.purplle.com](./Adtech.purplle.com_Deployment/) | AdTech Platform | ₹400+ Cr revenue | ✅ Live |
 | [Nexus.purplle.com](./Nexus.purplle.com_Deployment/) | POS Platform | 100+ stores | ✅ Live |
-| [Purplle.com Management](./Purplle.com_Management/) | E-Commerce Platform | 7M users | ✅ Live |
+| [Purplle.com Management](./Purplle.com_Management/) | E-Commerce Platform | 7M total, 150K DAU | ✅ Live |
 | [IAC Deployment](./Purplle.com_IAC_Deployment/) | Infrastructure Automation | 40%+ faster | ✅ Implemented |
 | [Security Improvement](./Purplle.com_SecurityImprovement/) | Security Hardening | 125+ deployments | ✅ Implemented |
 | [Monitoring Improvement](./PurplleInfra_Monitoring_Improvement/) | Observability | 76% MTTR reduction | ✅ Implemented |
