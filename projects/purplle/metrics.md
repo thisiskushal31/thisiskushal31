@@ -3,210 +3,160 @@
 ## Performance Metrics
 
 ### System Performance
-- **Uptime:** Target 99.9%+ (Production environment)
-- **Average Response Time:** [To be measured - target <100ms for ad serving]
-- **Peak Throughput:** Supports 7M+ monthly users
-  - Regular days: ~146K daily users
-  - Sales events: ~670K daily users (4.6x spike)
-  - Overall average: ~233K daily users
+- **Uptime:** 99%+ maintained across all environments
+- **Average Response Time:** Optimized for e-commerce operations
+- **Peak Throughput:** Supports 7 million users generally, 10 million at peak
 - **Error Rate:** Target <0.1% error rate
-- **Scalability:** Infrastructure handles 4.6x traffic spikes during sales events
+- **Scalability:** Infrastructure handles traffic spikes during sales events and promotions
+- **Infrastructure Scale:** 300+ compute instances supporting platform operations
 
 ### Infrastructure Metrics
 - **Infrastructure Deployment:** Fully deployed and operational across all environments
-- **Environment Coverage:** Production (Live), Pre-Production, Sandbox
-- **Production Status:** Live and actively serving traffic
-- **Resource Utilization:** [Monitored via Prometheus/Grafana]
+- **Environment Coverage:** DEV, SIT, UAT, PROD (Production, Pre-Production, Sandbox)
+- **Production Status:** Live and actively serving 7 million users (10 million at peak)
+- **Resource Utilization:** Monitored via Prometheus/Grafana
 - **Network Performance:** ALB and GCLB (provisioned by GKE Ingress) handling high-volume traffic
 - **Kubernetes Cluster Health:** GKE clusters operational across environments
+- **Kubernetes Deployments:** 125+ deployments managed on GKE
 
-### Cost Savings Metrics
-- **Third-Party Software Replacement:** Replaced ₹80 Lakh/year business management software
-- **Annual Cost Savings:** ₹80 Lakh/year
-- **Infrastructure Cost:** ₹5.7 Lakh/year (GKE infrastructure)
-- **Net Annual Savings:** ₹74.3 Lakh/year (after infrastructure costs)
-- **ROI:** Exceptional return on investment - infrastructure cost is only 7.1% of software savings
-- **Cost Efficiency:** Infrastructure handles 7M+ users and 133M+ clicks at minimal cost
+### Cost Optimization Metrics
+- **Total Cost Savings:** ₹1 Crore achieved through infrastructure optimization and automation
+- **Cloud Cost Reduction:** 30% reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup
+- **Infrastructure Rightsizing:** 40-50% cost savings achieved through cloud infrastructure rightsizing and cleaning up unused resources
+- **Cost Efficiency:** High - supports 7M users (10M at peak) and 300+ compute instances efficiently
+- **Resource Optimization:** Automated resource cleanup and rightsizing
+- **Step Scaling:** Implemented step scaling for cost savings during night time
 
-### Infrastructure Cost Metrics
-- **Monthly Infrastructure Cost:** ~₹48,000/month (~$570/month)
-- **Annual Infrastructure Cost:** ~₹5.7 Lakh/year
-- **Cost Per User (Monthly):** ~₹0.0069/user/month (0.69 paise)
-- **Cost Per Click:** ~₹0.0043/click (0.43 paise)
-- **Infrastructure Efficiency:** High - supports massive scale at minimal cost
+### Deployment Metrics
+- **Deployment Speed:** 40%+ faster deployments through CI/CD automation (Terraform, Jenkins, GitOps)
+- **Infrastructure Automation:** 40%+ of provisioning tasks automated
+- **CI/CD Modernization:** Migrated Jenkins from freestyle to scripted pipelines with Slack alerts
+- **Infrastructure as Code:** Terraform and Ansible ensure consistent deployments across environments
+
+### Incident Response Metrics
+- **MTTR (Mean Time to Recovery):** Reduced from 30 to 7 minutes
+- **Unified Observability:** Prometheus and Grafana stack with automated escalation
+- **Alerting System:** Comprehensive monitoring and alerting setup with Grafana alerts and GCP Stackdriver logging
+- **Incident Detection:** Faster detection and resolution of issues
 
 ## Business Impact Metrics
 
 ### User Metrics
-- **Monthly Active Users:** 7,000,000 users/month
-- **Average Daily Active Users (Regular Days):** 146,000 users/day
-- **Peak Daily Active Users (Sales Events):** ~670,000 users/day (4.6x regular average)
-- **Overall Average DAU:** ~233,333 users/day (7M ÷ 30)
-- **Platform Scale:** High-volume ad serving infrastructure designed to handle 4.6x traffic spikes during sales
+- **User Base (General):** 7 million users
+- **User Base (Peak):** 10 million users at peak times
+- **Platform Scale:** E-commerce infrastructure supporting beauty and personal care retail operations
+- **User Reach:** Global accessibility for e-commerce platform
+- **Traffic Handling:** Successfully handles traffic spikes during sales events
 
-### Click Metrics
+### Traffic Volume Metrics
 - **Total Annual Clicks:** ~13.33 Crore clicks/year (133.3 million clicks)
 - **Monthly Clicks:** ~1.11 Crore clicks/month (11.1 million clicks)
 - **Daily Clicks:** ~3.65 Lakh clicks/day (365,297 clicks/day)
 - **Peak Daily Clicks:** Significantly higher during sales events and promotions
-- **Transaction Volume:** Database handles millions of click transactions daily at this scale
+- **Database Load:** Database handles millions of click transactions, campaign updates, and user preference queries daily
 
-### Financial Metrics
-
-**Platform Revenue:**
-- **Brand Advertising Revenue:** ₹400+ Crore
-- **Total Marketing Cost Managed:** ₹180-₹210 Crore annually
-
-**House Brand Performance (FY 2025 Estimates):**
-- **Total House Brand Revenue:** ₹680-₹800 Crore
-- **Total Marketing Spend:** ₹167-₹198 Crore
-- **Average Marketing % of Revenue:** ~24%
-- **Revenue Contribution:** 40% of Purplle's total operating revenue
+### Infrastructure Scale Metrics
+- **Compute Instances:** 300+ compute instances managed across infrastructure
+- **Kubernetes Deployments:** 125+ deployments managed on GKE
+- **Multi-Environment:** DEV, SIT, UAT, PROD (Production, Pre-Production, Sandbox) environments
+- **Multi-Zone Deployment:** High availability across zones
 
 ### Key Performance Indicators (KPIs)
-- **Average Daily Active Users (Regular):** 146,000 users/day
-- **Peak Daily Active Users (Sales):** ~670,000 users/day (4.6x spike)
-- **Overall Average DAU:** ~233,333 users/day
-- **Daily Brand Revenue:** ~₹1.1 Crore/day (₹400 Cr ÷ 365)
-- **Daily Marketing Cost:** ~₹0.49-0.58 Crore/day (₹180-210 Cr ÷ 365)
-- **Infrastructure Deployment:** Fully deployed and operational across all environments
-- **Traffic Spike Handling:** Successfully handles 4.6x traffic increase during sales events
+- **User Base (General):** 7 million users
+- **User Base (Peak):** 10 million users at peak times
+- **Infrastructure Scale:** 300+ compute instances
+- **Kubernetes Deployments:** 125+ deployments
+- **Uptime:** 99%+ uptime maintained across all environments
+- **Infrastructure Deployment:** Fully deployed and operational across DEV, SIT, UAT, PROD environments with consistent infrastructure
+- **Platform Reliability:** High-availability infrastructure ensuring consistent e-commerce operations
+- **Cost Optimization:** ₹1 Crore cost savings achieved (30% cloud cost reduction)
+- **Deployment Speed:** 40%+ faster deployments
+- **MTTR:** Reduced from 30 to 7 minutes
 
 ### Cost Metrics
-- **Infrastructure Cost:** ₹5.7 Lakh/year (~₹48,000/month) - GCP/GKE costs tracked and monitored
-- **Cost per User (Monthly):** ~₹0.0069/user/month (0.69 paise per user)
-- **Cost per User (Annual):** ~₹0.081/user/year (8.1 paise per user)
-- **Cost per Click:** ~₹0.0043/click (0.43 paise per click)
-- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling, handling 7M+ users and 133M+ clicks at minimal cost
-- **Cost Efficiency:** Infrastructure cost is only 7.1% of software savings (₹5.7 Lakh vs ₹80 Lakh saved)
-
-### Detailed Infrastructure Cost Breakdown
-
-**GKE Infrastructure Deployment:**
-- **Region:** Mumbai (asia-south1)
-- **Configuration Mode:** GKE Standard
-
-**Node Pool Specifications & Costs:**
-
-| Node Pool | VM Type | Config | Pod Capacity (at 1000m-1500m request) | Monthly Cost (Est.) |
-|-----------|---------|--------|----------------------------------------|---------------------|
-| **Main Workload** | n2-standard-8 | 8 vCPU, 32GB RAM | ~5-6 High-Res Pods* | $340.60 (₹28,600) |
-| **Ingress/LB** | n2-standard-4 | 4 vCPU, 16GB RAM | Dedicated Nginx Ingress | $170.30 (₹14,300) |
-
-*Note: While a node pool supports up to 32/110 pods, the physical CPU limit of n2-8 (8000m) restricts pods with 1500m requests to ~5 per VM.
-
-**Fixed & Networking Costs:**
-- **Cluster Management Fee:** $73.00 (Standard Tier - 1 Zonal cluster)
-- **GKE Free Tier Credit:** -$74.40 (Covers management fee for 1 cluster)
-- **Load Balancer (ALB):** ~$25.00/month (Forwarding rules + basic data processing)
-- **Persistent Storage (SSD):** ~$35.00 (200GB Balanced PD)
-
-**Total Infrastructure Cost:**
-- **Monthly:** ~$570.00 (approx. ₹48,000/month)
-- **Annual:** ~₹5.7 Lakh/year
-
-**Cost Breakdown Analysis:**
-
-| Cost Category | Annual Cost | % of Software Savings |
-|--------------|-------------|----------------------|
-| Infrastructure (GKE) | ₹5.7 Lakh | ~7.1% |
-| Software Savings | ₹80 Lakh | 100% (baseline) |
-| **Net Savings** | **₹74.3 Lakh** | **~93%** |
-
-### Business Model
-
-**Revenue Streams:**
-1. **Brand Advertising Fees:** Brands pay for ad placements
-2. **Bidding System:** Revenue from competitive bidding for premium placements
-3. **Daily Budget Management:** Revenue from brands managing daily advertising spend
-
-**Cost Structure:**
-1. **Infrastructure Costs:** Cloud infrastructure, load balancers, compute resources
-2. **Platform Maintenance:** Ongoing development and maintenance
-3. **Data Processing:** User preference data processing and targeting
-
-### House Brand Financial Performance (FY 2025 Estimates)
-
-**Total private label revenue is projected to hit ₹450–₹500 Crore, making up roughly 40% of Purplle's total operating revenue.**
-
-| Brand | Estimated Revenue (FY25) | Est. Marketing Cost (FY25) | Marketing as % of Revenue | Strategy |
-|-------|------------------------|---------------------------|--------------------------|----------|
-| **Faces Canada** | ₹240 - ₹280 Cr | ₹65 - ₹75 Cr | ~27% | Premium / Offline |
-| **Alps Goodness** | ₹180 - ₹210 Cr | ₹40 - ₹45 Cr | ~22% | Ingredients-led |
-| **Good Vibes** | ₹150 - ₹170 Cr | ₹30 - ₹35 Cr | ~20% | Volume / Mass |
-| **NY Bae** | ₹90 - ₹110 Cr | ₹22 - ₹28 Cr | ~25% | Digital / Tier 2-3 |
-| **Carmesi** | ₹20 - ₹30 Cr | ₹10 - ₹15 Cr | ~45% | Premium Hygiene |
-| **TOTAL** | **₹680 - ₹800 Cr** | **₹167 - ₹198 Cr** | **~24% Avg.** | |
-
-**Key Insights:**
-1. **House Brand Revenue Contribution:** ₹680-₹800 Crore represents ~40% of Purplle's total operating revenue
-2. **Marketing Efficiency:** Average marketing spend is ~24% of revenue across house brands
-3. **Brand Performance Variance:** Marketing % ranges from 20% (Good Vibes) to 45% (Carmesi)
-4. **Scale:** Platform manages significant marketing spend (₹167-₹198 Cr) across 5 major house brands
+- **Total Cost Savings:** ₹1 Crore achieved through infrastructure optimization and automation
+- **Cloud Cost Reduction:** 30% reduction through rightsizing and optimization
+- **Infrastructure Cost:** GCP/GKE costs tracked and monitored
+- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling and step scaling, supporting 7M users (10M at peak) and 300+ compute instances
+- **Step Scaling:** Implemented step scaling for cost savings during night time
+- **Cost Efficiency:** High-availability infrastructure supporting e-commerce operations efficiently
+- **Resource Cleanup:** Automated cleanup of unused resources contributing to cost savings
 
 ## Operational Metrics
 
 ### Deployment Metrics
-- **Deployment Frequency:** Regular deployments across Production, Pre-Production, and Sandbox environments
-- **Deployment Success Rate:** High success rate with automated CI/CD pipelines (Jenkins, GitLab CI)
+- **Deployment Frequency:** Regular deployments across DEV, SIT, UAT, PROD environments
+- **Deployment Success Rate:** High success rate with automated CI/CD pipelines (GitLab CI, Jenkins) and GitOps workflows
 - **Infrastructure as Code:** Terraform and Ansible ensure consistent deployments across environments
 - **Rollback Capability:** Automated rollback procedures in place for quick recovery if needed
+- **Deployment Speed:** 40%+ faster deployments through automation
 
 ### Incident Metrics
-- **Uptime Target:** 99.9%+ (Production environment)
-- **MTTR (Mean Time to Recovery):** Rapid recovery enabled through automated monitoring (Prometheus/Grafana) and alerting
+- **Uptime Target:** 99%+ (Production environment)
+- **MTTR (Mean Time to Recovery):** Reduced from 30 to 7 minutes through automated monitoring (Prometheus/Grafana) and alerting
 - **MTBF (Mean Time Between Failures):** High reliability with multi-zone deployment and disaster recovery capabilities
 - **Incident Response:** Comprehensive monitoring and alerting setup with Grafana alerts and GCP Stackdriver logging
 - **Disaster Recovery:** Point-in-Time Recovery (PITR) and daily backups ensure quick recovery from incidents
 
+### Automation Metrics
+- **Infrastructure Automation:** 40%+ of provisioning tasks automated
+- **CI/CD Automation:** 40%+ faster infrastructure delivery through CI/CD automation
+- **Automated Backups:** Automated backups using Python and Bash scripts with cron scheduling for MySQL, MongoDB, Elasticsearch, and Cloud SQL
+- **Automated Monitoring:** Unified observability stack reducing incident response time
+
 ## User/Client Impact
 
 ### Platform Adoption
-- **Production Status:** Fully live and operational, actively serving 7M+ monthly active users
-- **Platform Usage:** Successfully replacing ₹80 Lakh/year third-party business management software
-- **Brand Adoption:** Platform supports 5 major house brands (Faces Canada, Alps Goodness, Good Vibes, NY Bae, Carmesi)
-- **Traffic Handling:** Successfully handles regular traffic (146K daily users) and sales event spikes (670K daily users - 4.6x increase)
+- **Production Status:** Fully live and operational, actively serving 7 million users (10 million at peak)
+- **Platform Usage:** Main e-commerce platform supporting beauty and personal care retail operations
+- **User Base (General):** 7 million users
+- **User Base (Peak):** 10 million users at peak times accessing the platform
+- **Infrastructure Scale:** 300+ compute instances supporting platform operations
 
-### Client Metrics
-- **Brand Revenue Support:** ₹400+ Crore in brand advertising revenue
-- **Marketing Cost Management:** ₹180-₹210 Crore annually managed through platform
-- **House Brand Revenue:** ₹680-₹800 Crore (FY25 projected) supported by platform
-- **Cost Savings:** Brands benefit from reduced operational overhead through self-service platform
+### Business Impact
+- **User Scale:** Platform serves 7 million users generally (10 million at peak)
+- **E-Commerce Operations:** Enables seamless e-commerce operations (product catalog, checkout, payments)
+- **Operational Efficiency:** Automated infrastructure reduces operational overhead
+- **High Availability:** 99%+ uptime ensuring reliable e-commerce operations
+- **Cost Efficiency:** ₹1 Crore cost savings (30% cloud cost reduction) through optimization
 
 ## Before & After Comparison
 
 ### Before Implementation
-- **Software Cost:** ₹80 Lakh/year for third-party business management software
-- **Dependency:** Dependent on external software vendor
-- **Scalability:** Limited by third-party platform constraints
-- **Control:** Limited control over infrastructure and customization
-- **Cost per User:** Higher operational costs due to software licensing
+- **Manual Infrastructure:** Manual provisioning and management
+- **Slower Deployments:** Manual deployment processes
+- **Higher Costs:** Unoptimized infrastructure costs
+- **Longer MTTR:** 30 minutes mean time to recovery
+- **Limited Automation:** Minimal automation in infrastructure operations
 
 ### After Implementation
-- **Software Cost:** ₹0 (in-house solution)
-- **Infrastructure Cost:** ₹5.7 Lakh/year (only 7.1% of previous software cost)
-- **Net Savings:** ₹74.3 Lakh/year (93% cost reduction)
-- **Independence:** Fully independent, self-managed platform
-- **Scalability:** Built to handle 7M+ users with 4.6x traffic spikes
-- **Control:** Full control over infrastructure, customization, and feature development
-- **Cost per User:** ₹0.0069/user/month (extremely cost-efficient)
+- **Automated Infrastructure:** Infrastructure as Code with Terraform and Ansible
+- **Faster Deployments:** 40%+ faster deployments through automation
+- **Cost Optimized:** ₹1 Crore cost savings (30% cloud cost reduction)
+- **Improved MTTR:** Reduced from 30 to 7 minutes
+- **Comprehensive Automation:** 40%+ of provisioning tasks automated
+- **High Availability:** 99%+ uptime maintained
+- **Scalable Infrastructure:** 300+ compute instances, 125+ Kubernetes deployments
 
 ### Improvement
-- **Cost Reduction:** 93% reduction in software costs (₹80 Lakh → ₹5.7 Lakh infrastructure cost)
-- **ROI:** Exceptional ROI - infrastructure cost is only 7.1% of software savings
-- **Scalability:** Platform handles 7M+ monthly users and 4.6x traffic spikes during sales events
-- **Operational Efficiency:** Self-service platform reduces manual campaign management overhead
-- **Performance:** 99.9%+ uptime target with sub-100ms latency for ad serving
-- **Strategic Value:** Platform supports 40% of Purplle's total operating revenue through house brands
+- **Automation:** 40%+ faster deployments and 40%+ of provisioning tasks automated
+- **Cost Optimization:** ₹1 Crore cost savings (30% cloud cost reduction)
+- **Reliability:** 99%+ uptime maintained across all environments
+- **Performance:** Reduced MTTR from 30 to 7 minutes
+- **Scalability:** Infrastructure supports 7M users (10M at peak) and 300+ compute instances with 125+ Kubernetes deployments
+- **Horizontal Scaling:** Infrastructure scales horizontally without manual intervention using HPA, cluster autoscaling, and node pool autoscaling
+- **Event-Driven Architecture:** Kafka and Redis enable decoupled services and improved scalability
+- **Strategic Value:** Platform infrastructure supporting core e-commerce business operations
 
 ## Team & Collaboration
 
-- **Role:** DevOps Engineer
+- **Role:** DevOps Engineer (Infrastructure Deployment & Management)
 - **Team Size:** 5 people
 - **Collaboration:** Worked closely with product & engineering teams throughout the project lifecycle
   - Collaborated with product team on requirements and feature delivery
   - Worked with engineering team on infrastructure design and implementation
   - Cross-functional collaboration for deployment, monitoring, and operations
+- **Note:** Infrastructure deployment and management handled by DevOps team. Application code developed by engineering team.
 
 ## Lessons Learned
 
@@ -217,22 +167,32 @@
 
 ### What Went Well
 - **Successful Infrastructure Deployment:** Complete infrastructure stack deployed across Production, Pre-Production, and Sandbox environments
-- **Cost Optimization:** Achieved significant cost savings by replacing ₹80 Lakh/year third-party software with in-house solution
-- **Scalability:** Built platform capable of handling 4.6x traffic spikes during sales events (146K to 670K daily users)
+- **Scalability:** Built platform capable of supporting 1 crore+ users and 300+ compute instances
+- **Cost Optimization:** Achieved 30% cloud cost reduction through rightsizing and optimization
+- **Automation:** 40%+ faster deployments and 40%+ of provisioning tasks automated
+- **Monitoring:** Unified observability stack reducing MTTR from 30 to 7 minutes
 - **Cross-Functional Collaboration:** Effective collaboration between DevOps, Product, and Engineering teams
-- **Production Readiness:** Successfully deployed live platform serving 7M+ monthly active users
-- **Security Implementation:** Comprehensive security measures including zero-trust, WAF, geo-blocking, and DPDP compliance
+- **Production Readiness:** Successfully deployed live platform serving 1 crore+ users
+- **Security Implementation:** Comprehensive security measures including zero-trust, WAF, and compliance
+- **High Availability:** Achieved 99%+ uptime across all environments
 
 ### What Could Be Improved
 - **Monitoring Enhancements:** Further optimization of monitoring and alerting systems
 - **Documentation:** Continuous improvement of operational runbooks and documentation
 - **Automation:** Additional automation opportunities for deployment and scaling processes
+- **Cost Optimization:** Continued optimization of infrastructure costs
 
 ### Key Takeaways
-- **Infrastructure as Code:** IaC (Terraform, Ansible) enabled consistent deployments across environments
-- **Kubernetes at Scale:** GKE with auto-scaling effectively handles variable traffic loads
-- **Cost Efficiency:** In-house solutions can provide significant cost savings while maintaining functionality
+- **Infrastructure as Code:** IaC (Terraform, Ansible) enabled consistent deployments across all environments
+- **Kubernetes at Scale:** GKE with auto-scaling effectively handles 1 crore+ users and 300+ compute instances
+- **Multi-Environment Support:** Successfully deployed across multiple environments ensuring consistent infrastructure
 - **Security First:** Zero-trust architecture and comprehensive security measures are critical for production platforms
 - **Team Collaboration:** Close collaboration with product and engineering teams is essential for successful platform delivery
-- **Compliance:** Understanding and implementing regulatory requirements (DPDP) from the start is crucial
+- **Cost Optimization:** Rightsizing and resource cleanup can achieve significant cost savings (30% reduction)
+- **Automation Impact:** Infrastructure automation significantly improves deployment speed (40%+ faster) and reduces manual effort
+- **Observability:** Unified monitoring and alerting stack dramatically improves incident response (MTTR reduced from 30 to 7 minutes)
+- **High Availability:** 99%+ uptime achieved through robust infrastructure design and monitoring
 
+---
+
+**Note:** Infrastructure deployment and management was handled by DevOps team. Application code was developed by the engineering team.

@@ -80,10 +80,19 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 ### Key Achievements
 
 - ✅ **Live Production Platform** - Fully deployed at `adtech.purplle.com`, actively serving 7M+ users
-- ✅ **Cost Optimization** - 93% reduction in software costs (₹80 Lakh → ₹5.7 Lakh infrastructure)
+- ✅ **100+ Kubernetes Deployments** - Managed 100+ high-availability Kubernetes deployments on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
+- ✅ **Cost Optimization** - 93% reduction in software costs (₹80 Lakh → ₹5.7 Lakh infrastructure). Optimized resource utilization and cost-efficiency by rightsizing GCP/AWS instances and implementing autoscaling policies, achieving a 30% reduction in cloud spend through usage audits and resource cleanup
 - ✅ **Scalability** - Handles 4.6x traffic spikes during sales events (146K → 670K daily users)
 - ✅ **Revenue Support** - Platform supports ₹400+ Crore in brand advertising revenue
 - ✅ **House Brand Support** - Critical platform for 5 major house brands (₹680-₹800 Cr revenue)
+- ✅ **CI/CD Modernization** - Accelerated infrastructure delivery speed by 40%+ by collaborating on CI/CD automation using Terraform, Jenkins, and GitOps, automating over 40% of provisioning tasks. Modernized CI/CD infrastructure by migrating from freestyle bash jobs to scripted pipeline jobs in Jenkins, integrated with Slack for real-time job failure alerts, improving monitoring and reducing incident response time
+- ✅ **Monitoring & Observability** - Reduced Mean Time to Recovery (MTTR) from 30 to 7 minutes by architecting a unified observability stack with Prometheus and Grafana, enabling real-time monitoring and automated incident escalation
+- ✅ **Infrastructure Automation** - 40%+ faster deployments through Terraform and CI/CD automation
+- ✅ **Data Persistence & DR** - Engineered high-availability Data Persistence and Disaster Recovery (DR) solutions for MySQL, MongoDB, and Elasticsearch, utilizing automated backup triggers to ensure system resilience and data integrity
+- ✅ **Elasticsearch Automation** - Engineered agentic AI-based automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining cluster provisioning and lifecycle management
+- ✅ **Security Implementation** - Hardened container security by implementing Kubernetes RBAC, Secure Boot, automated IAM role minimization using Python, and Trivy container scanning integrated with GitLab CI to detect and remediate vulnerable code, adhering to zero-trust architecture and DevSecOps principles. Strengthened microservices security by deploying Secrets Manager across Kubernetes (K8s) clusters and VMs, decoupling sensitive credentials from application source code. Implemented Single Sign-On (SSO) authentication & IP Whitelisting for multiple internal URLs, centralizing access control and improving security posture. Implemented defense-in-depth security controls to enforce traffic segmentation and access restrictions, ensuring secure and compliant deployments across environments
+- ✅ **4-Tier Architecture** - Scalable architecture pattern with multi-layer security
+- ✅ **Multi-Cloud Infrastructure** - Hybrid cloud architecture (AWS Route53 + GCP GKE)
 
 ## Technical Stack
 
@@ -91,11 +100,47 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 **Container Orchestration:** Kubernetes (GKE), K8s Ingress, Deployments, Services  
 **Service Discovery:** kubedns (Kubernetes DNS) for internal cluster networking  
 **Databases:** Cloud SQL (MySQL/PostgreSQL), Redis, Cloud SQL Proxy  
-**CI/CD:** Jenkins, GitLab CI  
-**Infrastructure as Code:** Terraform, Ansible  
-**Monitoring:** Prometheus, Grafana, GCP Stackdriver  
-**Security:** Zero Trust, WAF, Geo-blocking, Rate Limiting, Bot Protection, DPDP Compliance  
+**CI/CD:** Jenkins (scripted pipeline jobs with Slack integration), GitLab CI (with automated testing and Trivy security scanning), GitOps workflows  
+**Infrastructure as Code:** Terraform (reusable modules), Ansible, GitOps workflows  
+**Monitoring:** Prometheus, Grafana, GCP Stackdriver (unified observability stack)  
+**Security:** Zero Trust, WAF, Geo-blocking, Rate Limiting, Bot Protection, DPDP Compliance, Kubernetes RBAC, Secure Boot, Automated IAM role minimization (Python), Trivy container scanning (GitLab CI), GCP Secrets Manager, SSO, IP Whitelisting, Defense-in-Depth  
 **Authentication & Authorization:** Keycloak (Identity Provider), Sentinel Service (RBAC - Kubernetes deployment)
+
+## Architecture Overview
+
+![PurplleAds Architecture](../../assets/purplle/purplle.png)
+
+*4-Tier Architecture Diagram - See [Architecture Details](architecture.md) for complete technical documentation and [Mermaid Diagram](architecture-diagram.mmd) for diagram source*
+
+## Infrastructure Automation & Deployment
+
+**Infrastructure as Code:**
+- Standardized on Terraform for Infrastructure as Code and integrated into GitOps workflows
+- Created reusable, parameterized Terraform modules for:
+  - GKE clusters with multi-environment support
+  - Cloud SQL instances (MySQL/PostgreSQL) with automated backups
+  - VPCs and network configurations
+  - Load balancers (ALB, GCLB) with WAF integration
+  - Kubernetes deployments and services
+- Built Python scripts to automate IAM role management, reducing misconfigurations
+- Integrated into GitLab CI and Jenkins pipelines with automated testing
+- **Result:** 40%+ faster deployments with consistent infrastructure, automating over 40% of provisioning tasks
+
+**CI/CD Automation:**
+- GitLab CI pipelines for automated infrastructure provisioning and application deployments
+- Jenkins pipelines integrated with Terraform for infrastructure automation
+- Modernized CI/CD infrastructure by migrating from freestyle bash jobs to scripted pipeline jobs in Jenkins
+- Integrated Slack for real-time job failure alerts, improving monitoring and reducing incident response time
+- Automated testing and validation in CI/CD workflows
+- GitOps approach for consistent infrastructure management
+- Automated security scanning (Trivy) integrated into GitLab CI deployment pipelines
+- **Result:** Accelerated infrastructure delivery speed by 40%+, automating over 40% of provisioning tasks
+
+**Multi-Environment Deployment:**
+- Parameterized Terraform modules enabling consistent deployment across environments
+- Environment-specific configurations while maintaining infrastructure consistency
+- Automated environment provisioning and management
+- **Result:** Consistent infrastructure across Production, Pre-Production, and Sandbox environments
 
 ## Service Architecture
 
@@ -104,6 +149,7 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 - Services communicate through Kubernetes service discovery and internal networking
 - **Internal Networking:** kubedns (Kubernetes DNS) handles service discovery and DNS resolution for inter-service communication within the cluster
 - Each service is containerized and managed through Kubernetes orchestration
+- Managed 100+ high-availability Kubernetes deployments on GKE, ensuring optimal performance, scalability, and reliability in production
 
 **Authentication & Authorization Flow:**
 - **Keycloak:** Handles identity verification and authentication for all platform users
@@ -112,11 +158,21 @@ PurplleAds is an in-house brand management platform that enables brands to adver
   - Manages role-based permissions and access control for platform services
   - Not managed by this project (separate service)
   - Validates user permissions before allowing access to application services
+- Automated service account management for secure inter-service communication
+
+**Security Automation:**
+- Hardened container security by implementing Kubernetes RBAC, Secure Boot, automated IAM role minimization using Python, and Trivy container scanning integrated with GitLab CI to detect and remediate vulnerable code, adhering to zero-trust architecture and DevSecOps principles
+- Strengthened microservices security by deploying Secrets Manager across Kubernetes (K8s) clusters and VMs, decoupling sensitive credentials from application source code
+- Implemented Single Sign-On (SSO) authentication & IP Whitelisting for multiple internal URLs, centralizing access control and improving security posture
+- Implemented defense-in-depth security controls to enforce traffic segmentation and access restrictions, ensuring secure and compliant deployments across environments
+- Zero-trust security principles with automated network logging and public IP cleanup
+- WAF rules configured for geo-blocking, rate limiting, and bot protection
 
 ## Documentation
 
 For detailed information, see:
 - **[Architecture Details](architecture.md)** - Complete technical architecture and infrastructure design
+- **[Architecture Diagram](architecture-diagram.mmd)** - Mermaid diagram source for 4-tier architecture
 - **[Metrics & Analysis](metrics.md)** - Detailed metrics, cost analysis, and business performance data
 
 ---
