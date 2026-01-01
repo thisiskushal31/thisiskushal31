@@ -14,6 +14,10 @@ PurplleAds is a Kubernetes-based adtech platform deployed on GCP (GKE) with a mu
 
 ## Quick Architecture Overview
 
+![PurplleAds Architecture](../../assets/purplle/purplle.png)
+
+*4-Tier Architecture Diagram - See [architecture-diagram.mmd](architecture-diagram.mmd) for Mermaid diagram reference*
+
 ### Multi-Tier Architecture Summary
 
 **Tier 1: DNS & Security Layer**
@@ -513,6 +517,8 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
 
 ## Monitoring & Observability
 
+- **Unified Observability Stack:** Architectured unified observability stack with Prometheus and Grafana, enabling real-time monitoring and automated incident escalation
+
 - **Metrics Collection:** 
   - Prometheus deployed in Kubernetes cluster for metrics collection
   - Scrapes metrics from K8s pods, services, and infrastructure components
@@ -532,21 +538,85 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
     - Database connection issues
     - Service downtime
     - Performance degradation
+  - **MTTR Reduction:** Reduced Mean Time to Recovery (MTTR) from 30 to 7 minutes by architecting a unified observability stack with Prometheus and Grafana, enabling real-time monitoring and automated incident escalation
 - **Logging:** 
   - GCP Stackdriver (Cloud Logging) for centralized log aggregation
   - Application logs, access logs, and system logs collected
   - Log-based monitoring and analysis
   - Integration with GCP monitoring stack
 
+## Infrastructure Automation
+
+### Infrastructure as Code
+
+- **Terraform Modules:**
+  - Reusable, parameterized Terraform modules for common GCP patterns
+  - Modules for GKE clusters, Cloud SQL instances, VPCs, load balancers (ALB, GCLB) with WAF integration
+  - Kubernetes deployments and services defined as code
+  - Environment-specific configurations while maintaining infrastructure consistency
+  - **Result:** 40%+ faster deployments with consistent infrastructure
+
+- **Ansible Integration:**
+  - Configuration management for system-level settings
+  - Automated application configuration and deployment
+  - Integration with Terraform for complete infrastructure automation
+
+- **GitOps Workflows:**
+  - Infrastructure changes managed through version-controlled Git repositories
+  - Automated testing and validation of infrastructure changes
+  - Consistent infrastructure management across environments
+
+### CI/CD Automation
+
+- **Accelerated Infrastructure Delivery:** Accelerated infrastructure delivery speed by 40%+ by collaborating on CI/CD automation using Terraform, Jenkins, and GitOps, automating over 40% of provisioning tasks
+
+- **GitLab CI Integration:**
+  - Automated infrastructure provisioning through GitLab CI pipelines
+  - Integrated Trivy security scanning into GitLab CI deployment pipelines
+  - Automated testing and validation of infrastructure changes
+  - Application deployment automation
+
+- **Jenkins Integration:**
+  - Jenkins pipelines integrated with Terraform for infrastructure automation
+  - **CI/CD Modernization:** Modernized CI/CD infrastructure by migrating from freestyle bash jobs to scripted pipeline jobs in Jenkins, integrated with Slack for real-time job failure alerts, improving monitoring and reducing incident response time
+  - Automated deployment workflows
+  - Integration with monitoring and alerting systems
+
+- **Automated Security:**
+  - Trivy scanning integrated into CI/CD pipelines to catch vulnerabilities early
+  - Automated IAM role minimization to enforce least privilege access
+  - GCP Secrets Manager integration for secure credential management
+  - Automated network logging and public IP cleanup
+
+### Service Orchestration
+
+- **Kubernetes Deployment Management:**
+  - Managed 100+ high-availability Kubernetes deployments on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
+  - Automated deployment of application services (billing, campaign services) as Kubernetes deployments
+  - kubedns (Kubernetes DNS) for internal service discovery
+  - Automated service account management for secure inter-service communication
+
+- **Elasticsearch Automation:**
+  - **Agentic AI-Based Automation:** Engineered agentic AI-based automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining cluster provisioning and lifecycle management
+
+- **Automated Backups:**
+  - Cloud SQL automated daily backups with Point-in-Time Recovery (PITR)
+  - Automated backup scheduling and retention policies
+  - **Result:** Improved data resilience with automated disaster recovery processes
+
 ## Disaster Recovery
+
+- **High-Availability Data Persistence and DR:** Engineered high-availability Data Persistence and Disaster Recovery (DR) solutions for MySQL, MongoDB, and Elasticsearch, utilizing automated backup triggers to ensure system resilience and data integrity
 
 - **Backup Strategy:** 
   - Cloud SQL point-in-time recovery (PITR) enabled
   - Daily automated backups stored in GCS
   - Backup retention policy configured for compliance
+  - Cloud SQL automated daily backups with Point-in-Time Recovery (PITR)
+  - Automated backup triggers for MySQL, MongoDB, and Elasticsearch
 - **DR Plan:** 
   - **Point-in-Time Recovery:** Configured in different subnet/zone for geographic redundancy
-  - **Infrastructure as Code (IaC):** Complete infrastructure defined in Terraform/Ansible
+  - **Infrastructure as Code (IaC):** Complete infrastructure defined in Terraform/Ansible with reusable modules
   - **DR Environment:** Ready-to-deploy infrastructure code for rapid recovery
   - **Backup Restoration:** Automated restore procedures from daily backups
   - **Multi-Zone Deployment:** Production infrastructure spans multiple availability zones
@@ -561,7 +631,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
   - **Kubernetes Usage-Based Scaling:** 
     - Horizontal Pod Autoscaler (HPA) configured based on CPU, memory, and custom metrics
     - Pods automatically scale up/down based on actual usage and demand
-    - Supports traffic spikes during peak hours and sales events
+    - Supports traffic spikes during peak hours and sales events (4.6x traffic increase during sales events)
   - **Nginx Ingress Scaling:** 
     - Nginx ingress controller scales automatically based on network load
     - Handles increased traffic volume during high-demand periods
@@ -569,10 +639,15 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
   - **Database Scaling:** 
     - Cloud SQL read replicas for read-heavy workloads
     - Connection pooling to handle concurrent requests
+  - **Infrastructure Automation:** 
+    - Parameterized Terraform modules enable easy environment replication
+    - Automated scaling through infrastructure as code
+    - Consistent scaling patterns across environments
 - **Vertical Scaling:** 
   - Cloud SQL instance sizing can be adjusted based on workload
   - Kubernetes node pool scaling for compute resources
   - Redis cluster scaling for cache capacity
+  - Automated scaling policies managed through Terraform
 - **Performance Optimization:** 
   - **Caching Strategy:** 
     - Redis caching layer reduces database load by 60-80%

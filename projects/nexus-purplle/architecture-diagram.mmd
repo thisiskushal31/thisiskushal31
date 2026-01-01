@@ -1,5 +1,5 @@
 ---
-# PurplleAds - 4-Tier Architecture Diagram
+# Nexus POS - 4-Tier Architecture Diagram
 # Reference: See architecture image at ../../assets/purplle/purplle.png
 # This Mermaid diagram provides a generic representation of the 4-tier architecture
 ---
@@ -22,18 +22,21 @@ flowchart TB
         Ingress[Ingress Controller]
         Services[Application Services]
         Deployments[Application Deployments]
+        Kafka[Messaging - Kafka]
         LB2 --> Ingress
         Ingress --> Services
         Services --> Deployments
+        Deployments --> Kafka
     end
     
     subgraph Tier4["Tier 4: Data Layer"]
-        Cache[Cache Layer]
+        Cache[Cache Layer - Redis]
         Proxy[Database Proxy]
         Database[Primary Database]
         Deployments --> Cache
         Cache --> Proxy
         Proxy --> Database
+        Kafka --> Cache
     end
     
     Client[Client/User] --> DNS

@@ -1,0 +1,120 @@
+---
+# Purplle Platform - 4-Tier Architecture Diagram
+# Reference: See architecture image at ../../assets/purplle/purplle.png
+# This Mermaid diagram provides a representation of the 4-tier architecture
+# Based on actual infrastructure: Production LB, Management LBs, GKE (Zone A/B), 
+# App Server IGs, Management Instances, MySQL Master-Slave, Redis, Elasticsearch, MongoDB
+---
+
+flowchart TB
+    subgraph Tier1["Tier 1: DNS & Security Layer"]
+        Users[Mobile/Desktop Users]
+        DNS[Route 53]
+        WAF[Reblaze WAF]
+        Users --> DNS
+        DNS --> WAF
+    end
+    
+    subgraph Tier2["Tier 2: Load Balancing Layer"]
+        ProdLB[Production LB]
+        ManageLB1[Manage-001 LB]
+        ManageLB2[manageapi-lb]
+        ManageLB3[reporting-manage-lb]
+        ManageLB4[manageutil LB]
+        WAF --> ProdLB
+        WAF --> ManageLB1
+        WAF --> ManageLB2
+        WAF --> ManageLB3
+        WAF --> ManageLB4
+    end
+    
+    subgraph Tier3["Tier 3: Application Layer"]
+        subgraph ZoneA["Zone A"]
+            GKE_A[GCP Kubernetes Engine]
+            AppIG_A[app-server IG<br/>2 app-instances]
+        end
+        subgraph ZoneB["Zone B"]
+            GKE_B[GCP Kubernetes Engine]
+            AppIG_B[app-server-01 IG<br/>2 app-instances]
+        end
+        subgraph ZoneAB["Zone A/B"]
+            Manage01[manage-01]
+            ManageAPI1[manage-api 1]
+            ManageAPI2[manage-api 2]
+            ManageUtil[manage-util-01]
+        end
+        ProdLB --> GKE_A
+        ProdLB --> GKE_B
+        ProdLB --> AppIG_A
+        ProdLB --> AppIG_B
+        ManageLB1 --> Manage01
+        ManageLB2 --> ManageAPI1
+        ManageLB2 --> ManageAPI2
+        ManageLB3 --> ManageAPI2
+        ManageLB4 --> ManageUtil
+    end
+    
+    subgraph Tier4["Tier 4: Data Layer"]
+        subgraph MySQL["MySQL Databases"]
+            MySQL_Master1[MySQL Master<br/>purplle_purplle2]
+            MySQL_Slave1[MySQL Slaves<br/>3 instances]
+            MySQL_Master2[MySQL Master<br/>warehouseDB]
+            MySQL_Slave2[MySQL Slave<br/>warehouse]
+            MySQL_Master1 --> MySQL_Slave1
+            MySQL_Master2 --> MySQL_Slave2
+        end
+        subgraph Cache["Cache Layer"]
+            Redis[Redis]
+            RedisPersist[Redis persistence]
+            Memorystore[Memorystore]
+        end
+        Elasticsearch[Elasticsearch]
+        MongoDB[MongoDB]
+        CloudNAT[GCP Cloud NAT]
+    end
+    
+    GKE_A --> MySQL_Master1
+    GKE_A --> Redis
+    GKE_A --> Elasticsearch
+    GKE_B --> MySQL_Master1
+    GKE_B --> Redis
+    GKE_B --> Elasticsearch
+    AppIG_A --> MySQL_Master1
+    AppIG_A --> Redis
+    AppIG_A --> Elasticsearch
+    AppIG_B --> MySQL_Master1
+    AppIG_B --> Redis
+    AppIG_B --> Elasticsearch
+    
+    Manage01 --> MySQL_Master1
+    Manage01 --> Redis
+    Manage01 --> Elasticsearch
+    Manage01 --> MongoDB
+    ManageAPI1 --> MySQL_Master1
+    ManageAPI1 --> Redis
+    ManageAPI1 --> Elasticsearch
+    ManageAPI1 --> MongoDB
+    ManageAPI2 --> MySQL_Master1
+    ManageAPI2 --> Redis
+    ManageAPI2 --> Elasticsearch
+    ManageAPI2 --> MongoDB
+    ManageUtil --> MySQL_Master1
+    ManageUtil --> MySQL_Master2
+    ManageUtil --> Redis
+    ManageUtil --> Elasticsearch
+    ManageUtil --> MongoDB
+    
+    CloudNAT --> Internet[Internet]
+    MySQL_Master1 --> CloudNAT
+    MySQL_Master2 --> CloudNAT
+    Redis --> CloudNAT
+    Elasticsearch --> CloudNAT
+    MongoDB --> CloudNAT
+    
+    style Tier1 fill:#e1f5ff
+    style Tier2 fill:#fff4e1
+    style Tier3 fill:#e8f5e9
+    style Tier4 fill:#fce4ec
+    style ZoneA fill:#f3e5f5
+    style ZoneB fill:#f3e5f5
+    style ZoneAB fill:#fff9c4

@@ -3,151 +3,145 @@
 ## Performance Metrics
 
 ### System Performance
-- **Uptime:** Target 99.9%+ (Production environment)
-- **Average Response Time:** [To be measured - target <100ms for ad serving]
-- **Peak Throughput:** Supports 7M+ monthly users
-  - Regular days: ~146K daily users
-  - Sales events: ~670K daily users (4.6x spike)
-  - Overall average: ~233K daily users
+- **Uptime:** 99%+ maintained across all environments (DEV, SIT, UAT, PROD)
+- **Average Response Time:** [To be measured - target <100ms for POS operations]
+- **Peak Throughput:** Supports 500+ store employees daily across 100+ stores
 - **Error Rate:** Target <0.1% error rate
-- **Scalability:** Infrastructure handles 4.6x traffic spikes during sales events
+- **Scalability:** Infrastructure handles retail operations across 100+ stores with auto-scaling (1-6 pods based on demand)
+- **Auto-scaling:** Pods automatically scale from 1 pod (night) to 6 pods (peak time), averaging 3 pods
 
 ### Infrastructure Metrics
 - **Infrastructure Deployment:** Fully deployed and operational across all environments
-- **Environment Coverage:** Production (Live), Pre-Production, Sandbox
-- **Production Status:** Live and actively serving traffic
+- **Environment Coverage:** DEV, SIT, UAT, PROD
+- **Production Status:** Live and actively serving traffic at `nexus.purplle.com`
 - **Resource Utilization:** [Monitored via Prometheus/Grafana]
-- **Network Performance:** ALB and GCLB (provisioned by GKE Ingress) handling high-volume traffic
-- **Kubernetes Cluster Health:** GKE clusters operational across environments
+- **Network Performance:** ALB and GCLB (provisioned by GKE Ingress) handling retail operations traffic
+- **Kubernetes Cluster Health:** GKE clusters operational across all four environments
 
-### Cost Savings Metrics
-- **Third-Party Software Replacement:** Replaced ₹80 Lakh/year business management software
-- **Annual Cost Savings:** ₹80 Lakh/year
-- **Infrastructure Cost:** ₹5.7 Lakh/year (GKE infrastructure)
-- **Net Annual Savings:** ₹74.3 Lakh/year (after infrastructure costs)
-- **ROI:** Exceptional return on investment - infrastructure cost is only 7.1% of software savings
-- **Cost Efficiency:** Infrastructure handles 7M+ users and 133M+ clicks at minimal cost
+### Cost Metrics
+- **Infrastructure Cost:** GCP/GKE infrastructure costs tracked and monitored
+- **Cost Efficiency:** Infrastructure supports 100+ stores and 500+ daily users efficiently
+- **Infrastructure Reliability:** 99%+ uptime maintained across all environments
 
 ### Infrastructure Cost Metrics
-- **Monthly Infrastructure Cost:** ~₹48,000/month (~$570/month)
-- **Annual Infrastructure Cost:** ~₹5.7 Lakh/year
-- **Cost Per User (Monthly):** ~₹0.0069/user/month (0.69 paise)
-- **Cost Per Click:** ~₹0.0043/click (0.43 paise)
-- **Infrastructure Efficiency:** High - supports massive scale at minimal cost
+- **Infrastructure Cost:** GCP/GKE infrastructure costs tracked and monitored
+- **Infrastructure Efficiency:** High - supports 100+ stores and 500+ daily users efficiently
+- **Cost per Store:** Infrastructure cost distributed across 100+ retail stores
+- **Cost per Employee:** Infrastructure cost distributed across 500+ daily active employees
 
 ## Business Impact Metrics
 
 ### User Metrics
-- **Monthly Active Users:** 7,000,000 users/month
-- **Average Daily Active Users (Regular Days):** 146,000 users/day
-- **Peak Daily Active Users (Sales Events):** ~670,000 users/day (4.6x regular average)
-- **Overall Average DAU:** ~233,333 users/day (7M ÷ 30)
-- **Platform Scale:** High-volume ad serving infrastructure designed to handle 4.6x traffic spikes during sales
+- **Daily Active Users:** 500+ store employees using the platform daily
+- **Store Coverage:** 100+ retail stores
+- **Platform Scale:** POS infrastructure supporting retail operations across 100+ stores
+- **User Base:** Store employees managing retail operations and transactions
 
-### Click Metrics
-- **Total Annual Clicks:** ~13.33 Crore clicks/year (133.3 million clicks)
-- **Monthly Clicks:** ~1.11 Crore clicks/month (11.1 million clicks)
-- **Daily Clicks:** ~3.65 Lakh clicks/day (365,297 clicks/day)
-- **Peak Daily Clicks:** Significantly higher during sales events and promotions
-- **Transaction Volume:** Database handles millions of click transactions daily at this scale
+### Transaction Metrics
+- **Transaction Volume:** Database handles POS transactions from 100+ stores
+- **Daily Transactions:** POS transactions processed daily across all stores
+- **Transaction Processing:** Reliable transaction processing for retail operations
+- **Data Volume:** Transaction data and retail operations data managed by the platform
 
 ### Financial Metrics
 
 **Platform Revenue:**
-- **Brand Advertising Revenue:** ₹400+ Crore
-- **Total Marketing Cost Managed:** ₹180-₹210 Crore annually
-
-**House Brand Performance (FY 2025 Estimates):**
-- **Total House Brand Revenue:** ₹680-₹800 Crore
-- **Total Marketing Spend:** ₹167-₹198 Crore
-- **Average Marketing % of Revenue:** ~24%
-- **Revenue Contribution:** 40% of Purplle's total operating revenue
+- **Revenue Generation:** 40+ Crores in revenue supported by the platform
+- **Store Operations:** Platform enables revenue generation across 100+ retail stores
+- **Transaction Processing:** POS transactions contributing to overall revenue
 
 ### Key Performance Indicators (KPIs)
-- **Average Daily Active Users (Regular):** 146,000 users/day
-- **Peak Daily Active Users (Sales):** ~670,000 users/day (4.6x spike)
-- **Overall Average DAU:** ~233,333 users/day
-- **Daily Brand Revenue:** ~₹1.1 Crore/day (₹400 Cr ÷ 365)
-- **Daily Marketing Cost:** ~₹0.49-0.58 Crore/day (₹180-210 Cr ÷ 365)
-- **Infrastructure Deployment:** Fully deployed and operational across all environments
-- **Traffic Spike Handling:** Successfully handles 4.6x traffic increase during sales events
+- **Daily Active Users:** 500+ store employees daily
+- **Store Coverage:** 100+ retail stores
+- **Revenue Generation:** 40+ Crores in revenue supported
+- **Uptime:** 99%+ uptime maintained across all environments
+- **Infrastructure Deployment:** Fully deployed and operational across DEV, SIT, UAT, and PROD environments
+- **Platform Reliability:** High-availability infrastructure ensuring consistent retail operations
 
 ### Cost Metrics
-- **Infrastructure Cost:** ₹5.7 Lakh/year (~₹48,000/month) - GCP/GKE costs tracked and monitored
-- **Cost per User (Monthly):** ~₹0.0069/user/month (0.69 paise per user)
-- **Cost per User (Annual):** ~₹0.081/user/year (8.1 paise per user)
-- **Cost per Click:** ~₹0.0043/click (0.43 paise per click)
-- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling, handling 7M+ users and 133M+ clicks at minimal cost
-- **Cost Efficiency:** Infrastructure cost is only 7.1% of software savings (₹5.7 Lakh vs ₹80 Lakh saved)
+- **Infrastructure Cost:** ~₹5.4 Lakh/year (~₹45,400/month) - GCP/GKE costs tracked and monitored
+- **Deployment Scale:** Single service with auto-scaling pods (1-6 pods) - cost-optimized deployment
+- **Auto-scaling Pattern:** Scales from 1 pod (night) to 6 pods (peak), averaging 3 pods
+- **Cost Optimization:** Infrastructure efficiency through single-service deployment, supporting 100+ stores and 500+ daily users
+- **Cost Efficiency:** High-availability infrastructure with lower footprint supporting retail operations efficiently
+- **Cost per Store:** Infrastructure cost distributed across 100+ retail stores
+- **Cost per Employee:** Infrastructure cost distributed across 500+ daily active employees
 
 ### Detailed Infrastructure Cost Breakdown
 
 **GKE Infrastructure Deployment:**
 - **Region:** Mumbai (asia-south1)
 - **Configuration Mode:** GKE Standard
+- **Environments:** DEV, SIT, UAT, PROD clusters
+- **Deployment Scale:** Single service with auto-scaling pods (1-6 pods based on demand)
 
 **Node Pool Specifications & Costs:**
 
-| Node Pool | VM Type | Config | Pod Capacity (at 1000m-1500m request) | Monthly Cost (Est.) |
-|-----------|---------|--------|----------------------------------------|---------------------|
-| **Main Workload** | n2-standard-8 | 8 vCPU, 32GB RAM | ~5-6 High-Res Pods* | $340.60 (₹28,600) |
-| **Ingress/LB** | n2-standard-4 | 4 vCPU, 16GB RAM | Dedicated Nginx Ingress | $170.30 (₹14,300) |
+| Node Pool | VM Type | Config | Pod Capacity | Monthly Cost (Est.) |
+|-----------|---------|--------|--------------|---------------------|
+| **Main Workload** | n2-standard-8 | 8 vCPU, 32GB RAM | Auto-scaling: 1-6 pods* | $340.60 (₹28,600) |
+| **Ingress/LB** | n2-standard-4 | 4 vCPU, 16GB RAM | Dedicated Nginx Ingress | ~$141.80 (₹11,900)** |
 
-*Note: While a node pool supports up to 32/110 pods, the physical CPU limit of n2-8 (8000m) restricts pods with 1500m requests to ~5 per VM.
+*Pod scaling pattern:
+- **Night time:** 1 pod (low traffic)
+- **Peak time:** 6 pods (high traffic)
+- **Shop closing time:** 3 pods (moderate traffic)
+- **Average:** 3 pods
+
+**Note: n2-standard-4 pricing varies by region. Mumbai (asia-south1) region pricing may differ. Cost shown is approximate based on standard on-demand pricing.
+
+**Note:** Single service deployment with auto-scaling pods (1-6 pods) running on the main workload node pool. Pods automatically scale based on demand and time of day.
 
 **Fixed & Networking Costs:**
 - **Cluster Management Fee:** $73.00 (Standard Tier - 1 Zonal cluster)
 - **GKE Free Tier Credit:** -$74.40 (Covers management fee for 1 cluster)
 - **Load Balancer (ALB):** ~$25.00/month (Forwarding rules + basic data processing)
 - **Persistent Storage (SSD):** ~$35.00 (200GB Balanced PD)
+- **Net Fixed Costs:** ~$58.60/month (after GKE Free Tier credit)
 
-**Total Infrastructure Cost:**
-- **Monthly:** ~$570.00 (approx. ₹48,000/month)
-- **Annual:** ~₹5.7 Lakh/year
+**Total Infrastructure Cost (Estimated):**
+- **Compute (n2-standard-8):** ~$340.60/month
+- **Compute (n2-standard-4):** ~$141.80/month
+- **Fixed & Networking:** ~$58.60/month
+- **Total Monthly:** ~$541.00 (approx. ₹45,400/month)
+- **Total Annual:** ~₹5.4 Lakh/year
 
-**Cost Breakdown Analysis:**
+*Note: Costs are estimates based on on-demand pricing for Mumbai (asia-south1) region. Actual costs may vary based on usage, committed use discounts, and regional pricing differences.
 
-| Cost Category | Annual Cost | % of Software Savings |
-|--------------|-------------|----------------------|
-| Infrastructure (GKE) | ₹5.7 Lakh | ~7.1% |
-| Software Savings | ₹80 Lakh | 100% (baseline) |
-| **Net Savings** | **₹74.3 Lakh** | **~93%** |
+**Cost Optimization Notes:**
+- Lower infrastructure footprint compared to multi-service deployments
+- Single service with auto-scaling pods (1-6 pods) enables efficient resource utilization
+- Auto-scaling reduces costs during low-traffic periods (night time: 1 pod)
+- Scales up during peak times (6 pods) to handle high demand
+- Average of 3 pods balances cost and performance
+- Cost-effective deployment supporting 100+ stores and 500+ daily users
+
+**Infrastructure Components:**
+- **Kubernetes Clusters:** GKE Standard clusters across four environments (DEV, SIT, UAT, PROD)
+- **Application Deployment:** Single service with auto-scaling pods (1-6 pods based on demand)
+- **Node Pools:** Main workload pool and Ingress/LB pool
+- **Load Balancers:** ALB and GCLB (provisioned by GKE Ingress)
+- **Databases:** Cloud SQL (MySQL/PostgreSQL) with automated backups
+- **Caching & Messaging:** Redis for caching, Kafka for messaging
+- **Networking:** VPC, kubedns for service discovery, Cloud SQL Proxy
 
 ### Business Model
 
-**Revenue Streams:**
-1. **Brand Advertising Fees:** Brands pay for ad placements
-2. **Bidding System:** Revenue from competitive bidding for premium placements
-3. **Daily Budget Management:** Revenue from brands managing daily advertising spend
+**Platform Purpose:**
+- In-house POS software for store management and retail operations
+- Enables store teams to manage retail operations across 100+ stores
+- Supports 500+ store employees daily
+- Generates 40+ Crores in revenue
 
 **Cost Structure:**
 1. **Infrastructure Costs:** Cloud infrastructure, load balancers, compute resources
 2. **Platform Maintenance:** Ongoing development and maintenance
-3. **Data Processing:** User preference data processing and targeting
-
-### House Brand Financial Performance (FY 2025 Estimates)
-
-**Total private label revenue is projected to hit ₹450–₹500 Crore, making up roughly 40% of Purplle's total operating revenue.**
-
-| Brand | Estimated Revenue (FY25) | Est. Marketing Cost (FY25) | Marketing as % of Revenue | Strategy |
-|-------|------------------------|---------------------------|--------------------------|----------|
-| **Faces Canada** | ₹240 - ₹280 Cr | ₹65 - ₹75 Cr | ~27% | Premium / Offline |
-| **Alps Goodness** | ₹180 - ₹210 Cr | ₹40 - ₹45 Cr | ~22% | Ingredients-led |
-| **Good Vibes** | ₹150 - ₹170 Cr | ₹30 - ₹35 Cr | ~20% | Volume / Mass |
-| **NY Bae** | ₹90 - ₹110 Cr | ₹22 - ₹28 Cr | ~25% | Digital / Tier 2-3 |
-| **Carmesi** | ₹20 - ₹30 Cr | ₹10 - ₹15 Cr | ~45% | Premium Hygiene |
-| **TOTAL** | **₹680 - ₹800 Cr** | **₹167 - ₹198 Cr** | **~24% Avg.** | |
-
-**Key Insights:**
-1. **House Brand Revenue Contribution:** ₹680-₹800 Crore represents ~40% of Purplle's total operating revenue
-2. **Marketing Efficiency:** Average marketing spend is ~24% of revenue across house brands
-3. **Brand Performance Variance:** Marketing % ranges from 20% (Good Vibes) to 45% (Carmesi)
-4. **Scale:** Platform manages significant marketing spend (₹167-₹198 Cr) across 5 major house brands
+3. **Operations:** Retail operations and transaction processing
 
 ## Operational Metrics
 
 ### Deployment Metrics
-- **Deployment Frequency:** Regular deployments across Production, Pre-Production, and Sandbox environments
+- **Deployment Frequency:** Regular deployments across DEV, SIT, UAT, and PROD environments
 - **Deployment Success Rate:** High success rate with automated CI/CD pipelines (Jenkins, GitLab CI)
 - **Infrastructure as Code:** Terraform and Ansible ensure consistent deployments across environments
 - **Rollback Capability:** Automated rollback procedures in place for quick recovery if needed
@@ -162,51 +156,48 @@
 ## User/Client Impact
 
 ### Platform Adoption
-- **Production Status:** Fully live and operational, actively serving 7M+ monthly active users
-- **Platform Usage:** Successfully replacing ₹80 Lakh/year third-party business management software
-- **Brand Adoption:** Platform supports 5 major house brands (Faces Canada, Alps Goodness, Good Vibes, NY Bae, Carmesi)
-- **Traffic Handling:** Successfully handles regular traffic (146K daily users) and sales event spikes (670K daily users - 4.6x increase)
+- **Production Status:** Fully live and operational at `nexus.purplle.com`, actively serving 500+ store employees daily
+- **Platform Usage:** In-house POS software supporting retail operations across 100+ stores
+- **Store Adoption:** Platform deployed and operational across 100+ retail stores
+- **User Adoption:** 500+ store employees using the platform daily for retail operations
 
-### Client Metrics
-- **Brand Revenue Support:** ₹400+ Crore in brand advertising revenue
-- **Marketing Cost Management:** ₹180-₹210 Crore annually managed through platform
-- **House Brand Revenue:** ₹680-₹800 Crore (FY25 projected) supported by platform
-- **Cost Savings:** Brands benefit from reduced operational overhead through self-service platform
+### Business Impact
+- **Revenue Generation:** 40+ Crores in revenue supported by the platform
+- **Store Operations:** Enables seamless retail operations across 100+ store locations
+- **Operational Efficiency:** Self-service platform for store management reduces operational overhead
+- **High Availability:** 99%+ uptime ensuring reliable retail operations
 
 ## Before & After Comparison
 
 ### Before Implementation
-- **Software Cost:** ₹80 Lakh/year for third-party business management software
-- **Dependency:** Dependent on external software vendor
+- **Dependency:** Dependent on third-party POS solutions
 - **Scalability:** Limited by third-party platform constraints
 - **Control:** Limited control over infrastructure and customization
-- **Cost per User:** Higher operational costs due to software licensing
+- **Store Management:** Manual processes and limited integration capabilities
 
 ### After Implementation
-- **Software Cost:** ₹0 (in-house solution)
-- **Infrastructure Cost:** ₹5.7 Lakh/year (only 7.1% of previous software cost)
-- **Net Savings:** ₹74.3 Lakh/year (93% cost reduction)
-- **Independence:** Fully independent, self-managed platform
-- **Scalability:** Built to handle 7M+ users with 4.6x traffic spikes
+- **In-House Solution:** Fully independent, self-managed POS platform
+- **Scalability:** Built to support 100+ stores with consistent performance
 - **Control:** Full control over infrastructure, customization, and feature development
-- **Cost per User:** ₹0.0069/user/month (extremely cost-efficient)
+- **Store Management:** Self-service platform enabling efficient retail operations
+- **High Availability:** 99%+ uptime across all environments ensuring reliable operations
 
 ### Improvement
-- **Cost Reduction:** 93% reduction in software costs (₹80 Lakh → ₹5.7 Lakh infrastructure cost)
-- **ROI:** Exceptional ROI - infrastructure cost is only 7.1% of software savings
-- **Scalability:** Platform handles 7M+ monthly users and 4.6x traffic spikes during sales events
-- **Operational Efficiency:** Self-service platform reduces manual campaign management overhead
-- **Performance:** 99.9%+ uptime target with sub-100ms latency for ad serving
-- **Strategic Value:** Platform supports 40% of Purplle's total operating revenue through house brands
+- **Independence:** Fully independent, self-managed platform
+- **Scalability:** Platform supports 100+ stores and 500+ daily users
+- **Operational Efficiency:** Self-service platform reduces manual store management overhead
+- **Performance:** 99%+ uptime maintained across DEV, SIT, UAT, and PROD environments
+- **Strategic Value:** Platform supports 40+ Crores in revenue generation across retail operations
 
 ## Team & Collaboration
 
-- **Role:** DevOps Engineer
+- **Role:** DevOps Engineer (Infrastructure Deployment & Management)
 - **Team Size:** 5 people
 - **Collaboration:** Worked closely with product & engineering teams throughout the project lifecycle
   - Collaborated with product team on requirements and feature delivery
   - Worked with engineering team on infrastructure design and implementation
   - Cross-functional collaboration for deployment, monitoring, and operations
+- **Note:** Infrastructure deployment and management handled by DevOps team. Application code developed by engineering team.
 
 ## Lessons Learned
 
@@ -216,12 +207,13 @@
 - **Collaboration:** Worked closely with product & engineering teams throughout the project lifecycle
 
 ### What Went Well
-- **Successful Infrastructure Deployment:** Complete infrastructure stack deployed across Production, Pre-Production, and Sandbox environments
-- **Cost Optimization:** Achieved significant cost savings by replacing ₹80 Lakh/year third-party software with in-house solution
-- **Scalability:** Built platform capable of handling 4.6x traffic spikes during sales events (146K to 670K daily users)
+- **Successful Infrastructure Deployment:** Complete infrastructure stack deployed across DEV, SIT, UAT, and PROD environments
+- **In-House POS Solution:** Successfully deployed in-house POS software replacing third-party solutions
+- **Scalability:** Built platform capable of supporting 100+ stores and 500+ daily users
 - **Cross-Functional Collaboration:** Effective collaboration between DevOps, Product, and Engineering teams
-- **Production Readiness:** Successfully deployed live platform serving 7M+ monthly active users
+- **Production Readiness:** Successfully deployed live platform at `nexus.purplle.com` serving 500+ store employees daily
 - **Security Implementation:** Comprehensive security measures including zero-trust, WAF, geo-blocking, and DPDP compliance
+- **High Availability:** Achieved 99%+ uptime across all environments
 
 ### What Could Be Improved
 - **Monitoring Enhancements:** Further optimization of monitoring and alerting systems
@@ -229,10 +221,11 @@
 - **Automation:** Additional automation opportunities for deployment and scaling processes
 
 ### Key Takeaways
-- **Infrastructure as Code:** IaC (Terraform, Ansible) enabled consistent deployments across environments
-- **Kubernetes at Scale:** GKE with auto-scaling effectively handles variable traffic loads
-- **Cost Efficiency:** In-house solutions can provide significant cost savings while maintaining functionality
+- **Infrastructure as Code:** IaC (Terraform, Ansible) enabled consistent deployments across DEV, SIT, UAT, and PROD environments
+- **Kubernetes at Scale:** GKE with auto-scaling effectively handles retail operations across 100+ stores
+- **Multi-Environment Support:** Successfully deployed across multiple environments ensuring consistent infrastructure
 - **Security First:** Zero-trust architecture and comprehensive security measures are critical for production platforms
 - **Team Collaboration:** Close collaboration with product and engineering teams is essential for successful platform delivery
 - **Compliance:** Understanding and implementing regulatory requirements (DPDP) from the start is crucial
+- **High Availability:** 99%+ uptime achieved through robust infrastructure design and monitoring
 
