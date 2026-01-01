@@ -23,7 +23,7 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
   - Environment-specific configurations (DEV, SIT, UAT, PROD)
   - Consistent cluster configuration across environments
   - Automated cluster provisioning and management
-- **Cloud SQL Instances:** Modules for Cloud SQL instances (MySQL/PostgreSQL)
+- **Cloud SQL Instances:** Modules for Cloud SQL instances (MySQL)
   - Automated backups configuration
   - Point-in-time recovery (PITR) setup
   - Multi-zone deployment support

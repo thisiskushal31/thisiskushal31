@@ -83,8 +83,8 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **CI/CD:** Jenkins, GitLab CI, GitOps workflows
 
 ### Databases & Storage
-- **Relational:** MySQL (4TB primary database), Cloud SQL
-- **NoSQL:** MongoDB, Elasticsearch
+- **Relational:** MySQL, Cloud SQL
+- **NoSQL:** MongoDB, Elasticsearch, Aerospike
 - **Caching:** Redis, Memorystore
 - **Messaging:** Kafka
 

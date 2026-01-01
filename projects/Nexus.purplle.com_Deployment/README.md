@@ -73,7 +73,7 @@ Nexus is an in-house Point of Sale (POS) platform deployed at `nexus.purplle.com
 **Cloud & Infrastructure:** GCP (GKE), GCR, Cloud SQL, Load Balancer, WAF, VPC  
 **Container Orchestration:** Kubernetes (GKE), K8s Ingress, Deployments, Services  
 **Service Discovery:** kubedns (Kubernetes DNS) for internal cluster networking  
-**Databases:** Cloud SQL (MySQL/PostgreSQL), Cloud SQL Proxy  
+**Databases:** Cloud SQL (MySQL), Cloud SQL Proxy  
 **Messaging & Caching:** Kafka (messaging), Redis (caching)  
 **CI/CD:** Jenkins, GitLab CI (with Trivy security scanning)  
 **Infrastructure as Code:** Terraform, Ansible  

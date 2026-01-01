@@ -85,7 +85,7 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
 
 **Reusable Terraform Modules:**
 - **GKE Clusters:** Parameterized modules for GKE clusters with multi-environment support (DEV, SIT, UAT, PROD)
-- **Cloud SQL Instances:** Modules for Cloud SQL instances (MySQL/PostgreSQL) with automated backups
+- **Cloud SQL Instances:** Modules for Cloud SQL instances (MySQL) with automated backups
 - **VPCs and Network:** Modules for VPCs and network configurations
 - **Load Balancers:** Modules for load balancers (ALB, GCLB) with WAF integration
 - **Kubernetes Deployments:** Modules for Kubernetes deployments and services

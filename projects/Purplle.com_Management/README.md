@@ -70,7 +70,7 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 **Cloud & Infrastructure:** GCP (GKE), AWS (Route53), Kubernetes, ALB, GCLB, Cloud Functions  
 **Container Orchestration:** Kubernetes (GKE), K8s Ingress, Deployments, Services  
 **Service Discovery:** kubedns (Kubernetes DNS) for internal cluster networking  
-**Databases:** Cloud SQL (MySQL/PostgreSQL), Redis, Cloud SQL Proxy, MySQL (4TB primary database)  
+**Databases:** Cloud SQL (MySQL), Redis, Cloud SQL Proxy, MySQL (4TB primary database), Aerospike (A/B testing)  
 **Database Migration:** gh-ost for zero-lag MySQL schema alterations  
 **CI/CD:** GitLab CI, Jenkins (scripted pipeline jobs with Slack integration), Infrastructure as Code (Terraform, Ansible), GitOps workflows  
 **Infrastructure as Code:** Terraform, Ansible  
