@@ -11,7 +11,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Scale:** 7M total users, 150K DAU (600K during major sales, 300K during minor sales), ₹400+ Crore brand advertising revenue
 - **Infrastructure:** 100+ Kubernetes deployments, GKE, multi-cloud (AWS + GCP)
 - **Achievements:** 93% cost reduction (₹80 Lakh → ₹5.7 Lakh), 4x traffic spike handling during major sales
-- **Key Technologies:** Kubernetes, Terraform, GitLab CI, Keycloak, Sentinel Service
+- **Key Technologies:** Kubernetes, Terraform, GitLab CI, Keycloak
 - [View Details →](./Adtech.purplle.com_Deployment/)
 
 #### [Nexus.purplle.com Deployment](./Nexus.purplle.com_Deployment/)

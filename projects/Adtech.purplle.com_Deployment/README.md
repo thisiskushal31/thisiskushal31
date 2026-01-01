@@ -105,7 +105,7 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 **Infrastructure as Code:** Terraform (reusable modules), Ansible, GitOps workflows  
 **Monitoring:** Prometheus, Grafana, GCP Stackdriver (unified observability stack)  
 **Security:** Zero Trust, WAF, Geo-blocking, Rate Limiting, Bot Protection, DPDP Compliance, Kubernetes RBAC, Secure Boot, Automated IAM role minimization (Python), Trivy container scanning (GitLab CI), GCP Secrets Manager, SSO, IP Whitelisting, Defense-in-Depth  
-**Authentication & Authorization:** Keycloak (Identity Provider), Sentinel Service (RBAC - Kubernetes deployment)
+**Authentication & Authorization:** Keycloak (Identity Provider)
 
 ## Architecture Overview
 
