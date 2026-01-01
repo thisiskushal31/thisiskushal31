@@ -1,136 +1,236 @@
 # 👋 Hey there, I'm Kushal Gupta
 
-Welcome to my GitHub space! I'm a passionate **Software Engineer** focused on building **secure, scalable, and intelligent systems** that help engineering teams move faster and safer.
+Welcome to my GitHub space! I'm a **Software Engineer** who writes full-stack code, deploys it securely, leverages AI-driven solutions, ensures reliability, and automates everything in between. Building and operating production-grade infrastructure at scale with a focus on infrastructure automation, observability, security, and system reliability.
 
-## 🚀 Areas of Expertise & Interest
+**Areas of Expertise & Interest:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
 
-<!-- - **Generative AI & LLM Engineering** -->
-- **DevOps & Platform Engineering**
-- **Security-Focused Software Development**
-- **Cloud-Native Engineering & System Design**
+🌐 **Quick Links:**
+- **Portfolio** — [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) — Projects, experience, and technical journey
+- **Bio Links** — [thisiskushal31.github.io/link](https://thisiskushal31.github.io/link/) — Social profiles and important links
+- **Blog** — [thisiskushal31.github.io/blog](https://thisiskushal31.github.io/blog) — Technical deep dives and engineering insights
+- **DocHub** — [thisiskushal31.github.io/dochub](https://thisiskushal31.github.io/dochub/) — Learning notes and resources
 
 I'm dedicated to solving real-world engineering challenges. I'm always exploring modern tools and system designs, and I'm particularly interested in how we can leverage **AI** to build more robust and efficient systems.
 
-🌐 **Quick Links:**
+## 🏗️ Technical Expertise
 
-- **Portfolio** — [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) — My projects, experience, and technical journey
-- **Bio Links** — [thisiskushal31.github.io/link](https://thisiskushal31.github.io/link/) — All my social profiles and important links in one place
-- **Blog** — [thisiskushal31.github.io/blog](https://thisiskushal31.github.io/blog) — Technical deep dives, tutorials, and fresh engineering ideas
-- **DocHub** — [thisiskushal31.github.io/dochub](https://thisiskushal31.github.io/dochub/) — Centralized hub for learning notes and resources
+**Engineering Approach:**
+- **Full-Stack Development:** Write code across the stack, from application logic to infrastructure automation
+- **Secure Deployment:** Deploy applications with security-first principles, implementing zero-trust patterns, automated IAM policies, secrets management, and Kubernetes RBAC
+- **AI-Driven Solutions:** Leverage AI for intelligent automation, agentic workflows, and enhanced system capabilities
+- **Reliability Engineering:** Build resilient systems with observability (Prometheus/Grafana), automated incident response, and proactive monitoring
+- **Automation-First:** Infrastructure as Code (Terraform, Ansible), CI/CD pipelines (Jenkins, GitLab CI, GitHub CI), and GitOps workflows
+
+**Core Capabilities:**
+- **System Architecture & Design:** Design scalable architectures, implement Infrastructure as Code (Terraform, Ansible), build CI/CD pipelines (Jenkins, GitLab CI, GitHub CI), and integrate observability (Prometheus/Grafana) with security hardening
+- **Production-Grade Engineering:** Implement zero-trust networking, automated IAM policies, secrets management, Kubernetes RBAC, and infrastructure-as-code best practices
+- **Cloud-Native Expertise:** Managed 125+ Kubernetes deployments on GKE, ensuring production reliability and scalability across multi-environment setups
+
+### Infrastructure & Platform Engineering
+
+**Production Infrastructure:**
+- **Kubernetes Orchestration:** Managed 125+ Kubernetes deployments on GKE across multi-environment setups (DEV, SIT, UAT, PROD)
+- **Infrastructure Scale:** 300+ compute instances, 4TB MySQL databases, multi-zone deployments
+- **Multi-Cloud Architecture:** Hybrid cloud deployments (GCP + AWS) with Route53, GKE, Cloud SQL, ALB, GCLB
+- **Service Architecture:** Microservices with kubedns service discovery, container-native load balancing
+
+**Infrastructure as Code & Automation:**
+- **Terraform:** Reusable, parameterized modules for GKE clusters, Cloud SQL, VPCs, Load Balancers, Kubernetes deployments
+- **Ansible:** Configuration management and system hardening
+- **GitOps Workflows:** Version-controlled infrastructure changes with automated testing and deployment
+- **CI/CD Modernization:** Migrated Jenkins from freestyle bash jobs to scripted pipeline jobs with Slack integration
+- **Result:** 40%+ faster deployments, 40%+ of provisioning tasks automated
+
+**Database Operations:**
+- **Zero-Downtime Migrations:** Implemented gh-ost for zero-lag MySQL schema alterations on 4TB databases
+- **Master-Slave Management:** Automated flag management for MySQL master/slave configurations (VM-based and Cloud SQL)
+- **Backup Automation:** Automated backups for MySQL, MongoDB, Elasticsearch using Python/Bash with cron scheduling
+- **Disaster Recovery:** Engineered DR and backup plans for databases and VMs with Point-in-Time Recovery (PITR)
+
+### Observability & Monitoring
+
+**Unified Observability Stack:**
+- **Prometheus & Grafana:** Architectured unified observability stack with real-time monitoring and automated escalation
+- **GCP Stackdriver:** Cloud-native monitoring integration
+- **CI/CD Integration:** Jenkins with Slack for real-time job failure alerts
+- **Result:** 76% MTTR reduction (30 minutes → 7 minutes)
+
+**Monitoring Coverage:**
+- 125+ Kubernetes deployments monitored
+- 300+ compute instances with comprehensive metrics
+- Multi-environment observability (DEV, SIT, UAT, PROD)
+- Proactive dashboards and automated incident escalation
+
+### Security & Compliance
+
+**Container Security:**
+- **Kubernetes RBAC:** Role-based access control implementation
+- **Secure Boot:** Container security hardening
+- **Automated IAM Minimization:** Python scripts for IAM role minimization enforcing least privilege
+- **Trivy Scanning:** Container vulnerability scanning integrated with GitLab CI pipelines
+
+**Microservices Security:**
+- **Secrets Manager:** Deployed GCP Secrets Manager across Kubernetes clusters and VMs
+- **SSO Implementation:** Single Sign-On authentication for multiple internal URLs
+- **IP Whitelisting:** Centralized access control and traffic segmentation
+- **Defense-in-Depth:** Multi-layer security controls with zero-trust architecture
+
+**Compliance Alignment:**
+- DPDP compliance implementation
+- ISO 27001/27018/27017/27002 alignment
+- NIST, CIS, OWASP guidelines adherence
+
+### AI-Powered Automation
+
+**Elasticsearch Cluster Management:**
+- Built agentic AI-based automation using n8n, Terraform, Ansible, and Python
+- Streamlined cluster provisioning and lifecycle management
+- Automated cluster operations and maintenance
 
 ---
 
-## 💼 Technical Capabilities
+## 🛠️ Technical Stack
 
-**Production Systems & Infrastructure:**
+**Languages & Development:**
+- **Backend:** Python, JavaScript, C/C++
+- **Scripting & Automation:** Bash/Shell, Python
+- **Full-Stack:** JavaScript (Node.js), React (frontend projects)
 
-- **Production Metrics:** 40%+ faster deployments, 76% MTTR reduction (30min → 7min), 30% cloud cost reduction, 99%+ uptime
-- **Cloud Infrastructure:** Real-world experience with GCP/AWS, GKE, automation, and platform engineering
-- **Infrastructure Engineering:** Transform complexity into reliable, maintainable systems through IaC and automation
-- **Security-First Approach:** Zero-trust patterns, automated compliance, Kubernetes RBAC, Trivy scanning, and proactive threat mitigation
-- **AI-Powered Automation:** Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python
-- **Documentation & Knowledge Sharing:** Clear docs, runbooks, and knowledge transfer
+**Cloud & Infrastructure:**
+- **GCP:** GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT
+- **AWS:** Route53, ALB
+- **Containerization:** Docker, Kubernetes (GKE), Container Native Load Balancing
 
-**Technical Approach:**
+**Infrastructure as Code:**
+- Terraform (reusable modules, multi-environment support)
+- Ansible (configuration management, system hardening)
+- GitOps workflows
 
-- **Full-Stack Infrastructure:** Architecture design, IaC (Terraform, Ansible), CI/CD pipelines (Jenkins, GitLab CI, GitHub CI), observability (Prometheus/Grafana), and security hardening
-- **Production-Grade Patterns:** Zero-trust networking, automated IAM policies, secrets management, Kubernetes RBAC, and infrastructure-as-code best practices
-- **Kubernetes Expertise:** Managed 100+ Kubernetes deployments on GKE, ensuring production reliability and scalability
-- **Open to Collaboration:** Available for technical projects involving cloud infrastructure, automation, and platform engineering
+**CI/CD & Automation:**
+- Jenkins (scripted pipeline jobs, Slack integration)
+- GitLab CI (automated testing, Trivy scanning)
+- GitHub CI
+- n8n (workflow automation)
+
+**Databases & Storage:**
+- **Relational:** MySQL (4TB production databases), Cloud SQL
+- **NoSQL:** MongoDB, Elasticsearch, Aerospike (A/B testing)
+- **Caching:** Redis, Memorystore
+- **Messaging:** Kafka
+
+**Monitoring & Observability:**
+- Prometheus, Grafana, GCP Stackdriver
+- Unified observability stack with automated escalation
+
+**Security & Operations:**
+- Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO, IAM automation
+- Zero-Trust Architecture, Defense-in-Depth
+- WAF (Reblaze), Geo-blocking, Rate Limiting, Bot Protection
+
+**Fundamentals:**
+- Data Structures, Algorithms, System Design, Networking, Operating Systems
 
 ---
 
-### 🛠️ Technical Stack
+## 🚀 Production Projects
 
-*Technologies I work with daily to build and operate production systems:*
+*Real-world infrastructure projects with technical depth:*
 
-- **Languages & Scripting:** Python, Bash/Shell, JavaScript, C/C++
-- **Cloud & Infrastructure:** Google Cloud Platform (GCP), Amazon Web Services (AWS), Google Kubernetes Engine (GKE), GCR, GCS, Compute Engine, Cloud SQL, Load Balancer, VPC, WAF, Docker, Kubernetes
-- **CI/CD & Automation:** Git, Jenkins, GitLab CI, GitHub CI, GitOps workflows, n8n, Ansible, Terraform
-- **Monitoring, Databases & Messaging:** Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Redis, Kafka
-- **Security & Operations:** Secrets Manager, SSO, IAM, Zero-Trust Architecture, Defense-in-Depth, Trivy, Incident Response
-- **Fundamentals:** Data Structures, Algorithms, System Design, Networking, Operating Systems
-
----
-
-### ✨ Featured Projects
-
-*Real-world impact through automation, infrastructure, and security:*
-
-| Project | Impact & Technologies |
+| Project | Technical Implementation |
 | :--- | :--- |
-| **Infra Provision System Automation** | **40%+ faster deployments** • Automated provisioning, backups, and IAM using Terraform, Python, Jenkins, GitLab CI • Improved data resilience for MySQL, MongoDB, Elasticsearch |
-| **Nexus POS Infrastructure** | **99%+ uptime across retail stores** • Deployed HA infrastructure using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) • Grafana/Prometheus monitoring • Zero-downtime deployments |
-| **Elasticsearch Cluster Management** | **AI-powered automation** • Built agentic AI automation using n8n, Terraform, Ansible, and Python • Streamlined cluster provisioning and management |
-| **Monitoring & Alerting Automation** | **76% MTTR reduction** (30min → 7min) • Unified observability stack (Prometheus, Grafana) with automated escalation • Proactive dashboards for production systems |
-| **Cloud Security Enhancements** | **Zero-trust implementation** • Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning, Secrets Manager, SSO • Security across GCP and Kubernetes |
+| **Infrastructure Monitoring** | Unified observability stack (Prometheus, Grafana) • 76% MTTR reduction (30min → 7min) • Automated escalation • Multi-environment coverage |
+| **E-Commerce Platform Infrastructure** | 125+ K8s deployments • 4TB MySQL with gh-ost migrations • Multi-zone HA • Step scaling • Zero-downtime operations |
+| **POS Platform Deployment** | High-availability deployment (DEV, SIT, UAT, PROD) • Auto-scaling (1-6 pods) • Kafka + Redis architecture • 99%+ uptime |
+| **Security Hardening** | Zero-trust architecture • Kubernetes RBAC • Automated IAM minimization (Python) • Trivy scanning • Secrets Manager • SSO • Defense-in-depth |
+| **Infrastructure Automation** | Terraform modules • GitOps workflows • 40%+ faster deployments • Multi-environment consistency • Automated provisioning |
+| **AdTech Platform** | 100+ K8s deployments • Multi-cloud (AWS + GCP) • Keycloak authentication • 4x traffic spike handling • 93% cost optimization |
 
-👉 **[View detailed case studies →](https://thisiskushal31.github.io/#/projects#featured-projects)**
+👉 **[View detailed technical documentation →](./projects/README.md)** — Architecture diagrams, implementation details, and metrics
+
+*For business impact and revenue metrics, see [projects README](./projects/README.md)*
 
 ---
 
-### 📃 Certifications & Continuous Learning
+## 📊 Production Metrics
+
+**Performance Improvements:**
+- **Deployment Speed:** 40%+ faster through IAC automation and CI/CD modernization
+- **MTTR:** 76% reduction (30 minutes → 7 minutes) via unified observability
+- **Cost Optimization:** 30% cloud cost reduction through rightsizing and automation
+- **Uptime:** 99%+ across all production platforms
+
+**Infrastructure Scale:**
+- **Kubernetes Deployments:** 125+ deployments managed
+- **Compute Instances:** 300+ instances across infrastructure
+- **Database Operations:** 4TB MySQL with zero-downtime migrations
+- **Multi-Environment:** Consistent deployments across DEV, SIT, UAT, PROD
+
+---
+
+## 📃 Certifications
 
 - ✅ [**Google Cloud Associate Cloud Engineer**](https://www.credly.com/badges/7af9ebab-6364-42a3-b1b8-200fb56b101a/public_url)
 - 🎯 Preparing for **Google Cloud Professional Cloud Architect**
 
 ---
 
-### 📝 Technical Writing & Insights
+## 📝 Technical Writing
 
-*Sharing knowledge through deep dives, tutorials, and engineering insights:*
+*Sharing knowledge through deep dives and engineering insights:*
 
-- **📖 [Personal Blog](https://thisiskushal31.github.io/blog)** — Latest articles on cloud-native engineering, DevOps patterns, and AI integration • *Updated most often*
-- **🌐 [Hashnode](https://thisiskushal.hashnode.dev/)** — Cross-posts and select tech articles on cloud, DevOps, and AI
-- **✍️ [Medium](https://thisiskushalgupta.medium.com/)** — Tech stories and occasional non-tech rambles
-
----
-
-### 🛠️ Open Source & Side Projects
-
-*Tools and templates you can use today:*
-
-| Project | What It Does |
-| :--- | :--- |
-| [Agility](https://github.com/thisiskushal31/Agility) | Task management app (React + MongoDB) for organizing work and life |
-| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Real-time chat app (Node.js + Socket.io + React) |
-| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | Secure JSON viewer with Redis + MongoDB session management |
-| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | Save active tabs for later reading and organization |
-| [Modern React Portfolio Starter](https://github.com/thisiskushal31/modern-react-portfolio-starter) | Customizable React portfolio template with Markdown support |
-| [Configurable React Bio Link Starter](https://github.com/thisiskushal31/configurable-react-bio-link-starter) | Linktree-style bio links template with responsive design |
-| [Configurable React Blog Starter](https://github.com/thisiskushal31/configurable-react-blog-starter) | Modern blog template with Markdown and responsive design |
+- **📖 [Personal Blog](https://thisiskushal31.github.io/blog)** — Cloud-native engineering, DevOps patterns, AI integration
+- **🌐 [Hashnode](https://thisiskushal.hashnode.dev/)** — Tech articles on cloud, DevOps, and AI
+- **✍️ [Medium](https://thisiskushalgupta.medium.com/)** — Technical stories and engineering insights
 
 ---
 
-### 📚 Learning Resources & Documentation
+## 🛠️ Open Source & Side Projects
 
-*Comprehensive guides I've curated to help others learn:*
+*Tools and templates for practical use:*
 
-| Repository | What's Inside |
+| Project | Technology Stack |
 | :--- | :--- |
-| [🔢 Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | DSA notes and solved problems from basic to advanced |
+| [Agility](https://github.com/thisiskushal31/Agility) | React + MongoDB task management |
+| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Node.js + Socket.io + React real-time chat |
+| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | Redis + MongoDB session management |
+| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | Chrome extension for tab management |
+| [Modern React Portfolio Starter](https://github.com/thisiskushal31/modern-react-portfolio-starter) | React portfolio template with Markdown |
+| [Configurable React Bio Link Starter](https://github.com/thisiskushal31/configurable-react-bio-link-starter) | Linktree-style bio links template |
+| [Configurable React Blog Starter](https://github.com/thisiskushal31/configurable-react-blog-starter) | Blog template with Markdown support |
+
+---
+
+## 📚 Learning Resources & Documentation
+
+*Comprehensive technical guides and references:*
+
+| Repository | Content |
+| :--- | :--- |
+| [🔢 Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | DSA notes and solved problems |
 | [📋 Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Essential commands and tool references |
-| [📦 Containerization Deep Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Containerization fundamentals, Docker, Kubernetes |
-| [🚀 DevOps Handbook](https://github.com/thisiskushal31/DevOps-Handbook) | DevOps methodologies, best practices, CI/CD, IaC, cloud-native architectures, observability, and security |
-| [🗄️ Databases Deep Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) | Relational, NoSQL, analytical, and managed services |
-| [🌐 Networks Deep Dive](https://github.com/thisiskushal31/Networks-Deep-Dive) | Networking from physical layers to cloud-native |
+| [📦 Containerization Deep Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Docker, Kubernetes fundamentals |
+| [🚀 DevOps Handbook](https://github.com/thisiskushal31/DevOps-Handbook) | DevOps methodologies, CI/CD, IaC, observability |
+| [🗄️ Databases Deep Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) | Relational, NoSQL, analytical databases |
+| [🌐 Networks Deep Dive](https://github.com/thisiskushal31/Networks-Deep-Dive) | Networking from physical to cloud-native |
 | [🏗️ System Design Concepts](https://github.com/thisiskushal31/System-Design-Concepts) | Patterns, components, and trade-offs |
-| [☁️ Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | Google Cloud certification preparation notes |
+| [☁️ Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | Google Cloud certification preparation |
 
 ---
 
-### 🤝 Let's Connect
+## 🤝 Let's Connect
 
-**Interested in connecting?** I'm always open to:
+**Interested in technical collaboration?**
 
-- 💼 **Job opportunities** in DevOps, Platform Engineering, or Cloud-Native roles
-- 🚀 **Technical collaboration** on infrastructure, automation, and platform engineering projects
+- 💼 **Job opportunities** in Platform Engineering, DevOps, or Cloud-Native roles (full-stack code + infrastructure)
+- 🚀 **Technical collaboration** on infrastructure, automation, and platform engineering
 - 🌟 **Open source contributions** and community collaboration
 - 💡 **Technical discussions** on cloud architecture, security, or system design
 - 📚 **Knowledge sharing** and mentoring opportunities
 
 **Get in touch:**
-
 - 💼 [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/) — Professional updates and networking
 - 🐦 [X (Twitter)](https://x.com/thisis_kushal) — Quick thoughts and tech discussions
 - 📧 [Email](mailto:guptakushal070@gmail.com) — Technical collaboration and discussions
@@ -138,10 +238,3 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 🌐 **More ways to connect:** [Portfolio](https://thisiskushal31.github.io/#/) | [Bio Links](https://thisiskushal31.github.io/link/)
 
 ---
-
-<!--
-🚀 Future Plans:
-- Contribute to open-source projects (in-progress goal)
-- Share upcoming portfolio projects here
-- Update progress on certifications and deeper tech explorations
--->
