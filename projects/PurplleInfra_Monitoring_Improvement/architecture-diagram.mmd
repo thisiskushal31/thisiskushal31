@@ -1,0 +1,91 @@
+---
+# Infrastructure Monitoring Improvement - Unified Observability Architecture Diagram
+# Reference: See architecture details in architecture.md
+# This Mermaid diagram provides a representation of the unified observability architecture
+# Based on actual monitoring implementation: Prometheus, Grafana, GCP Stackdriver,
+# CI/CD integration (Jenkins with Slack), and automated incident escalation
+---
+
+flowchart TB
+    subgraph Layer1["Layer 1: Metrics Collection"]
+        Prometheus[Prometheus<br/>Metrics Collection & Storage]
+        K8sMetrics[Kubernetes Metrics<br/>125+ Deployments]
+        InfraMetrics[Infrastructure Metrics<br/>300+ Compute Instances]
+        AppMetrics[Application Metrics<br/>Performance & Business]
+        DBMetrics[Database Metrics<br/>MySQL, MongoDB, Elasticsearch]
+        K8sMetrics --> Prometheus
+        InfraMetrics --> Prometheus
+        AppMetrics --> Prometheus
+        DBMetrics --> Prometheus
+    end
+    
+    subgraph Layer2["Layer 2: Visualization & Alerting"]
+        Grafana[Grafana<br/>Dashboards & Alerts]
+        Dashboards[Custom Dashboards<br/>50+ Dashboards]
+        Alerts[Grafana Alerts<br/>200+ Alerts Configured]
+        Visualization[Real-Time Visualization<br/>Performance & Health]
+        Dashboards --> Grafana
+        Alerts --> Grafana
+        Visualization --> Grafana
+    end
+    
+    subgraph Layer3["Layer 3: Cloud-Native Monitoring"]
+        Stackdriver[GCP Stackdriver<br/>Cloud-Native Monitoring]
+        LogAgg[Log Aggregation<br/>Application & System Logs]
+        CloudMetrics[Cloud Metrics<br/>GCP Service Metrics]
+        LogAnalysis[Log-Based Monitoring<br/>Analysis & Insights]
+        LogAgg --> Stackdriver
+        CloudMetrics --> Stackdriver
+        LogAnalysis --> Stackdriver
+    end
+    
+    subgraph Layer4["Layer 4: CI/CD Integration"]
+        Jenkins[Jenkins<br/>Pipeline Monitoring]
+        GitLabCI[GitLab CI<br/>Pipeline Monitoring]
+        Slack[Slack Integration<br/>Real-Time Alerts]
+        JobAlerts[Job Failure Alerts<br/>Automated Notifications]
+        Jenkins --> Slack
+        GitLabCI --> Slack
+        JobAlerts --> Slack
+    end
+    
+    subgraph Layer5["Layer 5: Incident Response"]
+        AutoEscalation[Automated Escalation<br/>Unified Observability Stack]
+        IncidentResp[Incident Response<br/>MTTR: 30min → 7min]
+        TeamNotify[Team Notifications<br/>Slack & Email]
+        PostIncident[Post-Incident Analysis<br/>Monitoring Data]
+        AutoEscalation --> IncidentResp
+        IncidentResp --> TeamNotify
+        TeamNotify --> PostIncident
+    end
+    
+    subgraph Infrastructure["Infrastructure Coverage"]
+        K8sDeploy[125+ K8s Deployments<br/>Monitored]
+        ComputeInst[300+ Compute Instances<br/>Monitored]
+        Environments[4 Environments<br/>DEV, SIT, UAT, PROD]
+        Platforms[3 Production Platforms<br/>purplle.com, nexus, adtech]
+    end
+    
+    Prometheus --> Grafana
+    Grafana --> AutoEscalation
+    Stackdriver --> Grafana
+    Jenkins --> AutoEscalation
+    GitLabCI --> AutoEscalation
+    Slack --> TeamNotify
+    
+    Layer1 --> Infrastructure
+    Layer2 --> Infrastructure
+    Layer3 --> Infrastructure
+    Layer4 --> Infrastructure
+    Layer5 --> Infrastructure
+    
+    External[Infrastructure Components] --> Layer1
+    Layer5 --> Internal[Improved Reliability<br/>76% MTTR Reduction]
+    
+    style Layer1 fill:#e1f5ff
+    style Layer2 fill:#fff4e1
+    style Layer3 fill:#e8f5e9
+    style Layer4 fill:#fce4ec
+    style Layer5 fill:#f3e5f5
+    style Infrastructure fill:#fff9c4
+

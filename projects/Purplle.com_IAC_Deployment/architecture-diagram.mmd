@@ -1,0 +1,93 @@
+---
+# Infrastructure as Code (IAC) Deployment - Architecture Diagram
+# Reference: See architecture details in architecture.md
+# This Mermaid diagram provides a representation of the IAC deployment architecture
+# Based on actual IAC implementation: Terraform, Ansible, Jenkins, GitLab CI,
+# GitOps workflows, and automation scripts
+---
+
+flowchart TB
+    subgraph Layer1["Layer 1: Infrastructure as Code"]
+        Terraform[Terraform<br/>Infrastructure Provisioning]
+        GKE_Module[GKE Cluster Modules<br/>Multi-Environment Support]
+        CloudSQL_Module[Cloud SQL Modules<br/>Automated Backups]
+        VPC_Module[VPC & Network Modules<br/>Network Configuration]
+        LB_Module[Load Balancer Modules<br/>ALB, GCLB, WAF]
+        K8s_Module[Kubernetes Modules<br/>Deployments & Services]
+        GKE_Module --> Terraform
+        CloudSQL_Module --> Terraform
+        VPC_Module --> Terraform
+        LB_Module --> Terraform
+        K8s_Module --> Terraform
+    end
+    
+    subgraph Layer2["Layer 2: Configuration Management"]
+        Ansible[Ansible<br/>Configuration Management]
+        SystemConfig[System Configuration<br/>System-Level Settings]
+        AppConfig[Application Configuration<br/>App Deployment]
+        SecurityHard[Security Hardening<br/>Ansible Playbooks]
+        SystemConfig --> Ansible
+        AppConfig --> Ansible
+        SecurityHard --> Ansible
+    end
+    
+    subgraph Layer3["Layer 3: CI/CD Integration"]
+        Jenkins[Jenkins<br/>Scripted Pipeline Jobs]
+        GitLabCI[GitLab CI<br/>Automated Provisioning]
+        Slack[Slack Integration<br/>Real-Time Alerts]
+        AutoDeploy[Automated Deployment<br/>Infrastructure Provisioning]
+        Jenkins --> Slack
+        GitLabCI --> Slack
+        AutoDeploy --> Slack
+    end
+    
+    subgraph Layer4["Layer 4: GitOps Workflows"]
+        Git[Git Repositories<br/>Version Control]
+        CodeReview[Code Review<br/>Pull Requests]
+        AutoTest[Automated Testing<br/>Validation]
+        AutoProvision[Automated Provisioning<br/>Environment Deployment]
+        Git --> CodeReview
+        CodeReview --> AutoTest
+        AutoTest --> AutoProvision
+    end
+    
+    subgraph Layer5["Layer 5: Automation & Scripts"]
+        PythonScripts[Python Scripts<br/>IAM Management]
+        BashScripts[Bash Scripts<br/>Infrastructure Automation]
+        IAMAuto[IAM Automation<br/>Role Minimization]
+        BackupAuto[Backup Automation<br/>Database & Infrastructure]
+        PythonScripts --> IAMAuto
+        BashScripts --> BackupAuto
+    end
+    
+    subgraph Infrastructure["Infrastructure Coverage"]
+        K8sDeploy[125+ K8s Deployments<br/>Automated]
+        ComputeInst[300+ Compute Instances<br/>Automated]
+        Environments[4 Environments<br/>DEV, SIT, UAT, PROD]
+        Platforms[3 Production Platforms<br/>purplle.com, nexus, adtech]
+    end
+    
+    Terraform --> Ansible
+    Ansible --> Jenkins
+    Ansible --> GitLabCI
+    Jenkins --> Git
+    GitLabCI --> Git
+    Git --> PythonScripts
+    Git --> BashScripts
+    
+    Layer1 --> Infrastructure
+    Layer2 --> Infrastructure
+    Layer3 --> Infrastructure
+    Layer4 --> Infrastructure
+    Layer5 --> Infrastructure
+    
+    Developers[Developers/DevOps] --> Layer4
+    Layer5 --> DeployedInfra[Deployed Infrastructure<br/>40%+ Faster Deployments]
+    
+    style Layer1 fill:#e1f5ff
+    style Layer2 fill:#fff4e1
+    style Layer3 fill:#e8f5e9
+    style Layer4 fill:#fce4ec
+    style Layer5 fill:#f3e5f5
+    style Infrastructure fill:#fff9c4
+
