@@ -20,7 +20,7 @@ We were provisioning infrastructure manually across multiple environments (DEV, 
 - Standardized on Terraform for Infrastructure as Code and integrated it into GitOps workflows
 - Created reusable, parameterized Terraform modules for common patterns:
   - GKE clusters with multi-environment support (DEV, SIT, UAT, PROD)
-  - Cloud SQL instances (MySQL/PostgreSQL) with automated backups
+  - Cloud SQL instances (MySQL) with automated backups
   - VPCs and network configurations
   - Load balancers (ALB, GCLB) with WAF integration
   - Kubernetes deployments and services

@@ -15,6 +15,11 @@ I need to write a value-driven cold email. Here's my complete career context:
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
 
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
+
 And here's the job/opportunity information:
 - Company: [COMPANY_NAME]
 - Role: [ROLE_TITLE]
@@ -29,7 +34,7 @@ Generate a short, crisp cold email (under 150 words) that:
 5. Includes a clear, actionable ask
 ```
 
-**Or use:** `ai-data/cold-email-generator.md` for the structured two-stage process.
+**Or use:** `Guides/cold-email-generator.md` for the structured two-stage process.
 
 ---
 
@@ -41,6 +46,11 @@ Based on my career context below, help me find and match job opportunities:
 
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
+
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
 
 Criteria:
 - Target roles: Platform Engineer, DevOps Engineer, Cloud Engineer, SRE
@@ -67,6 +77,11 @@ I need to optimize my resume/CV keywords for ATS systems. Here's my career conte
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
 
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
+
 And here's a job description:
 [JOB_DESCRIPTION]
 
@@ -90,6 +105,11 @@ I need to customize my resume for this specific job. Here's my complete career c
 
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
+
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
 
 Job Description:
 [JOB_DESCRIPTION]
@@ -118,6 +138,11 @@ I'm applying to [COMPANY_NAME]. Here's my career context:
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
 
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
+
 Company Information:
 - Industry: [INDUSTRY]
 - Tech Stack: [TECH_STACK]
@@ -144,15 +169,32 @@ Optimize my LinkedIn profile. Here's my career context:
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
 
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
+
 Current LinkedIn: [LINKEDIN_URL]
 
 Generate:
 1. Optimized headline (120 characters)
-2. Compelling summary (2000 characters)
+2. Compelling summary (2000 characters) - Use the professional summary from career-context.md
 3. Experience descriptions with keywords
 4. Skills section (top 50 skills)
 5. Recommendations for profile completion
 6. Content strategy suggestions
+
+**Current LinkedIn About Section:**
+I'm a Software Engineer with 3+ years of experience building, deploying, and operating production-grade software systems across cloud, managed services, and VM-based environments. I work at the intersection of software development and platform engineering—owning systems end to end, from infrastructure design and deployment to monitoring, reliability, and production operations. I focus on understanding the "why" behind technical decisions and choosing the best system design for each problem, ensuring solutions are not just functional but optimal for the specific context. I've contributed to high-availability platforms, reduced operational overhead through automation, and improved system performance, resilience, and cost efficiency at scale. I place a strong emphasis on security, reliability, and scalability, focusing on building systems that are easy to operate, resilient under load, and aligned with real business needs.
+
+• End-to-end system ownership: Infrastructure → Deployment → Monitoring → Reliability
+• System design: Understanding the "why" and choosing the best architecture for each problem
+• Cloud platforms: GCP, AWS with Kubernetes-based and self-managed deployments
+• CI/CD & Infrastructure: Pipeline design, Infrastructure as Code, observability systems
+• Platform engineering: Automation, developer tooling, and production operations
+• High ownership: Comfortable with ambiguous requirements, cross-functional collaboration
+
+GitHub: https://github.com/thisiskushal31
 ```
 
 ---
@@ -165,6 +207,11 @@ I have an interview for [ROLE] at [COMPANY]. Here's my career context:
 
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
+
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
 
 Job Description: [JD]
 
@@ -187,6 +234,11 @@ I'm negotiating salary for [ROLE] at [COMPANY]. Here's my career context:
 
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
+
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
 
 Offer Details:
 - Base Salary: [AMOUNT]
@@ -212,6 +264,11 @@ Analyze skill gaps for my target role. Here's my career context:
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
 
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
+
 Target Role: [ROLE_TITLE]
 Job Description: [JD]
 
@@ -234,6 +291,11 @@ I want to connect with [PERSON_NAME] at [COMPANY]. Here's my career context:
 
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
+
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
 
 Their Profile: [LINKEDIN_PROFILE or INFO]
 

@@ -6,10 +6,55 @@
 - Optimizing keywords for ATS systems
 - Tailoring CV/resume for specific JD roles
 - Company-specific optimization
-- LinkedIn profile optimization
+- **LinkedIn profile optimization** ⭐ (All LinkedIn data matches this document)
 - Interview preparation
 
+**GitHub Raw File:** This document can be accessed as a raw file on GitHub for easy integration with AI tools and automation:
+```
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+```
+
 **Last Updated:** Based on current repository state
+
+> **📌 Important:** This document serves as the single source of truth for LinkedIn profile data. All LinkedIn content (About section, Experience entries) matches this document exactly.
+
+> **📝 Update Instructions for Multiple Companies:**
+> - When switching companies, add a new "Company X" section in Work Experience
+> - Keep all previous companies for historical reference
+> - Update "Present" to actual end date when leaving a company
+> - Maintain all historical achievements and metrics
+> - Add new company details (industry, location, website) in the template section
+
+---
+
+## 📱 LinkedIn Profile Data (Complete Reference)
+
+> **🎯 Purpose:** This section consolidates ALL LinkedIn-specific content for easy optimization. All LinkedIn profile data matches the sections below.
+
+### LinkedIn Profile Structure:
+
+**1. LinkedIn About Section** → See "📝 LinkedIn About Section" (Line 43)
+- Copy-paste ready format
+- Character count: ~1,050 characters
+- Includes: Professional summary, key capabilities, GitHub link
+
+**2. LinkedIn Experience Entries** → See "💼 LinkedIn Experience Section" (Line 79)
+- **Entry 1:** SDE1 - DevOps (May 2024 - Present)
+- **Entry 2:** Associate Software Engineer (June 2023 - May 2024)
+- **Entry 3:** DevOps Intern (January 2023 - June 2023)
+- All entries have copy-paste ready descriptions
+
+**3. LinkedIn Headline** → See "👤 Personal Information" (Line 30)
+- Professional Title: "Software Engineer | Platform Engineering · DevOps · Cloud Infrastructure · Cloud-Native Software Development"
+
+**4. LinkedIn Location** → See "👤 Personal Information" (Line 26)
+- Location: Mumbai, India
+
+**LinkedIn Optimization Notes:**
+- ✅ Format: Separate roles per company (shows career progression)
+- ✅ Includes: Internship experience (Jan 2023 - Jun 2023)
+- ✅ Timeline: Full 3+ years (vs. consolidated resume format)
+- ✅ Strategy: Career progression and promotions visible
 
 ---
 
@@ -22,10 +67,171 @@
 
 **Professional Title:** Software Engineer | Platform Engineering · DevOps · Cloud Infrastructure · Cloud-Native Software Development
 
-**Professional Summary:**
-Experienced Software Engineer specializing in Platform Engineering, DevOps, and Cloud-Native Software Development. Focused on building secure, scalable infrastructure and developer productivity through automation, observability, and cloud-native solutions. Proven track record of delivering production-grade systems with measurable impact.
+**Areas of Expertise & Interest:**
+- **DevOps & Platform Engineering:** Infrastructure automation, CI/CD pipelines, GitOps workflows, and developer productivity tools
+- **Security-Focused Software Development:** Zero-trust architecture, automated security scanning, secrets management, and compliance implementation
+- **Cloud-Native Engineering & System Design:** Kubernetes orchestration, microservices architecture, multi-cloud deployments, and scalable system design
 
-**Online Presence:**
+**GitHub:** https://github.com/thisiskushal31
+
+---
+
+## 📝 LinkedIn About Section
+
+**Copy-Paste Ready Format:**
+```
+I'm a Software Engineer with 3+ years of experience building, deploying, and operating production-grade software systems across cloud, managed services, and VM-based environments. I work at the intersection of software development and platform engineering—owning systems end to end, from infrastructure design and deployment to monitoring, reliability, and production operations. I focus on understanding the "why" behind technical decisions and choosing the best system design for each problem, ensuring solutions are not just functional but optimal for the specific context. I've contributed to high-availability platforms, reduced operational overhead through automation, and improved system performance, resilience, and cost efficiency at scale. I place a strong emphasis on security, reliability, and scalability, focusing on building systems that are easy to operate, resilient under load, and aligned with real business needs.
+
+• End-to-end system ownership: Infrastructure → Deployment → Monitoring → Reliability
+• System design: Understanding the "why" and choosing the best architecture for each problem
+• Cloud platforms: GCP, AWS with Kubernetes-based and self-managed deployments
+• CI/CD & Infrastructure: Pipeline design, Infrastructure as Code, observability systems
+• Platform engineering: Automation, developer tooling, and production operations
+• High ownership: Comfortable with ambiguous requirements, cross-functional collaboration
+
+GitHub: https://github.com/thisiskushal31
+```
+
+**Character Count:** ~1,050 characters (within LinkedIn's 2,600 character limit ✅)
+
+**Key Highlights:**
+- **Experience:** 3+ years building production-grade systems
+- **Scope:** End-to-end ownership (infrastructure → deployment → monitoring → reliability)
+- **Cloud Platforms:** GCP, AWS
+- **Technologies:** Kubernetes, CI/CD, Infrastructure as Code, Observability
+- **Focus Areas:** Security, reliability, scalability
+- **Work Style:** High ownership, collaborative, business-aligned
+- **Capabilities:** Platform engineering, automation, developer tooling, production operations
+- **System Design:** Understanding the "why" and choosing optimal architecture for each problem
+
+**Update Instructions:**
+- Update years of experience as you progress
+- Add new technologies or platforms as you gain experience
+- Update focus areas if priorities shift
+- Keep the core message about end-to-end ownership and business impact
+
+---
+
+## 💼 LinkedIn Experience Section
+
+> **📌 Note:** This section is specifically formatted for LinkedIn profile entries (separate roles per company). The "Work Experience" section below is formatted for resume/CV (consolidated roles). Both contain the same achievements but in different formats optimized for each platform.
+
+**Strategy:** Separate roles per company to show career progression (vs. consolidated resume format)
+
+**Resume Strategy:** Consolidated experience under one role per company  
+**LinkedIn Strategy:** Separate roles to show career progression and internship experience
+
+> **📝 Update Instructions:** When switching companies, add a new company section below. Keep all previous companies for historical reference. Update dates and add new roles as you progress.
+
+### 📋 Experience Comparison
+
+**✅ IN RESUME (Consolidated):**
+- Company 1: Purplle.com - Consolidated under single role per company
+- Company 2+: [Future companies] - Each company consolidated under one role
+
+**📝 IN LINKEDIN (Separated Roles):**
+- Company 1: Purplle.com - Separate roles showing progression
+- Company 2+: [Future companies] - Separate roles per company
+
+### 🏢 Company 1: Purplle.com
+
+**Company Overview:**
+- **Industry:** E-Commerce (Beauty & Personal Care)
+- **Total Duration:** January 2023 - Present (3+ years)
+- **Location:** Mumbai, Maharashtra, India
+- **Company Website:** https://www.purplle.com
+
+#### Entry 1: SDE1 - DevOps
+**Period:** May 2024 - Present (1 year 8 months)  
+**Location:** Mumbai, Maharashtra, India
+
+**Copy-Paste Ready Description:**
+```
+- Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue, 7M total users with 4x traffic spike handling during major sales events, reducing site downtime by 33%.
+- Deployed and managed high-availability PurplleAds (AdTech) platform at `adtech.purplle.com`, supporting ₹400+ Crore brand advertising revenue, 7M total users, and 4x traffic spike handling during major sales events, achieving 93% cost reduction (₹80 Lakh → ₹5.7 Lakh infrastructure cost) by replacing third-party software with in-house solution.
+- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events.
+- Engineered DR solutions and automated backups for MySQL, MongoDB, and Elasticsearch, ensuring data resilience and integrity.
+- Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining provisioning.
+- Managed 125+ Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring production reliability and scalability.
+- Accelerated infrastructure delivery by 40%+ through CI/CD automation (Terraform, Jenkins, GitOps), automating 40%+ of provisioning tasks.
+- Modernized CI/CD by migrating Jenkins from freestyle to scripted pipelines with Slack alerts, reducing incident response time.
+- Reduced MTTR from 30 to 7 minutes by architecting unified observability stack (Prometheus, Grafana) with automated escalation.
+- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup.
+- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture.
+```
+
+#### Entry 2: Associate Software Engineer
+**Period:** June 2023 - May 2024 (1 year)  
+**Location:** Mumbai, Maharashtra, India
+
+**Copy-Paste Ready Description:**
+```
+- Achieved 40–50% cost savings by performing cloud infrastructure rightsizing and cleaning up unused resources, resulting in optimized cloud spend.
+- Improved system resilience by designing and implementing backup and disaster recovery solutions, with multiple PoCs promoted to production.
+- Enhanced operational efficiency by deploying an on-call alerting system, reducing mean incident response time from 30 to 7 minutes.
+- Reduced site downtime by 50% during sale events through infrastructure optimization and proactive monitoring.
+- Enabled QA velocity by deploying Hypertest (A Third Party Testing Tool) infrastructure, delivering it ahead of schedule and handing over to the dev team.
+- Strengthened cloud security posture by leading initiatives in IAM role minimization, Secure Boot, and automated cleanup of public IPs and service accounts — resulting in improved compliance and reduced attack surface.
+```
+
+#### Entry 3: DevOps Intern
+**Period:** January 2023 - June 2023 (6 months)  
+**Location:** Mumbai, Maharashtra, India
+
+**Copy-Paste Ready Description:**
+```
+- Achieved >98% uptime by deploying a robust monitoring and alerting system using Prometheus and Grafana, resulting in faster detection and resolution of issues.
+- Improved platform reliability by collaborating across teams to resolve high-impact issues in production infrastructure.
+```
+
+### 🏢 Company 2: [Future Company Name]
+
+> **Template for adding new company:** Copy this section when joining a new company. Update all fields below.
+
+**Company Overview:**
+- **Industry:** [Industry Name]
+- **Total Duration:** [Start Date] - [End Date or Present]
+- **Location:** [City, State, Country]
+- **Company Website:** [Website URL]
+
+#### Entry 1: [Job Title]
+**Period:** [Start Date] - [End Date or Present]  
+**Location:** [City, State, Country]
+
+**Description:**
+- [Achievement 1 with quantifiable metrics]
+- [Achievement 2 with quantifiable metrics]
+- [Achievement 3 with quantifiable metrics]
+
+---
+
+### 📊 Key Differences: Resume vs LinkedIn
+
+| Aspect | Resume | LinkedIn |
+|--------|--------|----------|
+| **Internship** | ❌ Not included | ✅ Included (Jan-Jun 2023) |
+| **Role Breakdown** | Single consolidated role | Separate roles (Intern → Associate → SDE1) |
+| **Timeline** | Jun 2023 - Present | Jan 2023 - Present |
+| **Focus** | Impact & achievements | Career progression & growth |
+| **Detail Level** | High-level consolidated | Detailed with role transitions |
+
+### 💡 Recommendations
+
+**For LinkedIn (Recommended):**
+- ✅ Use three separate entries per company to show career progression
+- ✅ Include internship experience to show full timeline
+- ✅ Demonstrate increasing responsibility and promotions
+- ✅ Better for keyword matching and ATS systems
+
+**For Resume:**
+- ✅ Maintain consolidated approach (single role per company)
+- ✅ Focus on impact and technical depth
+- ✅ Cleaner, more concise format
+
+---
+
+## 🔗 Online Presence & Contact Information
+
 - **Portfolio:** https://thisiskushal31.github.io/
 - **Blog:** https://thisiskushal31.github.io/blog/
 - **Bio Links:** https://thisiskushal31.github.io/link/
@@ -41,8 +247,21 @@ Experienced Software Engineer specializing in Platform Engineering, DevOps, and 
 
 ## 💼 Work Experience
 
-### SDE1 - DevOps | Purplle.com
-**Location:** Mumbai, Maharashtra, India  
+> **📌 Note:** This section is formatted for resume/CV (consolidated roles per company). The "LinkedIn Experience Section" above is formatted for LinkedIn profile entries (separate roles per company). Both contain the same achievements but in different formats optimized for each platform.
+
+> **📝 Update Instructions:** When switching companies, add a new company section below. Keep all previous companies for historical reference. Update "Current Company" section at the top.
+
+---
+
+### 🏢 Company 1: Purplle.com
+
+**Company Overview:**
+- **Industry:** E-Commerce (Beauty & Personal Care)
+- **Total Duration:** January 2023 - Present (3+ years)
+- **Location:** Mumbai, Maharashtra, India
+- **Company Website:** https://www.purplle.com
+
+#### Role 1: SDE1 - DevOps
 **Period:** May 2024 - Present  
 **Type:** Hybrid
 
@@ -50,10 +269,12 @@ Experienced Software Engineer specializing in Platform Engineering, DevOps, and 
 Leading high-availability infrastructure deployments, automation, and observability initiatives to ensure 99%+ uptime and optimize cloud operations at Purplle.com.
 
 **Key Achievements:**
-- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC)
+- Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue, 7M total users with 4x traffic spike handling during major sales events, reducing site downtime by 33%
+- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
+- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
 - Engineered DR solutions and automated backups for MySQL, MongoDB, and Elasticsearch, ensuring data resilience and integrity
 - Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining provisioning
-- Managed 100+ Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring production reliability and scalability
+- Managed 125+ Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring production reliability and scalability
 - Accelerated infrastructure delivery by 40%+ through CI/CD automation (Terraform, Jenkins, GitOps), automating 40%+ of provisioning tasks
 - Modernized CI/CD by migrating Jenkins from freestyle to scripted pipelines with Slack alerts, reducing incident response time
 - Reduced MTTR from 30 to 7 minutes by architecting unified observability stack (Prometheus, Grafana) with automated escalation
@@ -61,10 +282,9 @@ Leading high-availability infrastructure deployments, automation, and observabil
 - Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
 
 **Technologies Used:**
-GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/CD, Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Trivy, GitLab CI, Secrets Manager, SSO, IAM
+GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/CD, Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Trivy, GitLab CI, Secrets Manager, SSO, IAM, Keycloak, ALB, GCLB, Route53, WAF, VPC
 
-### Associate Software Engineer | Purplle.com
-**Location:** Mumbai, Maharashtra, India  
+#### Role 2: Associate Software Engineer
 **Period:** June 2023 - May 2024  
 **Type:** Hybrid
 
@@ -75,14 +295,14 @@ Focused on cloud cost optimization, disaster recovery, and security enhancements
 - Achieved 40–50% cost savings by performing cloud infrastructure rightsizing and cleaning up unused resources, resulting in optimized cloud spend
 - Improved system resilience by designing and implementing backup and disaster recovery solutions, with multiple PoCs promoted to production
 - Enhanced operational efficiency by deploying an on-call alerting system, reducing mean incident response time from 30 to 7 minutes
+- Reduced site downtime by 50% during sale events through infrastructure optimization and proactive monitoring
 - Enabled QA velocity by deploying Hypertest (A Third Party Testing Tool) infrastructure, delivering it ahead of schedule and handing over to the dev team
 - Strengthened cloud security posture by leading initiatives in IAM role minimization, Secure Boot, and automated cleanup of public IPs and service accounts — resulting in improved compliance and reduced attack surface
 
 **Technologies Used:**
 GCP, AWS, Terraform, Python, Prometheus, Grafana, Kubernetes, CI/CD
 
-### DevOps Intern | Purplle.com
-**Location:** Mumbai, Maharashtra, India  
+#### Role 3: DevOps Intern
 **Period:** January 2023 - June 2023  
 **Type:** Remote
 
@@ -95,6 +315,35 @@ Built and deployed monitoring systems for cloud infrastructure to improve uptime
 
 **Technologies Used:**
 Prometheus, Grafana, GCP
+
+---
+
+### 🏢 Company 2: [Future Company Name]
+
+> **Template for adding new company:** Copy this section when joining a new company. Update all fields below.
+
+**Company Overview:**
+- **Industry:** [Industry Name]
+- **Total Duration:** [Start Date] - [End Date or Present]
+- **Location:** [City, State, Country]
+- **Company Website:** [Website URL]
+
+#### Role 1: [Job Title]
+**Period:** [Start Date] - [End Date or Present]  
+**Type:** [Remote/Hybrid/On-site]
+
+**Role Description:**
+[Brief description of your role and responsibilities]
+
+**Key Achievements:**
+- [Achievement 1 with quantifiable metrics]
+- [Achievement 2 with quantifiable metrics]
+- [Achievement 3 with quantifiable metrics]
+
+**Technologies Used:**
+[Technology 1], [Technology 2], [Technology 3]
+
+---
 
 ---
 
@@ -173,18 +422,60 @@ Automated infrastructure provisioning, backups, and role management to reduce ma
 - Improved data resilience
 - Reduced manual overhead
 
-### 2. Nexus - Internal Inhouse POS Application
+### 2. PurplleAds - In-House AdTech Platform
 **Status:** Production  
 **Category:** Platform Engineering  
-**Technologies:** GCP, GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC, Grafana, Prometheus, Terraform
+**Technologies:** GCP, GKE, AWS, Route53, Kubernetes, Terraform, GitLab CI, Keycloak, ALB, GCLB, Cloud SQL, Redis, WAF, VPC
+
+**Description:**
+Deployed and managed in-house brand management and advertising platform at `adtech.purplle.com` that enables brands to advertise products on Purplle.com through search widgets and banners. The platform operates on a daily budget and bidding system, leveraging user preference data for optimized ad delivery.
+
+**Business Requirements:**
+- **Daily Budget System:** Brands set daily advertising budgets for campaign management
+- **Bidding System:** Brands bid for ad placements in search widgets and banners
+- **User Preference Data:** Leverages existing user preference and behavioral data for targeted ad delivery
+- **Self-Service Platform:** Enables brands to manage their own campaigns independently
+
+**Key Features:**
+- Deployed high-availability AdTech platform at `adtech.purplle.com` using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) and AWS (Route53)
+- Managed 100+ Kubernetes deployments on GKE, ensuring production reliability and scalability
+- Implemented 4-tier architecture pattern with multi-layer security (DNS & Security, Load Balancing, Application, Data layers)
+- Integrated Keycloak for identity provider and user authentication
+- Handles 7M total users with 150K DAU typically, scaling to 600K DAU during major sales events (4x) and 300K DAU during minor sales (2x)
+- Processes 133.3 million clicks/year (~365K clicks/day)
+- Supports ₹400+ Crore in brand advertising revenue
+- Critical platform for 5 major house brands (₹680-₹800 Cr revenue)
+
+**Impact:**
+- 93% cost reduction (₹80 Lakh → ₹5.7 Lakh infrastructure cost)
+- ₹400+ Crore brand advertising revenue support
+- 4x traffic spike handling during major sales events
+- 99%+ uptime maintained
+- Replaced ₹80 Lakh/year third-party business management software
+
+### 3. Nexus - Internal Inhouse POS Application
+**Status:** Production  
+**Category:** Platform Engineering  
+**Technologies:** GCP, GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC, Grafana, Prometheus, Terraform, Kafka, Redis
 
 **Description:**
 Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP services for retail operations at purplle.com.
 
+**Business Requirements:**
+- **Store Management:** Enable store teams to manage retail operations efficiently
+- **Multi-Store Support:** Support operations across 100+ retail stores
+- **User Scale:** Serve 500+ store employees daily
+- **Revenue Generation:** Support 40+ Crores in revenue generation
+- **High Availability:** 99%+ uptime across all retail locations
+
 **Key Features:**
 - Deployed high-availability infrastructure across retail stores using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC)
+- Integrated Kafka for messaging and Redis for caching
 - Integrated monitoring and alerting with Grafana and Prometheus, enabling real-time system performance visibility
 - Implemented WAF to protect the application from common web threats, enhancing security posture
+- Handles 7M total users with 4x traffic spike handling during major sales events
+- Auto-scaling configuration (1-6 pods, average 3 pods) for cost optimization
+- Handles both public and private/internal traffic
 - Maintained 99%+ uptime across all retail store deployments
 - Successfully transitioned infrastructure management to DevOps and development teams post-deployment for long-term sustainability
 
@@ -193,8 +484,10 @@ Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ up
 - High-availability retail operations
 - Zero-downtime deployments
 - Secure, monitored infrastructure
+- 100+ stores supported
+- 500+ daily employees served
 
-### 3. Monitoring & Alerting Automation
+### 4. Monitoring & Alerting Automation
 **Status:** Production  
 **Category:** Platform Engineering  
 **Technologies:** Grafana, Prometheus, Python, GCP
@@ -213,7 +506,7 @@ Automated infrastructure monitoring and alerting to improve incident response, r
 - Unified monitoring across all infrastructure
 - Proactive issue detection
 
-### 4. Cloud Infrastructure Security Enhancements
+### 5. Cloud Infrastructure Security Enhancements
 **Status:** Production  
 **Category:** DevSecOps  
 **Technologies:** GCP, Python, Terraform, Kubernetes, GKE, Secrets Manager, Trivy, GitLab CI, SSO, IAM
@@ -235,7 +528,7 @@ Strengthened cloud infrastructure security by automating key security controls, 
 - Improved compliance
 - Automated security scanning and compliance
 
-### 5. Elasticsearch Cluster Management Automation
+### 6. Elasticsearch Cluster Management Automation
 **Status:** Production  
 **Category:** DevOps / AI Automation  
 **Technologies:** n8n, Terraform, Ansible, Python, Elasticsearch
@@ -253,7 +546,7 @@ Built agentic AI automation for Elasticsearch cluster management, streamlining p
 - Reduced manual cluster management overhead
 - AI-powered automation for infrastructure operations
 
-### 6. SocialSplit - Real-Time Chat Application
+### 7. SocialSplit - Real-Time Chat Application
 **Status:** Personal Project  
 **Technologies:** MongoDB, ReactJS, Socket.IO, NodeJS
 
@@ -266,23 +559,32 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 
 ## 📊 Key Metrics & Impact
 
-### Production Metrics
+> **📝 Update Instructions:** When switching companies, update the "Experience Summary" section below with new totals. Keep company-specific metrics in their respective company sections.
+
+### Production Metrics (Cumulative Across All Companies)
 - **40%+ faster deployments** - Infrastructure automation and CI/CD
 - **76% MTTR reduction** - From 30 minutes to 7 minutes
 - **99%+ service uptime** - Sustained across retail stores and production systems
 - **30% cloud cost reduction** - Through rightsizing, autoscaling, and resource cleanup
 - **40-50% cost savings** - Achieved during Associate Software Engineer role
-- **100+ Kubernetes deployments** - Managed on GKE
+- **125+ Kubernetes deployments** - Managed on GKE
 - **100% legacy system migration** - Unified monitoring
 
-### Experience
-- **3+ years** total professional experience at Purplle.com
-- **1 year 8 months** as SDE1 - DevOps (May 2024 - Present)
-- **1 year** as Associate Software Engineer (June 2023 - May 2024)
-- **6 months** as DevOps Intern (January 2023 - June 2023)
-- **5+ projects** deployed to production
-- **2+ cloud platforms** (GCP, AWS)
+### Experience Summary
+- **Total Professional Experience:** 3+ years (as of current date)
+- **Companies Worked At:** 1 (Purplle.com)
+- **Current Company:** Purplle.com
+- **Current Role:** SDE1 - DevOps
+- **Projects Deployed to Production:** 5+
+- **Cloud Platforms:** GCP, AWS
 - **99%+ uptime** achieved across production systems
+
+### Experience by Company
+
+**Purplle.com (January 2023 - Present):**
+- **Total Duration:** 3+ years
+- **Roles:** DevOps Intern → Associate Software Engineer → SDE1 - DevOps
+- **Key Projects:** PurplleAds (AdTech), Nexus (POS), Infrastructure Automation, Monitoring, Security
 
 ---
 
@@ -324,29 +626,31 @@ Comprehensive documentation and learning resources across multiple repositories:
 - **Infrastructure Engineer** - IaC, automation, cloud infrastructure
 
 ### Career Interests
-- Platform Engineering
-- Cloud-Native Software Development
-- DevOps & Automation
+**Primary Focus Areas:**
+- **DevOps & Platform Engineering** - Infrastructure automation, CI/CD, GitOps, developer productivity
+- **Security-Focused Software Development** - Zero-trust architecture, automated security, compliance
+- **Cloud-Native Engineering & System Design** - Kubernetes, microservices, multi-cloud, scalable systems
+
+**Additional Interests:**
 - Infrastructure as Code
-- Microservices Architecture
 - Site Reliability Engineering
 - Technical Writing & Knowledge Sharing
 - Open Source Contributions
 - AI/ML Integration
-- Security & Compliance
 
 ---
 
 ## 💡 Unique Value Propositions
 
 ### What Sets Me Apart
-1. **Production-Proven Impact:** Quantifiable results (40%+ faster deployments, 76% MTTR reduction, 30% cloud cost reduction, 99%+ uptime)
-2. **Full-Stack Infrastructure Expertise:** From code to cloud, covering development, automation, and operations
-3. **AI-Powered Automation:** Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python
-4. **Kubernetes Expertise:** Managed 100+ Kubernetes deployments on GKE, ensuring production reliability and scalability
-5. **Security-First Mindset:** Zero-trust implementations, Kubernetes RBAC, Trivy scanning, automated compliance, proactive threat mitigation
-6. **Knowledge Sharing:** Active technical writer with comprehensive learning resources
-7. **Continuous Learning:** Building expertise in emerging technologies (Go, Crossplane, Kubernetes operators)
+1. **Areas of Expertise:** DevOps & Platform Engineering, Security-Focused Software Development, Cloud-Native Engineering & System Design
+2. **Production-Proven Impact:** Quantifiable results (40%+ faster deployments, 76% MTTR reduction, 30% cloud cost reduction, 99%+ uptime)
+3. **Full-Stack Infrastructure Expertise:** From code to cloud, covering development, automation, and operations
+4. **AI-Powered Automation:** Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python
+5. **Kubernetes Expertise:** Managed 125+ Kubernetes deployments on GKE, ensuring production reliability and scalability
+6. **Security-First Mindset:** Zero-trust implementations, Kubernetes RBAC, Trivy scanning, automated compliance, proactive threat mitigation
+7. **Knowledge Sharing:** Active technical writer with comprehensive learning resources
+8. **Continuous Learning:** Building expertise in emerging technologies (Go, Crossplane, Kubernetes operators)
 
 ### Key Differentiators
 - **Automation-Focused:** Reduced manual tasks by 40%+ through intelligent automation and AI-powered workflows
@@ -402,76 +706,26 @@ Comprehensive documentation and learning resources across multiple repositories:
 
 ---
 
-## 📋 Usage Instructions for AI Prompts
-
-### For Cold Email Generation
-```
-Use this career context to generate value-driven cold emails. Focus on:
-- Quantifiable achievements (40%+ faster deployments, 76% MTTR reduction, 30% cost reduction, 99%+ uptime)
-- Specific technologies matching the company's stack (GKE, Kubernetes, Terraform, Ansible, n8n, etc.)
-- Production experience and impact (100+ Kubernetes deployments, AI-powered automation)
-- Security-first approach (Zero-trust, Kubernetes RBAC, Trivy scanning)
-- Cost optimization expertise (30% cloud cost reduction)
-- AI-powered automation capabilities
-```
-
-### For Job Matching
-```
-Match this profile against job descriptions. Identify:
-- Skills alignment (technical stack match)
-- Experience relevance (years, domain expertise)
-- Achievement correlation (similar impact metrics)
-- Growth potential (learning trajectory)
-```
-
-### For CV/Resume Optimization
-```
-Optimize CV/resume for specific JD by:
-- Highlighting relevant projects and achievements
-- Emphasizing matching technologies
-- Quantifying impact where possible
-- Aligning experience descriptions with role requirements
-- Including relevant keywords from JD
-```
-
-### For Keyword Optimization
-```
-Extract and optimize keywords for:
-- ATS (Applicant Tracking Systems) compatibility
-- LinkedIn profile optimization
-- Job board searches
-- Technical skill matching
-```
-
-### For Company-Specific Optimization
-```
-Customize application materials by:
-- Researching company's tech stack and matching skills
-- Identifying company challenges and showing relevant solutions
-- Highlighting similar industry experience
-- Demonstrating understanding of company's needs
-```
+> **📖 Usage Instructions:** For detailed usage instructions on how to use this career context for cold emails, job matching, CV/resume optimization, keyword optimization, and company-specific customization, see: [`Guides/career-context-usage.md`](./Guides/career-context-usage.md)
 
 ---
 
 ## 🔄 Update Instructions
 
-This document should be updated when:
-- New projects are completed
-- New achievements are unlocked
-- Skills are acquired or updated
-- Job roles change
-- Certifications are earned
-- Blog posts are published
-- New repositories are created
+**When to Update:**
+- New projects completed, achievements unlocked, skills acquired
+- Job roles change, certifications earned
+- Blog posts published, new repositories created
 
-**Source Files to Reference:**
-- `/resume-latex/resume.tex` - Latest resume content
-- `/thisiskushal31/README.md` - GitHub profile
-- `/thisiskushal31.github.io/src/config/portfolio.ts` - Portfolio config
-- `/thisiskushal31.github.io/src/pages/Experience.tsx` - Experience details
-- `/blog/src/config/profile.json` - Blog profile
-- `/thisiskushal31/plans/JOB_CHANGE_TASKS.md` - Job search strategy
+> **📝 Detailed Update Guide:** See [`Guides/update-checklist.md`](./Guides/update-checklist.md) for comprehensive update instructions and source file references.
+
+---
+
+## ✅ Document Status
+
+**✅ Single Source of Truth:** All LinkedIn profile data matches this document exactly. No duplications. Ready for GitHub raw file usage.
+
+**GitHub Raw URL:** `https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md`
 
 ---
 
