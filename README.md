@@ -94,44 +94,21 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 ## 🛠️ Technical Stack
 
-**Languages & Development:**
-- **Backend:** Python, JavaScript, C/C++
-- **Scripting & Automation:** Bash/Shell, Python
-- **Full-Stack:** JavaScript (Node.js), React (frontend projects)
+**Languages:** Python, JavaScript, C/C++, Bash/Shell, Node.js, React
 
-**Cloud & Infrastructure:**
-- **GCP:** GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT
-- **AWS:** Route53, ALB
-- **Containerization:** Docker, Kubernetes (GKE), Container Native Load Balancing
+**Cloud & Infrastructure:** GCP (GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT), AWS (Route53, ALB), Docker, Kubernetes (GKE), Container Native Load Balancing
 
-**Infrastructure as Code:**
-- Terraform (reusable modules, multi-environment support)
-- Ansible (configuration management, system hardening)
-- GitOps workflows
+**Infrastructure as Code:** Terraform (reusable modules, multi-environment), Ansible (configuration management, system hardening), GitOps workflows
 
-**CI/CD & Automation:**
-- Jenkins (scripted pipeline jobs, Slack integration)
-- GitLab CI (automated testing, Trivy scanning)
-- GitHub CI
-- n8n (workflow automation)
+**CI/CD & Automation:** Jenkins (scripted pipelines, Slack integration), GitLab CI (automated testing, Trivy scanning), GitHub CI, n8n (workflow automation)
 
-**Databases & Storage:**
-- **Relational:** MySQL (4TB production databases), Cloud SQL
-- **NoSQL:** MongoDB, Elasticsearch, Aerospike (A/B testing)
-- **Caching:** Redis, Memorystore
-- **Messaging:** Kafka
+**Databases & Storage:** MySQL (4TB production), Cloud SQL, MongoDB, Elasticsearch, Aerospike, Redis, Memorystore, Kafka
 
-**Monitoring & Observability:**
-- Prometheus, Grafana, GCP Stackdriver
-- Unified observability stack with automated escalation
+**Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver (unified observability stack with automated escalation)
 
-**Security & Operations:**
-- Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO, IAM automation
-- Zero-Trust Architecture, Defense-in-Depth
-- WAF (Reblaze), Geo-blocking, Rate Limiting, Bot Protection
+**Security & Operations:** Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO, IAM automation, Zero-Trust Architecture, Defense-in-Depth, WAF (Reblaze), Geo-blocking, Rate Limiting, Bot Protection
 
-**Fundamentals:**
-- Data Structures, Algorithms, System Design, Networking, Operating Systems
+**Fundamentals:** Data Structures, Algorithms, System Design, Networking, Operating Systems
 
 ---
 
