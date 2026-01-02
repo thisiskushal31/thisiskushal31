@@ -19,6 +19,11 @@ I need to craft a value-driven cold email. I've provided my complete career cont
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 (Please fetch and read the content from this URL)
 
+**Key Areas of Expertise:**
+- DevOps & Platform Engineering
+- Security-Focused Software Development
+- Cloud-Native Engineering & System Design
+
 **Stage 1 - Additional Information Needed:**
 
 1. **Job Description (JD)**:
