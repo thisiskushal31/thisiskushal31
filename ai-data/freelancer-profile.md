@@ -71,34 +71,29 @@ Software Engineer | Platform Engineering | Kubernetes | CI/CD Automation | Cost 
 **Copy-Paste Ready (Business-Driven Version - Full):**
 
 ```
-Transform your infrastructure costs, reliability, and deployment speed with production-proven expertise.
+I design code, deploy applications, and manage high-availability infrastructure. I help businesses build, deploy, and scale infrastructure systems that reduce costs, improve reliability, and accelerate delivery.
 
-I help businesses build, deploy, and scale infrastructure systems that reduce costs, improve reliability, and accelerate delivery. With 3+ years managing production systems supporting 7M+ users and $84M+ revenue, I deliver measurable business impact through automation, optimization, and security-first design.
-
-What I deliver:
-• Cost Reduction: Achieved 30-50% cloud cost savings through rightsizing, optimization, and resource management
-• Faster Time-to-Market: 40%+ faster deployments through CI/CD automation and Infrastructure as Code
-• Improved Reliability: 99%+ uptime maintenance, 76% reduction in incident response time (30min → 7min)
-• Security & Compliance: Zero-trust architecture implementation, automated security scanning, and compliance automation
-• Scalability: Infrastructure that handles 4x traffic spikes during peak events without performance degradation
-
-Business impact I've delivered:
+What I have delivered:
 • $48M+ revenue platform deployment with 93% infrastructure cost reduction
 • 30% cloud cost reduction through rightsizing and optimization
 • 76% faster incident resolution (30min → 7min) reducing downtime and business impact
 • 40%+ faster deployments enabling faster feature delivery and market responsiveness
-• 99%+ uptime across production systems reducing revenue loss from outages
+• 99%+ uptime across production systems supporting 7M+ users and $84M+ revenue
+• 125+ Kubernetes deployments managed with production reliability
+
+View detailed proof of work and technical documentation: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
 Core capabilities:
+• Code Design & Development: Full-stack development, application logic, infrastructure automation
 • Cloud Infrastructure: GCP, AWS setup, migration, and optimization
-• Kubernetes & Containerization: Cluster deployment, scaling, and management (125+ deployments managed)
+• Kubernetes & Containerization: Cluster deployment, scaling, and management
 • CI/CD & Automation: Pipeline design, Infrastructure as Code (Terraform, Ansible), GitOps workflows
 • Monitoring & Observability: Prometheus, Grafana setup, custom dashboards, alerting automation
 • Database & Data Platforms: MySQL, MongoDB, Elasticsearch deployment, optimization, and disaster recovery
 • Security & Compliance: Zero-trust implementation, RBAC, automated scanning, secrets management
 
 How I work:
-• Business-focused: Every solution aligned with your business goals and ROI
+• Business-focused: Solutions aligned with your business goals and ROI
 • High ownership: End-to-end accountability from design to production operations
 • Transparent communication: Regular updates, clear documentation, and knowledge transfer
 • Adaptable: Comfortable with changing requirements and fast-paced environments
@@ -122,16 +117,19 @@ Ideal for businesses that need:
 **Shorter Version (For Platform Limits):**
 
 ```
-Software Engineer with 3+ years managing production infrastructure supporting 7M+ users and $84M+ revenue. I deliver measurable business impact through automation, optimization, and security-first design.
+I design code, deploy applications, and manage high-availability infrastructure. Software Engineer with 3+ years managing production systems supporting 7M+ users and $84M+ revenue.
 
-Key Results:
-• 30-50% cloud cost reduction through optimization
+What I have delivered:
+• $48M+ platform deployment with 93% cost reduction
+• 30% cloud cost reduction through optimization
 • 40%+ faster deployments via CI/CD automation
 • 76% faster incident resolution (30min → 7min)
 • 99%+ uptime across production systems
-• $48M+ platform deployment with 93% cost reduction
+• 125+ Kubernetes deployments managed
 
-Expertise: GCP, AWS, Kubernetes, Terraform, Ansible, CI/CD, Monitoring, Security, Database Management
+Proof of work: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
+
+Core capabilities: Code design & development, Cloud Infrastructure (GCP, AWS), Kubernetes, CI/CD, Monitoring, Security, Database Management
 
 Ideal for: Cloud infrastructure, Kubernetes, CI/CD, automation, monitoring, security, cost optimization, scalability improvements
 ```
