@@ -39,8 +39,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 - **Databases & Storage:** MySQL (4TB production), Cloud SQL, MongoDB, Elasticsearch, Aerospike, Redis, Memorystore, Kafka
 - **Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver (unified observability stack with automated escalation)
 - **Security & Operations:** Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO, IAM automation, Zero-Trust Architecture, Defense-in-Depth, WAF (Reblaze), Geo-blocking, Rate Limiting, Bot Protection
-
-**Fundamentals:** Data Structures, Algorithms, System Design, Networking, Operating Systems
+- **Fundamentals:** Data Structures, Algorithms, System Design, Networking, Operating Systems
 
 ---
 
