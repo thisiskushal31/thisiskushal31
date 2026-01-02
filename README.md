@@ -17,96 +17,28 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 ## 🏗️ Technical Expertise
 
-**Engineering Approach:**
-- **Full-Stack Development:** Write code across the stack, from application logic to infrastructure automation
-- **Secure Deployment:** Deploy applications with security-first principles, implementing zero-trust patterns, automated IAM policies, secrets management, and Kubernetes RBAC
-- **AI-Driven Solutions:** Leverage AI for intelligent automation, agentic workflows, and enhanced system capabilities
-- **Reliability Engineering:** Build resilient systems with observability (Prometheus/Grafana), automated incident response, and proactive monitoring
-- **Automation-First:** Infrastructure as Code (Terraform, Ansible), CI/CD pipelines (Jenkins, GitLab CI, GitHub CI), and GitOps workflows
+- **Engineering Approach:** Full-stack development (application logic to infrastructure automation), security-first deployment (zero-trust, automated IAM, secrets management, Kubernetes RBAC), AI-driven solutions (intelligent automation, agentic workflows), reliability engineering (observability, automated incident response), automation-first (IaC, CI/CD, GitOps)
 
-**Core Capabilities:**
-- **System Architecture & Design:** Design scalable architectures, implement Infrastructure as Code (Terraform, Ansible), build CI/CD pipelines (Jenkins, GitLab CI, GitHub CI), and integrate observability (Prometheus/Grafana) with security hardening
-- **Production-Grade Engineering:** Implement zero-trust networking, automated IAM policies, secrets management, Kubernetes RBAC, and infrastructure-as-code best practices
-- **Cloud-Native Expertise:** Managed 125+ Kubernetes deployments on GKE, ensuring production reliability and scalability across multi-environment setups
+- **Core Capabilities:** System architecture & design (scalable architectures, IaC, CI/CD, observability), production-grade engineering (zero-trust networking, automated IAM, secrets management, Kubernetes RBAC), cloud-native expertise (125+ Kubernetes deployments on GKE across multi-environment setups)
 
-### Infrastructure & Platform Engineering
+- **Infrastructure & Platform Engineering:** 125+ Kubernetes deployments on GKE (DEV, SIT, UAT, PROD), 300+ compute instances, 4TB MySQL databases, multi-zone deployments, hybrid cloud (GCP + AWS) with Route53, GKE, Cloud SQL, ALB, GCLB, microservices with kubedns service discovery. **IaC & Automation:** Terraform (reusable modules for GKE, Cloud SQL, VPCs, Load Balancers), Ansible (configuration management, system hardening), GitOps workflows, CI/CD modernization (Jenkins scripted pipelines with Slack) — **Result:** 40%+ faster deployments, 40%+ provisioning tasks automated. **Database Operations:** Zero-downtime migrations (gh-ost on 4TB MySQL), automated master/slave management, backup automation (MySQL, MongoDB, Elasticsearch), DR with PITR
 
-**Production Infrastructure:**
-- **Kubernetes Orchestration:** Managed 125+ Kubernetes deployments on GKE across multi-environment setups (DEV, SIT, UAT, PROD)
-- **Infrastructure Scale:** 300+ compute instances, 4TB MySQL databases, multi-zone deployments
-- **Multi-Cloud Architecture:** Hybrid cloud deployments (GCP + AWS) with Route53, GKE, Cloud SQL, ALB, GCLB
-- **Service Architecture:** Microservices with kubedns service discovery, container-native load balancing
+- **Observability & Monitoring:** Unified observability stack (Prometheus, Grafana, GCP Stackdriver) with automated escalation, CI/CD integration (Jenkins + Slack alerts), monitoring 125+ K8s deployments and 300+ compute instances across multi-environment — **Result:** 76% MTTR reduction (30min → 7min)
 
-**Infrastructure as Code & Automation:**
-- **Terraform:** Reusable, parameterized modules for GKE clusters, Cloud SQL, VPCs, Load Balancers, Kubernetes deployments
-- **Ansible:** Configuration management and system hardening
-- **GitOps Workflows:** Version-controlled infrastructure changes with automated testing and deployment
-- **CI/CD Modernization:** Migrated Jenkins from freestyle bash jobs to scripted pipeline jobs with Slack integration
-- **Result:** 40%+ faster deployments, 40%+ of provisioning tasks automated
+- **Security & Compliance:** Container security (Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning), microservices security (Secrets Manager, SSO, IP whitelisting, zero-trust architecture), compliance (DPDP, ISO 27001/27018/27017/27002, NIST, CIS, OWASP)
 
-**Database Operations:**
-- **Zero-Downtime Migrations:** Implemented gh-ost for zero-lag MySQL schema alterations on 4TB databases
-- **Master-Slave Management:** Automated flag management for MySQL master/slave configurations (VM-based and Cloud SQL)
-- **Backup Automation:** Automated backups for MySQL, MongoDB, Elasticsearch using Python/Bash with cron scheduling
-- **Disaster Recovery:** Engineered DR and backup plans for databases and VMs with Point-in-Time Recovery (PITR)
-
-### Observability & Monitoring
-
-**Unified Observability Stack:**
-- **Prometheus & Grafana:** Architectured unified observability stack with real-time monitoring and automated escalation
-- **GCP Stackdriver:** Cloud-native monitoring integration
-- **CI/CD Integration:** Jenkins with Slack for real-time job failure alerts
-- **Result:** 76% MTTR reduction (30 minutes → 7 minutes)
-
-**Monitoring Coverage:**
-- 125+ Kubernetes deployments monitored
-- 300+ compute instances with comprehensive metrics
-- Multi-environment observability (DEV, SIT, UAT, PROD)
-- Proactive dashboards and automated incident escalation
-
-### Security & Compliance
-
-**Container Security:**
-- **Kubernetes RBAC:** Role-based access control implementation
-- **Secure Boot:** Container security hardening
-- **Automated IAM Minimization:** Python scripts for IAM role minimization enforcing least privilege
-- **Trivy Scanning:** Container vulnerability scanning integrated with GitLab CI pipelines
-
-**Microservices Security:**
-- **Secrets Manager:** Deployed GCP Secrets Manager across Kubernetes clusters and VMs
-- **SSO Implementation:** Single Sign-On authentication for multiple internal URLs
-- **IP Whitelisting:** Centralized access control and traffic segmentation
-- **Defense-in-Depth:** Multi-layer security controls with zero-trust architecture
-
-**Compliance Alignment:**
-- DPDP compliance implementation
-- ISO 27001/27018/27017/27002 alignment
-- NIST, CIS, OWASP guidelines adherence
-
-### AI-Powered Automation
-
-**Elasticsearch Cluster Management:**
-- Built agentic AI-based automation using n8n, Terraform, Ansible, and Python
-- Streamlined cluster provisioning and lifecycle management
-- Automated cluster operations and maintenance
+- **AI-Powered Automation:** Agentic AI-based Elasticsearch cluster management (n8n, Terraform, Ansible, Python) for streamlined provisioning, lifecycle management, and automated operations
 
 ---
 
 ## 🛠️ Technical Stack
-
-**Languages:** Python, JavaScript, C/C++, Bash/Shell, Node.js, React
-
-**Cloud & Infrastructure:** GCP (GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT), AWS (Route53, ALB), Docker, Kubernetes (GKE), Container Native Load Balancing
-
-**Infrastructure as Code:** Terraform (reusable modules, multi-environment), Ansible (configuration management, system hardening), GitOps workflows
-
-**CI/CD & Automation:** Jenkins (scripted pipelines, Slack integration), GitLab CI (automated testing, Trivy scanning), GitHub CI, n8n (workflow automation)
-
-**Databases & Storage:** MySQL (4TB production), Cloud SQL, MongoDB, Elasticsearch, Aerospike, Redis, Memorystore, Kafka
-
-**Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver (unified observability stack with automated escalation)
-
-**Security & Operations:** Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO, IAM automation, Zero-Trust Architecture, Defense-in-Depth, WAF (Reblaze), Geo-blocking, Rate Limiting, Bot Protection
+- **Languages:** Python, JavaScript, C/C++, Bash/Shell, Node.js, React
+- **Cloud & Infrastructure:** GCP (GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT), AWS (Route53, ALB), Docker, Kubernetes (GKE), Container Native Load Balancing
+- **Infrastructure as Code:** Terraform (reusable modules, multi-environment), Ansible (configuration management, system hardening), GitOps workflows
+- **CI/CD & Automation:** Jenkins (scripted pipelines, Slack integration), GitLab CI (automated testing, Trivy scanning), GitHub CI, n8n (workflow automation)
+- **Databases & Storage:** MySQL (4TB production), Cloud SQL, MongoDB, Elasticsearch, Aerospike, Redis, Memorystore, Kafka
+- **Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver (unified observability stack with automated escalation)
+- **Security & Operations:** Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO, IAM automation, Zero-Trust Architecture, Defense-in-Depth, WAF (Reblaze), Geo-blocking, Rate Limiting, Bot Protection
 
 **Fundamentals:** Data Structures, Algorithms, System Design, Networking, Operating Systems
 
