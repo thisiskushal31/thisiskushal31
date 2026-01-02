@@ -148,9 +148,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 | **Infrastructure Automation** | Terraform modules • GitOps workflows • 40%+ faster deployments • Multi-environment consistency • Automated provisioning |
 | **AdTech Platform** | 100+ K8s deployments • Multi-cloud (AWS + GCP) • Keycloak authentication • 4x traffic spike handling • 93% cost optimization |
 
-👉 **[View detailed technical documentation →](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)** — Architecture diagrams, implementation details, and metrics
-
-*For business impact and revenue metrics, see [projects documentation](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)*
+👉 **[View detailed technical documentation →](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)** — Architecture diagrams, implementation details, metrics, and business impact
 
 ---
 
