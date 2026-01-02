@@ -144,3 +144,15 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 🌐 **More ways to connect:** [Portfolio](https://thisiskushal31.github.io/#/) | [Bio Links](https://thisiskushal31.github.io/link/)
 
 ---
+
+## 📄 License
+
+**Copyright (c) 2025 Kushal Gupta. All Rights Reserved.**
+
+This repository and all its contents are the exclusive property of Kushal Gupta. 
+
+**Personal Use Only** — This software and all associated content are intended for personal use only. Commercial use, redistribution, copying, modification, or any other use without explicit written permission from the copyright holder is prohibited.
+
+For details, see [LICENSE](./LICENSE) file.
+
+---
