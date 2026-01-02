@@ -42,6 +42,8 @@
 | **Guides/cold-email-generator.md** | Two-stage structured process | Thorough approach |
 | **Guides/update-checklist.md** | When to update context | Weekly review |
 | **Guides/career-context-usage.md** | 10 use cases with prompts | Specific tasks |
+| **Guides/centralized-narrative-prompt.md** 🆕 | Single source of truth system | Multi-platform sync |
+| **Guides/centralized-narrative-prompt-quick.md** 🆕 | Quick version for new chat | Start centralized system |
 | **Stories/** | Project stories and templates | Interview prep, networking |
 
 ### 📋 **career-context.md**
@@ -229,6 +231,7 @@ That's it! Just 3 things.
 - **Detailed prompts:** See `Guides/career-context-usage.md`
 - **Two-stage process:** See `Guides/cold-email-generator.md`
 - **Update guide:** See `Guides/update-checklist.md`
+- **Centralized narrative system:** See `Guides/centralized-narrative-prompt.md` (comprehensive) or `Guides/centralized-narrative-prompt-quick.md` (quick start)
 
 ---
 
