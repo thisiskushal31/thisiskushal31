@@ -1,7 +1,7 @@
 # 🚀 START HERE - Quick Reference
 
 
-**GitHub URL.*readme.md
+**GitHub URL:** https://github.com/thisiskushal31/thisiskushal31/tree/main/ai-data
 
 **Mobile-friendly system for generating cold emails, CV suggestions, and profile updates on the go.**
 
@@ -10,7 +10,7 @@
 ## ⚡ Quick Start (2 Minutes)
 
 ### Step 1: Copy Prompt
-- Open `quick-prompt.txt`
+- Open `Guides/quick-prompt.txt`
 - Copy entire file
 
 ### Step 2: Copy Career Context
@@ -37,12 +37,12 @@
 
 | File | Purpose | When to Use |
 |------|---------|-------------|
-| **quick-prompt.txt** ⭐ | Standalone prompt (no formatting) | Mobile, quick use |
+| **Guides/quick-prompt.txt** ⭐ | Standalone prompt (no formatting) | Mobile, quick use |
 | **career-context.md** | Your complete professional profile | Always include this |
-| **quick-email-generator.md** | Detailed guide with tips | Need instructions |
-| **update-checklist.md** | When to update context | Weekly review |
-| **cold-email-generator.md** | Two-stage structured process | Thorough approach |
-| **career-context-usage.md** | 10 use cases with prompts | Specific tasks |
+| **Guides/cold-email-generator.md** | Two-stage structured process | Thorough approach |
+| **Guides/update-checklist.md** | When to update context | Weekly review |
+| **Guides/career-context-usage.md** | 10 use cases with prompts | Specific tasks |
+| **Stories/** | Project stories and templates | Interview prep, networking |
 
 ### 📋 **career-context.md**
 **Your complete professional profile** - All your experience, skills, achievements, projects, and metrics in one place.
@@ -60,17 +60,12 @@
 - `/thisiskushal31.github.io/src/config/portfolio.ts`
 - `/thisiskushal31.github.io/src/pages/Experience.tsx`
 
-### 🚀 **quick-email-generator.md**
-**Detailed guide** for the quick email generator with usage instructions, tips, and examples.
-
-**Use when:** You want to understand the process better or need troubleshooting.
-
-### 📧 **cold-email-generator.md**
+### 📧 **Guides/cold-email-generator.md**
 **Two-stage structured process** for generating cold emails with detailed prompts.
 
 **Use when:** You have time for a more thorough, structured approach.
 
-### 📖 **career-context-usage.md**
+### 📖 **Guides/career-context-usage.md**
 **10 different use cases** with prompt templates for various career tasks:
 - Cold emails
 - Job matching
@@ -123,7 +118,7 @@
 3. Generates outputs
 
 **Your part:**
-- Update `career-context.md` weekly (see `update-checklist.md`)
+- Update `career-context.md` weekly (see `Guides/update-checklist.md`)
 - Use updated context in n8n workflows
 
 **n8n can handle:**
@@ -147,7 +142,7 @@
 ```
 Research Company
     ↓
-Copy quick-prompt.txt
+Copy Guides/quick-prompt.txt
     ↓
 Copy career-context.md
     ↓
@@ -184,26 +179,26 @@ That's it! Just 3 things.
 - Metrics improved
 - Role changes
 
-**See:** `update-checklist.md` for detailed checklist
+**See:** `Guides/update-checklist.md` for detailed checklist
 
 ---
 
 ## 🎯 File Priority
 
 **For quick mobile use:**
-1. `quick-prompt.txt` ⭐
+1. `Guides/quick-prompt.txt` ⭐
 2. `career-context.md`
 
 **For detailed workflows:**
 1. `career-context.md`
-2. `quick-email-generator.md` or `cold-email-generator.md`
-3. `career-context-usage.md` (for specific tasks)
+2. `Guides/cold-email-generator.md`
+3. `Guides/career-context-usage.md` (for specific tasks)
 
 ---
 
 ## 💡 Pro Tips
 
-1. **Bookmark `quick-prompt.txt`** in your notes app for instant access
+1. **Bookmark `Guides/quick-prompt.txt`** in your notes app for instant access
 2. **Update context weekly** - fresh context = better results
 3. **Research company first** - better research = better email
 4. **Customize output** - AI gives you a starting point, personalize it
@@ -225,15 +220,15 @@ That's it! Just 3 things.
 - **Solution:** Make sure JD is complete and detailed
 
 **Problem:** Context is outdated
-- **Solution:** Update `career-context.md` (see `update-checklist.md`)
+- **Solution:** Update `career-context.md` (see `Guides/update-checklist.md`)
 
 ---
 
 ## 📚 Need More?
 
-- **Detailed prompts:** See `career-context-usage.md`
-- **Two-stage process:** See `cold-email-generator.md`
-- **Update guide:** See `update-checklist.md`
+- **Detailed prompts:** See `Guides/career-context-usage.md`
+- **Two-stage process:** See `Guides/cold-email-generator.md`
+- **Update guide:** See `Guides/update-checklist.md`
 
 ---
 
@@ -245,5 +240,5 @@ That's it! Just 3 things.
 
 ---
 
-**Ready to go!** Start with `quick-prompt.txt` + `career-context.md` 🚀
+**Ready to go!** Start with `Guides/quick-prompt.txt` + `career-context.md` 🚀
 
