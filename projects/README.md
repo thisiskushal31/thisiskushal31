@@ -12,7 +12,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Infrastructure:** Unified observability stack, real-time monitoring, automated escalation
 - **Achievements:** 76% MTTR reduction (30 to 7 minutes), real-time alerting
 - **Key Technologies:** Prometheus, Grafana, GCP Stackdriver, Jenkins, Slack
-- ![Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
+Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 - [View Details →](./1_PurplleInfra_Monitoring_Improvement/)
 
 #### [Purplle.com Management](./2_Purplle.com_Management/)
@@ -21,7 +21,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Infrastructure:** 4TB MySQL database, multi-zone deployment, hybrid cloud
 - **Achievements:** ₹1 Crore cost savings, 99%+ uptime, zero-lag MySQL migrations (gh-ost)
 - **Key Technologies:** Kubernetes, MySQL, Elasticsearch, MongoDB, Redis, Cloud Functions
-- ![Quick Info Image](../assets/projects/2_Purplle.com_Management.png)
+![Quick Info Image](../assets/projects/2_Purplle.com_Management.png)
 - [View Details →](./2_Purplle.com_Management/)
 
 #### [Nexus.purplle.com Deployment](./3_Nexus.purplle.com_Deployment/)
@@ -30,7 +30,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Infrastructure:** High-availability deployment across DEV, SIT, UAT, PROD
 - **Achievements:** 99%+ uptime, auto-scaling (1-6 pods), multi-environment support
 - **Key Technologies:** Kubernetes, Kafka, Redis, Terraform, Jenkins
-- ![Quick Info Image](../assets/projects/3_Nexus.purplle.com_Deployment.png)
+![Quick Info Image](../assets/projects/3_Nexus.purplle.com_Deployment.png)
 - [View Details →](./3_Nexus.purplle.com_Deployment/)
 
 #### [Purplle.com Security Improvement](./4_Purplle.com_SecurityImprovement/)
@@ -40,7 +40,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Achievements:** Hardened container security, automated IAM minimization, SSO, IP Whitelisting
 - **Key Technologies:** Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO
 - **Compliance:** DPDP, ISO 27001/27018/27017/27002 alignment, NIST, CIS, OWASP
-- ![Quick Info Image](../assets/projects/4_Purplle.com_SecurityImprovement.png)
+![Quick Info Image](../assets/projects/4_Purplle.com_SecurityImprovement.png)
 - [View Details →](./4_Purplle.com_SecurityImprovement/)
 
 #### [Purplle.com IAC Deployment](./5_Purplle.com_IAC_Deployment/)
@@ -49,7 +49,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Infrastructure:** Multi-environment (DEV, SIT, UAT, PROD), multi-cloud support
 - **Achievements:** 40%+ faster deployments, 40%+ provisioning tasks automated
 - **Key Technologies:** Terraform, Ansible, Jenkins, GitLab CI, GitOps, Python
-- ![Quick Info Image](../assets/projects/5_Purplle.com_IAC_Deployment.png)
+![Quick Info Image](../assets/projects/5_Purplle.com_IAC_Deployment.png)
 - [View Details →](./5_Purplle.com_IAC_Deployment/)
 
 #### [Adtech.purplle.com Deployment](./6_Adtech.purplle.com_Deployment/)
@@ -58,7 +58,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Infrastructure:** 100+ Kubernetes deployments, GKE, multi-cloud (AWS + GCP)
 - **Achievements:** 93% cost reduction (₹80 Lakh → ₹5.7 Lakh), 4x traffic spike handling during major sales
 - **Key Technologies:** Kubernetes, Terraform, GitLab CI, Keycloak
-- ![Quick Info Image](../assets/projects/6_Adtech.purplle.com_Deployment.png)
+![Quick Info Image](../assets/projects/6_Adtech.purplle.com_Deployment.png)
 - [View Details →](./6_Adtech.purplle.com_Deployment/)
 
 #### [Grid Platform - OSS Project](./7_GridPlatform_OSS_Project/)
@@ -67,7 +67,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Infrastructure:** AI-powered automation, multi-cloud support, Infrastructure as Code
 - **Achievements:** 60-80% cost reduction, days to minutes setup time, vendor lock-in elimination
 - **Key Technologies:** Node.js, TypeScript, React, Terraform, OpenTofu, Ansible, Kubernetes, Docker, GitOps
-- ![Quick Info Image](../assets/projects/7_GridPlatform_OSS_Project.png)
+![Quick Info Image](../assets/projects/7_GridPlatform_OSS_Project.png)
 - **GitHub:** https://github.com/gridplatform
 - **Demo:** https://gridplatform.org
 
