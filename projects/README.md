@@ -12,8 +12,8 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Infrastructure:** Unified observability stack, real-time monitoring, automated escalation
 - **Achievements:** 76% MTTR reduction (30 to 7 minutes), real-time alerting
 - **Key Technologies:** Prometheus, Grafana, GCP Stackdriver, Jenkins, Slack
-Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 - [View Details →](./1_PurplleInfra_Monitoring_Improvement/)
+Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 
 #### [Purplle.com Management](./2_Purplle.com_Management/)
 **Main E-Commerce Platform** - Core e-commerce infrastructure  
@@ -21,8 +21,8 @@ Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 - **Infrastructure:** 4TB MySQL database, multi-zone deployment, hybrid cloud
 - **Achievements:** ₹1 Crore cost savings, 99%+ uptime, zero-lag MySQL migrations (gh-ost)
 - **Key Technologies:** Kubernetes, MySQL, Elasticsearch, MongoDB, Redis, Cloud Functions
-![Quick Info Image](../assets/projects/2_Purplle.com_Management.png)
 - [View Details →](./2_Purplle.com_Management/)
+![Quick Info Image](../assets/projects/2_Purplle.com_Management.png)
 
 #### [Nexus.purplle.com Deployment](./3_Nexus.purplle.com_Deployment/)
 **In-House POS Platform** - Point of Sale system for retail stores  
@@ -30,8 +30,8 @@ Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 - **Infrastructure:** High-availability deployment across DEV, SIT, UAT, PROD
 - **Achievements:** 99%+ uptime, auto-scaling (1-6 pods), multi-environment support
 - **Key Technologies:** Kubernetes, Kafka, Redis, Terraform, Jenkins
-![Quick Info Image](../assets/projects/3_Nexus.purplle.com_Deployment.png)
 - [View Details →](./3_Nexus.purplle.com_Deployment/)
+![Quick Info Image](../assets/projects/3_Nexus.purplle.com_Deployment.png)
 
 #### [Purplle.com Security Improvement](./4_Purplle.com_SecurityImprovement/)
 **Security Hardening Initiative** - Comprehensive security improvements  
@@ -40,8 +40,8 @@ Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 - **Achievements:** Hardened container security, automated IAM minimization, SSO, IP Whitelisting
 - **Key Technologies:** Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO
 - **Compliance:** DPDP, ISO 27001/27018/27017/27002 alignment, NIST, CIS, OWASP
-![Quick Info Image](../assets/projects/4_Purplle.com_SecurityImprovement.png)
 - [View Details →](./4_Purplle.com_SecurityImprovement/)
+![Quick Info Image](../assets/projects/4_Purplle.com_SecurityImprovement.png)
 
 #### [Purplle.com IAC Deployment](./5_Purplle.com_IAC_Deployment/)
 **Infrastructure as Code Initiative** - Terraform-based infrastructure automation  
@@ -49,8 +49,8 @@ Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 - **Infrastructure:** Multi-environment (DEV, SIT, UAT, PROD), multi-cloud support
 - **Achievements:** 40%+ faster deployments, 40%+ provisioning tasks automated
 - **Key Technologies:** Terraform, Ansible, Jenkins, GitLab CI, GitOps, Python
-![Quick Info Image](../assets/projects/5_Purplle.com_IAC_Deployment.png)
 - [View Details →](./5_Purplle.com_IAC_Deployment/)
+![Quick Info Image](../assets/projects/5_Purplle.com_IAC_Deployment.png)
 
 #### [Adtech.purplle.com Deployment](./6_Adtech.purplle.com_Deployment/)
 **In-House AdTech Platform** - Brand management and advertising platform  
@@ -58,8 +58,8 @@ Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 - **Infrastructure:** 100+ Kubernetes deployments, GKE, multi-cloud (AWS + GCP)
 - **Achievements:** 93% cost reduction (₹80 Lakh → ₹5.7 Lakh), 4x traffic spike handling during major sales
 - **Key Technologies:** Kubernetes, Terraform, GitLab CI, Keycloak
-![Quick Info Image](../assets/projects/6_Adtech.purplle.com_Deployment.png)
 - [View Details →](./6_Adtech.purplle.com_Deployment/)
+![Quick Info Image](../assets/projects/6_Adtech.purplle.com_Deployment.png)
 
 #### [Grid Platform - OSS Project](./7_GridPlatform_OSS_Project/)
 **AI-First Infrastructure Management Platform** - Open-source infrastructure automation  
@@ -67,9 +67,9 @@ Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 - **Infrastructure:** AI-powered automation, multi-cloud support, Infrastructure as Code
 - **Achievements:** 60-80% cost reduction, days to minutes setup time, vendor lock-in elimination
 - **Key Technologies:** Node.js, TypeScript, React, Terraform, OpenTofu, Ansible, Kubernetes, Docker, GitOps
-![Quick Info Image](../assets/projects/7_GridPlatform_OSS_Project.png)
 - **GitHub:** https://github.com/gridplatform
 - **Demo:** https://gridplatform.org
+![Quick Info Image](../assets/projects/7_GridPlatform_OSS_Project.png)
 
 ## Project Statistics
 
