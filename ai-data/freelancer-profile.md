@@ -140,22 +140,62 @@ Ideal for: Cloud infrastructure, Kubernetes, CI/CD, automation, monitoring, secu
 
 ## 4. Portfolio
 
-**Copy-Paste Ready:**
+**Copy-Paste Ready Links:**
 
-**GitHub:**
-https://github.com/thisiskushal31
-
-**Portfolio Website:**
+**Portfolio:**
+```
 https://thisiskushal31.github.io/
-
-**Blog (Technical Writing):**
-https://thisiskushal31.github.io/blog/
+```
 
 **Bio Links:**
+```
 https://thisiskushal31.github.io/link/
+```
+
+**Blog:**
+```
+https://thisiskushal31.github.io/blog/
+```
+
+**DocHub:**
+```
+https://thisiskushal31.github.io/dochub/
+```
 
 **LinkedIn:**
+```
 https://www.linkedin.com/in/thisiskushalgupta/
+```
+
+**GitHub:**
+```
+https://github.com/thisiskushal31
+```
+
+**X (Twitter):**
+```
+https://x.com/thisis_kushal
+```
+
+**Hashnode:**
+```
+https://thisiskushal.hashnode.dev/
+```
+
+**Medium:**
+```
+https://thisiskushalgupta.medium.com/
+```
+
+**LeetCode:**
+```
+https://leetcode.com/u/Quick067/
+```
+
+**GCP Badges:**
+```
+https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606cef93e04a
+```
 
 **Key Projects:**
 - Infrastructure Automation System (Production) - (https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/5_Purplle.com_IAC_Deployment/)
