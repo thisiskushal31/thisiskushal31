@@ -208,14 +208,10 @@ Send **Template 1** or **Template 3** with more details about your experience an
 ```
 Hi [Name],
 
-Hope you're doing well! DevOps Engineer (3+ years) - Managed Purplle.com (₹700+ Cr revenue), deployed PurplleAds (₹400+ Cr revenue, 93% cost reduction) & Nexus POS (100+ stores, 99%+ uptime). 7M+ users, 125+ K8s deployments. 40%+ faster deployments. GCP, AWS, K8s, Terraform. Would love to connect and explore opportunities together!
+Hope you're doing well! DevOps Engineer (3+ years) - Managed Purplle.com (₹700+ Cr revenue, 7M+ users), deployed PurplleAds (93% cost reduction). 125+ K8s deployments. GCP, AWS, K8s, Terraform. Actively exploring opportunities. Would love to connect and learn from your experience!
 
-CV: https://drive.google.com/file/d/1XXehldRBLrDzAN_aAcOFSubOWca4UKFQ/view?usp=drive_link
-Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
-
-Looking forward to connecting!
 Best,
-Kushal Gupta
+Kushal
 ```
 
 ### Follow-up Message (After Connection):
