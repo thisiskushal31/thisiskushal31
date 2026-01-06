@@ -232,16 +232,60 @@ GitHub: https://github.com/thisiskushal31
 
 ## 🔗 Online Presence & Contact Information
 
-- **Portfolio:** https://thisiskushal31.github.io/
-- **Blog:** https://thisiskushal31.github.io/blog/
-- **Bio Links:** https://thisiskushal31.github.io/link/
-- **LinkedIn:** https://www.linkedin.com/in/thisiskushalgupta/
-- **GitHub:** https://github.com/thisiskushal31
-- **X (Twitter):** https://x.com/thisis_kushal
-- **Hashnode:** https://thisiskushal.hashnode.dev/
-- **Medium:** https://thisiskushalgupta.medium.com/
-- **LeetCode:** https://leetcode.com/u/Quick067/
-- **GCP Badges:** https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606cef93e04a
+**Portfolio:**
+```
+https://thisiskushal31.github.io/
+```
+
+**Bio Links:**
+```
+https://thisiskushal31.github.io/link/
+```
+
+**Blog:**
+```
+https://thisiskushal31.github.io/blog/
+```
+
+**DocHub:**
+```
+https://thisiskushal31.github.io/dochub/
+```
+
+**LinkedIn:**
+```
+https://www.linkedin.com/in/thisiskushalgupta/
+```
+
+**GitHub:**
+```
+https://github.com/thisiskushal31
+```
+
+**X (Twitter):**
+```
+https://x.com/thisis_kushal
+```
+
+**Hashnode:**
+```
+https://thisiskushal.hashnode.dev/
+```
+
+**Medium:**
+```
+https://thisiskushalgupta.medium.com/
+```
+
+**LeetCode:**
+```
+https://leetcode.com/u/Quick067/
+```
+
+**GCP Badges:**
+```
+https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606cef93e04a
+```
 
 ---
 
