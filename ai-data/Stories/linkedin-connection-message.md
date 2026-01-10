@@ -30,7 +30,7 @@ Hi [Name],
 
 Hope you're doing well! I'm reaching out because I'm actively exploring DevOps opportunities and would love to connect with amazing professionals like you in the field.
 
-I'm a DevOps Engineer with 3+ years of experience at Purplle.com, managing large scale production infrastructure serving 7 million users. **Key projects:** Managed & maintained **Purplle.com** main e-commerce platform (₹700+ Crore annual revenue), deployed **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction), **PurplleNexus POS** (100+ retail stores with 99%+ uptime), and 2-3 tier applications handling 0.25 million and 70 million users a year. Managing 125+ Kubernetes deployments on GKE. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Achieved measurable results: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction (30min → 7min), 33% site downtime reduction, and 4x traffic spike handling during major sales events.
+I'm a DevOps Engineer with 3+ years of experience at Purplle.com, managing large scale production infrastructure serving 7 million users. **Key projects:** Managed & maintained **Purplle.com** main e-commerce platform (₹700+ Crore annual revenue), deployed **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction), **PurplleNexus POS** (100+ retail stores with 99%+ uptime), and 3 tier applications handling 0.25 million and 70 million users a year. Managing 125+ Kubernetes deployments on GKE. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Achieved measurable results: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction (30min → 7min), 33% site downtime reduction, and 4x traffic spike handling during major sales events.
 
 My notice period is 60 days (negotiable).
 
@@ -56,7 +56,7 @@ Kushal Gupta
 ```
 Hi,
 
-Hope you're doing great! DevOps Engineer (3+ years) - Managed large scale infrastructure at Purplle.com (₹700+ Cr revenue), deployed PurplleAds (₹400+ Cr revenue, 93% cost reduction) & PurplleNexus POS (100+ stores, 99%+ uptime). 2-3 tier applications handling 0.25 million and 70 million users a year. 7 million users, 125+ Kubernetes deployments. Tech: GCP, AWS, Kubernetes, Terraform, Jenkins, Python. 40%+ faster deployments, 76% MTTR reduction. Would love to connect and explore opportunities together!
+Hope you're doing great! DevOps Engineer (3+ years) - Managed large scale infrastructure at Purplle.com (₹700+ Cr revenue), deployed PurplleAds (₹400+ Cr revenue, 93% cost reduction) & PurplleNexus POS (100+ stores, 99%+ uptime). 3 tier applications handling 0.25 million and 70 million users a year. 7 million users, 125+ Kubernetes deployments. Tech: GCP, AWS, Kubernetes, Terraform, Jenkins, Python. 40%+ faster deployments, 76% MTTR reduction. Would love to connect and explore opportunities together!
 
 CV: https://drive.google.com/file/d/1XXehldRBLrDzAN_aAcOFSubOWca4UKFQ/view?usp=drive_link
 Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
@@ -80,7 +80,7 @@ Hi [Name],
 
 Hope you're having a wonderful day! I'm reaching out as I'm actively looking for DevOps roles and would love to connect with wonderful professionals like you in the space.
 
-With 3+ years of experience at Purplle.com, I've managed and deployed large scale production platforms: **Purplle.com** main e-commerce platform (₹700+ Crore annual revenue - high-value infrastructure management), **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction), **PurplleNexus POS** (100+ retail stores, 99%+ uptime), and 2-3 tier applications handling 0.25 million and 70 million users a year. Managing 7 million users across 125+ Kubernetes deployments. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Delivered measurable impact: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction, 33% site downtime reduction, and 4x traffic spike handling during major sales events.
+With 3+ years of experience at Purplle.com, I've managed and deployed large scale production platforms: **Purplle.com** main e-commerce platform (₹700+ Crore annual revenue - high-value infrastructure management), **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction), **PurplleNexus POS** (100+ retail stores, 99%+ uptime), and 3 tier applications handling 0.25 million and 70 million users a year. Managing 7 million users across 125+ Kubernetes deployments. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Delivered measurable impact: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction, 33% site downtime reduction, and 4x traffic spike handling during major sales events.
 
 My notice period is 60 days (negotiable).
 
@@ -208,7 +208,7 @@ Send **Template 1** or **Template 3** with more details about your experience an
 ```
 Hi [Name],
 
-Hope you're doing well! DevOps Engineer (3+ years) - Managed large scale infrastructure at Purplle.com (₹700+ Cr revenue, 7 million users), deployed 2-3 tier applications handling 0.25 million and 70 million users a year. 125+ Kubernetes deployments. GCP, AWS, Kubernetes, Terraform. Actively exploring opportunities. Would love to connect and learn from your experience!
+Hope you're doing well! DevOps Engineer (3+ years) - Managed large scale infrastructure at Purplle.com (₹700+ Cr revenue, 7 million users), deployed 3 tier applications handling 0.25 million and 70 million users a year. 125+ Kubernetes deployments. GCP, AWS, Kubernetes, Terraform. Actively exploring opportunities. Would love to connect and learn from your experience!
 
 Best,
 Kushal
@@ -221,7 +221,7 @@ Kushal
 ```
 Hi [Name],
 
-I'm Kushal, a DevOps Engineer with experience in large scale cloud infrastructure, automation, and CI/CD pipelines. Managed 2-3 tier applications handling 0.25 million and 70 million users a year. I'd be happy to connect and discuss potential DevOps opportunities aligned with my background.
+I'm Kushal, a DevOps Engineer with experience in large scale cloud infrastructure, automation, and CI/CD pipelines. Managed 3 tier applications handling 0.25 million and 70 million users a year. I'd be happy to connect and discuss potential DevOps opportunities aligned with my background.
 
 Best regards,
 Kushal
@@ -236,7 +236,7 @@ Hi [Name],
 
 Thanks so much for connecting! I really appreciate it. I'm actively exploring DevOps opportunities and would love to hear any insights or advice you might have.
 
-I have 3+ years of experience at Purplle.com managing large scale production infrastructure serving 7 million users. **Key projects:** Managed & maintained **Purplle.com** main e-commerce platform (₹700+ Crore annual revenue - high-value infrastructure management), deployed **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction), **PurplleNexus POS** (100+ retail stores with 99%+ uptime), and 2-3 tier applications handling 0.25 million and 70 million users a year. Managing 125+ Kubernetes deployments on GKE. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Achieved results: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction (30min → 7min), 33% site downtime reduction, and 4x traffic spike handling during major sales events.
+I have 3+ years of experience at Purplle.com managing large scale production infrastructure serving 7 million users. **Key projects:** Managed & maintained **Purplle.com** main e-commerce platform (₹700+ Crore annual revenue - high-value infrastructure management), deployed **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction), **PurplleNexus POS** (100+ retail stores with 99%+ uptime), and 3 tier applications handling 0.25 million and 70 million users a year. Managing 125+ Kubernetes deployments on GKE. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Achieved results: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction (30min → 7min), 33% site downtime reduction, and 4x traffic spike handling during major sales events.
 
 My notice period is 60 days (negotiable).
 
@@ -259,7 +259,7 @@ Hi [Name],
 
 Hope you're having a wonderful day! I'm reaching out as I'm actively exploring DevOps opportunities and would love to connect with amazing professionals like you in the field.
 
-I'm a DevOps Engineer with 3+ years of experience at Purplle.com, managing large scale production infrastructure serving 7 million users. **Key projects:** Managed & maintained **Purplle.com** main e-commerce platform (₹700+ Crore annual revenue), deployed **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction), **PurplleNexus POS** (100+ retail stores with 99%+ uptime), and 2-3 tier applications handling 0.25 million and 70 million users a year. Managing 125+ Kubernetes deployments on GKE. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Achieved measurable results: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction (30min → 7min), 33% site downtime reduction, and 4x traffic spike handling during major sales events.
+I'm a DevOps Engineer with 3+ years of experience at Purplle.com, managing large scale production infrastructure serving 7 million users. **Key projects:** Managed & maintained **Purplle.com** main e-commerce platform (₹700+ Crore annual revenue), deployed **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction), **PurplleNexus POS** (100+ retail stores with 99%+ uptime), and 3 tier applications handling 0.25 million and 70 million users a year. Managing 125+ Kubernetes deployments on GKE. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Achieved measurable results: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction (30min → 7min), 33% site downtime reduction, and 4x traffic spike handling during major sales events.
 
 My notice period is 60 days (negotiable).
 
@@ -395,5 +395,5 @@ Kushal Gupta
 
 ---
 
-**Last Updated:** Based on 3+ years experience, key projects (Purplle.com ₹700+ Cr revenue, PurplleAds ₹400+ Cr revenue, PurplleNexus POS 100+ stores), 2-3 tier applications handling 0.25 million and 70 million users a year, 7 million users, 125+ Kubernetes deployments, 40%+ faster deployments, 76% MTTR reduction, 33% site downtime reduction, 60-day notice period (negotiable)
+**Last Updated:** Based on 3+ years experience, key projects (Purplle.com ₹700+ Cr revenue, PurplleAds ₹400+ Cr revenue, PurplleNexus POS 100+ stores), 3 tier applications handling 0.25 million and 70 million users a year, 7 million users, 125+ Kubernetes deployments, 40%+ faster deployments, 76% MTTR reduction, 33% site downtime reduction, 60-day notice period (negotiable)
 
