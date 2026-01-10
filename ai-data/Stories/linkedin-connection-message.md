@@ -106,7 +106,7 @@ Kushal Gupta
 ```
 Hi [Name],
 
-Hope you're doing well! DevOps Engineer (3+ years) - Managed large scale infrastructure at Purplle.com (₹700+ Cr revenue), deployed PurplleAds (₹400+ Cr revenue) & Nexus POS (100+ stores). 2-3 tier applications handling 0.25 million and 70 million users a year. 7 million users, 125+ Kubernetes deployments. 40%+ faster deployments, 76% MTTR reduction. GCP, AWS, Kubernetes, Terraform. Would love to connect and explore opportunities!
+Hope you're doing well! DevOps Engineer (3+ years) - Managed large scale infrastructure at Purplle.com (₹700+ Cr revenue), deployed PurplleAds (₹400+ Cr revenue) & PurplleNexus(100+ stores). 3 tier applications handling 0.25 million and 70 million users a year. 7 million users, 125+ Kubernetes deployments. 40%+ faster deployments, 76% MTTR reduction. GCP, AWS, Kubernetes, Terraform. Would love to connect and explore opportunities!
 
 CV: https://drive.google.com/file/d/1XXehldRBLrDzAN_aAcOFSubOWca4UKFQ/view?usp=drive_link
 Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
