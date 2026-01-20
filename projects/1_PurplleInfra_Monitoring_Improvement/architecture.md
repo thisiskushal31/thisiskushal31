@@ -2,7 +2,7 @@
 
 ## System Overview
 
-Comprehensive infrastructure monitoring improvement initiative that architectured a unified observability stack with Prometheus and Grafana, enabling real-time monitoring and automated incident escalation. The initiative significantly improved incident response capabilities, reducing Mean Time to Recovery (MTTR) from 30 to 7 minutes across all production platforms. Monitoring improvements were applied to 125+ Kubernetes deployments, 300+ compute instances, and all production environments (DEV, SIT, UAT, PROD), ensuring comprehensive visibility and proactive incident management across the entire infrastructure.
+Comprehensive infrastructure monitoring improvement initiative that architectured a unified observability stack with Prometheus and Grafana, enabling real-time monitoring and automated incident escalation. The initiative significantly improved incident response capabilities, reducing Mean Time to Recovery (MTTR) from 30 to 7 minutes across all production platforms. Monitoring improvements were applied to 125+ Microservices Distributed Workload, 300+ application instances, and all production environments (DEV, SIT, UAT, PROD), ensuring comprehensive visibility and proactive incident management across the entire infrastructure.
 
 **Note:** Monitoring implementation and management was handled by DevOps team. Monitoring requirements and SLAs were defined in collaboration with engineering and operations teams.
 
@@ -26,8 +26,8 @@ The monitoring improvement initiative implements a unified observability stack a
 **Metrics Sources:**
 - Kubernetes pods and services
 - GCP services (GKE, Cloud SQL, Load Balancer)
-- Application services (125+ Kubernetes deployments)
-- Infrastructure components (300+ compute instances)
+- Application services (125+ Microservices Distributed Workload)
+- Infrastructure components (300+ application instances)
 - Database services (MySQL, MongoDB, Elasticsearch)
 
 ### Layer 2: Visualization & Alerting
@@ -211,11 +211,11 @@ The monitoring improvement initiative implements a unified observability stack a
 ## Monitoring Coverage
 
 ### Infrastructure Coverage
-- **Kubernetes Deployments:** 125+ Kubernetes deployments monitored
+- **Microservices Distributed Workload:** 125+ Microservices Distributed Workload monitored
   - purplle.com: Main e-commerce platform deployments
   - POS Platform (Production): POS application deployments
   - AdTech Platform (Production): AdTech platform deployments
-- **Compute Instances:** 300+ compute instances monitored
+- **Application Instances:** 300+ application instances monitored
   - GCP Compute Engine instances
   - Kubernetes cluster nodes
   - Management and utility instances

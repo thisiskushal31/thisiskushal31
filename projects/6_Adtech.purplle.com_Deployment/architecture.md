@@ -591,7 +591,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
 ### Service Orchestration
 
 - **Kubernetes Deployment Management:**
-  - Managed 100+ high-availability Kubernetes deployments on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
+  - Managed 100+ high-availability production services on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
   - Automated deployment of application services (billing, campaign services) as Kubernetes deployments
   - kubedns (Kubernetes DNS) for internal service discovery
   - Automated service account management for secure inter-service communication

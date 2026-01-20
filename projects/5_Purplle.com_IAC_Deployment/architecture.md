@@ -2,7 +2,7 @@
 
 ## System Overview
 
-Comprehensive Infrastructure as Code (IAC) deployment initiative that standardized on Terraform for infrastructure provisioning and integrated it into GitOps workflows. The initiative created reusable, parameterized Terraform modules for common GCP patterns, enabling consistent deployment across multiple environments (DEV, SIT, UAT, PROD). By automating infrastructure provisioning and modernizing CI/CD processes, the initiative accelerated infrastructure delivery speed by 40%+, automating over 40% of provisioning tasks. Infrastructure automation was applied to 125+ Kubernetes deployments, 300+ compute instances, and all production environments, ensuring consistent, reliable, and scalable infrastructure deployment across the entire organization.
+Comprehensive Infrastructure as Code (IAC) deployment initiative that standardized on Terraform for infrastructure provisioning and integrated it into GitOps workflows. The initiative created reusable, parameterized Terraform modules for common GCP patterns, enabling consistent deployment across multiple environments (DEV, SIT, UAT, PROD). By automating infrastructure provisioning and modernizing CI/CD processes, the initiative accelerated infrastructure delivery speed by 40%+, automating over 40% of provisioning tasks. Infrastructure automation was applied to 125+ Microservices Distributed Workload, 300+ application instances, and all production environments, ensuring consistent, reliable, and scalable infrastructure deployment across the entire organization.
 
 **Note:** Infrastructure automation and deployment was handled by DevOps team. Infrastructure requirements and architecture were defined in collaboration with engineering and operations teams.
 
@@ -192,11 +192,11 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
 ## Infrastructure Automation Coverage
 
 ### Infrastructure Coverage
-- **Kubernetes Deployments:** 125+ Kubernetes deployments automated
+- **Microservices Distributed Workload:** 125+ Microservices Distributed Workload automated
   - purplle.com: Main e-commerce platform deployments
   - POS Platform (Production): POS application deployments
   - AdTech Platform (Production): AdTech platform deployments
-- **Compute Instances:** 300+ compute instances automated
+- **Application Instances:** 300+ application instances automated
   - GCP Compute Engine instances
   - Kubernetes cluster nodes
   - Management and utility instances

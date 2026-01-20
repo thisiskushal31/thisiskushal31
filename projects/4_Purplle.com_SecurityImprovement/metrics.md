@@ -7,8 +7,8 @@ This document tracks security metrics, compliance status, and improvement tracki
 ## Security Coverage Metrics
 
 ### Infrastructure Coverage
-- **Kubernetes Deployments Secured:** 125+ Kubernetes deployments
-- **Compute Instances Hardened:** 300+ compute instances
+- **Microservices Distributed Workload Secured:** 125+ Microservices Distributed Workload
+- **Application Instances Hardened:** 300+ application instances
 - **Environments Covered:** 4 environments (DEV, SIT, UAT, PROD)
 - **Platforms Secured:** 3 production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Security Coverage:** 100% coverage across all production infrastructure
@@ -17,9 +17,9 @@ This document tracks security metrics, compliance status, and improvement tracki
 
 **Container Security:**
 - **Kubernetes RBAC:** Implemented across all Kubernetes clusters
-- **Secure Boot:** Enabled on all compute instances
+- **Secure Boot:** Enabled on all application instances
 - **Trivy Scanning:** Integrated into all GitLab CI pipelines
-- **Container Hardening:** Applied to 125+ Kubernetes deployments
+- **Container Hardening:** Applied to 125+ Microservices Distributed Workload
 
 **Access Control:**
 - **SSO Implementation:** Multiple internal URLs secured with SSO
@@ -47,12 +47,12 @@ This document tracks security metrics, compliance status, and improvement tracki
 **Kubernetes RBAC:**
 - **Implementation Status:** ✅ Complete
 - **Coverage:** 100% of Kubernetes clusters
-- **Deployments Secured:** 125+ deployments
+- **Microservices Distributed Workload Secured:** 125+ Microservices Distributed Workload
 - **Result:** Enhanced cluster security with role-based access control
 
 **Secure Boot:**
 - **Implementation Status:** ✅ Complete
-- **Coverage:** 100% of compute instances
+- **Coverage:** 100% of application instances
 - **Instances Secured:** 300+ instances
 - **Result:** Protection against low-level attacks
 
@@ -232,7 +232,7 @@ This document tracks security metrics, compliance status, and improvement tracki
 
 **NIST Cybersecurity Framework:**
 - **Alignment Status:** ✅ Security controls implemented align with NIST Cybersecurity Framework functions
-- **Identify:** ✅ Risk assessment, asset inventory (125+ K8s deployments, 300+ compute instances)
+- **Identify:** ✅ Risk assessment, asset inventory (125+ Microservices Distributed Workload, 300+ application instances)
 - **Protect:** ✅ Access controls (RBAC, SSO, IAM minimization), encryption, security awareness
 - **Detect:** ✅ Security monitoring (Prometheus, Grafana), automated scanning (Trivy), audit trails
 - **Respond:** ✅ Incident response procedures, automated incident escalation, breach notification

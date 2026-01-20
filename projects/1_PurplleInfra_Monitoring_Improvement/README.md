@@ -11,7 +11,7 @@
 
 ## Executive Summary
 
-Comprehensive infrastructure monitoring improvement initiative that architectured a unified observability stack with Prometheus and Grafana, enabling real-time monitoring and automated incident escalation. The initiative significantly improved incident response capabilities, reducing Mean Time to Recovery (MTTR) from 30 to 7 minutes across all production platforms. Monitoring improvements were applied to 125+ Kubernetes deployments, 300+ compute instances, and all production environments (DEV, SIT, UAT, PROD), ensuring comprehensive visibility and proactive incident management across the entire infrastructure.
+Comprehensive infrastructure monitoring improvement initiative that architectured a unified observability stack with Prometheus and Grafana, enabling real-time monitoring and automated incident escalation. The initiative significantly improved incident response capabilities, reducing Mean Time to Recovery (MTTR) from 30 to 7 minutes across all production platforms. Monitoring improvements were applied to 125+ Microservices Distributed Workload, 300+ application instances, 200+ self-managed database instances, and all production environments (DEV, SIT, UAT, PROD), ensuring comprehensive visibility and proactive incident management across the entire infrastructure.
 
 **Note:** Monitoring implementation and management handled by DevOps team. Monitoring requirements and SLAs defined in collaboration with engineering and operations teams.
 
@@ -36,8 +36,9 @@ Comprehensive infrastructure monitoring improvement initiative that architecture
 ## Business Metrics
 
 ### Monitoring Coverage
-- **Kubernetes Deployments:** Monitoring implemented for 125+ Kubernetes deployments on GKE
-- **Compute Instances:** Monitoring coverage across 300+ compute instances
+- **Microservices Distributed Workload:** Monitoring implemented for 125+ Microservices Distributed Workload on GKE
+- **Application Instances:** Monitoring coverage across 300+ application instances
+- **Database Instances:** Monitoring coverage across 200+ self-managed database instances
 - **Environments:** Monitoring implemented across DEV, SIT, UAT, PROD environments
 - **Platforms:** Monitoring improvements across all production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Infrastructure:** GCP-based infrastructure (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) + AWS (Route53)
@@ -48,7 +49,7 @@ Comprehensive infrastructure monitoring improvement initiative that architecture
 - ✅ **Unified Observability Stack** - Architectured unified observability stack with Prometheus and Grafana, providing comprehensive visibility across all infrastructure
 - ✅ **Real-Time Monitoring** - Enabled real-time monitoring and alerting for infrastructure health, performance, and security events
 - ✅ **Automated Incident Escalation** - Implemented automated incident escalation through unified observability stack, reducing manual intervention
-- ✅ **Comprehensive Coverage** - Monitoring implemented across 125+ Kubernetes deployments and 300+ compute instances
+- ✅ **Comprehensive Coverage** - Monitoring implemented across 125+ Microservices Distributed Workload, 300+ application instances, and 200+ self-managed database instances
 - ✅ **Multi-Environment Monitoring** - Consistent monitoring across DEV, SIT, UAT, PROD environments
 - ✅ **CI/CD Integration** - Integrated monitoring with CI/CD pipelines for automated alerting (Jenkins with Slack integration)
 - ✅ **Proactive Incident Management** - Enabled proactive detection and resolution of issues before user impact
@@ -135,7 +136,8 @@ The monitoring improvement initiative implements a unified observability stack a
 
 **Infrastructure Monitoring:**
 - **Kubernetes Clusters:** Monitoring for all GKE clusters and deployments
-- **Compute Instances:** Monitoring for 300+ compute instances
+- **Application Instances:** Monitoring for 300+ application instances
+- **Database Instances:** Monitoring for 200+ self-managed database instances
 - **Network Infrastructure:** Monitoring for load balancers, WAF, and network components
 - **Database Infrastructure:** Monitoring for Cloud SQL, MySQL, MongoDB, Elasticsearch
 

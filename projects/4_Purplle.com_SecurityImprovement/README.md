@@ -11,7 +11,7 @@
 
 ## Executive Summary
 
-Comprehensive security improvement initiative across Purplle.com's infrastructure, implementing zero-trust architecture and DevSecOps principles. The initiative hardened container security, strengthened microservices security, centralized access control, and implemented defense-in-depth security controls across all production platforms. Security improvements were applied to 125+ Kubernetes deployments, 300+ compute instances, and all production environments (DEV, SIT, UAT, PROD), ensuring secure and compliant deployments across the entire infrastructure.
+Comprehensive security improvement initiative across Purplle.com's infrastructure, implementing zero-trust architecture and DevSecOps principles. The initiative hardened container security, strengthened microservices security, centralized access control, and implemented defense-in-depth security controls across all production platforms. Security improvements were applied to 125+ Microservices Distributed Workload, 300+ application instances, 200+ self-managed database instances, and all production environments (DEV, SIT, UAT, PROD), ensuring secure and compliant deployments across the entire infrastructure.
 
 **Note:** Security implementation and management handled by DevOps team. Security policies and requirements defined in collaboration with security and compliance teams.
 
@@ -36,8 +36,9 @@ Comprehensive security improvement initiative across Purplle.com's infrastructur
 ## Business Metrics
 
 ### Security Coverage
-- **Kubernetes Deployments:** Security improvements applied to 125+ Kubernetes deployments on GKE
-- **Compute Instances:** Security hardening across 300+ compute instances
+- **Microservices Distributed Workload:** Security improvements applied to 125+ Microservices Distributed Workload on GKE
+- **Application Instances:** Security hardening across 300+ application instances
+- **Database Instances:** Security hardening across 200+ self-managed database instances
 - **Environments:** Security controls implemented across DEV, SIT, UAT, PROD environments
 - **Platforms:** Security improvements across all production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Infrastructure:** GCP-based infrastructure (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) + AWS (Route53)
@@ -51,7 +52,7 @@ Comprehensive security improvement initiative across Purplle.com's infrastructur
 - ✅ **Zero-Trust Architecture** - Adhered to zero-trust architecture and DevSecOps principles across all infrastructure
 - ✅ **Automated Security Scanning** - Integrated Trivy container scanning into GitLab CI pipelines to catch vulnerabilities early
 - ✅ **Automated IAM Minimization** - Automated IAM role minimization using Python scripts, reducing misconfigurations and enforcing least privilege access across GCP and AWS
-- ✅ **Comprehensive Security Coverage** - Security improvements applied to 125+ Kubernetes deployments and 300+ compute instances
+- ✅ **Comprehensive Security Coverage** - Security improvements applied to 125+ Microservices Distributed Workload, 300+ application instances, and 200+ self-managed database instances
 - ✅ **Multi-Environment Security** - Consistent security controls across DEV, SIT, UAT, PROD environments
 - ✅ **Network Security** - Implemented WAF, VPC segmentation, geo-blocking, rate limiting, and bot protection
 - ✅ **Data Protection** - DPDP compliance, encryption at rest and in transit, secure database connections
@@ -85,7 +86,7 @@ The security improvement initiative implements a multi-layered security approach
 
 ### Container Security Hardening
 - **Kubernetes RBAC:** Implemented Role-Based Access Control for cluster access, ensuring minimal required permissions
-- **Secure Boot:** Enabled Secure Boot for enhanced security on compute instances
+- **Secure Boot:** Enabled Secure Boot for enhanced security on application instances
 - **Automated IAM Minimization:** Built Python scripts to automate IAM role minimization, enforcing least privilege access across GCP and AWS, reducing misconfigurations
 - **Trivy Container Scanning:** Integrated Trivy container scanning into GitLab CI pipelines to detect and remediate vulnerable code early in the development lifecycle
 - **Zero-Trust Architecture:** Adhered to zero-trust architecture and DevSecOps principles across all containerized deployments

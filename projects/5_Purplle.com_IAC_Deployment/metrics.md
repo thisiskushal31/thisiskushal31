@@ -29,8 +29,8 @@ This document tracks infrastructure automation metrics, deployment improvements,
 ## Automation Coverage Metrics
 
 ### Infrastructure Automation Coverage
-- **Kubernetes Deployments Automated:** 125+ deployments
-- **Compute Instances Automated:** 300+ instances
+- **Microservices Distributed Workload Automated:** 125+ Microservices Distributed Workload
+- **Application Instances Automated:** 300+ instances
 - **Environments Automated:** 4 environments (DEV, SIT, UAT, PROD)
 - **Platforms Automated:** 3 production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Automation Coverage:** 100% coverage for infrastructure provisioning
@@ -59,7 +59,7 @@ This document tracks infrastructure automation metrics, deployment improvements,
 ### Module Usage
 - **Environments Using Modules:** 4 environments (DEV, SIT, UAT, PROD)
 - **Platforms Using Modules:** 3 production platforms
-- **Deployments Using Modules:** 125+ Kubernetes deployments
+- **Microservices Distributed Workload Using Modules:** 125+ Microservices Distributed Workload
 - **Module Consistency:** Consistent infrastructure patterns across all deployments
 
 ## CI/CD Modernization Metrics
