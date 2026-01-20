@@ -6,7 +6,7 @@
 **Project Type:** Infrastructure Monitoring & Observability Enhancement  
 **Status:** Implemented & Operational  
 **Platform:** Purplle.com Infrastructure Monitoring  
-**Scope:** All production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com)  
+**Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform  
 **Role:** DevOps Engineer | Team Size: 5 people
 
 ## Executive Summary
@@ -39,7 +39,7 @@ Comprehensive infrastructure monitoring improvement initiative that architecture
 - **Kubernetes Deployments:** Monitoring implemented for 125+ Kubernetes deployments on GKE
 - **Compute Instances:** Monitoring coverage across 300+ compute instances
 - **Environments:** Monitoring implemented across DEV, SIT, UAT, PROD environments
-- **Platforms:** Monitoring improvements across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com)
+- **Platforms:** Monitoring improvements across all production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Infrastructure:** GCP-based infrastructure (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) + AWS (Route53)
 
 ### Key Achievements
@@ -159,5 +159,5 @@ For detailed information, see:
 
 ---
 
-**Note:** This monitoring improvement initiative has been implemented across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com) and all environments (DEV, SIT, UAT, PROD). All monitoring improvements are based on unified observability principles and best practices. Monitoring implementation and management was handled by DevOps team; monitoring requirements and SLAs were defined in collaboration with engineering and operations teams.
+**Note:** This monitoring improvement initiative has been implemented across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform) and all environments (DEV, SIT, UAT, PROD). All monitoring improvements are based on unified observability principles and best practices. Monitoring implementation and management was handled by DevOps team; monitoring requirements and SLAs were defined in collaboration with engineering and operations teams.
 

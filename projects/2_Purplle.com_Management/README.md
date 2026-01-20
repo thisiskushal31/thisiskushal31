@@ -78,7 +78,7 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 **Security:** Zero Trust, WAF (Reblaze), Geo-blocking, Rate Limiting, Bot Protection, DPDP Compliance, Kubernetes RBAC, Secure Boot, Secrets Manager, SSO, IP Whitelisting, Trivy scanning  
 **Automation:** Python (IAM role minimization, Elasticsearch automation), Bash, n8n (agentic AI-based automation for Elasticsearch cluster management)  
 **Workflow Orchestration:** DAGs (Airflow) for whole Purplle app  
-**Legacy Systems:** PHP application (manage.purplle.com) for SCM
+**Legacy Systems:** PHP application (Management Platform - Legacy) for SCM
 
 ## Architecture Overview
 

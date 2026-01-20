@@ -13,7 +13,7 @@
 ### Infrastructure Metrics
 - **Infrastructure Deployment:** Fully deployed and operational across all environments
 - **Environment Coverage:** DEV, SIT, UAT, PROD
-- **Production Status:** Live and actively serving traffic at `nexus.purplle.com`
+- **Production Status:** Live and actively serving traffic through Production POS Platform
 - **Resource Utilization:** [Monitored via Prometheus/Grafana]
 - **Network Performance:** ALB and GCLB (provisioned by GKE Ingress) handling retail operations traffic
 - **Kubernetes Cluster Health:** GKE clusters operational across all four environments
@@ -156,7 +156,7 @@
 ## User/Client Impact
 
 ### Platform Adoption
-- **Production Status:** Fully live and operational at `nexus.purplle.com`, actively serving 500+ store employees daily
+- **Production Status:** Fully live and operational in Production environment, actively serving 500+ store employees daily via POS Platform
 - **Platform Usage:** In-house POS software supporting retail operations across 100+ stores
 - **Store Adoption:** Platform deployed and operational across 100+ retail stores
 - **User Adoption:** 500+ store employees using the platform daily for retail operations
@@ -211,7 +211,7 @@
 - **In-House POS Solution:** Successfully deployed in-house POS software replacing third-party solutions
 - **Scalability:** Built platform capable of supporting 100+ stores and 500+ daily users
 - **Cross-Functional Collaboration:** Effective collaboration between DevOps, Product, and Engineering teams
-- **Production Readiness:** Successfully deployed live platform at `nexus.purplle.com` serving 500+ store employees daily
+- **Production Readiness:** Successfully deployed live platform in Production environment (POS Platform) serving 500+ store employees daily
 - **Security Implementation:** Comprehensive security measures including zero-trust, WAF, geo-blocking, and DPDP compliance
 - **High Availability:** Achieved 99%+ uptime across all environments
 

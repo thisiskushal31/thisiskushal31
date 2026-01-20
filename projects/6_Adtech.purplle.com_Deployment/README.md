@@ -6,7 +6,7 @@
 **Project Type:** Production Platform - In-House AdTech Solution  
 **Status:** Live & Operational  
 **Platform:** PurplleAds - Internal Brand Management & Advertising Platform  
-**Deployment:** `adtech.purplle.com`  
+**Deployment:** Production Environment (AdTech Platform)  
 **Role:** DevOps Engineer | Team Size: 5 people
 
 ## Executive Summary
@@ -80,7 +80,7 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 
 ### Key Achievements
 
-- ✅ **Live Production Platform** - Fully deployed at `adtech.purplle.com`, actively serving 7M total users
+- ✅ **Live Production Platform** - Fully deployed in Production environment, actively serving 7M total users through AdTech Platform
 - ✅ **100+ Kubernetes Deployments** - Managed 100+ high-availability Kubernetes deployments on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
 - ✅ **Cost Optimization** - 93% reduction in software costs (₹80 Lakh → ₹5.7 Lakh infrastructure). Optimized resource utilization and cost-efficiency by rightsizing GCP/AWS instances and implementing autoscaling policies, achieving a 30% reduction in cloud spend through usage audits and resource cleanup
 - ✅ **Scalability** - Handles 4x traffic spikes during major sales events (150K → 600K DAU) and 2x during minor sales (150K → 300K DAU)
@@ -178,4 +178,4 @@ For detailed information, see:
 
 ---
 
-**Note:** This is a production platform actively serving traffic at `adtech.purplle.com`. All metrics and costs are based on actual production deployment.
+**Note:** This is a production platform actively serving traffic through the Production AdTech Platform. All metrics and costs are based on actual production deployment.

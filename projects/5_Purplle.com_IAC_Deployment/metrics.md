@@ -32,7 +32,7 @@ This document tracks infrastructure automation metrics, deployment improvements,
 - **Kubernetes Deployments Automated:** 125+ deployments
 - **Compute Instances Automated:** 300+ instances
 - **Environments Automated:** 4 environments (DEV, SIT, UAT, PROD)
-- **Platforms Automated:** 3 production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com)
+- **Platforms Automated:** 3 production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Automation Coverage:** 100% coverage for infrastructure provisioning
 
 ### Provisioning Task Automation
@@ -207,5 +207,5 @@ This document tracks infrastructure automation metrics, deployment improvements,
 
 ---
 
-**Note:** All IAC deployment metrics are based on actual implementation across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com) and all environments (DEV, SIT, UAT, PROD). Infrastructure automation and deployment was handled by DevOps team; infrastructure requirements and architecture were defined in collaboration with engineering and operations teams.
+**Note:** All IAC deployment metrics are based on actual implementation across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform) and all environments (DEV, SIT, UAT, PROD). Infrastructure automation and deployment was handled by DevOps team; infrastructure requirements and architecture were defined in collaboration with engineering and operations teams.
 

@@ -194,8 +194,8 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
 ### Infrastructure Coverage
 - **Kubernetes Deployments:** 125+ Kubernetes deployments automated
   - purplle.com: Main e-commerce platform deployments
-  - nexus.purplle.com: POS application deployments
-  - adtech.purplle.com: AdTech platform deployments
+  - POS Platform (Production): POS application deployments
+  - AdTech Platform (Production): AdTech platform deployments
 - **Compute Instances:** 300+ compute instances automated
   - GCP Compute Engine instances
   - Kubernetes cluster nodes
@@ -242,5 +242,5 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
 
 ---
 
-**Note:** This IAC deployment initiative has been implemented across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com) and all environments (DEV, SIT, UAT, PROD). All infrastructure automation is based on Infrastructure as Code principles and best practices. Infrastructure automation and deployment was handled by DevOps team; infrastructure requirements and architecture were defined in collaboration with engineering and operations teams.
+**Note:** This IAC deployment initiative has been implemented across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform) and all environments (DEV, SIT, UAT, PROD). All infrastructure automation is based on Infrastructure as Code principles and best practices. Infrastructure automation and deployment was handled by DevOps team; infrastructure requirements and architecture were defined in collaboration with engineering and operations teams.
 

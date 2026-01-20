@@ -213,8 +213,8 @@ The monitoring improvement initiative implements a unified observability stack a
 ### Infrastructure Coverage
 - **Kubernetes Deployments:** 125+ Kubernetes deployments monitored
   - purplle.com: Main e-commerce platform deployments
-  - nexus.purplle.com: POS application deployments
-  - adtech.purplle.com: AdTech platform deployments
+  - POS Platform (Production): POS application deployments
+  - AdTech Platform (Production): AdTech platform deployments
 - **Compute Instances:** 300+ compute instances monitored
   - GCP Compute Engine instances
   - Kubernetes cluster nodes
@@ -283,5 +283,5 @@ The monitoring improvement initiative implements a unified observability stack a
 
 ---
 
-**Note:** This monitoring improvement initiative has been implemented across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com) and all environments (DEV, SIT, UAT, PROD). All monitoring improvements are based on unified observability principles and best practices. Monitoring implementation and management was handled by DevOps team; monitoring requirements and SLAs were defined in collaboration with engineering and operations teams.
+**Note:** This monitoring improvement initiative has been implemented across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform) and all environments (DEV, SIT, UAT, PROD). All monitoring improvements are based on unified observability principles and best practices. Monitoring implementation and management was handled by DevOps team; monitoring requirements and SLAs were defined in collaboration with engineering and operations teams.
 

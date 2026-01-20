@@ -2,7 +2,7 @@
 
 ## System Overview
 
-PurplleAds is a Kubernetes-based adtech platform deployed on GCP (GKE) with a multi-tier architecture supporting high-volume ad serving for 7 million total users with 150,000 daily active users (DAU) typically, scaling to 600,000 DAU during major sales events (4x) and 300,000 DAU during minor sales events (2x). The platform is deployed at `adtech.purplle.com`. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB pointing to `adtech.purplle.com`. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational.
+PurplleAds is a Kubernetes-based adtech platform deployed on GCP (GKE) with a multi-tier architecture supporting high-volume ad serving for 7 million total users with 150,000 daily active users (DAU) typically, scaling to 600,000 DAU during major sales events (4x) and 300,000 DAU during minor sales events (2x). The platform is deployed in Production environment. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB for the Production AdTech Platform. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational.
 
 **Important Notes:**
 - **ALB** is an **independent infrastructure component** deployed separately from GKE
@@ -59,7 +59,7 @@ PurplleAds is a Kubernetes-based adtech platform deployed on GCP (GKE) with a mu
 2. **GKE Ingress automatically manages GCLB** - GKE Ingress controller automatically manages Google Cloud L7 External and L7 Internal Load Balancer resources
 3. **GCLB handles SSL/TLS termination** - Incoming L7 TLS connections terminate at the GCE L7 External Load Balancer
 4. **Container Native Load Balancing** - Configured to forward traffic directly to pods instead of node ports
-5. **GCLB is added as backend in ALB** - Points to `adtech.purplle.com` for traffic routing
+5. **GCLB is added as backend in ALB** - Routes traffic to Production AdTech Platform
 6. **Cloud SQL Proxy (Layer 7)** - Enables secure connection from different subnet in same VPC
 7. **CDN** - Not deployed nor needed - service generating campaigns is in same region
 8. **Hybrid Cloud Architecture** - Route53 (AWS) + ALB/GCLB (GCP) + GKE (GCP)
@@ -69,7 +69,7 @@ PurplleAds is a Kubernetes-based adtech platform deployed on GCP (GKE) with a mu
 
 **Independent Infrastructure Components:**
 - **ALB:** Deployed separately from GKE, managed as standalone infrastructure
-- **GCLB:** Automatically managed by GKE Ingress controller, added as backend in ALB pointing to `adtech.purplle.com`
+- **GCLB:** Automatically managed by GKE Ingress controller, added as backend in ALB for the Production AdTech Platform
 - **Route53:** AWS-managed DNS service
 - **WAF:** Separate security layer
 - **Cloud SQL:** GCP-managed database service
@@ -107,7 +107,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
 - **Application Load Balancer (ALB):** HTTP/HTTPS traffic distribution (Layer 7 load balancing)
   - **Deployment Model:** Separate infrastructure component, deployed independently from GKE
   - **Note:** ALB is NOT deployed by GKE - it is managed as standalone infrastructure
-  - **Backend Configuration:** GCLB (provisioned by GKE Ingress) is added as backend in ALB pointing to `adtech.purplle.com`
+  - **Backend Configuration:** GCLB (provisioned by GKE Ingress) is added as backend in ALB for Production AdTech Platform
 - **GCLB (Google Cloud Layer 7 HTTP(S) Load Balancer):** Automatically provisioned by GKE Ingress
   - **Purpose:** Acts as traffic manager for Kubernetes Services
   - **Features:** SSL termination, host/path routing, directs traffic to correct pods
@@ -186,7 +186,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
 - **Responsibilities:**
   - Layer 7 load balancing
   - HTTP/HTTPS routing to backend services (GCLB)
-  - GCLB is added as backend in ALB pointing to `adtech.purplle.com`
+  - GCLB is added as backend in ALB for Production AdTech Platform
 
 ### 4. GCLB (Google Cloud Layer 7 HTTP(S) Load Balancer)
 - **Purpose:** Traffic manager automatically managed by GKE Ingress
@@ -198,7 +198,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
   - Directing traffic to correct pods via Container Native Load Balancing
   - Exposing internal Kubernetes Services externally
   - Forwards incoming traffic to Kubernetes cluster nodes (or directly to pods with Container Native Load Balancing)
-- **Integration:** Added as backend in ALB pointing to `adtech.purplle.com`
+- **Integration:** Added as backend in ALB for Production AdTech Platform
 - **Note:** GKE Ingress automatically manages Google Cloud L7 External and L7 Internal Load Balancer resources. The incoming L7 TLS connections terminate at the GCE L7 External Load Balancer, which forwards traffic to the Kubernetes cluster nodes (or directly to pods with Container Native Load Balancing configured)
 
 ### 5. Kubernetes Ingress (GKE Ingress)
@@ -316,7 +316,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
 
 3. **Application Load Balancing:**
    - WAF → ALB (Application Load Balancer for HTTP/HTTPS traffic)
-   - ALB has GCLB added as backend pointing to `adtech.purplle.com`
+   - ALB has GCLB added as backend for Production AdTech Platform
 
 4. **GKE Ingress & GCLB:**
    - ALB → GCLB (Google Cloud Layer 7 HTTP(S) Load Balancer)
@@ -395,7 +395,7 @@ PurplleAds follows a **Multi-Tier Architecture** pattern with clear separation o
   - All application services communicate via kubedns for service discovery
 - **Load Balancing:** 
   - **ALB:** Separate infrastructure component for application traffic (HTTP/HTTPS) - NOT deployed by GKE
-  - **GCLB:** Automatically provisioned by GKE Ingress, added as backend in ALB pointing to `adtech.purplle.com`
+  - **GCLB:** Automatically provisioned by GKE Ingress, added as backend in ALB for Production AdTech Platform
   - **K8s Ingress:** Managed by GKE, automatically provisions GCLB for traffic management
 - **CDN:** Not deployed nor needed - service generating campaigns is in same region
 - **Deployment Model:** ALB is deployed independently from GKE, GCLB is automatically provisioned by GKE Ingress

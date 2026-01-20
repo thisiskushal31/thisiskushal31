@@ -6,7 +6,7 @@
 **Project Type:** Infrastructure Automation & Deployment  
 **Status:** Implemented & Operational  
 **Platform:** Purplle.com Infrastructure Automation  
-**Scope:** All production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com)  
+**Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform  
 **Role:** DevOps Engineer | Team Size: 5 people
 
 ## Executive Summary
@@ -40,7 +40,7 @@ Comprehensive Infrastructure as Code (IAC) deployment initiative that standardiz
 - **Kubernetes Deployments:** IAC automation for 125+ Kubernetes deployments on GKE
 - **Compute Instances:** IAC automation for 300+ compute instances
 - **Environments:** IAC deployment across DEV, SIT, UAT, PROD environments
-- **Platforms:** IAC automation across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com)
+- **Platforms:** IAC automation across all production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Infrastructure:** GCP-based infrastructure (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) + AWS (Route53)
 
 ### Key Achievements
@@ -154,5 +154,5 @@ For detailed information, see:
 
 ---
 
-**Note:** This IAC deployment initiative has been implemented across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com) and all environments (DEV, SIT, UAT, PROD). All infrastructure automation is based on Infrastructure as Code principles and best practices. Infrastructure automation and deployment was handled by DevOps team; infrastructure requirements and architecture were defined in collaboration with engineering and operations teams.
+**Note:** This IAC deployment initiative has been implemented across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform) and all environments (DEV, SIT, UAT, PROD). All infrastructure automation is based on Infrastructure as Code principles and best practices. Infrastructure automation and deployment was handled by DevOps team; infrastructure requirements and architecture were defined in collaboration with engineering and operations teams.
 
