@@ -6,14 +6,14 @@
 **Project Type:** Production Platform - In-House POS Solution  
 **Status:** Live & Operational  
 **Platform:** Nexus - Point of Sale (POS) System  
-**Deployment:** `nexus.purplle.com`  
+**Deployment:** Production Environment (POS Platform)  
 **Environments:** DEV, SIT, UAT, PROD  
 **Role:** DevOps Engineer (Infrastructure Deployment & Management) | Team Size: 5 people  
 **Note:** Infrastructure deployment and management handled by DevOps team. Application code developed by engineering team.
 
 ## Executive Summary
 
-Nexus is an in-house Point of Sale (POS) platform deployed at `nexus.purplle.com` across multiple environments (DEV, SIT, UAT, PROD). The platform enables store teams to manage retail operations across 100+ stores, generating 40+ Crores in revenue and serving 500+ store employees daily. Successfully deployed high-availability Nexus (POS application) across purplle's retail stores, securing distributed infrastructure and maintaining 99%+ service availability using GCP services (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC, etc.). The platform follows a 4-tier architecture pattern with Kafka and Redis for messaging and caching, ensuring reliable and scalable retail operations across all environments.
+Nexus is an in-house Point of Sale (POS) platform deployed in Production environment across multiple environments (DEV, SIT, UAT, PROD). The platform enables store teams to manage retail operations across 100+ stores, generating 40+ Crores in revenue and serving 500+ store employees daily. Successfully deployed high-availability Nexus (POS application) across purplle's retail stores, securing distributed infrastructure and maintaining 99%+ service availability using GCP services (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC, etc.). The platform follows a 4-tier architecture pattern with Kafka and Redis for messaging and caching, ensuring reliable and scalable retail operations across all environments.
 
 **Note:** Infrastructure deployment and management was handled by DevOps team. Application code was developed by the engineering team.
 
@@ -42,7 +42,7 @@ Nexus is an in-house Point of Sale (POS) platform deployed at `nexus.purplle.com
 ## Business Metrics
 
 ### Scale & Deployment
-- **Deployment:** High-availability deployment at `nexus.purplle.com`
+- **Deployment:** High-availability deployment in Production environment (POS Platform)
 - **Environments:** DEV, SIT, UAT, PROD
 - **Uptime:** 99%+ uptime maintained across all environments
 - **Infrastructure:** GCP-based infrastructure (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC)
@@ -100,7 +100,7 @@ Nexus is an in-house Point of Sale (POS) platform deployed at `nexus.purplle.com
 - Each service is containerized and managed through Kubernetes orchestration with Horizontal Pod Autoscaling (HPA)
 
 **Traffic Patterns:**
-- **Public Calls:** External traffic from store employees and retail locations accessing the platform at `nexus.purplle.com`
+- **Public Calls:** External traffic from store employees and retail locations accessing the Production POS Platform
   - Traffic flows through: Route53 → WAF → ALB → GCLB → Kubernetes Ingress → Services → Deployments
   - Public-facing API endpoints for store management operations
 - **Private/Internal Calls:** Service-to-service communication within the cluster and from other internal systems
@@ -121,5 +121,5 @@ For detailed information, see:
 
 ---
 
-**Note:** This is a production platform actively serving traffic at `nexus.purplle.com` across DEV, SIT, UAT, and PROD environments. All metrics and infrastructure details are based on actual production deployment. Infrastructure deployment and management was handled by DevOps team; application code was developed by the engineering team.
+**Note:** This is a production platform actively serving traffic through the Production POS Platform across DEV, SIT, UAT, and PROD environments. All metrics and infrastructure details are based on actual production deployment. Infrastructure deployment and management was handled by DevOps team; application code was developed by the engineering team.
 

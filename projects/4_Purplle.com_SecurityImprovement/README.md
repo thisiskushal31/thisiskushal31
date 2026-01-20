@@ -6,7 +6,7 @@
 **Project Type:** Security Enhancement Initiative  
 **Status:** Implemented & Operational  
 **Platform:** Purplle.com Infrastructure Security Hardening  
-**Scope:** All production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com)  
+**Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform  
 **Role:** DevOps Engineer | Team Size: 5 people
 
 ## Executive Summary
@@ -39,7 +39,7 @@ Comprehensive security improvement initiative across Purplle.com's infrastructur
 - **Kubernetes Deployments:** Security improvements applied to 125+ Kubernetes deployments on GKE
 - **Compute Instances:** Security hardening across 300+ compute instances
 - **Environments:** Security controls implemented across DEV, SIT, UAT, PROD environments
-- **Platforms:** Security improvements across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com)
+- **Platforms:** Security improvements across all production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Infrastructure:** GCP-based infrastructure (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) + AWS (Route53)
 
 ### Key Achievements
@@ -171,5 +171,5 @@ For detailed information, see:
 
 ---
 
-**Note:** This security improvement initiative has been implemented across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com) and all environments (DEV, SIT, UAT, PROD). All security improvements are based on zero-trust architecture and DevSecOps principles. Security implementation and management was handled by DevOps team; security policies and requirements were defined in collaboration with security and compliance teams.
+**Note:** This security improvement initiative has been implemented across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform) and all environments (DEV, SIT, UAT, PROD). All security improvements are based on zero-trust architecture and DevSecOps principles. Security implementation and management was handled by DevOps team; security policies and requirements were defined in collaboration with security and compliance teams.
 

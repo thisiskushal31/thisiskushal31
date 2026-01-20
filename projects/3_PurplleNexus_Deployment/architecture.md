@@ -2,7 +2,7 @@
 
 ## System Overview
 
-Nexus is a Kubernetes-based POS platform deployed on GCP (GKE) with a multi-tier architecture supporting high-availability retail operations. The platform is deployed at `nexus.purplle.com` and enables store teams to manage retail operations across 100+ stores, generating 40+ Crores in revenue and serving 500+ store employees daily. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB pointing to `nexus.purplle.com`. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across DEV, SIT, UAT, and PROD environments and is fully operational.
+Nexus is a Kubernetes-based POS platform deployed on GCP (GKE) with a multi-tier architecture supporting high-availability retail operations. The platform is deployed in Production environment and enables store teams to manage retail operations across 100+ stores, generating 40+ Crores in revenue and serving 500+ store employees daily. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB for the Production POS Platform. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across DEV, SIT, UAT, and PROD environments and is fully operational.
 
 **Note:** Infrastructure deployment and management was handled by DevOps team. Application code was developed by the engineering team.
 
@@ -62,7 +62,7 @@ Nexus is a Kubernetes-based POS platform deployed on GCP (GKE) with a multi-tier
 2. **GKE Ingress automatically manages GCLB** - GKE Ingress controller automatically manages Google Cloud L7 External and L7 Internal Load Balancer resources
 3. **GCLB handles SSL/TLS termination** - Incoming L7 TLS connections terminate at the GCE L7 External Load Balancer
 4. **Container Native Load Balancing** - Configured to forward traffic directly to pods instead of node ports
-5. **GCLB is added as backend in ALB** - Points to `nexus.purplle.com` for traffic routing
+5. **GCLB is added as backend in ALB** - Routes traffic to Production POS Platform
 6. **Cloud SQL Proxy (Layer 7)** - Enables secure connection from different subnet in same VPC
 7. **CDN** - Not deployed nor needed - service generating campaigns is in same region
 8. **Hybrid Cloud Architecture** - Route53 (AWS) + ALB/GCLB (GCP) + GKE (GCP)
@@ -72,7 +72,7 @@ Nexus is a Kubernetes-based POS platform deployed on GCP (GKE) with a multi-tier
 
 **Independent Infrastructure Components:**
 - **ALB:** Deployed separately from GKE, managed as standalone infrastructure
-- **GCLB:** Automatically managed by GKE Ingress controller, added as backend in ALB pointing to `nexus.purplle.com`
+- **GCLB:** Automatically managed by GKE Ingress controller, added as backend in ALB for the Production POS Platform
 - **Route53:** AWS-managed DNS service
 - **WAF:** Separate security layer
 - **Cloud SQL:** GCP-managed database service
@@ -313,7 +313,7 @@ Nexus follows a **Multi-Tier Architecture** pattern with clear separation of con
 
 1. **DNS Resolution:**
    - Store Employees/Retail Locations send request → Route53 (AWS DNS service)
-   - Route53 resolves domain name (`nexus.purplle.com`) to WAF endpoint
+   - Route53 routes traffic for Production POS Platform to WAF endpoint
 
 2. **Security Layer:**
    - Route53 → WAF (Web Application Firewall applies standard firewall rules)
@@ -321,7 +321,7 @@ Nexus follows a **Multi-Tier Architecture** pattern with clear separation of con
 
 3. **Application Load Balancing:**
    - WAF → ALB (Application Load Balancer for HTTP/HTTPS traffic)
-   - ALB has GCLB added as backend pointing to `nexus.purplle.com`
+   - ALB has GCLB added as backend for Production POS Platform
 
 4. **GKE Ingress & GCLB:**
    - ALB → GCLB (Google Cloud Layer 7 HTTP(S) Load Balancer)
@@ -419,7 +419,7 @@ Nexus follows a **Multi-Tier Architecture** pattern with clear separation of con
   - All application services communicate via kubedns for service discovery
 - **Load Balancing:** 
   - **ALB:** Separate infrastructure component for application traffic (HTTP/HTTPS) - NOT deployed by GKE
-  - **GCLB:** Automatically provisioned by GKE Ingress, added as backend in ALB pointing to `nexus.purplle.com`
+  - **GCLB:** Automatically provisioned by GKE Ingress, added as backend in ALB for Production POS Platform
   - **K8s Ingress:** Managed by GKE, automatically provisions GCLB for traffic management
 - **CDN:** Not deployed nor needed - services are in same region
 - **Deployment Model:** ALB is deployed independently from GKE, GCLB is automatically provisioned by GKE Ingress
@@ -478,7 +478,7 @@ Nexus follows a **Multi-Tier Architecture** pattern with clear separation of con
 - **PROD:** Production environment fully deployed and live, actively serving production traffic
 
 ### Production Status
-- **Live & Operational:** Platform is actively being used in production at `nexus.purplle.com`
+- **Live & Operational:** Platform is actively being used in Production environment (POS Platform)
 - **Software Replacement:** Successfully replaced ₹80 Lakh/year business management software
 - **Active Usage:** Currently serving as alternative to expensive third-party solution
 

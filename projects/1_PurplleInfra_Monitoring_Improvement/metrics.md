@@ -47,7 +47,7 @@ This document tracks monitoring metrics, MTTR improvements, and performance data
 - **Kubernetes Deployments Monitored:** 125+ deployments
 - **Compute Instances Monitored:** 300+ instances
 - **Environments Covered:** 4 environments (DEV, SIT, UAT, PROD)
-- **Platforms Monitored:** 3 production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com)
+- **Platforms Monitored:** 3 production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Monitoring Coverage:** 100% coverage across all production infrastructure
 
 ### Metrics Collection Metrics
@@ -245,5 +245,5 @@ This document tracks monitoring metrics, MTTR improvements, and performance data
 
 ---
 
-**Note:** All monitoring metrics are based on actual implementation across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com) and all environments (DEV, SIT, UAT, PROD). Monitoring implementation and management was handled by DevOps team; monitoring requirements and SLAs were defined in collaboration with engineering and operations teams.
+**Note:** All monitoring metrics are based on actual implementation across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform) and all environments (DEV, SIT, UAT, PROD). Monitoring implementation and management was handled by DevOps team; monitoring requirements and SLAs were defined in collaboration with engineering and operations teams.
 

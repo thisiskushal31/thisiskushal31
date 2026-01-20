@@ -10,7 +10,7 @@ This document tracks security metrics, compliance status, and improvement tracki
 - **Kubernetes Deployments Secured:** 125+ Kubernetes deployments
 - **Compute Instances Hardened:** 300+ compute instances
 - **Environments Covered:** 4 environments (DEV, SIT, UAT, PROD)
-- **Platforms Secured:** 3 production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com)
+- **Platforms Secured:** 3 production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Security Coverage:** 100% coverage across all production infrastructure
 
 ### Security Controls Implementation
@@ -122,7 +122,7 @@ This document tracks security metrics, compliance status, and improvement tracki
 - **Status:** ✅ Fully Compliant
 - **Regulation:** India's Digital Personal Data Protection Act, 2023
 - **Effective Date:** Compliance implemented across all production platforms
-- **Coverage:** All data processing activities across purplle.com, nexus.purplle.com, and adtech.purplle.com
+- **Coverage:** All data processing activities across Main E-Commerce Platform, POS Platform, and AdTech Platform
 
 **Data Protection Measures:**
 - **Data Protection:** ✅ Data protection and privacy measures aligned with DPDP requirements
@@ -386,5 +386,5 @@ This document tracks security metrics, compliance status, and improvement tracki
 
 ---
 
-**Note:** All security metrics are based on actual implementation across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com) and all environments (DEV, SIT, UAT, PROD). Security implementation and management was handled by DevOps team; security policies and requirements were defined in collaboration with security and compliance teams.
+**Note:** All security metrics are based on actual implementation across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform) and all environments (DEV, SIT, UAT, PROD). Security implementation and management was handled by DevOps team; security policies and requirements were defined in collaboration with security and compliance teams.
 

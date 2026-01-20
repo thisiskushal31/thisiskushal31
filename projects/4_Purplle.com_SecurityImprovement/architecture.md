@@ -2,7 +2,7 @@
 
 ## System Overview
 
-Comprehensive security improvement initiative implementing zero-trust architecture and DevSecOps principles across Purplle.com's infrastructure. The initiative hardened container security, strengthened microservices security, centralized access control, and implemented defense-in-depth security controls across 125+ Kubernetes deployments, 300+ compute instances, and all production environments (DEV, SIT, UAT, PROD). Security improvements were applied to all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com), ensuring secure and compliant deployments across the entire infrastructure.
+Comprehensive security improvement initiative implementing zero-trust architecture and DevSecOps principles across Purplle.com's infrastructure. The initiative hardened container security, strengthened microservices security, centralized access control, and implemented defense-in-depth security controls across 125+ Kubernetes deployments, 300+ compute instances, and all production environments (DEV, SIT, UAT, PROD). Security improvements were applied to all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform), ensuring secure and compliant deployments across the entire infrastructure.
 
 **Note:** Security implementation and management was handled by DevOps team. Security policies and requirements were defined in collaboration with security and compliance teams.
 
@@ -316,8 +316,8 @@ The security improvement initiative implements a multi-layered security approach
 ### Infrastructure Coverage
 - **Kubernetes Deployments:** 125+ Kubernetes deployments secured across all platforms
   - purplle.com: Main e-commerce platform deployments
-  - nexus.purplle.com: POS application deployments
-  - adtech.purplle.com: AdTech platform deployments
+  - POS Platform (Production): POS application deployments
+  - AdTech Platform (Production): AdTech platform deployments
 - **Compute Instances:** 300+ compute instances hardened
   - GCP Compute Engine instances
   - Kubernetes cluster nodes
@@ -325,8 +325,8 @@ The security improvement initiative implements a multi-layered security approach
 - **Environments:** Security controls consistently applied across DEV, SIT, UAT, PROD
 - **Platforms:** Security improvements across all production platforms
   - purplle.com (main e-commerce platform)
-  - nexus.purplle.com (POS application)
-  - adtech.purplle.com (AdTech platform)
+  - POS Platform (Production) - POS application
+  - AdTech Platform (Production) - AdTech platform
 
 ### Security Controls Applied
 
@@ -375,7 +375,7 @@ The security improvement initiative implements a multi-layered security approach
 **Compliance Status:**
 - **Status:** ✅ Fully Compliant with India's Digital Personal Data Protection Act, 2023
 - **Effective Date:** Compliance implemented across all production platforms
-- **Coverage:** All data processing activities across purplle.com, nexus.purplle.com, and adtech.purplle.com
+- **Coverage:** All data processing activities across Main E-Commerce Platform, POS Platform, and AdTech Platform
 
 **Data Protection Measures:**
 - **Data Protection:** Data protection and privacy measures aligned with DPDP requirements
@@ -550,5 +550,5 @@ The security improvement initiative implements a multi-layered security approach
 
 ---
 
-**Note:** This security improvement initiative has been implemented across all production platforms (purplle.com, nexus.purplle.com, adtech.purplle.com) and all environments (DEV, SIT, UAT, PROD). All security improvements are based on zero-trust architecture and DevSecOps principles. Security implementation and management was handled by DevOps team; security policies and requirements were defined in collaboration with security and compliance teams.
+**Note:** This security improvement initiative has been implemented across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform) and all environments (DEV, SIT, UAT, PROD). All security improvements are based on zero-trust architecture and DevSecOps principles. Security implementation and management was handled by DevOps team; security policies and requirements were defined in collaboration with security and compliance teams.
 
