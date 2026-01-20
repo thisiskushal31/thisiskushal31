@@ -2,7 +2,7 @@
 
 ## System Overview
 
-Comprehensive security improvement initiative implementing zero-trust architecture and DevSecOps principles across Purplle.com's infrastructure. The initiative hardened container security, strengthened microservices security, centralized access control, and implemented defense-in-depth security controls across 125+ Kubernetes deployments, 300+ compute instances, and all production environments (DEV, SIT, UAT, PROD). Security improvements were applied to all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform), ensuring secure and compliant deployments across the entire infrastructure.
+Comprehensive security improvement initiative implementing zero-trust architecture and DevSecOps principles across Purplle.com's infrastructure. The initiative hardened container security, strengthened microservices security, centralized access control, and implemented defense-in-depth security controls across 125+ Microservices Distributed Workload, 300+ application instances, and all production environments (DEV, SIT, UAT, PROD). Security improvements were applied to all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform), ensuring secure and compliant deployments across the entire infrastructure.
 
 **Note:** Security implementation and management was handled by DevOps team. Security policies and requirements were defined in collaboration with security and compliance teams.
 
@@ -71,7 +71,7 @@ The security improvement initiative implements a multi-layered security approach
 **Secure Boot:**
 - **Implementation:** Secure Boot enabled for enhanced security
 - **Purpose:** Protect against low-level attacks and unauthorized boot modifications
-- **Scope:** Applied to compute instances
+- **Scope:** Applied to application instances
 
 **Automated IAM Role Minimization:**
 - **Implementation:** Automated IAM role minimization using Python scripts
@@ -220,12 +220,12 @@ The security improvement initiative implements a multi-layered security approach
 
 **Kubernetes RBAC:**
 - **Implementation:** Implemented Kubernetes RBAC for cluster access control
-- **Scope:** Applied to all Kubernetes clusters (125+ deployments)
+- **Scope:** Applied to all Kubernetes clusters (125+ Microservices Distributed Workload)
 - **Result:** Enhanced cluster security with role-based access control
 
 **Secure Boot:**
 - **Implementation:** Enabled Secure Boot for enhanced security
-- **Scope:** Applied to compute instances
+- **Scope:** Applied to application instances
 - **Result:** Protection against low-level attacks
 
 **Automated IAM Minimization:**
@@ -314,11 +314,11 @@ The security improvement initiative implements a multi-layered security approach
 ## Security Coverage
 
 ### Infrastructure Coverage
-- **Kubernetes Deployments:** 125+ Kubernetes deployments secured across all platforms
+- **Microservices Distributed Workload:** 125+ Microservices Distributed Workload secured across all platforms
   - purplle.com: Main e-commerce platform deployments
   - POS Platform (Production): POS application deployments
   - AdTech Platform (Production): AdTech platform deployments
-- **Compute Instances:** 300+ compute instances hardened
+- **Application Instances:** 300+ application instances hardened
   - GCP Compute Engine instances
   - Kubernetes cluster nodes
   - Management and utility instances
@@ -332,7 +332,7 @@ The security improvement initiative implements a multi-layered security approach
 
 **Container Security:**
 - Kubernetes RBAC: Role-based access control for all cluster operations
-- Secure Boot: Enabled on all compute instances
+- Secure Boot: Enabled on all application instances
 - Trivy scanning: Automated vulnerability scanning in CI/CD pipelines
 - Container hardening: Zero-trust principles applied to all containers
 
@@ -487,7 +487,7 @@ The security improvement initiative implements a multi-layered security approach
 
 **NIST Cybersecurity Framework:**
 - **Alignment:** Security controls implemented align with NIST Cybersecurity Framework functions
-- **Identify:** Risk assessment through security controls, asset inventory (125+ K8s deployments, 300+ compute instances)
+- **Identify:** Risk assessment through security controls, asset inventory (125+ Microservices Distributed Workload, 300+ application instances)
 - **Protect:** Access controls (RBAC, SSO, IAM minimization), encryption, security awareness
 - **Detect:** Security monitoring (Prometheus, Grafana), automated scanning (Trivy), audit trails
 - **Respond:** Incident response procedures, automated incident escalation, breach notification procedures

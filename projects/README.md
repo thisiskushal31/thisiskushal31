@@ -9,7 +9,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 #### [PurplleInfra Monitoring Improvement](./1_PurplleInfra_Monitoring_Improvement/)
 ![Quick Info Image](../assets/projects/1_PurplleInfra_Monitoring_Improvement.png)
 **Unified Observability Stack** - Prometheus and Grafana implementation  
-- **Scale:** 125+ Kubernetes deployments, 300+ compute instances monitored
+- **Scale:** 125+ Microservices Distributed Workload, 300+ application instances, 200+ self-managed database instances monitored
 - **Infrastructure:** Unified observability stack, real-time monitoring, automated escalation
 - **Achievements:** 76% MTTR reduction (30 to 7 minutes), real-time alerting
 - **Key Technologies:** Prometheus, Grafana, GCP Stackdriver, Jenkins, Slack
@@ -18,7 +18,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 #### [Purplle.com Management](./2_Purplle.com_Management/)
 ![Quick Info Image](../assets/projects/2_Purplle.com_Management.png)
 **Main E-Commerce Platform** - Core e-commerce infrastructure  
-- **Scale:** ₹700 Crore annual revenue (as of Jan 1, 2026), 7M total users, 150K DAU (600K during major sales, 300K during minor sales), 300+ compute instances, 125+ Kubernetes deployments
+- **Scale:** ₹700 Crore annual revenue (as of Jan 1, 2026), 7M total users, 150K DAU (600K during major sales, 300K during minor sales), 300+ application instances, 200+ self-managed database instances, 125+ Microservices Distributed Workload
 - **Infrastructure:** 4TB MySQL database, multi-zone deployment, hybrid cloud
 - **Achievements:** ₹1 Crore cost savings, 99%+ uptime, zero-lag MySQL migrations (gh-ost)
 - **Key Technologies:** Kubernetes, MySQL, Elasticsearch, MongoDB, Redis, Cloud Functions
@@ -36,7 +36,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 #### [Purplle.com Security Improvement](./4_Purplle.com_SecurityImprovement/)
 ![Quick Info Image](../assets/projects/4_Purplle.com_SecurityImprovement.png)
 **Security Hardening Initiative** - Comprehensive security improvements  
-- **Scale:** 125+ Kubernetes deployments, 300+ compute instances secured
+- **Scale:** 125+ Microservices Distributed Workload, 300+ application instances, 200+ self-managed database instances secured
 - **Infrastructure:** Zero-trust architecture, defense-in-depth, multi-layer security
 - **Achievements:** Hardened container security, automated IAM minimization, SSO, IP Whitelisting
 - **Key Technologies:** Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO
@@ -46,7 +46,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 #### [Purplle.com IAC Deployment](./5_Purplle.com_IAC_Deployment/)
 ![Quick Info Image](../assets/projects/5_Purplle.com_IAC_Deployment.png)
 **Infrastructure as Code Initiative** - Terraform-based infrastructure automation  
-- **Scale:** 125+ Kubernetes deployments, 300+ compute instances automated
+- **Scale:** 125+ Microservices Distributed Workload, 300+ application instances, 200+ self-managed database instances automated
 - **Infrastructure:** Multi-environment (DEV, SIT, UAT, PROD), multi-cloud support
 - **Achievements:** 40%+ faster deployments, 40%+ provisioning tasks automated
 - **Key Technologies:** Terraform, Ansible, Jenkins, GitLab CI, GitOps, Python
@@ -56,7 +56,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 ![Quick Info Image](../assets/projects/6_Adtech.purplle.com_Deployment.png)
 **In-House AdTech Platform** - Brand management and advertising platform  
 - **Scale:** 7M total users, 150K DAU (600K during major sales, 300K during minor sales), ₹400+ Crore brand advertising revenue
-- **Infrastructure:** 100+ Kubernetes deployments, GKE, multi-cloud (AWS + GCP)
+- **Infrastructure:** 100+ production services, GKE, multi-cloud (AWS + GCP)
 - **Achievements:** 93% cost reduction (₹80 Lakh → ₹5.7 Lakh), 4x traffic spike handling during major sales
 - **Key Technologies:** Kubernetes, Terraform, GitLab CI, Keycloak
 - [View Details →](./6_Adtech.purplle.com_Deployment/)
@@ -74,8 +74,9 @@ This directory contains comprehensive documentation for infrastructure projects 
 ## Project Statistics
 
 ### Overall Infrastructure Scale
-- **Total Kubernetes Deployments:** 125+ deployments managed
-- **Total Compute Instances:** 300+ instances across infrastructure
+- **Total Microservices Distributed Workload:** 125+ microservices distributed workloads orchestrated
+- **Total Database Instances:** 200+ self-managed database instances
+- **Total Application Instances:** 300+ instances across infrastructure
 - **Production Platforms:** 3 major platforms (plus 1 OSS project)
 - **Environments:** 4 environments (DEV, SIT, UAT, PROD)
 - **User Base:** 7M total users, 150K DAU (600K during major sales, 300K during minor sales)
@@ -94,7 +95,7 @@ This directory contains comprehensive documentation for infrastructure projects 
 
 ### Cloud & Infrastructure
 - **Cloud Platforms:** GCP (GKE, Cloud SQL, VPC, Load Balancer), AWS (Route53)
-- **Container Orchestration:** Kubernetes (GKE), 125+ deployments
+- **Container Orchestration:** Kubernetes (GKE), 125+ Microservices Distributed Workload
 - **Infrastructure as Code:** Terraform, Ansible
 - **CI/CD:** Jenkins, GitLab CI, GitOps workflows
 
@@ -132,7 +133,7 @@ Each project follows a consistent documentation structure:
 | [Monitoring Improvement](./1_PurplleInfra_Monitoring_Improvement/) | Observability | 76% MTTR reduction | ✅ Implemented |
 | [Purplle.com Management](./2_Purplle.com_Management/) | E-Commerce Platform | 7M total, 150K DAU | ✅ Live |
 | [Nexus.purplle.com](./3_Nexus.purplle.com_Deployment/) | POS Platform | 100+ stores | ✅ Live |
-| [Security Improvement](./4_Purplle.com_SecurityImprovement/) | Security Hardening | 125+ deployments | ✅ Implemented |
+| [Security Improvement](./4_Purplle.com_SecurityImprovement/) | Security Hardening | 125+ Microservices Distributed Workload | ✅ Implemented |
 | [IAC Deployment](./5_Purplle.com_IAC_Deployment/) | Infrastructure Automation | 40%+ faster | ✅ Implemented |
 | [Adtech.purplle.com](./6_Adtech.purplle.com_Deployment/) | AdTech Platform | ₹400+ Cr revenue | ✅ Live |
 | [Grid Platform](./7_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |

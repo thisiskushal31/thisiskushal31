@@ -11,16 +11,16 @@
 
 ## Executive Summary
 
-Purplle.com is the main e-commerce platform infrastructure supporting beauty and personal care retail operations, generating ₹700 Crore annually (as of January 1, 2026). The platform serves 7 million total users with 150,000 daily active users (DAU) typically, scaling to 600,000 DAU during major sales events (4x) and 300,000 DAU during minor sales events (2x). Infrastructure includes 300+ compute instances, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) and AWS (Route53). The platform follows a 4-tier architecture pattern with comprehensive security, monitoring, and disaster recovery capabilities. Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved ₹1 Crore in cost savings through infrastructure optimization and automation.
+Purplle.com is the main e-commerce platform infrastructure supporting beauty and personal care retail operations, generating ₹700 Crore annually (as of January 1, 2026). The platform serves 7 million total users with 150,000 daily active users (DAU) typically, scaling to 600,000 DAU during major sales events (4x) and 300,000 DAU during minor sales events (2x). Infrastructure includes 300+ application instances, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) and AWS (Route53). The platform follows a 4-tier architecture pattern with comprehensive security, monitoring, and disaster recovery capabilities. Infrastructure is managed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved ₹1 Crore in cost savings through infrastructure optimization and automation.
 
-**Note:** Infrastructure deployment and management handled by DevOps team. Application code developed by engineering team.
+**Note:** Infrastructure management and operations handled by DevOps team. Application code developed by engineering team.
 
 ## Business Objectives
 
-**Primary Goal:** Build and maintain robust, scalable infrastructure for the main e-commerce platform supporting:
+**Primary Goal:** Manage and maintain robust, scalable infrastructure for the main e-commerce platform supporting:
 - **User Scale:** Serve 7 million total users with 150,000 DAU typically, scaling to 600,000 DAU during major sales (4x) and 300,000 DAU during minor sales (2x)
 - **High Availability:** 99%+ uptime for critical e-commerce operations
-- **Scalability:** Support 300+ compute instances and 125+ Kubernetes deployments
+- **Scalability:** Support 300+ application instances, 200+ self-managed database instances, and 125+ Microservices Distributed Workload
 - **Reliability:** Robust infrastructure for core e-commerce operations
 - **Security:** Secure infrastructure with comprehensive security measures (zero-trust, DevSecOps)
 - **Performance:** Optimized infrastructure for e-commerce transactions and user experience
@@ -38,21 +38,22 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 ### Scale & Infrastructure
 - **Annual Revenue:** ₹700 Crore annually (as of January 1, 2026)
 - **User Base:** 7 million total users, 150,000 DAU typically (600,000 DAU during major sales, 300,000 DAU during minor sales)
-- **Kubernetes Deployments:** 125+ deployments managed on GKE
-- **Compute Instances:** 300+ compute instances
+- **Microservices Distributed Workload:** 125+ microservices distributed workloads orchestrated on GKE
+- **Database Instances:** 200+ self-managed database instances
+- **Application Instances:** 300+ application instances
 - **Infrastructure:** GCP-based infrastructure (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) + AWS (Route53)
 - **Database:** Primary MySQL database of 4TB size
 - **Uptime:** 99%+ uptime maintained
 - **Environments:** DEV, SIT, UAT, PROD (Production, Pre-Production, Sandbox)
 - **Architecture:** 4-tier architecture pattern (DNS & Security, Load Balancing, Application, Data layers)
-- **Deployment:** Fully deployed and operational
+- **Status:** Fully managed and operational
 - **Cost Savings:** ₹1 Crore achieved through infrastructure optimization and automation
 
 ### Key Achievements
 
-- ✅ **Production Infrastructure** - Successfully deployed and operational, serving 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales)
-- ✅ **125+ Kubernetes Deployments** - Managed 125+ high-availability Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring optimal performance, scalability, and reliability in production
-- ✅ **300+ Compute Instances** - Managed 300+ compute instances across infrastructure
+- ✅ **Production Infrastructure** - Successfully managed and operational, serving 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales)
+- ✅ **125+ Microservices Distributed Workload** - Managed 125+ high-availability microservices distributed workloads on GKE, including Hypertest (QA tool), ensuring optimal performance, scalability, and reliability in production
+- ✅ **300+ Application Instances** - Managed 300+ application instances across infrastructure
 - ✅ **High Availability** - 99%+ uptime maintained across all environments
 - ✅ **Scalable Architecture** - Infrastructure supports business growth and traffic spikes
 - ✅ **CI/CD Modernization** - Accelerated infrastructure delivery speed by 40%+ by collaborating on CI/CD automation using Terraform, Jenkins, and GitOps, automating over 40% of provisioning tasks. Modernized CI/CD infrastructure by migrating from freestyle bash jobs to scripted pipeline jobs in Jenkins, integrated with Slack for real-time job failure alerts, improving monitoring and reducing incident response time
@@ -90,7 +91,7 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 
 **Application Services:**
 - Multiple application services deployed as Kubernetes deployments within the GKE cluster across Production, Pre-Production, and Sandbox environments
-- **125+ Kubernetes Deployments** managed on GKE
+- **125+ Microservices Distributed Workload** orchestrated on GKE
 - Services communicate through Kubernetes service discovery and internal networking
 - **Internal Networking:** kubedns (Kubernetes DNS) handles service discovery and DNS resolution for inter-service communication within the cluster
 - Each service is containerized and managed through Kubernetes orchestration
@@ -99,7 +100,7 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 - **CI/CD:** GitLab CI integrated with each service, deployed using Infrastructure as Code (Terraform, Ansible)
 
 **Infrastructure Scale:**
-- **300+ Compute Instances:** Managed across GCP and AWS infrastructure
+- **300+ Application Instances:** Managed across GCP and AWS infrastructure
 - **Multi-Environment:** Deployed across DEV, SIT, UAT, PROD (Production, Pre-Production, Sandbox) with consistent infrastructure
 - **High Availability:** Multi-zone deployment for fault tolerance
 - **Auto-scaling:** Horizontal Pod Autoscaling (HPA) and cluster autoscaling
@@ -113,4 +114,4 @@ For detailed information, see:
 
 ---
 
-**Note:** This is a production platform actively serving 7 million total users with 150,000 DAU typically (600,000 DAU during major sales, 300,000 DAU during minor sales) with 300+ compute instances and 125+ Kubernetes deployments. All metrics and infrastructure details are based on actual production deployment. Infrastructure deployment and management was handled by DevOps team; application code was developed by the engineering team.
+**Note:** This is a production platform actively serving 7 million total users with 150,000 DAU typically (600,000 DAU during major sales, 300,000 DAU during minor sales) with 300+ application instances, 200+ self-managed database instances, and 125+ Microservices Distributed Workload. All metrics and infrastructure details are based on actual production operations. Infrastructure management and operations was handled by DevOps team; application code was developed by the engineering team.

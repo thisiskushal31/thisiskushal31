@@ -10,7 +10,7 @@ flowchart TB
     subgraph Layer1["Layer 1: Metrics Collection"]
         Prometheus[Prometheus<br/>Metrics Collection & Storage]
         K8sMetrics[Kubernetes Metrics<br/>125+ Deployments]
-        InfraMetrics[Infrastructure Metrics<br/>300+ Compute Instances]
+        InfraMetrics[Infrastructure Metrics<br/>300+ Application Instances]
         AppMetrics[Application Metrics<br/>Performance & Business]
         DBMetrics[Database Metrics<br/>MySQL, MongoDB, Elasticsearch]
         K8sMetrics --> Prometheus
@@ -61,7 +61,7 @@ flowchart TB
     
     subgraph Infrastructure["Infrastructure Coverage"]
         K8sDeploy[125+ K8s Deployments<br/>Monitored]
-        ComputeInst[300+ Compute Instances<br/>Monitored]
+        ComputeInst[300+ Application Instances<br/>Monitored]
         Environments[4 Environments<br/>DEV, SIT, UAT, PROD]
         Platforms[3 Production Platforms<br/>purplle.com, nexus, adtech]
     end

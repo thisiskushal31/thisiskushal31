@@ -11,7 +11,7 @@
 
 ## Executive Summary
 
-Comprehensive Infrastructure as Code (IAC) deployment initiative that standardized on Terraform for infrastructure provisioning and integrated it into GitOps workflows. The initiative created reusable, parameterized Terraform modules for common GCP patterns, enabling consistent deployment across multiple environments (DEV, SIT, UAT, PROD). By automating infrastructure provisioning and modernizing CI/CD processes, the initiative accelerated infrastructure delivery speed by 40%+, automating over 40% of provisioning tasks. Infrastructure automation was applied to 125+ Kubernetes deployments, 300+ compute instances, and all production environments, ensuring consistent, reliable, and scalable infrastructure deployment across the entire organization.
+Comprehensive Infrastructure as Code (IAC) deployment initiative that standardized on Terraform for infrastructure provisioning and integrated it into GitOps workflows. The initiative created reusable, parameterized Terraform modules for common GCP patterns, enabling consistent deployment across multiple environments (DEV, SIT, UAT, PROD). By automating infrastructure provisioning and modernizing CI/CD processes, the initiative accelerated infrastructure delivery speed by 40%+, automating over 40% of provisioning tasks. Infrastructure automation was applied to 125+ Microservices Distributed Workload, 300+ application instances, 200+ self-managed database instances, and all production environments, ensuring consistent, reliable, and scalable infrastructure deployment across the entire organization.
 
 **Note:** Infrastructure automation and deployment handled by DevOps team. Infrastructure requirements and architecture defined in collaboration with engineering and operations teams.
 
@@ -37,8 +37,9 @@ Comprehensive Infrastructure as Code (IAC) deployment initiative that standardiz
 ## Business Metrics
 
 ### Infrastructure Automation Coverage
-- **Kubernetes Deployments:** IAC automation for 125+ Kubernetes deployments on GKE
-- **Compute Instances:** IAC automation for 300+ compute instances
+- **Microservices Distributed Workload:** IAC automation for 125+ Microservices Distributed Workload on GKE
+- **Application Instances:** IAC automation for 300+ application instances
+- **Database Instances:** IAC automation for 200+ self-managed database instances
 - **Environments:** IAC deployment across DEV, SIT, UAT, PROD environments
 - **Platforms:** IAC automation across all production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Infrastructure:** GCP-based infrastructure (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) + AWS (Route53)
@@ -46,12 +47,12 @@ Comprehensive Infrastructure as Code (IAC) deployment initiative that standardiz
 ### Key Achievements
 
 - ✅ **40%+ Faster Deployments** - Accelerated infrastructure delivery speed by 40%+ by collaborating on CI/CD automation using Terraform, Jenkins, and GitOps, automating over 40% of provisioning tasks
-- ✅ **Reusable Terraform Modules** - Created reusable, parameterized Terraform modules for common GCP patterns (GKE clusters, Cloud SQL, VPCs, Load Balancers, Kubernetes deployments)
+- ✅ **Reusable Terraform Modules** - Created reusable, parameterized Terraform modules for common GCP patterns (GKE clusters, Cloud SQL, VPCs, Load Balancers, microservices distributed workloads)
 - ✅ **Multi-Environment Deployment** - Consistent infrastructure across DEV, SIT, UAT, PROD using parameterized Terraform modules
 - ✅ **CI/CD Modernization** - Modernized CI/CD infrastructure by migrating from freestyle bash jobs to scripted pipeline jobs in Jenkins, integrated with Slack for real-time job failure alerts, improving monitoring and reducing incident response time
 - ✅ **GitOps Workflows** - Integrated Terraform into GitOps workflows for version-controlled infrastructure changes
 - ✅ **Automated IAM Management** - Built Python scripts to automate IAM role management, reducing misconfigurations
-- ✅ **Comprehensive Automation** - Infrastructure automation applied to 125+ Kubernetes deployments and 300+ compute instances
+- ✅ **Comprehensive Automation** - Infrastructure automation applied to 125+ Microservices Distributed Workload, 300+ application instances, and 200+ self-managed database instances
 - ✅ **Multi-Cloud Support** - IAC support for hybrid cloud architecture (AWS Route53 + GCP services)
 - ✅ **Version Control** - All infrastructure defined as code and version-controlled in Git
 - ✅ **Automated Testing** - Integrated automated testing and validation in CI/CD workflows

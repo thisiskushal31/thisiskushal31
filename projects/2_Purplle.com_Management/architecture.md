@@ -2,7 +2,7 @@
 
 ## System Overview
 
-Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE) with a multi-tier architecture supporting 7 million total users with 150,000 daily active users (DAU) typically, scaling to 600,000 DAU during major sales events (4x) and 300,000 DAU during minor sales events (2x), with 300+ compute instances and 125+ Kubernetes deployments. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB pointing to the main platform. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved ₹1 Crore in cost savings through infrastructure optimization and automation.
+Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE) with a multi-tier architecture supporting 7 million total users with 150,000 daily active users (DAU) typically, scaling to 600,000 DAU during major sales events (4x) and 300,000 DAU during minor sales events (2x), with 300+ application instances and 125+ Microservices Distributed Workload. The platform uses Application Load Balancer (ALB) deployed separately from GKE, and GKE Ingress controller automatically manages Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB) resources. The GCLB is added as backend in ALB pointing to the main platform. GKE Ingress handles SSL/TLS termination at the GCE L7 External Load Balancer and forwards traffic to Kubernetes Services with Container Native Load Balancing (direct to pods). Infrastructure is deployed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved ₹1 Crore in cost savings through infrastructure optimization and automation.
 
 **Important Notes:**
 - **ALB** is an **independent infrastructure component** deployed separately from GKE
@@ -10,7 +10,7 @@ Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE)
 - **GCLB** is automatically provisioned by GKE Ingress controller and acts as traffic manager
 - **Container Native Load Balancing** is configured to forward traffic directly to pods instead of node ports
 - **Cloud SQL Proxy (Layer 7)** enables secure connection from different subnet in same VPC
-- **125+ Kubernetes Deployments** managed on GKE across the platform
+- **125+ Microservices Distributed Workload** orchestrated on GKE across the platform
 
 **Note:** Infrastructure deployment and management was handled by DevOps team. Application code was developed by the engineering team.
 
@@ -36,7 +36,7 @@ Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE)
 - Management Instances (manage-01, manage-api, manage-util-01) in Zone A/B
 - Cloud Functions (accessed via service account)
 - Traffic Flow: Production LB → GKE/app-server IG OR Management LBs → Management Instances
-- **125+ Kubernetes Deployments** managed on GKE
+- **125+ Microservices Distributed Workload** orchestrated on GKE
 
 **Tier 4: Data Layer**
 - MySQL Master-Slave (purplle_purplle2, warehouseDB) with replication
@@ -78,8 +78,8 @@ Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE)
 6. **Cloud SQL Proxy (Layer 7)** - Enables secure connection from different subnet in same VPC
 7. **Hybrid Cloud Architecture** - Route53 (AWS) + ALB/GCLB (GCP) + GKE (GCP)
 8. **Clear Separation of Concerns** - Each tier has distinct responsibilities and deployment models
-9. **100+ Kubernetes Deployments** - Multiple application services managed on GKE
-10. **300+ Compute Instances** - Infrastructure scale supporting 1 crore+ users
+9. **125+ Microservices Distributed Workload** - Multiple application services orchestrated on GKE
+10. **300+ Application Instances** - Infrastructure scale supporting 1 crore+ users
 
 ### Infrastructure Deployment Model
 
@@ -95,7 +95,7 @@ Purplle.com is the main e-commerce platform infrastructure deployed on GCP (GKE)
 
 **GKE-Managed Components:**
 - **Kubernetes Ingress:** Managed by GKE (Nginx ingress controller)
-- **Kubernetes Deployments:** Managed by GKE (100+ application services)
+- **Kubernetes Deployments:** Managed by GKE (125+ Microservices Distributed Workload)
 - **Kubernetes Services:** Managed by GKE (configured with service accounts for Cloud Functions access)
 - **kubedns (Kubernetes DNS):** Managed by GKE for internal service discovery and DNS resolution
 - **GKE Cluster:** Container orchestration platform
@@ -136,7 +136,7 @@ Purplle.com follows a **Multi-Tier Architecture** pattern with clear separation 
 ### Tier 3: Application Layer
 - **Kubernetes Ingress (GKE Ingress):** GKE Ingress controller that automatically provisions Google Cloud Layer 7 HTTP(S) Load Balancer (GCLB)
 - **Kubernetes Deployments:** Containerized application services (auto-scales based on usage)
-  - **125+ Kubernetes Deployments** managed on GKE
+  - **125+ Microservices Distributed Workload** orchestrated on GKE
   - Multiple application services deployed as Kubernetes deployments
   - Services communicate via kubedns for service discovery
 - **Kubernetes Services:** Service discovery and internal load balancing
@@ -195,7 +195,7 @@ Purplle.com follows a **Multi-Tier Architecture** pattern with clear separation 
 **Public Traffic:**
 - External traffic from Mobile/Desktop users flows through Route53 → Reblaze WAF → Production LB → GCP Kubernetes Engine/app-server IG
 - Management traffic flows through Route53 → Management LBs → manage-01, manage-api, manage-util-01
-- Handles 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) with 300+ compute instances
+- Handles 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) with 300+ application instances
 
 **Private/Internal Traffic:**
 - Service-to-service communication within cluster via kubedns → Services
@@ -400,7 +400,7 @@ Purplle.com follows a **Multi-Tier Architecture** pattern with clear separation 
 ### 6. Kubernetes Deployments
 - **Purpose:** Containerized application services
 - **Technology:** Kubernetes (GKE)
-- **Scale:** 125+ Kubernetes deployments managed on GKE
+- **Scale:** 125+ Microservices Distributed Workload orchestrated on GKE
 - **Responsibilities:**
   - Application service hosting
   - Container orchestration
@@ -476,8 +476,8 @@ Purplle.com follows a **Multi-Tier Architecture** pattern with clear separation 
 ## Infrastructure Scale
 
 ### Compute Resources
-- **300+ Compute Instances:** Managed across GCP and AWS infrastructure
-- **125+ Kubernetes Deployments:** Managed on GKE
+- **300+ Application Instances:** Managed across GCP and AWS infrastructure
+- **125+ Microservices Distributed Workload:** Orchestrated on GKE
 - **Multi-Environment:** DEV, SIT, UAT, PROD (Production, Pre-Production, Sandbox)
 - **Consistent Infrastructure:** Parameterized Terraform modules enable consistent deployment across all environments
 - **Multi-Zone Deployment:** High availability across zones
@@ -506,7 +506,7 @@ Purplle.com follows a **Multi-Tier Architecture** pattern with clear separation 
 
 ### Cost Management
 - Infrastructure costs tracked and monitored
-- Rightsizing of compute instances
+- Rightsizing of application instances
 - Automated resource cleanup
 - Autoscaling policies for cost efficiency
 - Step scaling policies for night-time cost optimization

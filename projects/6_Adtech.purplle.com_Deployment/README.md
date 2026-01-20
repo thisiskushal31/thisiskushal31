@@ -81,7 +81,7 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 ### Key Achievements
 
 - ✅ **Live Production Platform** - Fully deployed in Production environment, actively serving 7M total users through AdTech Platform
-- ✅ **100+ Kubernetes Deployments** - Managed 100+ high-availability Kubernetes deployments on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
+- ✅ **100+ Production Services** - Managed 100+ high-availability production services on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
 - ✅ **Cost Optimization** - 93% reduction in software costs (₹80 Lakh → ₹5.7 Lakh infrastructure). Optimized resource utilization and cost-efficiency by rightsizing GCP/AWS instances and implementing autoscaling policies, achieving a 30% reduction in cloud spend through usage audits and resource cleanup
 - ✅ **Scalability** - Handles 4x traffic spikes during major sales events (150K → 600K DAU) and 2x during minor sales (150K → 300K DAU)
 - ✅ **Revenue Support** - Platform supports ₹400+ Crore in brand advertising revenue
@@ -150,7 +150,7 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 - Services communicate through Kubernetes service discovery and internal networking
 - **Internal Networking:** kubedns (Kubernetes DNS) handles service discovery and DNS resolution for inter-service communication within the cluster
 - Each service is containerized and managed through Kubernetes orchestration
-- Managed 100+ high-availability Kubernetes deployments on GKE, ensuring optimal performance, scalability, and reliability in production
+- Managed 100+ high-availability production services on GKE, ensuring optimal performance, scalability, and reliability in production
 
 **Authentication & Authorization Flow:**
 - **Keycloak:** Handles identity verification and authentication for all platform users

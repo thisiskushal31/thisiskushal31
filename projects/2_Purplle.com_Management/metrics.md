@@ -8,7 +8,7 @@
 - **Peak Throughput:** Supports 7 million total users with 150K DAU typically (600K during major sales, 300K during minor sales)
 - **Error Rate:** Target <0.1% error rate
 - **Scalability:** Infrastructure handles traffic spikes during sales events and promotions
-- **Infrastructure Scale:** 300+ compute instances supporting platform operations
+- **Infrastructure Scale:** 300+ application instances supporting platform operations
 
 ### Infrastructure Metrics
 - **Infrastructure Deployment:** Fully deployed and operational across all environments
@@ -17,13 +17,13 @@
 - **Resource Utilization:** Monitored via Prometheus/Grafana
 - **Network Performance:** ALB and GCLB (provisioned by GKE Ingress) handling high-volume traffic
 - **Kubernetes Cluster Health:** GKE clusters operational across environments
-- **Kubernetes Deployments:** 125+ deployments managed on GKE
+- **Microservices Distributed Workload:** 125+ Microservices Distributed Workload orchestrated on GKE
 
 ### Cost Optimization Metrics
 - **Total Cost Savings:** ₹1 Crore achieved through infrastructure optimization and automation
 - **Cloud Cost Reduction:** 30% reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup
 - **Infrastructure Rightsizing:** 40-50% cost savings achieved through cloud infrastructure rightsizing and cleaning up unused resources
-- **Cost Efficiency:** High - supports 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) and 300+ compute instances efficiently
+- **Cost Efficiency:** High - supports 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) and 300+ application instances efficiently
 - **Resource Optimization:** Automated resource cleanup and rightsizing
 - **Step Scaling:** Implemented step scaling for cost savings during night time
 
@@ -63,8 +63,8 @@
 - **Database Load:** Database handles millions of click transactions, campaign updates, and user preference queries daily
 
 ### Infrastructure Scale Metrics
-- **Compute Instances:** 300+ compute instances managed across infrastructure
-- **Kubernetes Deployments:** 125+ deployments managed on GKE
+- **Application Instances:** 300+ application instances managed across infrastructure
+- **Microservices Distributed Workload:** 125+ Microservices Distributed Workload orchestrated on GKE
 - **Multi-Environment:** DEV, SIT, UAT, PROD (Production, Pre-Production, Sandbox) environments
 - **Multi-Zone Deployment:** High availability across zones
 
@@ -73,8 +73,8 @@
 - **Daily Active Users (Regular):** 150,000 DAU typically
 - **Daily Active Users (Major Sales):** 600,000 DAU during major sales events (4x spike)
 - **Daily Active Users (Minor Sales):** 300,000 DAU during minor sales events (2x spike)
-- **Infrastructure Scale:** 300+ compute instances
-- **Kubernetes Deployments:** 125+ deployments
+- **Infrastructure Scale:** 300+ application instances
+- **Production Services:** 125+ services
 - **Uptime:** 99%+ uptime maintained across all environments
 - **Infrastructure Deployment:** Fully deployed and operational across DEV, SIT, UAT, PROD environments with consistent infrastructure
 - **Platform Reliability:** High-availability infrastructure ensuring consistent e-commerce operations
@@ -86,7 +86,7 @@
 - **Total Cost Savings:** ₹1 Crore achieved through infrastructure optimization and automation
 - **Cloud Cost Reduction:** 30% reduction through rightsizing and optimization
 - **Infrastructure Cost:** GCP/GKE costs tracked and monitored
-- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling and step scaling, supporting 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) and 300+ compute instances
+- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling and step scaling, supporting 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) and 300+ application instances
 - **Step Scaling:** Implemented step scaling for cost savings during night time
 - **Cost Efficiency:** High-availability infrastructure supporting e-commerce operations efficiently
 - **Resource Cleanup:** Automated cleanup of unused resources contributing to cost savings
@@ -122,7 +122,7 @@
 - **Daily Active Users (Regular):** 150,000 DAU typically
 - **Daily Active Users (Major Sales):** 600,000 DAU during major sales events (4x spike)
 - **Daily Active Users (Minor Sales):** 300,000 DAU during minor sales events (2x spike)
-- **Infrastructure Scale:** 300+ compute instances supporting platform operations
+- **Infrastructure Scale:** 300+ application instances supporting platform operations
 
 ### Business Impact
 - **Annual Revenue:** ₹700 Crore annually (as of January 1, 2026)
@@ -148,14 +148,14 @@
 - **Improved MTTR:** Reduced from 30 to 7 minutes
 - **Comprehensive Automation:** 40%+ of provisioning tasks automated
 - **High Availability:** 99%+ uptime maintained
-- **Scalable Infrastructure:** 300+ compute instances, 125+ Kubernetes deployments
+- **Scalable Infrastructure:** 300+ application instances, 125+ Microservices Distributed Workload
 
 ### Improvement
 - **Automation:** 40%+ faster deployments and 40%+ of provisioning tasks automated
 - **Cost Optimization:** ₹1 Crore cost savings (30% cloud cost reduction)
 - **Reliability:** 99%+ uptime maintained across all environments
 - **Performance:** Reduced MTTR from 30 to 7 minutes
-- **Scalability:** Infrastructure supports 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) and 300+ compute instances with 125+ Kubernetes deployments
+- **Scalability:** Infrastructure supports 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales) and 300+ application instances with 125+ Microservices Distributed Workload
 - **Horizontal Scaling:** Infrastructure scales horizontally without manual intervention using HPA, cluster autoscaling, and node pool autoscaling
 - **Event-Driven Architecture:** Kafka and Redis enable decoupled services and improved scalability
 - **Strategic Value:** Platform infrastructure supporting core e-commerce business operations
@@ -179,7 +179,7 @@
 
 ### What Went Well
 - **Successful Infrastructure Deployment:** Complete infrastructure stack deployed across Production, Pre-Production, and Sandbox environments
-- **Scalability:** Built platform capable of supporting 1 crore+ users and 300+ compute instances
+- **Scalability:** Built platform capable of supporting 1 crore+ users and 300+ application instances
 - **Cost Optimization:** Achieved 30% cloud cost reduction through rightsizing and optimization
 - **Automation:** 40%+ faster deployments and 40%+ of provisioning tasks automated
 - **Monitoring:** Unified observability stack reducing MTTR from 30 to 7 minutes
@@ -196,7 +196,7 @@
 
 ### Key Takeaways
 - **Infrastructure as Code:** IaC (Terraform, Ansible) enabled consistent deployments across all environments
-- **Kubernetes at Scale:** GKE with auto-scaling effectively handles 1 crore+ users and 300+ compute instances
+- **Kubernetes at Scale:** GKE with auto-scaling effectively handles 1 crore+ users and 300+ application instances
 - **Multi-Environment Support:** Successfully deployed across multiple environments ensuring consistent infrastructure
 - **Security First:** Zero-trust architecture and comprehensive security measures are critical for production platforms
 - **Team Collaboration:** Close collaboration with product and engineering teams is essential for successful platform delivery

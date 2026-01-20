@@ -44,8 +44,8 @@ This document tracks monitoring metrics, MTTR improvements, and performance data
 ## Monitoring Coverage Metrics
 
 ### Infrastructure Coverage
-- **Kubernetes Deployments Monitored:** 125+ deployments
-- **Compute Instances Monitored:** 300+ instances
+- **Microservices Distributed Workload Monitored:** 125+ Microservices Distributed Workload
+- **Application Instances Monitored:** 300+ instances
 - **Environments Covered:** 4 environments (DEV, SIT, UAT, PROD)
 - **Platforms Monitored:** 3 production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform
 - **Monitoring Coverage:** 100% coverage across all production infrastructure
@@ -56,7 +56,7 @@ This document tracks monitoring metrics, MTTR improvements, and performance data
 - **Metrics Collected:** 10,000+ unique metrics
 - **Metrics Retention:** 30+ days retention for compliance
 - **Scraping Interval:** 15-30 seconds for critical metrics
-- **Metrics Sources:** 125+ Kubernetes deployments, 300+ compute instances
+- **Metrics Sources:** 125+ Microservices Distributed Workload, 300+ application instances
 - **Storage:** Time-series database with persistent storage
 
 **Grafana Dashboards:**
@@ -119,8 +119,8 @@ This document tracks monitoring metrics, MTTR improvements, and performance data
 ### Infrastructure Performance Monitoring
 
 **Infrastructure Metrics:**
-- **CPU Utilization:** Tracked across all compute instances
-- **Memory Utilization:** Tracked across all compute instances
+- **CPU Utilization:** Tracked across all application instances
+- **Memory Utilization:** Tracked across all application instances
 - **Network Utilization:** Tracked across all network components
 - **Disk Utilization:** Tracked across all storage components
 
