@@ -8,9 +8,9 @@ Welcome to my GitHub space! I'm a **Software Engineer** who writes full-stack co
 - Cloud-Native Engineering & System Design
 
 🌐 **Quick Links:**
-- **Portfolio** — [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) — Projects, experience, and technical journey
-- **Bio Links** — [thisiskushal31.github.io/link](https://thisiskushal31.github.io/link/) — Social profiles and important links
-- **Blog** — [thisiskushal31.github.io/blog](https://thisiskushal31.github.io/blog) — Technical deep dives and engineering insights
+- **Portfolio** — [kushal.cv](https://kushal.cv/) — Projects, experience, and technical journey
+- **Bio Links** — [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) — Social profiles and important links
+- **Blog** — [blog.kushal.cv](https://blog.kushal.cv/) — Technical deep dives and engineering insights
 - **DocHub** — [thisiskushal31.github.io/dochub](https://thisiskushal31.github.io/dochub/) — Learning notes and resources
 
 I'm dedicated to solving real-world engineering challenges. I'm always exploring modern tools and system designs, and I'm particularly interested in how we can leverage **AI** to build more robust and efficient systems.
@@ -19,11 +19,15 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 - **Engineering Approach:** Full-stack development (application logic to infrastructure automation), security-first deployment (zero-trust, automated IAM, secrets management, Kubernetes RBAC), AI-driven solutions (intelligent automation, agentic workflows), reliability engineering (observability, automated incident response), automation-first (IaC, CI/CD, GitOps)
 
-- **Core Capabilities:** System architecture & design (scalable architectures, IaC, CI/CD, observability), production-grade engineering (zero-trust networking, automated IAM, secrets management, Kubernetes RBAC), cloud-native expertise (125+ Kubernetes deployments on GKE across multi-environment setups)
+- **Core Capabilities:** System architecture & design (scalable architectures, IaC, CI/CD, observability), production-grade engineering (zero-trust networking, automated IAM, secrets management, Kubernetes RBAC), cloud-native expertise (125+ Microservices Distributed Workload on GKE across multi-environment setups)
 
-- **Infrastructure & Platform Engineering:** 125+ Kubernetes deployments on GKE (DEV, SIT, UAT, PROD), 300+ compute instances, 4TB MySQL databases, multi-zone deployments, hybrid cloud (GCP + AWS) with Route53, GKE, Cloud SQL, ALB, GCLB, microservices with kubedns service discovery. **IaC & Automation:** Terraform (reusable modules for GKE, Cloud SQL, VPCs, Load Balancers), Ansible (configuration management, system hardening), GitOps workflows, CI/CD modernization (Jenkins scripted pipelines with Slack) — **Result:** 40%+ faster deployments, 40%+ provisioning tasks automated. **Database Operations:** Zero-downtime migrations (gh-ost on 4TB MySQL), automated master/slave management, backup automation (MySQL, MongoDB, Elasticsearch), DR with PITR
+- **Infrastructure & Platform Engineering:** 125+ Microservices Distributed Workload on GKE (DEV, SIT, UAT, PROD), 300+ application instances, 200+ self-managed database instances, 4TB MySQL databases, multi-zone deployments, hybrid cloud (GCP + AWS) with Route53, GKE, Cloud SQL, ALB, GCLB, microservices with kubedns service discovery. 
 
-- **Observability & Monitoring:** Unified observability stack (Prometheus, Grafana, GCP Stackdriver) with automated escalation, CI/CD integration (Jenkins + Slack alerts), monitoring 125+ K8s deployments and 300+ compute instances across multi-environment — **Result:** 76% MTTR reduction (30min → 7min)
+- **IaC & Automation:** Terraform (reusable modules for GKE, Cloud SQL, VPCs, Load Balancers), Ansible (configuration management, system hardening), GitOps as single source of truth, CI/CD modernization (Jenkins scripted pipelines with Slack) — **Result:** 40%+ faster deployments, 40%+ provisioning tasks automated. 
+
+- **Database Operations:** Minimal downtime migrations (mydumper/myloader for migrations, gh-ost for large table alterations on 4TB MySQL, few hours), automated master/slave management, backup automation (MySQL, MongoDB, Elasticsearch), DR with PITR
+
+- **Observability & Monitoring:** Unified observability stack (Prometheus, Grafana, GCP Stackdriver) with automated escalation, CI/CD integration (Jenkins + Slack alerts), monitoring 125+ Microservices Distributed Workload and 300+ application instances across multi-environment — **Result:** 76% MTTR reduction (30min → 7min)
 
 - **Security & Compliance:** Container security (Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning), microservices security (Secrets Manager, SSO, IP whitelisting, zero-trust architecture), compliance (DPDP, ISO 27001/27018/27017/27002, NIST, CIS, OWASP)
 
@@ -49,12 +53,12 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 | Project | Technical Implementation |
 | :--- | :--- |
-| **Infrastructure Monitoring** | Unified observability stack (Prometheus, Grafana) • 76% MTTR reduction (30min → 7min) • Automated escalation • Multi-environment coverage |
-| **E-Commerce Platform Infrastructure** | 125+ K8s deployments • 4TB MySQL with gh-ost migrations • Multi-zone HA • Step scaling • Zero-downtime operations |
-| **POS Platform Deployment** | High-availability deployment (DEV, SIT, UAT, PROD) • Auto-scaling (1-6 pods) • Kafka + Redis architecture • 99%+ uptime |
-| **Security Hardening** | Zero-trust architecture • Kubernetes RBAC • Automated IAM minimization (Python) • Trivy scanning • Secrets Manager • SSO • Defense-in-depth |
-| **Infrastructure Automation** | Terraform modules • GitOps workflows • 40%+ faster deployments • Multi-environment consistency • Automated provisioning |
-| **AdTech Platform** | 100+ K8s deployments • Multi-cloud (AWS + GCP) • Keycloak authentication • 4x traffic spike handling • 93% cost optimization |
+| **Unified Observability Stack** | Prometheus + Grafana • 76% MTTR reduction (30min → 7min) • Real-time alerting • 125+ Microservices Distributed Workload |
+| **Large-Scale E-Commerce Infrastructure** | ₹700 Crore revenue • 7M users • 125+ Microservices Distributed Workload • 4TB MySQL • Minimal downtime migrations (mydumper/myloader, gh-ost) • 99%+ uptime |
+| **POS Platform** | 100+ stores • ₹40+ Crores revenue • Scalable infrastructure • Kafka + Redis • 99%+ uptime |
+| **Security Hardening** | Zero-trust architecture • 125+ Microservices Distributed Workload secured • Automated IAM minimization • Compliance-ready |
+| **Infrastructure as Code Platform** | Terraform + Ansible • GitOps as single source of truth • 40%+ faster deployments • 40%+ automation |
+| **AdTech Platform** | ₹400+ Crore revenue • 93% cost reduction • 100+ production services • Multi-cloud • 4x traffic spike handling |
 
 👉 **[View detailed technical documentation →](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)** — Architecture diagrams, implementation details, metrics, and business impact
 
@@ -69,9 +73,10 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 - **Uptime:** 99%+ across all production platforms
 
 **Infrastructure Scale:**
-- **Kubernetes Deployments:** 125+ deployments managed
-- **Compute Instances:** 300+ instances across infrastructure
-- **Database Operations:** 4TB MySQL with zero-downtime migrations
+- **Microservices Distributed Workload:** 125+ workloads managed
+- **Application Instances:** 300+ instances across infrastructure
+- **Database Instances:** 200+ self-managed database instances
+- **Database Operations:** 4TB MySQL with minimal downtime migrations (mydumper/myloader for migrations, gh-ost for large table alterations, few hours)
 - **Multi-Environment:** Consistent deployments across DEV, SIT, UAT, PROD
 
 ---
@@ -87,7 +92,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 *Sharing knowledge through deep dives and engineering insights:*
 
-- **📖 [Personal Blog](https://thisiskushal31.github.io/blog)** — Cloud-native engineering, DevOps patterns, AI integration
+- **📖 [Personal Blog](https://blog.kushal.cv/)** — Cloud-native engineering, DevOps patterns, AI integration
 - **🌐 [Hashnode](https://thisiskushal.hashnode.dev/)** — Tech articles on cloud, DevOps, and AI
 - **✍️ [Medium](https://thisiskushalgupta.medium.com/)** — Technical stories and engineering insights
 
@@ -141,7 +146,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 - 🐦 [X (Twitter)](https://x.com/thisis_kushal) — Quick thoughts and tech discussions
 - 📧 [Email](mailto:guptakushal070@gmail.com) — Technical collaboration and discussions
 
-🌐 **More ways to connect:** [Portfolio](https://thisiskushal31.github.io/#/) | [Bio Links](https://thisiskushal31.github.io/link/)
+🌐 **More ways to connect:** [Portfolio](https://kushal.cv/) | [Bio Links](https://thisiskushal31.github.io/#/)
 
 ---
 
