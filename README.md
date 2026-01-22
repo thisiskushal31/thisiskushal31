@@ -19,9 +19,9 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 - **Engineering Approach:** Full-stack development (application logic to infrastructure automation), security-first deployment (zero-trust, automated IAM, secrets management, Kubernetes RBAC), AI-driven solutions (intelligent automation, agentic workflows), reliability engineering (observability, automated incident response), automation-first (IaC, CI/CD, GitOps)
 
-- **Core Capabilities:** System architecture & design (scalable architectures, IaC, CI/CD, observability), production-grade engineering (zero-trust networking, automated IAM, secrets management, Kubernetes RBAC), cloud-native expertise (multiple Microservices Distributed Workload on Kubernetes across multi-environment setups)
+- **Core Capabilities:** System architecture & design (scalable architectures, IaC, CI/CD, observability), production-grade engineering (zero-trust networking, automated IAM, secrets management, Kubernetes RBAC), cloud-native expertise (Multiple Microservices Distributed Workload on Kubernetes across multi-environment setups)
 
-- **Infrastructure & Platform Engineering:** 125+ Microservices Distributed Workload on GKE (DEV, SIT, UAT, PROD), 300+ application instances, 200+ self-managed database instances, 4TB MySQL databases, multi-zone deployments, hybrid cloud (GCP + AWS) with Route53, GKE, Cloud SQL, ALB, GCLB, microservices with kubedns service discovery. 
+- **Infrastructure & Platform Engineering:** Multiple Microservices Distributed Workload on Kubernetes (DEV, SIT, UAT, PROD), 300+ application instances, 200+ self-managed database instances, 4TB MySQL databases, multi-zone deployments, hybrid cloud (GCP + AWS) with Route53, GKE, Cloud SQL, ALB, GCLB, microservices with kubedns service discovery. 
 
 - **IaC & Automation:** Terraform (reusable modules for GKE, Cloud SQL, VPCs, Load Balancers), Ansible (configuration management, system hardening), GitOps as single source of truth, CI/CD modernization (Jenkins scripted pipelines with Slack) — **Result:** 40%+ faster deployments, 40%+ provisioning tasks automated. 
 
