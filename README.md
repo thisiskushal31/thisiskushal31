@@ -9,7 +9,7 @@ Welcome to my GitHub space! I'm a **Software Engineer** who writes full-stack co
 
 🌐 **Quick Links:**
 - **Portfolio** — [kushal.cv](https://kushal.cv/) — Projects, experience, and technical journey
-- **Bio Links** — [thisiskushal31.github.io](https://thisiskushal31.github.io/#/) — Social profiles and important links
+- **Bio Links** — [thisiskushal31.github.io](https://thisiskushal31.github.io/) — Social profiles and important links
 - **Blog** — [blog.kushal.cv](https://blog.kushal.cv/) — Technical deep dives and engineering insights
 - **DocHub** — [thisiskushal31.github.io/dochub](https://thisiskushal31.github.io/dochub/) — Learning notes and resources
 
@@ -146,4 +146,4 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 - 🐦 [X (Twitter)](https://x.com/thisis_kushal) — Quick thoughts and tech discussions
 - 📧 [Email](mailto:guptakushal070@gmail.com) — Technical collaboration and discussions
 
-🌐 **More ways to connect:** [Portfolio](https://kushal.cv/) | [Bio Links](https://thisiskushal31.github.io/#/)
+🌐 **More ways to connect:** [Portfolio](https://kushal.cv/) | [Bio Links](https://thisiskushal31.github.io/)
