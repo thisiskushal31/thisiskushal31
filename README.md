@@ -1,6 +1,6 @@
 # 👋 Hey there, I'm Kushal Gupta
 
-Welcome to my GitHub space! I'm a **Software Engineer** who writes full-stack code, deploys it securely, leverages AI-driven solutions, ensures reliability, and automates everything in between. Building and operating production-grade infrastructure at scale with a focus on infrastructure automation, observability, security, and system reliability.
+Welcome to my GitHub space! I'm an **Experienced Software Engineer** with a proven track record building, deploying, and operating large-scale production-grade systems. I write full-stack code, deploy it securely, leverage AI-driven solutions, ensure reliability, and automate everything in between. End-to-end ownership from infrastructure design to monitoring and reliability, with a focus on security, reliability, and scalability.
 
 **Areas of Expertise & Interest:**
 - DevOps & Platform Engineering
