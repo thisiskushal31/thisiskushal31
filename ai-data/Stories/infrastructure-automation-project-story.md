@@ -35,9 +35,9 @@ We were provisioning infrastructure manually across multiple environments (DEV, 
 - **Result:** Consistent infrastructure across all environments, reduced deployment errors
 
 **Service Orchestration:**
-- Managed 100+ Kubernetes deployments on GKE across multiple environments
+- Managed 125+ Microservices Distributed Workload on GKE across multiple environments
 - Implemented kubedns (Kubernetes DNS) for internal service discovery
-- Automated deployment of application services (billing, campaign, POS services) as Kubernetes deployments
+- Automated deployment of application services (billing, campaign, POS services) as microservices distributed workloads
 - Integrated Kafka for messaging and event streaming, Redis for caching
 - **Result:** Scalable, maintainable service architecture
 
@@ -102,7 +102,7 @@ We were provisioning infrastructure manually across multiple environments (DEV, 
 
 **Deployment & Efficiency:**
 - **40%+ faster deployments** across all environments
-- **100+ Kubernetes deployments** managed consistently on GKE
+- **125+ Microservices Distributed Workload** managed consistently on GKE
 - **Multi-environment support:** DEV, SIT, UAT, PROD environments deployed with consistency
 
 **Reliability & Resilience:**

@@ -36,7 +36,7 @@ I need to establish a **single source of truth** for my professional narrative t
 
 ## Key Data to Centralize:
 - Professional title: "Software Engineer" (full-fledged)
-- 3+ years experience
+- Experienced Software Engineer with proven track record
 - Key metrics: 125+ K8s deployments, 7M users, $84M+ revenue systems, 93% cost reduction, 76% MTTR reduction, 40%+ faster deployments, 99%+ uptime
 - Projects: Purplle.com, PurplleAds, Nexus POS, Infrastructure Automation, Monitoring, Security, Elasticsearch
 - Proof of work: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
