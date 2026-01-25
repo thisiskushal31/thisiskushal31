@@ -55,11 +55,11 @@ I need to establish a **single source of truth** for my professional narrative t
 ### Core Identity:
 - **Professional Title:** "Software Engineer" (full-fledged)
 - **Areas of Expertise:** DevOps & Platform Engineering, Security-Focused Software Development, Cloud-Native Engineering & System Design
-- **Years of Experience:** 3+ years
+- **Experience Level:** Experienced Software Engineer with proven track record
 - **Current Role:** SDE1 - DevOps at Purplle.com
 
 ### Key Achievements & Metrics:
-- 125+ Kubernetes deployments on GKE
+- 125+ Microservices Distributed Workload on GKE
 - 7M total users across platforms
 - $84M+ revenue systems (Purplle.com)
 - $48M+ revenue systems (PurplleAds)
