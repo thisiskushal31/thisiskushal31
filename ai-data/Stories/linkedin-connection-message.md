@@ -34,7 +34,7 @@ I'm an Experienced DevOps Engineer at Purplle.com, managing large-scale producti
 
 My notice period is 60 days (negotiable).
 
-I'd be delighted to share my CV and would love to connect! Here's a link to my resume: https://drive.google.com/file/d/1XXehldRBLrDzAN_aAcOFSubOWca4UKFQ/view?usp=drive_link
+I'd be delighted to share my CV and would love to connect! Here's a link to my resume: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
 
 You can also check out my detailed project documentation and architecture designs here: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
@@ -58,7 +58,7 @@ Hi,
 
 Hope you're doing great! Experienced DevOps Engineer - Managed large-scale infrastructure at Purplle.com (₹700 Crore revenue), deployed PurplleAds (₹400+ Crore revenue, 93% cost reduction, 100+ production services) & PurplleNexus POS (100+ stores, 500+ daily employees, 40+ Crores revenue, 99%+ uptime). 7 million users, 125+ Microservices Distributed Workload. Tech: GCP, AWS, Kubernetes, Terraform, Jenkins, Python. 40%+ faster deployments, 76% MTTR reduction. Would love to connect and explore opportunities together!
 
-CV: https://drive.google.com/file/d/1XXehldRBLrDzAN_aAcOFSubOWca4UKFQ/view?usp=drive_link
+CV: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
 Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
 Looking forward to connecting!
@@ -84,7 +84,7 @@ As an Experienced DevOps Engineer at Purplle.com, I've managed and deployed larg
 
 My notice period is 60 days (negotiable).
 
-I'd be happy to share my CV with you! Here's a link: https://drive.google.com/file/d/1XXehldRBLrDzAN_aAcOFSubOWca4UKFQ/view?usp=drive_link
+I'd be happy to share my CV with you! Here's a link: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
 
 You can also explore my detailed project documentation, architecture designs, and technical implementations here: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
@@ -108,7 +108,7 @@ Hi [Name],
 
 Hope you're doing well! Experienced DevOps Engineer - Managed large-scale infrastructure at Purplle.com (₹700 Crore revenue), deployed PurplleAds (₹400+ Crore revenue, 100+ production services) & PurplleNexus (100+ stores, 500+ daily employees, 40+ Crores revenue). 7 million users, 125+ Microservices Distributed Workload. 40%+ faster deployments, 76% MTTR reduction. GCP, AWS, Kubernetes, Terraform. Would love to connect and explore opportunities!
 
-CV: https://drive.google.com/file/d/1XXehldRBLrDzAN_aAcOFSubOWca4UKFQ/view?usp=drive_link
+CV: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
 Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
 Looking forward to connecting!
@@ -240,7 +240,7 @@ As an Experienced DevOps Engineer at Purplle.com, I manage large-scale productio
 
 My notice period is 60 days (negotiable).
 
-I'd be happy to share my CV with you! Here's a link: https://drive.google.com/file/d/1XXehldRBLrDzAN_aAcOFSubOWca4UKFQ/view?usp=drive_link
+I'd be happy to share my CV with you! Here's a link: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
 
 You can also explore my detailed project documentation, architecture designs, and technical implementations here: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
@@ -263,7 +263,7 @@ I'm an Experienced DevOps Engineer at Purplle.com, managing large-scale producti
 
 My notice period is 60 days (negotiable).
 
-I'd be delighted to share my CV and would love to connect! Here's a link to my resume: https://drive.google.com/file/d/1XXehldRBLrDzAN_aAcOFSubOWca4UKFQ/view?usp=drive_link
+I'd be delighted to share my CV and would love to connect! Here's a link to my resume: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
 
 You can also check out my detailed project documentation and architecture designs here: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
