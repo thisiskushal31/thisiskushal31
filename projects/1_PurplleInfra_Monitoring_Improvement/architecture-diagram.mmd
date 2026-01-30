@@ -2,7 +2,7 @@
 # Infrastructure Monitoring Improvement - Unified Observability Architecture Diagram
 # Reference: See architecture details in architecture.md
 # This Mermaid diagram provides a representation of the unified observability architecture
-# Based on actual monitoring implementation: Prometheus, Grafana, GCP Stackdriver,
+# Based on actual monitoring implementation: Prometheus, Grafana, Datadog APM, PagerDuty, GCP Stackdriver,
 # CI/CD integration (Jenkins with Slack), and automated incident escalation
 ---
 
@@ -21,15 +21,25 @@ flowchart TB
     
     subgraph Layer2["Layer 2: Visualization & Alerting"]
         Grafana[Grafana<br/>Dashboards & Alerts]
+        PagerDuty[PagerDuty<br/>On-Call Routing & Escalation]
         Dashboards[Custom Dashboards<br/>50+ Dashboards]
         Alerts[Grafana Alerts<br/>200+ Alerts Configured]
         Visualization[Real-Time Visualization<br/>Performance & Health]
         Dashboards --> Grafana
         Alerts --> Grafana
         Visualization --> Grafana
+        Grafana --> PagerDuty
     end
     
-    subgraph Layer3["Layer 3: Cloud-Native Monitoring"]
+    subgraph Layer3["Layer 3: APM"]
+        Datadog[Datadog APM<br/>Distributed Tracing & Service Maps]
+        Tracing[Request Latency<br/>Error Tracking]
+        ServiceMaps[Service Dependency Maps<br/>125+ Microservices]
+        Tracing --> Datadog
+        ServiceMaps --> Datadog
+    end
+    
+    subgraph Layer4["Layer 4: Cloud-Native Monitoring"]
         Stackdriver[GCP Stackdriver<br/>Cloud-Native Monitoring]
         LogAgg[Log Aggregation<br/>Application & System Logs]
         CloudMetrics[Cloud Metrics<br/>GCP Service Metrics]
@@ -39,7 +49,7 @@ flowchart TB
         LogAnalysis --> Stackdriver
     end
     
-    subgraph Layer4["Layer 4: CI/CD Integration"]
+    subgraph Layer5["Layer 5: CI/CD Integration"]
         Jenkins[Jenkins<br/>Pipeline Monitoring]
         GitLabCI[GitLab CI<br/>Pipeline Monitoring]
         Slack[Slack Integration<br/>Real-Time Alerts]
@@ -49,11 +59,12 @@ flowchart TB
         JobAlerts --> Slack
     end
     
-    subgraph Layer5["Layer 5: Incident Response"]
+    subgraph Layer6["Layer 6: Incident Response"]
         AutoEscalation[Automated Escalation<br/>Unified Observability Stack]
         IncidentResp[Incident Response<br/>MTTR: 30min → 7min]
-        TeamNotify[Team Notifications<br/>Slack & Email]
+        TeamNotify[Team Notifications<br/>PagerDuty, Slack & Email]
         PostIncident[Post-Incident Analysis<br/>Monitoring Data]
+        PagerDuty --> AutoEscalation
         AutoEscalation --> IncidentResp
         IncidentResp --> TeamNotify
         TeamNotify --> PostIncident
@@ -67,7 +78,10 @@ flowchart TB
     end
     
     Prometheus --> Grafana
+    Datadog --> Grafana
+    Grafana --> PagerDuty
     Grafana --> AutoEscalation
+    PagerDuty --> AutoEscalation
     Stackdriver --> Grafana
     Jenkins --> AutoEscalation
     GitLabCI --> AutoEscalation
@@ -78,14 +92,16 @@ flowchart TB
     Layer3 --> Infrastructure
     Layer4 --> Infrastructure
     Layer5 --> Infrastructure
+    Layer6 --> Infrastructure
     
     External[Infrastructure Components] --> Layer1
-    Layer5 --> Internal[Improved Reliability<br/>76% MTTR Reduction]
+    Layer6 --> Internal[Improved Reliability<br/>76% MTTR Reduction]
     
     style Layer1 fill:#e1f5ff
     style Layer2 fill:#fff4e1
-    style Layer3 fill:#e8f5e9
-    style Layer4 fill:#fce4ec
-    style Layer5 fill:#f3e5f5
+    style Layer3 fill:#e3f2fd
+    style Layer4 fill:#e8f5e9
+    style Layer5 fill:#fce4ec
+    style Layer6 fill:#f3e5f5
     style Infrastructure fill:#fff9c4
 

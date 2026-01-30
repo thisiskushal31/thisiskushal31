@@ -71,7 +71,16 @@ The monitoring improvement initiative implements a unified observability stack a
 - **Performance Degradation:** Alerts for latency or throughput issues
 - **Security Events:** Alerts for security-related events
 
-### Layer 3: Cloud-Native Monitoring
+### Layer 3: Application Performance Monitoring (APM)
+
+**Datadog:**
+- **APM:** Datadog Application Performance Monitoring for distributed tracing and request-level visibility
+- **Distributed Tracing:** Request latency, error rates, and trace correlation across 125+ microservices
+- **Service Maps:** Service dependency maps and topology for debugging request flows
+- **Integration:** APM data correlated with infrastructure metrics (Prometheus/Grafana) and logs (Stackdriver) for full-stack debugging
+- **Alerting:** APM-based alerts for latency degradation, error spikes, and service dependency issues
+
+### Layer 4: Cloud-Native Monitoring
 
 **GCP Stackdriver:**
 - **Cloud-Native Monitoring:** GCP Stackdriver for cloud-native monitoring and logging
@@ -88,7 +97,7 @@ The monitoring improvement initiative implements a unified observability stack a
 - **Log-Based Monitoring:** Log-based monitoring and analysis
 - **Cloud Metrics:** Native GCP service metrics and insights
 
-### Layer 4: CI/CD Integration
+### Layer 5: CI/CD Integration
 
 **Jenkins Integration:**
 - **Pipeline Monitoring:** Jenkins pipelines integrated with monitoring
@@ -106,7 +115,7 @@ The monitoring improvement initiative implements a unified observability stack a
 - **Team Collaboration:** Improved team collaboration through centralized notifications
 - **Incident Response:** Faster incident response through immediate notifications
 
-### Layer 5: Incident Response & Escalation
+### Layer 6: Incident Response & Escalation
 
 **Automated Incident Escalation:**
 - **Unified Observability Stack:** Automated incident escalation through unified observability stack
@@ -116,10 +125,11 @@ The monitoring improvement initiative implements a unified observability stack a
 
 **Incident Response Process:**
 1. **Detection:** Real-time monitoring detects issues immediately
-2. **Alerting:** Automated alerts notify team members via Grafana and Slack
-3. **Escalation:** Automated escalation ensures issues are addressed promptly
-4. **Resolution:** Faster resolution through comprehensive visibility and automated response
-5. **Post-Incident:** Post-incident analysis using monitoring data
+2. **Alerting:** Automated alerts notify team members via Grafana, PagerDuty, and Slack
+3. **On-Call Routing:** PagerDuty routes critical alerts to on-call engineer per rotation
+4. **Escalation:** Automated escalation ensures issues are addressed promptly
+5. **Resolution:** Faster resolution through comprehensive visibility and automated response
+6. **Post-Incident:** Post-incident analysis using monitoring data
 
 ## Monitoring Implementation Details
 
@@ -141,6 +151,8 @@ The monitoring improvement initiative implements a unified observability stack a
 
 **Integration Points:**
 - **Prometheus → Grafana:** Metrics flow from Prometheus to Grafana for visualization
+- **Datadog APM:** Application traces, latency, and service maps; alerts flow to PagerDuty/Slack for APM-based incidents
+- **Grafana → PagerDuty:** Critical alerts flow from Grafana to PagerDuty for on-call routing and escalation
 - **Grafana → Slack:** Alerts flow from Grafana to Slack for notifications
 - **Jenkins → Slack:** CI/CD alerts flow from Jenkins to Slack
 - **GCP Stackdriver:** Cloud-native monitoring integrated with overall observability stack
@@ -178,9 +190,9 @@ The monitoring improvement initiative implements a unified observability stack a
 
 **Alert Channels:**
 - **Grafana Alerts:** Primary alerting mechanism with visual dashboards
+- **PagerDuty:** On-call alert routing, rotation, and escalation for critical incidents
 - **Slack Notifications:** Real-time notifications for immediate team awareness
 - **Email Alerts:** Escalation channel for critical issues
-- **PagerDuty (if applicable):** On-call escalation for critical incidents
 
 **Alert Response Times:**
 - **Critical Alerts:** Immediate response (< 5 minutes)
