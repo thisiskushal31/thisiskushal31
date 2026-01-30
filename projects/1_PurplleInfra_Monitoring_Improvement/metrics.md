@@ -86,7 +86,7 @@ This document tracks monitoring metrics, MTTR improvements, and performance data
   - High: 50+ alerts
   - Medium: 80+ alerts
   - Low: 50+ alerts
-- **Alert Channels:** Grafana, Slack, Email
+- **Alert Channels:** Grafana, PagerDuty, Slack, Email
 
 **Alert Response:**
 - **Alert Response Rate:** 95%+ response rate
@@ -102,9 +102,16 @@ This document tracks monitoring metrics, MTTR improvements, and performance data
 
 ## Performance Metrics
 
-### Application Performance Monitoring
+### Application Performance Monitoring (Datadog APM)
 
-**Application Metrics:**
+**APM Coverage:**
+- **Distributed Tracing:** Request-level traces across 125+ microservices
+- **Latency Tracking:** p50, p95, p99 latency per service and endpoint
+- **Error Tracking:** Error rates and exception tracking with trace correlation
+- **Service Maps:** Service dependency maps and topology for request flows
+- **Integration:** APM data correlated with Prometheus/Grafana metrics and Stackdriver logs for full-stack debugging
+
+**Application Metrics (APM + Prometheus):**
 - **Latency Tracking:** p50, p95, p99 latency tracked for all services
 - **Throughput Tracking:** Requests per second tracked for all services
 - **Error Rate Tracking:** Error rates tracked and alerted

@@ -51,6 +51,8 @@ Comprehensive infrastructure monitoring improvement initiative that architecture
 - ✅ **Automated Incident Escalation** - Implemented automated incident escalation through unified observability stack, reducing manual intervention
 - ✅ **Comprehensive Coverage** - Monitoring implemented across 125+ Microservices Distributed Workload, 300+ application instances, and 200+ self-managed database instances
 - ✅ **Multi-Environment Monitoring** - Consistent monitoring across DEV, SIT, UAT, PROD environments
+- ✅ **APM (Datadog)** - Implemented Datadog for application performance monitoring: distributed tracing, request latency, error tracking, and service dependency maps
+- ✅ **PagerDuty Integration** - Implemented PagerDuty for on-call alert routing, rotation, and escalation when critical incidents occur
 - ✅ **CI/CD Integration** - Integrated monitoring with CI/CD pipelines for automated alerting (Jenkins with Slack integration)
 - ✅ **Proactive Incident Management** - Enabled proactive detection and resolution of issues before user impact
 - ✅ **Performance Visibility** - Comprehensive visibility into application performance, infrastructure health, and resource utilization
@@ -58,12 +60,14 @@ Comprehensive infrastructure monitoring improvement initiative that architecture
 
 ## Technical Stack
 
-**Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver  
+**Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver, Datadog  
 **Metrics Collection:** Prometheus (metrics collection and storage)  
 **Visualization & Alerting:** Grafana (dashboards, alerts, visualization)  
+**APM (Application Performance Monitoring):** Datadog (distributed tracing, request latency, error tracking, service maps)  
+**On-Call & Incident Management:** PagerDuty (on-call alert routing, rotation, escalation)  
 **Cloud Monitoring:** GCP Stackdriver (cloud-native monitoring and logging)  
 **CI/CD Integration:** Jenkins (with Slack integration for alerts), GitLab CI  
-**Alerting:** Grafana Alerts, Slack notifications  
+**Alerting:** Grafana Alerts, PagerDuty, Slack notifications  
 **Infrastructure:** GCP (GKE), AWS (Route53), Kubernetes
 
 ## Architecture Overview
@@ -72,9 +76,11 @@ The monitoring improvement initiative implements a unified observability stack a
 
 1. **Metrics Collection Layer:** Prometheus for metrics collection and storage
 2. **Visualization & Alerting Layer:** Grafana for dashboards, alerts, and visualization
-3. **Cloud Monitoring Layer:** GCP Stackdriver for cloud-native monitoring and logging
-4. **Integration Layer:** CI/CD integration (Jenkins with Slack) for automated alerting
-5. **Incident Response Layer:** Automated escalation and incident management
+3. **APM Layer:** Datadog for application performance monitoring (distributed tracing, request latency, error tracking, service dependency maps)
+4. **On-Call & Escalation Layer:** PagerDuty for on-call alert routing, rotation, and escalation
+5. **Cloud Monitoring Layer:** GCP Stackdriver for cloud-native monitoring and logging
+6. **Integration Layer:** CI/CD integration (Jenkins with Slack) for automated alerting
+7. **Incident Response Layer:** Automated escalation and incident management
 
 *Unified Observability Architecture - See [Architecture Details](architecture.md) for complete technical documentation and [Mermaid Diagram](architecture-diagram.mmd) for diagram source*
 
@@ -109,6 +115,12 @@ The monitoring improvement initiative implements a unified observability stack a
   - Service downtime
   - Performance degradation
 
+**Datadog (APM):**
+- **Application Performance Monitoring:** Datadog APM for distributed tracing and request-level visibility
+- **Tracing:** Request latency, error rates, and trace correlation across services
+- **Service Maps:** Service dependency maps and topology for 125+ microservices
+- **Integration:** APM data correlated with infrastructure metrics and logs for full-stack debugging
+
 **GCP Stackdriver:**
 - **Cloud-Native Monitoring:** GCP Stackdriver for cloud-native monitoring and logging
 - **Log Aggregation:** Centralized log aggregation for application logs, access logs, and system logs
@@ -119,7 +131,8 @@ The monitoring improvement initiative implements a unified observability stack a
 
 **Alerting System:**
 - **Grafana Alerts:** Configured for critical thresholds and conditions
-- **Automated Escalation:** Automated incident escalation through unified observability stack
+- **PagerDuty:** On-call alert routing, rotation, and escalation for critical incidents
+- **Automated Escalation:** Automated incident escalation through unified observability stack (Grafana → PagerDuty, Slack)
 - **Real-Time Notifications:** Real-time alerts for immediate incident response
 - **MTTR Improvement:** MTTR reduced from 30 to 7 minutes through improved monitoring and alerting
 
