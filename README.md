@@ -37,6 +37,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 ## 🛠️ Technical Stack
 - **Languages:** Python, JavaScript, C/C++, Bash/Shell, Node.js, React
+- **APIs & Backend:** FastAPI, MCP (Model Context Protocol for AI agents and tool orchestration)
 - **Cloud & Infrastructure:** GCP (GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT), AWS (Route53, ALB), Docker, Kubernetes (GKE), Container Native Load Balancing
 - **Infrastructure as Code:** Terraform (reusable modules, multi-environment), Ansible (configuration management, system hardening), GitOps workflows
 - **CI/CD & Automation:** Jenkins (scripted pipelines, Slack integration), GitLab CI (automated testing, Trivy scanning), GitHub CI, n8n (workflow automation)
@@ -104,6 +105,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 | Project | Technology Stack |
 | :--- | :--- |
+| [TrendSignal](https://github.com/thisiskushal31/TrendSignal) | AI agent: YouTube trend analyzer from a screenshot → topic, strength, who's winning, 5 viral hooks. MCP, FastAPI, GPT-4 Vision, Docker |
 | [Agility](https://github.com/thisiskushal31/Agility) | React + MongoDB task management |
 | [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Node.js + Socket.io + React real-time chat |
 | [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | Redis + MongoDB session management |
