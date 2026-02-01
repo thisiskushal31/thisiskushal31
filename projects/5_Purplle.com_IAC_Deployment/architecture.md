@@ -96,7 +96,15 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
 4. **Automated Deployment:** Automated deployment to target environments
 5. **Verification:** Automated verification of deployed infrastructure
 
-### Layer 5: Automation & Scripts
+### Layer 5: Workflow Automation (n8n)
+
+**n8n:**
+- **Workflow Orchestration:** Implemented workflow automation using n8n for orchestration and integration tasks
+- **Integration:** Connects infrastructure, CI/CD, and operational workflows
+- **Automation:** Automated multi-step workflows and cross-tool coordination
+- **Result:** Streamlined operations and reduced manual handoffs
+
+### Layer 6: Automation & Scripts
 
 **Python Scripts:**
 - **IAM Role Management:** Python scripts to automate IAM role management

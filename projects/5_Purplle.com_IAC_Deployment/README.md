@@ -56,11 +56,13 @@ Comprehensive Infrastructure as Code (IAC) deployment initiative that standardiz
 - ✅ **Multi-Cloud Support** - IAC support for hybrid cloud architecture (AWS Route53 + GCP services)
 - ✅ **Version Control** - All infrastructure defined as code and version-controlled in Git
 - ✅ **Automated Testing** - Integrated automated testing and validation in CI/CD workflows
+- ✅ **Workflow Automation** - Implemented workflow automation using n8n for orchestration and integration tasks
 
 ## Technical Stack
 
 **Infrastructure as Code:** Terraform (reusable modules), Ansible (configuration management)  
 **CI/CD:** Jenkins (scripted pipeline jobs), GitLab CI, GitOps workflows  
+**Workflow Automation:** n8n (workflow automation)  
 **Version Control:** Git (infrastructure code version-controlled)  
 **Automation:** Python (IAM role management), Bash  
 **Cloud Platforms:** GCP (GKE, Cloud SQL, VPC, Load Balancer), AWS (Route53)  
@@ -76,7 +78,8 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
 2. **Configuration Management Layer:** Ansible for system-level configuration
 3. **CI/CD Integration Layer:** Jenkins and GitLab CI for automated deployment
 4. **GitOps Workflow Layer:** Version-controlled infrastructure changes
-5. **Automation Layer:** Python scripts for IAM management and automation
+5. **Workflow Automation Layer:** n8n for workflow orchestration and integration
+6. **Automation Layer:** Python scripts for IAM management and automation
 
 *IAC Deployment Architecture - See [Architecture Details](architecture.md) for complete technical documentation and [Mermaid Diagram](architecture-diagram.mmd) for diagram source*
 
