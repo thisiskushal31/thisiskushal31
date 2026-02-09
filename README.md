@@ -9,7 +9,7 @@ Welcome to my GitHub space! I'm an **Experienced Software Engineer** with a prov
 
 🌐 **Quick Links:**
 - **Portfolio** — [kushal.cv](https://kushal.cv/) — Projects, experience, and technical journey
-- **Bio Links** — [thisiskushal31.github.io](https://thisiskushal31.github.io/) — Social profiles and important links
+- **Bio Links** — [bio.kushal.cv](https://bio.kushal.cv/) — Social profiles and important links
 - **Blog** — [blog.kushal.cv](https://blog.kushal.cv/) — Technical deep dives and engineering insights
 - **DocHub** — [thisiskushal31.github.io/dochub](https://thisiskushal31.github.io/dochub/) — Learning notes and resources
 
