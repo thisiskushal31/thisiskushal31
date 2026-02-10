@@ -6,6 +6,7 @@ Welcome to my GitHub space! I'm an **Experienced Software Engineer** with a prov
 - DevOps & Platform Engineering
 - Security-Focused Software Development
 - Cloud-Native Engineering & System Design
+- AI-Driven Automation & Agentic Workflows
 
 🌐 **Quick Links:**
 - **Portfolio** — [kushal.cv](https://kushal.cv/) — Projects, experience, and technical journey
