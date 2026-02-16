@@ -61,8 +61,17 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Key Technologies:** Kubernetes, Terraform, GitLab CI, Keycloak
 - [View Details →](./6_Adtech.purplle.com_Deployment/)
 
-#### [Grid Platform - OSS Project](./7_GridPlatform_OSS_Project/)
-![Quick Info Image](../assets/projects/7_GridPlatform_OSS_Project.png)
+#### [Agentic RAG Sentiment Platform](./7_Agentic_RAG_Sentiment_Platform/)
+![Quick Info Image](../assets/projects/7_Agentic_RAG_Sentiment_Platform.png)
+**Influencer Content Sentiment Intelligence** - RAG-based semantic search for campaign optimization  
+- **Scale:** Purplle-owned influencer video content (YouTube, Instagram); semantic search over configurable time windows (e.g., last 2 days, 7 days)
+- **Infrastructure:** Kubernetes, GPU workloads (CUDA), Qdrant vector DB, self-deployed ChatGPT (distributed), MCP/agentic RAG
+- **Achievements:** High-availability AI pipeline, CI/CD for embedding and RAG updates, faster decision support for brand teams
+- **Key Technologies:** Kubernetes, Qdrant, Python, Docker, CI/CD, cosine similarity, metadata filters, MCP
+- [View Details →](./7_Agentic_RAG_Sentiment_Platform/)
+
+#### [Grid Platform - OSS Project](./8_GridPlatform_OSS_Project/)
+![Quick Info Image](../assets/projects/8_GridPlatform_OSS_Project.png)
 **AI-First Infrastructure Management Platform** - Open-source infrastructure automation  
 - **Scale:** Open-source platform for infrastructure management
 - **Infrastructure:** AI-powered automation, multi-cloud support, Infrastructure as Code
@@ -102,8 +111,14 @@ This directory contains comprehensive documentation for infrastructure projects 
 ### Databases & Storage
 - **Relational:** MySQL, Cloud SQL
 - **NoSQL:** MongoDB, Elasticsearch, Aerospike
+- **Vector DB:** Qdrant (semantic search, cosine similarity, metadata filters)
 - **Caching:** Redis, Memorystore
 - **Messaging:** Kafka
+
+### AI/ML Infrastructure (RAG Sentiment Platform)
+- **Compute:** GPU workloads (CUDA), Kubernetes-based distributed embedding pipeline
+- **Vector Search:** Qdrant, cosine similarity, hash-based indexing
+- **Orchestration:** MCP, agentic RAG, self-deployed LLM (no persistent deployment)
 
 ### Security & Compliance
 - **Container Security:** Kubernetes RBAC, Secure Boot, Trivy scanning
@@ -136,7 +151,8 @@ Each project follows a consistent documentation structure:
 | [Security Improvement](./4_Purplle.com_SecurityImprovement/) | Security Hardening | 125+ Microservices Distributed Workload | ✅ Implemented |
 | [IAC Deployment](./5_Purplle.com_IAC_Deployment/) | Infrastructure Automation | 40%+ faster | ✅ Implemented |
 | [Adtech.purplle.com](./6_Adtech.purplle.com_Deployment/) | AdTech Platform | ₹400+ Cr revenue | ✅ Live |
-| [Grid Platform](./7_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |
+| [RAG Sentiment Platform](./7_Agentic_RAG_Sentiment_Platform/) | AI/ML Infrastructure | Agentic RAG, Qdrant, GPU | ✅ Live |
+| [Grid Platform](./8_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |
 
 ## Project Implementation Details
 
