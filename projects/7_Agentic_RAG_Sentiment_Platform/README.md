@@ -7,8 +7,8 @@
 **Status:** Live & Operational  
 **Platform:** Sentiment intelligence for influencer marketing content  
 **Deployment:** Production Environment (AI Pipeline & Vector Search)  
-**Role:** DevOps / Platform Engineer (AI Infrastructure) | Team collaboration with engineering  
-**Note:** Infrastructure, GPU workloads, vector DB, and CI/CD owned by platform team. Core embedding logic and RAG application developed by engineering team.
+**Role:** DevOps / Platform Engineer (AI Infrastructure) — **managed infrastructure only**  
+**Note:** I managed infrastructure only: Kubernetes, GPU workloads, Qdrant vector DB, and CI/CD for AI and RAG. Did not write application or RAG code. Core embedding logic and RAG application were developed by the engineering team.
 
 ## Executive Summary
 
@@ -16,9 +16,7 @@ Purplle commissions influencers to create branded video content (e.g., product p
 
 An **agentic RAG-based sentiment intelligence platform** was built and operated in production. Video and engagement data are processed through a self-deployed LLM (ChatGPT) in a distributed Kubernetes architecture to generate embeddings, which are stored in Qdrant. Semantic search (cosine similarity, metadata filters, hash-based indexing) powers an agentic application that answers natural-language queries and delivers decision-ready results — links (e.g., Instagram), paid content flags, sentiment (right/wrong), and what worked or didn’t — so brand and marketing teams can act faster. The system is **orchestration- and vector-DB-centric** with **no persistent long-running LLM deployment**.
 
-Successfully designed and operated the distributed architecture, GPU-based embedding pipeline (CUDA), production Qdrant cluster, and CI/CD for AI services and RAG components, ensuring high availability and faster time-to-result for the business.
-
-**Note:** Infrastructure and platform engineering (Kubernetes, GPU workloads, Qdrant, CI/CD) were owned by the platform/DevOps team; core embedding and RAG application logic were developed by the engineering team.
+I managed **infrastructure only**: distributed architecture, GPU-based embedding pipeline (CUDA), production Qdrant cluster, and CI/CD for AI services and RAG components — ensuring high availability and faster time-to-result. I did not write application or RAG code; core embedding and RAG application logic were developed by the engineering team.
 
 ## Business Objectives
 
@@ -100,10 +98,10 @@ Successfully designed and operated the distributed architecture, GPU-based embed
 ## Documentation
 
 For detailed information, see:
-- **[Architecture Details](architecture.md)** — Complete technical architecture, data flow, and infrastructure design
-- **[Architecture Diagram](architecture-diagram.mmd)** — Mermaid diagram source for platform flow
-- **[Metrics & Impact](metrics.md)** — Performance, reliability, and business impact metrics
+- **[Architecture Details](architecture.md)** - Complete technical architecture, data flow, and infrastructure design
+- **[Architecture Diagram](architecture-diagram.mmd)** - Mermaid diagram source for platform flow
+- **[Metrics & Analysis](metrics.md)** - Detailed metrics, reliability, and business impact data
 
 ---
 
-**Note:** This is a production platform supporting influencer content analysis and campaign optimization. Infrastructure and platform engineering (Kubernetes, GPU workloads, Qdrant, CI/CD) were owned by the platform/DevOps team; core embedding and RAG application logic were developed by the engineering team. All metrics and design reflect actual production deployment.
+**Note:** This is a production platform supporting influencer content analysis and campaign optimization. I managed **infrastructure only** (Kubernetes, GPU workloads, Qdrant, CI/CD); I did not write application or RAG code. Core embedding and RAG application logic were developed by the engineering team. All metrics and design reflect actual production deployment.

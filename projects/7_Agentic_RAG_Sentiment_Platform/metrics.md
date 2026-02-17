@@ -1,5 +1,7 @@
 # RAG Sentiment Platform - Metrics & Impact
 
+**Ownership note:** Infrastructure only (Kubernetes, GPU, Qdrant, CI/CD) was managed by the platform/DevOps team; application and RAG logic were developed by the engineering team.
+
 ## Performance Metrics
 
 ### System Performance
