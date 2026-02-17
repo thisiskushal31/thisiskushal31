@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Production Platform - Data Science / ML Infrastructure (Infrastructure only)  
 **Status:** Live & Operational  
+**Duration:** Jun 2023 - Feb 2026 
 **Platform:** Two infrastructures—(1) distributed Kubernetes-based containerized services (K8s hits Vertex AI for inference), (2) Jupyter VM for training → model uploaded to Vertex AI; multi-project GCP architecture  
 **Deployment:** GCP (Kubernetes, Nginx ingress, SSL, internal domain; Jupyter VM, Vertex AI, Cloud Functions; data engineering, data science, and main Purplle app in separate projects)  
 **Role:** DevOps / Infrastructure Engineer — managed infrastructure only; did not write application code  
