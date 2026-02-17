@@ -1,0 +1,68 @@
+---
+# Data Science Infrastructure - Two Infrastructures
+# (1) K8s containerized services + internal domain; K8s hits Vertex AI for inference
+# (2) Jupyter VM for training → model uploaded to Vertex AI (Vertex AI at end); Cloud Function hits K8s first
+---
+
+flowchart TB
+    subgraph Ingress["Infra 1: Ingress & access"]
+        SSL[SSL / Certs]
+        Nginx[Nginx Ingress / Load balancers]
+        SSL --> Nginx
+    end
+
+    subgraph K8s["Kubernetes cluster (infra owned, DS team deploys code)"]
+        Py[Python containerized services]
+        Nginx --> Py
+    end
+
+    subgraph Internal["Internal domain (infra owned)"]
+        Domain[Internal domain exposure]
+        Py --> Domain
+    end
+
+    subgraph Consumers["Internal consumers"]
+        Rec[Recommendation engine]
+        DE[Data engineering]
+        Store[Storefront]
+        Domain --> Rec
+        Domain --> DE
+        Domain --> Store
+    end
+
+    subgraph Infra2["Infra 2: Training → Vertex AI (model destination)"]
+        Jupyter[Jupyter VM - training]
+        IAM[IAM / Service accounts]
+        Vertex[Vertex AI - inference endpoint]
+        IAM --> Jupyter
+        Jupyter -->|model upload| Vertex
+    end
+
+    subgraph Triggers["Triggers (event-driven or direct)"]
+        CF[Cloud Function]
+        Direct[Direct / IAM / VM scripts]
+        CF -->|hits K8s first| Py
+        Direct --> Jupyter
+    end
+
+    Py -->|K8s hits Vertex AI for inference| Vertex
+
+    subgraph MultiProject["Multi-project GCP"]
+        P1[Data engineering project]
+        P2[Data science project]
+        P3[Main Purplle app project]
+    end
+
+    subgraph InfraTeam["Infra team (no app code)"]
+        CICD[CI/CD]
+        Sec[Security]
+    end
+
+    style Ingress fill:#e3f2fd
+    style K8s fill:#fff8e1
+    style Internal fill:#e8f5e9
+    style Consumers fill:#f3e5f5
+    style Infra2 fill:#fce4ec
+    style Triggers fill:#e8eaf6
+    style MultiProject fill:#fff3e0
+    style InfraTeam fill:#e0f2f1

@@ -70,8 +70,17 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Key Technologies:** Kubernetes, Qdrant, Python, Docker, CI/CD, cosine similarity, metadata filters, MCP
 - [View Details →](./7_Agentic_RAG_Sentiment_Platform/)
 
-#### [Grid Platform - OSS Project](./8_GridPlatform_OSS_Project/)
-![Quick Info Image](../assets/projects/8_GridPlatform_OSS_Project.png)
+#### [Data Science Infrastructure](./8_Data_Science_Infrastructure/)
+![Quick Info Image](../assets/projects/8_Data_Science_Infrastructure.png)
+**Data Science Infrastructure (full infra)** - Distributed containerized architecture, Nginx ingress, K8s cluster, deployment, internal domain exposure, CI/CD, security; infra for Composer, Jupyter/VMs, Vertex AI, Qdrant  
+- **Scale:** Nginx ingress → K8s cluster → deployment → internal domain; Git → VM, Composer; infra for Qdrant, Vertex AI, Airflow (Composer), training VMs (Jupyter)
+- **Infrastructure:** Ingress, cluster, deployment, internal domains; CI/CD (Git → VM, Composer); security; did not manage DS code
+- **Achievements:** Full project infra ownership; internal domain exposure; infra for Composer, VMs, Vertex AI, Qdrant
+- **Key Technologies:** Kubernetes, Nginx Ingress, Qdrant, Vertex AI, Airflow, GCP Composer, Jupyter, CI/CD, Git, GCP, Docker
+- [View Details →](./8_Data_Science_Infrastructure/)
+
+#### [Grid Platform - OSS Project](./9_GridPlatform_OSS_Project/)
+![Quick Info Image](../assets/projects/9_GridPlatform_OSS_Project.png)
 **AI-First Infrastructure Management Platform** - Open-source infrastructure automation  
 - **Scale:** Open-source platform for infrastructure management
 - **Infrastructure:** AI-powered automation, multi-cloud support, Infrastructure as Code
@@ -152,7 +161,8 @@ Each project follows a consistent documentation structure:
 | [IAC Deployment](./5_Purplle.com_IAC_Deployment/) | Infrastructure Automation | 40%+ faster | ✅ Implemented |
 | [Adtech.purplle.com](./6_Adtech.purplle.com_Deployment/) | AdTech Platform | ₹400+ Cr revenue | ✅ Live |
 | [RAG Sentiment Platform](./7_Agentic_RAG_Sentiment_Platform/) | AI/ML Infrastructure | Agentic RAG, Qdrant, GPU | ✅ Live |
-| [Grid Platform](./8_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |
+| [Data Science Infrastructure](./8_Data_Science_Infrastructure/) | DS/ML Infra | Ingress, K8s, Composer, Vertex AI, Qdrant | ✅ Live |
+| [Grid Platform](./9_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |
 
 ## Project Implementation Details
 

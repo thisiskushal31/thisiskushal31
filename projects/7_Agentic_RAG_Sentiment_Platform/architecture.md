@@ -6,7 +6,7 @@ The platform is an **agentic RAG-based sentiment intelligence system** for Purpl
 
 The system does **not** run a persistent, long-lived LLM deployment. It is **orchestration- and vector-DB-centric**: video and engagement data are processed through a **self-deployed ChatGPT** in a **distributed Kubernetes** setup to produce embeddings; embeddings are stored in **Qdrant**; **cosine similarity**, **metadata filters**, and **hash-based indexing** power semantic search; and **MCP-based agentic** workflows plus a **RAG** application answer user queries and return decision-ready results (links, sentiment, paid content flags).
 
-**Infrastructure focus:** Kubernetes-based distributed architecture, GPU-enabled workloads (CUDA) for embedding services, Qdrant cluster operations, CI/CD for AI and RAG components, high availability, and faster time-to-result for the business.
+**Infrastructure focus (platform/DevOps ownership — infrastructure only):** Kubernetes-based distributed architecture, GPU-enabled workloads (CUDA) for embedding services, Qdrant cluster operations, CI/CD for AI and RAG components, high availability, and faster time-to-result. Application and RAG logic were developed by the engineering team; this document describes the platform from an infrastructure perspective.
 
 ## High-Level Data Flow
 
