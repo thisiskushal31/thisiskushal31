@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Production Platform - AI/ML Infrastructure (Agentic RAG)  
 **Status:** Live & Operational  
+**Duration:** Dec 2024 - Feb 2025  
 **Platform:** Sentiment intelligence for influencer marketing content  
 **Deployment:** Production Environment (AI Pipeline & Vector Search)  
 **Role:** DevOps / Platform Engineer (AI Infrastructure) — **managed infrastructure only**  
