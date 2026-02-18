@@ -14,7 +14,7 @@
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
 ```
 
-**Last Updated:** Based on current repository state
+**Last Updated:** Feb 2026
 
 > **📌 Important:** This document serves as the single source of truth for LinkedIn profile data. All LinkedIn content (About section, Experience entries) matches this document exactly.
 
@@ -121,8 +121,6 @@ GitHub: https://github.com/thisiskushal31
 **Resume Strategy:** Consolidated experience under one role per company  
 **LinkedIn Strategy:** Separate roles to show career progression and internship experience
 
-**Sync:** Experience entries (role, period, description, achievements) are synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts) `experience` array. Update portfolio first, then copy here.
-
 > **📝 Update Instructions:** When switching companies, add a new company section below. Keep all previous companies for historical reference. Update dates and add new roles as you progress.
 
 ### 📋 Experience Comparison
@@ -147,7 +145,9 @@ GitHub: https://github.com/thisiskushal31
 **Period:** May 2024 - Present (1 year 8 months)  
 **Location:** Mumbai, Maharashtra, India
 
-**Copy-Paste Ready Description:** *(Synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts) experience)*
+**Roles & responsibilities (summary for LinkedIn):** Deploying and managing high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99%+ uptime and optimized cloud operations. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
+
+**Copy-Paste Ready Description:**
 ```
 - Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue, 7M total users with 4x traffic spike handling during major sales events, reducing site downtime by 33%
 - Reduced time-to-insight for brand teams by ~50%: operated infra for agentic RAG sentiment platform (K8s, vector DB, GPU, CI/CD for distributed, scalable AI services), enabling faster campaigns and better decision-making on influencer content
@@ -295,9 +295,9 @@ https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606c
 
 ## 💼 Work Experience
 
-> **📌 Note:** This section is formatted for resume/CV (consolidated roles per company). The "LinkedIn Experience Section" above is formatted for LinkedIn profile entries (separate roles per company). Both are **synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts)** (experience array)—update portfolio first, then copy here.
+> **📌 Note:** This section is formatted for resume/CV (consolidated roles per company). The "LinkedIn Experience Section" above is formatted for LinkedIn profile entries (separate roles per company). Both contain the same experience data as in this document.
 
-> **📝 Update Instructions:** When switching companies, add a new company section below. Keep all previous companies for historical reference. Update "Current Company" section at the top. To keep in sync: update `portfolio-website/src/config/portfolio.ts` experience array, then copy role descriptions and achievements into this document.
+> **📝 Update Instructions:** When switching companies, add a new company section below. Keep all previous companies for historical reference. Update "Current Company" section at the top. Update role descriptions and achievements here so this document remains the single source of truth.
 
 ---
 
@@ -313,13 +313,13 @@ https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606c
 **Period:** May 2024 - Present  
 **Type:** Full-time
 
-**Role Description:** *(Synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts))*
-Deployed and managed high-availability traditional infrastructure, automation, observability, and production ML/AI systems to ensure 99%+ uptime and optimize cloud operations at Purplle.com.
+**Role Description:**
+Deploying and managing high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99%+ uptime and optimized cloud operations at Purplle.com. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
 
 **Key Achievements:**
 - Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue, 7M total users with 4x traffic spike handling during major sales events, reducing site downtime by 33%
 - Reduced time-to-insight for brand teams by ~50%: operated infra for agentic RAG sentiment platform (K8s, vector DB, GPU, CI/CD for distributed, scalable AI services), enabling faster campaigns and better decision-making on influencer content
-- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Multi-project GCP. Infra only, no app code
+- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Multi-project GCP.
 - Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
 - Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
 - Engineered DR solutions and automated backups for MySQL, MongoDB, and Elasticsearch, ensuring data resilience and integrity
@@ -338,7 +338,7 @@ GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/
 **Period:** June 2023 - May 2024  
 **Type:** Full-time
 
-**Role Description:** *(Synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts))*
+**Role Description:**
 Focused on cloud cost optimization, disaster recovery, and security enhancements to improve operational efficiency and system resilience.
 
 **Key Achievements:**
@@ -356,7 +356,7 @@ GCP, AWS, Terraform, Python, Prometheus, Grafana, Kubernetes, CI/CD
 **Period:** January 2023 - June 2023  
 **Type:** Internship
 
-**Role Description:** *(Synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts))*
+**Role Description:**
 Built and deployed monitoring systems for cloud infrastructure to improve uptime and system reliability.
 
 **Key Achievements:**
@@ -512,7 +512,8 @@ Managed infrastructure only: distributed K8s, GPU embedding pipeline, production
 **Status:** Production  
 **Category:** Platform Engineering (Data Science / ML Infrastructure)  
 **Duration:** Jun 2023 - Feb 2026  
-**Technologies:** Kubernetes, Nginx, GCP, Vertex AI, Qdrant (vector DB), Jupyter, Cloud Functions, CI/CD, Git, Docker
+**Technologies:** Kubernetes, Nginx, GCP, Vertex AI, Qdrant (vector DB), Jupyter, Cloud Functions, CI/CD, Git, Docker  
+**Project:** [Data Science Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/8_Data_Science_Infrastructure)
 
 **Description:**
 Maintained infrastructure for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving on manual tasks. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Infra only.
@@ -520,8 +521,8 @@ Maintained infrastructure for the ₹700 Crore revenue marketing engine. Data en
 **Key Features:**
 - ₹700 Crore revenue backbone. Data engineering and storefront serve brands and marketing (requirements from them)
 - 50–60% cost saving on manual tasks (e.g. image tagging for Meta/Google ads)
-- Vector DB (Qdrant) and network maintained; embeddings power recommendations
-- Multi-project GCP; CI/CD and security; production ready; infra only
+- Vector DB (Qdrant) and network maintained. Embeddings power recommendations
+- Multi-project GCP. CI/CD and security. Production ready. Infra only
 
 **Impact:** ₹700 Cr revenue backbone. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. Maintained CI/CD, servers, containerized applications, vector DB (Qdrant), network. Infra only.
 
@@ -633,14 +634,18 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 > **📝 Update Instructions:** When switching companies, update the "Experience Summary" section below with new totals. Keep company-specific metrics in their respective company sections.
 
 ### Production Metrics (Cumulative Across All Companies)
+- **₹700 Crore revenue** - Main e-commerce platform; **₹700 Crore revenue backbone** - Data Science Infrastructure (recommendations, DE/storefront, brand & marketing)
+- **₹400+ Crore revenue** - AdTech platform; **₹40+ Crores revenue** - POS (100+ retail stores)
 - **40%+ faster deployments** - Infrastructure automation and CI/CD modernization
 - **76% MTTR reduction** - From 30 minutes to 7 minutes via unified observability stack
 - **99%+ service uptime** - Sustained across retail stores and production systems
 - **30% cloud cost reduction** - Through rightsizing, autoscaling, and resource cleanup
 - **40-50% cost savings** - Achieved during Associate Software Engineer role
+- **50-60% cost saving** - Data Science Infrastructure (e.g. image tagging for Meta/Google ads)
+- **93% cost reduction** - AdTech platform (₹80 Lakh → ₹5.7 Lakh)
+- **~50% faster time-to-insight** - Agentic RAG platform for brand teams
 - **125+ Microservices Distributed Workload** - Managed on GKE
 - **100% legacy system migration** - Unified monitoring (Prometheus, Grafana)
-- **93% cost reduction** - AdTech platform (₹80 Lakh → ₹5.7 Lakh)
 - **₹1 Crore cost savings** - Infrastructure optimization and automation
 
 ### Experience Summary
@@ -657,7 +662,7 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 **Purplle.com (January 2023 - Present):**
 - **Total Duration:** January 2023 - Present
 - **Roles:** DevOps Intern → Associate Software Engineer → SDE1 - DevOps
-- **Key Projects:** PurplleAds (AdTech), Nexus (POS), Infrastructure Automation, Monitoring, Security
+- **Key Projects:** Main e-commerce platform (Purplle.com), PurplleAds (AdTech), Nexus (POS), Data Science Infrastructure, Agentic RAG Sentiment Platform, Unified Observability Stack, Infrastructure as Code (IaC), Security Hardening & Zero-Trust
 
 ---
 
@@ -779,8 +784,6 @@ Comprehensive documentation and learning resources across multiple repositories:
 
 ---
 
-> **📖 Usage Instructions:** For detailed usage instructions on how to use this career context for cold emails, job matching, CV/resume optimization, keyword optimization, and company-specific customization, see: [`Guides/career-context-usage.md`](./Guides/career-context-usage.md)
-
 ---
 
 ## 🔄 Update Instructions
@@ -789,8 +792,7 @@ Comprehensive documentation and learning resources across multiple repositories:
 - New projects completed, achievements unlocked, skills acquired
 - Job roles change, certifications earned
 - Blog posts published, new repositories created
-
-> **📝 Detailed Update Guide:** See [`Guides/update-checklist.md`](./Guides/update-checklist.md) for comprehensive update instructions and source file references.
+- Keep LinkedIn Experience and Work Experience sections in sync with the achievements and role descriptions in this document
 
 ---
 
