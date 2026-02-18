@@ -121,6 +121,8 @@ GitHub: https://github.com/thisiskushal31
 **Resume Strategy:** Consolidated experience under one role per company  
 **LinkedIn Strategy:** Separate roles to show career progression and internship experience
 
+**Sync:** Experience entries (role, period, description, achievements) are synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts) `experience` array. Update portfolio first, then copy here.
+
 > **📝 Update Instructions:** When switching companies, add a new company section below. Keep all previous companies for historical reference. Update dates and add new roles as you progress.
 
 ### 📋 Experience Comparison
@@ -145,19 +147,21 @@ GitHub: https://github.com/thisiskushal31
 **Period:** May 2024 - Present (1 year 8 months)  
 **Location:** Mumbai, Maharashtra, India
 
-**Copy-Paste Ready Description:**
+**Copy-Paste Ready Description:** *(Synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts) experience)*
 ```
-- Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue (as of Jan 1, 2026), 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales), reducing site downtime by 33%.
-- Deployed and managed high-availability PurplleAds (AdTech) platform at `adtech.purplle.com`, supporting ₹400+ Crore brand advertising revenue, 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales), achieving 93% cost reduction (₹80 Lakh → ₹5.7 Lakh infrastructure cost) by replacing third-party software with in-house solution. Managed 100+ production services on GKE.
-- Deployed high-availability Nexus (POS) across 100+ retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), supporting 500+ daily employees and 40+ Crores revenue.
-- Engineered DR solutions and automated backups for MySQL, MongoDB, and Elasticsearch, ensuring data resilience and integrity.
-- Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining provisioning.
-- Managed 125+ Microservices Distributed Workload on GKE, including Hypertest (QA tool), ensuring production reliability and scalability.
-- Accelerated infrastructure delivery by 40%+ through CI/CD automation (Terraform, Jenkins, GitOps), automating 40%+ of provisioning tasks.
-- Modernized CI/CD by migrating Jenkins from freestyle to scripted pipelines with Slack alerts, reducing incident response time.
-- Reduced MTTR from 30 to 7 minutes by architecting unified observability stack (Prometheus, Grafana) with automated escalation.
-- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup.
-- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture.
+- Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue, 7M total users with 4x traffic spike handling during major sales events, reducing site downtime by 33%
+- Reduced time-to-insight for brand teams by ~50%: operated infra for agentic RAG sentiment platform (K8s, vector DB, GPU, CI/CD for distributed, scalable AI services), enabling faster campaigns and better decision-making on influencer content
+- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Multi-project GCP. Infra only, no app code
+- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
+- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
+- Engineered DR solutions and automated backups for MySQL, MongoDB, and Elasticsearch, ensuring data resilience and integrity
+- Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining provisioning
+- Managed 125+ Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring production reliability and scalability
+- Accelerated infrastructure delivery by 40%+ through CI/CD automation (Terraform, Jenkins, GitOps), automating 40%+ of provisioning tasks
+- Modernized CI/CD by migrating Jenkins from freestyle to scripted pipelines with Slack alerts, reducing incident response time
+- Reduced MTTR from 30 to 7 minutes by architecting unified observability stack (Prometheus, Grafana) with automated escalation
+- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup (improving security posture by removing unused resources)
+- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
 ```
 
 #### Entry 2: Associate Software Engineer
@@ -234,17 +238,17 @@ GitHub: https://github.com/thisiskushal31
 
 **Portfolio:**
 ```
-https://thisiskushal31.github.io/
+https://kushal.cv/
 ```
 
 **Bio Links:**
 ```
-https://thisiskushal31.github.io/link/
+https://bio.kushal.cv/
 ```
 
 **Blog:**
 ```
-https://thisiskushal31.github.io/blog/
+https://blog.kushal.cv/
 ```
 
 **DocHub:**
@@ -291,9 +295,9 @@ https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606c
 
 ## 💼 Work Experience
 
-> **📌 Note:** This section is formatted for resume/CV (consolidated roles per company). The "LinkedIn Experience Section" above is formatted for LinkedIn profile entries (separate roles per company). Both contain the same achievements but in different formats optimized for each platform.
+> **📌 Note:** This section is formatted for resume/CV (consolidated roles per company). The "LinkedIn Experience Section" above is formatted for LinkedIn profile entries (separate roles per company). Both are **synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts)** (experience array)—update portfolio first, then copy here.
 
-> **📝 Update Instructions:** When switching companies, add a new company section below. Keep all previous companies for historical reference. Update "Current Company" section at the top.
+> **📝 Update Instructions:** When switching companies, add a new company section below. Keep all previous companies for historical reference. Update "Current Company" section at the top. To keep in sync: update `portfolio-website/src/config/portfolio.ts` experience array, then copy role descriptions and achievements into this document.
 
 ---
 
@@ -307,22 +311,24 @@ https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606c
 
 #### Role 1: SDE1 - DevOps
 **Period:** May 2024 - Present  
-**Type:** Hybrid
+**Type:** Full-time
 
-**Role Description:**
-Leading high-availability infrastructure deployments, automation, and observability initiatives to ensure 99%+ uptime and optimize cloud operations at Purplle.com.
+**Role Description:** *(Synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts))*
+Deployed and managed high-availability traditional infrastructure, automation, observability, and production ML/AI systems to ensure 99%+ uptime and optimize cloud operations at Purplle.com.
 
 **Key Achievements:**
-- Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue (as of Jan 1, 2026), 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales), reducing site downtime by 33%
-- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue, 7M total users with 150K DAU typically (600K during major sales, 300K during minor sales), achieving 93% cost reduction by replacing third-party software with in-house solution. Managed 100+ production services on GKE
-- Deployed high-availability Nexus (POS) across 100+ retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), supporting 500+ daily employees and 40+ Crores revenue
+- Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue, 7M total users with 4x traffic spike handling during major sales events, reducing site downtime by 33%
+- Reduced time-to-insight for brand teams by ~50%: operated infra for agentic RAG sentiment platform (K8s, vector DB, GPU, CI/CD for distributed, scalable AI services), enabling faster campaigns and better decision-making on influencer content
+- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Multi-project GCP. Infra only, no app code
+- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
+- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
 - Engineered DR solutions and automated backups for MySQL, MongoDB, and Elasticsearch, ensuring data resilience and integrity
 - Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining provisioning
-- Managed 125+ Microservices Distributed Workload on GKE, including Hypertest (QA tool), ensuring production reliability and scalability
+- Managed 125+ Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring production reliability and scalability
 - Accelerated infrastructure delivery by 40%+ through CI/CD automation (Terraform, Jenkins, GitOps), automating 40%+ of provisioning tasks
 - Modernized CI/CD by migrating Jenkins from freestyle to scripted pipelines with Slack alerts, reducing incident response time
 - Reduced MTTR from 30 to 7 minutes by architecting unified observability stack (Prometheus, Grafana) with automated escalation
-- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup
+- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup (improving security posture by removing unused resources)
 - Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
 
 **Technologies Used:**
@@ -330,9 +336,9 @@ GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/
 
 #### Role 2: Associate Software Engineer
 **Period:** June 2023 - May 2024  
-**Type:** Hybrid
+**Type:** Full-time
 
-**Role Description:**
+**Role Description:** *(Synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts))*
 Focused on cloud cost optimization, disaster recovery, and security enhancements to improve operational efficiency and system resilience.
 
 **Key Achievements:**
@@ -348,9 +354,9 @@ GCP, AWS, Terraform, Python, Prometheus, Grafana, Kubernetes, CI/CD
 
 #### Role 3: DevOps Intern
 **Period:** January 2023 - June 2023  
-**Type:** Remote
+**Type:** Internship
 
-**Role Description:**
+**Role Description:** *(Synced with [portfolio.ts](https://github.com/thisiskushal31/portfolio-website/blob/main/src/config/portfolio.ts))*
 Built and deployed monitoring systems for cloud infrastructure to improve uptime and system reliability.
 
 **Key Achievements:**
@@ -414,195 +420,204 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 ## 🛠️ Technical Skills
 
 ### Languages & Scripting
-- **Primary:** Python, Bash/Shell, JavaScript, C/C++
-- **Familiar:** Go (for Kubernetes operators), TypeScript
-
-### Cloud & Infrastructure
-- **Cloud Platforms:** Google Cloud Platform (GCP), Amazon Web Services (AWS) - Production experience
-- **GCP Services:** Google Kubernetes Engine (GKE), GCR, GCS, Compute Engine, Cloud SQL, Load Balancer, VPC, WAF
-- **Containerization:** Docker, Kubernetes
-- **Orchestration:** Kubernetes, Container Orchestration
-
-### CI/CD & Automation
-- **Version Control:** Git
-- **CI/CD:** Jenkins, GitLab CI, GitHub CI, GitOps workflows
-- **Automation:** n8n, Ansible, Terraform
-- **Infrastructure as Code:** Terraform, GitOps
-
-### Monitoring, Databases & Messaging
-- **Monitoring:** Prometheus, Grafana
-- **Relational Databases:** MySQL
-- **NoSQL Databases:** MongoDB, Elasticsearch, Redis
-- **Messaging:** Kafka
-
-### Security & Operations
-- **Security Tools:** Secrets Manager, SSO, IAM, Trivy
-- **Security Practices:** Zero-Trust Architecture, Defense-in-Depth, Incident Response
-- **Compliance:** Automated compliance, Security hardening
+- Python, Bash/Shell, JavaScript, TypeScript, Node.js, C/C++
 
 ### Fundamentals
 - Data Structures, Algorithms, System Design, Networking, Operating Systems
+
+### CI/CD & Automation
+- Git, Jenkins, GitOps workflows, n8n, Ansible, Terraform, OpenTofu, ArgoCD, GitLab CI, GitHub Actions
+
+### Cloud & Infrastructure
+- Google Cloud Platform (GCP), Amazon Web Services (AWS), Google Kubernetes Engine (GKE), GCR, GCS, Compute Engine, Cloud SQL, Load Balancer, VPC, WAF, Docker, Kubernetes, Route53, GCP CloudDNS
+
+### Architecture & System Design
+- Distributed Systems, Microservices, Scalability Patterns, High Availability, Disaster Recovery
+
+### Generative AI & LLM Engineering
+- MCP (Model Context Protocol) and Agentic AI, Production ML / AI infrastructure, Vertex AI
+
+### AI Tools I Use
+- ChatGPT, Claude, GitHub Copilot, Cursor, Lovable
+
+### Monitoring & Observability
+- Prometheus, Grafana, Datadog, PagerDuty
+
+### Databases
+- MySQL, MongoDB, Elasticsearch, Redis, Qdrant (vector DB for RAG, semantic search)
+
+### Message Queues & Streaming
+- Kafka
+
+### Cybersecurity & Security Tools
+- Secrets Manager, SSO, IAM, Zero-Trust Architecture, Defense-in-Depth, Trivy, SAST, DAST, Incident Response, Security Command Center
+
+### Networking Protocols
+- gRPC, TCP/IP Model, OSI Model
+
+### Backend & API
+- FastAPI, Serverless Architectures, GCP Functions, REST APIs
+
+### Frontend Development
+- React
+
+### Modern Deployment & Hosting
+- Vercel, Netlify
+
+### Web Server Hosting
+- Linux, Nginx, Apache
 
 ---
 
 ## 🚀 Featured Projects & Achievements
 
-### 1. Infrastructure as Code Platform - IAC Deployment
+### 1. Purplle - Large-Scale E-Commerce Infrastructure
+**Status:** Production  
+**Category:** Platform Engineering  
+**Technologies:** Kubernetes, GKE, Nginx, Apache, MySQL, Elasticsearch, MongoDB, Redis, Terraform, GCP, AWS
+
+**Description:**
+Managed mission-critical infrastructure: ₹700 Crore revenue, 7M users, 99%+ uptime. 125+ Microservices Distributed Workload, 4x traffic spike handling. Nginx for distributed reverse proxy; Apache on VM-based application.
+
+**Key Features:**
+- ₹700 Crore revenue, 7M users, 99%+ uptime
+- 125+ Microservices Distributed Workload, 300+ application instances
+- Nginx: reverse proxy for distributed infrastructure; Apache: VM-based application for Purplle
+- 4x traffic spike handling (150K → 600K DAU)
+- Minimal downtime MySQL migrations; 76% MTTR reduction with unified observability
+
+**Impact:** Revenue backbone, high availability, 4x spike handling, observability-driven MTTR reduction.
+
+---
+
+### 2. Purplle - Agentic RAG Sentiment Platform
+**Status:** Production  
+**Category:** Platform Engineering (AI/ML Infrastructure)  
+**Technologies:** Kubernetes, Qdrant, Python, Docker, CI/CD, GPU infrastructure, MCP, Prometheus, Grafana
+
+**Description:**
+Managed infrastructure only: distributed K8s, GPU embedding pipeline, production Qdrant, CI/CD for AI and RAG. Platform enables semantic search over influencer content (e.g. last 2 days, 7 days) and decision support for brand teams.
+
+**Key Features:**
+- Infra managed: K8s, GPU pipeline, Qdrant cluster, CI/CD; no application/RAG code
+- Semantic search for influencer content; decision support (links, sentiment, paid content flags)
+- Production Qdrant; cosine similarity, metadata filters; self-deployed LLM in K8s
+- CI/CD for AI services and RAG components; high availability
+
+**Impact:** Infra-only ownership; production RAG/semantic search for brand teams; no app/RAG code written.
+
+---
+
+### 3. Purplle - Data Science Infrastructure
+**Status:** Production  
+**Category:** Platform Engineering (Data Science / ML Infrastructure)  
+**Duration:** Jun 2023 - Feb 2026  
+**Technologies:** Kubernetes, Nginx, GCP, Vertex AI, Qdrant (vector DB), Jupyter, Cloud Functions, CI/CD, Git, Docker
+
+**Description:**
+Maintained infrastructure for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving on manual tasks. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Infra only.
+
+**Key Features:**
+- ₹700 Crore revenue backbone. Data engineering and storefront serve brands and marketing (requirements from them)
+- 50–60% cost saving on manual tasks (e.g. image tagging for Meta/Google ads)
+- Vector DB (Qdrant) and network maintained; embeddings power recommendations
+- Multi-project GCP; CI/CD and security; production ready; infra only
+
+**Impact:** ₹700 Cr revenue backbone. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. Maintained CI/CD, servers, containerized applications, vector DB (Qdrant), network. Infra only.
+
+---
+
+### 4. Purplle - Unified Observability Stack
+**Status:** Production  
+**Category:** Platform Engineering  
+**Technologies:** Prometheus, Grafana, GCP Stackdriver, Kubernetes, Jenkins, Slack, Python
+
+**Description:**
+76% MTTR reduction (30min → 7min) with unified Prometheus & Grafana across 125+ Microservices Distributed Workload. Real-time alerting.
+
+**Key Features:**
+- 76% MTTR reduction (30 minutes → 7 minutes)
+- 125+ Microservices Distributed Workload monitored
+- Real-time alerting across all environments
+- CI/CD integration with automated escalation
+
+**Impact:** 76% MTTR reduction; unified monitoring; proactive detection and escalation.
+
+---
+
+### 5. Purplle - Infrastructure as Code Platform
 **Status:** Production  
 **Category:** DevOps  
-**Technologies:** Terraform, Ansible, Jenkins, GitLab CI, GitOps, Python, GCP, AWS
+**Technologies:** Terraform, Ansible, Jenkins, GitLab CI, Python, Bash, GCP, Kubernetes
 
 **Description:**
-Infrastructure as Code initiative using Terraform-based infrastructure automation. Automated infrastructure provisioning for 125+ Microservices Distributed Workload, 300+ application instances, 200+ self-managed database instances across multi-environment (DEV, SIT, UAT, PROD) and multi-cloud support.
+40%+ faster deployments, 40%+ automation with Terraform & Ansible. Standardized IAC across 125+ Microservices Distributed Workload.
 
 **Key Features:**
-- Created reusable, parameterized Terraform modules for common GCP patterns (GKE clusters, Cloud SQL, VPCs, Load Balancers, microservices distributed workloads)
-- Multi-environment deployment: Consistent infrastructure across DEV, SIT, UAT, PROD using parameterized Terraform modules
-- CI/CD modernization: Migrated from freestyle bash jobs to scripted pipeline jobs in Jenkins, integrated with Slack for real-time job failure alerts
-- GitOps workflows: Integrated Terraform into GitOps workflows for version-controlled infrastructure changes
-- Automated IAM management: Built Python scripts to automate IAM role management, reducing misconfigurations
-- Ansible configuration management: System hardening and configuration management
-- Infrastructure automation: 40%+ of provisioning tasks automated
+- 40%+ faster deployments through IAC automation
+- 40%+ provisioning tasks automated
+- Reusable Terraform modules for multi-environment
+- GitOps workflows with CI/CD integration
 
-**Impact:**
-- 40%+ faster deployments through IAC automation and CI/CD modernization
-- 40%+ automation of provisioning tasks
-- Reusable Terraform modules for common patterns
-- Multi-environment consistent deployments
-- Improved infrastructure reliability and repeatability
+**Impact:** 40%+ faster deployments; 40%+ automation; multi-environment consistency.
 
-### 2. PurplleAds - In-House AdTech Platform
-**Status:** Production  
-**Category:** Platform Engineering  
-**Technologies:** GCP, GKE, AWS, Route53, Kubernetes, Terraform, GitLab CI, Keycloak, ALB, GCLB, Cloud SQL, Redis, WAF, VPC
+---
 
-**Description:**
-Deployed and managed in-house brand management and advertising platform at `adtech.purplle.com` that enables brands to advertise products on Purplle.com through search widgets and banners. The platform operates on a daily budget and bidding system, leveraging user preference data for optimized ad delivery. Successfully replaced ₹80 Lakh/year third-party business management software with in-house solution.
-
-**Business Requirements:**
-- **Daily Budget System:** Brands set daily advertising budgets for campaign management
-- **Bidding System:** Brands bid for ad placements in search widgets and banners
-- **User Preference Data:** Leverages existing user preference and behavioral data for targeted ad delivery
-- **Self-Service Platform:** Enables brands to manage their own campaigns independently
-
-**Key Features:**
-- Deployed high-availability AdTech platform at `adtech.purplle.com` using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) and AWS (Route53)
-- Managed 100+ production services on GKE, ensuring production reliability and scalability
-- Implemented 4-tier architecture pattern with multi-layer security (DNS & Security, Load Balancing, Application, Data layers)
-- Integrated Keycloak for identity provider and user authentication
-- Handles 7M total users with 150K DAU typically, scaling to 600K DAU during major sales events (4x) and 300K DAU during minor sales (2x)
-- Processes 133.3 million clicks/year (~365K clicks/day)
-- Supports ₹400+ Crore in brand advertising revenue
-- Critical platform for 5 major house brands (₹680-₹800 Cr revenue)
-
-**Impact:**
-- 93% cost reduction (₹80 Lakh → ₹5.7 Lakh infrastructure cost)
-- ₹400+ Crore brand advertising revenue support
-- 4x traffic spike handling during major sales events
-- 99%+ uptime maintained
-- Replaced ₹80 Lakh/year third-party business management software
-
-### 3. Nexus - Internal Inhouse POS Application
-**Status:** Production  
-**Category:** Platform Engineering  
-**Technologies:** GCP, GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC, Grafana, Prometheus, Terraform, Kafka, Redis
-
-**Description:**
-Deployed high-availability Nexus (POS) platform across retail stores, maintaining 99%+ uptime using GCP services for retail operations at purplle.com. Point of Sale system for 100+ retail stores supporting 500+ daily employees and 40+ Crores revenue.
-
-**Business Requirements:**
-- **Store Management:** Enable store teams to manage retail operations efficiently
-- **Multi-Store Support:** Support operations across 100+ retail stores
-- **User Scale:** Serve 500+ daily employees
-- **Revenue Generation:** Support 40+ Crores in revenue generation
-- **High Availability:** 99%+ uptime across all retail locations
-
-**Key Features:**
-- Deployed high-availability infrastructure across retail stores using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC)
-- Integrated Kafka for messaging and Redis for caching
-- Integrated monitoring and alerting with Grafana and Prometheus, enabling real-time system performance visibility
-- Implemented WAF to protect the application from common web threats, enhancing security posture
-- Auto-scaling configuration (1-6 pods, average 3 pods) for cost optimization
-- Handles both public and private/internal traffic
-- Maintained 99%+ uptime across all retail store deployments
-- High-availability deployment across DEV, SIT, UAT, PROD environments
-- Successfully transitioned infrastructure management to DevOps and development teams post-deployment for long-term sustainability
-
-**Impact:**
-- 99%+ uptime across retail stores
-- High-availability retail operations
-- Zero-downtime deployments
-- Secure, monitored infrastructure
-- 100+ stores supported
-- 500+ daily employees served
-- 40+ Crores revenue supported
-
-### 4. Unified Observability Stack - Monitoring & Alerting Automation
-**Status:** Production  
-**Category:** Platform Engineering  
-**Technologies:** Prometheus, Grafana, GCP Stackdriver, Jenkins, Slack, Python, GCP
-
-**Description:**
-Architectured unified observability stack with Prometheus and Grafana, enabling real-time monitoring and automated incident escalation. Monitoring improvements applied to 125+ Microservices Distributed Workload, 300+ application instances, 200+ self-managed database instances across all production platforms (Main E-Commerce Platform, POS Platform, AdTech Platform).
-
-**Key Features:**
-- Architectured unified observability stack with Prometheus and Grafana, providing comprehensive visibility across all infrastructure
-- Migrated 100% of legacy alerting systems to Grafana Alerts, enabling unified monitoring across all infrastructure components
-- Implemented automated incident escalation through unified observability stack, reducing manual intervention
-- Built custom Grafana dashboards for proactive monitoring of system health, capacity, and performance metrics
-- Established automated alert routing and escalation policies, improving response times and incident handling
-- Integrated monitoring with CI/CD pipelines for automated alerting (Jenkins with Slack integration)
-- Monitoring implemented across DEV, SIT, UAT, PROD environments
-- Comprehensive coverage: 125+ Microservices Distributed Workload, 300+ application instances, 200+ self-managed database instances
-
-**Impact:**
-- 76% MTTR reduction (30min → 7min)
-- Unified monitoring across all infrastructure
-- Proactive issue detection and resolution
-- Real-time monitoring and alerting
-- Automated incident escalation
-
-### 5. Cloud Infrastructure Security Enhancements
+### 6. Purplle - Security Hardening & Zero-Trust Architecture
 **Status:** Production  
 **Category:** DevSecOps  
-**Technologies:** GCP, Python, Terraform, Kubernetes, GKE, Secrets Manager, Trivy, GitLab CI, SSO, IAM
+**Technologies:** Kubernetes, Kubernetes RBAC, Trivy, Secrets Manager, SSO, Terraform, Python, GitLab CI
 
 **Description:**
-Strengthened cloud infrastructure security by automating key security controls, minimizing risks, and reducing attack surface at purplle.com.
+Zero-trust architecture across 125+ Microservices Distributed Workload. Automated IAM minimization, RBAC, container scanning. ISO 27001 compliant.
 
 **Key Features:**
-- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
-- Automated IAM role minimization and unused service account cleanup, reducing unauthorized access risks
-- Implemented Secure Boot and automated firewall rule cleanups to harden infrastructure security
-- Deployed Secrets Manager for secure handling of sensitive data across Kubernetes (GKE), VMs, and services
-- Enabled automated network logging and public IP cleanup, minimizing exposure to external threats
-- Adopted zero-trust security principles across cloud resources to enforce least privilege access and compliance
+- Zero-trust architecture with defense-in-depth
+- Automated IAM minimization enforcing least privilege
+- 100% security coverage across all workloads
+- Compliance: DPDP, ISO 27001, NIST, CIS, OWASP
 
-**Impact:**
-- Zero-trust implementation
-- Reduced attack surface
-- Improved compliance
-- Automated security scanning and compliance
+**Impact:** Zero-trust implementation; reduced attack surface; compliance (DPDP, ISO 27001, NIST, CIS, OWASP).
 
-### 6. Elasticsearch Cluster Management Automation
+---
+
+### 7. Purplle - AdTech Platform
 **Status:** Production  
-**Category:** DevOps / AI Automation  
-**Technologies:** n8n, Terraform, Ansible, Python, Elasticsearch
+**Category:** Platform Engineering  
+**Technologies:** Kubernetes, GKE, Terraform, GitLab CI, Jenkins, Python, GCP, AWS, Keycloak, Trivy
 
 **Description:**
-Built agentic AI automation for Elasticsearch cluster management, streamlining provisioning and management processes at purplle.com.
+₹400+ Crore revenue, 93% cost reduction (₹80L → ₹5.7L). 4x traffic spike handling, 7M users. Multi-cloud architecture.
 
 **Key Features:**
-- Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python
-- Streamlined cluster provisioning and management processes
-- Automated complex workflows for cluster operations
+- ₹400+ Crore revenue, 93% cost reduction
+- 4x traffic spike handling (150K → 600K DAU)
+- 100+ production services on GKE
+- Multi-cloud (AWS Route53 + GCP GKE)
 
-**Impact:**
-- Streamlined provisioning processes
-- Reduced manual cluster management overhead
-- AI-powered automation for infrastructure operations
+**Impact:** 93% cost reduction; ₹400+ Crore revenue; 4x spike handling; in-house replacement for third-party AdTech.
 
-### 7. SocialSplit - Real-Time Chat Application
+---
+
+### 8. Purplle - POS Platform for 100+ Retail Stores
+**Status:** Production  
+**Category:** Platform Engineering  
+**Technologies:** Kubernetes, GKE, Terraform, Jenkins, GitLab CI, Python, GCP, Kafka, Redis
+
+**Description:**
+High-availability POS platform: 100+ stores, 500+ daily users, ₹40+ Crores revenue, 99%+ uptime. Kafka + Redis architecture.
+
+**Key Features:**
+- 100+ retail stores, 500+ daily employees
+- 99%+ uptime with scalable infrastructure
+- ₹40+ Crores revenue
+- Kafka + Redis for real-time processing
+
+**Impact:** 99%+ uptime; 100+ stores; 500+ daily users; ₹40+ Crores revenue.
+
+---
+
+### 9. SocialSplit - Real-Time Chat Application
 **Status:** Personal Project  
 **Technologies:** MongoDB, ReactJS, Socket.IO, NodeJS
 

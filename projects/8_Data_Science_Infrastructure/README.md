@@ -5,46 +5,53 @@
 **Company:** Purplle.com  
 **Project Type:** Production Platform - Data Science / ML Infrastructure (Infrastructure only)  
 **Status:** Live & Operational  
-**Duration:** Jun 2023 - Feb 2026 
-**Platform:** Two infrastructures—(1) distributed Kubernetes-based containerized services (K8s hits Vertex AI for inference), (2) Jupyter VM for training → model uploaded to Vertex AI; multi-project GCP architecture  
-**Deployment:** GCP (Kubernetes, Nginx ingress, SSL, internal domain; Jupyter VM, Vertex AI, Cloud Functions; data engineering, data science, and main Purplle app in separate projects)  
+**Duration:** Jun 2023 - Feb 2026  
+**Platform:** One infrastructure, one outcome—this project powers the ₹700 Crore revenue marketing engine and what data engineering and storefront need (recommendations, outcomes). Infra maintained: CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network (Nginx, SSL, internal domain). Jupyter → Vertex AI; K8s → Vertex AI for inference; Cloud Function → K8s; multi-project GCP.  
+**Deployment:** GCP (Kubernetes, Nginx ingress, SSL, internal domain; Jupyter VM, Vertex AI, Cloud Functions, Qdrant vector DB; data engineering, data science, and main Purplle app in separate projects)  
 **Role:** DevOps / Infrastructure Engineer — managed infrastructure only; did not write application code  
-**Note:** Managed the full infrastructure day-to-day: SSL/certifications, Nginx ingress, load balancers, internal domain exposure, Kubernetes cluster, CI/CD, security (IAM, service accounts). Did not write a single piece of application/DS code—only CI/CD and infrastructure code to make the infrastructure run.
+**Note:** Managed the full infrastructure day-to-day: SSL/certifications, Nginx ingress, load balancers, internal domain exposure, Kubernetes cluster, vector DB (Qdrant), CI/CD, security (IAM, service accounts). Did not write a single piece of application/DS code—only CI/CD and infrastructure code to make the infrastructure run.
 
 ## Executive Summary
 
-The **infrastructure/DevOps team** managed **two main infrastructures** for data science and recommendation systems:
+**One infrastructure, one outcome.** This project (Data Science Infrastructure) is **one project** on that infrastructure—just like the [main e-commerce platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/2_Purplle.com_Management). The outcome is the same: recommendations, what data engineering and storefront need, ₹700 Crore revenue marketing engine.
 
-### 1. Distributed Kubernetes-based (containerized) infrastructure
-- The DS team deployed mainly **Python code as containerized services** on Kubernetes.
-- The **DS team manages the embedding pipeline** for the recommendation engine; the **infrastructure team manages the Qdrant vector DB**. **Embeddings are used to power recommendations** (e.g. semantic similarity) consumed by storefront and data engineering.
-- **Infra team managed:** SSL/certifications, **Nginx ingress**, load balancers, and **exposing services to internal domain** so other teams can hit them. These are **internal services**—e.g. a **recommendation engine** hits these services; data science workloads run behind them. Other internal teams (data engineering, storefront) call these services to get recommendations or transformed data.
+**What infra did (maintaining):**
+- **CI/CD** — Pipelines, deployment, infra code only.
+- **Servers** — VMs (e.g. Jupyter), compute.
+- **Containerized applications** — Kubernetes cluster, rollouts, deployment pipeline; DS team deploys application code, infra maintains the platform.
+- **Vector DB (Qdrant)** — Infra-managed. DS team owns embedding pipeline; embeddings power recommendations.
+- **Network** — Ingress (Nginx), SSL, load balancers, internal domain so teams (recommendation engine, data engineering, storefront) can reach services.
 
-### 2. Jupyter VM (training) and Vertex AI (model destination and inference endpoint)
-- **Jupyter on a VM:** Used by the data science team for **training**; **IAM, service accounts, and access** were managed by the DevOps/infra team. Jupyter fetches data, runs training on the VM; the model is stored (e.g. in storage) and then **uploaded to Vertex AI**. **Vertex AI is the end of the training pipeline**—it holds the model and is only called for inference; it does not sit in the middle of the flow.
-- **K8s hits Vertex AI:** The **service deployed on Kubernetes** (Python recommendation/DS services) **hits Vertex AI** for inference. Vertex AI only receives those calls and returns the inference output; it does not call anything else. User-facing output can come from **K8s** (which may call Vertex AI), from the **Jupyter VM** (e.g. script or batch output), or via **Cloud Function**.
-- **Cloud Function hits K8s first:** In the event-driven flow, the **Cloud Function** triggers and **hits K8s first**; K8s then gets data (and may call Vertex AI for inference). So Cloud Function does not call Vertex AI directly. Triggering of training or jobs: **Cloud Function** (event-driven), **script on the training VM**, or **direct** (IAM, service account).
-- **Multi-project architecture:** Data engineering in one GCP project, data science in another, main Purplle application in another. Infra team managed infrastructure across these projects.
+**Flow (for reference):** Jupyter VM → model to Vertex AI; K8s hits Vertex AI for inference; Cloud Function → K8s; triggers: Cloud Function, script on VM, or direct. Multi-project GCP. **Ownership:** Infra only—no application or DS code; CI/CD and infrastructure code so the infrastructure runs.
 
-### Ownership (infra only)
-- **Did not manage** building models or writing application/DS code. Part of the **infrastructure team** that managed this setup day-to-day.
-- **Managed infrastructure only;** did not write a single piece of application code. Wrote **CI/CD** and **infrastructure code** so the infrastructure runs.
+### What I managed (summary of facts)
+
+- **CI/CD** — Pipelines, deployment, infra and CI/CD code only (no application code).
+- **Servers** — VMs (e.g. Jupyter for training); compute; IAM, service accounts.
+- **Containerized applications** — Kubernetes cluster, rollouts, deployment pipeline; DS team deploys application code, I maintained the platform.
+- **Vector DB (Qdrant)** — Operated and maintained Qdrant; DS team owns embedding pipeline; embeddings power recommendations.
+- **Network** — Nginx ingress, SSL/certifications, load balancers, internal domain exposure so recommendation engine, data engineering, and storefront can reach services.
+- **Vertex AI (infra side)** — Access, integration, and infra support for model upload (from Jupyter) and inference (K8s calls Vertex AI).
+- **Cloud Function (infra side)** — Provisioning and wiring; event-driven flow Cloud Function → K8s.
+- **Security** — IAM, service accounts, access; no application or DS code written by me—only CI/CD and infrastructure code.
+- **Multi-project GCP** — Data engineering, data science, and main Purplle app in separate projects; I managed infrastructure across them.
 
 ## Business Impact
 
-### Recommendation backbone for ₹700 Crore revenue
-- This infrastructure was the **backbone of the ₹700 Crore revenue system**. The **DS team manages the embedding pipeline**; the **infra team manages the Qdrant vector DB**. **Embeddings are used to deliver recommendations** to users (e.g. search for lipstick → get relevant lipstick, ad placement, other brands’ lipstick products; not unrelated products like face wash). Other brands’ recommendations drove ad revenue for Purplle (similar to the [AdTech platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Adtech.purplle.com_Deployment)).
+### One infrastructure, one outcome — ₹700 Crore revenue marketing engine
+- This project is one project on that infrastructure (like the [main e-commerce platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/2_Purplle.com_Management)). 
+- Outcome: recommendations and what data engineering and storefront need. Data engineering and storefront serve brand and marketing teams (requirements from them). That’s the **₹700 Crore revenue marketing engine**. It **spits out recommendations** and **generates outcomes** and supports everything **data engineering** and **storefront** need. The **DS team manages the embedding pipeline**; the **infra team manages the Qdrant vector DB**. **Embeddings power recommendations** to users (e.g. search for lipstick → get relevant lipstick, ad placement, other brands’ lipstick; not unrelated products). Other brands’ recommendations drove ad revenue for Purplle (see [AdTech platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Adtech.purplle.com_Deployment)).
 
 ### Models for internal tasks — 50–60% cost saving
 - Models were used for **internal tasks** such as **image tagging for Meta ads, Google Search ads**, and similar work that would otherwise require manual tagging. This **saved 50–60% of the cost** of doing those tasks manually.
 
 ## Business Objectives
 
-**Primary Goal:** Provide and operate infrastructure so the DS team could run containerized Python services on Kubernetes (with internal domain exposure for other teams) and run the training/serving flow: Jupyter VM for training → model uploaded to Vertex AI; K8s services hit Vertex AI for inference (Vertex AI is the endpoint at the end; it only gets hit and returns output). CI/CD, security, and multi-project support—without the infra team writing application code.
+**Primary Goal:** Maintain infrastructure so the outcome (recommendations, what data engineering and storefront need) is delivered. Infra maintained: CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. No application or DS code written by infra.
 
 **Business Requirements:**
-- **Kubernetes infrastructure:** Nginx ingress, SSL, load balancers, internal domain so internal teams (recommendation engine, data engineering, storefront) can hit DS services.
-- **Jupyter VM and Vertex AI:** IAM, service accounts, VM; Jupyter used for training; model uploaded to Vertex AI (Vertex AI is the model destination and inference endpoint). K8s services hit Vertex AI for inference; Vertex AI only returns output. Triggers: Cloud Function (hits K8s first), script on VM, or direct.
+- **Infra maintains:** CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network (Nginx ingress, SSL, load balancers, internal domain). Data engineering and storefront get requirements from brands and marketing and get recommendations and outcomes.
+- **Flow:** Jupyter VM for training → model to Vertex AI; K8s hits Vertex AI for inference; Cloud Function → K8s; script on VM or direct for triggers.
 - **Multi-project:** Data engineering, data science, and main Purplle app in separate GCP projects; infra managed across them.
 - **CI/CD and security:** Infra team owned CI/CD and security; no application code written by infra.
 
@@ -55,34 +62,33 @@ The **infrastructure/DevOps team** managed **two main infrastructures** for data
 ## Business Metrics
 
 ### Scale & Deployment
-- **Two infrastructures:** (1) Kubernetes containerized services (Python), internal domain, Nginx ingress, SSL; K8s hits Vertex AI for inference. (2) Jupyter VM for training → model uploaded to Vertex AI; triggers for training/jobs: Cloud Function (hits K8s first), script on VM, or direct.
+- **Infra maintained:** CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network (Nginx ingress, SSL, load balancers, internal domain). Flow: Jupyter → Vertex AI, K8s → Vertex AI for inference, Cloud Function → K8s.
 - **Multi-project:** Data engineering, data science, main Purplle application in separate GCP projects.
-- **Ownership:** Infra team—ingress, SSL, load balancers, internal domain, K8s cluster, CI/CD, IAM/service accounts, VM, Vertex AI (infra side); DS team—application code and models.
+- **Ownership:** Infra team—CI/CD, servers, K8s cluster, **Qdrant vector DB**, network (ingress, SSL, load balancers, internal domain), IAM/service accounts, VM, Vertex AI (infra side); DS team—application code, models, embedding pipeline.
 
 ### Key Achievements
 
-- ✅ **Distributed Kubernetes infrastructure** — Nginx ingress, SSL, load balancers, internal domain exposure; internal teams (recommendation, data engineering, storefront) can hit DS services.
-- ✅ **Jupyter VM and Vertex AI** — Jupyter for training; model uploaded to Vertex AI (Vertex AI is the endpoint at the end). K8s hits Vertex AI for inference; Cloud Function hits K8s first. Triggers: Cloud Function, script on VM, or direct.
-- ✅ **Multi-project architecture** — Infra managed across data engineering, data science, and main Purplle projects.
-- ✅ **CI/CD and security** — Infra team owned CI/CD and security; no application code written by infra.
-- ✅ **Business impact** — Backbone of ₹700 Crore revenue (recommendations); 50–60% cost saving on manual tasks (e.g. image tagging for Meta/Google ads).
-- ✅ **Production ready** — Reliable infrastructure so DS and other teams could rely on services and training/serving flow.
+- ✅ **₹700 Crore revenue backbone** — Infrastructure supported recommendations and outcomes for data engineering and storefront (they serve brand and marketing). Backbone of the revenue marketing engine.
+- ✅ **50–60% cost saving** — Models for internal tasks (e.g. image tagging for Meta/Google ads) reduced manual cost.
+- ✅ **Vector DB (Qdrant) and network** — Maintained vector DB and network so embeddings power recommendations consumed by storefront and data engineering.
+- ✅ **Multi-project, production ready** — Infra managed across data engineering, data science, and main Purplle projects; reliable so DS and other teams could rely on services.
+- ✅ **CI/CD and security** — Owned CI/CD and security; no application code written by infra.
 
 ## Technical Stack (Infrastructure side)
 
 **Cloud:** GCP, multi-project (data engineering, data science, main app)  
 **Kubernetes:** Nginx ingress, SSL/certifications, load balancers, internal domain exposure; Python containerized services (DS team code)  
-**Recommendation pipeline:** DS team manages **embedding pipeline**; infra team manages **Qdrant vector DB**; **embeddings power recommendations** consumed by storefront and data engineering  
-**Training:** Jupyter VM (model trained, then uploaded to Vertex AI); IAM, service accounts (infra managed)
-**Serving:** K8s hits Vertex AI for inference; Vertex AI only returns output
-**Event-driven:** Cloud Functions hit K8s first; script on VM or direct for training/job triggers
+**Vector DB:** **Qdrant** (infra-managed); DS team manages **embedding pipeline**; **embeddings power recommendations** consumed by storefront and data engineering  
+**Training:** Jupyter VM (model trained, then uploaded to Vertex AI); IAM, service accounts (infra managed)  
+**Serving:** K8s hits Vertex AI for inference; Vertex AI only returns output  
+**Event-driven:** Cloud Function → K8s; script on VM or direct for training/job triggers  
 **CI/CD & security:** Git, pipelines, infra and CI/CD code only; security and access managed by infra team  
 
 ## Architecture Overview
 
 ![Data Science Infrastructure](../../assets/projects/8_Data_Science_Infrastructure.png)
 
-*Two infrastructures: (1) Ingress → K8s → Internal domain; K8s hits Vertex AI for inference. (2) Jupyter VM for training → model uploaded to Vertex AI (Vertex AI at the end); Cloud Function hits K8s first; script on VM or direct triggers. See [Architecture Details](architecture.md) and [Architecture Diagram](architecture-diagram.mmd).*
+*Infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. Maintained CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. See [Architecture Details](architecture.md) and [Architecture Diagram](architecture-diagram.mmd).*
 
 **Infrastructure ownership (platform/DevOps team):**
 - **Infra only:** SSL, Nginx ingress, load balancers, internal domain, Kubernetes cluster, CI/CD, IAM/service accounts, Jupyter VM and Vertex AI (infra side). No application or DS code written by infra.
@@ -90,10 +96,10 @@ The **infrastructure/DevOps team** managed **two main infrastructures** for data
 
 ## Documentation
 
-- **[Architecture Details](architecture.md)** — Two infrastructures, flow (Jupyter → model → Vertex AI; K8s hits Vertex AI; Cloud Function hits K8s first), multi-project, triggers
+- **[Architecture Details](architecture.md)** — What I managed (CI/CD, servers, K8s, vector DB (Qdrant), network, Vertex AI infra, Cloud Function); flow (Jupyter → Vertex AI; K8s hits Vertex AI; Cloud Function → K8s); multi-project, triggers
 - **[Architecture Diagram](architecture-diagram.mmd)** — Mermaid diagram for infra flow
 - **[Metrics & Analysis](metrics.md)** — Business impact (₹700 Cr backbone, 50–60% cost save), scale, deployment
 
 ---
 
-**Note:** This project describes the **infrastructure** for data science and recommendation platforms. The infra team managed SSL, ingress, load balancers, internal domain, K8s, Jupyter VM, Vertex AI (infra), CI/CD, and security across multiple GCP projects; they did not write application or data science code—only CI/CD and infrastructure code to keep the infrastructure running.
+**Note:** Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. CI/CD, servers, containerized applications (K8s), **Qdrant vector DB**, network (SSL, ingress, load balancers, internal domain), Jupyter VM and Vertex AI (infra side), across multiple GCP projects. No application or data science code—only CI/CD and infrastructure code.

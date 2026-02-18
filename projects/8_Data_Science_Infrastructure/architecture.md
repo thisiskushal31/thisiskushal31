@@ -2,29 +2,35 @@
 
 ## System Overview
 
-The **infrastructure/DevOps team** managed the **full infrastructure** for data science and recommendation platforms. The DS team owns application code and models; the infra team owned everything below—**no application or data science code** written by infra. Infra team wrote **CI/CD and infrastructure code** only, to make the infrastructure run.
+**One infrastructure, one outcome.** This project (Data Science Infrastructure) is one project on that infrastructure—just like the [main e-commerce platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/2_Purplle.com_Management). The outcome is the same: recommendations and what data engineering and storefront need. They serve brand and marketing (requirements from them). That’s the ₹700 Crore revenue marketing engine. The DS team owns application code and models; the infra team owned everything below—**no application or data science code** written by infra. Infra team wrote **CI/CD and infrastructure code** only.
 
-**Two main infrastructures:**
-
-1. **Distributed Kubernetes-based (containerized)** — Python services deployed as containerized workloads; Nginx ingress, SSL, load balancers, internal domain exposure so internal teams (recommendation engine, data engineering, storefront) can hit these services.
-2. **Jupyter VM (training) and Vertex AI (model destination and inference endpoint)** — Jupyter on VM for training (IAM/service accounts managed by infra); model uploaded to Vertex AI (Vertex AI is the end of the pipeline; it only gets hit). K8s services hit Vertex AI for inference; Vertex AI only returns output. Cloud Function hits K8s first; triggers: Cloud Function, script on VM, or direct.
+**What I managed (summary of facts):**
+- **CI/CD** — Pipelines, deployment, infra and CI/CD code only (no application code).
+- **Servers** — VMs (e.g. Jupyter), compute; IAM, service accounts.
+- **Containerized applications** — Kubernetes cluster, rollouts, deployment pipeline; DS team deploys application code, I maintained the platform.
+- **Vector DB (Qdrant)** — Operated and maintained Qdrant; DS team owns embedding pipeline; embeddings power recommendations.
+- **Network** — Nginx ingress, SSL, load balancers, internal domain so recommendation engine, data engineering, and storefront can reach services.
+- **Vertex AI (infra side)** — Access, integration; model upload from Jupyter, inference from K8s.
+- **Cloud Function (infra side)** — Provisioning, wiring; event-driven Cloud Function → K8s.
+- **Security** — IAM, service accounts, access.
+- **Multi-project GCP** — Data engineering, data science, main Purplle app in separate projects; I managed infrastructure across them.
 
 **Multi-project:** Data engineering in one GCP project, data science in another, main Purplle application in another. Infra managed across these projects.
 
 ## High-Level Flow
 
-### Infrastructure 1: Kubernetes containerized services (internal services)
+### Infra-maintained components (CI/CD, servers, containerized apps, vector DB, network)
 1. **Nginx ingress** — SSL/certifications, load balancers; entry point for traffic (managed by infra).
 2. **Kubernetes cluster** — DS team deploys mainly **Python code as containerized services**; infra team owned cluster, deployment pipeline, and rollouts.
-3. **Recommendation pipeline:** **DS team** manages the **embedding pipeline**; **infra team** manages the **Qdrant vector DB**. **Embeddings are used to power recommendations** (e.g. semantic similarity). Output is consumed by storefront and data engineering.
-4. **Internal domain exposure** — Services exposed on internal domain so **other teams can hit them** (e.g. recommendation engine, data engineering, storefront). Data science workloads run behind these internal services.
-5. **Consumers:** Internal systems—storefront (public-facing) or data engineering (internal)—request output (e.g. hit DB, get data, run transformation in VM or K8s script, get recommendation/result).
+3. **Vector DB (Qdrant)** — **Infra team** manages the **Qdrant vector DB**; **DS team** manages the **embedding pipeline**. **Embeddings power recommendations** (e.g. semantic similarity). Output is consumed by storefront and data engineering.
+4. **Internal domain (network)** — Services exposed on internal domain so **data engineering and storefront** get the outcomes they need (recommendations, transformed data).
+5. **Consumers:** Data engineering and storefront serve brand and marketing teams. They request recommendations and outcomes; recommendation engine and internal systems hit these services.
 
-### Infrastructure 2: Jupyter VM (training) and Vertex AI (model destination; K8s hits it for inference)
+### Flow (training, inference, event-driven)
 1. **Jupyter VM** — Data science team uses for data fetch and **training**; **IAM, service accounts** managed by DevOps/infra team. Model is stored (e.g. in storage) then **uploaded to Vertex AI**. Vertex AI is the **end** of the training pipeline—it holds the model; it does not sit in the middle.
 2. **Vertex AI** — Receives the uploaded model. **Only K8s hits Vertex AI** (for inference). Vertex AI only returns the inference output; it does not call anything else.
 3. **K8s hits Vertex AI** — The **service deployed on Kubernetes** (Python recommendation/DS services) **hits Vertex AI** for inference when it needs model output. User-facing output can come from K8s (which may call Vertex AI), from Jupyter VM (e.g. script output), or via Cloud Function.
-4. **Cloud Function hits K8s first** — In event-driven flow, **Cloud Function** triggers and **hits K8s first**; K8s then gets data (and may call Vertex AI). Cloud Function does not call Vertex AI directly.
+4. **Cloud Function → K8s** — In event-driven flow, **Cloud Function → K8s**; K8s then gets data (and may call Vertex AI). Cloud Function does not call Vertex AI directly.
 5. **Triggering training/jobs:** **Cloud Function** (event-driven), **script on the training VM**, or **direct** (IAM, service account).
 
 ## Architecture Layers (Infrastructure)
@@ -49,7 +55,7 @@ The **infrastructure/DevOps team** managed the **full infrastructure** for data 
 - **Ownership:** Infra—access, integration with pipeline; DS team—models and model code.
 
 ### 5. Event-driven and triggers (infra owned where it’s infra)
-- **Cloud Function** — In event-driven flow, **Cloud Function hits K8s first**; K8s then gets data (and may call Vertex AI). Cloud Function can also trigger VM/jobs. Cloud Function does not call Vertex AI directly.
+- **Cloud Function** — In event-driven flow, **Cloud Function → K8s**; K8s then gets data (and may call Vertex AI). Cloud Function can also trigger VM/jobs. Cloud Function does not call Vertex AI directly.
 - **Direct** — IAM, service account to start job; or scripts on VM.
 - **Ownership:** Infra—provisioning, security, wiring; DS team—event producers and consumers (application logic).
 
@@ -82,5 +88,5 @@ The **infrastructure/DevOps team** managed the **full infrastructure** for data 
 ## Documentation
 
 - **[README](README.md)** — Project overview, business impact (₹700 Cr backbone, 50–60% cost save), AdTech link
-- **[Architecture Diagram](architecture-diagram.mmd)** — Mermaid diagram for two infrastructures and flow
+- **[Architecture Diagram](architecture-diagram.mmd)** — Mermaid diagram for infra flow
 - **[Metrics](metrics.md)** — Business and operational metrics
