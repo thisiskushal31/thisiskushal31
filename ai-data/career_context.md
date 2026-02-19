@@ -151,7 +151,7 @@ GitHub: https://github.com/thisiskushal31
 ```
 - Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling and 33% site downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
 - Reduced time-to-insight for brand teams by ~50% operated infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
-- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant)
+- Maintained infrastructure for the ₹700 Cr revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
 - Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
 - Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
 - Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
@@ -315,7 +315,7 @@ Deploying and managing high-availability infrastructure, observability, and prod
 **Key Achievements:**
 - Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling and 33% site downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
 - Reduced time-to-insight for brand teams by ~50% by operating infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
-- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant)
+- Maintained infrastructure for the ₹700 Cr revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
 - Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
 - Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
 - Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
