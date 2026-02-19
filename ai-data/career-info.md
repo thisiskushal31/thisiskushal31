@@ -1,4 +1,4 @@
-# Career Context - Kushal Gupta
+# Career Information - Kushal Gupta
 
 **Purpose:** This document consolidates all career information, achievements, skills, and projects to be used as context for:
 - Generating value-driven cold emails
@@ -11,7 +11,7 @@
 
 **GitHub Raw File:** This document can be accessed as a raw file on GitHub for easy integration with AI tools and automation:
 ```
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career_context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 ```
 
 **Last Updated:** Feb 2026
@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/
 > - Maintain all historical achievements and metrics
 > - Add new company details (industry, location, website) in the template section
 
----
+...
 
 ## 📱 LinkedIn Profile Data (Complete Reference)
 
@@ -33,27 +33,25 @@ https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/
 
 ### LinkedIn Profile Structure:
 
-**1. LinkedIn About Section** → See "📝 LinkedIn About Section" (Line 43)
+**1. LinkedIn About Section** → See "📝 LinkedIn About Section" below
 - Copy-paste ready format
 - Character count: ~1,050 characters
 - Includes: Professional summary, key capabilities, GitHub link
 
-**2. Experience (three formats)** → See "💼 Experience section — consolidated in three parts"
-- **1. LinkedIn** — Copy-paste for LinkedIn profile (Entry 1: SDE1, Entry 2: Associate, Entry 3: Intern)
-- **2. Resume** — For resume/CV (roles, Key Achievements, Technologies Used)
-- **3. Portfolio website** — For portfolio-website `portfolio.ts` experience array
-- All three are maintained in this document and used as references for LinkedIn, resume (e.g. resume_concise.tex), and portfolio site.
+**2. Experience (three formats)** → See "Experience" section below
+- **1. LinkedIn** — Copy-paste for LinkedIn profile; one entry per role at each company (shows career progression)
+- **2. Resume** — For resume/CV: one consolidated entry per company (Role Description, Key Achievements, Technologies Used) → resume_concise.tex
+- **3. Portfolio website** — For portfolio-website `portfolio.ts` experience array (one entry per role at each company)
 
-**3. LinkedIn Headline** → See "👤 Personal Information" (Line 30)
+**3. LinkedIn Headline** → See "👤 Personal Information" below
 - Professional Title: "Software Engineer | Platform Engineering · DevOps · Cloud Infrastructure · Cloud-Native Software Development"
 
-**4. LinkedIn Location** → See "👤 Personal Information" (Line 26)
-- Location: Mumbai, India
+**4. LinkedIn Location** → See "👤 Personal Information" below
+- Location: Kolk, India
 
 **LinkedIn Optimization Notes:**
-- ✅ Format: Separate roles per company (shows career progression)
-- ✅ Includes: Internship experience (Jan 2023 - Jun 2023)
-- ✅ Timeline: Full career progression (vs. consolidated resume format)
+- ✅ Format: Separate entries per role at each company (shows career progression)
+- ✅ Timeline: Full career progression at each company (vs. consolidated resume format)
 - ✅ Strategy: Career progression and promotions visible
 
 ---
@@ -104,21 +102,19 @@ GitHub: https://github.com/thisiskushal31
 - **Capabilities:** Platform engineering, automation, developer tooling, production operations
 - **System Design:** Understanding the "why" and choosing optimal architecture for each problem
 
-**Update Instructions:**
-- Update achievements and metrics as you progress
-- Add new technologies or platforms as you gain experience
-- Update focus areas if priorities shift
-- Keep the core message about end-to-end ownership and business impact
-
 ---
 
-## EXPERIENCE
+## Experience
 
----
+Experience is maintained in three formats in this document. Use the appropriate one for each channel:
 
-## LINKEDIN EXPERIENCE (BROKEN INTO ROLES)
+- **LinkedIn experience (broken into roles)** — One entry per role at each company; copy-paste for LinkedIn profile.
+- **Resume experience (consolidated under one role per company)** — One merged entry per company for resume/CV (e.g. resume_concise.tex): Role Description, Key Achievements, Technologies Used.
+- **Portfolio website experience** — One entry per role at each company for `portfolio.ts`: duration, type, description, achievements, technologies.
 
-### 🏢 Company 1: Purplle.com
+### LinkedIn Experience (broken into roles)
+
+#### 🏢 Company 1: Purplle.com
 
 **Company Overview:**
 - **Industry:** E-Commerce (Beauty & Personal Care)
@@ -126,7 +122,7 @@ GitHub: https://github.com/thisiskushal31
 - **Location:** Mumbai, Maharashtra, India
 - **Company Website:** https://www.purplle.com
 
-#### Entry 1: SDE1 - DevOps
+**SDE1 - DevOps**
 **Period:** May 2024 - Present (1 year 8 months)  
 **Location:** Mumbai, Maharashtra, India
 
@@ -145,7 +141,7 @@ GitHub: https://github.com/thisiskushal31
 - Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
 ```
 
-#### Entry 2: Associate Software Engineer
+**Associate Software Engineer**
 **Period:** June 2023 - May 2024 (1 year)  
 **Location:** Mumbai, Maharashtra, India
 
@@ -159,7 +155,7 @@ GitHub: https://github.com/thisiskushal31
 - Strengthened cloud security posture by leading initiatives in IAM role minimization, Secure Boot, and automated cleanup of public IPs and service accounts — resulting in improved compliance and reduced attack surface.
 ```
 
-#### Entry 3: DevOps Intern
+**DevOps Intern**
 **Period:** January 2023 - June 2023 (6 months)  
 **Location:** Mumbai, Maharashtra, India
 
@@ -171,11 +167,50 @@ GitHub: https://github.com/thisiskushal31
 
 ---
 
-## Portfolio website (BROKEN INTO ROLES)
+### Resume Experience (consolidated under one role per company)
+
+One role per company; use for resume/CV (e.g. resume_concise.tex). All experience at a company is merged into one entry without dropping content.
 
 #### 🏢 Company 1: Purplle.com
 
-#### Role 1: SDE1 - DevOps
+**Role: DevOps Engineer**
+**Period:** January 2023 - Present  
+**Type:** Full-time (includes role progression from start date)
+
+**Role Description:**
+Started by building and deploying monitoring and alerting systems for cloud infrastructure to improve uptime and reliability. Progressed to cloud cost optimization, disaster recovery, and security enhancements for operational efficiency and system resilience. Currently deploying and managing high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99%+ uptime and optimized cloud operations at Purplle.com. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
+
+**Key Achievements:**
+- Achieved >98% uptime by deploying a robust monitoring and alerting system using Prometheus and Grafana, resulting in faster detection and resolution of issues
+- Improved platform reliability by collaborating across teams to resolve high-impact issues in production infrastructure
+- Achieved 40–50% cost savings by performing cloud infrastructure rightsizing and cleaning up unused resources, resulting in optimized cloud spend
+- Improved system resilience by designing and implementing backup and disaster recovery solutions, with multiple PoCs promoted to production
+- Enhanced operational efficiency by deploying an on-call alerting system, reducing mean incident response time from 30 to 7 minutes
+- Reduced site downtime by 50% during sale events through infrastructure optimization and proactive monitoring
+- Enabled QA velocity by deploying Hypertest (A Third Party Testing Tool) infrastructure, delivering it ahead of schedule and handing over to the dev team
+- Strengthened cloud security posture by leading initiatives in IAM role minimization, Secure Boot, and automated cleanup of public IPs and service accounts — resulting in improved compliance and reduced attack surface
+- Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling and 33% site downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
+- Reduced time-to-insight for brand teams by ~50% by operating infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
+- Maintained infrastructure for the ₹700 Cr revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
+- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
+- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
+- Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
+- Reduced MTTR from 30 to 7 minutes and incident response time by modernizing CI/CD (Jenkins freestyle → scripted pipelines, Slack alerts) and architecting unified observability (Prometheus, Grafana) with automated escalation
+- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup (improving security posture by removing unused resources)
+- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
+
+**Technologies Used:**
+GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/CD, Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Trivy, GitLab CI, Secrets Manager, SSO, IAM, Keycloak, ALB, GCLB, Route53, WAF, VPC
+
+---
+
+### Portfolio Website Experience
+
+Use for **portfolio-website** `src/config/portfolio.ts` — the `experience` array. When adding a new company, copy from the Template below.
+
+#### 🏢 Company 1: Purplle.com
+
+**SDE1 - DevOps**
 **portfolio.ts fields:** `company`, `role`, `location`, `duration`, `type`, `description`, `achievements`, `technologies`
 
 **duration:** May 2024 - Present  
@@ -197,7 +232,7 @@ GitHub: https://github.com/thisiskushal31
 
 ---
 
-#### Role 2: Associate Software Engineer
+**Associate Software Engineer**
 **duration:** June 2023 - May 2024  
 **type:** Full-time  
 **description:** Focused on cloud cost optimization, disaster recovery, and security enhancements to improve operational efficiency and system resilience.
@@ -214,7 +249,7 @@ GitHub: https://github.com/thisiskushal31
 
 ---
 
-#### Role 3: DevOps Intern
+**DevOps Intern**
 **duration:** January 2023 - June 2023  
 **type:** Internship  
 **description:** Built and deployed monitoring systems for cloud infrastructure to improve uptime and system reliability.
@@ -227,68 +262,9 @@ GitHub: https://github.com/thisiskushal31
 
 ---
 
-## RESUME (IN ONE ROLE DEVOPS ENGINEER)
+### Template (both consolidated and broken)
 
-#### 🏢 Company 1: Purplle.com
-
-##### Role 1: SDE1 - DevOps
-**Period:** May 2024 - Present  
-**Type:** Full-time
-
-**Role Description:**
-Deploying and managing high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99%+ uptime and optimized cloud operations at Purplle.com. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
-
-**Key Achievements:**
-- Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling and 33% site downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
-- Reduced time-to-insight for brand teams by ~50% by operating infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
-- Maintained infrastructure for the ₹700 Cr revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
-- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
-- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
-- Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
-- Reduced MTTR from 30 to 7 minutes and incident response time by modernizing CI/CD (Jenkins freestyle → scripted pipelines, Slack alerts) and architecting unified observability (Prometheus, Grafana) with automated escalation
-- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup (improving security posture by removing unused resources)
-- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
-
-**Technologies Used:**
-GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/CD, Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Trivy, GitLab CI, Secrets Manager, SSO, IAM, Keycloak, ALB, GCLB, Route53, WAF, VPC
-
-##### Role 2: Associate Software Engineer
-**Period:** June 2023 - May 2024  
-**Type:** Full-time
-
-**Role Description:**
-Focused on cloud cost optimization, disaster recovery, and security enhancements to improve operational efficiency and system resilience.
-
-**Key Achievements:**
-- Achieved 40–50% cost savings by performing cloud infrastructure rightsizing and cleaning up unused resources, resulting in optimized cloud spend
-- Improved system resilience by designing and implementing backup and disaster recovery solutions, with multiple PoCs promoted to production
-- Enhanced operational efficiency by deploying an on-call alerting system, reducing mean incident response time from 30 to 7 minutes
-- Reduced site downtime by 50% during sale events through infrastructure optimization and proactive monitoring
-- Enabled QA velocity by deploying Hypertest (A Third Party Testing Tool) infrastructure, delivering it ahead of schedule and handing over to the dev team
-- Strengthened cloud security posture by leading initiatives in IAM role minimization, Secure Boot, and automated cleanup of public IPs and service accounts — resulting in improved compliance and reduced attack surface
-
-**Technologies Used:**
-GCP, AWS, Terraform, Python, Prometheus, Grafana, Kubernetes, CI/CD
-
-##### Role 3: DevOps Intern
-**Period:** January 2023 - June 2023  
-**Type:** Internship
-
-**Role Description:**
-Built and deployed monitoring systems for cloud infrastructure to improve uptime and system reliability.
-
-**Key Achievements:**
-- Achieved >98% uptime by deploying a robust monitoring and alerting system using Prometheus and Grafana, resulting in faster detection and resolution of issues
-- Improved platform reliability by collaborating across teams to resolve high-impact issues in production infrastructure
-
-**Technologies Used:**
-Prometheus, Grafana, GCP
-
----
-
-## TEMPLATE (BOTH CONSOLIDATED AND BROKEN)
-
-> **Use for:** When you join a new company, copy the relevant parts below into **1. LinkedIn Experience**, **2. Work Experience**, or **3. Portfolio Website Experience** as needed. Keep this template at the end of the Experience section for reference.
+When you join a new company, copy the relevant parts below into **LinkedIn Experience**, **Resume Experience**, or **Portfolio Website Experience** as needed.
 
 **Company Overview:**
 - **Industry:** [Industry Name]
@@ -313,16 +289,16 @@ Prometheus, Grafana, GCP
 
 ## 🔗 Online Presence & Contact Information
 
-- **Portfolio:** [portfolio URL]
-- **Bio Links:** [bio links URL]
-- **Blog:** [blog URL]
-- **DocHub:** [dochub URL]
-- **LinkedIn:** https://www.linkedin.com/in/kushal-gupta-31
+- **Portfolio:** https://kushal.cv/
+- **Bio Links:** https://bio.kushal.cv/
+- **Blog:** https://blog.kushal.cv/
+- **DocHub:** https://thisiskushal31.github.io/dochub/
+- **LinkedIn:** https://www.linkedin.com/in/thisiskushalgupta
 - **GitHub:** https://github.com/thisiskushal31
-- **X (Twitter):** [X URL]
-- **Hashnode:** [hashnode URL]
-- **Medium:** [medium URL]
-- **LeetCode:** [leetcode URL]
+- **X (Twitter):** https://x.com/thisis_kushal
+- **Hashnode:** https://thisiskushal.hashnode.dev/
+- **Medium:** https://thisiskushalgupta.medium.com/
+- **LeetCode:** https://leetcode.com/u/Quick067/
 - **GCP Badges:** [Credly](https://www.credly.com/badges/7af9ebab-6364-42a3-b1b8-200fb56b101a/public_url)
 
 ---
@@ -349,53 +325,120 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 
 ## 🛠️ Technical Skills
 
+*Aligned with portfolio-website `src/config/portfolio.ts` skills categories.*
+
 ### Languages & Scripting
-- Python, Bash/Shell, JavaScript, TypeScript, Node.js, C/C++
+- Python
+- Bash/Shell
+- JavaScript
+- TypeScript
+- Node.js
+- C/C++
 
 ### Fundamentals
-- Data Structures, Algorithms, System Design, Networking, Operating Systems
+- Data Structures
+- Algorithms
+- System Design
+- Networking
+- Operating Systems
 
 ### CI/CD & Automation
-- Git, Jenkins, GitOps workflows, n8n, Ansible, Terraform, OpenTofu, ArgoCD, GitLab CI, GitHub Actions
+- Git
+- Jenkins
+- GitOps workflows
+- n8n
+- Ansible
+- Terraform
+- OpenTofu
+- ArgoCD
+- GitLab CI
+- GitHub Actions
 
 ### Cloud & Infrastructure
-- Google Cloud Platform (GCP), Amazon Web Services (AWS), Google Kubernetes Engine (GKE), GCR, GCS, Compute Engine, Cloud SQL, Load Balancer, VPC, WAF, Docker, Kubernetes, Route53, GCP CloudDNS
+- Google Cloud Platform (GCP)
+- Amazon Web Services (AWS)
+- Google Kubernetes Engine (GKE)
+- GCR
+- GCS
+- Compute Engine
+- Cloud SQL
+- Load Balancer
+- VPC
+- WAF
+- Docker
+- Kubernetes
+- Route53
+- GCP CloudDNS
 
 ### Architecture & System Design
-- Distributed Systems, Microservices, Scalability Patterns, High Availability, Disaster Recovery
+- Distributed Systems
+- Microservices
+- Scalability Patterns
+- High Availability
+- Disaster Recovery
 
 ### Generative AI & LLM Engineering
-- MCP (Model Context Protocol) and Agentic AI, Production ML / AI infrastructure, Vertex AI
+- MCP (Model Context Protocol) and Agentic AI
+- Production ML / AI infrastructure
+- Vertex AI
 
 ### AI Tools I Use
-- ChatGPT, Claude, GitHub Copilot, Cursor, Lovable
+- ChatGPT
+- Claude
+- GitHub Copilot
+- Cursor
+- Lovable
 
 ### Monitoring & Observability
-- Prometheus, Grafana, Datadog, PagerDuty
+- Prometheus
+- Grafana
+- Datadog
+- PagerDuty
 
 ### Databases
-- MySQL, MongoDB, Elasticsearch, Redis, Qdrant (vector DB for RAG, semantic search)
+- MySQL
+- MongoDB
+- Elasticsearch
+- Redis
+- Qdrant (vector DB for RAG, semantic search)
 
 ### Message Queues & Streaming
 - Kafka
 
 ### Cybersecurity & Security Tools
-- Secrets Manager, SSO, IAM, Zero-Trust Architecture, Defense-in-Depth, Trivy, SAST, DAST, Incident Response, Security Command Center
+- Secrets Manager
+- SSO
+- IAM
+- Zero-Trust Architecture
+- Defense-in-Depth
+- Trivy
+- SAST
+- DAST
+- Incident Response
+- Security Command Center
 
 ### Networking Protocols
-- gRPC, TCP/IP Model, OSI Model
+- gRPC
+- TCP/IP Model
+- OSI Model
 
 ### Backend & API
-- FastAPI, Serverless Architectures, GCP Functions, REST APIs
+- FastAPI
+- Serverless Architectures
+- GCP Functions
+- REST APIs
 
 ### Frontend Development
 - React
 
 ### Modern Deployment & Hosting
-- Vercel, Netlify
+- Vercel
+- Netlify
 
 ### Web Server Hosting
-- Linux, Nginx, Apache
+- Linux
+- Nginx
+- Apache
 
 ---
 
@@ -570,7 +613,7 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 - **76% MTTR reduction** - From 30 minutes to 7 minutes via unified observability stack
 - **99%+ service uptime** - Sustained across retail stores and production systems
 - **30% cloud cost reduction** - Through rightsizing, autoscaling, and resource cleanup
-- **40-50% cost savings** - Achieved during Associate Software Engineer role
+- **40-50% cost savings** - Cloud infrastructure rightsizing and optimization
 - **50-60% cost saving** - Data Science Infrastructure (e.g. image tagging for Meta/Google ads)
 - **93% cost reduction** - AdTech platform (₹80 Lakh → ₹5.7 Lakh)
 - **~50% faster time-to-insight** - Agentic RAG platform for brand teams
@@ -582,7 +625,7 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 - **Total Professional Experience:** January 2023 - Present
 - **Companies Worked At:** 1 (Purplle.com)
 - **Current Company:** Purplle.com
-- **Current Role:** SDE1 - DevOps
+- **Current role:** See Experience section (Resume or LinkedIn)
 - **Projects Deployed to Production:** 5+
 - **Cloud Platforms:** GCP, AWS
 - **99%+ uptime** achieved across production systems
@@ -591,23 +634,15 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 
 **Purplle.com (January 2023 - Present):**
 - **Total Duration:** January 2023 - Present
-- **Roles:** DevOps Intern → Associate Software Engineer → SDE1 - DevOps
+- **Roles:** See Experience section — LinkedIn (broken into roles) or Portfolio for full progression; Resume for consolidated view.
 - **Key Projects:** Main e-commerce platform (Purplle.com), PurplleAds (AdTech), Nexus (POS), Data Science Infrastructure, Agentic RAG Sentiment Platform, Unified Observability Stack, Infrastructure as Code (IaC), Security Hardening & Zero-Trust
 
 ---
 
 ## 📝 Technical Writing & Content
 
-### Blog Topics Covered
-- **AI Security:** Shift-left security practices, AI integration in DevOps
-- **Elasticsearch:** Comprehensive deployment guides (8-part series)
-  - Elastic Cloud vs Self-Managed
-  - Docker and Kubernetes deployments
-  - Local development setups
-  - Decision matrices
-
 ### Publishing Platforms
-- **Personal Blog:** https://thisiskushal31.github.io/blog/
+- **Personal Blog:** https://blog.kushal.cv/
 - **Hashnode:** https://thisiskushal.hashnode.dev/
 - **Medium:** https://thisiskushalgupta.medium.com/
 
@@ -645,6 +680,10 @@ Comprehensive documentation and learning resources across multiple repositories:
 - Technical Writing & Knowledge Sharing
 - Open Source Contributions
 - AI/ML Integration
+- Agentic AI
+- AL/ML Infrastructure
+- MLOps
+- Automation
 
 ---
 
@@ -662,7 +701,7 @@ Comprehensive documentation and learning resources across multiple repositories:
 
 ### Key Differentiators
 - **Automation-Focused:** Reduced manual tasks by 40%+ through intelligent automation and AI-powered workflows
-- **Cost-Conscious:** Achieved 30% cloud cost reduction (SDE1 role) and 40-50% cost savings (Associate role) through optimization
+- **Cost-Conscious:** Achieved 30% cloud cost reduction and 40-50% cost savings through rightsizing, autoscaling, and optimization
 - **Reliability-Driven:** Maintained 99%+ uptime across retail stores and production systems
 - **Security-Minded:** Implemented zero-trust principles, Kubernetes RBAC, Trivy scanning, and automated security controls
 - **Documentation-Oriented:** Clear docs, runbooks, and knowledge transfer
