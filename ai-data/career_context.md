@@ -11,7 +11,7 @@
 
 **GitHub Raw File:** This document can be accessed as a raw file on GitHub for easy integration with AI tools and automation:
 ```
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career_context.md
 ```
 
 **Last Updated:** Feb 2026
@@ -38,7 +38,7 @@ https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/
 - Character count: ~1,050 characters
 - Includes: Professional summary, key capabilities, GitHub link
 
-**2. LinkedIn Experience Entries** → See "💼 LinkedIn Experience Section" (Line 79)
+**2. LinkedIn Experience Entries** → See "💼 LinkedIn Experience (copy-paste for LinkedIn profile)"
 - **Entry 1:** SDE1 - DevOps (May 2024 - Present)
 - **Entry 2:** Associate Software Engineer (June 2023 - May 2024)
 - **Entry 3:** DevOps Intern (January 2023 - June 2023)
@@ -112,9 +112,9 @@ GitHub: https://github.com/thisiskushal31
 
 ---
 
-## 💼 LinkedIn Experience Section
+## 💼 LinkedIn Experience (copy-paste for LinkedIn profile)
 
-> **📌 Note:** This section is specifically formatted for LinkedIn profile entries (separate roles per company). The "Work Experience" section below is formatted for resume/CV (consolidated roles). Both contain the same achievements but in different formats optimized for each platform.
+> **📌 Note:** Use this section for your **LinkedIn profile**—separate entries per role (Entry 1, 2, 3) so you can paste each into a separate LinkedIn experience card. For **resume/CV** format, see "Work Experience (resume/CV)" below. Same achievements, different layout.
 
 **Strategy:** Separate roles per company to show career progression (vs. consolidated resume format)
 
@@ -149,17 +149,13 @@ GitHub: https://github.com/thisiskushal31
 
 **Copy-Paste Ready Description:**
 ```
-- Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue, 7M total users with 4x traffic spike handling during major sales events, reducing site downtime by 33%
-- Reduced time-to-insight for brand teams by ~50%: operated infra for agentic RAG sentiment platform (K8s, vector DB, GPU, CI/CD for distributed, scalable AI services), enabling faster campaigns and better decision-making on influencer content
-- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Multi-project GCP. Infra only, no app code
+- Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling and 33% site downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
+- Reduced time-to-insight for brand teams by ~50% operated infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
+- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant)
 - Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
 - Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
-- Engineered DR solutions and automated backups for MySQL, MongoDB, and Elasticsearch, ensuring data resilience and integrity
-- Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining provisioning
-- Managed 125+ Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring production reliability and scalability
-- Accelerated infrastructure delivery by 40%+ through CI/CD automation (Terraform, Jenkins, GitOps), automating 40%+ of provisioning tasks
-- Modernized CI/CD by migrating Jenkins from freestyle to scripted pipelines with Slack alerts, reducing incident response time
-- Reduced MTTR from 30 to 7 minutes by architecting unified observability stack (Prometheus, Grafana) with automated escalation
+- Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
+- Reduced MTTR from 30 to 7 minutes and incident response time by modernizing CI/CD (Jenkins freestyle → scripted pipelines, Slack alerts) and architecting unified observability (Prometheus, Grafana) with automated escalation
 - Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup (improving security posture by removing unused resources)
 - Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
 ```
@@ -293,9 +289,9 @@ https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606c
 
 ---
 
-## 💼 Work Experience
+## 💼 Work Experience (resume/CV)
 
-> **📌 Note:** This section is formatted for resume/CV (consolidated roles per company). The "LinkedIn Experience Section" above is formatted for LinkedIn profile entries (separate roles per company). Both contain the same experience data as in this document.
+> **📌 Note:** Use this section for your **resume or CV**—one company with roles and Key Achievements, Technologies Used. For **LinkedIn profile** (separate entries per role), see "LinkedIn Experience (copy-paste for LinkedIn profile)" above. Same experience data, resume-optimized layout.
 
 > **📝 Update Instructions:** When switching companies, add a new company section below. Keep all previous companies for historical reference. Update "Current Company" section at the top. Update role descriptions and achievements here so this document remains the single source of truth.
 
@@ -317,17 +313,13 @@ https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606c
 Deploying and managing high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99%+ uptime and optimized cloud operations at Purplle.com. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
 
 **Key Achievements:**
-- Managed and maintained main e-commerce platform infrastructure (Purplle.com) under high load, supporting ₹700 Crore annual revenue, 7M total users with 4x traffic spike handling during major sales events, reducing site downtime by 33%
-- Reduced time-to-insight for brand teams by ~50%: operated infra for agentic RAG sentiment platform (K8s, vector DB, GPU, CI/CD for distributed, scalable AI services), enabling faster campaigns and better decision-making on influencer content
-- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Multi-project GCP.
+- Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling and 33% site downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
+- Reduced time-to-insight for brand teams by ~50% by operating infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
+- Maintained infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant)
 - Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
 - Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
-- Engineered DR solutions and automated backups for MySQL, MongoDB, and Elasticsearch, ensuring data resilience and integrity
-- Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python, streamlining provisioning
-- Managed 125+ Kubernetes deployments on GKE, including Hypertest (QA tool), ensuring production reliability and scalability
-- Accelerated infrastructure delivery by 40%+ through CI/CD automation (Terraform, Jenkins, GitOps), automating 40%+ of provisioning tasks
-- Modernized CI/CD by migrating Jenkins from freestyle to scripted pipelines with Slack alerts, reducing incident response time
-- Reduced MTTR from 30 to 7 minutes by architecting unified observability stack (Prometheus, Grafana) with automated escalation
+- Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
+- Reduced MTTR from 30 to 7 minutes and incident response time by modernizing CI/CD (Jenkins freestyle → scripted pipelines, Slack alerts) and architecting unified observability (Prometheus, Grafana) with automated escalation
 - Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup (improving security posture by removing unused resources)
 - Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
 
@@ -805,4 +797,3 @@ Comprehensive documentation and learning resources across multiple repositories:
 ---
 
 **End of Career Context Document**
-
