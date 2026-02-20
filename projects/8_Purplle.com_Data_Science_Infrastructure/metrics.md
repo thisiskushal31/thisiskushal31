@@ -3,7 +3,7 @@
 ## Business Impact Metrics
 
 ### Revenue backbone
-- **₹700 Crore revenue marketing engine** — Data engineering and storefront serve brand and marketing (requirements from them). Infrastructure supported their recommendations and outcomes. Backbone of the revenue marketing engine. **Vector DB (Qdrant)** and embeddings power recommendations (e.g. search lipstick → get lipstick, ad placement, other brands’ lipstick; not unrelated products). Other brands’ recommendations drove ad revenue for Purplle (see [AdTech platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Adtech.purplle.com_Deployment)).
+- **₹700 Crore revenue marketing engine** — Data engineering and storefront serve brand and marketing (requirements from them). Infrastructure supported their recommendations and outcomes. Backbone of the revenue marketing engine. **Vector DB (Qdrant)** and embeddings power recommendations (e.g. search lipstick → get lipstick, ad placement, other brands’ lipstick; not unrelated products). Other brands’ recommendations drove ad revenue for Purplle (see [AdTech platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Purplle.com_Adtech_Deployment)).
 
 ### Cost saving (models for internal tasks)
 - **50–60% cost saving** — Models were used for **internal tasks** such as **image tagging for Meta ads, Google Search ads**, and similar work that would otherwise require manual tagging. This **saved 50–60% of the cost** of doing those tasks manually.

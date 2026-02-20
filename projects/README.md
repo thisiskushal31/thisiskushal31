@@ -52,35 +52,53 @@ This directory contains comprehensive documentation for infrastructure projects 
 - **Key Technologies:** Terraform, Ansible, Jenkins, GitLab CI, GitOps, Python
 - [View Details →](./5_Purplle.com_IAC_Deployment/)
 
-#### [Adtech.purplle.com Deployment](./6_Adtech.purplle.com_Deployment/)
-![Quick Info Image](../assets/projects/6_Adtech.purplle.com_Deployment.png)
+#### [Purplle.com Adtech Deployment](./6_Purplle.com_Adtech_Deployment/)
+![Quick Info Image](../assets/projects/6_Purplle.com_Adtech_Deployment.png)
 **In-House AdTech Platform** - Brand management and advertising platform  
 - **Scale:** 7M total users, 150K DAU (600K during major sales, 300K during minor sales), ₹400+ Crore brand advertising revenue
 - **Infrastructure:** 100+ production services, GKE, multi-cloud (AWS + GCP)
 - **Achievements:** 93% cost reduction (₹80 Lakh → ₹5.7 Lakh), 4x traffic spike handling during major sales
 - **Key Technologies:** Kubernetes, Terraform, GitLab CI, Keycloak
-- [View Details →](./6_Adtech.purplle.com_Deployment/)
+- [View Details →](./6_Purplle.com_Adtech_Deployment/)
 
-#### [Agentic RAG Sentiment Platform](./7_Agentic_RAG_Sentiment_Platform/)
-![Quick Info Image](../assets/projects/7_Agentic_RAG_Sentiment_Platform.png)
+#### [Purplle.com Agentic RAG Sentiment Platform](./7_Purplle.com_Agentic_RAG_Sentiment_Platform/)
+![Quick Info Image](../assets/projects/7_Purplle.com_Agentic_RAG_Sentiment_Platform.png)
 **Influencer Content Sentiment Intelligence** - RAG-based semantic search for campaign optimization  
 - **Scale:** Purplle-owned influencer video content (YouTube, Instagram); semantic search over configurable time windows (e.g., last 2 days, 7 days)
 - **Infrastructure:** Kubernetes, GPU workloads (CUDA), Qdrant vector DB, self-deployed ChatGPT (distributed), MCP/agentic RAG
 - **Achievements:** High-availability AI pipeline, CI/CD for embedding and RAG updates, faster decision support for brand teams
 - **Key Technologies:** Kubernetes, Qdrant, Python, Docker, CI/CD, cosine similarity, metadata filters, MCP
-- [View Details →](./7_Agentic_RAG_Sentiment_Platform/)
+- [View Details →](./7_Purplle.com_Agentic_RAG_Sentiment_Platform/)
 
-#### [Data Science Infrastructure](./8_Data_Science_Infrastructure/)
-![Quick Info Image](../assets/projects/8_Data_Science_Infrastructure.png)
+#### [Purplle.com Data Science Infrastructure](./8_Purplle.com_Data_Science_Infrastructure/)
+![Quick Info Image](../assets/projects/8_Purplle.com_Data_Science_Infrastructure.png)
 **Data Science Infrastructure (full infra)** - Distributed containerized architecture, Nginx ingress, K8s cluster, deployment, internal domain exposure, CI/CD, security; infra for Composer, Jupyter/VMs, Vertex AI, Qdrant  
 - **Scale:** Nginx ingress → K8s cluster → deployment → internal domain; Git → VM, Composer; infra for Qdrant, Vertex AI, Airflow (Composer), training VMs (Jupyter)
 - **Infrastructure:** Ingress, cluster, deployment, internal domains; CI/CD (Git → VM, Composer); security; did not manage DS code
 - **Achievements:** Full project infra ownership; internal domain exposure; infra for Composer, VMs, Vertex AI, Qdrant
 - **Key Technologies:** Kubernetes, Nginx Ingress, Qdrant, Vertex AI, Airflow, GCP Composer, Jupyter, CI/CD, Git, GCP, Docker
-- [View Details →](./8_Data_Science_Infrastructure/)
+- [View Details →](./8_Purplle.com_Data_Science_Infrastructure/)
 
-#### [Grid Platform - OSS Project](./9_GridPlatform_OSS_Project/)
-![Quick Info Image](../assets/projects/9_GridPlatform_OSS_Project.png)
+#### [Purplle.com Data Engineering Infrastructure](./9_Purplle.com_Data_Engineering_Infrastructure/)
+![Quick Info Image](../assets/projects/9_Purplle.com_Data_Engineering_Infrastructure.png)
+**Data Engineering Infrastructure (infra only)** - K8s, CI/CD, Kafka, MySQL, Pub/Sub, DAG sync to Composer; DE team focused on data warehousing and processing.  
+- **Scale:** Infra for DE pipeline: MySQL → transform → BigQuery/BigTable; consumed by Data Science, Martech, SCM
+- **Infrastructure:** GKE, ArgoCD, Helm, Terraform, GitLab CI, Jenkins; Kafka, MySQL, Pub/Sub; Composer (Airflow); networking, zero-trust
+- **Achievements:** HA for DE platform; infra so DE team could focus on data warehousing and processing
+- **Key Technologies:** Kubernetes, Terraform, ArgoCD, Helm, GitLab CI, Jenkins, Kafka, MySQL, Pub/Sub, GCP Composer, Cloud Functions
+- [View Details →](./9_Purplle.com_Data_Engineering_Infrastructure/)
+
+#### [Purplle.com Legacy Admin Panels Infrastructure](./10_Purplle.com_Legacy_Admin_Panels_Infrastructure/)
+![Quick Info Image](../assets/projects/10_Purplle.com_Legacy_Admin_Panels_Infrastructure.png)
+**Legacy Backend Admin Panels (infra only)** - Managed system for business teams: front banner, campaigns, Martech, logistics. PHP monolith (front-end maintained) calls distributed K8s via internal load balancer.  
+- **Scale:** Legacy PHP monolith + distributed microservices (K8s); MySQL backs legacy; internal LB legacy → K8s
+- **Infrastructure:** CI/CD, network, monolith deployment, load balancer (high load), MySQL, internal load balancer
+- **Achievements:** Infra for legacy admin panels; load balancer under high load; legacy–distributed path via internal LB
+- **Key Technologies:** PHP (legacy), Kubernetes, MySQL, Load balancer, CI/CD
+- [View Details →](./10_Purplle.com_Legacy_Admin_Panels_Infrastructure/)
+
+#### [Grid Platform - OSS Project](./11_GridPlatform_OSS_Project/)
+![Quick Info Image](../assets/projects/11_GridPlatform_OSS_Project.png)
 **AI-First Infrastructure Management Platform** - Open-source infrastructure automation  
 - **Scale:** Open-source platform for infrastructure management
 - **Infrastructure:** AI-powered automation, multi-cloud support, Infrastructure as Code
@@ -159,10 +177,12 @@ Each project follows a consistent documentation structure:
 | [Nexus.purplle.com](./3_Nexus.purplle.com_Deployment/) | POS Platform | 100+ stores | ✅ Live |
 | [Security Improvement](./4_Purplle.com_SecurityImprovement/) | Security Hardening | 125+ Microservices Distributed Workload | ✅ Implemented |
 | [IAC Deployment](./5_Purplle.com_IAC_Deployment/) | Infrastructure Automation | 40%+ faster | ✅ Implemented |
-| [Adtech.purplle.com](./6_Adtech.purplle.com_Deployment/) | AdTech Platform | ₹400+ Cr revenue | ✅ Live |
-| [RAG Sentiment Platform](./7_Agentic_RAG_Sentiment_Platform/) | AI/ML Infrastructure | Agentic RAG, Qdrant, GPU | ✅ Live |
-| [Data Science Infrastructure](./8_Data_Science_Infrastructure/) | DS/ML Infra | Ingress, K8s, Composer, Vertex AI, Qdrant | ✅ Live |
-| [Grid Platform](./9_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |
+| [Purplle.com Adtech](./6_Purplle.com_Adtech_Deployment/) | AdTech Platform | ₹400+ Cr revenue | ✅ Live |
+| [Purplle.com RAG Sentiment Platform](./7_Purplle.com_Agentic_RAG_Sentiment_Platform/) | AI/ML Infrastructure | Agentic RAG, Qdrant, GPU | ✅ Live |
+| [Purplle.com Data Science Infrastructure](./8_Purplle.com_Data_Science_Infrastructure/) | DS/ML Infra | Ingress, K8s, Composer, Vertex AI, Qdrant | ✅ Live |
+| [Purplle.com Data Engineering Infrastructure](./9_Purplle.com_Data_Engineering_Infrastructure/) | DE Infra | K8s, CI/CD, Kafka, Composer; infra only | ✅ Live |
+| [Purplle.com Legacy Admin Panels](./10_Purplle.com_Legacy_Admin_Panels_Infrastructure/) | Legacy Admin | PHP monolith + internal LB to K8s; infra only | ✅ Live |
+| [Grid Platform](./11_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |
 
 ## Project Implementation Details
 

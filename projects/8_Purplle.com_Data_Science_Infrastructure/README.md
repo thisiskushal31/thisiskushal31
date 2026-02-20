@@ -40,7 +40,7 @@
 
 ### One infrastructure, one outcome — ₹700 Crore revenue marketing engine
 - This project is one project on that infrastructure (like the [main e-commerce platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/2_Purplle.com_Management)). 
-- Outcome: recommendations and what data engineering and storefront need. Data engineering and storefront serve brand and marketing teams (requirements from them). That’s the **₹700 Crore revenue marketing engine**. It **spits out recommendations** and **generates outcomes** and supports everything **data engineering** and **storefront** need. The **DS team manages the embedding pipeline**; the **infra team manages the Qdrant vector DB**. **Embeddings power recommendations** to users (e.g. search for lipstick → get relevant lipstick, ad placement, other brands’ lipstick; not unrelated products). Other brands’ recommendations drove ad revenue for Purplle (see [AdTech platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Adtech.purplle.com_Deployment)).
+- Outcome: recommendations and what data engineering and storefront need. Data engineering and storefront serve brand and marketing teams (requirements from them). That’s the **₹700 Crore revenue marketing engine**. It **spits out recommendations** and **generates outcomes** and supports everything **data engineering** and **storefront** need. The **DS team manages the embedding pipeline**; the **infra team manages the Qdrant vector DB**. **Embeddings power recommendations** to users (e.g. search for lipstick → get relevant lipstick, ad placement, other brands’ lipstick; not unrelated products). Other brands’ recommendations drove ad revenue for Purplle (see [AdTech platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Purplle.com_Adtech_Deployment)).
 
 ### Models for internal tasks — 50–60% cost saving
 - Models were used for **internal tasks** such as **image tagging for Meta ads, Google Search ads**, and similar work that would otherwise require manual tagging. This **saved 50–60% of the cost** of doing those tasks manually.
@@ -86,7 +86,7 @@
 
 ## Architecture Overview
 
-![Data Science Infrastructure](../../assets/projects/8_Data_Science_Infrastructure.png)
+![Data Science Infrastructure](../../assets/projects/8_Purplle.com_Data_Science_Infrastructure.png)
 
 *Infrastructure for the ₹700 Cr revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. Maintained CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. See [Architecture Details](architecture.md) and [Architecture Diagram](architecture-diagram.mmd).*
 
