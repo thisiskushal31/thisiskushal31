@@ -1,0 +1,73 @@
+---
+# Data Engineering Infrastructure - Data & Infra Flow
+# Triggers → K8s (DE API) → event (Cloud Function → Dataflow → ETL) or cron (Composer DAGs) → warehousing
+# Infra: K8s, CI/CD, Kafka, MySQL, Pub/Sub, DAG sync, networking; DE: BigQuery, BigTable, ETL, DAG logic
+---
+
+flowchart TB
+    subgraph Triggers["Triggers"]
+        SCM[SCM]
+        Storefront[Storefront]
+        Martech[Martech]
+        DS[Data Science]
+        Time[Time / Cron]
+    end
+
+    subgraph K8s["Kubernetes (GKE) - infra owned, DE deploys code"]
+        DEAPI[DE API / Services]
+        Triggers --> DEAPI
+    end
+
+    subgraph EventPath["Event-driven path"]
+        CF[Cloud Function]
+        Dataflow[Dataflow - ETL]
+        DEAPI --> CF
+        CF --> Dataflow
+    end
+
+    subgraph CronPath["Cron path"]
+        Sync[DAG sync: Git/GitLab → GCS]
+        Composer[GCP Composer / Airflow]
+        Sync --> Composer
+    end
+
+    subgraph Infra["Infra-managed"]
+        Kafka[(Kafka)]
+        MySQL[(MySQL)]
+        PubSub[Pub/Sub]
+    end
+
+    subgraph Warehousing["Data warehousing - DE owned"]
+        BQ[BigQuery / BigTable]
+        Dataflow --> BQ
+        Composer --> BQ
+    end
+
+    subgraph Consumers["Consumers"]
+        BizTeams[Business teams]
+        DSC[Data Science]
+        MartechC[Martech]
+        SCMC[SCM]
+        StorefrontC[Storefront]
+        LegacyPanel[Legacy admin panel]
+        BQ --> BizTeams
+        BQ --> DSC
+        BQ --> MartechC
+        BQ --> SCMC
+        BQ --> StorefrontC
+        BQ --> LegacyPanel
+    end
+
+    subgraph InfraTeam["Infra team (no ETL/DAG code)"]
+        CICD[CI/CD: ArgoCD, Helm, Terraform, GitLab CI, Jenkins]
+        Net[Networking / Zero-trust]
+    end
+
+    style Triggers fill:#e3f2fd
+    style K8s fill:#fff8e1
+    style EventPath fill:#e8f5e9
+    style CronPath fill:#fce4ec
+    style Infra fill:#e0f2f1
+    style Warehousing fill:#f3e5f5
+    style Consumers fill:#fff3e0
+    style InfraTeam fill:#e8eaf6

@@ -199,7 +199,7 @@ https://www.cloudskillsboost.google/public_profiles/69072982-dd9b-46f1-9e9d-606c
 
 **Key Projects:**
 - Infrastructure Automation System (Production) - (https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/5_Purplle.com_IAC_Deployment/)
-- PurplleAds - AdTech Platform ($48M+ revenue, 93% cost reduction) - (https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Adtech.purplle.com_Deployment/)
+- PurplleAds - AdTech Platform ($48M+ revenue, 93% cost reduction) - (https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Purplle.com_Adtech_Deployment/)
 - Nexus - POS System (99%+ uptime, 100+ retail stores) - (https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/3_Nexus.purplle.com_Deployment/)
 - Monitoring & Alerting Automation (76% MTTR reduction) - (https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/1_PurplleInfra_Monitoring_Improvement/)
 - Elasticsearch Cluster Management (AI-powered automation) - (https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/5_Purplle.com_IAC_Deployment/)

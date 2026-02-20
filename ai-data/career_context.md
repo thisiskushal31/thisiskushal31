@@ -443,7 +443,7 @@ Managed infrastructure only: distributed K8s, GPU embedding pipeline, production
 **Category:** Platform Engineering (Data Science / ML Infrastructure)  
 **Duration:** Jun 2023 - Feb 2026  
 **Technologies:** Kubernetes, Nginx, GCP, Vertex AI, Qdrant (vector DB), Jupyter, Cloud Functions, CI/CD, Git, Docker  
-**Project:** [Data Science Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/8_Data_Science_Infrastructure)
+**Project:** [Data Science Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/8_Purplle.com_Data_Science_Infrastructure)
 
 **Description:**
 Maintained infrastructure for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving on manual tasks. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Infra only.
