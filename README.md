@@ -1,11 +1,19 @@
 # 👋 Hey there, I'm Kushal Gupta
 
-Welcome to my GitHub space! I'm an **Experienced Software Engineer** with a proven track record building, deploying, and operating large-scale production-grade systems. I write full-stack code, deploy it securely, leverage AI-driven solutions, ensure reliability, and automate everything in between. End-to-end ownership from infrastructure design to monitoring and reliability, with a focus on security, reliability, and scalability.
+Welcome to my GitHub space! I'm an **Experienced Software Engineer**; I work across large-scale **distributed** and **non-distributed** production infrastructure. End-to-end ownership from infrastructure design to monitoring and reliability, with a focus on **security**, **reliability**, and **scalability**—and I automate everything in between.
+
+- **Full-stack** — write code, deploy it securely, automate everything in between; design for **reliability** and **scalability**
+- **System design** — scalable architectures, distributed systems, and trade-off-driven design
+- **ML applications** — same rigour for RAG, data science pipelines, and production AI in production environments
+- **AI-driven automation & agentic workflows** — intelligent automation, agentic workflows, and AI-augmented delivery
+- **Across the stack** — public-facing, data-driven, ML, or security-driven applications; I've worked across them
+- **Greenfield & brownfield** — building from scratch or managing and evolving legacy applications
 
 **Areas of Expertise & Interest:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
 - Cloud-Native Engineering & System Design
+- AI/ML Infrastructure & Agentic Workflows
 - AI-Driven Automation & Agentic Workflows
 
 🌐 **Quick Links:**
@@ -22,9 +30,13 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 - **Infrastructure & scale:** Run production systems that stay up. 125+ microservices, 300+ application instances, 4TB MySQL, hybrid cloud (GCP + AWS). Multi-environment (DEV, SIT, UAT, PROD), GKE, Nginx/Apache, load balancers, VPC, zero-downtime migrations (mydumper/myloader, gh-ost). Business impact: ₹700 Crore+ revenue backbone, 7M users, 99%+ uptime, 4x traffic spike handling.
 
-- **Data pipelines & warehousing:** Build and operate pipelines that move 7M users’ data (PII-handled, legal, anonymous) from MySQL to BigQuery/BigTable. Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs). Kafka, Pub/Sub, DAG sync; consumed by business teams, Data Science, Martech, SCM, legacy panel. Infra only; DE owns warehousing and ETL logic.
+- **System design:** Scalable and distributed system architecture—high availability, scalability patterns, disaster recovery, and trade-off-driven design. From application logic to infrastructure; built to grow.
+
+- **Data-driven applications & pipelines:** Build and operate **data-driven** pipelines that move 7M users’ data (PII-handled, legal, anonymous) from MySQL to BigQuery/BigTable. Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs). Kafka, Pub/Sub, DAG sync; consumed by business teams, Data Science, Martech, SCM, legacy panel. Infra only; DE owns warehousing and ETL logic.
 
 - **Data science & AI infra:** Support the ₹700 Crore revenue marketing engine with vector DB (Qdrant), Vertex AI, embeddings, and recommendations. 50–60% cost saving on manual tasks. RAG/sentiment platform: semantic search over influencer content, decision support for brand teams; K8s, GPU pipeline, CI/CD — infra only, no application/RAG code.
+
+- **AI-driven workflow automation & agentic workflows:** Intelligent automation and agentic AI (e.g. MCP, n8n, LLM-backed tooling) for provisioning, lifecycle management, and operations. Use AI to sharpen delivery, reduce toil, and improve how systems are run.
 
 - **Observability & reliability:** Unified Prometheus + Grafana stack, real-time alerting, CI/CD integration, automated escalation. 76% MTTR reduction (30min → 7min) across 125+ microservices. So teams see issues first and fix faster.
 
@@ -86,13 +98,21 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 ---
 
-## 🔄 Ongoing Projects
+## 🔄 Ongoing & Side Projects
 
-*Active development and open source.*
+*These sit outside my day-job scope—I do them in personal time as **POCs and proof of ability**: I also write and ship code. Ongoing open source plus side projects and templates.*
 
-| Project | What it is | Impact |
-| :--- | :--- | :--- |
-| **[Grid Platform – Infrastructure Management Platform](https://gridplatform.org)** | AI-first infrastructure management. Open-source, vendor-agnostic. | Days → minutes setup; 60–80% cost reduction vs proprietary. Standardized, repeatable deployment workflows. |
+| Project | What it is |
+| :--- | :--- |
+| **[Grid Platform – Infrastructure Management Platform](https://gridplatform.org)** | AI-first infrastructure management. Open-source, vendor-agnostic. Days → minutes setup; 60–80% cost reduction vs proprietary. |
+| [**TrendSignal**](https://github.com/thisiskushal31/TrendSignal) | AI agent: YouTube trend analyzer from a screenshot → topic, strength, who's winning, 5 viral hooks. MCP, FastAPI, GPT-4 Vision, Docker. |
+| [**Agility**](https://github.com/thisiskushal31/Agility) | React + MongoDB task management. |
+| [**SocialSplit**](https://github.com/thisiskushal31/SocialSplit) | Node.js + Socket.io + React real-time chat. |
+| [**User Authenticated JSON Viewer**](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | Redis + MongoDB session management. |
+| [**LinkSaver Chrome Extension**](https://github.com/thisiskushal31/link-saver-extension) | Chrome extension for tab management. |
+| [**Modern React Portfolio Starter**](https://github.com/thisiskushal31/modern-react-portfolio-starter) | React portfolio template with Markdown. |
+| [**Configurable React Bio Link Starter**](https://github.com/thisiskushal31/configurable-react-bio-link-starter) | Linktree-style bio links template. |
+| [**Configurable React Blog Starter**](https://github.com/thisiskushal31/configurable-react-blog-starter) | Blog template with Markdown support. |
 
 ---
 
@@ -110,23 +130,6 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 - **📖 [Personal Blog](https://blog.kushal.cv/)** — Cloud-native engineering, DevOps patterns, AI integration
 - **🌐 [Hashnode](https://thisiskushal.hashnode.dev/)** — Tech articles on cloud, DevOps, and AI
 - **✍️ [Medium](https://thisiskushalgupta.medium.com/)** — Technical stories and engineering insights
-
----
-
-## 🛠️ Open Source & Side Projects
-
-*Tools and templates for practical use:*
-
-| Project | Technology Stack |
-| :--- | :--- |
-| [TrendSignal](https://github.com/thisiskushal31/TrendSignal) | AI agent: YouTube trend analyzer from a screenshot → topic, strength, who's winning, 5 viral hooks. MCP, FastAPI, GPT-4 Vision, Docker |
-| [Agility](https://github.com/thisiskushal31/Agility) | React + MongoDB task management |
-| [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Node.js + Socket.io + React real-time chat |
-| [User Authenticated JSON Viewer](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | Redis + MongoDB session management |
-| [LinkSaver Chrome Extension](https://github.com/thisiskushal31/link-saver-extension) | Chrome extension for tab management |
-| [Modern React Portfolio Starter](https://github.com/thisiskushal31/modern-react-portfolio-starter) | React portfolio template with Markdown |
-| [Configurable React Bio Link Starter](https://github.com/thisiskushal31/configurable-react-bio-link-starter) | Linktree-style bio links template |
-| [Configurable React Blog Starter](https://github.com/thisiskushal31/configurable-react-blog-starter) | Blog template with Markdown support |
 
 ---
 
