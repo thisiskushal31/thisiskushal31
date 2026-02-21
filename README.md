@@ -54,7 +54,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 - **Languages:** Python, JavaScript, TypeScript, C/C++, Bash/Shell, Node.js, React
 - **APIs & Backend:** FastAPI, MCP (Model Context Protocol), GCP Cloud Functions, REST APIs
 - **Cloud & Infrastructure:** GCP (GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT, BigQuery, Pub/Sub, GCP Composer), AWS (Route53, ALB), Docker, Kubernetes (GKE)
-- **Infrastructure as Code:** Terraform, OpenTofu, Ansible, GitOps (ArgoCD, Helm), reusable modules, multi-environment
+- **Infrastructure as Code:** Terraform, Ansible, GitOps (ArgoCD, Helm), reusable modules, multi-environment
 - **CI/CD & Automation:** Jenkins (scripted pipelines, Slack), GitLab CI, GitHub Actions, n8n
 - **Databases & Storage:** MySQL, Cloud SQL, MongoDB, Elasticsearch, Redis, Qdrant, Kafka, BigQuery
 - **Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver, PagerDuty
