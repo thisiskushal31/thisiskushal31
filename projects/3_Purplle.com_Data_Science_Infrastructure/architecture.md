@@ -2,7 +2,7 @@
 
 ## System Overview
 
-**One infrastructure, one outcome.** This project (Data Science Infrastructure) is one project on that infrastructure—just like the [main e-commerce platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/2_Purplle.com_Management). The outcome is the same: recommendations and what data engineering and storefront need. They serve brand and marketing (requirements from them). That’s the ₹700 Crore revenue marketing engine. The DS team owns application code and models; the infra team owned everything below—**no application or data science code** written by infra. Infra team wrote **CI/CD and infrastructure code** only.
+**One infrastructure, one outcome.** This project (Data Science Infrastructure) is one project on that infrastructure—just like the [main e-commerce platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/1_Purplle.com_Management). The outcome is the same: recommendations and what data engineering and storefront need. They serve brand and marketing (requirements from them). That’s the ₹700 Crore revenue marketing engine. The DS team owns application code and models; the infra team owned everything below—**no application or data science code** written by infra. Infra team wrote **CI/CD and infrastructure code** only.
 
 **What I managed (summary of facts):**
 - **CI/CD** — Pipelines, deployment, infra and CI/CD code only (no application code).

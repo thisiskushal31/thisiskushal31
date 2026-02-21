@@ -73,7 +73,7 @@ I managed **infrastructure only**: distributed architecture, GPU-based embedding
 
 ## Architecture Overview
 
-![RAG Sentiment Platform](../../assets/projects/7_Purplle.com_Agentic_RAG_Sentiment_Platform.png)
+![RAG Sentiment Platform](../../assets/projects/2_Purplle.com_Agentic_RAG_Sentiment_Platform.png)
 
 *Platform flow: Video → K8s/GPU → Embeddings → Qdrant → RAG/Agent → Answers. See [Architecture Details](architecture.md) for full technical design and [Architecture Diagram](architecture-diagram.mmd) for Mermaid source.*
 

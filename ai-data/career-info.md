@@ -452,7 +452,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Status:** Production  
 **Category:** Platform Engineering  
 **Technologies:** Kubernetes, GKE, Nginx, Apache, MySQL, Elasticsearch, MongoDB, Redis, Terraform, GCP, AWS  
-**Demo:** [2_Purplle.com_Management](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/2_Purplle.com_Management)
+**Demo:** [1_Purplle.com_Management](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/1_Purplle.com_Management)
 
 **Description:** Mission-critical infrastructure for ₹700 Crore revenue, 7M users, 99%+ uptime. 125+ microservices, 4x traffic spike handling. Nginx distributed reverse proxy; Apache VM-based application.
 
@@ -478,7 +478,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Status:** Production  
 **Category:** Platform Engineering (AI/ML Infrastructure)  
 **Technologies:** Kubernetes, Qdrant, Python, Docker, CI/CD, GPU infrastructure, MCP, Prometheus, Grafana  
-**Demo:** [7_Purplle.com_Agentic_RAG_Sentiment_Platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/7_Purplle.com_Agentic_RAG_Sentiment_Platform)
+**Demo:** [2_Purplle.com_Agentic_RAG_Sentiment_Platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/2_Purplle.com_Agentic_RAG_Sentiment_Platform)
 
 **Description:** RAG-based sentiment platform for influencer content. Semantic search (e.g. last 2 days, 7 days) and decision support for brand teams. Infra only.
 
@@ -504,7 +504,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Category:** Platform Engineering (Data Science / ML Infrastructure)  
 **Duration:** Jun 2023 - Feb 2026  
 **Technologies:** Kubernetes, Nginx, GCP, Vertex AI, Qdrant (vector DB), Jupyter, Cloud Functions, CI/CD, Git, Docker  
-**Demo:** [8_Purplle.com_Data_Science_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/8_Purplle.com_Data_Science_Infrastructure)
+**Demo:** [3_Purplle.com_Data_Science_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/3_Purplle.com_Data_Science_Infrastructure)
 
 **Description:** Infrastructure for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing; recommendations and outcomes. 50–60% cost saving on manual tasks. Infra only.
 
@@ -529,7 +529,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Status:** Production  
 **Category:** Platform Engineering  
 **Technologies:** Kubernetes, Terraform, ArgoCD, Helm, GitLab CI, Jenkins, Kafka, MySQL, Pub/Sub, GCP Composer, Cloud Functions, BigQuery, GCP  
-**Demo:** [9_Purplle.com_Data_Engineering_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/9_Purplle.com_Data_Engineering_Infrastructure)
+**Demo:** [4_Purplle.com_Data_Engineering_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/4_Purplle.com_Data_Engineering_Infrastructure)
 
 **Description:** Pipeline powering the ₹700 Crore revenue backbone. 7M users’ data, legal and anonymous, PII-handled; flows to BigQuery/BigTable. Consumed by business teams, Data Science, Martech, SCM, and legacy panel. Infra only.
 
@@ -579,7 +579,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Status:** Production  
 **Category:** Platform Engineering  
 **Technologies:** Prometheus, Grafana, GCP Stackdriver, Kubernetes, Jenkins, Slack, Python  
-**Demo:** [1_PurplleInfra_Monitoring_Improvement](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/1_PurplleInfra_Monitoring_Improvement)
+**Demo:** [7_PurplleInfra_Monitoring_Improvement](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/7_PurplleInfra_Monitoring_Improvement)
 
 **Description:** 76% MTTR reduction (30min → 7min) with unified Prometheus & Grafana across 125+ Microservices Distributed Workload. Real-time alerting.
 
@@ -604,7 +604,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Status:** Production  
 **Category:** DevOps  
 **Technologies:** Terraform, Ansible, Jenkins, GitLab CI, Python, Bash, GCP, Kubernetes  
-**Demo:** [5_Purplle.com_IAC_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/5_Purplle.com_IAC_Deployment)
+**Demo:** [8_Purplle.com_IAC_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/8_Purplle.com_IAC_Deployment)
 
 **Description:** 40%+ faster deployments, 40%+ automation with Terraform & Ansible. Standardized IAC across 125+ Microservices Distributed Workload.
 
@@ -629,7 +629,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Status:** Production  
 **Category:** DevSecOps  
 **Technologies:** Kubernetes, Kubernetes RBAC, Trivy, Secrets Manager, SSO, Terraform, Python, GitLab CI  
-**Demo:** [4_Purplle.com_SecurityImprovement](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/4_Purplle.com_SecurityImprovement)
+**Demo:** [9_Purplle.com_SecurityImprovement](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/9_Purplle.com_SecurityImprovement)
 
 **Description:** Zero-trust architecture across 125+ Microservices Distributed Workload. Automated IAM minimization, RBAC, container scanning. ISO 27001 compliant.
 
@@ -654,7 +654,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Status:** Production  
 **Category:** Platform Engineering  
 **Technologies:** Kubernetes, GKE, Terraform, GitLab CI, Jenkins, Python, GCP, AWS, Keycloak, Trivy  
-**Demo:** [6_Purplle.com_Adtech_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Purplle.com_Adtech_Deployment)
+**Demo:** [5_Purplle.com_Adtech_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/5_Purplle.com_Adtech_Deployment)
 
 **Description:** ₹400+ Crore revenue, 93% cost reduction (₹80L → ₹5.7L). 4x traffic spike handling, 7M users. Multi-cloud architecture.
 
@@ -679,7 +679,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Status:** Production  
 **Category:** Platform Engineering  
 **Technologies:** Kubernetes, GKE, Terraform, Jenkins, GitLab CI, Python, GCP, Kafka, Redis  
-**Demo:** [3_PurplleNexus_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/3_PurplleNexus_Deployment)
+**Demo:** [6_PurplleNexus_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_PurplleNexus_Deployment)
 
 **Description:** High-availability POS platform: 100+ stores, 500+ daily users, ₹40+ Crores revenue, 99%+ uptime. Kafka + Redis architecture.
 

@@ -68,31 +68,34 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 *Real-world infrastructure — business impact first.*
 
-1. **[Purplle – Large-Scale E-Commerce Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/2_Purplle.com_Management/README.md)**  
+1. **[Purplle – Large-Scale E-Commerce Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/1_Purplle.com_Management/README.md)**  
    Mission-critical infra for ₹700 Crore revenue and 7M users. 125+ microservices, 300+ instances, 4TB MySQL, 99%+ uptime, 4x traffic spike handling. Nginx distributed reverse proxy; Apache VM-based application; minimal-downtime migrations (mydumper/myloader, gh-ost).
 
-2. **[Purplle – Agentic RAG Sentiment Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/7_Purplle.com_Agentic_RAG_Sentiment_Platform/README.md)**  
+2. **[Purplle – Agentic RAG Sentiment Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/2_Purplle.com_Agentic_RAG_Sentiment_Platform/README.md)**  
    RAG-based platform for influencer content: semantic search and decision support for brand teams. Infra only: K8s, GPU embedding pipeline, Qdrant, CI/CD. Faster time-to-insight; no application/RAG code owned by infra.
 
-3. **[Purplle – Data Science Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/8_Purplle.com_Data_Science_Infrastructure/README.md)**  
+3. **[Purplle – Data Science Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/3_Purplle.com_Data_Science_Infrastructure/README.md)**  
    Infra for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing; 50–60% cost saving on manual tasks. Vector DB (Qdrant), Vertex AI, CI/CD, network — infra only.
 
-4. **[Purplle – Data Engineering Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/9_Purplle.com_Data_Engineering_Infrastructure/README.md)**  
+4. **[Purplle – Data Engineering Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/4_Purplle.com_Data_Engineering_Infrastructure/README.md)**  
    Pipeline for the ₹700 Crore revenue backbone. 7M users’ data (PII-handled, legal, anonymous) flows to BigQuery/BigTable; consumed by business teams, Data Science, Martech, SCM, legacy panel. Event- and time-driven ingestion; zero-trust infra.
 
-5. **[Purplle – AdTech Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/6_Purplle.com_Adtech_Deployment/README.md)**  
+5. **[Purplle – AdTech Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/5_Purplle.com_Adtech_Deployment/README.md)**  
    In-house AdTech: ₹400+ Crore revenue, 93% cost reduction, 4x traffic spike handling, 7M users. 100+ production services, multi-cloud (AWS Route53 + GCP GKE).
 
-6. **[Purplle – POS Platform for 100+ Retail Stores](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/3_PurplleNexus_Deployment/README.md)**  
+6. **[Purplle – POS Platform for 100+ Retail Stores](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/6_PurplleNexus_Deployment/README.md)**  
    High-availability POS: 100+ stores, 500+ daily users, ₹40+ Crores revenue, 99%+ uptime. Kafka + Redis; scalable infrastructure.
 
-7. **[Purplle – Unified Observability Stack](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/1_PurplleInfra_Monitoring_Improvement/README.md)**  
+7. **[Purplle – Unified Observability Stack](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/7_PurplleInfra_Monitoring_Improvement/README.md)**  
    Centralized monitoring and alerting: 76% MTTR reduction (30min → 7min) across 125+ microservices. Prometheus + Grafana, real-time alerting, CI/CD integration.
 
-8. **[Purplle – Infrastructure as Code Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/5_Purplle.com_IAC_Deployment/README.md)**  
+8. **[Purplle – Infrastructure as Code Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/8_Purplle.com_IAC_Deployment/README.md)**  
    Terraform + Ansible, GitOps as single source of truth. 40%+ faster deployments, 40%+ provisioning automated; standardized IAC across 125+ microservices.
 
-9. **[Purplle – Legacy Admin Panels Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/10_Purplle.com_Legacy_Admin_Panels_Infrastructure/README.md)**  
+9. **[Purplle – Security Hardening & Compliance](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/9_Purplle.com_SecurityImprovement/README.md)**  
+   Zero-trust architecture, defense-in-depth across 125+ microservices. Kubernetes RBAC, Trivy, Secrets Manager, SSO, IP whitelisting. Compliance: DPDP, ISO 27001, NIST, CIS, OWASP.
+
+10. **[Purplle – Legacy Admin Panels Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/10_Purplle.com_Legacy_Admin_Panels_Infrastructure/README.md)**  
    Backbone of the ₹700 Crore revenue management panel. Business teams run operations (banner, campaigns, Martech, logistics) without technical intervention. Legacy PHP monolith + internal LB + distributed K8s; infra only.
 
 👉 **[View detailed technical documentation →](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)** — Architecture, implementation details, and metrics.
