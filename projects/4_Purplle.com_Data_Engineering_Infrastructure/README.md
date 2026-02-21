@@ -76,7 +76,7 @@ Data at Purplle flows from primary databases (MySQL) into a data warehousing sol
 
 ## Architecture Overview
 
-![Data Engineering Infrastructure](../../assets/projects/9_Purplle.com_Data_Engineering_Infrastructure.png)
+![Data Engineering Infrastructure](../../assets/projects/4_Purplle.com_Data_Engineering_Infrastructure.png)
 
 *Infrastructure for the data engineering pipeline. Triggers → DE API on K8s → event/cron → data warehousing → consumed by business teams, Data Science, Martech, SCM, storefront, legacy admin panel. Infra: K8s, CI/CD, Kafka, MySQL, Pub/Sub, DAG sync, networking, security. See [Architecture Details](architecture.md) and [Architecture Diagram](architecture-diagram.mmd).*
 
