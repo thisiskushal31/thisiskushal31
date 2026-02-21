@@ -2,12 +2,12 @@
 
 Welcome to my GitHub space! I'm an **Experienced Software Engineer**; I work across large-scale **distributed** and **non-distributed** production infrastructure. End-to-end ownership from infrastructure design to monitoring and reliability, with a focus on **security**, **reliability**, and **scalability**—and I automate everything in between.
 
-- **Full-stack** — write code, deploy it securely, automate everything in between; design for **reliability** and **scalability**
-- **System design** — scalable architectures, distributed systems, and trade-off-driven design
-- **ML applications** — same rigour for RAG, data science pipelines, and production AI in production environments
-- **AI-driven automation & agentic workflows** — intelligent automation, agentic workflows, and AI-augmented delivery
-- **Across the stack** — public-facing, data-driven, ML, or security-driven applications; I've worked across them
-- **Greenfield & brownfield** — building from scratch or managing and evolving legacy applications
+- **Full-stack** — Write scalable code and system design; architecture design; deploy securely, automate everything in between; design for reliability and scalability
+- **System design & large-scale infrastructure** — Scalable architectures, distributed systems, trade-off-driven design. From 0–1 and 1,000 daily active user to 100,000+ daily active user applications; production systems that stay up, critical applications with efficiency and clear trade-offs
+- **Databases & data** — Data stores—design, reliability, performance
+- **ML applications & AI-driven automation** — Deploy production AI, MLOps, RAG, and data science pipelines; build and run agentic workflows; intelligent automation and AI-augmented delivery to sharpen developer productivity
+- **Across the stack** — Public-facing, data-driven, ML, and non-public-facing or security applications; I've worked across them
+- **Greenfield & brownfield** — Building from scratch or managing and evolving legacy applications
 
 **Areas of Expertise & Interest:**
 - DevOps & Platform Engineering
@@ -15,12 +15,6 @@ Welcome to my GitHub space! I'm an **Experienced Software Engineer**; I work acr
 - Cloud-Native Engineering & System Design
 - AI/ML Infrastructure & Agentic Workflows
 - AI-Driven Automation & Agentic Workflows
-
-**What I deliver**
-- **Large-scale infrastructure** — Production systems that stay up
-- **Backend & code** — Scalable code and architecture design
-- **Databases & data** — Data stores—design, reliability, performance
-- **ML apps & AI** — MLOps, deploying ML products; AI to improve developer productivity
 
 🌐 **Quick Links:**
 - **Portfolio** — [kushal.cv](https://kushal.cv/) — Projects, experience, and technical journey
