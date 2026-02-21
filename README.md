@@ -1,9 +1,10 @@
 # 👋 Hey there, I'm Kushal Gupta
 
-Welcome to my GitHub space! I'm an **Experienced Software Engineer**; I work across large-scale **distributed** and **non-distributed** production infrastructure. End-to-end ownership from infrastructure design to monitoring and reliability, with a focus on **security**, **reliability**, and **scalability**—and I automate everything in between.
+Welcome to my GitHub space! I'm an **Experienced Software Engineer**—I work across large-scale **distributed** and **non-distributed** production infrastructure, end-to-end from design through monitoring and reliability, with a focus on **security**, **reliability**, and **scalability**. I automate what can be automated in between. I work the full lifecycle: design → build → deploy → operate → monitor → iterate.
 
 - **Full-stack** — Write scalable code and system design; architecture design; deploy securely, automate everything in between; design for reliability and scalability
-- **System design & large-scale infrastructure** — Scalable architectures, distributed systems, trade-off-driven design. From 0–1 and 1,000 daily active user to 100,000+ daily active user applications; production systems that stay up, critical applications with efficiency and clear trade-offs
+- **System design & large-scale infrastructure** — Scalable architectures, distributed systems, trade-off-driven design. From 0–1 and 1,000 to 100,000+ daily active user applications; production systems that stay up, critical applications with clear trade-offs.
+- **DevOps** — CI/CD, observability, and automation that improve developer experience; incident response and on-call; cost and efficiency. Faster delivery, lower MTTR.
 - **Databases & data** — Data stores—design, reliability, performance
 - **ML applications & AI-driven automation** — Deploy production AI, MLOps, RAG, and data science pipelines; build and run agentic workflows; intelligent automation and AI-augmented delivery to sharpen developer productivity
 - **Across the stack** — Public-facing, data-driven, ML, and non-public-facing or security applications; I've worked across them
