@@ -1,6 +1,6 @@
 # 👋 Hey there, I'm Kushal Gupta
 
-Welcome to my GitHub space! I'm an **Experienced Software Engineer**—I work across large-scale **distributed** and **non-distributed** production infrastructure, end-to-end from design through monitoring and reliability, with a focus on **security**, **reliability**, and **scalability**. I automate what can be automated in between. I work the full lifecycle: design → build → deploy → operate → monitor → iterate.
+Welcome to my GitHub space! I'm an **Experienced Software Engineer**—I work across large-scale **distributed** and **non-distributed** production infrastructure, end-to-end from design through monitoring and reliability, with a focus on **security**, **reliability**, and **scalability**. I can build and have scaled product from **MVP to full large-scale infrastructure**. I automate what can be automated in between. I work the full lifecycle: design → build → deploy → operate → monitor → iterate.
 
 - **Full-stack** — Write scalable code and system design; architecture design; deploy securely, automate everything in between; design for reliability and scalability
 - **System design & large-scale infrastructure** — Scalable architectures, distributed systems, trade-off-driven design. From 0–1 and 1,000 to 100,000+ daily active user applications; production systems that stay up, critical applications with clear trade-offs.
@@ -33,7 +33,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 - **System design:** Scalable and distributed system architecture—high availability, scalability patterns, disaster recovery, and trade-off-driven design. From application logic to infrastructure; built to grow.
 
-- **Data-driven applications & pipelines:** Build and operate **data-driven** pipelines that move 7M users’ data (PII-handled, legal, anonymous) from MySQL to BigQuery/BigTable. Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs). Kafka, Pub/Sub, DAG sync; consumed by business teams, Data Science, Martech, SCM, legacy panel. Infra only; DE owns warehousing and ETL logic.
+- **Data-driven applications & pipelines:** Build and operate **data-driven** pipelines that move 7M users' data (PII-handled, legal, anonymous) from MySQL to BigQuery/BigTable. Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs). Kafka, Pub/Sub, DAG sync; consumed by business teams, Data Science, Martech, SCM, legacy panel. Infra only; DE owns warehousing and ETL logic.
 
 - **Data science & AI infra:** Support the ₹700 Crore revenue marketing engine with vector DB (Qdrant), Vertex AI, embeddings, and recommendations. 50–60% cost saving on manual tasks. RAG/sentiment platform: semantic search over influencer content, decision support for brand teams; K8s, GPU pipeline, CI/CD — infra only, no application/RAG code.
 
@@ -78,7 +78,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
    Infra for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing; 50–60% cost saving on manual tasks. Vector DB (Qdrant), Vertex AI, CI/CD, network — infra only.
 
 4. **[Purplle – Data Engineering Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/4_Purplle.com_Data_Engineering_Infrastructure/README.md)**  
-   Pipeline for the ₹700 Crore revenue backbone. 7M users’ data (PII-handled, legal, anonymous) flows to BigQuery/BigTable; consumed by business teams, Data Science, Martech, SCM, legacy panel. Event- and time-driven ingestion; zero-trust infra.
+   Pipeline for the ₹700 Crore revenue backbone. 7M users' data (PII-handled, legal, anonymous) flows to BigQuery/BigTable; consumed by business teams, Data Science, Martech, SCM, legacy panel. Event-driven and time-driven ingestion; zero-trust infra.
 
 5. **[Purplle – AdTech Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/5_Purplle.com_Adtech_Deployment/README.md)**  
    In-house AdTech: ₹400+ Crore revenue, 93% cost reduction, 4x traffic spike handling, 7M users. 100+ production services, multi-cloud (AWS Route53 + GCP GKE).
