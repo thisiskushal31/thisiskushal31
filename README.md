@@ -18,68 +18,81 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 ## 🏗️ Technical Expertise
 
-- **Engineering Approach:** Full-stack development (application logic to infrastructure automation), security-first deployment (zero-trust, automated IAM, secrets management, Kubernetes RBAC), AI-driven solutions (intelligent automation, agentic workflows), reliability engineering (observability, automated incident response), automation-first (IaC, CI/CD, GitOps)
+*What I can do — in one place. End-to-end ownership from design to production.*
 
-- **Core Capabilities:** System architecture & design (scalable architectures, IaC, CI/CD, observability), production-grade engineering (zero-trust networking, automated IAM, secrets management, Kubernetes RBAC), cloud-native expertise (Multiple Microservices Distributed Workload on Kubernetes across multi-environment setups)
+- **Infrastructure & scale:** Run production systems that stay up. 125+ microservices, 300+ application instances, 4TB MySQL, hybrid cloud (GCP + AWS). Multi-environment (DEV, SIT, UAT, PROD), GKE, Nginx/Apache, load balancers, VPC, zero-downtime migrations (mydumper/myloader, gh-ost). Business impact: ₹700 Crore+ revenue backbone, 7M users, 99%+ uptime, 4x traffic spike handling.
 
-- **Infrastructure & Platform Engineering:** Multiple Microservices Distributed Workload on Kubernetes (DEV, SIT, UAT, PROD), 300+ application instances, 200+ self-managed database instances, 4TB MySQL databases, multi-zone deployments, hybrid cloud (GCP + AWS) with Route53, GKE, Cloud SQL, ALB, GCLB, microservices with kubedns service discovery. 
+- **Data pipelines & warehousing:** Build and operate pipelines that move 7M users’ data (PII-handled, legal, anonymous) from MySQL to BigQuery/BigTable. Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs). Kafka, Pub/Sub, DAG sync; consumed by business teams, Data Science, Martech, SCM, legacy panel. Infra only; DE owns warehousing and ETL logic.
 
-- **IaC & Automation:** Terraform (reusable modules for GKE, Cloud SQL, VPCs, Load Balancers), Ansible (configuration management, system hardening), GitOps as single source of truth, CI/CD modernization (Jenkins scripted pipelines with Slack) — **Result:** 40%+ faster deployments, 40%+ provisioning tasks automated. 
+- **Data science & AI infra:** Support the ₹700 Crore revenue marketing engine with vector DB (Qdrant), Vertex AI, embeddings, and recommendations. 50–60% cost saving on manual tasks. RAG/sentiment platform: semantic search over influencer content, decision support for brand teams; K8s, GPU pipeline, CI/CD — infra only, no application/RAG code.
 
-- **Database Operations:** Minimal downtime migrations (mydumper/myloader for migrations, gh-ost for large table alterations on 4TB MySQL, few hours), automated master/slave management, backup automation (MySQL, MongoDB, Elasticsearch), DR with PITR
+- **Observability & reliability:** Unified Prometheus + Grafana stack, real-time alerting, CI/CD integration, automated escalation. 76% MTTR reduction (30min → 7min) across 125+ microservices. So teams see issues first and fix faster.
 
-- **Observability & Monitoring:** Unified observability stack (Prometheus, Grafana, GCP Stackdriver) with automated escalation, CI/CD integration (Jenkins + Slack alerts), monitoring 125+ Microservices Distributed Workload and 300+ application instances across multi-environment — **Result:** 76% MTTR reduction (30min → 7min)
+- **IaC & automation:** Terraform, Ansible, GitOps (ArgoCD). Reusable modules for GKE, Cloud SQL, VPCs, load balancers. Single source of truth; 40%+ faster deployments, 40%+ provisioning automated. Jenkins, GitLab CI, Slack.
 
-- **Security & Compliance:** Container security (Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning), microservices security (Secrets Manager, SSO, IP whitelisting, zero-trust architecture), compliance (DPDP, ISO 27001/27018/27017/27002, NIST, CIS, OWASP)
+- **Security & compliance:** Zero-trust architecture, automated IAM minimization, Kubernetes RBAC, Trivy, Secrets Manager, SSO. 100% coverage across workloads. DPDP, ISO 27001, NIST, CIS, OWASP.
 
-- **AI-Powered Automation:** Agentic AI-based Elasticsearch cluster management (n8n, Terraform, Ansible, Python) for streamlined provisioning, lifecycle management, and automated operations
+- **Legacy & modern together:** Revenue management panel backbone so business teams run operations (banner, campaigns, Martech, logistics) without technical intervention. Legacy PHP monolith + internal load balancer + distributed K8s; one panel, infra-only ownership.
+
+- **AdTech & high-traffic platforms:** In-house AdTech for ₹400+ Crore revenue, 93% cost reduction, 4x traffic spike handling. POS for 100+ retail stores, ₹40+ Crores revenue, 99%+ uptime. Multi-cloud, Kafka, Redis, real-time processing.
 
 ---
 
 ## 🛠️ Technical Stack
-- **Languages:** Python, JavaScript, C/C++, Bash/Shell, Node.js, React
-- **APIs & Backend:** FastAPI, MCP (Model Context Protocol for AI agents and tool orchestration)
-- **Cloud & Infrastructure:** GCP (GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT), AWS (Route53, ALB), Docker, Kubernetes (GKE), Container Native Load Balancing
-- **Infrastructure as Code:** Terraform (reusable modules, multi-environment), Ansible (configuration management, system hardening), GitOps workflows
-- **CI/CD & Automation:** Jenkins (scripted pipelines, Slack integration), GitLab CI (automated testing, Trivy scanning), GitHub CI, n8n (workflow automation)
-- **Databases & Storage:** MySQL, Cloud SQL, MongoDB, Elasticsearch, Aerospike, Redis, Memorystore, Kafka
-- **Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver (unified observability stack with automated escalation)
-- **Security & Operations:** Kubernetes RBAC, Secure Boot, Trivy, Secrets Manager, SSO, IAM automation, Zero-Trust Architecture, Defense-in-Depth, WAF, Geo-blocking, Rate Limiting, Bot Protection
+- **Languages:** Python, JavaScript, TypeScript, C/C++, Bash/Shell, Node.js, React
+- **APIs & Backend:** FastAPI, MCP (Model Context Protocol), GCP Cloud Functions, REST APIs
+- **Cloud & Infrastructure:** GCP (GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT, BigQuery, Pub/Sub, GCP Composer), AWS (Route53, ALB), Docker, Kubernetes (GKE)
+- **Infrastructure as Code:** Terraform, OpenTofu, Ansible, GitOps (ArgoCD, Helm), reusable modules, multi-environment
+- **CI/CD & Automation:** Jenkins (scripted pipelines, Slack), GitLab CI, GitHub Actions, n8n
+- **Databases & Storage:** MySQL, Cloud SQL, MongoDB, Elasticsearch, Redis, Qdrant, Kafka, BigQuery
+- **Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver, PagerDuty
+- **Security & Operations:** Kubernetes RBAC, Trivy, Secrets Manager, SSO, IAM, Zero-Trust, Defense-in-Depth, WAF
 - **Fundamentals:** Data Structures, Algorithms, System Design, Networking, Operating Systems
 
 ---
 
 ## 🚀 Production Projects
 
-*Real-world infrastructure projects with technical depth:*
+*Real-world infrastructure — business impact first.*
 
-| Project | Technical Implementation |
-| :--- | :--- |
-| **Unified Observability Stack** | Prometheus + Grafana • 76% MTTR reduction (30min → 7min) • Real-time alerting • 125+ Microservices Distributed Workload |
-| **Large-Scale E-Commerce Infrastructure** | ₹700 Crore revenue • 7M users • 125+ Microservices Distributed Workload • 4TB MySQL • Minimal downtime migrations (mydumper/myloader, gh-ost) • 99%+ uptime |
-| **POS Platform** | 100+ stores • ₹40+ Crores revenue • Scalable infrastructure • Kafka + Redis • 99%+ uptime |
-| **Security Hardening** | Zero-trust architecture • 125+ Microservices Distributed Workload secured • Automated IAM minimization • Compliance-ready |
-| **Infrastructure as Code Platform** | Terraform + Ansible • GitOps as single source of truth • 40%+ faster deployments • 40%+ automation |
-| **AdTech Platform** | ₹400+ Crore revenue • 93% cost reduction • 100+ production services • Multi-cloud • 4x traffic spike handling |
+1. **Purplle – Large-Scale E-Commerce Infrastructure**  
+   Mission-critical infra for ₹700 Crore revenue and 7M users. 125+ microservices, 300+ instances, 4TB MySQL, 99%+ uptime, 4x traffic spike handling. Nginx distributed reverse proxy; Apache VM-based application; minimal-downtime migrations (mydumper/myloader, gh-ost).
 
-👉 **[View detailed technical documentation →](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)** — Architecture diagrams, implementation details, metrics, and business impact
+2. **Purplle – Agentic RAG Sentiment Platform**  
+   RAG-based platform for influencer content: semantic search and decision support for brand teams. Infra only: K8s, GPU embedding pipeline, Qdrant, CI/CD. Faster time-to-insight; no application/RAG code owned by infra.
+
+3. **Purplle – Data Science Infrastructure**  
+   Infra for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing; 50–60% cost saving on manual tasks. Vector DB (Qdrant), Vertex AI, CI/CD, network — infra only.
+
+4. **Purplle – Data Engineering Infrastructure**  
+   Pipeline for the ₹700 Crore revenue backbone. 7M users’ data (PII-handled, legal, anonymous) flows to BigQuery/BigTable; consumed by business teams, Data Science, Martech, SCM, legacy panel. Event- and time-driven ingestion; zero-trust infra.
+
+5. **Purplle – AdTech Platform**  
+   In-house AdTech: ₹400+ Crore revenue, 93% cost reduction, 4x traffic spike handling, 7M users. 100+ production services, multi-cloud (AWS Route53 + GCP GKE).
+
+6. **Purplle – POS Platform for 100+ Retail Stores**  
+   High-availability POS: 100+ stores, 500+ daily users, ₹40+ Crores revenue, 99%+ uptime. Kafka + Redis; scalable infrastructure.
+
+7. **Purplle – Unified Observability Stack**  
+   Centralized monitoring and alerting: 76% MTTR reduction (30min → 7min) across 125+ microservices. Prometheus + Grafana, real-time alerting, CI/CD integration.
+
+8. **Purplle – Infrastructure as Code Platform**  
+   Terraform + Ansible, GitOps as single source of truth. 40%+ faster deployments, 40%+ provisioning automated; standardized IAC across 125+ microservices.
+
+9. **Purplle – Legacy Admin Panels Infrastructure**  
+   Backbone of the ₹700 Crore revenue management panel. Business teams run operations (banner, campaigns, Martech, logistics) without technical intervention. Legacy PHP monolith + internal LB + distributed K8s; infra only.
+
+👉 **[View detailed technical documentation →](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)** — Architecture, implementation details, and metrics.
 
 ---
 
-## 📊 Production Metrics
+## 🔄 Ongoing Projects
 
-**Performance Improvements:**
-- **Deployment Speed:** 40%+ faster through IAC automation and CI/CD modernization
-- **MTTR:** 76% reduction (30 minutes → 7 minutes) via unified observability
-- **Cost Optimization:** 30% cloud cost reduction through rightsizing and automation
-- **Uptime:** 99%+ across all production platforms
+*Active development and open source.*
 
-**Infrastructure Scale:**
-- **Microservices Distributed Workload:** 125+ workloads managed
-- **Application Instances:** 300+ instances across infrastructure
-- **Database Instances:** 200+ self-managed database instances
-- **Database Operations:** 4TB MySQL with minimal downtime migrations (mydumper/myloader for migrations, gh-ost for large table alterations, few hours)
-- **Multi-Environment:** Consistent deployments across DEV, SIT, UAT, PROD
+| Project | What it is | Impact |
+| :--- | :--- | :--- |
+| **[Grid Platform – Infrastructure Management Platform](https://gridplatform.org)** | AI-first infrastructure management. Open-source, vendor-agnostic. | Days → minutes setup; 60–80% cost reduction vs proprietary. Standardized, repeatable deployment workflows. |
 
 ---
 
@@ -149,4 +162,4 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 - 🐦 [X (Twitter)](https://x.com/thisis_kushal) — Quick thoughts and tech discussions
 - 📧 [Email](mailto:guptakushal070@gmail.com) — Technical collaboration and discussions
 
-🌐 **More ways to connect:** [Portfolio](https://kushal.cv/) | [Bio Links](https://thisiskushal31.github.io/)
+🌐 **More ways to connect:** [Portfolio](https://kushal.cv/) | [Bio Links](https://bio.kushal.cv/)
