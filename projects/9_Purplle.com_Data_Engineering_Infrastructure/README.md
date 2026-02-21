@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Production Platform - Data Engineering Infrastructure (Infrastructure only)  
 **Status:** Live & Operational  
+**Duration:** Jan 2023 - Feb 2026  
 **Platform:** Infrastructure for data engineering pipeline: MySQL → cleanse/transform → data warehousing (BigQuery, BigTable); consumed by business teams, Data Science, Martech, Supply Chain Management, and legacy admin panel.  
 **Deployment:** GKE (K8s), ArgoCD, Helm, Terraform, GitLab CI, Jenkins; Kafka, MySQL, Pub/Sub; GCP Composer (Airflow); Cloud Functions; networking, zero-trust.  
 **Role:** DevOps / Infrastructure Engineer — managed infrastructure only; did not write ETL, DAGs, data warehousing code, or Kafka contracts.  

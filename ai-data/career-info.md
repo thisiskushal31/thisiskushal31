@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/
 - Professional Title: "Software Engineer | Platform Engineering · DevOps · Cloud Infrastructure · Cloud-Native Software Development"
 
 **4. LinkedIn Location** → See "👤 Personal Information" below
-- Location: Kolk, India
+- Location: Kolkata, India
 
 **LinkedIn Optimization Notes:**
 - ✅ Format: Separate entries per role at each company (shows career progression)
@@ -444,32 +444,45 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 
 ## 🚀 Featured Projects & Achievements
 
+> **Synced with:** portfolio-website `src/config/portfolio.ts` and `src/config/projectDetails.ts`. Project list, descriptions, features, overview, role, duration, challenges, and learnings are aligned.
+
+---
+
 ### 1. Purplle - Large-Scale E-Commerce Infrastructure
 **Status:** Production  
 **Category:** Platform Engineering  
-**Technologies:** Kubernetes, GKE, Nginx, Apache, MySQL, Elasticsearch, MongoDB, Redis, Terraform, GCP, AWS
+**Technologies:** Kubernetes, GKE, Nginx, Apache, MySQL, Elasticsearch, MongoDB, Redis, Terraform, GCP, AWS  
+**Demo:** [2_Purplle.com_Management](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/2_Purplle.com_Management)
 
-**Description:**
-Managed mission-critical infrastructure: ₹700 Crore revenue, 7M users, 99%+ uptime. 125+ Microservices Distributed Workload, 4x traffic spike handling. Nginx for distributed reverse proxy; Apache on VM-based application.
+**Description:** Mission-critical infrastructure for ₹700 Crore revenue, 7M users, 99%+ uptime. 125+ microservices, 4x traffic spike handling. Nginx distributed reverse proxy; Apache VM-based application.
+
+**Overview (what I've done):** 125+ microservices, Nginx distributed reverse proxy, Apache VM-based application, MySQL migrations (mydumper/myloader, gh-ost), 4-tier architecture, 4x traffic spike handling. Infra only.
 
 **Key Features:**
 - ₹700 Crore revenue, 7M users, 99%+ uptime
 - 125+ Microservices Distributed Workload, 300+ application instances
 - Nginx: reverse proxy for distributed infrastructure; Apache: VM-based application for Purplle
 - 4x traffic spike handling (150K → 600K DAU)
-- Minimal downtime MySQL migrations; 76% MTTR reduction with unified observability
+- Minimal downtime MySQL migrations (mydumper/myloader, gh-ost); 76% MTTR reduction with unified observability
 
-**Impact:** Revenue backbone, high availability, 4x spike handling, observability-driven MTTR reduction.
+**Challenges:** Minimal downtime migrations on 4TB databases; 4x traffic spike handling during sales events; managing 125+ Microservices Distributed Workload.
+
+**Learnings:** Large-scale infrastructure management; multi-cloud architecture patterns; database migrations using mydumper/myloader and gh-ost for large table alterations.
+
+**Duration:** Jun 2023 - Feb 2026 | **Role:** DevOps Engineer  
+**Impact:** ₹700 Crore revenue | 7M users | 99%+ uptime | 4x traffic spike handling.
 
 ---
 
 ### 2. Purplle - Agentic RAG Sentiment Platform
 **Status:** Production  
 **Category:** Platform Engineering (AI/ML Infrastructure)  
-**Technologies:** Kubernetes, Qdrant, Python, Docker, CI/CD, GPU infrastructure, MCP, Prometheus, Grafana
+**Technologies:** Kubernetes, Qdrant, Python, Docker, CI/CD, GPU infrastructure, MCP, Prometheus, Grafana  
+**Demo:** [7_Purplle.com_Agentic_RAG_Sentiment_Platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/7_Purplle.com_Agentic_RAG_Sentiment_Platform)
 
-**Description:**
-Managed infrastructure only: distributed K8s, GPU embedding pipeline, production Qdrant, CI/CD for AI and RAG. Platform enables semantic search over influencer content (e.g. last 2 days, 7 days) and decision support for brand teams.
+**Description:** RAG-based sentiment platform for influencer content. Semantic search (e.g. last 2 days, 7 days) and decision support for brand teams. Infra only.
+
+**Overview (what I've done):** Distributed K8s, GPU embedding pipeline, production Qdrant cluster, CI/CD for AI and RAG. Did not write application or RAG code. Infra only.
 
 **Key Features:**
 - Infra managed: K8s, GPU pipeline, Qdrant cluster, CI/CD; no application/RAG code
@@ -477,7 +490,12 @@ Managed infrastructure only: distributed K8s, GPU embedding pipeline, production
 - Production Qdrant; cosine similarity, metadata filters; self-deployed LLM in K8s
 - CI/CD for AI services and RAG components; high availability
 
-**Impact:** Infra-only ownership; production RAG/semantic search for brand teams; no app/RAG code written.
+**Challenges:** Distributed architecture and GPU scheduling for embedding generation; production Qdrant at scale; CI/CD for AI/RAG with safe rollouts; debugging across infra and application boundaries; keeping data/models under Purplle control.
+
+**Learnings:** K8s, GPU scheduling, and vector DB critical for production RAG; orchestration + vector DB delivers business value; safe rollouts/rollback for AI pipeline reliability; clear infra vs application split; self-deployed LLM and Qdrant enabled data-driven campaign optimization.
+
+**Duration:** Dec 2025 - Feb 2026 | **Role:** DevOps / Platform Engineer (AI Infrastructure)  
+**Impact:** High-availability AI pipeline | Semantic search | Faster decision support for brand teams.
 
 ---
 
@@ -486,10 +504,11 @@ Managed infrastructure only: distributed K8s, GPU embedding pipeline, production
 **Category:** Platform Engineering (Data Science / ML Infrastructure)  
 **Duration:** Jun 2023 - Feb 2026  
 **Technologies:** Kubernetes, Nginx, GCP, Vertex AI, Qdrant (vector DB), Jupyter, Cloud Functions, CI/CD, Git, Docker  
-**Project:** [Data Science Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/8_Purplle.com_Data_Science_Infrastructure)
+**Demo:** [8_Purplle.com_Data_Science_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/8_Purplle.com_Data_Science_Infrastructure)
 
-**Description:**
-Maintained infrastructure for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving on manual tasks. CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network. Infra only.
+**Description:** Infrastructure for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing; recommendations and outcomes. 50–60% cost saving on manual tasks. Infra only.
+
+**Overview (what I've done):** CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network (Nginx ingress, SSL, internal domain), Vertex AI and Cloud Function infra. Did not write application or DS code. Infra only.
 
 **Key Features:**
 - ₹700 Crore revenue backbone. Data engineering and storefront serve brands and marketing (requirements from them)
@@ -497,17 +516,74 @@ Maintained infrastructure for the ₹700 Crore revenue marketing engine. Data en
 - Vector DB (Qdrant) and network maintained. Embeddings power recommendations
 - Multi-project GCP. CI/CD and security. Production ready. Infra only
 
-**Impact:** ₹700 Cr revenue backbone. Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. 50–60% cost saving. Maintained CI/CD, servers, containerized applications, vector DB (Qdrant), network. Infra only.
+**Challenges:** Deploying new ML infrastructure automatically; managing distributed infrastructure for legacy model deployment while maintaining security.
+
+**Learnings:** Automation flow for data science infrastructure and user-facing service; recommendation engine (DS-managed embedding pipeline, infra-managed Qdrant) for marketing team.
+
+**Duration:** Jun 2023 - Feb 2026 | **Role:** DevOps / Infrastructure Engineer  
+**Impact:** ₹700 Cr revenue backbone. Data engineering and storefront serve brands and marketing. Recommendations and outcomes. 50–60% cost saving. CI/CD, servers, K8s, vector DB (Qdrant), network. Infra only.
 
 ---
 
-### 4. Purplle - Unified Observability Stack
+### 4. Purplle - Data Engineering Infrastructure
 **Status:** Production  
 **Category:** Platform Engineering  
-**Technologies:** Prometheus, Grafana, GCP Stackdriver, Kubernetes, Jenkins, Slack, Python
+**Technologies:** Kubernetes, Terraform, ArgoCD, Helm, GitLab CI, Jenkins, Kafka, MySQL, Pub/Sub, GCP Composer, Cloud Functions, BigQuery, GCP  
+**Demo:** [9_Purplle.com_Data_Engineering_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/9_Purplle.com_Data_Engineering_Infrastructure)
 
-**Description:**
-76% MTTR reduction (30min → 7min) with unified Prometheus & Grafana across 125+ Microservices Distributed Workload. Real-time alerting.
+**Description:** Pipeline powering the ₹700 Crore revenue backbone. 7M users’ data, legal and anonymous, PII-handled; flows to BigQuery/BigTable. Consumed by business teams, Data Science, Martech, SCM, and legacy panel. Infra only.
+
+**Overview (what I've done):** GKE, CI/CD, Kafka, MySQL, Pub/Sub, DAG sync to Composer, zero-trust networking. DE team owned BigQuery, BigTable, ETL, DAG logic. Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs). Infra only.
+
+**Key Features:**
+- ₹700 Crore revenue backbone; 7M users’ data, legal, anonymous, PII-handled
+- Pipeline MySQL → BigQuery/BigTable; consumed by business teams, DS, Martech, SCM, legacy panel
+- Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs)
+- Infra: GKE, CI/CD, Kafka, MySQL, Pub/Sub, DAG sync to Composer, zero-trust; DE team owned BigQuery, BigTable, ETL, DAG logic
+
+**Challenges:** Reliable pipeline from MySQL to BigQuery/BigTable for 7M users’ PII data; supporting event-driven and time-driven paths; DAG delivery from Git/GitLab to GCS for Composer/Airflow; zero-trust connectivity and minimum permissions (GCP IAM).
+
+**Learnings:** Infra for DE pipeline lets DE team focus on data warehousing and processing; clear ownership split (infra vs DE) enables reliable revenue backbone pipeline; event-driven and time-driven triggers both need infra support with keyless auth and custom roles.
+
+**Duration:** Jan 2023 - Feb 2026 | **Role:** DevOps / Infrastructure Engineer  
+**Impact:** ₹700 Crore revenue backbone; 7M users; data for business teams, DS, Martech, SCM, legacy panel; infra only.
+
+---
+
+### 5. Purplle - Legacy Admin Panels Infrastructure
+**Status:** Production  
+**Category:** Platform Engineering  
+**Technologies:** PHP, Kubernetes, MySQL, Load Balancer, CI/CD, GCP  
+**Demo:** [10_Purplle.com_Legacy_Admin_Panels_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/10_Purplle.com_Legacy_Admin_Panels_Infrastructure)
+
+**Description:** Backbone of the ₹700 Crore revenue management panel. Business teams run operations (banner, campaigns, Martech, logistics) without technical intervention—panel, few clicks, done. Infra only.
+
+**Overview (what I've done):** CI/CD, network, monolith deployment, load balancer (high load), MySQL, internal load balancer (legacy → distributed K8s). Application code owned by Storefront, Martech, SCM, Data Engineering, Data Science. Flow: business teams → panel → legacy PHP monolith → internal LB → K8s. Infra only.
+
+**Key Features:**
+- ₹700 Crore revenue panel; business teams run operations without technical intervention
+- Flow: business teams → panel → legacy PHP monolith → internal LB → distributed K8s
+- Load balancer under high load; MySQL backing legacy; internal load balancer (legacy → K8s) managed by DevOps
+- Infra: CI/CD, network, monolith deployment, load balancer, MySQL; app code by other teams
+
+**Challenges:** Keeping legacy PHP monolith and distributed K8s working together for one panel; load balancer under high load, MySQL and connections, reliable path legacy → internal LB → K8s; infra ownership without owning application code.
+
+**Learnings:** Hybrid legacy + distributed supported by infra (internal load balancer, network) so business teams use one panel without tech intervention; clear split: application code by product/engineering teams, infra by DevOps; load balancer and internal LB critical for revenue management panel availability.
+
+**Duration:** Jan 2023 - Feb 2026 | **Role:** DevOps / Infrastructure Engineer  
+**Impact:** ₹700 Crore revenue panel; business teams run operations without technical intervention; infra only.
+
+---
+
+### 6. Purplle - Unified Observability Stack
+**Status:** Production  
+**Category:** Platform Engineering  
+**Technologies:** Prometheus, Grafana, GCP Stackdriver, Kubernetes, Jenkins, Slack, Python  
+**Demo:** [1_PurplleInfra_Monitoring_Improvement](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/1_PurplleInfra_Monitoring_Improvement)
+
+**Description:** 76% MTTR reduction (30min → 7min) with unified Prometheus & Grafana across 125+ Microservices Distributed Workload. Real-time alerting.
+
+**Overview (what I've implemented):** Unified observability stack (Prometheus + Grafana), CI/CD integration, automated escalation, real-time alerting across 125+ Microservices Distributed Workload.
 
 **Key Features:**
 - 76% MTTR reduction (30 minutes → 7 minutes)
@@ -515,17 +591,24 @@ Maintained infrastructure for the ₹700 Crore revenue marketing engine. Data en
 - Real-time alerting across all environments
 - CI/CD integration with automated escalation
 
-**Impact:** 76% MTTR reduction; unified monitoring; proactive detection and escalation.
+**Challenges:** Unified monitoring across multi-cloud infrastructure; real-time alerting integration; CI/CD pipeline integration.
+
+**Learnings:** Observability best practices; incident response optimization; multi-cloud monitoring strategies.
+
+**Duration:** Jan 2023 - Jun 2023 | **Role:** DevOps Engineer  
+**Impact:** 76% MTTR reduction | Real-time alerting | Comprehensive visibility.
 
 ---
 
-### 5. Purplle - Infrastructure as Code Platform
+### 7. Purplle - Infrastructure as Code Platform
 **Status:** Production  
 **Category:** DevOps  
-**Technologies:** Terraform, Ansible, Jenkins, GitLab CI, Python, Bash, GCP, Kubernetes
+**Technologies:** Terraform, Ansible, Jenkins, GitLab CI, Python, Bash, GCP, Kubernetes  
+**Demo:** [5_Purplle.com_IAC_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/5_Purplle.com_IAC_Deployment)
 
-**Description:**
-40%+ faster deployments, 40%+ automation with Terraform & Ansible. Standardized IAC across 125+ Microservices Distributed Workload.
+**Description:** 40%+ faster deployments, 40%+ automation with Terraform & Ansible. Standardized IAC across 125+ Microservices Distributed Workload.
+
+**Overview (what I've implemented):** Terraform modules, Ansible, GitOps workflows, Jenkins/GitLab CI. Standardized IAC across 125+ Microservices Distributed Workload and multi-environment (DEV, SIT, UAT, PROD).
 
 **Key Features:**
 - 40%+ faster deployments through IAC automation
@@ -533,17 +616,24 @@ Maintained infrastructure for the ₹700 Crore revenue marketing engine. Data en
 - Reusable Terraform modules for multi-environment
 - GitOps workflows with CI/CD integration
 
-**Impact:** 40%+ faster deployments; 40%+ automation; multi-environment consistency.
+**Challenges:** Standardizing IAC across multiple environments; building reusable Terraform modules; GitOps as single source of truth.
+
+**Learnings:** Infrastructure as Code best practices; Terraform module design; GitOps as single source of truth.
+
+**Duration:** Jun 2024 - Feb 2026 | **Role:** DevOps Engineer  
+**Impact:** 40%+ faster deployments | 40%+ automation | Zero deployment errors.
 
 ---
 
-### 6. Purplle - Security Hardening & Zero-Trust Architecture
+### 8. Purplle - Security Hardening & Zero-Trust Architecture
 **Status:** Production  
 **Category:** DevSecOps  
-**Technologies:** Kubernetes, Kubernetes RBAC, Trivy, Secrets Manager, SSO, Terraform, Python, GitLab CI
+**Technologies:** Kubernetes, Kubernetes RBAC, Trivy, Secrets Manager, SSO, Terraform, Python, GitLab CI  
+**Demo:** [4_Purplle.com_SecurityImprovement](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/4_Purplle.com_SecurityImprovement)
 
-**Description:**
-Zero-trust architecture across 125+ Microservices Distributed Workload. Automated IAM minimization, RBAC, container scanning. ISO 27001 compliant.
+**Description:** Zero-trust architecture across 125+ Microservices Distributed Workload. Automated IAM minimization, RBAC, container scanning. ISO 27001 compliant.
+
+**Overview (what I've implemented):** Kubernetes RBAC, Secure Boot, Trivy container scanning, Secrets Manager, SSO, IP whitelisting, automated IAM minimization, defense-in-depth. Compliance alignment (DPDP, ISO 27001, NIST, CIS, OWASP).
 
 **Key Features:**
 - Zero-trust architecture with defense-in-depth
@@ -551,17 +641,24 @@ Zero-trust architecture across 125+ Microservices Distributed Workload. Automate
 - 100% security coverage across all workloads
 - Compliance: DPDP, ISO 27001, NIST, CIS, OWASP
 
-**Impact:** Zero-trust implementation; reduced attack surface; compliance (DPDP, ISO 27001, NIST, CIS, OWASP).
+**Challenges:** Implementing zero-trust across entire infrastructure; automated security scanning integration; compliance with multiple standards.
+
+**Learnings:** Zero-trust architecture patterns; DevSecOps best practices; security compliance frameworks.
+
+**Duration:** Dec 2024 - Mar 2025 | **Role:** DevSecOps Engineer  
+**Impact:** 100% security coverage | Automated vulnerability detection | Compliance-ready.
 
 ---
 
-### 7. Purplle - AdTech Platform
+### 9. Purplle - AdTech Platform
 **Status:** Production  
 **Category:** Platform Engineering  
-**Technologies:** Kubernetes, GKE, Terraform, GitLab CI, Jenkins, Python, GCP, AWS, Keycloak, Trivy
+**Technologies:** Kubernetes, GKE, Terraform, GitLab CI, Jenkins, Python, GCP, AWS, Keycloak, Trivy  
+**Demo:** [6_Purplle.com_Adtech_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_Purplle.com_Adtech_Deployment)
 
-**Description:**
-₹400+ Crore revenue, 93% cost reduction (₹80L → ₹5.7L). 4x traffic spike handling, 7M users. Multi-cloud architecture.
+**Description:** ₹400+ Crore revenue, 93% cost reduction (₹80L → ₹5.7L). 4x traffic spike handling, 7M users. Multi-cloud architecture.
+
+**Overview (what I've implemented):** GKE, 100+ production services, Terraform, GitLab CI, Jenkins, multi-cloud (AWS Route53 + GCP). Infra for in-house AdTech platform.
 
 **Key Features:**
 - ₹400+ Crore revenue, 93% cost reduction
@@ -569,17 +666,24 @@ Zero-trust architecture across 125+ Microservices Distributed Workload. Automate
 - 100+ production services on GKE
 - Multi-cloud (AWS Route53 + GCP GKE)
 
-**Impact:** 93% cost reduction; ₹400+ Crore revenue; 4x spike handling; in-house replacement for third-party AdTech.
+**Challenges:** Replacing third-party solution with in-house platform; 4x traffic spike handling during sales; multi-cloud deployment and management.
+
+**Learnings:** 4-tier distributed architecture; cost optimization strategies; multi-cloud deployment patterns.
+
+**Duration:** Jul 2025 - Aug 2025 | **Role:** DevOps Engineer  
+**Impact:** 93% cost reduction | ₹400+ Crore revenue | 4x traffic spike handling.
 
 ---
 
-### 8. Purplle - POS Platform for 100+ Retail Stores
+### 10. Purplle - POS Platform for 100+ Retail Stores
 **Status:** Production  
 **Category:** Platform Engineering  
-**Technologies:** Kubernetes, GKE, Terraform, Jenkins, GitLab CI, Python, GCP, Kafka, Redis
+**Technologies:** Kubernetes, GKE, Terraform, Jenkins, GitLab CI, Python, GCP, Kafka, Redis  
+**Demo:** [3_PurplleNexus_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/3_PurplleNexus_Deployment)
 
-**Description:**
-High-availability POS platform: 100+ stores, 500+ daily users, ₹40+ Crores revenue, 99%+ uptime. Kafka + Redis architecture.
+**Description:** High-availability POS platform: 100+ stores, 500+ daily users, ₹40+ Crores revenue, 99%+ uptime. Kafka + Redis architecture.
+
+**Overview (what I've implemented):** GKE deployment across DEV, SIT, UAT, PROD, Kafka + Redis architecture, 4-tier pattern, high-availability for POS. Infra only.
 
 **Key Features:**
 - 100+ retail stores, 500+ daily employees
@@ -587,11 +691,39 @@ High-availability POS platform: 100+ stores, 500+ daily users, ₹40+ Crores rev
 - ₹40+ Crores revenue
 - Kafka + Redis for real-time processing
 
-**Impact:** 99%+ uptime; 100+ stores; 500+ daily users; ₹40+ Crores revenue.
+**Challenges:** High-availability deployment for retail operations; scalable infrastructure; real-time data processing with Kafka.
+
+**Learnings:** POS platform architecture; auto-scaling strategies; real-time messaging patterns.
+
+**Duration:** Jun 2024 - Jul 2024 | **Role:** DevOps Engineer  
+**Impact:** 99%+ uptime | 100+ store support | ₹40+ Crores revenue.
 
 ---
 
-### 9. SocialSplit - Real-Time Chat Application
+### 11. Grid Platform - Infrastructure Management Platform
+**Status:** Active Development  
+**Category:** Platform Engineering  
+**Client Type:** Open Source Project  
+**Technologies:** Node.js, TypeScript, React, Terraform, OpenTofu, Ansible, Kubernetes, Docker, GitOps  
+**GitHub:** https://github.com/gridplatform  
+**Demo:** https://gridplatform.org
+
+**Description:** AI-first infrastructure management. Days → minutes setup, 60–80% cost reduction vs proprietary solutions. Open-source, vendor-agnostic.
+
+**Overview (what I've implemented):** AI-first infrastructure automation, deployment workflows, multi-cloud and IaC tooling. Open-source, vendor-agnostic platform.
+
+**Key Features:**
+- Infrastructure setup: days → minutes with AI automation
+- 60–80% cost reduction vs proprietary solutions
+- Vendor-agnostic, eliminates vendor lock-in
+- Standardized, repeatable deployment workflows
+
+**Duration:** Active Development | **Role:** Platform Engineer  
+**Impact:** AI-first automation; significant cost reduction; vendor-agnostic OSS platform.
+
+---
+
+### 12. SocialSplit - Real-Time Chat Application
 **Status:** Personal Project  
 **Technologies:** MongoDB, ReactJS, Socket.IO, NodeJS
 
@@ -607,7 +739,7 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 > **📝 Update Instructions:** When switching companies, update the "Experience Summary" section below with new totals. Keep company-specific metrics in their respective company sections.
 
 ### Production Metrics (Cumulative Across All Companies)
-- **₹700 Crore revenue** - Main e-commerce platform; **₹700 Crore revenue backbone** - Data Science Infrastructure (recommendations, DE/storefront, brand & marketing)
+- **₹700 Crore revenue** - Main e-commerce platform; **₹700 Crore revenue backbone** - Data Science Infrastructure (recommendations, DE/storefront, brand & marketing); **Data Engineering Infrastructure** (pipeline to BigQuery/BigTable for business teams, DS, Martech, SCM, legacy panel); **Legacy Admin Panels Infrastructure** (revenue management panel for business operations)
 - **₹400+ Crore revenue** - AdTech platform; **₹40+ Crores revenue** - POS (100+ retail stores)
 - **40%+ faster deployments** - Infrastructure automation and CI/CD modernization
 - **76% MTTR reduction** - From 30 minutes to 7 minutes via unified observability stack
@@ -626,7 +758,7 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 - **Companies Worked At:** 1 (Purplle.com)
 - **Current Company:** Purplle.com
 - **Current role:** See Experience section (Resume or LinkedIn)
-- **Projects Deployed to Production:** 5+
+- **Projects Deployed to Production:** 11+ (Purplle + Grid OSS; see Featured Projects)
 - **Cloud Platforms:** GCP, AWS
 - **99%+ uptime** achieved across production systems
 
@@ -635,7 +767,7 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 **Purplle.com (January 2023 - Present):**
 - **Total Duration:** January 2023 - Present
 - **Roles:** See Experience section — LinkedIn (broken into roles) or Portfolio for full progression; Resume for consolidated view.
-- **Key Projects:** Main e-commerce platform (Purplle.com), PurplleAds (AdTech), Nexus (POS), Data Science Infrastructure, Agentic RAG Sentiment Platform, Unified Observability Stack, Infrastructure as Code (IaC), Security Hardening & Zero-Trust
+- **Key Projects:** Main e-commerce platform (Purplle.com), PurplleAds (AdTech), Nexus (POS), Data Science Infrastructure, Data Engineering Infrastructure, Legacy Admin Panels Infrastructure, Agentic RAG Sentiment Platform, Unified Observability Stack, Infrastructure as Code (IaC), Security Hardening & Zero-Trust; Grid Platform (OSS)
 
 ---
 
@@ -769,7 +901,7 @@ Comprehensive documentation and learning resources across multiple repositories:
 
 **✅ Single Source of Truth:** All LinkedIn profile data matches this document exactly. No duplications. Ready for GitHub raw file usage.
 
-**GitHub Raw URL:** `https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md`
+**GitHub Raw URL:** `https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md`
 
 ---
 
