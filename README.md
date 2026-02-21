@@ -17,12 +17,10 @@ Welcome to my GitHub space! I'm an **Experienced Software Engineer**; I work acr
 - AI-Driven Automation & Agentic Workflows
 
 **What I deliver**
-| | |
-| :--- | :--- |
-| **Large-scale infrastructure** | Production systems that stay up |
-| **Backend & code** | Scalable code and architecture design |
-| **Databases & data** | Data stores—design, reliability, performance |
-| **ML apps & AI** | MLOps, deploying ML products; AI to improve developer productivity |
+- **Large-scale infrastructure** — Production systems that stay up
+- **Backend & code** — Scalable code and architecture design
+- **Databases & data** — Data stores—design, reliability, performance
+- **ML apps & AI** — MLOps, deploying ML products; AI to improve developer productivity
 
 🌐 **Quick Links:**
 - **Portfolio** — [kushal.cv](https://kushal.cv/) — Projects, experience, and technical journey
