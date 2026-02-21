@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Production Platform - Main E-Commerce Infrastructure  
 **Status:** Live & Operational  
+**Duration:** Jun 2023 - Feb 2026  
 **Platform:** Purplle.com - Beauty & Personal Care E-Commerce Platform  
 **Deployment:** Production infrastructure serving 1 crore+ users  
 **Role:** DevOps Engineer | Team Size: 5 people

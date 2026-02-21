@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Production Platform - Legacy Backend Admin Panels (Infrastructure only)  
 **Status:** Live & Operational  
+**Duration:** Jan 2023 - Feb 2026  
 **Platform:** Managed system whose outcomes business teams use to deliver changes: front banner, newer campaigns, Martech campaigns, logistic changes. Legacy PHP monolith (backend admin panels) maintained from the front-end side; front-end manages the panel and calls the backend. Backend connects to distributed (microservice) architecture via internal load balancer. Application code is owned by other teams (Storefront, Martech, SCM, Data Engineering, Data Science); business teams use the panel to run operations.  
 **Deployment:** Monolith deployment, load balancer (high load), MySQL database and connections; internal load balancer between legacy instance and distributed K8s-based services.  
 **Role:** DevOps / Infrastructure Engineer — part of team that managed CI/CD, network, monolith deployment, load balancer under high load, MySQL backing the architecture, and internal load balancer to distributed architecture. Did not own application code.  

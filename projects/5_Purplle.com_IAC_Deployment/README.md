@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Infrastructure Automation & Deployment  
 **Status:** Implemented & Operational  
+**Duration:** Jun 2024 - Feb 2026  
 **Platform:** Purplle.com Infrastructure Automation  
 **Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform  
 **Role:** DevOps Engineer | Team Size: 5 people
