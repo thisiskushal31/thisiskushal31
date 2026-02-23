@@ -242,23 +242,21 @@ One role per company; use for resume/CV (e.g. resume_concise.tex). All experienc
 Started by building and deploying monitoring and alerting systems for cloud infrastructure to improve uptime and reliability. Progressed to cloud cost optimization, disaster recovery, and security enhancements for operational efficiency and system resilience. Currently deploying and managing high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99%+ uptime and optimized cloud operations at Purplle.com. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
 
 **Key Achievements:**
-- Achieved >98% uptime by deploying a robust monitoring and alerting system using Prometheus and Grafana, resulting in faster detection and resolution of issues
-- Improved platform reliability by collaborating across teams to resolve high-impact issues in production infrastructure
-- Achieved 40–50% cost savings by performing cloud infrastructure rightsizing and cleaning up unused resources, resulting in optimized cloud spend
-- Improved system resilience by designing and implementing backup and disaster recovery solutions, with multiple PoCs promoted to production
-- Enhanced operational efficiency by deploying an on-call alerting system, reducing mean incident response time from 30 to 7 minutes
-- Reduced site downtime by 50% during sale events through infrastructure optimization and proactive monitoring
-- Enabled QA velocity by deploying Hypertest (A Third Party Testing Tool) infrastructure, delivering it ahead of schedule and handing over to the dev team
-- Strengthened cloud security posture by leading initiatives in IAM role minimization, Secure Boot, and automated cleanup of public IPs and service accounts — resulting in improved compliance and reduced attack surface
-- Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling and 33% site downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
+<!-- Key API -->
+- Achieved >98% uptime, 50% reduction in sale-event downtime, and MTTR from 30 to 7 minutes using unified observability and on-call alerting via Prometheus, Grafana, Slack, Jenkins pipeline modernization, and automated escalation—enabling faster detection and cross-team resolution of production issues
+- Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling, and 33% site downtime reduction using ECommerce platform infra (Purplle.com) and 125+ GKE deployments through backup and disaster recovery solutions (MySQL, MongoDB, Elasticsearch) that I designed and implemented, with multiple PoCs promoted to production
+- Achieved 30–50% cloud cost reduction using rightsizing (GCP/AWS), autoscaling policies, and resource cleanup—optimizing cloud spend and improving security posture by removing unused resources
+
+
+<!-- Key Projects -->
 - Reduced time-to-insight for brand teams by ~50% by operating infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
 - Maintained infrastructure for the ₹700 Cr revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
 - Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
-- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
-- Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
-- Reduced MTTR from 30 to 7 minutes and incident response time by modernizing CI/CD (Jenkins freestyle → scripted pipelines, Slack alerts) and architecting unified observability (Prometheus, Grafana) with automated escalation
-- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup (improving security posture by removing unused resources)
-- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
+- Deployed high-availability Nexus (POS) across 150+ retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
+- Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management, internal tools, and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
+
+<!-- Security & Compliance: -->
+- Strengthened cloud security posture via IAM minimization, Secure Boot, automated cleanup of public IPs and service accounts, Kubernetes RBAC, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture—improving compliance and reducing attack surface
 
 **Technologies Used:**
 GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/CD, Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Trivy, GitLab CI, Secrets Manager, SSO, IAM, Keycloak, ALB, GCLB, Route53, WAF, VPC
