@@ -1,6 +1,6 @@
 # 👋 Hey there, I'm Kushal Gupta
 
-Welcome to my GitHub space! I'm an **Experienced Software Engineer**—I work across large-scale **distributed** and **non-distributed** production infrastructure, end-to-end from design through monitoring and reliability, with a focus on **security**, **reliability**, and **scalability**. I can build and have scaled product from **MVP to full large-scale infrastructure**. I automate what can be automated in between. I work the full lifecycle: design → build → deploy → operate → monitor → iterate.
+Welcome to my GitHub space! I'm an **Experienced Software Engineer**—I work across large-scale **distributed** and **non-distributed** production infrastructure, end-to-end from design through monitoring and reliability, with a focus on **security**, **reliability**, and **scalability**. I can build and have scaled product from **MVP to full large-scale infrastructure**. I automate what can be automated in between. I have end-to-end ownership across the full product lifecycle: design → build → deploy → operate → monitor → iterate.
 
 - **Full-stack** — Write scalable code and system design; architecture design; deploy securely, automate everything in between; design for reliability and scalability
 - **System design & large-scale infrastructure** — Scalable architectures, distributed systems, trade-off-driven design. From 0–1 and 1,000 to 100,000+ daily active user applications; production systems that stay up, critical applications with clear trade-offs.

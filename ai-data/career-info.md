@@ -8,11 +8,20 @@
 - Company-specific optimization
 - **LinkedIn profile optimization** ⭐ (All LinkedIn data matches this document)
 - Interview preparation
+- **Bio & headline:** GitHub = **full-stack + DevOps** persona; LinkedIn = **MLOps + DevOps** persona. Maintain both in "👤 Personal Information" → Bifurcation section.
+
+**Context for AI/readers:** For full public profile (projects, tech stack, narrative), also read the **public GitHub README**: [thisiskushal31/thisiskushal31](https://github.com/thisiskushal31/thisiskushal31). Career-info.md and the README together give complete context.
 
 **GitHub Raw File:** This document can be accessed as a raw file on GitHub for easy integration with AI tools and automation:
 ```
 https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 ```
+
+**Public GitHub README (full profile context):** For full public profile, projects, tech stack, and narrative, also read the repository README. Use this when you need one-place context (bio, projects, links, technical expertise):
+```
+https://github.com/thisiskushal31/thisiskushal31
+```
+Raw README: `https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/main/README.md`
 
 **Last Updated:** Feb 2026
 
@@ -35,19 +44,22 @@ https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/
 
 **1. LinkedIn About Section** → See "📝 LinkedIn About Section" below
 - Copy-paste ready format
-- Character count: ~1,050 characters
-- Includes: Professional summary, key capabilities, GitHub link
+- Character count: ~1,350 characters
+- Structure: Para 1 = what I can do (short); Para 2 = what I've done + records (bullets); Para 3 = closing + GitHub (do not change)
 
 **2. Experience (three formats)** → See "Experience" section below
 - **1. LinkedIn** — Copy-paste for LinkedIn profile; one entry per role at each company (shows career progression)
 - **2. Resume** — For resume/CV: one consolidated entry per company (Role Description, Key Achievements, Technologies Used) → resume_concise.tex
 - **3. Portfolio website** — For portfolio-website `portfolio.ts` experience array (one entry per role at each company)
 
-**3. LinkedIn Headline** → See "👤 Personal Information" below
-- Professional Title: "Software Engineer | Platform Engineering · DevOps · Cloud Infrastructure · Cloud-Native Software Development"
+**3. LinkedIn Headline** → See "👤 Personal Information" below (LinkedIn identity)
+- Use the **LinkedIn bio** only — do not use the GitHub bio on LinkedIn.
 
 **4. LinkedIn Location** → See "👤 Personal Information" below
 - Location: Kolkata, India
+
+**5. LinkedIn Top Skills** → See "📌 LinkedIn Top Skills" below
+- Add up to 5 skills you want to be known for; they appear in your Skills section and help recruiters/hiring managers find you.
 
 **LinkedIn Optimization Notes:**
 - ✅ Format: Separate entries per role at each company (shows career progression)
@@ -58,19 +70,66 @@ https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/
 
 ## 👤 Personal Information
 
+> **⚠️ Bifurcation (very important):** GitHub and LinkedIn use **different bios** and portray two personas. **GitHub bio** = your **full-stack + DevOps** persona (whole full-stack with a DevOps angle). **LinkedIn bio** = your **MLOps + DevOps** persona (employer-facing). Always use the correct bio for each platform — do not mix them.
+
+**Shared (use everywhere):**  
 **Name:** Kushal Gupta  
 **Location:** Mumbai, India  
 **Timezone:** IST (UTC+5:30)  
-**Email:** guptakushal070@gmail.com
+**Email:** guptakushal070@gmail.com  
+**GitHub profile URL:** https://github.com/thisiskushal31
 
-**Professional Title:** Software Engineer | Platform Engineering · DevOps · Cloud Infrastructure · Cloud-Native Software Development
+---
 
-**Areas of Expertise & Interest:**
+### GitHub identity (profile bio)
+
+**Persona:** Full-stack + DevOps — reflects your whole full-stack persona with a DevOps angle (developer-facing, code + infra).
+
+**Where it appears:** GitHub profile "Bio" field, and contexts that reference your GitHub or developer-facing presence.
+
+**Bio (copy-paste for GitHub profile):**
+```
+Software Engineer | Fullstack & DevOps | End-to-end ownership | Terraform, K8s, CI/CD, GitOps, Automation, Security, MLOps, AI | MVP to production at scale
+```
+*Keep in sync with the tone of your public [README](https://github.com/thisiskushal31/thisiskushal31/README.md). Wording tuned for international audiences. "Full-stack + DevOps" = whole full-stack persona with a DevOps angle.*
+
+---
+
+### LinkedIn identity (headline + About)
+
+**Persona:** MLOps + DevOps — shows your MLOps and DevOps persona (employer-facing, recruiter-facing).
+
+**Where it appears:** LinkedIn headline, About section, and any LinkedIn or employer-facing one-line summary.
+
+**Headline (copy-paste for LinkedIn):**
+```
+Software Engineer | DevOps & Platform Engineering | Cloud Infrastructure (GCP/AWS) | MLOps & AI | Terraform, K8s, Generative AI | Production at scale
+```
+
+*Use this for LinkedIn only. Do not use the GitHub bio on LinkedIn. Wording tuned for international audiences.*
+
+---
+
+## 📌 LinkedIn Top Skills
+
+> **Purpose:** Show your top 5 skills on LinkedIn so recruiters and hiring managers can find you. Use the exact names below when adding skills (LinkedIn will suggest matches). Order can reflect strength or relevance to target roles.
+
+**Copy-paste order (use these exact names on LinkedIn):**
+
+1. **Cloud-Native Architecture**
+2. **Continuous Integration and Continuous Delivery (CI/CD)**
+3. **Infrastructure as Code (IaC)**
+4. **Monitoring and Alerting**
+5. **Automation**
+
+**Why these five:** They match your About section and experience—infrastructure + automation + observability—and are commonly searched for DevOps, Platform Engineer, and SRE roles. Keeps your profile consistent and hireable.
+
+---
+
+**Areas of Expertise & Interest (shared context):**
 - **DevOps & Platform Engineering:** Infrastructure automation, CI/CD pipelines, GitOps workflows, and developer productivity tools
 - **Security-Focused Software Development:** Zero-trust architecture, automated security scanning, secrets management, and compliance implementation
 - **Cloud-Native Engineering & System Design:** Kubernetes orchestration, microservices architecture, multi-cloud deployments, and scalable system design
-
-**GitHub:** https://github.com/thisiskushal31
 
 ---
 
@@ -78,29 +137,31 @@ https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/
 
 **Copy-Paste Ready Format:**
 ```
-I'm an Experienced Software Engineer with proven track record building, deploying, and operating large-scale production-grade systems across cloud, managed services, and VM-based environments. I work at the intersection of software development and platform engineering—owning systems end to end, from infrastructure design and deployment to monitoring, reliability, and production operations. I focus on understanding the "why" behind technical decisions and choosing the best system design for each problem, ensuring solutions are not just functional but optimal for the specific context. I've contributed to high-availability platforms, reduced operational overhead through automation, and improved system performance, resilience, and cost efficiency at scale. I place a strong emphasis on security, reliability, and scalability, focusing on building systems that are easy to operate, resilient under load, and aligned with real business needs.
+I'm a Software Engineer who handles infrastructure and writes code. I work across greenfield and brownfield—large-scale, data-driven, AI, and legacy infrastructure—and design and run production systems end-to-end: cloud-native (Kubernetes, GCP, AWS), IaC (Terraform, Ansible, GitOps), CI/CD, monitoring and alerting, automation. I've built and shipped application and tooling code when it moves the needle.
 
-• End-to-end system ownership: Infrastructure → Deployment → Monitoring → Reliability
-• System design: Understanding the "why" and choosing the best architecture for each problem
-• Cloud platforms: GCP, AWS with Kubernetes-based and self-managed deployments
-• CI/CD & Infrastructure: Pipeline design, Infrastructure as Code, observability systems
-• Platform engineering: Automation, developer tooling, and production operations
-• High ownership: Comfortable with ambiguous requirements, cross-functional collaboration
+What I've done (with data):
+• Cloud-native: 3+ years on GCP, AWS; 125+ microservices, 7M+ users, 99%+ uptime—e-commerce, AdTech, POS, data/ML
+• CI/CD & IaC: 40%+ faster deployments; standardized IaC across 125+ microservices (Terraform, Ansible, GitOps)
+• Monitoring and alerting: 76% MTTR reduction; unified observability (Prometheus, Grafana); on-call, incident response
+• Automation: 30% cloud cost reduction; ₹1 Crore+ cost savings; 93% AdTech infra cost reduction; agentic AI for Elasticsearch, CI/CD, IaC (n8n, Terraform, Ansible, Python)
+• Security & compliance: Zero-trust, K8s RBAC, Trivy, Secrets Manager, SSO; ISO 27001, NIST, CIS, OWASP
+• Beyond infra—what I build in my free time: MCP (Model Context Protocol), Grid Platform (open-source, AI-first infra management), and side projects. I code and ship so you see both what I've delivered at work and what I'm building now.
+
+System design: I care about the "why"—choosing the right architecture and trade-offs for each problem. I document and share what I learn (DevOps, containers, databases, system design) and am comfortable with ambiguity and cross-functional collaboration.
 
 GitHub: https://github.com/thisiskushal31
 ```
 
-**Character Count:** ~1,050 characters (within LinkedIn's 2,600 character limit ✅)
+**Character Count:** ~1,810 characters (within LinkedIn's 2,600 character limit ✅)
+
+**Structure:** (1) What I can do — short paragraph. (2) What I've done + records — bullets with data. (3) Closing + GitHub — unchanged.
 
 **Key Highlights:**
-- **Experience:** Proven track record building large-scale production-grade systems
-- **Scope:** End-to-end ownership (infrastructure → deployment → monitoring → reliability)
-- **Cloud Platforms:** GCP, AWS
-- **Technologies:** Kubernetes, CI/CD, Infrastructure as Code, Observability
-- **Focus Areas:** Security, reliability, scalability
-- **Work Style:** High ownership, collaborative, business-aligned
-- **Capabilities:** Platform engineering, automation, developer tooling, production operations
-- **System Design:** Understanding the "why" and choosing optimal architecture for each problem
+- **Positioning:** Software Engineer who handles infrastructure and writes code; matches LinkedIn top 5 skills; employers see both work delivery and what you build now.
+- **Para 1:** Software Engineer, infrastructure + code. Greenfield and brownfield; large-scale, data-driven, AI, and legacy infra. End-to-end: cloud-native, IaC, CI/CD, monitoring, automation; ships code when it matters.
+- **Para 2 (bullets):** Cloud-native; CI/CD & IaC; Monitoring and alerting; Automation; Security & compliance; **Beyond infra (free time):** MCP, Grid Platform (OSS, AI-first infra), side projects—so employers see you code and ship now.
+- **Para 3 (unchanged):** System design, documentation, ambiguity, cross-functional; GitHub link.
+- **GitHub bio:** Includes "Infra + code when it matters" for generalist/coding signal.
 
 ---
 
