@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Security Enhancement Initiative  
 **Status:** Implemented & Operational  
+**Duration:** Dec 2024 - Mar 2025  
 **Platform:** Purplle.com Infrastructure Security Hardening  
 **Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform  
 **Role:** DevOps Engineer | Team Size: 5 people

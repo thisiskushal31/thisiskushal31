@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Infrastructure Monitoring & Observability Enhancement  
 **Status:** Implemented & Operational  
+**Duration:** Jan 2023 - Jun 2023  
 **Platform:** Purplle.com Infrastructure Monitoring  
 **Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform  
 **Role:** DevOps Engineer | Team Size: 5 people

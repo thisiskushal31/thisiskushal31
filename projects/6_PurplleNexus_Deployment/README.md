@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Production Platform - In-House POS Solution  
 **Status:** Live & Operational  
+**Duration:** Jun 2024 - Jul 2024  
 **Platform:** Nexus - Point of Sale (POS) System  
 **Deployment:** Production Environment (POS Platform)  
 **Environments:** DEV, SIT, UAT, PROD  

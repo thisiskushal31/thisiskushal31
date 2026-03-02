@@ -141,6 +141,7 @@ This portfolio is designed for:
 - **Client Showcases** - Share relevant projects for specific opportunities
 - **Employer Reviews** - Showcase technical capabilities and achievements
 - **Technical Discussions** - Reference during architecture and design discussions
+- **LinkedIn Projects** - Copy-paste ready text for each project: see [LINKEDIN_PROJECTS_READY.md](./LINKEDIN_PROJECTS_READY.md) for project names, descriptions (≤2000 chars), and suggested skills to update or add LinkedIn project entries.
 
 ---
 
