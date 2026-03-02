@@ -5,6 +5,7 @@
 **Company:** Purplle.com  
 **Project Type:** Production Platform - In-House AdTech Solution  
 **Status:** Live & Operational  
+**Duration:** Jul 2025 - Aug 2025  
 **Platform:** PurplleAds - Internal Brand Management & Advertising Platform  
 **Deployment:** Production Environment (AdTech Platform)  
 **Role:** DevOps Engineer | Team Size: 5 people
