@@ -358,6 +358,7 @@ When you join a new company, copy the relevant parts below into **LinkedIn Exper
 - **Hashnode:** https://thisiskushal.hashnode.dev/
 - **Medium:** https://thisiskushalgupta.medium.com/
 - **LeetCode:** https://leetcode.com/u/Quick067/
+- **CodePen:** https://codepen.io/thisiskushal31
 - **GCP Badges:** [Credly](https://www.credly.com/badges/7af9ebab-6364-42a3-b1b8-200fb56b101a/public_url)
 
 ---
