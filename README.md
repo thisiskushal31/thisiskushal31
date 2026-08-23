@@ -1,8 +1,8 @@
 # 👋 Hey there, I'm Kushal Gupta
 
-I'm a Software Engineer with end-to-end ownership of product delivery—from application code, APIs, and frontends through the platforms that run in production. I design, build, deploy, and operate software from MVP through scale, with a focus on reliability, security, and measurable business outcomes.
+I'm a DevOps and Platform Engineer with end-to-end ownership across the product lifecycle—how teams design, ship, deploy, operate, and improve software in production. My day-to-day work sits at the intersection of platform engineering, DevOps, cloud engineering, AI/ML deployments, and MLOps, with a focus on reliability, security, and measurable business outcomes.
 
-My work spans full-stack development and platform engineering: writing application software, designing system architecture, and operating production systems under real traffic and commercial load. I am comfortable working in distributed, remote-first teams and collaborating across time zones with product, engineering, and operations stakeholders.
+What I do today: DevOps, platform engineering, cloud-native architecture, and production ML/MLOps infrastructure. What I've done: architecture design for distributed systems, and operating production platforms under real traffic and commercial load. What I'm building toward: full-stack application development, AI engineering, and stronger software engineering practices—I learn and write code in personal time through side projects and open source. I collaborate closely with product, engineering, and operations teams—on-site, hybrid, or remote, depending on what the role and team need.
 
 🌐 Quick Links: [Portfolio](https://kushal.cv/) · [Bio](https://bio.kushal.cv/) · [Blog](https://blog.kushal.cv/) · [DocHub](https://thisiskushal31.github.io/dochub/)
 
@@ -61,7 +61,7 @@ Impact: US$160M+ business backbone · 10M+ users · 40%+ faster code delivery ·
 
 ## 🛠️ How I Build
 
-Application layer: Python, JavaScript, TypeScript, React, Node.js, FastAPI, REST APIs
+Production focus: Terraform, Ansible, Helm, Argo CD, Jenkins, GitLab CI, GitHub Actions · Kubernetes · OpenTelemetry
 
 Cloud platforms (production experience on GCP and AWS):
 
@@ -75,17 +75,16 @@ Cloud platforms (production experience on GCP and AWS):
 
 *Production hybrid: GKE workloads with AWS edge networking (Route 53, ALB, VPC, WAF) at Purplle; current Stealth Startup platform on GCP. Kubernetes and IaC patterns apply across both clouds.*
 
-Delivery & ops: Terraform, Ansible, Helm, Argo CD, Jenkins, GitLab CI, GitHub Actions  
-Data & AI: MySQL, MongoDB, Redis, Elasticsearch, Kafka, Qdrant, Vertex AI  
+Data & AI (deployments / infra): MySQL, MongoDB, Redis, Elasticsearch, Kafka, Qdrant, Vertex AI  
 Security: Zero Trust, RBAC, secrets management, compliance (SOC 2, ISO 27001, DPDP)
 
-I work full-stack and production-minded across both clouds—application code plus the systems that ship and run it reliably.
+Learning & personal time: Python, JavaScript, TypeScript, React, Node.js, FastAPI—full-stack and AI application patterns through side projects and open source.
 
 ---
 
 ## 🔄 Side Projects & Open Source
 
-*Proof I also write and ship product code outside day-job scope.*
+*Personal-time learning and experiments—side projects and open source where I practice full-stack and AI application development.*
 
 | Project | What it is |
 | :--- | :--- |
@@ -126,7 +125,7 @@ I work full-stack and production-minded across both clouds—application code pl
 
 ## 🤝 Let's Connect
 
-Open to Software Engineer, full-stack, and platform roles—remote-friendly, distributed teams worldwide.
+Open to DevOps, platform, cloud, and MLOps roles—on-site, hybrid, or remote (India and global).
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/)
 - 🐦 [X (Twitter)](https://x.com/thisis_kushal)
