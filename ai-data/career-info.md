@@ -772,7 +772,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Overview (what I've done):** Own cloud infrastructure, platform engineering, deployment automation, security, and observability. Distributed CI caching (up to 80% faster), reusable CI with semantic versioning, full IaC with Atlantis, inventory/cost audit automation.
 
 **Duration:** Mar 2026 - Present | **Role:** DevOps Engineer  
-**Impact:** 15+ services · 100+ CI jobs/day · SOC 2 + ISO 27001–aligned platform.
+**Impact:** Greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned.
 
 ---
 

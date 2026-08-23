@@ -214,9 +214,9 @@ Customer AWS / GCP environment
 
 ## Operational Scale (LinkedIn / Resume)
 
-- **15+** production services  
-- **100+** CI jobs per day  
+- **Greenfield** startup platform — production live and **gradually growing**  
 - Up to **80%** faster CI via distributed caching  
+- Runner capacity designed for growth (~**30** VM types; frequent **32 vCPU / 128 GB** C4D in us-central1)  
 
 ## Related Documentation
 

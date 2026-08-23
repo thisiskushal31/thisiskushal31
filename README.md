@@ -1,125 +1,87 @@
 # 👋 Hey there, I'm Kushal Gupta
 
-Welcome to my GitHub space! I'm an **Experienced Software Engineer**—I work across large-scale **distributed** and **non-distributed** production infrastructure, end-to-end from design through monitoring and reliability, with a focus on **security**, **reliability**, and **scalability**. I can build and have scaled product from **MVP to full large-scale infrastructure**. I automate what can be automated in between. I have end-to-end ownership across the full product lifecycle: design → build → deploy → operate → monitor → iterate.
+I'm a **Software Engineer** who builds and ships products end to end — **application code, APIs, and frontends**, plus the platform that runs them in production. I take ownership from **MVP through scale**: design → build → deploy → operate → improve.
 
-- **Full-stack** — Write scalable code and system design; architecture design; deploy securely, automate everything in between; design for reliability and scalability
-- **System design & large-scale infrastructure** — Scalable architectures, distributed systems, trade-off-driven design. From 0–1 and 1,000 to 100,000+ daily active user applications; production systems that stay up, critical applications with clear trade-offs.
-- **DevOps** — CI/CD, observability, and automation that improve developer experience; incident response and on-call; cost and efficiency. Faster delivery, lower MTTR.
-- **Databases & data** — Data stores—design, reliability, performance
-- **ML applications & AI-driven automation** — Deploy production AI, MLOps, RAG, and data science pipelines; build and run agentic workflows; intelligent automation and AI-augmented delivery to sharpen developer productivity
-- **Across the stack** — Public-facing, data-driven, ML, and non-public-facing or security applications; I've worked across them
-- **Greenfield & brownfield** — Building from scratch or managing and evolving legacy applications
+I am not a "pipelines-only" engineer. I write software, design systems, and make sure what I ship stays **secure, reliable, and fast** under real business load.
 
-**Areas of Expertise & Interest:**
-- DevOps & Platform Engineering
-- Security-Focused Software Development
-- Cloud-Native Engineering & System Design
-- AI/ML Infrastructure & Agentic Workflows
-- AI-Driven Automation & Agentic Workflows
-
-🌐 **Quick Links:**
-- **Portfolio** — [kushal.cv](https://kushal.cv/) — Projects, experience, and technical journey
-- **Bio Links** — [bio.kushal.cv](https://bio.kushal.cv/) — Social profiles and important links
-- **Blog** — [blog.kushal.cv](https://blog.kushal.cv/) — Technical deep dives and engineering insights
-- **DocHub** — [thisiskushal31.github.io/dochub](https://thisiskushal31.github.io/dochub/) — Learning notes and resources
-
-I'm dedicated to solving real-world engineering challenges. I'm always exploring modern tools and system designs, and I'm particularly interested in how we can leverage **AI** to build more robust and efficient systems.
-
-## 🏗️ Technical Expertise
-
-*What I can do — in one place. End-to-end ownership from design to production.*
-
-- **Infrastructure & scale:** Run production systems that stay up. 125+ microservices, 300+ application instances, 4TB MySQL, hybrid cloud (GCP + AWS). Multi-environment (DEV, SIT, UAT, PROD), GKE, Nginx/Apache, load balancers, VPC, zero-downtime migrations (mydumper/myloader, gh-ost). Business impact: ₹700 Crore+ revenue backbone, 7M users, 99%+ uptime, 4x traffic spike handling.
-
-- **System design:** Scalable and distributed system architecture—high availability, scalability patterns, disaster recovery, and trade-off-driven design. From application logic to infrastructure; built to grow.
-
-- **Data-driven applications & pipelines:** Build and operate **data-driven** pipelines that move 7M users' data (PII-handled, legal, anonymous) from MySQL to BigQuery/BigTable. Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs). Kafka, Pub/Sub, DAG sync; consumed by business teams, Data Science, Martech, SCM, legacy panel. Infra only; DE owns warehousing and ETL logic.
-
-- **Data science & AI infra:** Support the ₹700 Crore revenue marketing engine with vector DB (Qdrant), Vertex AI, embeddings, and recommendations. 50–60% cost saving on manual tasks. RAG/sentiment platform: semantic search over influencer content, decision support for brand teams; K8s, GPU pipeline, CI/CD — infra only, no application/RAG code.
-
-- **AI-driven workflow automation & agentic workflows:** Intelligent automation and agentic AI (e.g. MCP, n8n, LLM-backed tooling) for provisioning, lifecycle management, and operations. Use AI to sharpen delivery, reduce toil, and improve how systems are run.
-
-- **Observability & reliability:** Unified Prometheus + Grafana stack, real-time alerting, CI/CD integration, automated escalation. 76% MTTR reduction (30min → 7min) across 125+ microservices. So teams see issues first and fix faster.
-
-- **IaC & automation:** Terraform, Ansible, GitOps (ArgoCD). Reusable modules for GKE, Cloud SQL, VPCs, load balancers. Single source of truth; 40%+ faster deployments, 40%+ provisioning automated. Jenkins, GitLab CI, Slack.
-
-- **Security & compliance:** Zero-trust architecture, automated IAM minimization, Kubernetes RBAC, Trivy, Secrets Manager, SSO. 100% coverage across workloads. DPDP, ISO 27001, NIST, CIS, OWASP.
-
-- **Legacy & modern together:** Revenue management panel backbone so business teams run operations (banner, campaigns, Martech, logistics) without technical intervention. Legacy PHP monolith + internal load balancer + distributed K8s; one panel, infra-only ownership.
-
-- **AdTech & high-traffic platforms:** In-house AdTech for ₹400+ Crore revenue, 93% cost reduction, 4x traffic spike handling. POS for 100+ retail stores, ₹40+ Crores revenue, 99%+ uptime. Multi-cloud, Kafka, Redis, real-time processing.
+🌐 **Quick Links:** [Portfolio](https://kushal.cv/) · [Bio](https://bio.kushal.cv/) · [Blog](https://blog.kushal.cv/) · [DocHub](https://thisiskushal31.github.io/dochub/)
 
 ---
 
-## 🛠️ Technical Stack
-- **Languages:** Python, JavaScript, TypeScript, C/C++, Bash/Shell, Node.js, React
-- **APIs & Backend:** FastAPI, MCP (Model Context Protocol), GCP Cloud Functions, REST APIs
-- **Cloud & Infrastructure:** GCP (GKE, GCR, GCS, Compute Engine, Cloud SQL, Cloud Functions, VPC, Load Balancer, WAF, Cloud NAT, BigQuery, Pub/Sub, GCP Composer), AWS (Route53, ALB), Docker, Kubernetes (GKE)
-- **Infrastructure as Code:** Terraform, Ansible, GitOps (ArgoCD, Helm), reusable modules, multi-environment
-- **CI/CD & Automation:** Jenkins (scripted pipelines, Slack), GitLab CI, GitHub Actions, n8n
-- **Databases & Storage:** MySQL, Cloud SQL, MongoDB, Elasticsearch, Redis, Qdrant, Kafka, BigQuery
-- **Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver, PagerDuty
-- **Security & Operations:** Kubernetes RBAC, Trivy, Secrets Manager, SSO, IAM, Zero-Trust, Defense-in-Depth, WAF
-- **Fundamentals:** Data Structures, Algorithms, System Design, Networking, Operating Systems
+## 📈 What I've Delivered
+
+*Outcomes that matter to the business — not tool lists.*
+
+| Area | Result |
+| :--- | :--- |
+| **Scale** | Production systems for a **US$160M+** annual business, **10M+** users, **400K+ DAU**, and **4×** traffic spikes during major sales |
+| **Reliability** | **99.9%** availability on mission-critical platforms; **76% MTTR** reduction (**30 min → 7 min**) |
+| **Speed** | **40%+** faster infrastructure and software delivery through CI/CD, IaC, and GitOps |
+| **Cost** | **30%** cloud cost reduction (**US$120K+** savings); **93%** AdTech infra cost cut by replacing third-party with in-house |
+| **Revenue platforms** | **US$90M+** AdTech; **US$5M+** POS across **200+** retail stores |
+| **Current (Stealth Startup)** | Greenfield **AI-powered CI/CD SaaS** on GCP — up to **80% faster CI**, **SOC 2 + ISO/IEC 27001**–aligned platform, full IaC + GitOps |
 
 ---
 
-## 🚀 Production Projects
+## 💼 Where I've Done It
 
-*Real-world infrastructure — business impact first.*
+### Stealth Startup — DevOps Engineer · Mar 2026 – Present
 
-1. **[Purplle – Large-Scale E-Commerce Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/1_Purplle.com_Management/README.md)**  
-   Mission-critical infra for ₹700 Crore revenue and 7M users. 125+ microservices, 300+ instances, 4TB MySQL, 99%+ uptime, 4x traffic spike handling. Nginx distributed reverse proxy; Apache VM-based application; minimal-downtime migrations (mydumper/myloader, gh-ost).
+Building the production platform for an **AI-powered CI/CD SaaS** from the ground up: GitHub App control plane, ephemeral GCP runners, GKE services, distributed caching, and compliance-ready delivery (Terraform, Atlantis, Argo CD, OpenTelemetry).
 
-2. **[Purplle – Agentic RAG Sentiment Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/2_Purplle.com_Agentic_RAG_Sentiment_Platform/README.md)**  
-   RAG-based platform for influencer content: semantic search and decision support for brand teams. Infra only: K8s, GPU embedding pipeline, Qdrant, CI/CD. Faster time-to-insight; no application/RAG code owned by infra.
+**Impact:** Greenfield platform ownership · up to **80% faster CI** · SOC 2 + ISO 27001–aligned controls · reusable CI with semantic versioning.
 
-3. **[Purplle – Data Science Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/3_Purplle.com_Data_Science_Infrastructure/README.md)**  
-   Infra for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing; 50–60% cost saving on manual tasks. Vector DB (Qdrant), Vertex AI, CI/CD, network — infra only.
+### Purplle.com — DevOps Engineer · Jan 2023 – Feb 2026
 
-4. **[Purplle – Data Engineering Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/4_Purplle.com_Data_Engineering_Infrastructure/README.md)**  
-   Pipeline for the ₹700 Crore revenue backbone. 7M users' data (PII-handled, legal, anonymous) flows to BigQuery/BigTable; consumed by business teams, Data Science, Martech, SCM, legacy panel. Event-driven and time-driven ingestion; zero-trust infra.
+Owned production infrastructure and platform work for India's leading beauty e-commerce company — core commerce, AdTech, POS, data/ML platforms, and legacy admin systems.
 
-5. **[Purplle – AdTech Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/5_Purplle.com_Adtech_Deployment/README.md)**  
-   In-house AdTech: ₹400+ Crore revenue, 93% cost reduction, 4x traffic spike handling, 7M users. 100+ production services, multi-cloud (AWS Route53 + GCP GKE).
-
-6. **[Purplle – POS Platform for 100+ Retail Stores](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/6_PurplleNexus_Deployment/README.md)**  
-   High-availability POS: 100+ stores, 500+ daily users, ₹40+ Crores revenue, 99%+ uptime. Kafka + Redis; scalable infrastructure.
-
-7. **[Purplle – Unified Observability Stack](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/7_PurplleInfra_Monitoring_Improvement/README.md)**  
-   Centralized monitoring and alerting: 76% MTTR reduction (30min → 7min) across 125+ microservices. Prometheus + Grafana, real-time alerting, CI/CD integration.
-
-8. **[Purplle – Infrastructure as Code Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/8_Purplle.com_IAC_Deployment/README.md)**  
-   Terraform + Ansible, GitOps as single source of truth. 40%+ faster deployments, 40%+ provisioning automated; standardized IAC across 125+ microservices.
-
-9. **[Purplle – Security Hardening & Compliance](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/9_Purplle.com_SecurityImprovement/README.md)**  
-   Zero-trust architecture, defense-in-depth across 125+ microservices. Kubernetes RBAC, Trivy, Secrets Manager, SSO, IP whitelisting. Compliance: DPDP, ISO 27001, NIST, CIS, OWASP.
-
-10. **[Purplle – Legacy Admin Panels Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/10_Purplle.com_Legacy_Admin_Panels_Infrastructure/README.md)**  
-   Backbone of the US$160M+ revenue management panel. Business teams run operations (banner, campaigns, Martech, logistics) without technical intervention. Legacy PHP monolith + internal LB + distributed K8s; infra only.
-
-11. **[Stealth Startup – Infrastructure Deployment & Software Compliance](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/11_StealthStartup_Infrastructure_Deployment/README.md)**  
-   AI-powered CI/CD SaaS: GitHub App control plane, ephemeral GCP runners, NATS JetStream / Pub/Sub / MicroCeph, full IaC + Atlantis + Argo CD, SOC 2– and ISO/IEC 27001–aligned controls, reusable CI with semantic versioning.
-
-👉 **[View detailed technical documentation →](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)** — Architecture, implementation details, and metrics.
+**Impact:** **US$160M+** business backbone · **10M+** users · **40%+** faster delivery · **76%** MTTR reduction · **US$120K+** savings · **99.9%** availability through peak traffic.
 
 ---
 
-## 🔄 Ongoing & Side Projects
+## 🚀 Production Work
 
-*These sit outside my day-job scope—I do them in personal time as **POCs and proof of ability**: I also write and ship code. Ongoing open source plus side projects and templates.*
+*Achievement first — [full docs →](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)*
+
+| # | Project | Business outcome |
+| :---: | :--- | :--- |
+| 11 | [**Stealth Startup – Infrastructure & Compliance**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/11_StealthStartup_Infrastructure_Deployment/README.md) | Greenfield AI CI/CD SaaS · up to **80% faster CI** · SOC 2 + ISO 27001 |
+| 1 | [**Purplle – E-Commerce Platform**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/1_Purplle.com_Management/README.md) | **US$160M+** revenue · **10M+** users · **99.9%** uptime · **4×** spike handling |
+| 2 | [**Purplle – Agentic RAG Sentiment**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/2_Purplle.com_Agentic_RAG_Sentiment_Platform/README.md) | Faster brand decisions from influencer content · GPU + vector search at scale |
+| 3 | [**Purplle – Data Science Infra**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/3_Purplle.com_Data_Science_Infrastructure/README.md) | Marketing/ML platform · **50–60%** manual-task cost savings |
+| 4 | [**Purplle – Data Engineering Infra**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/4_Purplle.com_Data_Engineering_Infrastructure/README.md) | **10M+** users' data to analytics · consumed by DS, Martech, SCM |
+| 5 | [**Purplle – AdTech**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/5_Purplle.com_Adtech_Deployment/README.md) | **US$90M+** revenue · **93%** cost reduction · in-house replacement for third-party |
+| 6 | [**Purplle – POS (200+ stores)**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/6_PurplleNexus_Deployment/README.md) | **US$5M+** revenue · **200+** stores · **99%+** uptime |
+| 7 | [**Purplle – Observability**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/7_PurplleInfra_Monitoring_Improvement/README.md) | **76% MTTR** reduction across **125+** microservices |
+| 8 | [**Purplle – IaC Platform**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/8_Purplle.com_IAC_Deployment/README.md) | **40%+** faster deployments · standardized automation at scale |
+| 9 | [**Purplle – Security & Compliance**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/9_Purplle.com_SecurityImprovement/README.md) | Zero-trust across **125+** services · DPDP, ISO 27001, CIS, OWASP |
+| 10 | [**Purplle – Legacy Admin Panels**](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/10_Purplle.com_Legacy_Admin_Panels_Infrastructure/README.md) | Business ops without engineering dependency · **US$160M+** panel backbone |
+
+---
+
+## 🛠️ How I Build
+
+**Application layer:** Python, JavaScript, TypeScript, React, Node.js, FastAPI, REST APIs  
+**Platform & cloud:** GCP (GKE, Cloud Run, Cloud SQL, Pub/Sub, BigQuery), AWS, Docker, Kubernetes  
+**Delivery & ops:** Terraform, Ansible, Helm, Argo CD, Jenkins, GitLab CI, GitHub Actions  
+**Data & AI:** MySQL, MongoDB, Redis, Elasticsearch, Kafka, Qdrant, Vertex AI, OpenTelemetry  
+**Security:** Zero Trust, IAM, RBAC, secrets management, compliance (SOC 2, ISO 27001, DPDP)
+
+I work **full-stack and production-minded**: I can build your application and the system it runs on.
+
+---
+
+## 🔄 Side Projects & Open Source
+
+*Proof I also write and ship product code outside day-job scope.*
 
 | Project | What it is |
 | :--- | :--- |
-| **[Grid Platform – Infrastructure Management Platform](https://gridplatform.org)** | AI-first infrastructure management. Open-source, vendor-agnostic. Days → minutes setup; 60–80% cost reduction vs proprietary. Docs: [projects/12_GridPlatform_OSS_Project](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/12_GridPlatform_OSS_Project). |
-| [**TrendSignal**](https://github.com/thisiskushal31/TrendSignal) | AI agent: YouTube trend analyzer from a screenshot → topic, strength, who's winning, 5 viral hooks. MCP, FastAPI, GPT-4 Vision, Docker. |
-| [**Agility**](https://github.com/thisiskushal31/Agility) | React + MongoDB task management. |
-| [**SocialSplit**](https://github.com/thisiskushal31/SocialSplit) | Node.js + Socket.io + React real-time chat. |
-| [**User Authenticated JSON Viewer**](https://github.com/thisiskushal31/User-Authenticated-JSON-Viewer) | Redis + MongoDB session management. |
-| [**LinkSaver Chrome Extension**](https://github.com/thisiskushal31/link-saver-extension) | Chrome extension for tab management. |
-| [**Modern React Portfolio Starter**](https://github.com/thisiskushal31/modern-react-portfolio-starter) | React portfolio template with Markdown. |
-| [**Configurable React Bio Link Starter**](https://github.com/thisiskushal31/configurable-react-bio-link-starter) | Linktree-style bio links template. |
-| [**Configurable React Blog Starter**](https://github.com/thisiskushal31/configurable-react-blog-starter) | Blog template with Markdown support. |
+| [**Grid Platform**](https://gridplatform.org) | AI-first infra management · [docs](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/12_GridPlatform_OSS_Project) |
+| [**TrendSignal**](https://github.com/thisiskushal31/TrendSignal) | AI agent: YouTube trend analysis from a screenshot · MCP, FastAPI, GPT-4 Vision |
+| [**Agility**](https://github.com/thisiskushal31/Agility) | React + MongoDB task management |
+| [**SocialSplit**](https://github.com/thisiskushal31/SocialSplit) | Real-time chat · Node.js, Socket.io, React |
+| [**Portfolio / Blog / Bio starters**](https://github.com/thisiskushal31?tab=repositories) | React templates I built and maintain |
 
 ---
 
@@ -132,44 +94,29 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 ## 📝 Technical Writing
 
-*Sharing knowledge through deep dives and engineering insights:*
-
-- **📖 [Personal Blog](https://blog.kushal.cv/)** — Cloud-native engineering, DevOps patterns, AI integration
-- **🌐 [Hashnode](https://thisiskushal.hashnode.dev/)** — Tech articles on cloud, DevOps, and AI
-- **✍️ [Medium](https://thisiskushalgupta.medium.com/)** — Technical stories and engineering insights
+- **📖 [Personal Blog](https://blog.kushal.cv/)** — Engineering deep dives
+- **🌐 [Hashnode](https://thisiskushal.hashnode.dev/)** — Cloud, platform, and AI
+- **✍️ [Medium](https://thisiskushalgupta.medium.com/)** — Technical stories
 
 ---
 
-## 📚 Learning Resources & Documentation
-
-*Comprehensive technical guides and references:*
+## 📚 Learning Resources
 
 | Repository | Content |
 | :--- | :--- |
-| [🔢 Datastructures and Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | DSA notes and solved problems |
-| [📋 Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Essential commands and tool references |
-| [📦 Containerization Deep Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Docker, Kubernetes fundamentals |
-| [🚀 DevOps Handbook](https://github.com/thisiskushal31/DevOps-Handbook) | DevOps methodologies, CI/CD, IaC, observability |
-| [🗄️ Databases Deep Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) | Relational, NoSQL, analytical databases |
-| [🌐 Networks Deep Dive](https://github.com/thisiskushal31/Networks-Deep-Dive) | Networking from physical to cloud-native |
-| [🏗️ System Design Concepts](https://github.com/thisiskushal31/System-Design-Concepts) | Patterns, components, and trade-offs |
-| [☁️ Qwiklabs Learning Path Notes](https://github.com/thisiskushal31/Qwiklabs-Learning-Path-Notes) | Google Cloud certification preparation |
+| [DevOps Handbook](https://github.com/thisiskushal31/DevOps-Handbook) | CI/CD, IaC, observability |
+| [System Design Concepts](https://github.com/thisiskushal31/System-Design-Concepts) | Patterns and trade-offs |
+| [Databases Deep Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) | Relational, NoSQL, analytical |
+| [Containerization Deep Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Docker, Kubernetes |
+| [More →](https://github.com/thisiskushal31?tab=repositories) | DSA, networking, cheatsheets, Qwiklabs |
 
 ---
 
 ## 🤝 Let's Connect
 
-**Interested in technical collaboration?**
+Open to **Software Engineer**, **full-stack**, and **platform** roles where building product and running it in production both matter.
 
-- 💼 **Job opportunities** in Platform Engineering, DevOps, or Cloud-Native roles (full-stack code + infrastructure)
-- 🚀 **Technical collaboration** on infrastructure, automation, and platform engineering
-- 🌟 **Open source contributions** and community collaboration
-- 💡 **Technical discussions** on cloud architecture, security, or system design
-- 📚 **Knowledge sharing** and mentoring opportunities
-
-**Get in touch:**
-- 💼 [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/) — Professional updates and networking
-- 🐦 [X (Twitter)](https://x.com/thisis_kushal) — Quick thoughts and tech discussions
-- 📧 [Email](mailto:guptakushal070@gmail.com) — Technical collaboration and discussions
-
-🌐 **More ways to connect:** [Portfolio](https://kushal.cv/) | [Bio Links](https://bio.kushal.cv/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/)
+- 🐦 [X (Twitter)](https://x.com/thisis_kushal)
+- 📧 [Email](mailto:guptakushal070@gmail.com)
+- 🌐 [Portfolio](https://kushal.cv/) · [Bio Links](https://bio.kushal.cv/)

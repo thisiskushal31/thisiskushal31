@@ -8,8 +8,7 @@ Operational and architecture metrics for Stealth Startup: control plane, ephemer
 
 | Metric | Value |
 |--------|--------|
-| Production services | 15+ |
-| CI jobs | 100+ per day |
+| Product stage | Greenfield startup platform — live and gradually growing |
 | Cloud platform | Google Cloud Platform |
 | Application plane | GKE (stateful + stateless) |
 | Runner plane | Ephemeral Compute Engine VMs |
@@ -163,7 +162,7 @@ SOC 2–aligned and ISO/IEC 27001–aligned infrastructure and security controls
 
 1. Own production platform for AI-powered CI/CD SaaS (infra, runners, delivery, security, observability)  
 2. Up to **80%** faster CI via MicroCeph + Kubernetes-native storage  
-3. Operate at **15+** services, **100+** CI jobs/day  
+3. **Greenfield** GCP platform ownership for a gradually growing CI/CD SaaS (GKE, runners, messaging, cache, GitOps)  
 4. **SOC 2– and ISO/IEC 27001–aligned** private networking, Zero Trust, least-privilege IAM, secure S2S  
 5. **Zero-touch** app delivery via Argo CD; full IaC + **Atlantis**; monitoring/alerting deployed  
 6. **Inventory + cost audit automation** with Slack notifications for production release readiness  
