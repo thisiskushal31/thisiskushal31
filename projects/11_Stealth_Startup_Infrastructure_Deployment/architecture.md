@@ -215,7 +215,6 @@ Customer AWS / GCP environment
 ## Operational Scale (LinkedIn / Resume)
 
 - **15+** production services  
-- **45+** repositories  
 - **100+** CI jobs per day  
 - Up to **80%** faster CI via distributed caching  
 
