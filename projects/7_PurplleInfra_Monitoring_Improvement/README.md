@@ -2,12 +2,12 @@
 
 ## Project Overview
 
-**Company:** Purplle.com  
-**Project Type:** Infrastructure Monitoring & Observability Enhancement  
-**Status:** Implemented & Operational  
-**Duration:** Jan 2023 - Jun 2023  
-**Platform:** Purplle.com Infrastructure Monitoring  
-**Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform  
+**Company:** Purplle.com 
+**Project Type:** Infrastructure Monitoring & Observability Enhancement 
+**Status:** Implemented & Operational 
+**Duration:** Jan 2023 - Jun 2023 
+**Platform:** Purplle.com Infrastructure Monitoring 
+**Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform 
 **Role:** DevOps Engineer | Team Size: 5 people
 
 ## Executive Summary
@@ -61,14 +61,14 @@ Comprehensive infrastructure monitoring improvement initiative that architecture
 
 ## Technical Stack
 
-**Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver, Datadog  
-**Metrics Collection:** Prometheus (metrics collection and storage)  
-**Visualization & Alerting:** Grafana (dashboards, alerts, visualization)  
-**APM (Application Performance Monitoring):** Datadog (distributed tracing, request latency, error tracking, service maps)  
-**On-Call & Incident Management:** PagerDuty (on-call alert routing, rotation, escalation)  
-**Cloud Monitoring:** GCP Stackdriver (cloud-native monitoring and logging)  
-**CI/CD Integration:** Jenkins (with Slack integration for alerts), GitLab CI  
-**Alerting:** Grafana Alerts, PagerDuty, Slack notifications  
+**Monitoring & Observability:** Prometheus, Grafana, GCP Stackdriver, Datadog 
+**Metrics Collection:** Prometheus (metrics collection and storage) 
+**Visualization & Alerting:** Grafana (dashboards, alerts, visualization) 
+**APM (Application Performance Monitoring):** Datadog (distributed tracing, request latency, error tracking, service maps) 
+**On-Call & Incident Management:** PagerDuty (on-call alert routing, rotation, escalation) 
+**Cloud Monitoring:** GCP Stackdriver (cloud-native monitoring and logging) 
+**CI/CD Integration:** Jenkins (with Slack integration for alerts), GitLab CI 
+**Alerting:** Grafana Alerts, PagerDuty, Slack notifications 
 **Infrastructure:** GCP (GKE), AWS (Route53), Kubernetes
 
 ## Architecture Overview
@@ -94,27 +94,27 @@ The monitoring improvement initiative implements a unified observability stack a
 - **Metrics Scraping:** Scrapes metrics from K8s pods, services, and infrastructure components
 - **Metrics Storage:** Time-series database for metrics storage and retention
 - **Metrics Coverage:**
-  - Application performance metrics
-  - Infrastructure health metrics (CPU, memory, network, disk)
-  - Business metrics
-  - Security metrics
-  - Cost and resource utilization metrics
+ - Application performance metrics
+ - Infrastructure health metrics (CPU, memory, network, disk)
+ - Business metrics
+ - Security metrics
+ - Cost and resource utilization metrics
 
 **Grafana:**
 - **Visualization:** Grafana connected to Prometheus as datasource
 - **Dashboards:** Custom dashboards for real-time monitoring of:
-  - Application performance metrics
-  - Infrastructure health (CPU, memory, network)
-  - Database performance metrics
-  - Service availability and uptime
-  - Error rates and latency
+ - Application performance metrics
+ - Infrastructure health (CPU, memory, network)
+ - Database performance metrics
+ - Service availability and uptime
+ - Error rates and latency
 - **Alerting:** Grafana alerts configured for critical thresholds
 - **Alert Notifications:**
-  - High error rates
-  - Resource exhaustion
-  - Database connection issues
-  - Service downtime
-  - Performance degradation
+ - High error rates
+ - Resource exhaustion
+ - Database connection issues
+ - Service downtime
+ - Performance degradation
 
 **Datadog (APM):**
 - **Application Performance Monitoring:** Datadog APM for distributed tracing and request-level visibility
@@ -141,10 +141,10 @@ The monitoring improvement initiative implements a unified observability stack a
 - **Jenkins Integration:** Jenkins pipelines integrated with monitoring for automated alerting
 - **Slack Integration:** Slack integration for real-time job failure alerts and monitoring notifications
 - **Automated Notifications:** Automated notifications for:
-  - CI/CD pipeline failures
-  - Infrastructure health issues
-  - Security events
-  - Performance degradation
+ - CI/CD pipeline failures
+ - Infrastructure health issues
+ - Security events
+ - Performance degradation
 
 ### Monitoring Coverage
 

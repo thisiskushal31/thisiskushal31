@@ -3,7 +3,7 @@
 ## Business Impact Metrics
 
 ### Revenue backbone
-- **₹700 Crore revenue marketing engine** — Data engineering and storefront serve brand and marketing (requirements from them). Infrastructure supported their recommendations and outcomes. Backbone of the revenue marketing engine. **Vector DB (Qdrant)** and embeddings power recommendations (e.g. search lipstick → get lipstick, ad placement, other brands’ lipstick; not unrelated products). Other brands’ recommendations drove ad revenue for Purplle (see [AdTech platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/5_Purplle.com_Adtech_Deployment)).
+- **US$160M+ revenue marketing engine** — Data engineering and storefront serve brand and marketing (requirements from them). Infrastructure supported their recommendations and outcomes. Backbone of the revenue marketing engine. **Vector DB (Qdrant)** and embeddings power recommendations (e.g. search lipstick → get lipstick, ad placement, other brands’ lipstick; not unrelated products). Other brands’ recommendations drove ad revenue for Purplle (see [AdTech platform](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/5_Purplle.com_Adtech_Deployment)).
 
 ### Cost saving (models for internal tasks)
 - **50–60% cost saving** — Models were used for **internal tasks** such as **image tagging for Meta ads, Google Search ads**, and similar work that would otherwise require manual tagging. This **saved 50–60% of the cost** of doing those tasks manually.
@@ -11,7 +11,7 @@
 ## Scale & Deployment Metrics
 
 ### Scale & deployment (business context)
-- **Business:** Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. ₹700 Cr revenue backbone. 50–60% cost saving on manual tasks.
+- **Business:** Data engineering and storefront serve brands and marketing. Recommendations and outcomes for them. US$160M+ revenue backbone. 50–60% cost saving on manual tasks.
 - **Infra maintained:** CI/CD, servers, containerized applications (K8s), **vector DB (Qdrant)**, network (Nginx ingress, SSL, load balancers, internal domain).
 - **Flow:** Jupyter VM for training → model uploaded to Vertex AI; K8s hits Vertex AI for inference; Cloud Function → K8s. **Multi-project:** Data engineering, data science, main Purplle app in separate GCP projects.
 

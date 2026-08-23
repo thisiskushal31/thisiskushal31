@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-**Company:** Purplle.com  
-**Project Type:** Production Platform - AI/ML Infrastructure (Agentic RAG)  
-**Status:** Live & Operational  
-**Duration:** Dec 2025 - Feb 2026  
-**Platform:** Sentiment intelligence for influencer marketing content  
-**Deployment:** Production Environment (AI Pipeline & Vector Search)  
-**Role:** DevOps / Platform Engineer (AI Infrastructure) — **managed infrastructure only**  
+**Company:** Purplle.com 
+**Project Type:** Production Platform - AI/ML Infrastructure (Agentic RAG) 
+**Status:** Live & Operational 
+**Duration:** Dec 2025 - Feb 2026 
+**Platform:** Sentiment intelligence for influencer marketing content 
+**Deployment:** Production Environment (AI Pipeline & Vector Search) 
+**Role:** DevOps / Platform Engineer (AI Infrastructure) — **managed infrastructure only** 
 **Note:** I managed infrastructure only: Kubernetes, GPU workloads, Qdrant vector DB, and CI/CD for AI and RAG. Did not write application or RAG code. Core embedding logic and RAG application were developed by the engineering team.
 
 ## Executive Summary
@@ -63,13 +63,13 @@ I managed **infrastructure only**: distributed architecture, GPU-based embedding
 
 ## Technical Stack
 
-**Cloud & Infrastructure:** Kubernetes (GKE or equivalent), GPU nodes (CUDA)  
-**AI/ML:** Self-deployed ChatGPT (distributed architecture), Python-based embedding models  
-**Vector DB:** Qdrant (cosine similarity, metadata filters, hash mapping)  
-**Orchestration & agents:** MCP (Model Context Protocol), agentic workflows, RAG  
-**CI/CD:** Jenkins / GitLab CI (or equivalent) for AI services and RAG components  
-**Containers:** Docker, Kubernetes Deployments/Services  
-**Monitoring:** Prometheus, Grafana (or equivalent) for infra and pipeline health  
+**Cloud & Infrastructure:** Kubernetes (GKE or equivalent), GPU nodes (CUDA) 
+**AI/ML:** Self-deployed ChatGPT (distributed architecture), Python-based embedding models 
+**Vector DB:** Qdrant (cosine similarity, metadata filters, hash mapping) 
+**Orchestration & agents:** MCP (Model Context Protocol), agentic workflows, RAG 
+**CI/CD:** Jenkins / GitLab CI (or equivalent) for AI services and RAG components 
+**Containers:** Docker, Kubernetes Deployments/Services 
+**Monitoring:** Prometheus, Grafana (or equivalent) for infra and pipeline health 
 
 ## Architecture Overview
 

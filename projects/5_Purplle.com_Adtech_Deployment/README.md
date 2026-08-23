@@ -2,17 +2,17 @@
 
 ## Project Overview
 
-**Company:** Purplle.com  
-**Project Type:** Production Platform - In-House AdTech Solution  
-**Status:** Live & Operational  
-**Duration:** Jul 2025 - Aug 2025  
-**Platform:** PurplleAds - Internal Brand Management & Advertising Platform  
-**Deployment:** Production Environment (AdTech Platform)  
+**Company:** Purplle.com 
+**Project Type:** Production Platform - In-House AdTech Solution 
+**Status:** Live & Operational 
+**Duration:** Jul 2025 - Aug 2025 
+**Platform:** PurplleAds - Internal Brand Management & Advertising Platform 
+**Deployment:** Production Environment (AdTech Platform) 
 **Role:** DevOps Engineer | Team Size: 5 people
 
 ## Executive Summary
 
-PurplleAds is an in-house brand management platform that enables brands to advertise products on Purplle.com through search widgets and banners. The platform operates on a daily budget and bidding system, leveraging user preference data for optimized ad delivery. Successfully replaced ₹80 Lakh/year third-party business management software with in-house solution.
+PurplleAds is an in-house brand management platform that enables brands to advertise products on Purplle.com through search widgets and banners. The platform operates on a daily budget and bidding system, leveraging user preference data for optimized ad delivery. Successfully replaced US$96K/year third-party business management software with in-house solution.
 
 ## Business Objectives
 
@@ -22,50 +22,50 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 - **User Preference Data:** Leverages existing user preference and behavioral data for targeted ad delivery
 
 **Business Drivers:**
-- Manage ₹180-₹210 Crore in annual marketing costs across house brands
-- Generate ₹400+ Crore in brand advertising revenue
+- Manage US$22–25M in annual marketing costs across house brands
+- Generate US$90M+ in brand advertising revenue
 - Enable self-service platform for brands to manage their own campaigns
-- Support 5 major house brands with projected FY25 revenue of ₹680-₹800 Crore
+- Support 5 major house brands with projected revenue of US$82–96M
 
 ## Business Metrics
 
 ### Scale & Users
-- **Total Users:** 7 million total users
-- **Daily Active Users (Regular):** 150,000 DAU typically
-- **Daily Active Users (Major Sales):** 600,000 DAU (4x spike during major sales events)
-- **Daily Active Users (Minor Sales):** 300,000 DAU (2x spike during minor sales events)
+- **Total Users:** 10M+ users
+- **Daily Active Users:** 400K+ DAU
+- **Traffic Spikes (Major Sales):** 4× traffic spike handling
+- **Platform Availability:** 99.9%
 - **Annual Clicks:** 133.3 million clicks/year (~365K clicks/day)
 
 ### Financial Performance
 
 **Platform Revenue:**
-- **Brand Advertising Revenue:** ₹400+ Crore
-- **Total Marketing Cost Managed:** ₹180-₹210 Crore annually
+- **Brand Advertising Revenue:** US$90M+
+- **Total Marketing Cost Managed:** US$22–25M annually
 
-**House Brand Performance (FY 2025 Estimates):**
-- **Total House Brand Revenue:** ₹680-₹800 Crore (40% of Purplle's operating revenue)
-- **Total Marketing Spend:** ₹167-₹198 Crore
+**House Brand Performance :**
+- **Total House Brand Revenue:** US$82–96M (40% of Purplle's operating revenue)
+- **Total Marketing Spend:** US$20–24M
 - **Average Marketing % of Revenue:** ~24%
 
 **House Brand Breakdown:**
 
-| Brand | Revenue (FY25) | Marketing Cost (FY25) | Marketing % |
+| Brand | Revenue | Marketing Cost | Marketing % |
 |-------|----------------|----------------------|-------------|
-| Faces Canada | ₹240-₹280 Cr | ₹65-₹75 Cr | ~27% |
-| Alps Goodness | ₹180-₹210 Cr | ₹40-₹45 Cr | ~22% |
-| Good Vibes | ₹150-₹170 Cr | ₹30-₹35 Cr | ~20% |
-| NY Bae | ₹90-₹110 Cr | ₹22-₹28 Cr | ~25% |
-| Carmesi | ₹20-₹30 Cr | ₹10-₹15 Cr | ~45% |
+| Faces Canada | US$29–34M | US$8–9M | ~27% |
+| Alps Goodness | US$22–25M | US$4.8–5.4M | ~22% |
+| Good Vibes | US$18–20M | US$3.6–4.2M | ~20% |
+| NY Bae | US$11–13M | US$2.6–3.4M | ~25% |
+| Carmesi | US$2.4–3.6M | US$1.2–1.8M | ~45% |
 
 ### Cost Savings & ROI
 
-- **Software Replacement:** Replaced ₹80 Lakh/year third-party business management software
-- **Infrastructure Cost:** ₹5.7 Lakh/year (GKE - Mumbai region)
-- **Net Annual Savings:** ₹74.3 Lakh/year (93% cost reduction)
+- **Software Replacement:** Replaced US$96K/year third-party business management software
+- **Infrastructure Cost:** US$7K/year (GKE - Mumbai region)
+- **Net Annual Savings:** US$89K/year (93% cost reduction)
 - **ROI:** Infrastructure cost is only 7.1% of software savings
 - **Cost Efficiency:** 
-  - ₹0.0069/user/month (0.69 paise per user)
-  - ₹0.0043/click (0.43 paise per click)
+ - ~US$0.00008/user/month
+ - ~US$0.00005/click
 
 ### Business Model
 
@@ -75,18 +75,18 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 3. Daily Budget Management - Revenue from brands managing daily advertising spend
 
 **Key Insights:**
-- House Brand Revenue Contribution: ₹680-₹800 Crore represents ~40% of Purplle's total operating revenue
+- House Brand Revenue Contribution: US$82–96M represents ~40% of Purplle's total operating revenue
 - Marketing Efficiency: Average marketing spend is ~24% of revenue across house brands
-- Platform manages significant marketing spend (₹167-₹198 Cr) across 5 major house brands
+- Platform manages significant marketing spend (US$20–24M) across 5 major house brands
 
 ### Key Achievements
 
-- ✅ **Live Production Platform** - Fully deployed in Production environment, actively serving 7M total users through AdTech Platform
+- ✅ **Live Production Platform** - Fully deployed in Production environment, actively serving 10M+ users through AdTech Platform
 - ✅ **100+ Production Services** - Managed 100+ high-availability production services on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
-- ✅ **Cost Optimization** - 93% reduction in software costs (₹80 Lakh → ₹5.7 Lakh infrastructure). Optimized resource utilization and cost-efficiency by rightsizing GCP/AWS instances and implementing autoscaling policies, achieving a 30% reduction in cloud spend through usage audits and resource cleanup
-- ✅ **Scalability** - Handles 4x traffic spikes during major sales events (150K → 600K DAU) and 2x during minor sales (150K → 300K DAU)
-- ✅ **Revenue Support** - Platform supports ₹400+ Crore in brand advertising revenue
-- ✅ **House Brand Support** - Critical platform for 5 major house brands (₹680-₹800 Cr revenue)
+- ✅ **Cost Optimization** - 93% reduction in software costs (US$96K → US$7K infrastructure). Optimized resource utilization and cost-efficiency by rightsizing GCP/AWS instances and implementing autoscaling policies, achieving a 30% reduction in cloud spend through usage audits and resource cleanup
+- ✅ **Scalability** - Handles 4× traffic spikes during major sales events while sustaining 400K+ DAU
+- ✅ **Revenue Support** - Platform supports US$90M+ in brand advertising revenue
+- ✅ **House Brand Support** - Critical platform for 5 major house brands (US$82–96M revenue)
 - ✅ **CI/CD Modernization** - Accelerated infrastructure delivery speed by 40%+ by collaborating on CI/CD automation using Terraform, Jenkins, and GitOps, automating over 40% of provisioning tasks. Modernized CI/CD infrastructure by migrating from freestyle bash jobs to scripted pipeline jobs in Jenkins, integrated with Slack for real-time job failure alerts, improving monitoring and reducing incident response time
 - ✅ **Monitoring & Observability** - Reduced Mean Time to Recovery (MTTR) from 30 to 7 minutes by architecting a unified observability stack with Prometheus and Grafana, enabling real-time monitoring and automated incident escalation
 - ✅ **Infrastructure Automation** - 40%+ faster deployments through Terraform and CI/CD automation
@@ -98,14 +98,14 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 
 ## Technical Stack
 
-**Cloud & Infrastructure:** GCP (GKE), AWS (Route53), Kubernetes, ALB, GCLB  
-**Container Orchestration:** Kubernetes (GKE), K8s Ingress, Deployments, Services  
-**Service Discovery:** kubedns (Kubernetes DNS) for internal cluster networking  
-**Databases:** Cloud SQL (MySQL), Redis, Cloud SQL Proxy  
-**CI/CD:** Jenkins (scripted pipeline jobs with Slack integration), GitLab CI (with automated testing and Trivy security scanning), GitOps workflows  
-**Infrastructure as Code:** Terraform (reusable modules), Ansible, GitOps workflows  
-**Monitoring:** Prometheus, Grafana, GCP Stackdriver (unified observability stack)  
-**Security:** Zero Trust, WAF, Geo-blocking, Rate Limiting, Bot Protection, DPDP Compliance, Kubernetes RBAC, Secure Boot, Automated IAM role minimization (Python), Trivy container scanning (GitLab CI), GCP Secrets Manager, SSO, IP Whitelisting, Defense-in-Depth  
+**Cloud & Infrastructure:** GCP (GKE), AWS (Route53), Kubernetes, ALB, GCLB 
+**Container Orchestration:** Kubernetes (GKE), K8s Ingress, Deployments, Services 
+**Service Discovery:** kubedns (Kubernetes DNS) for internal cluster networking 
+**Databases:** Cloud SQL (MySQL), Redis, Cloud SQL Proxy 
+**CI/CD:** Jenkins (scripted pipeline jobs with Slack integration), GitLab CI (with automated testing and Trivy security scanning), GitOps workflows 
+**Infrastructure as Code:** Terraform (reusable modules), Ansible, GitOps workflows 
+**Monitoring:** Prometheus, Grafana, GCP Stackdriver (unified observability stack) 
+**Security:** Zero Trust, WAF, Geo-blocking, Rate Limiting, Bot Protection, DPDP Compliance, Kubernetes RBAC, Secure Boot, Automated IAM role minimization (Python), Trivy container scanning (GitLab CI), GCP Secrets Manager, SSO, IP Whitelisting, Defense-in-Depth 
 **Authentication & Authorization:** Keycloak (Identity Provider)
 
 ## Architecture Overview
@@ -119,11 +119,11 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 **Infrastructure as Code:**
 - Standardized on Terraform for Infrastructure as Code and integrated into GitOps workflows
 - Created reusable, parameterized Terraform modules for:
-  - GKE clusters with multi-environment support
-  - Cloud SQL instances (MySQL) with automated backups
-  - VPCs and network configurations
-  - Load balancers (ALB, GCLB) with WAF integration
-  - Kubernetes deployments and services
+ - GKE clusters with multi-environment support
+ - Cloud SQL instances (MySQL) with automated backups
+ - VPCs and network configurations
+ - Load balancers (ALB, GCLB) with WAF integration
+ - Kubernetes deployments and services
 - Built Python scripts to automate IAM role management, reducing misconfigurations
 - Integrated into GitLab CI and Jenkins pipelines with automated testing
 - **Result:** 40%+ faster deployments with consistent infrastructure, automating over 40% of provisioning tasks
@@ -156,10 +156,10 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 **Authentication & Authorization Flow:**
 - **Keycloak:** Handles identity verification and authentication for all platform users
 - **Sentinel Service:** RBAC (Role-Based Access Control) service deployed on Kubernetes
-  - Operates after Keycloak verification completes
-  - Manages role-based permissions and access control for platform services
-  - Not managed by this project (separate service)
-  - Validates user permissions before allowing access to application services
+ - Operates after Keycloak verification completes
+ - Manages role-based permissions and access control for platform services
+ - Not managed by this project (separate service)
+ - Validates user permissions before allowing access to application services
 - Automated service account management for secure inter-service communication
 
 **Security Automation:**

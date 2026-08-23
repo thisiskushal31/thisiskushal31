@@ -99,9 +99,9 @@
 
 - **Role:** DevOps / Platform Engineer (AI Infrastructure)
 - **Collaboration:** Worked with engineering team throughout the project lifecycle
-  - Infrastructure, GPU workloads, vector DB, and CI/CD owned by platform/DevOps team
-  - Core embedding logic and RAG application developed by engineering team
-  - Architecture-level involvement during failures, scaling, and root-cause analysis
+ - Infrastructure, GPU workloads, vector DB, and CI/CD owned by platform/DevOps team
+ - Core embedding logic and RAG application developed by engineering team
+ - Architecture-level involvement during failures, scaling, and root-cause analysis
 - **Note:** Infrastructure and platform engineering (Kubernetes, GPU workloads, Qdrant, CI/CD) were owned by the platform/DevOps team; core embedding and RAG application logic were developed by the engineering team.
 
 ## Lessons Learned

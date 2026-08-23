@@ -5,9 +5,9 @@
 ### System Performance
 - **Uptime:** 99%+ maintained across all environments (DEV, SIT, UAT, PROD)
 - **Average Response Time:** [To be measured - target <100ms for POS operations]
-- **Peak Throughput:** Supports 500+ store employees daily across 100+ stores
+- **Peak Throughput:** Supports 500+ store employees daily across 200+ stores
 - **Error Rate:** Target <0.1% error rate
-- **Scalability:** Infrastructure handles retail operations across 100+ stores with auto-scaling (1-6 pods based on demand)
+- **Scalability:** Infrastructure handles retail operations across 200+ stores with auto-scaling (1-6 pods based on demand)
 - **Auto-scaling:** Pods automatically scale from 1 pod (night) to 6 pods (peak time), averaging 3 pods
 
 ### Infrastructure Metrics
@@ -20,25 +20,25 @@
 
 ### Cost Metrics
 - **Infrastructure Cost:** GCP/GKE infrastructure costs tracked and monitored
-- **Cost Efficiency:** Infrastructure supports 100+ stores and 500+ daily users efficiently
+- **Cost Efficiency:** Infrastructure supports 200+ stores and 500+ daily users efficiently
 - **Infrastructure Reliability:** 99%+ uptime maintained across all environments
 
 ### Infrastructure Cost Metrics
 - **Infrastructure Cost:** GCP/GKE infrastructure costs tracked and monitored
-- **Infrastructure Efficiency:** High - supports 100+ stores and 500+ daily users efficiently
-- **Cost per Store:** Infrastructure cost distributed across 100+ retail stores
+- **Infrastructure Efficiency:** High - supports 200+ stores and 500+ daily users efficiently
+- **Cost per Store:** Infrastructure cost distributed across 200+ retail stores
 - **Cost per Employee:** Infrastructure cost distributed across 500+ daily active employees
 
 ## Business Impact Metrics
 
 ### User Metrics
 - **Daily Active Users:** 500+ store employees using the platform daily
-- **Store Coverage:** 100+ retail stores
-- **Platform Scale:** POS infrastructure supporting retail operations across 100+ stores
+- **Store Coverage:** 200+ retail stores
+- **Platform Scale:** POS infrastructure supporting retail operations across 200+ stores
 - **User Base:** Store employees managing retail operations and transactions
 
 ### Transaction Metrics
-- **Transaction Volume:** Database handles POS transactions from 100+ stores
+- **Transaction Volume:** Database handles POS transactions from 200+ stores
 - **Daily Transactions:** POS transactions processed daily across all stores
 - **Transaction Processing:** Reliable transaction processing for retail operations
 - **Data Volume:** Transaction data and retail operations data managed by the platform
@@ -46,25 +46,25 @@
 ### Financial Metrics
 
 **Platform Revenue:**
-- **Revenue Generation:** 40+ Crores in revenue supported by the platform
-- **Store Operations:** Platform enables revenue generation across 100+ retail stores
+- **Revenue Generation:** US$5M+ in revenue supported by the platform
+- **Store Operations:** Platform enables revenue generation across 200+ retail stores
 - **Transaction Processing:** POS transactions contributing to overall revenue
 
 ### Key Performance Indicators (KPIs)
 - **Daily Active Users:** 500+ store employees daily
-- **Store Coverage:** 100+ retail stores
-- **Revenue Generation:** 40+ Crores in revenue supported
-- **Uptime:** 99%+ uptime maintained across all environments
+- **Store Coverage:** 200+ retail stores
+- **Revenue Generation:** US$5M+ in revenue supported
+- **Availability:** 99%+ uptime maintained across all environments
 - **Infrastructure Deployment:** Fully deployed and operational across DEV, SIT, UAT, and PROD environments
 - **Platform Reliability:** High-availability infrastructure ensuring consistent retail operations
 
 ### Cost Metrics
-- **Infrastructure Cost:** ~₹5.4 Lakh/year (~₹45,400/month) - GCP/GKE costs tracked and monitored
+- **Infrastructure Cost:** ~US$6.5K/year (~US$540/month) - GCP/GKE costs tracked and monitored
 - **Deployment Scale:** Single service with auto-scaling pods (1-6 pods) - cost-optimized deployment
 - **Auto-scaling Pattern:** Scales from 1 pod (night) to 6 pods (peak), averaging 3 pods
-- **Cost Optimization:** Infrastructure efficiency through single-service deployment, supporting 100+ stores and 500+ daily users
+- **Cost Optimization:** Infrastructure efficiency through single-service deployment, supporting 200+ stores and 500+ daily users
 - **Cost Efficiency:** High-availability infrastructure with lower footprint supporting retail operations efficiently
-- **Cost per Store:** Infrastructure cost distributed across 100+ retail stores
+- **Cost per Store:** Infrastructure cost distributed across 200+ retail stores
 - **Cost per Employee:** Infrastructure cost distributed across 500+ daily active employees
 
 ### Detailed Infrastructure Cost Breakdown
@@ -79,8 +79,8 @@
 
 | Node Pool | VM Type | Config | Pod Capacity | Monthly Cost (Est.) |
 |-----------|---------|--------|--------------|---------------------|
-| **Main Workload** | n2-standard-8 | 8 vCPU, 32GB RAM | Auto-scaling: 1-6 pods* | $340.60 (₹28,600) |
-| **Ingress/LB** | n2-standard-4 | 4 vCPU, 16GB RAM | Dedicated Nginx Ingress | ~$141.80 (₹11,900)** |
+| **Main Workload** | n2-standard-8 | 8 vCPU, 32GB RAM | Auto-scaling: 1-6 pods* | US$341 |
+| **Ingress/LB** | n2-standard-4 | 4 vCPU, 16GB RAM | Dedicated Nginx Ingress | ~US$142** |
 
 *Pod scaling pattern:
 - **Night time:** 1 pod (low traffic)
@@ -103,8 +103,8 @@
 - **Compute (n2-standard-8):** ~$340.60/month
 - **Compute (n2-standard-4):** ~$141.80/month
 - **Fixed & Networking:** ~$58.60/month
-- **Total Monthly:** ~$541.00 (approx. ₹45,400/month)
-- **Total Annual:** ~₹5.4 Lakh/year
+- **Total Monthly:** ~US$541/month
+- **Total Annual:** ~US$6.5K
 
 *Note: Costs are estimates based on on-demand pricing for Mumbai (asia-south1) region. Actual costs may vary based on usage, committed use discounts, and regional pricing differences.
 
@@ -114,7 +114,7 @@
 - Auto-scaling reduces costs during low-traffic periods (night time: 1 pod)
 - Scales up during peak times (6 pods) to handle high demand
 - Average of 3 pods balances cost and performance
-- Cost-effective deployment supporting 100+ stores and 500+ daily users
+- Cost-effective deployment supporting 200+ stores and 500+ daily users
 
 **Infrastructure Components:**
 - **Kubernetes Clusters:** GKE Standard clusters across four environments (DEV, SIT, UAT, PROD)
@@ -129,9 +129,9 @@
 
 **Platform Purpose:**
 - In-house POS software for store management and retail operations
-- Enables store teams to manage retail operations across 100+ stores
+- Enables store teams to manage retail operations across 200+ stores
 - Supports 500+ store employees daily
-- Generates 40+ Crores in revenue
+- Generates US$5M+ in revenue
 
 **Cost Structure:**
 1. **Infrastructure Costs:** Cloud infrastructure, load balancers, compute resources
@@ -157,13 +157,13 @@
 
 ### Platform Adoption
 - **Production Status:** Fully live and operational in Production environment, actively serving 500+ store employees daily via POS Platform
-- **Platform Usage:** In-house POS software supporting retail operations across 100+ stores
-- **Store Adoption:** Platform deployed and operational across 100+ retail stores
+- **Platform Usage:** In-house POS software supporting retail operations across 200+ stores
+- **Store Adoption:** Platform deployed and operational across 200+ retail stores
 - **User Adoption:** 500+ store employees using the platform daily for retail operations
 
 ### Business Impact
-- **Revenue Generation:** 40+ Crores in revenue supported by the platform
-- **Store Operations:** Enables seamless retail operations across 100+ store locations
+- **Revenue Generation:** US$5M+ in revenue supported by the platform
+- **Store Operations:** Enables seamless retail operations across 200+ store locations
 - **Operational Efficiency:** Self-service platform for store management reduces operational overhead
 - **High Availability:** 99%+ uptime ensuring reliable retail operations
 
@@ -177,26 +177,26 @@
 
 ### After Implementation
 - **In-House Solution:** Fully independent, self-managed POS platform
-- **Scalability:** Built to support 100+ stores with consistent performance
+- **Scalability:** Built to support 200+ stores with consistent performance
 - **Control:** Full control over infrastructure, customization, and feature development
 - **Store Management:** Self-service platform enabling efficient retail operations
 - **High Availability:** 99%+ uptime across all environments ensuring reliable operations
 
 ### Improvement
 - **Independence:** Fully independent, self-managed platform
-- **Scalability:** Platform supports 100+ stores and 500+ daily users
+- **Scalability:** Platform supports 200+ stores and 500+ daily users
 - **Operational Efficiency:** Self-service platform reduces manual store management overhead
 - **Performance:** 99%+ uptime maintained across DEV, SIT, UAT, and PROD environments
-- **Strategic Value:** Platform supports 40+ Crores in revenue generation across retail operations
+- **Strategic Value:** Platform supports US$5M+ in revenue generation across retail operations
 
 ## Team & Collaboration
 
 - **Role:** DevOps Engineer (Infrastructure Deployment & Management)
 - **Team Size:** 5 people
 - **Collaboration:** Worked closely with product & engineering teams throughout the project lifecycle
-  - Collaborated with product team on requirements and feature delivery
-  - Worked with engineering team on infrastructure design and implementation
-  - Cross-functional collaboration for deployment, monitoring, and operations
+ - Collaborated with product team on requirements and feature delivery
+ - Worked with engineering team on infrastructure design and implementation
+ - Cross-functional collaboration for deployment, monitoring, and operations
 - **Note:** Infrastructure deployment and management handled by DevOps team. Application code developed by engineering team.
 
 ## Lessons Learned
@@ -209,7 +209,7 @@
 ### What Went Well
 - **Successful Infrastructure Deployment:** Complete infrastructure stack deployed across DEV, SIT, UAT, and PROD environments
 - **In-House POS Solution:** Successfully deployed in-house POS software replacing third-party solutions
-- **Scalability:** Built platform capable of supporting 100+ stores and 500+ daily users
+- **Scalability:** Built platform capable of supporting 200+ stores and 500+ daily users
 - **Cross-Functional Collaboration:** Effective collaboration between DevOps, Product, and Engineering teams
 - **Production Readiness:** Successfully deployed live platform in Production environment (POS Platform) serving 500+ store employees daily
 - **Security Implementation:** Comprehensive security measures including zero-trust, WAF, geo-blocking, and DPDP compliance
@@ -222,7 +222,7 @@
 
 ### Key Takeaways
 - **Infrastructure as Code:** IaC (Terraform, Ansible) enabled consistent deployments across DEV, SIT, UAT, and PROD environments
-- **Kubernetes at Scale:** GKE with auto-scaling effectively handles retail operations across 100+ stores
+- **Kubernetes at Scale:** GKE with auto-scaling effectively handles retail operations across 200+ stores
 - **Multi-Environment Support:** Successfully deployed across multiple environments ensuring consistent infrastructure
 - **Security First:** Zero-trust architecture and comprehensive security measures are critical for production platforms
 - **Team Collaboration:** Close collaboration with product and engineering teams is essential for successful platform delivery

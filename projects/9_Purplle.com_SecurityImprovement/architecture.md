@@ -31,11 +31,11 @@ The security improvement initiative implements a multi-layered security approach
 - **Technology:** Reblaze WAF (major tasks done by Reblaze team)
 - **Purpose:** Web application protection and traffic filtering
 - **Responsibilities:**
-  - Filters malicious traffic and DDoS attacks before it reaches ALB
-  - Enforces security policies and standard application firewall rules
-  - Provides protection against common web exploits and attacks
-  - Content filtering mechanisms in place
-  - Positioned after Route53 (DNS), before ALB (Load Balancer)
+ - Filters malicious traffic and DDoS attacks before it reaches ALB
+ - Enforces security policies and standard application firewall rules
+ - Provides protection against common web exploits and attacks
+ - Content filtering mechanisms in place
+ - Positioned after Route53 (DNS), before ALB (Load Balancer)
 
 **VPC & Network Segmentation:**
 - **VPC Structure:** Multi-VPC setup for network isolation
@@ -79,10 +79,10 @@ The security improvement initiative implements a multi-layered security approach
 - **Automation:** Python scripts automate IAM role management, reducing misconfigurations
 - **Scope:** Applied across GCP and AWS infrastructure
 - **Implementation Details:**
-  - Python scripts analyze IAM roles and permissions
-  - Automated removal of unused or excessive permissions
-  - Continuous monitoring and remediation of IAM misconfigurations
-  - Integration with CI/CD pipelines for automated validation
+ - Python scripts analyze IAM roles and permissions
+ - Automated removal of unused or excessive permissions
+ - Continuous monitoring and remediation of IAM misconfigurations
+ - Integration with CI/CD pipelines for automated validation
 - **Result:** Reduced security misconfigurations and enforced least privilege access
 
 **Single Sign-On (SSO):**
@@ -114,16 +114,16 @@ The security improvement initiative implements a multi-layered security approach
 - **Integration:** Integrated into GitLab CI pipelines to catch vulnerabilities early
 - **Automation:** Automated security checks in CI/CD workflows
 - **Implementation Details:**
-  - Trivy scanning runs automatically in every GitLab CI pipeline
-  - Scans container images for known vulnerabilities (CVEs)
-  - Checks for misconfigurations and security best practices
-  - Blocks deployments if critical vulnerabilities are detected
-  - Generates security reports and tracks remediation
+ - Trivy scanning runs automatically in every GitLab CI pipeline
+ - Scans container images for known vulnerabilities (CVEs)
+ - Checks for misconfigurations and security best practices
+ - Blocks deployments if critical vulnerabilities are detected
+ - Generates security reports and tracks remediation
 - **Scanning Coverage:**
-  - Container image vulnerabilities
-  - Dependency vulnerabilities
-  - Configuration misconfigurations
-  - Security best practices compliance
+ - Container image vulnerabilities
+ - Dependency vulnerabilities
+ - Configuration misconfigurations
+ - Security best practices compliance
 - **Result:** Early detection and remediation of security vulnerabilities, preventing vulnerable code from reaching production
 
 **Secrets Manager:**
@@ -132,21 +132,21 @@ The security improvement initiative implements a multi-layered security approach
 - **Purpose:** Decouple sensitive credentials from application source code
 - **Scope:** Applied across all Kubernetes clusters and VMs
 - **Implementation Details:**
-  - Secrets stored in GCP Secrets Manager (centralized secret storage)
-  - Kubernetes secrets synced from GCP Secrets Manager
-  - VMs access secrets via service accounts with appropriate permissions
-  - Secrets automatically rotated and versioned
-  - Access to secrets logged and audited
+ - Secrets stored in GCP Secrets Manager (centralized secret storage)
+ - Kubernetes secrets synced from GCP Secrets Manager
+ - VMs access secrets via service accounts with appropriate permissions
+ - Secrets automatically rotated and versioned
+ - Access to secrets logged and audited
 - **Managed Secrets:**
-  - API keys and tokens
-  - Database credentials (MySQL, MongoDB, Elasticsearch)
-  - Application configuration secrets
-  - OAuth keys and authentication tokens
-  - All sensitive data and credentials
+ - API keys and tokens
+ - Database credentials (MySQL, MongoDB, Elasticsearch)
+ - Application configuration secrets
+ - OAuth keys and authentication tokens
+ - All sensitive data and credentials
 - **Access Control:**
-  - Service accounts with minimal required permissions
-  - Kubernetes RBAC for secret access within clusters
-  - Audit trails for all secret access
+ - Service accounts with minimal required permissions
+ - Kubernetes RBAC for secret access within clusters
+ - Audit trails for all secret access
 - **Result:** Strengthened microservices security by removing credentials from source code, reducing risk of credential exposure
 
 **Container Security:**
@@ -182,37 +182,37 @@ The security improvement initiative implements a multi-layered security approach
 **Security Monitoring:**
 - **Continuous Monitoring:** Continuous monitoring of security events and anomalies
 - **Monitoring Stack:**
-  - **Prometheus:** Metrics collection and storage for security events
-  - **Grafana:** Visualization and alerting for security metrics
-  - **GCP Stackdriver:** Cloud-native monitoring and logging
-  - **Unified Observability Stack:** Real-time monitoring and automated incident escalation
+ - **Prometheus:** Metrics collection and storage for security events
+ - **Grafana:** Visualization and alerting for security metrics
+ - **GCP Stackdriver:** Cloud-native monitoring and logging
+ - **Unified Observability Stack:** Real-time monitoring and automated incident escalation
 - **Security Metrics Tracked:**
-  - Failed authentication attempts
-  - Unauthorized access attempts
-  - Security policy violations
-  - Vulnerability scan results
-  - Compliance status
+ - Failed authentication attempts
+ - Unauthorized access attempts
+ - Security policy violations
+ - Vulnerability scan results
+ - Compliance status
 - **Security Audits:** Regular security audits and ongoing security monitoring and assessment
 - **Incident Response:** 
-  - Prepared incident response procedures
-  - Automated incident escalation
-  - MTTR reduction from 30 to 7 minutes through unified observability
+ - Prepared incident response procedures
+ - Automated incident escalation
+ - MTTR reduction from 30 to 7 minutes through unified observability
 - **Alerting:**
-  - Real-time security alerts for critical events
-  - Automated escalation for security incidents
-  - Integration with Slack for immediate notifications
+ - Real-time security alerts for critical events
+ - Automated escalation for security incidents
+ - Integration with Slack for immediate notifications
 
 **Compliance Tracking:**
 - **DPDP Compliance:** Ongoing compliance tracking and validation
 - **Security Standards:** Adherence to security standards and regulations
 - **Audit Trails:** 
-  - Comprehensive audit trails for security events
-  - Logging of all access attempts and security actions
-  - Retention policies for compliance requirements
+ - Comprehensive audit trails for security events
+ - Logging of all access attempts and security actions
+ - Retention policies for compliance requirements
 - **Compliance Reporting:**
-  - Regular compliance status reports
-  - Documentation of security controls implementation
-  - Evidence collection for compliance audits
+ - Regular compliance status reports
+ - Documentation of security controls implementation
+ - Evidence collection for compliance audits
 
 ## Security Implementation Details
 
@@ -315,18 +315,18 @@ The security improvement initiative implements a multi-layered security approach
 
 ### Infrastructure Coverage
 - **Microservices Distributed Workload:** 125+ Microservices Distributed Workload secured across all platforms
-  - purplle.com: Main e-commerce platform deployments
-  - POS Platform (Production): POS application deployments
-  - AdTech Platform (Production): AdTech platform deployments
+ - purplle.com: Main e-commerce platform deployments
+ - POS Platform (Production): POS application deployments
+ - AdTech Platform (Production): AdTech platform deployments
 - **Application Instances:** 300+ application instances hardened
-  - GCP Compute Engine instances
-  - Kubernetes cluster nodes
-  - Management and utility instances
+ - GCP Compute Engine instances
+ - Kubernetes cluster nodes
+ - Management and utility instances
 - **Environments:** Security controls consistently applied across DEV, SIT, UAT, PROD
 - **Platforms:** Security improvements across all production platforms
-  - purplle.com (main e-commerce platform)
-  - POS Platform (Production) - POS application
-  - AdTech Platform (Production) - AdTech platform
+ - purplle.com (main e-commerce platform)
+ - POS Platform (Production) - POS application
+ - AdTech Platform (Production) - AdTech platform
 
 ### Security Controls Applied
 
@@ -452,36 +452,36 @@ The security improvement initiative implements a multi-layered security approach
 **ISO 27001 (Information Security Management System):**
 - **Alignment:** Security controls implemented align with ISO 27001 ISMS principles
 - **Implemented Controls:**
-  - **Access Control:** Kubernetes RBAC, SSO, IP Whitelisting, automated IAM minimization
-  - **Cryptography:** Encryption at rest and in transit (TLS/SSL), secure key management
-  - **Operations Security:** Security monitoring, incident response, backup and recovery
-  - **Compliance:** DPDP compliance, audit trails, compliance monitoring
+ - **Access Control:** Kubernetes RBAC, SSO, IP Whitelisting, automated IAM minimization
+ - **Cryptography:** Encryption at rest and in transit (TLS/SSL), secure key management
+ - **Operations Security:** Security monitoring, incident response, backup and recovery
+ - **Compliance:** DPDP compliance, audit trails, compliance monitoring
 - **Risk Management:** Risk assessment and treatment processes through security controls implementation
 - **Continuous Improvement:** Continuous improvement through security monitoring, audits, and remediation
 
 **ISO 27018 (Cloud Privacy - PII Protection):**
 - **Alignment:** Cloud privacy controls implemented align with ISO 27018 principles for PII protection
 - **Implemented Controls:**
-  - **PII Protection:** Encryption at rest and in transit for PII in GCP and AWS
-  - **Access Controls:** Kubernetes RBAC, SSO, IP Whitelisting for PII access
-  - **Data Processing Transparency:** Comprehensive records of data processing activities (DPDP compliance)
-  - **User Rights:** Mechanisms to support user rights (DPDP data subject rights)
+ - **PII Protection:** Encryption at rest and in transit for PII in GCP and AWS
+ - **Access Controls:** Kubernetes RBAC, SSO, IP Whitelisting for PII access
+ - **Data Processing Transparency:** Comprehensive records of data processing activities (DPDP compliance)
+ - **User Rights:** Mechanisms to support user rights (DPDP data subject rights)
 - **Cloud Privacy Controls:** Cloud-specific privacy controls for GCP and AWS infrastructure
 
 **ISO 27017 (Cloud Security):**
 - **Alignment:** Cloud security controls implemented align with ISO 27017 principles
 - **Implemented Controls:**
-  - **Cloud-Specific Security:** VPC segmentation, WAF, firewall rules for GCP and AWS
-  - **Shared Responsibility:** Clear understanding of shared responsibility model (GCP/AWS managed services + our security controls)
-  - **Cloud Security Controls:** Additional security controls specific to cloud computing (Secrets Manager, Cloud SQL Proxy)
+ - **Cloud-Specific Security:** VPC segmentation, WAF, firewall rules for GCP and AWS
+ - **Shared Responsibility:** Clear understanding of shared responsibility model (GCP/AWS managed services + our security controls)
+ - **Cloud Security Controls:** Additional security controls specific to cloud computing (Secrets Manager, Cloud SQL Proxy)
 
 **ISO 27002 (Security Controls Guidelines):**
 - **Alignment:** Security controls implementation follows ISO 27002 security control guidelines
 - **Implemented Controls:**
-  - **Access Control (A.9):** Kubernetes RBAC, SSO, IP Whitelisting, automated IAM minimization
-  - **Cryptography (A.10):** Encryption at rest and in transit, secure key management
-  - **Operations Security (A.12):** Security monitoring, incident response, backup procedures
-  - **Compliance (A.18):** DPDP compliance, audit trails, compliance monitoring
+ - **Access Control (A.9):** Kubernetes RBAC, SSO, IP Whitelisting, automated IAM minimization
+ - **Cryptography (A.10):** Encryption at rest and in transit, secure key management
+ - **Operations Security (A.12):** Security monitoring, incident response, backup procedures
+ - **Compliance (A.18):** DPDP compliance, audit trails, compliance monitoring
 
 ### Industry Security Frameworks
 

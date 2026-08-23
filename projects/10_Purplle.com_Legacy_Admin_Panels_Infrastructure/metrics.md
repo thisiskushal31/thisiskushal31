@@ -3,7 +3,7 @@
 ## Business Impact Metrics
 
 ### Revenue backbone
-- **Backbone of the ₹700 Crore revenue management panel** — **Business teams use the legacy panel outcomes** to run business operations seamlessly without the intervention of technical teams. Other teams own the code; business teams go to the panel, click a few buttons, and it happens (front banner, campaigns, Martech, logistics).
+- **Backbone of the US$160M+ revenue management panel** — **Business teams use the legacy panel outcomes** to run business operations seamlessly without the intervention of technical teams. Other teams own the code; business teams go to the panel, click a few buttons, and it happens (front banner, campaigns, Martech, logistics).
 
 ### Platform and who uses the outcomes
 - **Use case:** Business teams use the panel outcomes to deliver changes: front banner, newer campaigns, Martech campaigns, logistic changes. Other teams (Storefront, Martech, SCM, Data Engineering, Data Science) own and maintain the application code.

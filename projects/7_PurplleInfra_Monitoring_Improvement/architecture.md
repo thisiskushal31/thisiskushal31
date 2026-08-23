@@ -17,11 +17,11 @@ The monitoring improvement initiative implements a unified observability stack a
 - **Metrics Scraping:** Scrapes metrics from K8s pods, services, and infrastructure components
 - **Metrics Storage:** Time-series database for metrics storage and retention
 - **Metrics Coverage:**
-  - **Application Metrics:** Application performance, latency, throughput, error rates
-  - **Infrastructure Metrics:** CPU, memory, network, disk utilization
-  - **Business Metrics:** User metrics, transaction metrics, revenue metrics
-  - **Security Metrics:** Security events, access attempts, compliance status
-  - **Cost Metrics:** Resource utilization, cost tracking, optimization insights
+ - **Application Metrics:** Application performance, latency, throughput, error rates
+ - **Infrastructure Metrics:** CPU, memory, network, disk utilization
+ - **Business Metrics:** User metrics, transaction metrics, revenue metrics
+ - **Security Metrics:** Security events, access attempts, compliance status
+ - **Cost Metrics:** Resource utilization, cost tracking, optimization insights
 
 **Metrics Sources:**
 - Kubernetes pods and services
@@ -40,28 +40,28 @@ The monitoring improvement initiative implements a unified observability stack a
 
 **Dashboard Categories:**
 - **Application Performance Dashboards:**
-  - Application latency and throughput
-  - Error rates and exception tracking
-  - Service availability and uptime
-  - API performance metrics
+ - Application latency and throughput
+ - Error rates and exception tracking
+ - Service availability and uptime
+ - API performance metrics
 - **Infrastructure Health Dashboards:**
-  - CPU, memory, network, disk utilization
-  - Kubernetes cluster health
-  - Node pool status and capacity
-  - Resource allocation and usage
+ - CPU, memory, network, disk utilization
+ - Kubernetes cluster health
+ - Node pool status and capacity
+ - Resource allocation and usage
 - **Database Performance Dashboards:**
-  - Database connection metrics
-  - Query performance and latency
-  - Database health and availability
-  - Replication status
+ - Database connection metrics
+ - Query performance and latency
+ - Database health and availability
+ - Replication status
 - **Business Metrics Dashboards:**
-  - User metrics and traffic patterns
-  - Transaction metrics
-  - Revenue and business KPIs
+ - User metrics and traffic patterns
+ - Transaction metrics
+ - Revenue and business KPIs
 - **Security & Compliance Dashboards:**
-  - Security events and anomalies
-  - Access monitoring
-  - Compliance status
+ - Security events and anomalies
+ - Access monitoring
+ - Compliance status
 
 **Alerting Configuration:**
 - **High Error Rates:** Alerts for elevated error rates
@@ -85,15 +85,15 @@ The monitoring improvement initiative implements a unified observability stack a
 **GCP Stackdriver:**
 - **Cloud-Native Monitoring:** GCP Stackdriver for cloud-native monitoring and logging
 - **Log Aggregation:** Centralized log aggregation for:
-  - Application logs
-  - Access logs
-  - System logs
-  - Security logs
+ - Application logs
+ - Access logs
+ - System logs
+ - Security logs
 - **Cloud Integration:** Integration with GCP services:
-  - GKE cluster monitoring
-  - Cloud SQL monitoring
-  - Load Balancer monitoring
-  - VPC and network monitoring
+ - GKE cluster monitoring
+ - Cloud SQL monitoring
+ - Load Balancer monitoring
+ - VPC and network monitoring
 - **Log-Based Monitoring:** Log-based monitoring and analysis
 - **Cloud Metrics:** Native GCP service metrics and insights
 
@@ -108,10 +108,10 @@ The monitoring improvement initiative implements a unified observability stack a
 **Slack Integration:**
 - **Real-Time Alerts:** Slack integration for real-time job failure alerts
 - **Monitoring Notifications:** Automated notifications for:
-  - CI/CD pipeline failures
-  - Infrastructure health issues
-  - Security events
-  - Performance degradation
+ - CI/CD pipeline failures
+ - Infrastructure health issues
+ - Security events
+ - Performance degradation
 - **Team Collaboration:** Improved team collaboration through centralized notifications
 - **Incident Response:** Faster incident response through immediate notifications
 
@@ -224,13 +224,13 @@ The monitoring improvement initiative implements a unified observability stack a
 
 ### Infrastructure Coverage
 - **Microservices Distributed Workload:** 125+ Microservices Distributed Workload monitored
-  - purplle.com: Main e-commerce platform deployments
-  - POS Platform (Production): POS application deployments
-  - AdTech Platform (Production): AdTech platform deployments
+ - purplle.com: Main e-commerce platform deployments
+ - POS Platform (Production): POS application deployments
+ - AdTech Platform (Production): AdTech platform deployments
 - **Application Instances:** 300+ application instances monitored
-  - GCP Compute Engine instances
-  - Kubernetes cluster nodes
-  - Management and utility instances
+ - GCP Compute Engine instances
+ - Kubernetes cluster nodes
+ - Management and utility instances
 - **Environments:** Monitoring implemented across DEV, SIT, UAT, PROD
 - **Platforms:** Monitoring improvements across all production platforms
 

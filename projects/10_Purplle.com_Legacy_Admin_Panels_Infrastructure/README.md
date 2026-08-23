@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-**Company:** Purplle.com  
-**Project Type:** Production Platform - Legacy Backend Admin Panels (Infrastructure only)  
-**Status:** Live & Operational  
-**Duration:** Jan 2023 - Feb 2026  
-**Platform:** Managed system whose outcomes business teams use to deliver changes: front banner, newer campaigns, Martech campaigns, logistic changes. Legacy PHP monolith (backend admin panels) maintained from the front-end side; front-end manages the panel and calls the backend. Backend connects to distributed (microservice) architecture via internal load balancer. Application code is owned by other teams (Storefront, Martech, SCM, Data Engineering, Data Science); business teams use the panel to run operations.  
-**Deployment:** Monolith deployment, load balancer (high load), MySQL database and connections; internal load balancer between legacy instance and distributed K8s-based services.  
-**Role:** DevOps / Infrastructure Engineer — part of team that managed CI/CD, network, monolith deployment, load balancer under high load, MySQL backing the architecture, and internal load balancer to distributed architecture. Did not own application code.  
+**Company:** Purplle.com 
+**Project Type:** Production Platform - Legacy Backend Admin Panels (Infrastructure only) 
+**Status:** Live & Operational 
+**Duration:** Jan 2023 - Feb 2026 
+**Platform:** Managed system whose outcomes business teams use to deliver changes: front banner, newer campaigns, Martech campaigns, logistic changes. Legacy PHP monolith (backend admin panels) maintained from the front-end side; front-end manages the panel and calls the backend. Backend connects to distributed (microservice) architecture via internal load balancer. Application code is owned by other teams (Storefront, Martech, SCM, Data Engineering, Data Science); business teams use the panel to run operations. 
+**Deployment:** Monolith deployment, load balancer (high load), MySQL database and connections; internal load balancer between legacy instance and distributed K8s-based services. 
+**Role:** DevOps / Infrastructure Engineer — part of team that managed CI/CD, network, monolith deployment, load balancer under high load, MySQL backing the architecture, and internal load balancer to distributed architecture. Did not own application code. 
 **Note:** Code owned and maintained by Storefront, Martech, Supply Chain Management, Data Engineering, Data Science teams. Infra owned: CI/CD, network, monolith deployment, load balancer, MySQL, internal load balancer to distributed architecture.
 
 ## Executive Summary
@@ -26,8 +26,8 @@ The **legacy backend admin panels** at Purplle.com power the system whose outcom
 
 ## Business Impact
 
-### ₹700 Crore revenue management panel — business operations without technical intervention
-- **Backbone of the ₹700 Crore revenue management panel** — **Business teams use the legacy panel outcomes** to run business operations seamlessly **without the intervention of technical teams**. Other teams own the code that powers the panel; business teams go to the panel, click a few buttons, and it happens (front banner, campaigns, Martech, logistics).
+### US$160M+ revenue management panel — business operations without technical intervention
+- **Backbone of the US$160M+ revenue management panel** — **Business teams use the legacy panel outcomes** to run business operations seamlessly **without the intervention of technical teams**. Other teams own the code that powers the panel; business teams go to the panel, click a few buttons, and it happens (front banner, campaigns, Martech, logistics).
 
 ## Business Objectives
 
@@ -59,10 +59,10 @@ The **legacy backend admin panels** at Purplle.com power the system whose outcom
 
 ## Technical Stack (Infrastructure side)
 
-**Legacy:** PHP monolith (2011 to 2015); code updates largely paused around 2015, very few updates since then till present; maintained from front-end side; front-end calls backend.  
-**Load balancing:** External load balancer (high load); internal load balancer (legacy → distributed K8s).  
-**Database:** MySQL backing legacy architecture; connections managed by infra.  
-**Distributed:** Microservices on Kubernetes (code owned by Storefront, Martech, SCM, Data Engineering, Data Science).  
+**Legacy:** PHP monolith (2011 to 2015); code updates largely paused around 2015, very few updates since then till present; maintained from front-end side; front-end calls backend. 
+**Load balancing:** External load balancer (high load); internal load balancer (legacy → distributed K8s). 
+**Database:** MySQL backing legacy architecture; connections managed by infra. 
+**Distributed:** Microservices on Kubernetes (code owned by Storefront, Martech, SCM, Data Engineering, Data Science). 
 **CI/CD & network:** Pipelines, deployment, network—DevOps owned.
 
 ## Architecture Overview

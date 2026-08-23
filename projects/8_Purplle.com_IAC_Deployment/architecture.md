@@ -20,25 +20,25 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
 
 **Terraform Modules:**
 - **GKE Clusters:** Parameterized modules for GKE clusters with multi-environment support
-  - Environment-specific configurations (DEV, SIT, UAT, PROD)
-  - Consistent cluster configuration across environments
-  - Automated cluster provisioning and management
+ - Environment-specific configurations (DEV, SIT, UAT, PROD)
+ - Consistent cluster configuration across environments
+ - Automated cluster provisioning and management
 - **Cloud SQL Instances:** Modules for Cloud SQL instances (MySQL)
-  - Automated backups configuration
-  - Point-in-time recovery (PITR) setup
-  - Multi-zone deployment support
+ - Automated backups configuration
+ - Point-in-time recovery (PITR) setup
+ - Multi-zone deployment support
 - **VPCs and Network:** Modules for VPCs and network configurations
-  - VPC creation and subnet configuration
-  - Firewall rules and network policies
-  - Cloud NAT and routing configuration
+ - VPC creation and subnet configuration
+ - Firewall rules and network policies
+ - Cloud NAT and routing configuration
 - **Load Balancers:** Modules for load balancers (ALB, GCLB) with WAF integration
-  - Application Load Balancer configuration
-  - Google Cloud Load Balancer setup
-  - WAF integration and security rules
+ - Application Load Balancer configuration
+ - Google Cloud Load Balancer setup
+ - WAF integration and security rules
 - **Kubernetes Deployments:** Modules for Kubernetes deployments and services
-  - Deployment configuration
-  - Service and Ingress setup
-  - ConfigMap and Secret management
+ - Deployment configuration
+ - Service and Ingress setup
+ - ConfigMap and Secret management
 
 ### Layer 2: Configuration Management
 
@@ -139,21 +139,21 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
 
 **Environment Configuration:**
 - **DEV Environment:**
-  - Development and testing infrastructure
-  - Lower resource allocation
-  - Faster iteration cycles
+ - Development and testing infrastructure
+ - Lower resource allocation
+ - Faster iteration cycles
 - **SIT Environment:**
-  - System Integration Testing infrastructure
-  - Production-like configuration
-  - Integration testing support
+ - System Integration Testing infrastructure
+ - Production-like configuration
+ - Integration testing support
 - **UAT Environment:**
-  - User Acceptance Testing infrastructure
-  - Production-like configuration
-  - User validation support
+ - User Acceptance Testing infrastructure
+ - Production-like configuration
+ - User validation support
 - **PROD Environment:**
-  - Production infrastructure
-  - High availability configuration
-  - Full monitoring and alerting
+ - Production infrastructure
+ - High availability configuration
+ - Full monitoring and alerting
 
 **Consistent Deployment:**
 - **Parameterized Modules:** Same modules used across all environments
@@ -201,13 +201,13 @@ The IAC deployment initiative implements a comprehensive infrastructure automati
 
 ### Infrastructure Coverage
 - **Microservices Distributed Workload:** 125+ Microservices Distributed Workload automated
-  - purplle.com: Main e-commerce platform deployments
-  - POS Platform (Production): POS application deployments
-  - AdTech Platform (Production): AdTech platform deployments
+ - purplle.com: Main e-commerce platform deployments
+ - POS Platform (Production): POS application deployments
+ - AdTech Platform (Production): AdTech platform deployments
 - **Application Instances:** 300+ application instances automated
-  - GCP Compute Engine instances
-  - Kubernetes cluster nodes
-  - Management and utility instances
+ - GCP Compute Engine instances
+ - Kubernetes cluster nodes
+ - Management and utility instances
 - **Environments:** IAC deployment across DEV, SIT, UAT, PROD
 - **Platforms:** IAC automation across all production platforms
 

@@ -2,12 +2,12 @@
 
 ## Project Overview
 
-**Company:** Purplle.com  
-**Project Type:** Security Enhancement Initiative  
-**Status:** Implemented & Operational  
-**Duration:** Dec 2024 - Mar 2025  
-**Platform:** Purplle.com Infrastructure Security Hardening  
-**Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform  
+**Company:** Purplle.com 
+**Project Type:** Security Enhancement Initiative 
+**Status:** Implemented & Operational 
+**Duration:** Dec 2024 - Mar 2025 
+**Platform:** Purplle.com Infrastructure Security Hardening 
+**Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform 
 **Role:** DevOps Engineer | Team Size: 5 people
 
 ## Executive Summary
@@ -60,15 +60,15 @@ Comprehensive security improvement initiative across Purplle.com's infrastructur
 
 ## Technical Stack
 
-**Cloud & Infrastructure:** GCP (GKE), AWS (Route53), Kubernetes, VPC, WAF (Reblaze)  
-**Container Security:** Kubernetes RBAC, Secure Boot, Trivy container scanning  
-**Secrets Management:** GCP Secrets Manager  
-**Access Control:** SSO (Single Sign-On), IP Whitelisting, IAM (Identity and Access Management)  
-**Security Scanning:** Trivy (integrated with GitLab CI)  
-**Automation:** Python (IAM role minimization), Bash  
-**CI/CD:** GitLab CI (with security scanning integration), Jenkins  
-**Monitoring:** Prometheus, Grafana, GCP Stackdriver  
-**Compliance:** DPDP (Digital Personal Data Protection Act, 2023), ISO 27001/27018/27017/27002 (aligned), NIST Cybersecurity Framework (aligned), CIS Benchmarks, OWASP Guidelines  
+**Cloud & Infrastructure:** GCP (GKE), AWS (Route53), Kubernetes, VPC, WAF (Reblaze) 
+**Container Security:** Kubernetes RBAC, Secure Boot, Trivy container scanning 
+**Secrets Management:** GCP Secrets Manager 
+**Access Control:** SSO (Single Sign-On), IP Whitelisting, IAM (Identity and Access Management) 
+**Security Scanning:** Trivy (integrated with GitLab CI) 
+**Automation:** Python (IAM role minimization), Bash 
+**CI/CD:** GitLab CI (with security scanning integration), Jenkins 
+**Monitoring:** Prometheus, Grafana, GCP Stackdriver 
+**Compliance:** DPDP (Digital Personal Data Protection Act, 2023), ISO 27001/27018/27017/27002 (aligned), NIST Cybersecurity Framework (aligned), CIS Benchmarks, OWASP Guidelines 
 **Security Architecture:** Zero-Trust Architecture, Defense-in-Depth, DevSecOps
 
 ## Architecture Overview

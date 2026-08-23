@@ -3,11 +3,11 @@
 ## Business Impact Metrics
 
 ### Revenue backbone
-- **₹700 Crore revenue backbone** — Data processing for **7 million users**: data collected **legally**, processed **anonymously**; used for business decisions (analytics) and to run **ML models**. Data treated as **PII** and handled in a very sensitive way.
+- **US$160M+ revenue backbone** — Data processing for **10M+ users**: data collected **legally**, processed **anonymously**; used for business decisions (analytics) and to run **ML models**. Data treated as **PII** and handled in a very sensitive way.
 - **Decision support** — Processed data helps business leaders (CEO-level, business leaders) take decisions—e.g. “This brand is doing great in this region or this age group”—so they can double down on insights and make more money using the same engine.
 
 ### Who uses the data
-- Data is used by **business teams** (analytics, decision support) and by **other teams**: Data Science (models, analytics), Martech (campaigns), SCM (logistics, procurement, inventory), storefront (newer data, bulk operations), and legacy admin panel infrastructure, which powers the ₹700 Crore revenue management panel so business teams can run operations from the panel without technical intervention.
+- Data is used by **business teams** (analytics, decision support) and by **other teams**: Data Science (models, analytics), Martech (campaigns), SCM (logistics, procurement, inventory), storefront (newer data, bulk operations), and legacy admin panel infrastructure, which powers the US$160M+ revenue management panel so business teams can run operations from the panel without technical intervention.
 
 ### Pipeline and consumers
 - **Data flow:** MySQL → DE (cleanse, transform) → data warehousing (versioned); consumed by business teams (analytics, decision support), Data Science, Martech, SCM, storefront, and legacy admin panel.

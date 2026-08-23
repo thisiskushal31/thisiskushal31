@@ -62,10 +62,10 @@ This document tracks monitoring metrics, MTTR improvements, and performance data
 **Grafana Dashboards:**
 - **Total Dashboards:** 50+ custom dashboards
 - **Dashboard Categories:**
-  - Application Performance: 15+ dashboards
-  - Infrastructure Health: 20+ dashboards
-  - Database Performance: 10+ dashboards
-  - Business Metrics: 5+ dashboards
+ - Application Performance: 15+ dashboards
+ - Infrastructure Health: 20+ dashboards
+ - Database Performance: 10+ dashboards
+ - Business Metrics: 5+ dashboards
 - **Dashboard Updates:** Real-time updates (1-5 second refresh)
 - **Dashboard Access:** Role-based access control for dashboards
 
@@ -82,10 +82,10 @@ This document tracks monitoring metrics, MTTR improvements, and performance data
 **Alert Configuration:**
 - **Total Alerts Configured:** 200+ alerts
 - **Alert Severity Distribution:**
-  - Critical: 20+ alerts
-  - High: 50+ alerts
-  - Medium: 80+ alerts
-  - Low: 50+ alerts
+ - Critical: 20+ alerts
+ - High: 50+ alerts
+ - Medium: 80+ alerts
+ - Low: 50+ alerts
 - **Alert Channels:** Grafana, PagerDuty, Slack, Email
 
 **Alert Response:**

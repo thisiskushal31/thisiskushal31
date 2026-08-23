@@ -5,51 +5,51 @@
 ---
 
 flowchart TB
-    subgraph Business["Business teams"]
-        Users[Admin panel users]
-    end
+ subgraph Business["Business teams"]
+ Users[Admin panel users]
+ end
 
-    subgraph FrontEnd["Front-end (panel)"]
-        Panel[Panel - manages UI]
-        Users --> Panel
-    end
+ subgraph FrontEnd["Front-end (panel)"]
+ Panel[Panel - manages UI]
+ Users --> Panel
+ end
 
-    subgraph Legacy["Legacy backend - infra deploys"]
-        Monolith[PHP Monolith]
-        Panel --> Monolith
-    end
+ subgraph Legacy["Legacy backend - infra deploys"]
+ Monolith[PHP Monolith]
+ Panel --> Monolith
+ end
 
-    subgraph Infra["Infra-managed"]
-        LB[Load balancer - high load]
-        MySQL[(MySQL)]
-        InternalLB[Internal load balancer]
-        Monolith --> MySQL
-        LB --> Monolith
-    end
+ subgraph Infra["Infra-managed"]
+ LB[Load balancer - high load]
+ MySQL[(MySQL)]
+ InternalLB[Internal load balancer]
+ Monolith --> MySQL
+ LB --> Monolith
+ end
 
-    subgraph Distributed["Distributed (K8s) - teams own code"]
-        K8s[Microservices on Kubernetes]
-        InternalLB --> K8s
-        Monolith --> InternalLB
-    end
+ subgraph Distributed["Distributed (K8s) - teams own code"]
+ K8s[Microservices on Kubernetes]
+ InternalLB --> K8s
+ Monolith --> InternalLB
+ end
 
-    subgraph Teams["Code ownership"]
-        Storefront[Storefront]
-        Martech[Martech]
-        SCM[SCM]
-        DE[Data Engineering]
-        DS[Data Science]
-    end
+ subgraph Teams["Code ownership"]
+ Storefront[Storefront]
+ Martech[Martech]
+ SCM[SCM]
+ DE[Data Engineering]
+ DS[Data Science]
+ end
 
-    subgraph InfraTeam["Infra team (no app code)"]
-        CICD[CI/CD]
-        Net[Network]
-    end
+ subgraph InfraTeam["Infra team (no app code)"]
+ CICD[CI/CD]
+ Net[Network]
+ end
 
-    style Business fill:#e3f2fd
-    style FrontEnd fill:#fff8e1
-    style Legacy fill:#e8f5e9
-    style Infra fill:#e0f2f1
-    style Distributed fill:#fce4ec
-    style Teams fill:#f3e5f5
-    style InfraTeam fill:#e8eaf6
+ style Business fill:#e3f2fd
+ style FrontEnd fill:#fff8e1
+ style Legacy fill:#e8f5e9
+ style Infra fill:#e0f2f1
+ style Distributed fill:#fce4ec
+ style Teams fill:#f3e5f5
+ style InfraTeam fill:#e8eaf6

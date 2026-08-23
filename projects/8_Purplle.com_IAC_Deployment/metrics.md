@@ -47,12 +47,12 @@ This document tracks infrastructure automation metrics, deployment improvements,
 ### Module Reusability
 - **Total Modules Created:** 20+ reusable Terraform modules
 - **Module Categories:**
-  - GKE Clusters: 3+ modules
-  - Cloud SQL: 2+ modules
-  - VPCs and Network: 4+ modules
-  - Load Balancers: 3+ modules
-  - Kubernetes Deployments: 5+ modules
-  - Security: 3+ modules
+ - GKE Clusters: 3+ modules
+ - Cloud SQL: 2+ modules
+ - VPCs and Network: 4+ modules
+ - Load Balancers: 3+ modules
+ - Kubernetes Deployments: 5+ modules
+ - Security: 3+ modules
 - **Module Reusability:** Modules reused across multiple environments and platforms
 - **Module Maintenance:** Centralized module maintenance and updates
 

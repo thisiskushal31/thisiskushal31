@@ -2,12 +2,12 @@
 
 ## Project Overview
 
-**Company:** Purplle.com  
-**Project Type:** Infrastructure Automation & Deployment  
-**Status:** Implemented & Operational  
+**Company:** Purplle.com 
+**Project Type:** Infrastructure Automation & Deployment 
+**Status:** Implemented & Operational 
 **Duration:** Jun 2024 - Feb 2026
-**Platform:** Purplle.com Infrastructure Automation  
-**Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform  
+**Platform:** Purplle.com Infrastructure Automation 
+**Scope:** All production platforms: Main E-Commerce Platform, POS Platform, AdTech Platform 
 **Role:** DevOps Engineer | Team Size: 5 people
 
 ## Executive Summary
@@ -61,14 +61,14 @@ Comprehensive Infrastructure as Code (IAC) deployment initiative that standardiz
 
 ## Technical Stack
 
-**Infrastructure as Code:** Terraform (reusable modules), Ansible (configuration management)  
-**CI/CD:** Jenkins (scripted pipeline jobs), GitLab CI, GitOps workflows  
-**Workflow Automation:** n8n (workflow automation)  
-**Version Control:** Git (infrastructure code version-controlled)  
-**Automation:** Python (IAM role management), Bash  
-**Cloud Platforms:** GCP (GKE, Cloud SQL, VPC, Load Balancer), AWS (Route53)  
-**Container Orchestration:** Kubernetes (GKE), K8s Ingress, Deployments, Services  
-**Monitoring:** Prometheus, Grafana, GCP Stackdriver  
+**Infrastructure as Code:** Terraform (reusable modules), Ansible (configuration management) 
+**CI/CD:** Jenkins (scripted pipeline jobs), GitLab CI, GitOps workflows 
+**Workflow Automation:** n8n (workflow automation) 
+**Version Control:** Git (infrastructure code version-controlled) 
+**Automation:** Python (IAM role management), Bash 
+**Cloud Platforms:** GCP (GKE, Cloud SQL, VPC, Load Balancer), AWS (Route53) 
+**Container Orchestration:** Kubernetes (GKE), K8s Ingress, Deployments, Services 
+**Monitoring:** Prometheus, Grafana, GCP Stackdriver 
 **Integration:** Slack (real-time alerts)
 
 ## Architecture Overview
