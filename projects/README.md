@@ -4,6 +4,16 @@ This directory holds **one README per project**. Each project has its own scale,
 
 ## Project list
 
+#### [Stealth Startup Infrastructure Deployment & Software Compliance](./11_StealthStartup_Infrastructure_Deployment/)
+**AI-Powered CI/CD SaaS** - GitHub App → control/orchestration plane → ephemeral GCP runners; SOC 2–aligned compliance  
+- **Architecture:** Customer GitHub Org → platform control layer (runner provisioning, AI RCA, caching, compliance scanning) → ephemeral Compute Engine runners (C4D, us-central1)  
+- **GCP:** GKE (stateful + stateless), PostgreSQL, Vertex AI; Silicon → Dev → Staging → Prod; BYOC planned (customer data plane)  
+- **Messaging & cache:** NATS JetStream (runners/capacity/auth); Pub/Sub (ad hoc triggers); MicroCeph (CI caching)  
+- **Scale:** 15+ production services, 45+ repositories, 100+ CI jobs/day; ~30 VM types; frequent 32 vCPU / 128 GB runners  
+- **Achievements:** Up to 80% faster CI (MicroCeph), full IaC + Atlantis + Argo CD, inventory/cost audit (Slack), SOC 2 + ISO 27001–aligned, semver RC→prod (runners not versioned)  
+- **Key Technologies:** GCP, GKE, Compute Engine, PostgreSQL, NATS JetStream, Pub/Sub, MicroCeph, Vertex AI, Terraform, Atlantis, Helm, Argo CD, OpenTelemetry  
+- [View Details →](./11_StealthStartup_Infrastructure_Deployment/)
+
 #### [Purplle.com Management](./1_Purplle.com_Management/)
 ![Quick Info Image](../assets/projects/1_Purplle.com_Management.png)
 **Main E-Commerce Platform** - Core e-commerce infrastructure 
@@ -95,8 +105,8 @@ This directory holds **one README per project**. Each project has its own scale,
 - **Key Technologies:** PHP (legacy), Kubernetes, MySQL, Load balancer, CI/CD
 - [View Details →](./10_Purplle.com_Legacy_Admin_Panels_Infrastructure/)
 
-#### [Grid Platform - OSS Project](./11_GridPlatform_OSS_Project/)
-![Quick Info Image](../assets/projects/11_GridPlatform_OSS_Project.png)
+#### [Grid Platform - OSS Project](./12_GridPlatform_OSS_Project/)
+![Quick Info Image](../assets/projects/12_GridPlatform_OSS_Project.png)
 **AI-First Infrastructure Management Platform** - Open-source infrastructure automation 
 - **Scale:** Open-source platform for infrastructure management
 - **Infrastructure:** AI-powered automation, multi-cloud support, Infrastructure as Code
@@ -122,6 +132,7 @@ Each project follows a consistent documentation structure:
 
 | Project | Type | Key metric | Status |
 |---------|------|------------|--------|
+| [Stealth Startup Infra & Compliance](./11_StealthStartup_Infrastructure_Deployment/) | CI/CD SaaS Platform | 80% faster CI · SOC 2 + ISO 27001 | ✅ Live (current) |
 | [Purplle.com Management](./1_Purplle.com_Management/) | E-Commerce Platform | 10M+ users, 400K+ DAU | ✅ Live |
 | [Purplle.com RAG Sentiment Platform](./2_Purplle.com_Agentic_RAG_Sentiment_Platform/) | AI/ML Infrastructure | Agentic RAG, Qdrant, GPU | ✅ Live |
 | [Purplle.com Data Science Infrastructure](./3_Purplle.com_Data_Science_Infrastructure/) | DS/ML Infra | Ingress, K8s, Composer, Vertex AI, Qdrant | ✅ Live |
@@ -132,7 +143,7 @@ Each project follows a consistent documentation structure:
 | [IAC Deployment](./8_Purplle.com_IAC_Deployment/) | Infrastructure Automation | 40%+ faster | ✅ Implemented |
 | [Security Improvement](./9_Purplle.com_SecurityImprovement/) | Security Hardening | 125+ Microservices Distributed Workload | ✅ Implemented |
 | [Purplle.com Legacy Admin Panels](./10_Purplle.com_Legacy_Admin_Panels_Infrastructure/) | Legacy Admin | PHP monolith + internal LB to K8s; infra only | ✅ Live |
-| [Grid Platform](./11_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |
+| [Grid Platform](./12_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |
 
 ## Usage
 

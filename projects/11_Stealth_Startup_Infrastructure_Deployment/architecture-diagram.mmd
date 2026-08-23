@@ -1,0 +1,105 @@
+---
+# Stealth Startup - Infrastructure Deployment & Software Compliance
+# Current architecture: GitHub App → Control plane → Ephemeral runners
+# Plus GCP layout, AI remediation, planned BYOC
+# Reference: architecture.md
+---
+
+flowchart TB
+  subgraph Customer["Customer"]
+    GHOrg[GitHub Organization]
+  end
+
+  GHApp[GitHub App Integration]
+
+  subgraph Control["Stealth Startup Control / Orchestration Layer"]
+    Prov[CI Runner Provisioning]
+    Orch[Workflow & AI-Agent Orchestration]
+    RCA[Build-Log Analysis & RCA]
+    CacheCtl[Docker & GitHub Actions Caching]
+    Scan[Security / Compliance Scanning]
+  end
+
+  subgraph AppPlane["Application Plane - GKE"]
+    K8s[Kubernetes<br/>Stateful + Stateless Services]
+    PG[(PostgreSQL)]
+    Vertex[Vertex AI<br/>Open-model workloads]
+    GPU[GPU Pipeline<br/>Self-host inference - in progress]
+  end
+
+  subgraph Messaging["Messaging"]
+    NATS[NATS JetStream<br/>Runners · Capacity · Authenticator<br/>Runner ↔ Service communication]
+    PubSub[Pub/Sub<br/>Ad hoc triggers<br/>Add-ons · Log analysis · Debug]
+  end
+
+  subgraph Runners["Ephemeral GCP Compute Runners"]
+    CE[Compute Engine VMs<br/>C4D · us-central1<br/>Often 32 vCPU / 128 GB<br/>~30 VM types]
+    Jobs[Execute GitHub CI Jobs]
+    Results[Results & Logs Back]
+    CE --> Jobs --> Results
+  end
+
+  subgraph Perf["Caching"]
+    MicroCeph[MicroCeph<br/>Distributed CI cache<br/>Up to 80% faster CI]
+  end
+
+  subgraph Delivery["Platform Delivery"]
+    TF[Terraform]
+    Helm[Helm]
+    Argo[ArgoCD GitOps]
+    TF --> Argo
+    Helm --> Argo
+  end
+
+  subgraph Compliance["SOC 2–Aligned Compliance"]
+    PrivNet[Private Networking]
+    ZT[Zero Trust]
+    IAM[Least-Privilege IAM]
+    S2S[Secure Service-to-Service]
+  end
+
+  subgraph Obs["Observability"]
+    OTel[OpenTelemetry]
+    GCM[Google Cloud Monitoring]
+    OTel --> GCM
+  end
+
+  subgraph AIFlow["AI Failure Remediation"]
+    Fail[CI Failure + Logs]
+    Sandbox[Sandbox Code Exam]
+    Agents[Multi-Agent RCA + Fix]
+    PR[PR + Security/Quality Checks]
+    Owner[Customer Code Owner Merge Decision]
+    Fail --> Sandbox --> Agents --> PR --> Owner
+  end
+
+  subgraph BYOC["Planned BYOC"]
+    Brain[Platform Control Plane / Brain]
+    CustDP[Customer AWS/GCP Data Plane<br/>CI execution · code · sensitive workloads]
+    Brain --> CustDP
+  end
+
+  GHOrg --> GHApp --> Control
+  Control --> CE
+  Results --> Control
+  Argo --> K8s
+  K8s --> PG
+  CE <-->|runner capacity auth| NATS
+  NATS <-->|community / platform services| K8s
+  Control --> PubSub
+  PubSub -->|add-ons · log analysis · debug triggers| Control
+  Orch --> Vertex
+  Orch --> GPU
+  MicroCeph --> Jobs
+  CacheCtl --> Jobs
+  RCA --> AIFlow
+  K8s --> OTel
+  CE --> GCM
+  PrivNet --> K8s
+  ZT --> Control
+  IAM --> Control
+  S2S --> K8s
+  Scan --> Compliance
+
+  classDef accent fill:#e8f4fc,stroke:#2b6cb0,color:#1a202c
+  class GHApp,Control,CE,K8s,NATS,PubSub,MicroCeph,Argo,Vertex,Brain accent

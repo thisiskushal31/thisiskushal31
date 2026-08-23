@@ -96,7 +96,10 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
    Zero-trust architecture, defense-in-depth across 125+ microservices. Kubernetes RBAC, Trivy, Secrets Manager, SSO, IP whitelisting. Compliance: DPDP, ISO 27001, NIST, CIS, OWASP.
 
 10. **[Purplle – Legacy Admin Panels Infrastructure](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/10_Purplle.com_Legacy_Admin_Panels_Infrastructure/README.md)**  
-   Backbone of the ₹700 Crore revenue management panel. Business teams run operations (banner, campaigns, Martech, logistics) without technical intervention. Legacy PHP monolith + internal LB + distributed K8s; infra only.
+   Backbone of the US$160M+ revenue management panel. Business teams run operations (banner, campaigns, Martech, logistics) without technical intervention. Legacy PHP monolith + internal LB + distributed K8s; infra only.
+
+11. **[Stealth Startup – Infrastructure Deployment & Software Compliance](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/11_StealthStartup_Infrastructure_Deployment/README.md)**  
+   AI-powered CI/CD SaaS: GitHub App control plane, ephemeral GCP runners, NATS JetStream / Pub/Sub / MicroCeph, full IaC + Atlantis + Argo CD, SOC 2– and ISO/IEC 27001–aligned controls, reusable CI with semantic versioning.
 
 👉 **[View detailed technical documentation →](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects)** — Architecture, implementation details, and metrics.
 
@@ -108,7 +111,7 @@ I'm dedicated to solving real-world engineering challenges. I'm always exploring
 
 | Project | What it is |
 | :--- | :--- |
-| **[Grid Platform – Infrastructure Management Platform](https://gridplatform.org)** | AI-first infrastructure management. Open-source, vendor-agnostic. Days → minutes setup; 60–80% cost reduction vs proprietary. |
+| **[Grid Platform – Infrastructure Management Platform](https://gridplatform.org)** | AI-first infrastructure management. Open-source, vendor-agnostic. Days → minutes setup; 60–80% cost reduction vs proprietary. Docs: [projects/12_GridPlatform_OSS_Project](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/12_GridPlatform_OSS_Project). |
 | [**TrendSignal**](https://github.com/thisiskushal31/TrendSignal) | AI agent: YouTube trend analyzer from a screenshot → topic, strength, who's winning, 5 viral hooks. MCP, FastAPI, GPT-4 Vision, Docker. |
 | [**Agility**](https://github.com/thisiskushal31/Agility) | React + MongoDB task management. |
 | [**SocialSplit**](https://github.com/thisiskushal31/SocialSplit) | Node.js + Socket.io + React real-time chat. |

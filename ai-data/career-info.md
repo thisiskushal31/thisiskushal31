@@ -760,13 +760,30 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 
 ---
 
-### 11. Grid Platform - Infrastructure Management Platform
+### 11. Stealth Startup - Infrastructure Deployment & Software Compliance
+**Status:** Production  
+**Category:** Platform Engineering  
+**Client Type:** Day Job Project  
+**Technologies:** GCP, GKE, Compute Engine, PostgreSQL, NATS JetStream, Pub/Sub, MicroCeph, Terraform, Atlantis, Helm, Argo CD, OpenTelemetry  
+**Demo:** [11_StealthStartup_Infrastructure_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/11_StealthStartup_Infrastructure_Deployment)
+
+**Description:** AI-powered CI/CD SaaS platform infrastructure — GitHub App control plane, ephemeral runners, GitOps, SOC 2– and ISO/IEC 27001–aligned controls.
+
+**Overview (what I've done):** Own cloud infrastructure, platform engineering, deployment automation, security, and observability. Distributed CI caching (up to 80% faster), reusable CI with semantic versioning, full IaC with Atlantis, inventory/cost audit automation.
+
+**Duration:** Mar 2026 - Present | **Role:** DevOps Engineer  
+**Impact:** 15+ services · 45+ repos · 100+ CI jobs/day · SOC 2 + ISO 27001–aligned platform.
+
+---
+
+### 12. Grid Platform - Infrastructure Management Platform
 **Status:** Active Development  
 **Category:** Platform Engineering  
 **Client Type:** Open Source Project  
 **Technologies:** Node.js, TypeScript, React, Terraform, OpenTofu, Ansible, Kubernetes, Docker, GitOps  
 **GitHub:** https://github.com/gridplatform  
-**Demo:** https://gridplatform.org
+**Demo:** https://gridplatform.org  
+**Docs:** [12_GridPlatform_OSS_Project](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/12_GridPlatform_OSS_Project)
 
 **Description:** AI-first infrastructure management. Days → minutes setup, 60–80% cost reduction vs proprietary solutions. Open-source, vendor-agnostic.
 
@@ -783,7 +800,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 
 ---
 
-### 12. SocialSplit - Real-Time Chat Application
+### 13. SocialSplit - Real-Time Chat Application
 **Status:** Personal Project  
 **Technologies:** MongoDB, ReactJS, Socket.IO, NodeJS
 
