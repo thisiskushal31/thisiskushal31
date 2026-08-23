@@ -113,13 +113,21 @@ Learning & personal time: Python, JavaScript, TypeScript, React, Node.js, FastAP
 
 ## 📚 Learning Resources
 
+Technical notes and deep dives—browse everything in [DocHub](https://thisiskushal31.github.io/dochub/):
+
 | Repository | Content |
 | :--- | :--- |
-| [DevOps Handbook](https://github.com/thisiskushal31/DevOps-Handbook) | CI/CD, IaC, observability |
-| [System Design Concepts](https://github.com/thisiskushal31/System-Design-Concepts) | Patterns and trade-offs |
-| [Databases Deep Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) | Relational, NoSQL, analytical |
-| [Containerization Deep Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Docker, Kubernetes |
-| [More →](https://github.com/thisiskushal31?tab=repositories) | DSA, networking, cheatsheets, Qwiklabs |
+| [Data Structures & Algorithms](https://github.com/thisiskushal31/Datastructures-and-Algorithms) | DSA notes and solutions |
+| [DevOps Handbook](https://github.com/thisiskushal31/DevOps-Handbook) | CI/CD, IaC, cloud-native, observability, security |
+| [Containerization Deep Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Docker, Kubernetes, container runtimes |
+| [Databases Deep Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) | Relational, NoSQL, analytical engines and managed services |
+| [Networks Deep Dive](https://github.com/thisiskushal31/Networks-Deep-Dive) | Physical layers through cloud-native networking |
+| [System Design Concepts](https://github.com/thisiskushal31/System-Design-Concepts) | Patterns, components, and trade-offs by use case |
+| [Commands and Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Essential commands and tool references |
+| [Data Engineering Deep Dive](https://github.com/thisiskushal31/Data-Engineering-Deep-Dive) | Pipelines, warehousing, orchestration, platform engineering |
+| [Data Science & AI Deep Dive](https://github.com/thisiskushal31/Data-Science-AI-Deep-Dive) | Statistics, ML, deep learning, applied AI |
+| [Security Deep Dive](https://github.com/thisiskushal31/Security-Deep-Dive) | AppSec, IAM, cloud posture, forensics, defensive ops |
+| [Tooling & Frameworks Deep Dive](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive) | Frameworks, libraries, SDKs, platforms, toolchains |
 
 ---
 
