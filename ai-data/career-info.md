@@ -70,7 +70,7 @@ Raw README: `https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/mai
 
 ## 👤 Personal Information
 
-> **⚠️ Bifurcation (very important):** GitHub and LinkedIn use **different bios** and portray two personas. **GitHub bio** = your **full-stack + DevOps** persona (whole full-stack with a DevOps angle). **LinkedIn bio** = your **MLOps + DevOps** persona (employer-facing). Always use the correct bio for each platform — do not mix them.
+> **⚠️ Bifurcation:** GitHub profile bio and README lead with **DevOps & platform engineering** (developer-facing, achievement + learning notes). LinkedIn headline/About lean **MLOps + DevOps** (employer-facing). Keep bios platform-appropriate—do not copy LinkedIn About verbatim onto GitHub.
 
 **Shared (use everywhere):**  
 **Name:** Kushal Gupta  
@@ -83,15 +83,16 @@ Raw README: `https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/mai
 
 ### GitHub identity (profile bio)
 
-**Persona:** Full-stack + DevOps — reflects your whole full-stack persona with a DevOps angle (developer-facing, code + infra).
+**Persona:** DevOps & platform engineering — production delivery, cloud (GCP/AWS), MLOps; full-stack/AI application work called out in README as personal-time learning, not the profile bio.
 
-**Where it appears:** GitHub profile "Bio" field, and contexts that reference your GitHub or developer-facing presence.
+**Where it appears:** GitHub profile **Bio** field (160-character limit). Keep in sync with [README](https://github.com/thisiskushal31/thisiskushal31/README.md) tone—not a claim of full-stack production ownership.
 
 **Bio (copy-paste for GitHub profile):**
 ```
-Software Engineer | Fullstack & DevOps | End-to-end ownership | Terraform, K8s, CI/CD, GitOps, Automation, Security, MLOps, AI | MVP to production at scale
+Software Engineer | DevOps & Platform Engineering | Multi-Cloud Distributed Systems & Automation at scale | MLOps & AI
 ```
-*Keep in sync with the tone of your public [README](https://github.com/thisiskushal31/thisiskushal31/README.md). Wording tuned for international audiences. "Full-stack + DevOps" = whole full-stack persona with a DevOps angle.*
+
+*Short pipe format like LinkedIn headline. ~118 characters. Wording tuned for international and India-based employers (office, hybrid, or remote).*
 
 ---
 
