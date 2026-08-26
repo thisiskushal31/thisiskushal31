@@ -12,14 +12,14 @@
 
 ## Executive Summary
 
-Purplle.com is the main e-commerce platform infrastructure supporting beauty and personal care retail operations, supporting a US$160M+ annual business. The platform serves 10M+ users with 400K+ daily active users (DAU), with 4× traffic spike handling during major sales. Infrastructure includes 300+ application instances, maintaining 99.9% platform availability using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) and AWS (Route53). The platform follows a 4-tier architecture pattern with comprehensive security, monitoring, and disaster recovery capabilities. Infrastructure is managed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved US$120K+ in cost savings through infrastructure optimization and automation.
+Purplle.com is the main e-commerce platform infrastructure supporting beauty and personal care retail operations, supporting a US$160M+ annual business. The platform serves 10M+ users with 400K+ daily active users (DAU), with 4x traffic spike handling during major sales. Infrastructure includes 300+ application instances, maintaining 99.9% platform availability using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC) and AWS (Route53). The platform follows a 4-tier architecture pattern with comprehensive security, monitoring, and disaster recovery capabilities. Infrastructure is managed across Production, Pre-Production, and Sandbox environments and is fully operational. Achieved US$120K+ in cost savings through infrastructure optimization and automation.
 
 **Note:** Infrastructure management and operations handled by DevOps team. Application code developed by engineering team.
 
 ## Business Objectives
 
 **Primary Goal:** Manage and maintain robust, scalable infrastructure for the main e-commerce platform supporting:
-- **User Scale:** Serve 10M+ users with 400K+ DAU, handling 4× traffic spikes during major sales
+- **User Scale:** Serve 10M+ users with 400K+ DAU, handling 4x traffic spikes during major sales
 - **High Availability:** 99.9% platform availability for critical e-commerce operations
 - **Scalability:** Support 300+ application instances, 200+ self-managed database instances, and 125+ Microservices Distributed Workload
 - **Reliability:** Robust infrastructure for core e-commerce operations
@@ -38,7 +38,7 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 
 ### Scale & Infrastructure
 - **Annual Revenue:** US$160M+ annually
-- **User Base:** 10M+ users, 400K+ DAU (4× traffic spikes during major sales)
+- **User Base:** 10M+ users, 400K+ DAU (4x traffic spikes during major sales)
 - **Microservices Distributed Workload:** 125+ microservices distributed workloads orchestrated on GKE
 - **Database Instances:** 200+ self-managed database instances
 - **Application Instances:** 300+ application instances
@@ -52,7 +52,7 @@ Purplle.com is the main e-commerce platform infrastructure supporting beauty and
 
 ### Key Achievements
 
-- ✅ **Production Infrastructure** - Successfully managed and operational, serving 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales
+- ✅ **Production Infrastructure** - Successfully managed and operational, serving 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales
 - ✅ **125+ Microservices Distributed Workload** - Managed 125+ high-availability microservices distributed workloads on GKE, including Hypertest (QA tool), ensuring optimal performance, scalability, and reliability in production
 - ✅ **300+ Application Instances** - Managed 300+ application instances across infrastructure
 - ✅ **High Availability** - 99.9% platform availability maintained across all environments
@@ -115,4 +115,4 @@ For detailed information, see:
 
 ---
 
-**Note:** This is a production platform actively serving 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales with 300+ application instances, 200+ self-managed database instances, and 125+ Microservices Distributed Workload. All metrics and infrastructure details are based on actual production operations. Infrastructure management and operations was handled by DevOps team; application code was developed by the engineering team.
+**Note:** This is a production platform actively serving 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales with 300+ application instances, 200+ self-managed database instances, and 125+ Microservices Distributed Workload. All metrics and infrastructure details are based on actual production operations. Infrastructure management and operations was handled by DevOps team; application code was developed by the engineering team.

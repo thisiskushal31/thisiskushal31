@@ -5,9 +5,9 @@
 ### System Performance
 - **Uptime:** Target 99.9%+ (Production environment)
 - **Average Response Time:** [To be measured - target <100ms for ad serving]
-- **Peak Throughput:** Supports 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales
+- **Peak Throughput:** Supports 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales
  - Typical: 400K+ DAU
- - Major sales events: 4× traffic spike handling
+ - Major sales events: 4x traffic spike handling
  - Typical baseline: 400K+ DAU
  - Overall average: ~233K daily users
 - **Error Rate:** Target <0.1% error rate
@@ -41,7 +41,7 @@
 ### User Metrics
 - **Total Users:** 7,000,000 total users
 - **Daily Active Users:** 400K+ DAU
-- **Traffic Spikes (Major Sales):** 4× traffic spike handling with 400K+ DAU baseline
+- **Traffic Spikes (Major Sales):** 4x traffic spike handling with 400K+ DAU baseline
 - **Platform Availability:** 99.9%
 - **Platform Scale:** High-volume ad serving infrastructure designed to handle 4x traffic spikes during major sales and 2x during minor sales
 
@@ -67,7 +67,7 @@
 ### Key Performance Indicators (KPIs)
 - **Total Users:** 7,000,000 total users
 - **Daily Active Users:** 400K+ DAU
-- **Traffic Spikes (Major Sales):** 4× traffic spike handling with 400K+ DAU baseline
+- **Traffic Spikes (Major Sales):** 4x traffic spike handling with 400K+ DAU baseline
 - **Platform Availability:** 99.9%
 - **Daily Brand Revenue:** ~US$250K/day (US$90M+ ÷ 365)
 - **Daily Marketing Cost:** ~US$60–68K/day (US$22–25M ÷ 365)
@@ -167,7 +167,7 @@
 - **Production Status:** Fully live and operational, actively serving 10M+ users
 - **Platform Usage:** Successfully replacing US$96K/year third-party business management software
 - **Brand Adoption:** Platform supports 5 major house brands (Faces Canada, Alps Goodness, Good Vibes, NY Bae, Carmesi)
-- **Traffic Handling:** Successfully handles 400K+ DAU and 4× traffic spikes during major sales events
+- **Traffic Handling:** Successfully handles 400K+ DAU and 4x traffic spikes during major sales events
 
 ### Client Metrics
 - **Brand Revenue Support:** US$90M+ in brand advertising revenue
@@ -220,7 +220,7 @@
 ### What Went Well
 - **Successful Infrastructure Deployment:** Complete infrastructure stack deployed across Production, Pre-Production, and Sandbox environments
 - **Cost Optimization:** Achieved significant cost savings by replacing US$96K/year third-party software with in-house solution
-- **Scalability:** Built platform capable of handling 4× traffic spikes during major sales events with 400K+ DAU
+- **Scalability:** Built platform capable of handling 4x traffic spikes during major sales events with 400K+ DAU
 - **Cross-Functional Collaboration:** Effective collaboration between DevOps, Product, and Engineering teams
 - **Production Readiness:** Successfully deployed live platform serving 10M+ users
 - **Security Implementation:** Comprehensive security measures including zero-trust, WAF, geo-blocking, and DPDP compliance

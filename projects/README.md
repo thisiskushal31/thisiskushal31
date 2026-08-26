@@ -18,7 +18,7 @@ This directory holds **one README per project**. Each project has its own scale,
 #### [Purplle.com Management](./1_Purplle.com_Management/)
 ![Quick Info Image](../assets/projects/1_Purplle.com_Management.png)
 **Main E-Commerce Platform** - Core e-commerce infrastructure 
-- **Scale:** US$160M+ annual revenue, 10M+ users, 400K+ DAU (4× traffic spikes during major sales), 300+ application instances, 200+ self-managed database instances, 125+ Microservices Distributed Workload
+- **Scale:** US$160M+ annual revenue, 10M+ users, 400K+ DAU (4x traffic spikes during major sales), 300+ application instances, 200+ self-managed database instances, 125+ Microservices Distributed Workload
 - **Infrastructure:** 4TB MySQL database, multi-zone deployment, hybrid cloud
 - **Achievements:** US$120K+ cost savings, 99.9% availability, zero-lag MySQL migrations (gh-ost)
 - **Key Technologies:** Kubernetes, MySQL, Elasticsearch, MongoDB, Redis, Cloud Functions
@@ -54,7 +54,7 @@ This directory holds **one README per project**. Each project has its own scale,
 #### [Purplle.com Adtech Deployment](./5_Purplle.com_Adtech_Deployment/)
 ![Quick Info Image](../assets/projects/5_Purplle.com_Adtech_Deployment.png)
 **In-House AdTech Platform** - Brand management and advertising platform 
-- **Scale:** 10M+ users, 400K+ DAU (4× traffic spikes during major sales), US$90M+ brand advertising revenue
+- **Scale:** 10M+ users, 400K+ DAU (4x traffic spikes during major sales), US$90M+ brand advertising revenue
 - **Infrastructure:** 100+ production services, GKE, multi-cloud (AWS + GCP)
 - **Achievements:** 93% cost reduction (US$96K → US$7K), 4x traffic spike handling during major sales
 - **Key Technologies:** Kubernetes, Terraform, GitLab CI, Keycloak

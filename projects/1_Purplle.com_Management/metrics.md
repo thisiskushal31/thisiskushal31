@@ -5,7 +5,7 @@
 ### System Performance
 - **Uptime:** 99%+ maintained across all environments
 - **Average Response Time:** Optimized for e-commerce operations
-- **Peak Throughput:** Supports 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales
+- **Peak Throughput:** Supports 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales
 - **Error Rate:** Target <0.1% error rate
 - **Scalability:** Infrastructure handles traffic spikes during sales events and promotions
 - **Infrastructure Scale:** 300+ application instances supporting platform operations
@@ -13,7 +13,7 @@
 ### Infrastructure Metrics
 - **Infrastructure Deployment:** Fully deployed and operational across all environments
 - **Environment Coverage:** DEV, SIT, UAT, PROD (Production, Pre-Production, Sandbox)
-- **Production Status:** Live and actively serving 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales
+- **Production Status:** Live and actively serving 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales
 - **Resource Utilization:** Monitored via Prometheus/Grafana
 - **Network Performance:** ALB and GCLB (provisioned by GKE Ingress) handling high-volume traffic
 - **Kubernetes Cluster Health:** GKE clusters operational across environments
@@ -23,7 +23,7 @@
 - **Total Cost Savings:** US$120K+ achieved through infrastructure optimization and automation
 - **Cloud Cost Reduction:** 30% reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup
 - **Infrastructure Rightsizing:** 40-50% cost savings achieved through cloud infrastructure rightsizing and cleaning up unused resources
-- **Cost Efficiency:** High - supports 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales and 300+ application instances efficiently
+- **Cost Efficiency:** High - supports 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales and 300+ application instances efficiently
 - **Resource Optimization:** Automated resource cleanup and rightsizing
 - **Step Scaling:** Implemented step scaling for cost savings during night time
 
@@ -49,7 +49,7 @@
 ### User Metrics
 - **Total Users:** 10M+ users
 - **Daily Active Users:** 400K+ DAU
-- **Traffic Spikes (Major Sales):** 4× traffic spike handling with 400K+ DAU baseline
+- **Traffic Spikes (Major Sales):** 4x traffic spike handling with 400K+ DAU baseline
 - **Platform Availability:** 99.9%
 - **Platform Scale:** E-commerce infrastructure supporting beauty and personal care retail operations
 - **User Reach:** Global accessibility for e-commerce platform
@@ -71,7 +71,7 @@
 ### Key Performance Indicators (KPIs)
 - **Total Users:** 10M+ users
 - **Daily Active Users:** 400K+ DAU
-- **Traffic Spikes (Major Sales):** 4× traffic spike handling with 400K+ DAU baseline
+- **Traffic Spikes (Major Sales):** 4x traffic spike handling with 400K+ DAU baseline
 - **Platform Availability:** 99.9%
 - **Infrastructure Scale:** 300+ application instances
 - **Production Services:** 125+ services
@@ -86,7 +86,7 @@
 - **Total Cost Savings:** US$120K+ achieved through infrastructure optimization and automation
 - **Cloud Cost Reduction:** 30% reduction through rightsizing and optimization
 - **Infrastructure Cost:** GCP/GKE costs tracked and monitored
-- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling and step scaling, supporting 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales and 300+ application instances
+- **Cost Optimization:** Infrastructure efficiency through Kubernetes auto-scaling and step scaling, supporting 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales and 300+ application instances
 - **Step Scaling:** Implemented step scaling for cost savings during night time
 - **Cost Efficiency:** High-availability infrastructure supporting e-commerce operations efficiently
 - **Resource Cleanup:** Automated cleanup of unused resources contributing to cost savings
@@ -116,17 +116,17 @@
 ## User/Client Impact
 
 ### Platform Adoption
-- **Production Status:** Fully live and operational, actively serving 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales
+- **Production Status:** Fully live and operational, actively serving 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales
 - **Platform Usage:** Main e-commerce platform supporting beauty and personal care retail operations
 - **Total Users:** 10M+ users
 - **Daily Active Users:** 400K+ DAU
-- **Traffic Spikes (Major Sales):** 4× traffic spike handling with 400K+ DAU baseline
+- **Traffic Spikes (Major Sales):** 4x traffic spike handling with 400K+ DAU baseline
 - **Platform Availability:** 99.9%
 - **Infrastructure Scale:** 300+ application instances supporting platform operations
 
 ### Business Impact
 - **Annual Revenue:** US$160M+ annually
-- **User Scale:** Platform serves 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales
+- **User Scale:** Platform serves 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales
 - **E-Commerce Operations:** Enables seamless e-commerce operations (product catalog, checkout, payments)
 - **Operational Efficiency:** Automated infrastructure reduces operational overhead
 - **High Availability:** 99%+ uptime ensuring reliable e-commerce operations
@@ -155,7 +155,7 @@
 - **Cost Optimization:** US$120K+ cost savings (30% cloud cost reduction)
 - **Reliability:** 99%+ uptime maintained across all environments
 - **Performance:** Reduced MTTR from 30 to 7 minutes
-- **Scalability:** Infrastructure supports 10M+ users with 400K+ DAU and 4× traffic spike handling during major sales and 300+ application instances with 125+ Microservices Distributed Workload
+- **Scalability:** Infrastructure supports 10M+ users with 400K+ DAU and 4x traffic spike handling during major sales and 300+ application instances with 125+ Microservices Distributed Workload
 - **Horizontal Scaling:** Infrastructure scales horizontally without manual intervention using HPA, cluster autoscaling, and node pool autoscaling
 - **Event-Driven Architecture:** Kafka and Redis enable decoupled services and improved scalability
 - **Strategic Value:** Platform infrastructure supporting core e-commerce business operations

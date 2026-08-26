@@ -32,7 +32,7 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 ### Scale & Users
 - **Total Users:** 10M+ users
 - **Daily Active Users:** 400K+ DAU
-- **Traffic Spikes (Major Sales):** 4× traffic spike handling
+- **Traffic Spikes (Major Sales):** 4x traffic spike handling
 - **Platform Availability:** 99.9%
 - **Annual Clicks:** 133.3 million clicks/year (~365K clicks/day)
 
@@ -84,7 +84,7 @@ PurplleAds is an in-house brand management platform that enables brands to adver
 - ✅ **Live Production Platform** - Fully deployed in Production environment, actively serving 10M+ users through AdTech Platform
 - ✅ **100+ Production Services** - Managed 100+ high-availability production services on Google Kubernetes Engine (GKE), ensuring optimal performance, scalability, and reliability in production
 - ✅ **Cost Optimization** - 93% reduction in software costs (US$96K → US$7K infrastructure). Optimized resource utilization and cost-efficiency by rightsizing GCP/AWS instances and implementing autoscaling policies, achieving a 30% reduction in cloud spend through usage audits and resource cleanup
-- ✅ **Scalability** - Handles 4× traffic spikes during major sales events while sustaining 400K+ DAU
+- ✅ **Scalability** - Handles 4x traffic spikes during major sales events while sustaining 400K+ DAU
 - ✅ **Revenue Support** - Platform supports US$90M+ in brand advertising revenue
 - ✅ **House Brand Support** - Critical platform for 5 major house brands (US$82–96M revenue)
 - ✅ **CI/CD Modernization** - Accelerated infrastructure delivery speed by 40%+ by collaborating on CI/CD automation using Terraform, Jenkins, and GitOps, automating over 40% of provisioning tasks. Modernized CI/CD infrastructure by migrating from freestyle bash jobs to scripted pipeline jobs in Jenkins, integrated with Slack for real-time job failure alerts, improving monitoring and reducing incident response time

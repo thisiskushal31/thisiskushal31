@@ -14,7 +14,7 @@ What I do today: DevOps, platform engineering, cloud-native architecture, and pr
 
 | Area | Result |
 | :--- | :--- |
-| **Scale** | Production systems for a US$160M+ annual business, 10M+ users, 400K+ DAU, and 4× traffic spikes during major sales |
+| **Scale** | Production systems for a US$160M+ annual business, 10M+ users, 400K+ DAU, and 4x traffic spikes during major sales |
 | **Reliability** | 99.9% availability on mission-critical platforms; 76% MTTR reduction (30 min → 7 min) |
 | **Code delivery** | 40%+ faster code delivery through CI/CD, IaC, and GitOps |
 | **Savings** | US$120K+ cloud cost reduction (30% spend cut); 93% AdTech infrastructure cost reduction by replacing third-party with in-house |
@@ -46,7 +46,7 @@ Impact: US$160M+ business backbone · 10M+ users · 40%+ faster code delivery ·
 | # | Project | Business outcome |
 | :---: | :--- | :--- |
 | 11 | [Stealth Startup – Infrastructure & Compliance](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/11_StealthStartup_Infrastructure_Deployment/README.md) | Greenfield AI CI/CD SaaS · up to 80% faster CI · SOC 2 + ISO 27001 |
-| 1 | [Purplle – E-Commerce Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/1_Purplle.com_Management/README.md) | US$160M+ revenue · 10M+ users · 99.9% uptime · 4× spike handling · US$120K+ savings |
+| 1 | [Purplle – E-Commerce Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/1_Purplle.com_Management/README.md) | US$160M+ revenue · 10M+ users · 99.9% uptime · 4x spike handling · US$120K+ savings |
 | 2 | [Purplle – Agentic RAG Sentiment](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/2_Purplle.com_Agentic_RAG_Sentiment_Platform/README.md) | Faster brand decisions from influencer content · GPU + vector search at scale |
 | 3 | [Purplle – Data Science Infra](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/3_Purplle.com_Data_Science_Infrastructure/README.md) | Marketing/ML platform · 50–60% manual-task cost savings |
 | 4 | [Purplle – Data Engineering Infra](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/4_Purplle.com_Data_Engineering_Infrastructure/README.md) | 10M+ users' data to analytics · consumed by DS, Martech, SCM |
