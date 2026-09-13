@@ -84,14 +84,16 @@ Leave alone unless asked: `blog`, `portfolio-website`, `dochub`, `Archive`, `res
 
 “Finish” = notes you would **defend** on the chosen folders below — not every stub in that repo.
 
+**Identity first:** you are a **DevOps engineer first** — strengthen that home before network security. Languages / OS are already written; the delivery spine is still scaffold.
+
 | Priority | Skill you named | Home (write here) | Finish these first |
 |----------|-----------------|-------------------|--------------------|
-| 1 | **Network security** | [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) `Security/` | TLS, threat-on-the-wire, common attacks/defenses in that folder. Tooling `Security/` = install/lab only when you need a scanner. |
-| 2 | **System design** | [System-Design-Concepts](../../Deep-Dives/System-Design-Concepts/) | `Fundamentals/` (thin → defendable) + the cases you will actually interview/design with. `Security-Tradeoffs/` when it touches the design. |
-| 3 | **DevOps** | [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Delivery spine you use: `CiCd/`, `IAC/`, `Observability/`, `Security/` (pipeline gates). Do not start a new Languages course. |
+| 1 | **DevOps** | [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Delivery spine **concepts** (not every tool folder): `Methodologies/0` → `CiCd/1–7` → `Security/1–5` (esp. gate chain) → `IAC/1–3` → `Observability/1–3`. Do not start a new Languages course. Vendor tool READMEs (Jenkins, Prometheus, nginx, …) after concepts. |
+| 2 | **Network security** | [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) `Security/` | After DevOps spine: TLS, threat-on-the-wire, common attacks/defenses. Tooling `Security/` = install/lab only when you need a scanner. |
+| 3 | **System design** | [System-Design-Concepts](../../Deep-Dives/System-Design-Concepts/) | After DevOps + Networks: `Fundamentals/` (short → defendable) + the cases you will actually interview/design with. `Security-Tradeoffs/` when it touches the design. |
 | 4 | **Database** | [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | `Concepts/` + the engines you operate (e.g. PostgreSQL, Redis). Other engines stay stub until after the deadline. |
 
-Containers stay **support** for DevOps/SD (already largely written). Do not open Containerization gap stubs unless a deadline topic needs one pointer.
+Containers stay **support** for DevOps (already largely written). Do not open Containerization gap stubs unless a deadline topic needs one pointer.
 
 ### Side lane (AI — do not steal deadline days)
 
@@ -111,7 +113,8 @@ Do **not** abandon these; they stay in this file. Just not the Sept sprint.
 | [Data-Engineering-Deep-Dive](../../Deep-Dives/Data-Engineering-Deep-Dive/) | After deadline, or the week you build a real pipeline |
 | Rest of DS-AI | After Foundations / retrieval side-lane |
 | [Tooling-and-Frameworks-Deep-Dive](../../Deep-Dives/Tooling-and-Frameworks-Deep-Dive/) | **Whenever a new tool/framework appears** → add folder under the job domain, fill what/when + hello-world |
-| [Security-Deep-Dive](../../Deep-Dives/Security-Deep-Dive/) | Full **program** prose last (AppSec, GRC, SOC). Network *wire* security for Sept is Networks, not this tree. |
+| [Security-Deep-Dive](../../Deep-Dives/Security-Deep-Dive/) | Full **program** prose last (AppSec, GRC, SOC). Network *wire* security after DevOps is Networks, not this tree. |
+| [System-Design-Concepts](../../Deep-Dives/System-Design-Concepts/) | After DevOps + Networks in the Sept table (priority 3) |
 | Containerization remaining stubs | Local-Dev / Serverless / GitOps when you need them |
 | DSA / Cheatsheets | Reference; tick when you practice |
 
@@ -124,7 +127,7 @@ Do **not** abandon these; they stay in this file. Just not the Sept sprint.
 
 ### Session rule for agents (until 30 Sep 2026)
 
-Default write target = one of the four deadline homes above. If the user asks for DE / full Security program / random Tooling without tying it to the deadline, **ask** whether to spend a Sept day on it or park it post-deadline.
+Default write target = **DevOps-Handbook delivery spine** (priority 1). Next = **Networks `Security/`** (priority 2). Do not jump to System Design, Databases, DE, full Security program, or random Tooling unless the user asks — and if they ask without tying it to this order, **ask** whether to spend a Sept day on it or park it post-deadline.
 
 ---
 
@@ -272,7 +275,7 @@ Product / GTM / sales are not software-engineering notes. They stay out of DocHu
 
 ## Suggested order to *fill notes* (not a career ladder)
 
-**Until 30 September 2026:** follow [Current focus — deadline 30 September 2026](#current-focus--deadline-30-september-2026) in Part A (network security → system design → DevOps → database; AI side-lane; DE / full Security program / new Tooling after or when needed).
+**Until 30 September 2026:** follow [Current focus — deadline 30 September 2026](#current-focus--deadline-30-september-2026) in Part A (**DevOps delivery spine → Networks Security → system design → database**; AI side-lane; DE / full Security program / new Tooling after or when needed).
 
 **After that deadline** (long-term house order):
 
@@ -607,10 +610,11 @@ gaps:
 
 # ─── SUGGESTED FOCUS ORDER (aligns with Section 6 phases) ─────────
 next_12_months:
-  - "Keep DevOps at strong → expert (Stealth Startup, handbook gaps, CNCF)"
+  - "DevOps first — fill handbook delivery spine (CiCd / Security gates / IAC / Observability); strong → expert"
+  - "Then Networks Security/ — wire security you can defend"
   - "Application code: one shipped full-stack project (backend + frontend + auth + deploy)"
   - "Architecture: 2 written system designs with failure modes + security angle"
-  - "Security: Phase 1 parallel only (OWASP, threat modeling); deep dive Phase 4"
+  - "Security program (Security-Deep-Dive): Phase 4 last; Phase 1 parallel only if needed"
   - "Entrepreneur: pick ONE wedge + 10 customer conversations before more repos"
 
 # ─── REPO MAP (where gaps get closed) ─────────────────────────────
@@ -959,9 +963,9 @@ These already have substantial content. Ongoing work = fill gaps, not greenfield
 
 | Priority | Action | Repo |
 |----------|--------|------|
-| 1 | Finish **network security** notes you would defend | Networks `Security/` (+ Tooling scanner install only if needed) |
-| 2 | Make **System Design** Fundamentals defendable + chosen cases | `System-Design-Concepts` |
-| 3 | Close **DevOps** delivery gaps you use (CiCd / IAC / Observability / Security gates) | `DevOps-Handbook` |
+| 1 | Fill **DevOps** delivery spine concepts (CiCd → Security gates → IAC → Observability); strengthen existing DevOps identity | `DevOps-Handbook` |
+| 2 | Finish **network security** notes you would defend | Networks `Security/` (+ Tooling scanner install only if needed) |
+| 3 | Make **System Design** Fundamentals defendable + chosen cases | `System-Design-Concepts` |
 | 4 | Close **Database** Concepts + engines you operate | `Databases-Deep-Dive` |
 | 5 | Side lane only: AI Foundations / retrieval | `Data-Science-AI-Deep-Dive` |
 | 6 | Park until after 30 Sep (unless a real job forces it) | DE full tree, Security-Deep-Dive program, Tooling framework backlog, Containerization gap stubs |
@@ -1062,12 +1066,17 @@ These already have substantial content. Ongoing work = fill gaps, not greenfield
 
 ### 13.4 Recommended order after this audit
 
-1. **System Design** — work Part E industry coverage matrix: short Fundamentals/Observability notes → primer-gaps → cases  
-2. **Databases** — pgvector, GCS/S3 per Part E engines list  
-3. **DevOps** — finish Lane A stubs before expanding Languages  
-4. **Empty shells** — DE → DS-AI → Tooling (Phase 3); Security last (Phase 4)  
-5. **DSA** — fill Part E problems list categories; implement system-design-bridge problems  
-6. **Quarterly** — re-run Section 13 against new industry checklists (AI tier evolves fast)
+**Until 30 Sep 2026:** Part A Current focus wins — **DevOps delivery spine → Networks Security**, then System Design / Databases.
+
+After the deadline (or if Part A is cleared early):
+
+1. **DevOps** — finish remaining Lane A / completeness-plan stubs (tool folders after concepts)  
+2. **Networks** — maintain Security/; deepen Advanced/Labs if needed  
+3. **System Design** — Part E industry coverage matrix: short Fundamentals/Observability notes → primer-gaps → cases  
+4. **Databases** — pgvector, GCS/S3 per Part E engines list  
+5. **Empty shells** — DE → DS-AI → Tooling (Phase 3); Security-Deep-Dive last (Phase 4)  
+6. **DSA** — fill Part E problems list categories; implement system-design-bridge problems  
+7. **Quarterly** — re-run Section 13 against new industry checklists (AI tier evolves fast)
 
 ### 13.5 Where the plan lives
 
@@ -1124,20 +1133,22 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 
 ## Lane A (recommended)
 
+**Sept sprint (priority 1):** concept files first — strengthen DevOps identity. Then Networks (Part A priority 2).
+
 | Step | Location | Action |
 |------|----------|--------|
 | 1 | [Methodologies/0_SE_Learning_DevOps_Start_Here.md](./Methodologies/0_SE_Learning_DevOps_Start_Here.md) | SE on-ramp + links to sister repos |
-| 2 | [Methodologies/](./Methodologies/README.md) topics 1–8 | Culture → branching → SRE/on-call → DORA → ChatOps → docs → FinOps |
-| 3 | [CiCd/1–7](./CiCd/README.md) | Full delivery loop + artifacts + supply chain + verify |
-| 4 | [Security/](./Security/README.md) concepts + gate chain + tool folders | DevSecOps scanners and secrets |
-| 5 | [Servers/](./Servers/README.md) | Web servers + host deploy |
-| 6 | [Cloud/](./Cloud/README.md) | AWS/GCP/Azure literacy (not cert dumps) |
+| 2 | [CiCd/1–7](./CiCd/README.md) | Full delivery loop: pipelines → tools map → strategies → artifacts → verify → supply chain → DB migrations |
+| 3 | [Security/1–5](./Security/README.md) | Secrets, compliance grain, tools map, **gate chain**, OIDC/CI least privilege |
+| 4 | [IAC/1–3](./IAC/README.md) | Patterns, state/modules/backends, multi-cloud practices |
+| 5 | [Observability/1–3](./Observability/README.md) | Metrics, logs/traces, tools map |
+| 6 | [Methodologies/](./Methodologies/README.md) topics 1–8 | Culture → branching → SRE/on-call → DORA → ChatOps → docs → FinOps (as needed) |
 | 7 | [README](./README.md) sister-repos table | Keep pointers current — no `Entry-Points/` folder |
-| 8 | [Cloud-Native/4_CNCF_Everyday_Tools.md](./Cloud-Native/4_CNCF_Everyday_Tools.md) + tool stubs | cert-manager, ExternalDNS, Backstage |
-| 9 | [IAC/](./IAC/README.md) OpenTofu + Packer stubs | Terraform-adjacent tooling |
-| 10 | [Observability/Loki/](./Observability/Loki/README.md) + on-call refs | Logs + link Methodologies on-call |
+| 8 | [Servers/](./Servers/README.md) / [Cloud/](./Cloud/README.md) | Web servers + cloud literacy when delivery notes need them |
+| 9 | [Cloud-Native/4_CNCF_Everyday_Tools.md](./Cloud-Native/4_CNCF_Everyday_Tools.md) + tool stubs | cert-manager, ExternalDNS, Backstage |
+| 10 | Vendor / tool folders under CiCd, Security, IAC, Observability | After concepts exist — one folder at a time when you use the tool |
 
-**Defer:** `Languages/` (mature), deep per-tool prose in every CiCd vendor folder until concepts exist.
+**Defer:** `Languages/` (mature), deep per-tool prose in every CiCd vendor folder until concepts exist. **After Lane A concepts:** Part A → Networks `Security/`.
 
 ---
 
