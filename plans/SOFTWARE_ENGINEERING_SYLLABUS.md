@@ -27,7 +27,7 @@ Site config (the same 11 names): `dochub/src/config/repositories.ts`. `dochub/` 
 5. **Do not rewrite** blog, portfolio, Archive unless asked.
 6. **Do not commit** unless asked.
 7. **Title folders and files; keep real command names.** Job folders and topic files use Title Case (`Local-Dev/`, `1_LRU_Cache.md`). Do not leave all-lowercase kebab dumps unless the name **is** the command (`psql`, `mysql`, `mongosh`, `ping`, `curl`, `kubectl`, `k9s`, `bq`). Product courses (Docker, Kubernetes, GKE) still get Title Case. Keep `complx` as `complx` when that is the chosen spelling.
-8. **Do not put planning files back on a Deep-Dive repo root.** Write-order, planned lists, stub status, TIMELESS/THIN/TOPICS trackers stay in **this file**. Folder-level `README.md` files stay (they introduce that folder’s notes).
+8. **Do not put planning files back on a Deep-Dive repo root.** Write-order, planned lists, stub status, and goals live **only in this syllabus**. Do not recreate root trackers (`TIMELESS.md`, `THIN_TOPICS.md`, `TOPICS_TO_COVER.md`, `PLAN_*.md`, `CONTENT_WRITE_ORDER.md`, `0_Start_Here.md`, `PLANNED_*.md`, `COVERAGE_MATRIX.md`). Folder-level `README.md` files stay (they introduce that folder’s notes).
 
 If two folders start answering the same *what/why*, convert the extra one to a one-line pointer on that repo’s README. Do not add an `Entry-Points/` folder.
 
@@ -179,8 +179,8 @@ DevOps Handbook already points here: [Where to go deeper](../../Deep-Dives/DevOp
 | **Frontend engineer** | [Tooling → Web-Frontend](../../Deep-Dives/Tooling-and-Frameworks-Deep-Dive/Web-Frontend/README.md) | DevOps CiCd (how the app ships) | Kernel, Spark |
 | **Platform / DevOps / SRE** | DevOps Handbook (home) | Containerization, Networks, Observability | App framework internals: survey in Tooling |
 | **Architect** | [System Design](../../Deep-Dives/System-Design-Concepts/README.md) | Databases (selection) + Networks (when the wire matters) | One engine deep only as needed |
-| **Data engineer** | [DE TIMELESS](../../Deep-Dives/Data-Engineering-Deep-Dive/README.md) | [Systems/Spark or Kafka](../../Deep-Dives/Data-Engineering-Deep-Dive/Systems/README.md) after the *job* (transform / movement) | Training models → DS-AI |
-| **ML / AI engineer** | [DS-AI TIMELESS](../../Deep-Dives/Data-Science-AI-Deep-Dive/README.md) | Retrieval + eval; DE if you need a feature table | Pretraining from scratch (survey unless that becomes a goal) |
+| **Data engineer** | [Data Engineering](../../Deep-Dives/Data-Engineering-Deep-Dive/README.md) | [Systems/Spark or Kafka](../../Deep-Dives/Data-Engineering-Deep-Dive/Systems/README.md) after the *job* (transform / movement) | Training models → DS-AI |
+| **ML / AI engineer** | [Data Science & AI](../../Deep-Dives/Data-Science-AI-Deep-Dive/README.md) | Retrieval + eval; DE if you need a feature table | Pretraining from scratch (survey unless that becomes a goal) |
 | **Security-curious** | Networks `Security/` + DevOps `Security/` (survey) | System Design `Security-Tradeoffs/` | [Security-Deep-Dive](../../Deep-Dives/Security-Deep-Dive/README.md) when the other rooms have substance |
 | **Interview / DSA** | [DSA](../../Deep-Dives/Datastructures-and-Algorithms/README.md) | System Design cases | Not a substitute for building |
 | **“I just want to know it exists”** | This atlas + the repo README | Stop | Adding a stub folder when you touch it is enough |
@@ -294,7 +294,7 @@ Named tools will always be incomplete (add a folder when you touch them). The te
 
 | Job | Door | Honest status |
 |-----|------|----------------|
-| Deliver / CI/CD / IaC / OS / SRE | DevOps-Handbook | Deep; artifacts, flags, supply chain still in `PLAN_DevOps_Concepts_Beyond_Languages.md` |
+| Deliver / CI/CD / IaC / OS / SRE | DevOps-Handbook | Deep; artifacts, flags, supply chain still listed in Part E DevOps completeness plan |
 | Containers / K8s | Containerization | Deep core; containerd, GitOps, Serverless-Containers TBD |
 | Networks | Networks-Deep-Dive | Deep; mesh/labs thin |
 | Data at rest (10 types) | Databases | Types mapped; most engines stubs |
@@ -359,7 +359,7 @@ Counts below are file-level (September 2026). A file with `*(Content TBD)*` or �
 ## How to use
 
 1. Find the home.  
-2. Open that repo’s tracker (column 3). Tick when a file has no TBD.  
+2. Open that home’s Part E section. Tick when a file has no TBD.  
 3. New named CLI/library → Tooling under a *job* domain. New *engine* → that home (`Systems/`, `Relational/`). **Never a `Tools/` folder.**  
 4. New *kind of work* that does not fit → ask before adding a 12th repo.
 
@@ -367,19 +367,19 @@ Counts below are file-level (September 2026). A file with `*(Content TBD)*` or �
 
 ## The 11 homes
 
-| Home | Tracker | Places (honest) | Stub-ish files |
-|------|---------|-----------------|----------------|
-| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | [1.md — Part E](../../Deep-Dives/DevOps-Handbook/1.md — Part E) · [PLAN_…](../../Deep-Dives/DevOps-Handbook/1.md — Part E) | Languages + OS written. Delivery spine (CiCd, IAC, Security, Observability, Methodologies) is scaffold. | ~98 |
-| [Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | [1.md — Part E](../../Deep-Dives/Containerization-Deep-Dive/1.md — Part E) | Docker, Podman, K8s, OpenShift, Swarm, GKE/EKS/AKS written. Later sections stub. | ~29 |
-| [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) | [1.md — Part E](../../Deep-Dives/Networks-Deep-Dive/1.md — Part E) · [1.md — Part E](../../Deep-Dives/Networks-Deep-Dive/1.md — Part E) | Core layers written. Mesh / extra labs stub. | ~17 |
-| [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | [1.md — Part E](../../Deep-Dives/Databases-Deep-Dive/1.md — Part E) | Six engines written. Other engines stub. **Qdrant added.** | ~113 (was 108) |
-| [System-Design-Concepts](../../Deep-Dives/System-Design-Concepts/) | [1.md — Part E](../../Deep-Dives/System-Design-Concepts/1.md — Part E) · [1.md — Part E](../../Deep-Dives/System-Design-Concepts/1.md — Part E) | Fundamentals exist (many thin). primer-gaps and later cases stub. | ~38 |
-| [Datastructures-and-Algorithms](../../Deep-Dives/Datastructures-and-Algorithms/) | [1.md — Part E](../../Deep-Dives/Datastructures-and-Algorithms/1.md — Part E) | Theory + Leetcode written. SystemDesignBridge stub. | ~9 |
-| [Commands-and-Cheatsheets](../../Deep-Dives/Commands-and-Cheatsheets/) | [1.md — Part E](../../Deep-Dives/Commands-and-Cheatsheets/1.md — Part E) | Reference. Do not turn into a course. | 0 |
-| [Data-Engineering-Deep-Dive](../../Deep-Dives/Data-Engineering-Deep-Dive/) | [1.md — Part E](../../Deep-Dives/Data-Engineering-Deep-Dive/1.md — Part E) | Map complete (layers + Systems + Use-Cases). Almost all stub. | ~140 |
-| [Data-Science-AI-Deep-Dive](../../Deep-Dives/Data-Science-AI-Deep-Dive/) | [1.md — Part E](../../Deep-Dives/Data-Science-AI-Deep-Dive/1.md — Part E) | Layers named. Topic files stub. | ~42 |
-| [Tooling-and-Frameworks-Deep-Dive](../../Deep-Dives/Tooling-and-Frameworks-Deep-Dive/) | [1.md — Part E](../../Deep-Dives/Tooling-and-Frameworks-Deep-Dive/1.md — Part E) | Application door. **Express added.** FastAPI/Spring/React still stub. | ~47 (was 42) |
-| [Security-Deep-Dive](../../Deep-Dives/Security-Deep-Dive/) | [1.md — Part E](../../Deep-Dives/Security-Deep-Dive/1.md — Part E) | Program tree. Named software → Tooling `Security/`. Prose last. | whole tree |
+| Home | Plan | Places (honest) | Stub-ish files |
+|------|------|-----------------|----------------|
+| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine (CiCd, IAC, Security, Observability, Methodologies) is scaffold. | ~98 |
+| [Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | Part E | Docker, Podman, K8s, OpenShift, Swarm, GKE/EKS/AKS written. Later sections stub. | ~29 |
+| [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) | Part E | Core layers written. Mesh / extra labs stub. | ~17 |
+| [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | Part E | Six engines written. Other engines stub. **Qdrant added.** | ~113 (was 108) |
+| [System-Design-Concepts](../../Deep-Dives/System-Design-Concepts/) | Part E | Fundamentals exist (many thin). primer-gaps and later cases stub. | ~38 |
+| [Datastructures-and-Algorithms](../../Deep-Dives/Datastructures-and-Algorithms/) | Part E | Theory + Leetcode written. SystemDesignBridge stub. | ~9 |
+| [Commands-and-Cheatsheets](../../Deep-Dives/Commands-and-Cheatsheets/) | Part E | Reference. Do not turn into a course. | 0 |
+| [Data-Engineering-Deep-Dive](../../Deep-Dives/Data-Engineering-Deep-Dive/) | Part E | Map complete (layers + Systems + Use-Cases). Almost all stub. | ~140 |
+| [Data-Science-AI-Deep-Dive](../../Deep-Dives/Data-Science-AI-Deep-Dive/) | Part E | Layers named. Topic files stub. | ~42 |
+| [Tooling-and-Frameworks-Deep-Dive](../../Deep-Dives/Tooling-and-Frameworks-Deep-Dive/) | Part E | Application door. **Express added.** FastAPI/Spring/React still stub. | ~47 (was 42) |
+| [Security-Deep-Dive](../../Deep-Dives/Security-Deep-Dive/) | Part E | Program tree. Named software → Tooling `Security/`. Prose last. | whole tree |
 
 DevOps named delivery products live under CiCd/IAC/Observability. Named CLIs/libraries → Tooling job domains. **No `Tools/` folder in any home.** README is the intro — no `From-Zero/` folder.
 
@@ -664,7 +664,7 @@ DocHub UI                    ← FileTree + DocumentView
 | `dsa` | Data Structures & Algorithms | `Datastructures-and-Algorithms` | `Datastructures-and-Algorithms/` | ~70 | **Solid** — notes & solutions |
 | `Databases` | Databases Deep Dive | `Databases-Deep-Dive` | `Databases-Deep-Dive/` | ~101 | **Solid** — engines, models, object storage |
 | `networks` | Networks Deep Dive | `Networks-Deep-Dive` | `Networks-Deep-Dive/` | ~65 | **Solid** — L1–L7 + cloud-native + network security |
-| `system-design` | System Design Concepts | `System-Design-Concepts` | `System-Design-Concepts/` | ~170+ | **Solid breadth** — [COVERAGE_MATRIX.md](../../Deep-Dives/System-Design-Concepts/COVERAGE_MATRIX.md) tracks industry gaps |
+| `system-design` | System Design Concepts | `System-Design-Concepts` | `System-Design-Concepts/` | ~170+ | **Solid breadth** — Part E industry coverage matrix tracks industry gaps |
 | `container` | Containerization Deep Dive | `Containerization-Deep-Dive` | `Containerization-Deep-Dive/` | ~64 | **Solid** — Docker, K8s, managed platforms |
 | `cheatsheets` | Commands and Cheatsheets | `Commands-and-Cheatsheets` | `Commands-and-Cheatsheets/` | ~85 | **Solid** — quick reference |
 | `data-engineering` | Data Engineering Deep Dive | `Data-Engineering-Deep-Dive` | `Data-Engineering-Deep-Dive/` | 1 | **Shell** — README only |
@@ -918,12 +918,12 @@ These already have substantial content. Ongoing work = fill gaps, not greenfield
 
 | Repo | Already strong | Planned additions |
 |------|----------------|-------------------|
-| **DevOps Handbook** | Full section tree, 1k+ topics | CNCF landscape, web tier/servers, artifact registries — per `PLAN_DevOps_Concepts_Beyond_Languages.md` |
+| **DevOps Handbook** | Full section tree, 1k+ topics | CNCF landscape, web tier/servers, artifact registries — per Part E DevOps completeness plan |
 | **Networks** | Full section map | Finish TBD placeholders; expand labs |
 | **Databases** | Engine-per-folder depth | More managed-service parity; link DE/DS-AI vector topics |
-| **System Design** | Case studies & components | **COVERAGE_MATRIX.md** + primer-gaps (12 topics); failure-modes; cases 1–17; deepen Observability/security |
+| **System Design** | Case studies & components | Industry coverage matrix (Part E) + primer-gaps (12 topics); failure-modes; cases 1–17; deepen Observability/security |
 | **Containerization** | Runtimes + K8s | Security hardening cross-link to Security-Deep-Dive |
-| **DSA** | Theory (Algorithms + DataStructures + Foundation) | [PLANNED_PROBLEMS.md](../../Deep-Dives/Datastructures-and-Algorithms/PLANNED_PROBLEMS.md), [system-design-bridge/](../../Deep-Dives/Datastructures-and-Algorithms/system-design-bridge/README.md) — empty LeetCode categories |
+| **DSA** | Theory (Algorithms + DataStructures + Foundation) | Part E problems list + [system-design-bridge/](../../Deep-Dives/Datastructures-and-Algorithms/system-design-bridge/README.md) — empty LeetCode categories |
 | **Cheatsheets** | Broad command ref | New tools as you adopt them in other repos |
 
 ---
@@ -986,7 +986,7 @@ These already have substantial content. Ongoing work = fill gaps, not greenfield
 
 ## 13. Full ecosystem coverage audit (August 2026)
 
-**Purpose:** One chart so you never wonder “am I missing a domain?” Benchmarked against 2025–2026 industry roadmaps (system design interview rubrics, full-stack+DevOps paths, data engineering roadmaps, cybersecurity curricula). **Detailed System Design map:** [System-Design-Concepts/COVERAGE_MATRIX.md](../../Deep-Dives/System-Design-Concepts/COVERAGE_MATRIX.md).
+**Purpose:** One chart so you never wonder “am I missing a domain?” Benchmarked against 2025–2026 industry roadmaps (system design interview rubrics, full-stack+DevOps paths, data engineering roadmaps, cybersecurity curricula). **Detailed System Design map:** Part E industry coverage matrix.
 
 **Legend:** ✅ solid · ⚠️ partial/stubs · ❌ empty · 🔗 owned by sister repo (intentional)
 
@@ -999,14 +999,14 @@ These already have substantial content. Ongoing work = fill gaps, not greenfield
 | 3 | Databases-Deep-Dive | ~214 | ✅ full | ⚠️ 6/30+ engines | ⚠️ Engine depth partial; data-platform stubs |
 | 4 | Networks-Deep-Dive | ~87 | ✅ full | ✅ solid | ✅ L1–L7 + security; labs/service-mesh stubs |
 | 5 | System-Design-Concepts | ~170+ | ✅ full | ⚠️ breadth yes, depth gaps | ⚠️ See **13.2** — skeleton complete after primer-gaps |
-| 6 | Datastructures-and-Algorithms | ~90+ | ✅ | ✅ | ✅ | PLANNED_PROBLEMS + system-design-bridge |
+| 6 | Datastructures-and-Algorithms | ~90+ | ✅ | ✅ | ✅ | Problems to fill (Part E) + system-design-bridge |
 | 7 | Commands-and-Cheatsheets | ~86 | ❌ none | ✅ useful | ⚠️ Dated/GCP-heavy; no K8s depth |
 | 8 | Data-Engineering-Deep-Dive | 1 | ❌ | ❌ empty | ❌ vs DE roadmap (Airflow, dbt, Spark, lakehouse) |
 | 9 | Data-Science-AI-Deep-Dive | 1 | ❌ | ❌ empty | ❌ vs ML/MLOps/LLM roadmaps |
 | 10 | Tooling-and-Frameworks-Deep-Dive | 1 | ❌ | ❌ empty | ❌ vs full-stack framework catalogs |
 | 11 | Security-Deep-Dive | 1 | ❌ | ❌ empty | ❌ vs OWASP/MITRE/SOC curricula (capstone — last) |
 
-**Scaffolded repos (CONTENT_WRITE_ORDER + 0_Start_Here + Entry-Points):** DevOps (partial), Containerization, Databases, Networks, System Design — **5/11 with full nav**; **all 11 now have CONTENT_WRITE_ORDER**; **9/11 have 0_Start_Here** (DevOps uses Methodologies path; Cheatsheets reference-only).
+**Scaffolded repos (write order + start-here content live in Part E; Entry-Points on repos):** DevOps (partial), Containerization, Databases, Networks, System Design — **5/11 with full nav**; **all 11 have write order in Part E**; **most have Start here in Part E** (DevOps uses Methodologies path; Cheatsheets reference-only).
 
 ### 13.2 System Design — industry checklist verdict
 
@@ -1023,7 +1023,7 @@ These already have substantial content. Ongoing work = fill gaps, not greenfield
 | Multi-region, multi-tenancy, batch/stream | Primer-Gaps/8–10 |
 | Failure modes (stampede, split brain, cascade) | [Failure-Modes/](../../Deep-Dives/System-Design-Concepts/Failure-Modes/README.md) |
 | Security trade-offs at design time | [Security-Tradeoffs/](../../Deep-Dives/System-Design-Concepts/Security-Tradeoffs/README.md) |
-| Missing interview cases (notifications, email, tickets, crawler, etc.) | [Cases/12–17](../../Deep-Dives/System-Design-Concepts/PLANNED_CASES.md) |
+| Missing interview cases (notifications, email, tickets, crawler, etc.) | [Cases/12–17](../../Deep-Dives/System-Design-Concepts/README.md) |
 
 **Still to WRITE (not missing from map — on your fill list):**
 
@@ -1051,8 +1051,8 @@ These already have substantial content. Ongoing work = fill gaps, not greenfield
 | **Containers / K8s** | Containerization + DevOps Cloud-Native | ✅ | containerd, GitOps packaging stubs |
 | **Networking** | Networks-Deep-Dive | ✅ | labs-expanded, service-mesh stubs |
 | **Databases** | Databases-Deep-Dive + SD `Databases/` | ⚠️ | 24+ engine stubs; pgvector v1 priority |
-| **System design / architecture** | System-Design-Concepts | ⚠️ | COVERAGE_MATRIX fill list |
-| **DSA** | Datastructures-and-Algorithms | ⚠️ theory ✅; ~18 problems | PLANNED_PROBLEMS + system-design-bridge scaffolded |
+| **System design / architecture** | System-Design-Concepts | ⚠️ | coverage matrix fill list (Part E) |
+| **DSA** | Datastructures-and-Algorithms | ⚠️ theory ✅; ~18 problems | Problems to fill (Part E) + system-design-bridge scaffolded |
 | **Data engineering** | Data-Engineering-Deep-Dive | ❌ | Entire Section 7 Phase 3 tree |
 | **Data science / AI / RAG** | Data-Science-AI-Deep-Dive | ❌ | Entire Section 7 Phase 3 tree |
 | **Tooling / full-stack frameworks** | Tooling-and-Frameworks-Deep-Dive | ❌ | Entire Section 7 catalog |
@@ -1062,25 +1062,16 @@ These already have substantial content. Ongoing work = fill gaps, not greenfield
 
 ### 13.4 Recommended order after this audit
 
-1. **System Design** — work [COVERAGE_MATRIX.md](../../Deep-Dives/System-Design-Concepts/COVERAGE_MATRIX.md): thin topics → primer-gaps → cases  
-2. **Databases** — pgvector, GCS/S3 per [PLANNED_ENGINES.md](../../Deep-Dives/Databases-Deep-Dive/PLANNED_ENGINES.md)  
+1. **System Design** — work Part E industry coverage matrix: short Fundamentals/Observability notes → primer-gaps → cases  
+2. **Databases** — pgvector, GCS/S3 per Part E engines list  
 3. **DevOps** — finish Lane A stubs before expanding Languages  
 4. **Empty shells** — DE → DS-AI → Tooling (Phase 3); Security last (Phase 4)  
-5. **DSA** — fill [PLANNED_PROBLEMS.md](../../Deep-Dives/Datastructures-and-Algorithms/PLANNED_PROBLEMS.md) categories; implement system-design-bridge problems  
+5. **DSA** — fill Part E problems list categories; implement system-design-bridge problems  
 6. **Quarterly** — re-run Section 13 against new industry checklists (AI tier evolves fast)
 
-### 13.5 Navigation files per repo (track completeness)
+### 13.5 Where the plan lives
 
-| Repo | CONTENT_WRITE_ORDER | 0_Start_Here | Entry-Points | Gap tracker |
-|------|---------------------|--------------|--------------|-------------|
-| DevOps-Handbook | ✅ | ⚠️ alt path | ✅ | Lane A in CWO |
-| Containerization | ✅ | ✅ | ✅ | CWO |
-| Databases | ✅ | ✅ | ✅ | PLANNED_ENGINES |
-| Networks | ✅ | ✅ | ✅ | THIN_TOPICS |
-| System Design | ✅ | ✅ | ✅ | COVERAGE_MATRIX + THIN_TOPICS + PLANNED_CASES |
-| DE / DS-AI / Tooling / Security | ✅ | ✅ | ❌ | Section 7 + CWO |
-| DSA | ✅ | ✅ | ✅ | PLANNED_PROBLEMS |
-| Cheatsheets | ✅ | ❌ | ❌ | CWO maintain-only |
+All write-order, start-here copy, engines/cases/problems lists, and coverage matrices live in **Part E of this syllabus**. Deep-Dive repos keep public `README.md` + topic notes only — do not look for planning files on repo roots.
 
 ---
 
@@ -1098,11 +1089,11 @@ Moved out of Deep-Dive repo roots so GitHub/DocHub only show the public README +
 
 Public intro: [Deep-Dives/DevOps-Handbook/README.md](../../Deep-Dives/DevOps-Handbook/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — DevOps Handbook
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md)
+[← README](./README.md) · Write order
 
 **Why a security engineer opens this:** you cannot secure a pipeline, an image, or a secret you do not understand. Delivery is part of the security job.
 
@@ -1120,7 +1111,7 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 
 *(Content TBD — stub created September 2026)*
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # DevOps Handbook — content write order
 
@@ -1150,7 +1141,7 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 
 ---
 
-## From `PLAN_DevOps_Concepts_Beyond_Languages.md` (still in force)
+## From completeness plan (still in force)
 
 These were already promised in the completeness plan. They stay on this write-order so they are not forgotten. Tick in the PLAN file when the *entry or folder* exists and is filled.
 
@@ -1204,11 +1195,11 @@ These were already promised in the completeness plan. They stay on this write-or
 
 ## Completeness contract
 
-Full gap matrix: [PLAN_DevOps_Concepts_Beyond_Languages.md](./PLAN_DevOps_Concepts_Beyond_Languages.md)
+Full gap matrix: DevOps completeness plan below
 
 Mark a stub **done** when: standalone prose, image or diagram if useful, copy-paste example, sister-repo link if depth lives elsewhere, pitfalls/trade-offs section.
 
-### PLAN_DevOps_Concepts_Beyond_Languages.md
+### DevOps completeness plan
 
 # Plan: DevOps concepts beyond Languages
 
@@ -1593,11 +1584,11 @@ Write these in [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskusha
 
 Public intro: [Deep-Dives/Containerization-Deep-Dive/README.md](../../Deep-Dives/Containerization-Deep-Dive/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — Containerization Deep Dive
 
-[← Back to README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md)
+[← Back to README](./README.md) · Write order
 
 *(Content TBD — stub created August 2026)*
 
@@ -1618,7 +1609,7 @@ Public intro: [Deep-Dives/Containerization-Deep-Dive/README.md](../../Deep-Dives
 
 ## You already have content here
 
-Most of `Containerization-Basic/`, `Runtimes/`, `Orchestration/Kubernetes`, and `Managed-Services/` are **written**. Start gaps from [CONTENT_WRITE_ORDER.md](./CONTENT_WRITE_ORDER.md) step 3 onward unless you are a beginner — then follow root learning path.
+Most of `Containerization-Basic/`, `Runtimes/`, `Orchestration/Kubernetes`, and `Managed-Services/` are **written**. Start gaps from Write order step 3 onward unless you are a beginner — then follow root learning path.
 
 ## Checklist before marking done
 
@@ -1626,12 +1617,12 @@ Most of `Containerization-Basic/`, `Runtimes/`, `Orchestration/Kubernetes`, and 
 - [ ] Sister-repo pointers on README
 - [ ] One diagram: VM → container → orchestrator → managed K8s
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # Containerization Deep Dive — content write order
 
 **Created:** August 2026  
-**Repo #2** in the engineering knowledge base (after [DevOps-Handbook](../DevOps-Handbook/CONTENT_WRITE_ORDER.md)).
+**Repo #2** in the engineering knowledge base (after [DevOps-Handbook](../DevOps-Handbook/README.md)).
 
 **Unlike DevOps-Handbook:** this repo already has **~66 topic files with real content**. Do not rewrite what exists — **fill gaps** below and deepen thin areas.
 
@@ -1656,7 +1647,7 @@ Most of `Containerization-Basic/`, `Runtimes/`, `Orchestration/Kubernetes`, and 
 
 | Step | Location | Why |
 |------|----------|-----|
-| 1 | [0_Start_Here.md](./0_Start_Here.md) | On-ramp + sister-repo matrix |
+| 1 | Start here | On-ramp + sister-repo matrix |
 | 2 | [README](./README.md) | Doors to DevOps, Networks, Security, System Design |
 | 3 | [Local-Dev/](./Local-Dev/README.md) | kind, minikube, k3d, Tilt/Skaffold — expand turnkey one-liners |
 | 4 | [Runtimes/Containerd/](./Runtimes/Containerd/README.md) + [CRI-O/](./Runtimes/CRI-O/README.md) | What K8s actually runs under Docker |
@@ -1687,7 +1678,7 @@ DevOps handbook points **in** here → [DevOps Handbook](../DevOps-Handbook/READ
 ## Done when (repo #2)
 
 - [ ] Every **stub** folder has at least one filled topic (not just README)
-- [ ] `0_Start_Here.md` links learning path + sister repos
+- [ ] `Start here` links learning path + sister repos
 - [ ] Serverless + Local-Dev sections exist (today: gaps)
 - [ ] containerd/CRI-O documented for K8s operators
 - [ ] Security-Advanced points to Security-Deep-Dive for AppSec/IR depth
@@ -1704,11 +1695,11 @@ Same as DevOps-Handbook: replace `*(Content TBD)*`, satisfy **Planned coverage**
 
 Public intro: [Deep-Dives/Networks-Deep-Dive/README.md](../../Deep-Dives/Networks-Deep-Dive/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — Networks Deep Dive
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md) · [Thin topics tracker](./THIN_TOPICS.md)
+[← README](./README.md) · Write order
 
 *(Content TBD — stub created August 2026)*
 
@@ -1734,7 +1725,7 @@ Public intro: [Deep-Dives/Networks-Deep-Dive/README.md](../../Deep-Dives/Network
 
 ## You already have content here
 
-Most of Foundations through Observability is **written** (~60 topic files). Start from step 2 in [CONTENT_WRITE_ORDER.md](./CONTENT_WRITE_ORDER.md) unless you are new to networking — then follow the checkbox path above from Foundations.
+Most of Foundations through Observability is **written** (~60 topic files). Start from step 2 in Write order unless you are new to networking — then follow the checkbox path above from Foundations.
 
 ## Checklist before marking done
 
@@ -1742,14 +1733,14 @@ Most of Foundations through Observability is **written** (~60 topic files). Star
 - [ ] Sister-repo pointers on README
 - [ ] One diagram: home lab → enterprise → cloud VPC (ASCII or Assets/)
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # Networks Deep Dive — content write order
 
 **Created:** August 2026  
-**Repo #4** after [DevOps-Handbook](../DevOps-Handbook/CONTENT_WRITE_ORDER.md), [Containerization-Deep-Dive](../Containerization-Deep-Dive/CONTENT_WRITE_ORDER.md), and [Databases-Deep-Dive](../Databases-Deep-Dive/CONTENT_WRITE_ORDER.md).
+**Repo #4** after [DevOps-Handbook](../DevOps-Handbook/README.md), [Containerization-Deep-Dive](../Containerization-Deep-Dive/README.md), and [Databases-Deep-Dive](../Databases-Deep-Dive/README.md).
 
-**Unlike DevOps/Databases:** this repo already has **~66 topic files with real depth** (L1–L7, security, cloud-native, observability). Do not rewrite — **deepen thin topics** and **expand labs**.
+**Unlike DevOps/Databases:** this repo already has **~66 topic files with real depth** (L1–L7, security, cloud-native, observability). Do not rewrite — **deepen short notes** and **expand labs**.
 
 ---
 
@@ -1764,7 +1755,7 @@ Most of Foundations through Observability is **written** (~60 topic files). Star
 | [Security/](./Security/README.md) | 10 | **Written** — network-layer security (feeds Security-Deep-Dive capstone) |
 | [Cloud-Native/](./Cloud-Native/README.md) | 4 | **Written** — VPC, K8s/Cilium, SDN |
 | [Observability/](./Observability/README.md) | 6 | **Written** — capture, Wireshark, QoS, NetOps |
-| [Advanced/](./Advanced/README.md) | 5 | **Partial** — several files &lt;50 lines ([THIN_TOPICS.md](./THIN_TOPICS.md)) |
+| [Advanced/](./Advanced/README.md) | 5 | **Partial** — several files &lt;50 lines — deepen before new folders |
 | [Labs/](./Labs/README.md) | 5 | **Partial** — index strong; walkthrough depth thin |
 
 ---
@@ -1773,8 +1764,8 @@ Most of Foundations through Observability is **written** (~60 topic files). Star
 
 | Step | Location | Why |
 |------|----------|-----|
-| 1 | [0_Start_Here.md](./0_Start_Here.md) + [README](./README.md) | On-ramp + sister-repo matrix |
-| 2 | [THIN_TOPICS.md](./THIN_TOPICS.md) | Track files under ~50 lines — deepen before new folders |
+| 1 | Start here + [README](./README.md) | On-ramp + sister-repo matrix |
+| 2 | Advanced + Labs short notes | Deepen short Advanced/Labs files before new folders |
 | 3 | [Home-Lab/](./Home-Lab/README.md) | Guided home/SOHO lab path → links [Labs/4](./Labs/4_Labs_Vms.md) + Routing scale spectrum |
 | 4 | [Labs-Expanded/](./Labs-Expanded/README.md) | Step-by-step captures and validation labs |
 | 5 | [Service-Mesh/](./Service-Mesh/README.md) | Envoy/Istio/mTLS east–west — complements [Cloud-Native/2](./Cloud-Native/2_Docker_Kubernetes.md) |
@@ -1803,8 +1794,8 @@ Most of Foundations through Observability is **written** (~60 topic files). Star
 ## Repo #4 done when
 
 - [ ] Every **stub** folder has at least one filled topic (not just README)
-- [ ] All files in [THIN_TOPICS.md](./THIN_TOPICS.md) expanded to full-depth style
-- [ ] `0_Start_Here.md` has checkbox learning path for monthly tracking
+- [ ] Short Advanced/Labs notes expanded to full-depth style
+- [ ] `Start here` has checkbox learning path for monthly tracking
 - [ ] labs-expanded has ≥2 runnable walkthroughs with copy-paste commands
 - [ ] Service-Mesh/ links Containerization Networking-Advanced without duplicating CNI install guides
 
@@ -1812,43 +1803,8 @@ Most of Foundations through Observability is **written** (~60 topic files). Star
 
 ## Marking topics complete
 
-Same convention as other repos: replace `*(Content TBD)*`, satisfy **Planned coverage** bullets, check **Checklist before marking done**, optional `- [x]` in section README or [THIN_TOPICS.md](./THIN_TOPICS.md).
+Same convention as other repos: replace `*(Content TBD)*`, satisfy **Planned coverage** bullets, check **Checklist before marking done**, optional `- [x]` in section README.
 
-### THIN_TOPICS.md
-
-# Thin topics — deepen next
-
-Files with **&lt;50 lines** (August 2026 audit). Expand to full repo style: definitions, how-it-works, packet/flow diagrams, copy-paste commands, failure modes, validation checklist.
-
-Track progress with `- [x]` when a file meets **Checklist before marking done** in that file (or section README).
-
-## Advanced
-
-- [ ] [Advanced/1_Replacing_Tcp_Datacenters.md](./Advanced/1_Replacing_Tcp_Datacenters.md) (46 lines)
-- [ ] [Advanced/2_Resource_Limits_Failure_Modes.md](./Advanced/2_Resource_Limits_Failure_Modes.md) (37 lines)
-- [ ] [Advanced/3_Tls_Extensions.md](./Advanced/3_Tls_Extensions.md) (26 lines)
-
-## Cloud-Native
-
-- [ ] [Cloud-Native/4_Iot_5g.md](./Cloud-Native/4_Iot_5g.md) (37 lines)
-
-## Labs
-
-- [ ] [Labs/1_Code_Examples.md](./Labs/1_Code_Examples.md) (44 lines)
-- [ ] [Labs/4_Labs_Vms.md](./Labs/4_Labs_Vms.md) (34 lines)
-- [ ] [Labs/5_Reference_Practice.md](./Labs/5_Reference_Practice.md) (45 lines)
-
-## Services (overview only — rest of section is deep)
-
-- [ ] [Services/1_Application_Overview.md](./Services/1_Application_Overview.md) (37 lines)
-
-## Section READMEs (maps only — OK as-is unless you want learning-path checkboxes)
-
-Foundations, Transport, Routing-Switching, Observability, Advanced, Labs, Cloud-Native READMEs are index files; optional to add `- [ ]` per linked topic.
-
----
-
-**After these:** fill [Labs-Expanded/](./Labs-Expanded/README.md) and [Service-Mesh/](./Service-Mesh/README.md) stubs (new content, not rewrites).
 
 ---
 
@@ -1856,11 +1812,11 @@ Foundations, Transport, Routing-Switching, Observability, Advanced, Labs, Cloud-
 
 Public intro: [Deep-Dives/Databases-Deep-Dive/README.md](../../Deep-Dives/Databases-Deep-Dive/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — Databases Deep Dive
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md) · [Planned engines tracker](./PLANNED_ENGINES.md)
+[← README](./README.md) · Write order · Engines to fill
 
 *(Content TBD — stub created August 2026)*
 
@@ -1889,12 +1845,12 @@ MySQL, PostgreSQL, DuckDB (embedded OLAP), MongoDB, Redis, Aerospike, Elasticsea
 - [ ] Checkbox paths for monthly learning
 - [ ] Sister-repo pointers on README
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # Databases Deep Dive — content write order
 
 **Created:** August 2026  
-**Repo #3** after [DevOps-Handbook](../DevOps-Handbook/CONTENT_WRITE_ORDER.md) and [Containerization-Deep-Dive](../Containerization-Deep-Dive/CONTENT_WRITE_ORDER.md).
+**Repo #3** after [DevOps-Handbook](../DevOps-Handbook/README.md) and [Containerization-Deep-Dive](../Containerization-Deep-Dive/README.md).
 
 ---
 
@@ -1921,7 +1877,7 @@ MySQL, PostgreSQL, DuckDB (embedded OLAP), MongoDB, Redis, Aerospike, Elasticsea
 | Step | Focus | Why |
 |------|--------|-----|
 | 0 | Fix [Concepts/README.md](./Concepts/README.md) broken links | Points to removed `NoSQL/1-mysql.md` paths |
-| 1 | [0_Start_Here.md](./0_Start_Here.md) + [README](./README.md) | Navigation + sister repos |
+| 1 | Start here + [README](./README.md) | Navigation + sister repos |
 | 2 | **Vector** — [Qdrant](./Vector/Qdrant/README.md) first (production priority), then [pgvector](./Vector/Pgvector/README.md), then Weaviate/Milvus/Pinecone | RAG / DS-AI path — retrieval *job* stays in DS-AI |
 | 3 | **Blob/object** — [GCS/](./Blob-Object/GCS/README.md), [S3/](./Blob-Object/S3/README.md), MinIO | DE + backups + static assets |
 | 4 | [Data-Platform/](./Data-Platform/README.md) | Pipelines, migrations, ops at platform layer → DE repo |
@@ -1931,7 +1887,7 @@ MySQL, PostgreSQL, DuckDB (embedded OLAP), MongoDB, Redis, Aerospike, Elasticsea
 | 8 | Graph, time-series, search (Solr, Meilisearch), cache (Memcached, Hazelcast) |
 | 9 | Split [Cloud-Managed/](./Cloud-Managed/README.md) into topic files (optional refactor) |
 
-Track per-engine progress in [PLANNED_ENGINES.md](./PLANNED_ENGINES.md).
+Track per-engine progress in Engines to fill below.
 
 ---
 
@@ -1966,9 +1922,9 @@ Topic files marked `*(Content TBD)*` — fill using same style as MySQL/PostgreS
 - [ ] Concepts/README links fixed
 - [ ] Data-Platform/ links DE repo without duplicating pipeline authoring
 
-### PLANNED_ENGINES.md
+### Engines to fill
 
-# Planned engines — fill tracker
+# Engines to fill
 
 **Status:** 📁 = stub scaffold only · ✅ = multi-topic deep dive exists
 
@@ -2055,11 +2011,11 @@ Memcached is **not** here — [Cache/memcached](./Cache/Memcached/README.md). `K
 
 Public intro: [Deep-Dives/System-Design-Concepts/README.md](../../Deep-Dives/System-Design-Concepts/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — System Design Concepts
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md) · [Thin topics](./THIN_TOPICS.md) · [Planned cases](./PLANNED_CASES.md)
+[← README](./README.md) · Write order · Cases to fill
 
 *(Content TBD — stub created August 2026)*
 
@@ -2087,7 +2043,7 @@ Public intro: [Deep-Dives/System-Design-Concepts/README.md](../../Deep-Dives/Sys
 
 ## Already written (start reading)
 
-Most component folders have content; **Observability/** and several **Fundamentals/** files are thin — see [THIN_TOPICS.md](./THIN_TOPICS.md). Cases 1–6 exist; expand with failure sections per [CONTENT_WRITE_ORDER.md](./CONTENT_WRITE_ORDER.md) step 6.
+Most component folders have content; **Observability/** and several **Fundamentals/** files are still short — deepen those before new folders. Cases 1–6 exist; expand with failure sections per Write order step 6.
 
 ## Checklist before marking done
 
@@ -2095,14 +2051,14 @@ Most component folders have content; **Observability/** and several **Fundamenta
 - [ ] Sister-repo pointers on README
 - [ ] One diagram: requirements → HLD → components → bottlenecks → failure modes
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # System Design Concepts — content write order
 
 **Created:** August 2026  
-**Repo #5** after [DevOps-Handbook](../DevOps-Handbook/CONTENT_WRITE_ORDER.md), [Containerization-Deep-Dive](../Containerization-Deep-Dive/CONTENT_WRITE_ORDER.md), [Databases-Deep-Dive](../Databases-Deep-Dive/CONTENT_WRITE_ORDER.md), and [Networks-Deep-Dive](../Networks-Deep-Dive/CONTENT_WRITE_ORDER.md).
+**Repo #5** after [DevOps-Handbook](../DevOps-Handbook/README.md), [Containerization-Deep-Dive](../Containerization-Deep-Dive/README.md), [Databases-Deep-Dive](../Databases-Deep-Dive/README.md), and [Networks-Deep-Dive](../Networks-Deep-Dive/README.md).
 
-**Unlike DevOps/Networks:** this repo already has **~119 topic files** across fundamentals, components, and cases. Do not rewrite — **deepen thin topics**, add **failure modes**, expand **cases**, link **security trade-offs**.
+**Unlike DevOps/Networks:** this repo already has **~119 topic files** across fundamentals, components, and cases. Do not rewrite — **deepen short notes**, add **failure modes**, expand **cases**, link **security trade-offs**.
 
 ---
 
@@ -2110,7 +2066,7 @@ Most component folders have content; **Observability/** and several **Fundamenta
 
 | Section | Topics | Status |
 |---------|--------|--------|
-| [Fundamentals/](./Fundamentals/README.md) | 19 | **Written** — several files thin ([THIN_TOPICS.md](./THIN_TOPICS.md)) |
+| [Fundamentals/](./Fundamentals/README.md) | 19 | **Written** — several files still short — deepen before new folders |
 | [Databases/](./Databases/README.md) | 12 + taxonomy | **Written** — engine depth → [Databases-Deep-Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) |
 | [Caching/](./Caching/README.md) | 9 | **Written** — strategy files vary in depth |
 | [Messaging/](./Messaging/README.md) | 8 | **Written** |
@@ -2121,7 +2077,7 @@ Most component folders have content; **Observability/** and several **Fundamenta
 | [Performance/](./Performance/README.md) | 4 | **Written** |
 | [Security/](./Security/README.md) | 7 | **Written** — design-time security; capstone → Security-Deep-Dive |
 | [Observability/](./Observability/README.md) | 9 | **Written** — many files need depth |
-| [Cases/](./Cases/README.md) | 6 cases + index | **Partial** — expand failure sections + [PLANNED_CASES.md](./PLANNED_CASES.md) |
+| [Cases/](./Cases/README.md) | 6 cases + index | **Partial** — expand failure sections + Cases to fill |
 
 ---
 
@@ -2129,12 +2085,12 @@ Most component folders have content; **Observability/** and several **Fundamenta
 
 | Step | Location | Why |
 |------|----------|-----|
-| 1 | [0_Start_Here.md](./0_Start_Here.md) + [README](./README.md) | On-ramp + sister-repo matrix |
-| 2 | [THIN_TOPICS.md](./THIN_TOPICS.md) | Prioritize files under ~30 lines (observability, availability, fundamentals) |
+| 1 | Start here + [README](./README.md) | On-ramp + sister-repo matrix |
+| 2 | Fundamentals + Observability | Deepen short notes (observability, availability, fundamentals) first |
 | 3 | [Failure-Modes/](./Failure-Modes/README.md) | Design-time failure analysis — ecosystem gap |
 | 4 | [Security-Tradeoffs/](./Security-Tradeoffs/README.md) | Link [Security/](./Security/README.md) → Security-Deep-Dive without duplicating |
-| 5 | [Primer-Gaps/](./Primer-Gaps/README.md) | **Industry gaps** — gossip, Bloom, 2PC/saga, search, RAG — see [COVERAGE_MATRIX.md](./COVERAGE_MATRIX.md) |
-| 6 | [Cases/](./Cases/README.md) + [PLANNED_CASES.md](./PLANNED_CASES.md) | Cases 1–17; deepen existing + fill stubs |
+| 5 | [Primer-Gaps/](./Primer-Gaps/README.md) | **Industry gaps** — gossip, Bloom, 2PC/saga, search, RAG — see Industry coverage matrix |
+| 6 | [Cases/](./Cases/README.md) + Cases to fill | Cases 1–17; deepen existing + fill stubs |
 | 7 | Deepen [Cases/1–6](./Cases/README.md) | Add **Failure modes**, **Capacity math**, **What breaks first** sections |
 | 7 | [Fundamentals/12_HLD_and_LLD.md](./Fundamentals/12_HLD_and_LLD.md) | Interview framework + back-of-envelope math |
 | 8 | Cross-link wire depth | DNS/LB/TLS → [Networks-Deep-Dive](../Networks-Deep-Dive/README.md) |
@@ -2161,8 +2117,8 @@ Most component folders have content; **Observability/** and several **Fundamenta
 ## Repo #5 done when
 
 - [ ] Every **stub** folder has ≥1 filled topic (not just README)
-- [ ] [COVERAGE_MATRIX.md](./COVERAGE_MATRIX.md) — no ❌ rows left without stub or sister-repo link
-- [ ] Priority thin topics in [THIN_TOPICS.md](./THIN_TOPICS.md) expanded to full style
+- [ ] Industry coverage matrix — no ❌ rows left without stub or sister-repo link
+- [ ] Priority short Fundamentals/Observability/Security notes expanded to full style
 - [ ] [Primer-Gaps/](./Primer-Gaps/README.md) — 12 industry topics filled
 - [ ] Cases 1–17 have **Failure modes** + capacity sketch where applicable
 
@@ -2170,9 +2126,9 @@ Most component folders have content; **Observability/** and several **Fundamenta
 
 ## Marking topics complete
 
-Replace `*(Content TBD)*`, satisfy **Planned coverage** + **Checklist before marking done**, optional `- [x]` in section README or [THIN_TOPICS.md](./THIN_TOPICS.md) / [PLANNED_CASES.md](./PLANNED_CASES.md).
+Replace `*(Content TBD)*`, satisfy **Planned coverage** + **Checklist before marking done**, optional `- [x]` in section README or Cases to fill below.
 
-### COVERAGE_MATRIX.md
+### Industry coverage matrix
 
 # System Design — industry coverage matrix
 
@@ -2190,7 +2146,7 @@ Benchmark sources (August 2026): [DesignGurus 2026 rubric](https://www.designgur
 |----------------|--------|---------------|------------|
 | Load balancing L4/L7, algorithms | ✅ | [Fundamentals/5_Load_Balancers.md](./Fundamentals/5_Load_Balancers.md) | Deepen if needed |
 | CDN / edge | ✅ | [Fundamentals/4_CDN.md](./Fundamentals/4_CDN.md) | — |
-| Caching strategies (aside, through, behind) | ⚠️ | [Caching/](./Caching/README.md) — several thin | [THIN_TOPICS.md](./THIN_TOPICS.md) |
+| Caching strategies (aside, through, behind) | ⚠️ | [Caching/](./Caching/README.md) — several short | deepen Caching notes |
 | Cache stampede / hot keys | 📁 | [Failure-Modes/1_Cache_Stampede_and_Hot_Keys.md](./Failure-Modes/1_Cache_Stampede_and_Hot_Keys.md) | **Fill** |
 | Rate limiting (token bucket, sliding window) | ⚠️ | [Performance/2_Rate_Limiting.md](./Performance/2_Rate_Limiting.md) + [Cases/10_Rate_Limiter_Design.md](./Cases/10_Rate_Limiter_Design.md) | Deepen + fill case |
 | Message queues / event buses | ✅ | [Messaging/](./Messaging/README.md) | — |
@@ -2245,7 +2201,7 @@ Benchmark sources (August 2026): [DesignGurus 2026 rubric](https://www.designgur
 
 | Industry topic | Status | Where in repo | Gap action |
 |----------------|--------|---------------|------------|
-| Four golden signals / SLI-SLO | ⚠️ | [Observability/](./Observability/README.md) — **9 files thin** | **Batch deepen** [THIN_TOPICS.md](./THIN_TOPICS.md) |
+| Four golden signals / SLI-SLO | ⚠️ | [Observability/](./Observability/README.md) — **9 files thin** | **Batch deepen** Observability notes |
 | Distributed tracing | ⚠️ | [Observability/9_Distributed_Tracing.md](./Observability/9_Distributed_Tracing.md) | Deepen · 🔗 DevOps Observability |
 | Cost vs performance | ⚠️ | [Performance/4_Cost_vs_Performance.md](./Performance/4_Cost_vs_Performance.md) | Deepen — **2026 rubric** |
 | Back-of-envelope / capacity math | ⚠️ | [Fundamentals/12_HLD_and_LLD.md](./Fundamentals/12_HLD_and_LLD.md) | Add dedicated section or primer |
@@ -2289,7 +2245,7 @@ Benchmark sources (August 2026): [DesignGurus 2026 rubric](https://www.designgur
 | File sync (Drive/Dropbox) | 📁 stub | [Cases/1_Google_Drive_File_Sync.md](./Cases/1_Google_Drive_File_Sync.md) |
 | Ride-sharing / maps | 📁 stub | [Cases/4_Uber.md](./Cases/4_Uber.md) |
 | Payments (Stripe) | 📁 stub | [Cases/9_Stripe_Payments.md](./Cases/9_Stripe_Payments.md) |
-| Notification system | ❌ | [PLANNED_CASES.md](./PLANNED_CASES.md) — add case 12 |
+| Notification system | ❌ | Cases to fill — add case 12 |
 | Search engine | ❌ | primer-gaps + planned case |
 | Email service | ❌ | planned case |
 | Ticket / event booking | ❌ | planned case |
@@ -2297,7 +2253,7 @@ Benchmark sources (August 2026): [DesignGurus 2026 rubric](https://www.designgur
 | Distributed cron / scheduler | ❌ | planned case |
 | Web crawler | ❌ | planned case |
 
-Full tracker: [PLANNED_CASES.md](./PLANNED_CASES.md)
+Full list: Cases to fill below
 
 ---
 
@@ -2307,74 +2263,18 @@ Full tracker: [PLANNED_CASES.md](./PLANNED_CASES.md)
 
 **You ARE missing depth and modern tier:**
 
-1. **~40+ thin topic files** — especially `Observability/` and `Security/`
+1. **~40+ short topic files** — especially `Observability/` and `Security/`
 2. **12 primer-gaps stubs** — gossip, bloom filters, 2PC/saga standalone, search-at-scale, etc.
 3. **Cases** — most are outlines; need failure modes + capacity math
 4. **2026 tier** — RAG/Vector/LLM gateway design (stubs in `Primer-Gaps/`)
 5. **Sister repos** — engine depth (Databases), wire depth (Networks), cyber capstone (Security) — by design, not duplication
 
-**Fill order:** [CONTENT_WRITE_ORDER.md](./CONTENT_WRITE_ORDER.md) → [THIN_TOPICS.md](./THIN_TOPICS.md) → [Primer-Gaps/](./Primer-Gaps/README.md) → [PLANNED_CASES.md](./PLANNED_CASES.md)
+**Fill order:** Write order → [Primer-Gaps/](./Primer-Gaps/README.md) → Cases to fill
 
-### THIN_TOPICS.md
 
-# Thin topics — deepen next
+### Cases to fill
 
-Files under **~45 lines** (August 2026 audit). Expand to repo style: What → Why → How → Details → Trade-offs → When to use; add Mermaid/ASCII diagrams and failure modes where relevant.
-
-**Priority:** files under **~25 lines** first (marked ⚡).
-
----
-
-## ⚡ Highest priority (&lt;20 lines)
-
-- [ ] [Availability/1_Availability_Patterns.md](./Availability/1_Availability_Patterns.md) (11)
-- [ ] [Caching/5_Refresh_Ahead.md](./Caching/5_Refresh_Ahead.md) (15)
-- [ ] [Consistency/1_Availability_vs_Consistency.md](./Consistency/1_Availability_vs_Consistency.md) (15)
-- [ ] [Fundamentals/9_Service_Discovery.md](./Fundamentals/9_Service_Discovery.md) (16)
-- [ ] [Security/1_Security_Overview.md](./Security/1_Security_Overview.md) (16)
-- [ ] [Availability/3_Replication.md](./Availability/3_Replication.md) (17)
-- [ ] [Caching/4_Write_Behind.md](./Caching/4_Write_Behind.md) (17)
-- [ ] [Fundamentals/7_Application_Layer.md](./Fundamentals/7_Application_Layer.md) (17)
-- [ ] [Patterns/5_Bulkhead_and_Retry.md](./Patterns/5_Bulkhead_and_Retry.md) (17)
-
-## fundamentals
-
-- [ ] [6_Horizontal_Scaling.md](./Fundamentals/6_Horizontal_Scaling.md) (18)
-- [ ] [8_Microservices.md](./Fundamentals/8_Microservices.md) (21)
-- [ ] [2_Performance_and_Latency.md](./Fundamentals/2_Performance_and_Latency.md) (22)
-- [ ] [19_Designing_Scalable_Systems.md](./Fundamentals/19_Designing_Scalable_Systems.md) (22)
-- [ ] [1_Intro_and_Approach.md](./Fundamentals/1_Intro_and_Approach.md) (25)
-
-## observability (bulk thin — fill as a batch)
-
-- [ ] [1_Monitoring_Overview.md](./Observability/1_Monitoring_Overview.md) through [9_Distributed_Tracing.md](./Observability/9_Distributed_Tracing.md) — all 9 files ~19–31 lines
-
-## security
-
-- [ ] [2_Federated_Identity.md](./Security/2_Federated_Identity.md) (22)
-- [ ] [3_Gatekeeper.md](./Security/3_Gatekeeper.md) (21)
-- [ ] [4_Valet_Key.md](./Security/4_Valet_Key.md) (20)
-- [ ] [5_Data_Backup_and_Disaster_Recovery.md](./Security/5_Data_Backup_and_Disaster_Recovery.md) (25)
-- [ ] [6_SSL_and_TLS.md](./Security/6_SSL_and_TLS.md) (25) — link [Networks Security](../Networks-Deep-Dive/Security/2_Encryption_Tls.md)
-
-## storage, performance, patterns, messaging
-
-- [ ] [Storage/](./Storage/README.md) topics 1–5 (~23–27 lines each)
-- [ ] [Performance/](./Performance/README.md) topics 1–4 (~22–29 lines)
-- [ ] [Patterns/3_Leader_Election.md](./Patterns/3_Leader_Election.md), [7_Serverless.md](./Patterns/7_Serverless.md), [8_Event_Sourcing_vs_Event_Streaming.md](./Patterns/8_Event_Sourcing_vs_Event_Streaming.md)
-- [ ] [Messaging/2_Task_Queues.md](./Messaging/2_Task_Queues.md), [3_Backpressure.md](./Messaging/3_Backpressure.md)
-
-## cases (add sections, not necessarily longer prose)
-
-- [ ] Cases 1–6 — add **Failure modes**, **Capacity sketch**, **What breaks first** (see [PLANNED_CASES.md](./PLANNED_CASES.md))
-
----
-
-**After thin topics:** fill [Failure-Modes/](./Failure-Modes/README.md) and new case stubs in [Cases/](./Cases/README.md).
-
-### PLANNED_CASES.md
-
-# Planned case studies — tracker
+# Cases to fill
 
 Cases with **full writeups** vs **stubs** or **index-only** (August 2026 audit). Tick `- [x]` when a case matches existing case file quality (requirements, HLD, concept links, failure modes, further reading).
 
@@ -2412,17 +2312,17 @@ Cases with **full writeups** vs **stubs** or **index-only** (August 2026 audit).
 
 Public intro: [Deep-Dives/Datastructures-and-Algorithms/README.md](../../Deep-Dives/Datastructures-and-Algorithms/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — Data Structures & Algorithms
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md) · [Planned problems](./PLANNED_PROBLEMS.md) · [SystemDesignBridge](./SystemDesignBridge/README.md)
+[← README](./README.md) · Write order · Problems to fill · [SystemDesignBridge](./SystemDesignBridge/README.md)
 
 *(Updated August 2026)*
 
 ## Who this repo is for
 
-Interview coding prep + pattern reference. **Theory is here;** scale trade-offs live in [System-Design-Concepts](../System-Design-Concepts/0_Start_Here.md).
+Interview coding prep + pattern reference. **Theory is here;** scale trade-offs live in [System-Design-Concepts](../System-Design-Concepts/README.md).
 
 **Why a security engineer opens this:** interviews, and the occasional structure behind crypto/parsers — not the main security path.
 
@@ -2444,8 +2344,8 @@ Interview coding prep + pattern reference. **Theory is here;** scale trade-offs 
 
 ### Practice (your gap — expand here)
 - [ ] [Leetcode/Two_Pointers/](./Leetcode/Readme.md) — continue checklist
-- [ ] [Leetcode/Design/](./PLANNED_PROBLEMS.md#design--heap-priority) — LRU, LFU stubs
-- [ ] [Leetcode/Graph/](./PLANNED_PROBLEMS.md#graph--bfs--dfs) — empty today
+- [ ] Leetcode/Design/ — LRU, LFU stubs
+- [ ] Leetcode/Graph/ — empty today
 - [ ] [SystemDesignBridge/](./SystemDesignBridge/README.md) — patterns that appear in SD interviews
 
 ## Sister repos
@@ -2457,12 +2357,12 @@ Interview coding prep + pattern reference. **Theory is here;** scale trade-offs 
 - [ ] All checkbox sections above ticked for your target level (working → strong)
 - [ ] 50+ problems solved with Readme writeups
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # Data Structures & Algorithms — content write order
 
 **Created:** August 2026  
-**Repo #6** after [System-Design-Concepts](../System-Design-Concepts/CONTENT_WRITE_ORDER.md).
+**Repo #6** after [System-Design-Concepts](../System-Design-Concepts/README.md).
 
 **Unlike System Design:** this repo has **strong theory** (19 algorithm + 23 data structure topic files, Foundation patterns) but a **thin problem bank** (~18 LeetCode folders solved; Leetcode/Readme lists 100+ unchecked).
 
@@ -2485,8 +2385,8 @@ Interview coding prep + pattern reference. **Theory is here;** scale trade-offs 
 
 | Step | Location | Why |
 |------|----------|-----|
-| 1 | [0_Start_Here.md](./0_Start_Here.md) + [README](./README.md) | On-ramp + sister repos |
-| 2 | [PLANNED_PROBLEMS.md](./PLANNED_PROBLEMS.md) | Track empty LeetCode categories + target count |
+| 1 | Start here + [README](./README.md) | On-ramp + sister repos |
+| 2 | Problems to fill | Track empty LeetCode categories + target count (below) |
 | 3 | [SystemDesignBridge/](./SystemDesignBridge/README.md) | Map patterns → System Design (rate limit, LRU, top-K) |
 | 4 | Fill **Design** + **Heap** LeetCode categories | Interview staples (LRU, LFU, 295, 703) |
 | 5 | Fill **Graph** + **BFS/DFS** + **Union Find** | SD-relevant (connectivity, islands) |
@@ -2510,20 +2410,20 @@ Interview coding prep + pattern reference. **Theory is here;** scale trade-offs 
 
 ## Repo #6 done when
 
-- [ ] [PLANNED_PROBLEMS.md](./PLANNED_PROBLEMS.md) — every empty LeetCode category has ≥3 solved OR explicitly deferred
+- [ ] Problems to fill — every empty LeetCode category has ≥3 solved OR explicitly deferred
 - [ ] [SystemDesignBridge/](./SystemDesignBridge/README.md) — ≥8 pattern writeups with SD links
 - [ ] 50+ curated problems with Readme + solution (realistic v1; 150 = stretch)
-- [ ] `0_Start_Here.md` checkbox learning path complete
+- [ ] `Start here` checkbox learning path complete
 
 ---
 
 ## Marking problems complete
 
-Use `- [x]` in [Leetcode/Readme.md](./Leetcode/Readme.md) and [PLANNED_PROBLEMS.md](./PLANNED_PROBLEMS.md). Each new problem folder: `Readme.md` (approach, complexity) + `.cpp`/`.java` solution.
+Use `- [x]` in [Leetcode/Readme.md](./Leetcode/Readme.md) and Problems to fill below. Each new problem folder: `Readme.md` (approach, complexity) + `.cpp`/`.java` solution.
 
-### PLANNED_PROBLEMS.md
+### Problems to fill
 
-# Planned problems — tracker
+# Problems to fill
 
 Track **empty LeetCode categories** and priority fills. Source checklist: [Leetcode/Readme.md](./Leetcode/Readme.md) (100+ listed; ~18 folders exist).
 
@@ -2596,7 +2496,7 @@ Full bridge index: [SystemDesignBridge/README.md](./SystemDesignBridge/README.md
 
 Public intro: [Deep-Dives/Commands-and-Cheatsheets/README.md](../../Deep-Dives/Commands-and-Cheatsheets/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — Commands and Cheatsheets
 
@@ -2613,7 +2513,7 @@ This repo is a **reference**, not a course. If you know nothing: pick the tool y
 
 *(Content TBD — stub created September 2026)*
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # Commands and Cheatsheets — content write order
 
@@ -2636,11 +2536,11 @@ This repo is a **reference**, not a course. If you know nothing: pick the tool y
 
 Public intro: [Deep-Dives/Data-Engineering-Deep-Dive/README.md](../../Deep-Dives/Data-Engineering-Deep-Dive/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — Data Engineering Deep Dive
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md) · [Topics to cover](./TOPICS_TO_COVER.md) · [Timeless](./TIMELESS.md)
+[← README](./README.md) · Write order · Topics to cover · Writing rules
 
 ## Who this repo is for
 
@@ -2669,13 +2569,13 @@ A new engine is a new `Systems/<Name>/`. It is not a new layer.
 - [x] Sister-repo pointers on README
 - [ ] First Foundations topic filled (not just stubbed)
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # Data Engineering Deep Dive — content write order
 
 **Repo #8** · **Status:** timeless layers + Systems catalog (September 2026) · **Phase:** 3
 
-**Rule:** [TIMELESS.md](./TIMELESS.md) · **Tracker:** [TOPICS_TO_COVER.md](./TOPICS_TO_COVER.md)
+**Rule:** Writing rules · **List:** Topics to cover
 
 Fill **layers** (the job) enough to think, then a **system** folder (Spark, Kafka — like a language track), then a **use case** that wires several systems. Do not fill “Spark first because it’s popular.”
 
@@ -2683,7 +2583,7 @@ Fill **layers** (the job) enough to think, then a **system** folder (Spark, Kafk
 
 | Step | What | Why |
 |------|------|-----|
-| 1 | `0_Start_Here` + `TIMELESS.md` + `Systems/README.md` | Two axes: layers vs named systems. DuckDB engine → [Databases](https://github.com/thisiskushal31/Databases-Deep-Dive/tree/main/Relational/duckdb) |
+| 1 | `Start here` + Writing rules + `Systems/README.md` | Two axes: layers vs named systems. DuckDB engine → [Databases](https://github.com/thisiskushal31/Databases-Deep-Dive/tree/main/Relational/duckdb) |
 | 2 | Foundations | Grain, time, bounded vs unbounded |
 | 3 | Capture + Movement (patterns) | The job |
 | 4 | **Systems/Kafka** (or another Movement system) | One named log, Languages-style |
@@ -2694,11 +2594,11 @@ Fill **layers** (the job) enough to think, then a **system** folder (Spark, Kafk
 | 9 | Serving, Governance, Platform-Ops | |
 | 10 | Instances/ | Dated index only |
 
-**Sister repos:** [Databases](../Databases-Deep-Dive/CONTENT_WRITE_ORDER.md) · [DevOps-Handbook Languages](../DevOps-Handbook/Languages/README.md) · [System-Design Primer-Gaps/10](../System-Design-Concepts/Primer-Gaps/10_Batch_and_Stream_Processing.md) · [DS-AI TIMELESS](../Data-Science-AI-Deep-Dive/TIMELESS.md)
+**Sister repos:** [Databases](../Databases-Deep-Dive/README.md) · [DevOps-Handbook Languages](../DevOps-Handbook/Languages/README.md) · [System-Design Primer-Gaps/10](../System-Design-Concepts/Primer-Gaps/10_Batch_and_Stream_Processing.md) · [Data Science & AI](../Data-Science-AI-Deep-Dive/README.md)
 
-### TIMELESS.md
+### Writing rules
 
-# Timeless rule
+# Writing rules
 
 [← README](./README.md)
 
@@ -2739,11 +2639,11 @@ Layers must still make sense when Spark and Kafka are gone. Systems folders are 
 
 Then: [Systems/](./Systems/README.md) (catalog) · [Use-Cases/](./Use-Cases/README.md) (shapes) · [Instances/](./Instances/README.md) (dated index only)
 
-### TOPICS_TO_COVER.md
+### Topics to cover
 
 # Topics to cover — next step forward
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md) · [Timeless](./TIMELESS.md)
+[← README](./README.md) · Write order · Writing rules
 
 Tick when a file has no `*(Content TBD)*`. Order is the **path of a fact**, not this year’s stack.
 
@@ -2854,7 +2754,7 @@ Catalog: [Systems/README.md](./Systems/README.md). Tick the system README when t
 |---------|----------------|
 | Engine internals, 10 store types | [Databases-Deep-Dive](../Databases-Deep-Dive/README.md) |
 | Batch/stream at HLD grain | [System-Design Primer-Gaps/10](../System-Design-Concepts/Primer-Gaps/10_Batch_and_Stream_Processing.md) |
-| Learning, retrieval, eval | [Data-Science-AI-Deep-Dive](../Data-Science-AI-Deep-Dive/TIMELESS.md) |
+| Learning, retrieval, eval | [Data-Science-AI-Deep-Dive](../Data-Science-AI-Deep-Dive/README.md) |
 | CI/CD, IaC products, observability stack | DevOps-Handbook |
 | Named framework hello-world | Tooling-and-Frameworks-Deep-Dive |
 
@@ -2864,11 +2764,11 @@ Catalog: [Systems/README.md](./Systems/README.md). Tick the system README when t
 
 Public intro: [Deep-Dives/Data-Science-AI-Deep-Dive/README.md](../../Deep-Dives/Data-Science-AI-Deep-Dive/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — Data Science & AI Deep Dive
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md) · [Topics to cover](./TOPICS_TO_COVER.md) · [Timeless](./TIMELESS.md)
+[← README](./README.md) · Write order · Topics to cover · Writing rules
 
 ## Who this repo is for
 
@@ -2876,7 +2776,7 @@ Engineers who will still need these notes after the current model family, servin
 
 ## Learning path
 
-Follow [TOPICS_TO_COVER.md](./TOPICS_TO_COVER.md) **Next** — build one retrieval system so the layers are not abstract.
+Follow Topics to cover **Next** — build one retrieval system so the layers are not abstract.
 
 - [ ] Libraries (PyTorch, scikit-learn) → [Tooling Data-ML](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive/tree/main/Data-ML)
 - [ ] Representation (tokens, embeddings)
@@ -2893,17 +2793,17 @@ Follow [TOPICS_TO_COVER.md](./TOPICS_TO_COVER.md) **Next** — build one retriev
 
 ## Checklist before marking this file done
 
-- [x] Layers match TIMELESS.md
+- [x] Layers match Writing rules
 - [x] Sister-repo pointers on README
 - [ ] First Representation or Retrieval topic filled (not just stubbed)
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # Data Science & AI Deep Dive — content write order
 
 **Repo #9** · **Status:** timeless stub tree (September 2026) · **Phase:** 3
 
-**Rule:** [TIMELESS.md](./TIMELESS.md) · **Tracker:** [TOPICS_TO_COVER.md](./TOPICS_TO_COVER.md)
+**Rule:** Writing rules · **List:** Topics to cover
 
 Fill **layers** (Representation → Retrieval → Evaluation → …). Do not fill in “current job-description” order. Dated tools only in `Instances/`.
 
@@ -2911,7 +2811,7 @@ Fill **layers** (Representation → Retrieval → Evaluation → …). Do not fi
 
 | Step | Layer | Why this position |
 |------|--------|-------------------|
-| 1 | `0_Start_Here` + README sister-repos + `TIMELESS.md` | Navigation. Libraries → [Tooling Data-ML](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive/tree/main/Data-ML) |
+| 1 | `Start here` + README sister-repos + Writing rules | Navigation. Libraries → [Tooling Data-ML](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive/tree/main/Data-ML) |
 | 2 | Representation | Nothing else exists without an encoding |
 | 3 | Retrieval-And-Grounding + Applied case | Evidence-conditioned systems |
 | 4 | Evaluation | Otherwise you cannot tell if a change worked |
@@ -2921,11 +2821,11 @@ Fill **layers** (Representation → Retrieval → Evaluation → …). Do not fi
 | 8 | Foundations | When experiment design blocks you |
 | 9 | Instances/ | Optional dated map — last, and disposable |
 
-**Sister repos:** [DE TIMELESS](../Data-Engineering-Deep-Dive/TIMELESS.md) · [Databases vector](../Databases-Deep-Dive/PLANNED_ENGINES.md) · [System-Design Primer-Gaps/12](../System-Design-Concepts/Primer-Gaps/12_RAG_and_LLM_Gateway_Design.md)
+**Sister repos:** [Data Engineering](../Data-Engineering-Deep-Dive/README.md) · [Databases vector](../Databases-Deep-Dive/README.md) · [System-Design Primer-Gaps/12](../System-Design-Concepts/Primer-Gaps/12_RAG_and_LLM_Gateway_Design.md)
 
-### TIMELESS.md
+### Writing rules
 
-# Timeless rule
+# Writing rules
 
 [← README](./README.md)
 
@@ -2960,11 +2860,11 @@ This repo will outlive any tokenizer, adapter recipe, serving runtime, tool prot
 10. Applied — systems that use the layers  
 11. Instances — dated market map  
 
-### TOPICS_TO_COVER.md
+### Topics to cover
 
 # Topics to cover — next step forward
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md) · [Timeless](./TIMELESS.md)
+[← README](./README.md) · Write order · Writing rules
 
 Tick when a file has no `*(Content TBD)*`. Order is **layers of the problem**, not this year’s stack.
 
@@ -3063,7 +2963,7 @@ Tick when a file has no `*(Content TBD)*`. Order is **layers of the problem**, n
 |---------|----------------|
 | Vector *engines* | [Databases-Deep-Dive/vector](../Databases-Deep-Dive/Vector/README.md) |
 | Gateway / cache / rate limit | [System-Design-Concepts/Primer-Gaps/12](../System-Design-Concepts/Primer-Gaps/12_RAG_and_LLM_Gateway_Design.md) |
-| Capture → transform → orchestrate | [Data-Engineering-Deep-Dive](../Data-Engineering-Deep-Dive/TIMELESS.md) |
+| Capture → transform → orchestrate | [Data-Engineering-Deep-Dive](../Data-Engineering-Deep-Dive/README.md) |
 | Runtime / GPU cluster | Containerization · DevOps-Handbook |
 | Full cyber program | Security-Deep-Dive |
 | Hello-world of a named framework | Tooling-and-Frameworks-Deep-Dive |
@@ -3074,18 +2974,18 @@ Tick when a file has no `*(Content TBD)*`. Order is **layers of the problem**, n
 
 Public intro: [Deep-Dives/Tooling-and-Frameworks-Deep-Dive/README.md](../../Deep-Dives/Tooling-and-Frameworks-Deep-Dive/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — Tooling and frameworks
 
-*(Copied from Tooling `0_Start_Here.md` — atlas / timeless / topics now live in this file.)*
+*(On-ramp for Tooling — atlas / writing rules / topics live in this syllabus.)*
 
 ## Who this repo is for
 
 A **backend engineer** who wants Spring or FastAPI. A **frontend engineer** who wants React. Anyone who needs “when to pick this framework” without a language textbook.
 
 If you wanted **how DevOps works**, you are in the wrong room → [DevOps Handbook](../DevOps-Handbook/Methodologies/0_SE_Learning_DevOps_Start_Here.md).  
-If you wanted **architecture**, → [System Design](../System-Design-Concepts/0_Start_Here.md).
+If you wanted **architecture**, → [System Design](../System-Design-Concepts/README.md).
 
 ## Path
 
@@ -3101,13 +3001,13 @@ If you wanted **architecture**, → [System Design](../System-Design-Concepts/0_
 - [x] Domains match the atlas (backend / frontend doors)
 - [ ] First framework topic filled (not just stubbed)
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # Tooling — content write order
 
 **Repo #10** · Door for application code — see Part B (reader atlas) in this file.
 
-**Rule:** [TIMELESS.md](./TIMELESS.md) · **Tracker:** [TOPICS_TO_COVER.md](./TOPICS_TO_COVER.md)
+**Rule:** Writing rules · **List:** Topics to cover
 
 Fill the framework you *use*, not a popularity list.
 
@@ -3115,14 +3015,14 @@ Fill the framework you *use*, not a popularity list.
 
 | Step | Where |
 |------|--------|
-| 1 | Atlas + this `0_Start_Here` |
+| 1 | Atlas + Start here |
 | 2 | `Web-Backend/` — FastAPI, Spring, or [Express](./Web-Backend/Express/README.md) (your stack) |
 | 3 | `Web-Frontend/` — React, Next if needed |
 | 4 | `Specs-Standards/` — OpenAPI first; SOAP + MCP already stubbed |
 | 5 | Add named software under the *job* domain (`Network-Utilities/`, `Containers/`, `Data-ML/`, `Security/`, …). **Never** a `Tools/` folder. |
 | 6 | Do **not** duplicate Spark/Kafka/Airflow — DE `Systems/` |
 
-## From older DevOps `PLAN_…` Frameworks v1 (not created here yet)
+## Frameworks v1 (seed in Tooling — not created yet)
 
 The old DevOps plan listed these as a `Frameworks/` folder **in DevOps**. That home is this repo. **Do not add a folder until you use the tool** — this table is only so the old list is not lost.
 
@@ -3136,9 +3036,9 @@ The old DevOps plan listed these as a `Frameworks/` folder **in DevOps**. That h
 | Nest | `Web-Backend/Nest/` | no — ask before creating |
 | Rails, Laravel | `Web-Backend/` | no — ask before creating |
 
-### TIMELESS.md
+### Writing rules
 
-# Timeless rule
+# Writing rules
 
 [← README](./README.md) · atlas now lives in Part B of this file
 
@@ -3157,7 +3057,7 @@ A new framework: add a folder under the domain. Do not add a new domain unless t
 
 Spark / Kafka / Airflow / Trino **do not live here** — [Data-Engineering Systems](https://github.com/thisiskushal31/Data-Engineering-Deep-Dive/tree/main/Systems). Learning *jobs* live in [DS-AI](https://github.com/thisiskushal31/Data-Science-AI-Deep-Dive); a library hello-world lives under `Data-ML/`. **Never add a `Tools/` folder** — this whole repo is that catalog, split by job.
 
-### TOPICS_TO_COVER.md
+### Topics to cover
 
 # Topics to cover — next step forward
 
@@ -3259,11 +3159,11 @@ Tick when a file has no `*(Content TBD)*`. Add rows when you add a framework fol
 
 Public intro: [Deep-Dives/Security-Deep-Dive/README.md](../../Deep-Dives/Security-Deep-Dive/README.md)
 
-### 0_Start_Here.md
+### Start here
 
 # Start here — Security Deep Dive
 
-[← README](./README.md) · [Topics](./TOPICS_TO_COVER.md) · [Write order](./CONTENT_WRITE_ORDER.md)
+[← README](./README.md) · Topics · Write order
 
 You can open this repo **knowing nothing**. You do not have to finish Networks or DevOps first. Those homes hold *wire* and *pipeline* depth. This home is the security path from first VM to a program (AppSec, SOC, GRC).
 
@@ -3290,7 +3190,7 @@ Prose is still last. The **places** are here so you can fill later.
 
 See the sister-repos line on the [README](./README.md).
 
-### CONTENT_WRITE_ORDER.md
+### Write order
 
 # Security Deep Dive — content write order
 
@@ -3318,11 +3218,11 @@ Planned tree: **README (lab rule) → Foundations → Threats → Cryptography �
 
 **Do NOT duplicate:** Networks/Security (L3–L7) · DevOps/Security (pipeline) · System-Design/security-tradeoffs (design-time)
 
-### TOPICS_TO_COVER.md
+### Topics to cover
 
 # Topics to cover — Security Deep Dive
 
-[← README](./README.md) · [Write order](./CONTENT_WRITE_ORDER.md) · [Start](./0_Start_Here.md)
+[← README](./README.md) · Write order · Start
 
 Tick when a file has no `*(Content TBD)*`. Path is **basic → advanced**. You can fill this repo without finishing the other ten.
 
