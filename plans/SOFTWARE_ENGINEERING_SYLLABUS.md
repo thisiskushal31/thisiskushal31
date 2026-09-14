@@ -6,7 +6,7 @@
 
 **Not published into Deep-Dive repos or DocHub.** Lives in the private `thisiskushal31` repo under `plans/` so it survives a machine loss when that repo is pushed. Do not copy it into a public Deep-Dive root.
 
-Give this file to an agent when filling notes. Add more rulebook / guardrail sections below as you need them.
+Give this file to an agent when filling notes. Add more rulebook sections below as you need them. **When merging Archive sources into public Deep-Dive notes:** Part A **rule 10**.
 
 Public surface of each Deep-Dive: **one root `README.md`** plus topic files under job folders. Planning, write-order, stub status, and goals live **only here**.
 
@@ -28,6 +28,46 @@ Site config (the same 11 names): `dochub/src/config/repositories.ts`. `dochub/` 
 6. **Do not commit** unless asked.
 7. **Title folders and files; keep real command names.** Job folders and topic files use Title Case (`Local-Dev/`, `1_LRU_Cache.md`). Do not leave all-lowercase kebab dumps unless the name **is** the command (`psql`, `mysql`, `mongosh`, `ping`, `curl`, `kubectl`, `k9s`, `bq`). Product courses (Docker, Kubernetes, GKE) still get Title Case. Keep `complx` as `complx` when that is the chosen spelling.
 8. **Do not put planning files back on a Deep-Dive repo root.** Write-order, planned lists, stub status, and goals live **only in this syllabus**. Do not recreate root trackers (`TIMELESS.md`, `THIN_TOPICS.md`, `TOPICS_TO_COVER.md`, `PLAN_*.md`, `CONTENT_WRITE_ORDER.md`, `0_Start_Here.md`, `PLANNED_*.md`, `COVERAGE_MATRIX.md`). Folder-level `README.md` files stay (they introduce that folder’s notes).
+9. **Timeless and full-spectrum coverage (guardrail).** Deep-Dive notes must cover the **whole craft surface**, not only the fashionable slice of the moment.
+   - **Languages (model):** like `DevOps-Handbook/Languages/Python/` — cover the language thoroughly; when behavior depends on a version, **say so** (e.g. feature from 3.10+, legacy 2.7 still seen in brownfield). Reader should know what works where.
+   - **Spectrum:** include **very legacy** (e.g. COBOL/mainframe promote, CVS/SVN, FTP/copy, classic VMs), **mainstream non-cloud-native** (VM fleets, MIGs/ASGs, static sites + CDN), **modern** (containers, GitOps, progressive delivery), and **current assisted/AI-era** delivery (assistants on the same gated loop — policy, small batches, revert). Do not skip COBOL-era or VM-era paths because they are unfashionable; fintech and enterprises still run them.
+   - **Durable vs named:** write **durable jobs** (build, artifact, promote, verify, rollback) first; treat vendor/CLI names as examples that can change. Prefer “this mechanism family” over “only this year’s product.”
+   - **No year-as-identity framing** in prose (“the 2026 way”). Version/generation gates are fine (“OIDC federation”, “`match` since Python 3.10”).
+   - **CiCd pointer:** deployment-target spectrum lives in [CiCd/19](../../Deep-Dives/DevOps-Handbook/CiCd/19_Delivery_Spectrum_Legacy_Through_Modern.md), [17 static/CDN](../../Deep-Dives/DevOps-Handbook/CiCd/17_Static_Sites_And_CDN_Deploy.md), [18 VM/MIG](../../Deep-Dives/DevOps-Handbook/CiCd/18_VM_MIG_And_Host_Based_Deploy.md), classical Jenkins/host/Compose/Swarm ([20](../../Deep-Dives/DevOps-Handbook/CiCd/20_Classical_Jenkins_Host_And_Web_Deploy.md)–[21](../../Deep-Dives/DevOps-Handbook/CiCd/21_Compose_And_Swarm_Delivery.md)), MLOps/AI systems ([22](../../Deep-Dives/DevOps-Handbook/CiCd/22_MLOps_And_AI_System_Delivery.md)), and the [classical stack map](../../Deep-Dives/DevOps-Handbook/CiCd/23_Classical_DevOps_Stack_Map.md). Methodologies posture: [9](../../Deep-Dives/DevOps-Handbook/Methodologies/9_Maintenance_And_Legacy.md) + [20](../../Deep-Dives/DevOps-Handbook/Methodologies/20_Delivery_Reality_Full_Spectrum.md); amplifiers [19](../../Deep-Dives/DevOps-Handbook/Methodologies/19_Durable_Mindsets_And_Evolving_Toolsets.md).
+   - **CiCd / Methodologies staircases:** readers climb [Methodologies README](../../Deep-Dives/DevOps-Handbook/Methodologies/README.md) (mindset floors 0–6, including legacy/full spectrum) then [CiCd README](../../Deep-Dives/DevOps-Handbook/CiCd/README.md) (delivery floors 1–6). Arrange and cross-link as a **staircase**, not a fragment dump or calendar of eras. Mindset companion for spectrum: [Methodologies/20](../../Deep-Dives/DevOps-Handbook/Methodologies/20_Delivery_Reality_Full_Spectrum.md).
+   - When filling **any** Deep-Dive folder, ask: *Did I leave out legacy, boring-mainstream, classical host/Jenkins/Compose, assisted-modern, or MLOps/distributed AI delivery that a working engineer still hits?* If yes, add a chapter or an explicit related-repo door — do not leave a blind spot.
+10. **Filling public Deep-Dive notes from Archive sources (every repo).** There is **not** one handbook source — there are **many** under `Archive/` (e.g. `DevOps-Handbook-Source/`, `Networks-Deep-Dive-Source/`, clones and link dumps inside them, and any future `*-Source` / scrape trees). Agents use those dumps to **write** public notes under `Deep-Dives/<repo>/`. **Readers never open Archive or this syllabus.** Edit this rule when a domain needs a permanent exception.
+
+    **When you copy / merge from a source into the public handbook, do not:**
+    - Paste wholesale or leave the public page reading like someone else’s tutorial dump — rewrite in handbook voice; keep depth (do not summarize away meaning), but **own** the prose.
+    - Invent facts not supported by the source (or another trusted official reference you are actually using).
+    - Put **“source: …”**, “from repo X”, “according to the docs…”, clone paths, scrape paths, `*_LINKS.md`, or any **Archive / `*-Source` path** in public `.md`.
+    - Add mid-body “go read this URL” redirects; optional **Further reading / References** only at chapter/README **end**, preferably **official** project/docs hubs (not Medium/TutorialsPoint/random blogs unless that home’s Source README explicitly allows a listed URL style — still never link Archive).
+    - Leak meta about how the book was built, scrape reports, or clone maps into the public tree.
+    - Publish a public “how we author” / process section — author rules live here (and in Archive Source READMEs for that home), not in DocHub pages.
+
+    **Public page must stand alone:** Deep-Dive is standalone for readers (same idea as Networks and other multi-source Archive homes). Do not add “source: …” or redirects to Archive / clones. Source folders are temporary staging and may be deleted after extraction.
+
+    **Learning shape (each chapter and the track)**
+    | Stage | Reader gets |
+    |-------|-------------|
+    | **1. Basic concepts** | What it is, why it exists, mental model, minimum to reason |
+    | **2. Advanced concepts** | Edge cases, internals, gotchas, version/platform nuance, staff depth |
+    | **3. Use cases / applications** | Where it shows up; whole-engineering angles (app, systems, security, ops, SE) |
+    | **4. Staff checklist** (when enforceable) | Review criteria as plain `-` bullets — **not** `- [ ]` |
+
+    - Do not jump to advanced without basics; do not end on theory alone; do not dump use cases before the concept is clear.
+    - Folder READMEs / progression tables should match that arc. **Tool folders:** default is a short primer (what/when → loop → first use → pitfalls → official further reading). When the user asks for **depth** on a named tool (model: Languages tracks; e.g. `CiCd/Argo_CD/` chapters 01–N), write a **standalone multi-chapter track** — the handbook teaches the product; official URLs only at chapter **References**, not as “go read upstream instead.”
+
+    **Craft voice**
+    - **Text first**, then code/YAML only when it illustrates a rule — no decorative paste.
+    - Whole craft framing (not one-slogan / fashion-only); prefer current narrative with brownfield called out where it still matters (rule 9).
+    - Images optional: store under the public repo’s assets path, relative links, **credit** beside the figure; no stock filler.
+
+    **Order of work**
+    1. Use the right Archive Source for that home (LINKS / MAPPING / clones).  
+    2. Merge into the mapped public file(s).  
+    3. Pre-check: standalone voice? basic→advanced→use cases (or primer equivalent)? no Archive leaks? further reading OK?
 
 If two folders start answering the same *what/why*, convert the extra one to a one-line pointer on that repo’s README. Do not add an `Entry-Points/` folder.
 
@@ -53,7 +93,7 @@ All 11 clones: `Deep-Dives/`
 
 | Slice | Write it in | Others |
 |-------|-------------|--------|
-| What Docker / K8s *are* | Containerization | DevOps README sister table |
+| What Docker / K8s *are* | Containerization | DevOps README related table |
 | How a pipeline *ships* a container | DevOps `CiCd/` | Not a Jenkins book in Containerization |
 | Kafka the engine | Data Engineering `Systems/Kafka/` | System Design = when a design needs a log |
 | Spark | Data Engineering `Systems/Spark/` | Not Tooling, not DS-AI |
@@ -226,7 +266,7 @@ When a new framework appears: add a folder under the job. Do not add an 12th “
 
 The 11 DocHub repos are **one syllabus**, split so git and DocHub stay manageable. They are not competing courses.
 
-**Rule:** A topic is written in **one** place. Every other repo that needs it uses a one-line pointer on its `README.md` (directory / sister-repos table). Do not add an `Entry-Points/` folder.
+**Rule:** A topic is written in **one** place. Every other repo that needs it uses a one-line pointer on its `README.md` (directory / related-repos table). Do not add an `Entry-Points/` folder.
 
 | Slice of the same topic | Who *writes* it | Who only *points* |
 |-------------------------|-----------------|-------------------|
@@ -868,7 +908,7 @@ Tooling-and-Frameworks-Deep-Dive/
 
 ```
 Security-Deep-Dive/
-├── README.md                    ← Roadmap + prerequisites + link to all sister repos
+├── README.md                    ← Roadmap + prerequisites + link to all related repos
 ├── Foundations/
 │   ├── 1_Security_Principles_Confidentiality_Integrity_Availability.md
 │   ├── 2_Threat_Modeling_STRIDE.md
@@ -992,7 +1032,7 @@ These already have substantial content. Ongoing work = fill gaps, not greenfield
 
 **Purpose:** One chart so you never wonder “am I missing a domain?” Benchmarked against 2025–2026 industry roadmaps (system design interview rubrics, full-stack+DevOps paths, data engineering roadmaps, cybersecurity curricula). **Detailed System Design map:** Part E industry coverage matrix.
 
-**Legend:** ✅ solid · ⚠️ partial/stubs · ❌ empty · 🔗 owned by sister repo (intentional)
+**Legend:** ✅ solid · ⚠️ partial/stubs · ❌ empty · 🔗 owned by related repo (intentional)
 
 ### 13.1 Repo readiness snapshot
 
@@ -1116,7 +1156,7 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 3. [CiCd/](./CiCd/README.md) — how software ships
 4. [IAC/](./IAC/README.md) → [Cloud/](./Cloud/README.md)
 5. [Observability/](./Observability/README.md) + [Security/](./Security/README.md) (pipeline grain)
-6. Sister repos on the [README](./README.md) when you need Docker / networks / DBs in full
+6. Related repos on the [README](./README.md) when you need Docker / networks / DBs in full
 
 *(Content TBD — stub created September 2026)*
 
@@ -1137,13 +1177,13 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 
 | Step | Location | Action |
 |------|----------|--------|
-| 1 | [Methodologies/0_SE_Learning_DevOps_Start_Here.md](./Methodologies/0_SE_Learning_DevOps_Start_Here.md) | SE on-ramp + links to sister repos |
+| 1 | [Methodologies/0_SE_Learning_DevOps_Start_Here.md](./Methodologies/0_SE_Learning_DevOps_Start_Here.md) | SE on-ramp + links to related repos |
 | 2 | [CiCd/1–7](./CiCd/README.md) | Full delivery loop: pipelines → tools map → strategies → artifacts → verify → supply chain → DB migrations |
 | 3 | [Security/1–5](./Security/README.md) | Secrets, compliance grain, tools map, **gate chain**, OIDC/CI least privilege |
 | 4 | [IAC/1–3](./IAC/README.md) | Patterns, state/modules/backends, multi-cloud practices |
 | 5 | [Observability/1–3](./Observability/README.md) | Metrics, logs/traces, tools map |
 | 6 | [Methodologies/](./Methodologies/README.md) topics 1–8 | Culture → branching → SRE/on-call → DORA → ChatOps → docs → FinOps (as needed) |
-| 7 | [README](./README.md) sister-repos table | Keep pointers current — no `Entry-Points/` folder |
+| 7 | [README](./README.md) related-repos table | Keep pointers current — no `Entry-Points/` folder |
 | 8 | [Servers/](./Servers/README.md) / [Cloud/](./Cloud/README.md) | Web servers + cloud literacy when delivery notes need them |
 | 9 | [Cloud-Native/4_CNCF_Everyday_Tools.md](./Cloud-Native/4_CNCF_Everyday_Tools.md) + tool stubs | cert-manager, ExternalDNS, Backstage |
 | 10 | Vendor / tool folders under CiCd, Security, IAC, Observability | After concepts exist — one folder at a time when you use the tool |
@@ -1186,11 +1226,11 @@ These were already promised in the completeness plan. They stay on this write-or
 | [Servers/](./Servers/) | Yes | nginx, Apache, Caddy, Traefik, HAProxy, IIS, host lifecycle |
 | [Cloud/](./Cloud/) | Yes | Multi-cloud literacy for SEs doing DevOps |
 
-**Not a new folder here:** Application frameworks → [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive). Sister-repo pointers live on the [README](./README.md).
+**Not a new folder here:** Application frameworks → [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive). Related-repo pointers live on the [README](./README.md).
 
 ---
 
-## Sister repos (README table)
+## Related repos (README table)
 
 | Repo | Pointer |
 |------|---------|
@@ -1208,7 +1248,7 @@ These were already promised in the completeness plan. They stay on this write-or
 
 Full gap matrix: DevOps completeness plan below
 
-Mark a stub **done** when: standalone prose, image or diagram if useful, copy-paste example, sister-repo link if depth lives elsewhere, pitfalls/trade-offs section.
+Mark a stub **done** when: standalone prose, image or diagram if useful, copy-paste example, related-repo link if depth lives elsewhere, pitfalls/trade-offs section.
 
 ### DevOps completeness plan
 
@@ -1226,7 +1266,7 @@ Mark a stub **done** when: standalone prose, image or diagram if useful, copy-pa
 Anyone who ships software and wants to learn **DevOps** should be able to open **this handbook** and either:
 
 1. **Learn it here** (concepts + tools at DevOps depth), or  
-2. **See a clear entry here** (what it is, why DevOps cares, day-to-day use) **plus a link** to a sister deep-dive when depth lives elsewhere.
+2. **See a clear entry here** (what it is, why DevOps cares, day-to-day use) **plus a link** to a related deep-dive when depth lives elsewhere.
 
 They should **not** discover months later that “networking / Docker / databases / system design” were silently assumed and never pointed to.
 
@@ -1241,7 +1281,7 @@ They should **not** discover months later that “networking / Docker / database
 
 ---
 
-## Sister deep-dives (already exist — link, don’t rebuild)
+## Related deep-dives (already exist — link, don’t rebuild)
 
 Use **GitHub repo URLs** in public handbook content (same rule as root README).
 
@@ -1264,7 +1304,7 @@ Status key:
 |--------|---------|
 | **HERE-deep** | Handbook section exists or is the right deep home (may still be stub/TBD prose) |
 | **HERE-plan** | Explicitly committed in this plan (build when work resumes) |
-| **ENTRY+link** | Add/keep a **short DevOps entry** here; depth in sister repo or official docs |
+| **ENTRY+link** | Add/keep a **short DevOps entry** here; depth in related repo or official docs |
 | **GAP** | Missing from plan until now — **must add** entry or folder so SEs aren’t blind |
 
 ### A. Culture, process, collaboration
@@ -1283,10 +1323,12 @@ Status key:
 
 | Topic | Day-to-day tools / ideas | Status | Home |
 |-------|--------------------------|--------|------|
-| CI platforms | GitHub Actions, GitLab CI, Jenkins, CircleCI, Tekton | **HERE-deep** (folders) | `CiCd/` |
-| Also-ran CI (entry) | Azure DevOps Pipelines, Bitbucket Pipelines, Buildkite | **GAP → ENTRY+link** | `CiCd/2` index expansion |
-| CD / GitOps | Argo CD, Flux | **HERE-deep** | `CiCd/` |
-| Progressive delivery | Argo Rollouts, flags | **HERE-plan** (strategies) | `CiCd/3` + entry for Rollouts |
+| CI platforms (CircleCI) | CircleCI Cloud + config.yml | **HERE-deep** ([CircleCI 01–24](../../Deep-Dives/DevOps-Handbook/CiCd/CircleCI/README.md)) | `CiCd/CircleCI/` |
+| CI platforms (Buildkite) | Buildkite Pipelines + agents | **HERE-deep** ([Buildkite 01–26](../../Deep-Dives/DevOps-Handbook/CiCd/Buildkite/README.md)) | `CiCd/Buildkite/` |
+| CI platforms (Bitbucket) | Bitbucket Cloud + Pipelines | **HERE-deep** ([Bitbucket 01–21](../../Deep-Dives/DevOps-Handbook/CiCd/Bitbucket/README.md)) | `CiCd/Bitbucket/` |
+| CI platforms (Azure DevOps) | Azure DevOps (Pipelines + suite) | **HERE-deep** ([Azure_DevOps 01–25](../../Deep-Dives/DevOps-Handbook/CiCd/Azure_DevOps/README.md)) | `CiCd/Azure_DevOps/` |
+| CD / GitOps | Argo CD, Flux | **HERE-deep** (Argo CD **01–18** full track; Flux still primer-depth) | `CiCd/Argo_CD/`, `CiCd/Flux/` |
+| Progressive delivery | Argo Rollouts, flags | **HERE-deep** ([Argo_Rollouts 01–16](../../Deep-Dives/DevOps-Handbook/CiCd/Argo_Rollouts/README.md); Unleash still entry) | `CiCd/3`, `CiCd/9`, tool folders |
 | Full path test→deploy→verify | Environments, promotion, approvals | **HERE-plan** | `CiCd/` + `Methodologies/` |
 | Artifact registries | GHCR, ECR, GCR/AR, Harbor, Artifactory, Nexus | **GAP → HERE-plan** (concepts + 1–2 tools) | New under `CiCd/` or `Servers/` adjacent — **artifact management chapter** |
 | Package registries | npm, PyPI, Maven, Go proxy | **ENTRY+link** | Languages tracks + short CiCd entry |
@@ -1435,7 +1477,7 @@ When work resumes, treat these as **explicit backlog** (entry or folder—not op
 6. ChatOps / visibility  
 7. Branching practices  
 8. **Servers / web servers / host deploy + OS applied + Automation**  
-9. **SE completeness:** entries for anything covered in sister repos; no silent gaps  
+9. **SE completeness:** entries for anything covered in related repos; no silent gaps  
 10. **New gaps above** (artifacts, supply chain, cloud literacy, Docker entry, data/CDN doors, …)
 
 ---
@@ -1516,7 +1558,7 @@ Distinguish: proxy vs app upstream vs K8s Ingress vs WAF.
 | Methodologies / CiCd / IAC / Automation / Cloud-Native / Observability / Security | Scaffolded or partial — **fill** |
 | Operating-Systems / Languages | Strong — **cross-link** for deploy & SE paths |
 | Servers / Cloud literacy / artifact+supply-chain entries | **Planned / gaps** (frameworks → Tooling) |
-| Sister deep-dives | **Link from SE entries** — do not duplicate |
+| Related deep-dives | **Link from SE entries** — do not duplicate |
 
 ---
 
@@ -1543,7 +1585,7 @@ Distinguish: proxy vs app upstream vs K8s Ingress vs WAF.
 
 ---
 
-## Frameworks v1 (sister repo)
+## Frameworks v1 (related repo)
 
 Write these in [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive). This handbook only keeps the deploy/observe lens.
 
@@ -1587,7 +1629,7 @@ Write these in [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskusha
 - [Methodologies](./Methodologies/README.md) · [CiCd](./CiCd/README.md) · [IAC](./IAC/README.md) · [Automation](./Automation/README.md)  
 - [Cloud-Native](./Cloud-Native/README.md) · [Observability](./Observability/README.md) · [Security](./Security/README.md)  
 - [Operating-Systems](./Operating-Systems/README.md) · [Languages](./Languages/README.md)  
-- Sister repos: [Networks](https://github.com/thisiskushal31/Networks-Deep-Dive) · [Containers](https://github.com/thisiskushal31/Containerization-Deep-Dive) · [Databases](https://github.com/thisiskushal31/Databases-Deep-Dive) · [System Design](https://github.com/thisiskushal31/System-Design-Concepts) · [Commands](https://github.com/thisiskushal31/Commands-and-Cheatsheets)
+- Related repos: [Networks](https://github.com/thisiskushal31/Networks-Deep-Dive) · [Containers](https://github.com/thisiskushal31/Containerization-Deep-Dive) · [Databases](https://github.com/thisiskushal31/Databases-Deep-Dive) · [System Design](https://github.com/thisiskushal31/System-Design-Concepts) · [Commands](https://github.com/thisiskushal31/Commands-and-Cheatsheets)
 
 ---
 
@@ -1616,7 +1658,7 @@ Public intro: [Deep-Dives/Containerization-Deep-Dive/README.md](../../Deep-Dives
   - [ ] Managed-Services (pick your cloud)
   - [ ] Local-Dev + Serverless-Containers (new sections)
 - When to read **DevOps-Handbook** vs this repo (delivery vs container/K8s depth)
-- Sister repos → [README](./README.md)
+- Related repos → [README](./README.md)
 
 ## You already have content here
 
@@ -1625,7 +1667,7 @@ Most of `Containerization-Basic/`, `Runtimes/`, `Orchestration/Kubernetes`, and 
 ## Checklist before marking done
 
 - [ ] Checkbox learning path for monthly tracking
-- [ ] Sister-repo pointers on README
+- [ ] Related-repo pointers on README
 - [ ] One diagram: VM → container → orchestrator → managed K8s
 
 ### Write order
@@ -1658,7 +1700,7 @@ Most of `Containerization-Basic/`, `Runtimes/`, `Orchestration/Kubernetes`, and 
 
 | Step | Location | Why |
 |------|----------|-----|
-| 1 | Start here | On-ramp + sister-repo matrix |
+| 1 | Start here | On-ramp + related-repo matrix |
 | 2 | [README](./README.md) | Doors to DevOps, Networks, Security, System Design |
 | 3 | [Local-Dev/](./Local-Dev/README.md) | kind, minikube, k3d, Tilt/Skaffold — expand turnkey one-liners |
 | 4 | [Runtimes/Containerd/](./Runtimes/Containerd/README.md) + [CRI-O/](./Runtimes/CRI-O/README.md) | What K8s actually runs under Docker |
@@ -1672,7 +1714,7 @@ Most of `Containerization-Basic/`, `Runtimes/`, `Orchestration/Kubernetes`, and 
 
 ---
 
-## Sister repos (link, do not duplicate)
+## Related repos (link, do not duplicate)
 
 | Domain | Repository | Entry file |
 |--------|------------|------------|
@@ -1689,7 +1731,7 @@ DevOps handbook points **in** here → [DevOps Handbook](../DevOps-Handbook/READ
 ## Done when (repo #2)
 
 - [ ] Every **stub** folder has at least one filled topic (not just README)
-- [ ] `Start here` links learning path + sister repos
+- [ ] `Start here` links learning path + related repos
 - [ ] Serverless + Local-Dev sections exist (today: gaps)
 - [ ] containerd/CRI-O documented for K8s operators
 - [ ] Security-Advanced points to Security-Deep-Dive for AppSec/IR depth
@@ -1732,7 +1774,7 @@ Public intro: [Deep-Dives/Networks-Deep-Dive/README.md](../../Deep-Dives/Network
   - [ ] [Home-Lab/](./Home-Lab/README.md) — build a safe practice network
   - [ ] [Advanced/](./Advanced/README.md) — QUIC, wireless, enterprise Cisco
 - When to read **Security/** here vs **Security-Deep-Dive** (network layer vs full cyber program)
-- Sister repos → [README](./README.md)
+- Related repos → [README](./README.md)
 
 ## You already have content here
 
@@ -1741,7 +1783,7 @@ Most of Foundations through Observability is **written** (~60 topic files). Star
 ## Checklist before marking done
 
 - [ ] Checkbox learning path for monthly tracking
-- [ ] Sister-repo pointers on README
+- [ ] Related-repo pointers on README
 - [ ] One diagram: home lab → enterprise → cloud VPC (ASCII or Assets/)
 
 ### Write order
@@ -1775,7 +1817,7 @@ Most of Foundations through Observability is **written** (~60 topic files). Star
 
 | Step | Location | Why |
 |------|----------|-----|
-| 1 | Start here + [README](./README.md) | On-ramp + sister-repo matrix |
+| 1 | Start here + [README](./README.md) | On-ramp + related-repo matrix |
 | 2 | Advanced + Labs short notes | Deepen short Advanced/Labs files before new folders |
 | 3 | [Home-Lab/](./Home-Lab/README.md) | Guided home/SOHO lab path → links [Labs/4](./Labs/4_Labs_Vms.md) + Routing scale spectrum |
 | 4 | [Labs-Expanded/](./Labs-Expanded/README.md) | Step-by-step captures and validation labs |
@@ -1786,7 +1828,7 @@ Most of Foundations through Observability is **written** (~60 topic files). Star
 
 ---
 
-## Sister repos (link, do not duplicate)
+## Related repos (link, do not duplicate)
 
 | Domain | Repository | Entry file |
 |--------|------------|------------|
@@ -1845,7 +1887,7 @@ Public intro: [Deep-Dives/Databases-Deep-Dive/README.md](../../Deep-Dives/Databa
   - **Cloud:** [Cloud-Managed/](./Cloud-Managed/README.md)
   - **AI/RAG track:** [Vector/Qdrant/](./Vector/Qdrant/README.md) (priority) then [pgvector](./Vector/Pgvector/README.md) → retrieval job in DS-AI
 - When to read **blog series** vs **this repo** (strategy vs implementation)
-- Sister repos → [README](./README.md)
+- Related repos → [README](./README.md)
 
 ## Already written (start reading, not writing)
 
@@ -1854,7 +1896,7 @@ MySQL, PostgreSQL, DuckDB (embedded OLAP), MongoDB, Redis, Aerospike, Elasticsea
 ## Checklist before marking done
 
 - [ ] Checkbox paths for monthly learning
-- [ ] Sister-repo pointers on README
+- [ ] Related-repo pointers on README
 
 ### Write order
 
@@ -1888,7 +1930,7 @@ MySQL, PostgreSQL, DuckDB (embedded OLAP), MongoDB, Redis, Aerospike, Elasticsea
 | Step | Focus | Why |
 |------|--------|-----|
 | 0 | Fix [Concepts/README.md](./Concepts/README.md) broken links | Points to removed `NoSQL/1-mysql.md` paths |
-| 1 | Start here + [README](./README.md) | Navigation + sister repos |
+| 1 | Start here + [README](./README.md) | Navigation + related repos |
 | 2 | **Vector** — [Qdrant](./Vector/Qdrant/README.md) first (production priority), then [pgvector](./Vector/Pgvector/README.md), then Weaviate/Milvus/Pinecone | RAG / DS-AI path — retrieval *job* stays in DS-AI |
 | 3 | **Blob/object** — [GCS/](./Blob-Object/GCS/README.md), [S3/](./Blob-Object/S3/README.md), MinIO | DE + backups + static assets |
 | 4 | [Data-Platform/](./Data-Platform/README.md) | Pipelines, migrations, ops at platform layer → DE repo |
@@ -1902,7 +1944,7 @@ Track per-engine progress in Engines to fill below.
 
 ---
 
-## Sister repos
+## Related repos
 
 | Domain | Repository | Entry |
 |--------|------------|-------|
@@ -2050,7 +2092,7 @@ Public intro: [Deep-Dives/System-Design-Concepts/README.md](../../Deep-Dives/Sys
   - [ ] [Cases/](./Cases/README.md) — product designs end-to-end
 - When to read **Networks** (wire depth) vs **this repo** (component trade-offs)
 - When to read **Databases-Deep-Dive** (engine ops) vs **Databases/** here (design selection)
-- Sister repos → [README](./README.md)
+- Related repos → [README](./README.md)
 
 ## Already written (start reading)
 
@@ -2059,7 +2101,7 @@ Most component folders have content; **Observability/** and several **Fundamenta
 ## Checklist before marking done
 
 - [ ] Checkbox paths for monthly tracking
-- [ ] Sister-repo pointers on README
+- [ ] Related-repo pointers on README
 - [ ] One diagram: requirements → HLD → components → bottlenecks → failure modes
 
 ### Write order
@@ -2096,7 +2138,7 @@ Most component folders have content; **Observability/** and several **Fundamenta
 
 | Step | Location | Why |
 |------|----------|-----|
-| 1 | Start here + [README](./README.md) | On-ramp + sister-repo matrix |
+| 1 | Start here + [README](./README.md) | On-ramp + related-repo matrix |
 | 2 | Fundamentals + Observability | Deepen short notes (observability, availability, fundamentals) first |
 | 3 | [Failure-Modes/](./Failure-Modes/README.md) | Design-time failure analysis — ecosystem gap |
 | 4 | [Security-Tradeoffs/](./Security-Tradeoffs/README.md) | Link [Security/](./Security/README.md) → Security-Deep-Dive without duplicating |
@@ -2108,7 +2150,7 @@ Most component folders have content; **Observability/** and several **Fundamenta
 
 ---
 
-## Sister repos (link, do not duplicate)
+## Related repos (link, do not duplicate)
 
 | Domain | Repository | Entry file |
 |--------|------------|------------|
@@ -2121,14 +2163,14 @@ Most component folders have content; **Observability/** and several **Fundamenta
 
 **Inbound links:** DevOps [DNS_CDN_And_Load_Balancers](../DevOps-Handbook/README.md) · Networks [System_Design](../Networks-Deep-Dive/README.md) · Databases [System_Design](../Databases-Deep-Dive/README.md)
 
-**Overlap rule:** This repo owns **trade-offs at architecture level** (CAP, sharding, caching, case studies). Sister repos own **implementation and operations depth**.
+**Overlap rule:** This repo owns **trade-offs at architecture level** (CAP, sharding, caching, case studies). Related repos own **implementation and operations depth**.
 
 ---
 
 ## Repo #5 done when
 
 - [ ] Every **stub** folder has ≥1 filled topic (not just README)
-- [ ] Industry coverage matrix — no ❌ rows left without stub or sister-repo link
+- [ ] Industry coverage matrix — no ❌ rows left without stub or related-repo link
 - [ ] Priority short Fundamentals/Observability/Security notes expanded to full style
 - [ ] [Primer-Gaps/](./Primer-Gaps/README.md) — 12 industry topics filled
 - [ ] Cases 1–17 have **Failure modes** + capacity sketch where applicable
@@ -2145,7 +2187,7 @@ Replace `*(Content TBD)*`, satisfy **Planned coverage** + **Checklist before mar
 
 **Purpose:** Map **2025–2026 industry checklists** (DesignGurus, FAANG prep guides, CalibreOS HLD rubric) to **this repo** so nothing is forgotten. Update when you fill a gap.
 
-**Legend:** ✅ covered (adequate depth) · ⚠️ partial / thin · 📁 stub only · ❌ missing · 🔗 sister repo owns depth
+**Legend:** ✅ covered (adequate depth) · ⚠️ partial / thin · 📁 stub only · ❌ missing · 🔗 related repo owns depth
 
 Benchmark sources (August 2026): [DesignGurus 2026 rubric](https://www.designgurus.io/system-design-interview), [CalibreOS HLD guide](https://www.calibreos.com/blog/hld-system-design-interview-complete-guide), common FAANG topic lists (rate limiter, feed, chat, storage, search, payments).
 
@@ -2278,7 +2320,7 @@ Full list: Cases to fill below
 2. **12 primer-gaps stubs** — gossip, bloom filters, 2PC/saga standalone, search-at-scale, etc.
 3. **Cases** — most are outlines; need failure modes + capacity math
 4. **2026 tier** — RAG/Vector/LLM gateway design (stubs in `Primer-Gaps/`)
-5. **Sister repos** — engine depth (Databases), wire depth (Networks), cyber capstone (Security) — by design, not duplication
+5. **Related repos** — engine depth (Databases), wire depth (Networks), cyber capstone (Security) — by design, not duplication
 
 **Fill order:** Write order → [Primer-Gaps/](./Primer-Gaps/README.md) → Cases to fill
 
@@ -2359,9 +2401,9 @@ Interview coding prep + pattern reference. **Theory is here;** scale trade-offs 
 - [ ] Leetcode/Graph/ — empty today
 - [ ] [SystemDesignBridge/](./SystemDesignBridge/README.md) — patterns that appear in SD interviews
 
-## Sister repos
+## Related repos
 
-→ sister repos on the [README](./README.md)
+→ related repos on the [README](./README.md)
 
 ## Checklist before marking done
 
@@ -2396,7 +2438,7 @@ Interview coding prep + pattern reference. **Theory is here;** scale trade-offs 
 
 | Step | Location | Why |
 |------|----------|-----|
-| 1 | Start here + [README](./README.md) | On-ramp + sister repos |
+| 1 | Start here + [README](./README.md) | On-ramp + related repos |
 | 2 | Problems to fill | Track empty LeetCode categories + target count (below) |
 | 3 | [SystemDesignBridge/](./SystemDesignBridge/README.md) | Map patterns → System Design (rate limit, LRU, top-K) |
 | 4 | Fill **Design** + **Heap** LeetCode categories | Interview staples (LRU, LFU, 295, 703) |
@@ -2407,7 +2449,7 @@ Interview coding prep + pattern reference. **Theory is here;** scale trade-offs 
 
 ---
 
-## Sister repos
+## Related repos
 
 | Domain | Repository | Entry file |
 |--------|------------|------------|
@@ -2520,7 +2562,7 @@ This repo is a **reference**, not a course. If you know nothing: pick the tool y
 ## Path
 
 1. Find the topic in [README.md](./README.md)
-2. If you need *why*, open the sister Deep-Dive (DevOps, Networks, Databases, …)
+2. If you need *why*, open the related Deep-Dive (DevOps, Networks, Databases, …)
 
 *(Content TBD — stub created September 2026)*
 
@@ -2528,13 +2570,13 @@ This repo is a **reference**, not a course. If you know nothing: pick the tool y
 
 # Commands and Cheatsheets — content write order
 
-**Repo #7** · ~86 MD files · **Reference only** — no deep dives (sister repos own depth).
+**Repo #7** · ~86 MD files · **Reference only** — no deep dives (related repos own depth).
 
 ## Lane K — maintain order
 
 | Step | Action |
 |------|--------|
-| 1 | Cross-link to sister repos in root README |
+| 1 | Cross-link to related repos in root README |
 | 2 | Add K8s, Docker, AWS CLI cheatsheets (today GCP-heavy) |
 | 3 | ~~Fix `Langauges/` typo~~ → `Languages/` |
 | 4 | New tools → add here when adopted in other repos |
@@ -2570,14 +2612,14 @@ A new engine is a new `Systems/<Name>/`. It is not a new layer.
 - [ ] A [Use-Cases/](./Use-Cases/README.md) path that uses more than one system
 - [ ] Storage roles, serving, governance
 
-## Sister-repo matrix
+## Related-repo matrix
 
-→ sister repos on the [README](./README.md)
+→ related repos on the [README](./README.md)
 
 ## Checklist before marking this file done
 
 - [x] Layers + Systems/ + Use-Cases/ exist
-- [x] Sister-repo pointers on README
+- [x] Related-repo pointers on README
 - [ ] First Foundations topic filled (not just stubbed)
 
 ### Write order
@@ -2605,7 +2647,7 @@ Fill **layers** (the job) enough to think, then a **system** folder (Spark, Kafk
 | 9 | Serving, Governance, Platform-Ops | |
 | 10 | Instances/ | Dated index only |
 
-**Sister repos:** [Databases](../Databases-Deep-Dive/README.md) · [DevOps-Handbook Languages](../DevOps-Handbook/Languages/README.md) · [System-Design Primer-Gaps/10](../System-Design-Concepts/Primer-Gaps/10_Batch_and_Stream_Processing.md) · [Data Science & AI](../Data-Science-AI-Deep-Dive/README.md)
+**Related repos:** [Databases](../Databases-Deep-Dive/README.md) · [DevOps-Handbook Languages](../DevOps-Handbook/Languages/README.md) · [System-Design Primer-Gaps/10](../System-Design-Concepts/Primer-Gaps/10_Batch_and_Stream_Processing.md) · [Data Science & AI](../Data-Science-AI-Deep-Dive/README.md)
 
 ### Writing rules
 
@@ -2798,14 +2840,14 @@ Follow Topics to cover **Next** — build one retrieval system so the layers are
 - [ ] Adaptation strategies (condition vs update weights vs memory)
 - [ ] Foundations when an eval design blocks you
 
-## Sister-repo matrix
+## Related-repo matrix
 
-→ sister repos on the [README](./README.md)
+→ related repos on the [README](./README.md)
 
 ## Checklist before marking this file done
 
 - [x] Layers match Writing rules
-- [x] Sister-repo pointers on README
+- [x] Related-repo pointers on README
 - [ ] First Representation or Retrieval topic filled (not just stubbed)
 
 ### Write order
@@ -2822,7 +2864,7 @@ Fill **layers** (Representation → Retrieval → Evaluation → …). Do not fi
 
 | Step | Layer | Why this position |
 |------|--------|-------------------|
-| 1 | `Start here` + README sister-repos + Writing rules | Navigation. Libraries → [Tooling Data-ML](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive/tree/main/Data-ML) |
+| 1 | `Start here` + README related-repos + Writing rules | Navigation. Libraries → [Tooling Data-ML](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive/tree/main/Data-ML) |
 | 2 | Representation | Nothing else exists without an encoding |
 | 3 | Retrieval-And-Grounding + Applied case | Evidence-conditioned systems |
 | 4 | Evaluation | Otherwise you cannot tell if a change worked |
@@ -2832,7 +2874,7 @@ Fill **layers** (Representation → Retrieval → Evaluation → …). Do not fi
 | 8 | Foundations | When experiment design blocks you |
 | 9 | Instances/ | Optional dated map — last, and disposable |
 
-**Sister repos:** [Data Engineering](../Data-Engineering-Deep-Dive/README.md) · [Databases vector](../Databases-Deep-Dive/README.md) · [System-Design Primer-Gaps/12](../System-Design-Concepts/Primer-Gaps/12_RAG_and_LLM_Gateway_Design.md)
+**Related repos:** [Data Engineering](../Data-Engineering-Deep-Dive/README.md) · [Databases vector](../Databases-Deep-Dive/README.md) · [System-Design Primer-Gaps/12](../System-Design-Concepts/Primer-Gaps/12_RAG_and_LLM_Gateway_Design.md)
 
 ### Writing rules
 
@@ -3199,7 +3241,7 @@ Prose is still last. The **places** are here so you can fill later.
 | Secrets and scanners in CI | DevOps-Handbook `Security/` |
 | Design-time trade-offs | System-Design-Concepts `Security-Tradeoffs/` |
 
-See the sister-repos line on the [README](./README.md).
+See the related-repos line on the [README](./README.md).
 
 ### Write order
 
