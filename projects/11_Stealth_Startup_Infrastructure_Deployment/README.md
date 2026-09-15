@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Company:** Stealth Startup  
+**Company:** Freelancer · Self-employed (multi-company client engagement)  
 **Project Type:** Production Platform - AI-Powered CI/CD SaaS Infrastructure & Compliance  
 **Status:** Live & Operational  
 **Duration:** Mar 2026 - Present  
@@ -12,7 +12,7 @@
 
 ## Executive Summary
 
-Stealth Startup is an AI-powered CI/CD SaaS. Customers connect their **GitHub Organization** via a **GitHub App**. the platform's **control / orchestration layer** provisions CI runners, orchestrates workflows and AI agents, analyzes build logs for RCA, manages Docker and GitHub Actions caching, and runs security/compliance scanning. **Ephemeral GCP Compute Engine runners** execute GitHub CI jobs on on-demand VMs, then return results and logs.
+Stealth Startup is an AI-powered CI/CD SaaS. Customers connect their **GitHub Organization** via a **GitHub App**. The platform’s **control / orchestration layer** provisions CI runners, orchestrates workflows and AI agents, analyzes build logs for RCA, manages Docker and GitHub Actions caching, and runs security/compliance scanning. **Ephemeral GCP Compute Engine runners** execute GitHub CI jobs on on-demand VMs, then return results and logs.
 
 Application components (stateful and stateless) run on **GKE/Kubernetes**. Persistent data lives in **PostgreSQL**. Messaging is split by purpose: **NATS JetStream** is the distributed communication backbone for runners, capacity, and authenticator services (runner ↔ service / community service); **Pub/Sub** handles ad hoc triggers (add-ons, log analysis, debug, and similar one-shot jobs). **MicroCeph** provides distributed **caching** (up to **80% faster CI**). **Vertex AI** hosts open-model AI workloads today; a **GPU pipeline** is in progress to self-host open models and run inference internally. Environments progress from a fully breakable **Silicon** sandbox through **development**, **staging**, and **production**.
 
@@ -87,7 +87,7 @@ Ephemeral GCP Compute Runners
 ## Planned BYOC Architecture
 
 ```
-Stealth Startup–managed infrastructure
+platform-managed infrastructure
 └── Control plane, controller, and orchestration “brain”
                     │
                     ▼

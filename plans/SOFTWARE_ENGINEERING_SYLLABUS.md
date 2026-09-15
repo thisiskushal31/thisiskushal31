@@ -1323,11 +1323,14 @@ Status key:
 
 | Topic | Day-to-day tools / ideas | Status | Home |
 |-------|--------------------------|--------|------|
+| CI platforms (GitHub Actions) | Workflows + runners on GitHub | **HERE-deep** ([GitHub_Actions 01–24](../../Deep-Dives/DevOps-Handbook/CiCd/GitHub_Actions/README.md)) | `CiCd/GitHub_Actions/` |
+| CI platforms (GitLab CI) | `.gitlab-ci.yml` + GitLab platform literacy | **HERE-deep** ([GitLab_CI 01–26](../../Deep-Dives/DevOps-Handbook/CiCd/GitLab_CI/README.md)) | `CiCd/GitLab_CI/` |
+| CI platforms (Jenkins) | Automation server; Pipeline + classical estates | **HERE-deep** ([Jenkins 01–26](../../Deep-Dives/DevOps-Handbook/CiCd/Jenkins/README.md)) | `CiCd/Jenkins/` |
 | CI platforms (CircleCI) | CircleCI Cloud + config.yml | **HERE-deep** ([CircleCI 01–24](../../Deep-Dives/DevOps-Handbook/CiCd/CircleCI/README.md)) | `CiCd/CircleCI/` |
 | CI platforms (Buildkite) | Buildkite Pipelines + agents | **HERE-deep** ([Buildkite 01–26](../../Deep-Dives/DevOps-Handbook/CiCd/Buildkite/README.md)) | `CiCd/Buildkite/` |
 | CI platforms (Bitbucket) | Bitbucket Cloud + Pipelines | **HERE-deep** ([Bitbucket 01–21](../../Deep-Dives/DevOps-Handbook/CiCd/Bitbucket/README.md)) | `CiCd/Bitbucket/` |
 | CI platforms (Azure DevOps) | Azure DevOps (Pipelines + suite) | **HERE-deep** ([Azure_DevOps 01–25](../../Deep-Dives/DevOps-Handbook/CiCd/Azure_DevOps/README.md)) | `CiCd/Azure_DevOps/` |
-| CD / GitOps | Argo CD, Flux | **HERE-deep** (Argo CD **01–18** full track; Flux still primer-depth) | `CiCd/Argo_CD/`, `CiCd/Flux/` |
+| CD / GitOps | Argo CD, Flux | **HERE-deep** (Argo CD **01–18**; Flux **01–22** full track) | `CiCd/Argo_CD/`, `CiCd/Flux/` |
 | Progressive delivery | Argo Rollouts, flags | **HERE-deep** ([Argo_Rollouts 01–16](../../Deep-Dives/DevOps-Handbook/CiCd/Argo_Rollouts/README.md); Unleash still entry) | `CiCd/3`, `CiCd/9`, tool folders |
 | Full path test→deploy→verify | Environments, promotion, approvals | **HERE-plan** | `CiCd/` + `Methodologies/` |
 | Artifact registries | GHCR, ECR, GCR/AR, Harbor, Artifactory, Nexus | **GAP → HERE-plan** (concepts + 1–2 tools) | New under `CiCd/` or `Servers/` adjacent — **artifact management chapter** |

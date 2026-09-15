@@ -2,7 +2,7 @@
 
 ## System Overview
 
-Stealth Startup is an AI-powered CI/CD SaaS. Customers connect a **GitHub Organization** through a **GitHub App**. A Monk **control / orchestration layer** provisions runners, orchestrates workflows and AI agents, analyzes failures, manages caches, and runs security/compliance scanning. **Ephemeral GCP Compute Engine runners** execute GitHub CI jobs and return results and logs.
+Stealth Startup is an AI-powered CI/CD SaaS. Customers connect a **GitHub Organization** through a **GitHub App**. A platform **control / orchestration layer** provisions runners, orchestrates workflows and AI agents, analyzes failures, manages caches, and runs security/compliance scanning. **Ephemeral GCP Compute Engine runners** execute GitHub CI jobs and return results and logs.
 
 **Infra ownership (this project):** Cloud infrastructure, runner capacity, platform deployment automation, SOC 2–aligned security/compliance, caching, and observability. Product application logic and AI agent code are owned by engineering; this document describes how services and runners are configured in production.
 
@@ -188,7 +188,7 @@ Customer code owner reviews → merge decision
 Hybrid design for enterprises that must keep sensitive code and CI execution in their own account:
 
 ```
-Stealth Startup–managed infrastructure
+platform-managed infrastructure
 └── Control plane, controller, and orchestration “brain”
                     │
                     ▼

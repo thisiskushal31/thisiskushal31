@@ -19,17 +19,17 @@ What I do today: DevOps, platform engineering, cloud-native architecture, and pr
 | **Code delivery** | 40%+ faster code delivery through CI/CD, IaC, and GitOps |
 | **Savings** | US$120K+ cloud cost reduction (30% spend cut); 93% AdTech infrastructure cost reduction by replacing third-party with in-house |
 | **Revenue platforms** | US$90M+ AdTech; US$5M+ POS across 200+ retail stores |
-| **Current (Stealth Startup)** | Greenfield AI-powered CI/CD SaaS on GCP — up to 80% faster CI; SOC 2 + ISO/IEC 27001–aligned platform; full IaC + GitOps |
+| **Current (Freelance)** | Multi-company DevOps engagements — greenfield AI CI/CD SaaS on GCP; SOC 2 + ISO/IEC 27001–aligned platform; full IaC + GitOps |
 
 ---
 
 ## 💼 Where I've Done It
 
-### Stealth Startup — DevOps Engineer · Mar 2026 – Present
+### Freelancer — DevOps Engineer · Self-employed · Mar 2026 – Present
 
-Building the production platform for an AI-powered CI/CD SaaS from the ground up on GCP: GitHub App control plane, ephemeral Compute Engine runners, GKE services, distributed caching, and compliance-ready delivery (Terraform, Atlantis, Argo CD, OpenTelemetry).
+Freelance DevOps / platform engineering across multiple companies. Current and recent work includes building production platforms for AI-powered CI/CD SaaS on GCP: GitHub App control plane, ephemeral Compute Engine runners, GKE services, distributed caching, and compliance-ready delivery (Terraform, Atlantis, Argo CD, OpenTelemetry).
 
-Impact: Greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned controls · reusable CI with semantic versioning.
+Impact: Multi-company delivery · greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned controls · reusable CI with semantic versioning.
 
 ### Purplle.com — DevOps Engineer · Jan 2023 – Feb 2026
 
@@ -45,7 +45,7 @@ Impact: US$160M+ business backbone · 10M+ users · 40%+ faster code delivery ·
 
 | # | Project | Business outcome |
 | :---: | :--- | :--- |
-| 11 | [Stealth Startup – Infrastructure & Compliance](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/11_StealthStartup_Infrastructure_Deployment/README.md) | Greenfield AI CI/CD SaaS · up to 80% faster CI · SOC 2 + ISO 27001 |
+| 11 | [Stealth Startup – Infrastructure & Compliance](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/11_Stealth_Startup_Infrastructure_Deployment/README.md) | Greenfield AI CI/CD SaaS · up to 80% faster CI · SOC 2 + ISO 27001 |
 | 1 | [Purplle – E-Commerce Platform](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/1_Purplle.com_Management/README.md) | US$160M+ revenue · 10M+ users · 99.9% uptime · 4x spike handling · US$120K+ savings |
 | 2 | [Purplle – Agentic RAG Sentiment](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/2_Purplle.com_Agentic_RAG_Sentiment_Platform/README.md) | Faster brand decisions from influencer content · GPU + vector search at scale |
 | 3 | [Purplle – Data Science Infra](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/3_Purplle.com_Data_Science_Infrastructure/README.md) | Marketing/ML platform · 50–60% manual-task cost savings |
@@ -73,7 +73,7 @@ Cloud platforms (production experience on GCP and AWS):
 | Identity & secrets | IAM, Secret Manager | IAM, Secrets Manager |
 | Observability | Cloud Monitoring, OpenTelemetry | CloudWatch, OpenTelemetry |
 
-*Production hybrid: GKE workloads with AWS edge networking (Route 53, ALB, VPC, WAF) at Purplle; current Stealth Startup platform on GCP. Kubernetes and IaC patterns apply across both clouds.*
+*Production hybrid: GKE workloads with AWS edge networking (Route 53, ALB, VPC, WAF) at Purplle; freelance multi-company platform work on GCP. Kubernetes and IaC patterns apply across both clouds.*
 
 Data & AI (deployments / infra): MySQL, MongoDB, Redis, Elasticsearch, Kafka, Qdrant, Vertex AI  
 Security: Zero Trust, RBAC, secrets management, compliance (SOC 2, ISO 27001, DPDP)

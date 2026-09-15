@@ -764,16 +764,16 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 ### 11. Stealth Startup - Infrastructure Deployment & Software Compliance
 **Status:** Production  
 **Category:** Platform Engineering  
-**Client Type:** Day Job Project  
+**Client Type:** Freelance / Self-employed (Part-time)  
 **Technologies:** GCP, GKE, Compute Engine, PostgreSQL, NATS JetStream, Pub/Sub, MicroCeph, Terraform, Atlantis, Helm, Argo CD, OpenTelemetry  
-**Demo:** [11_StealthStartup_Infrastructure_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/11_StealthStartup_Infrastructure_Deployment)
+**Demo:** [11_Stealth_Startup_Infrastructure_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/11_Stealth_Startup_Infrastructure_Deployment)
 
 **Description:** AI-powered CI/CD SaaS platform infrastructure — GitHub App control plane, ephemeral runners, GitOps, SOC 2– and ISO/IEC 27001–aligned controls.
 
 **Overview (what I've done):** Own cloud infrastructure, platform engineering, deployment automation, security, and observability. Distributed CI caching (up to 80% faster), reusable CI with semantic versioning, full IaC with Atlantis, inventory/cost audit automation.
 
-**Duration:** Mar 2026 - Present | **Role:** DevOps Engineer  
-**Impact:** Greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned.
+**Duration:** Mar 2026 - Present | **Role:** DevOps Engineer · Freelancer (Self-employed, multi-company)  
+**Impact:** Multi-company freelance delivery · greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned.
 
 ---
 
@@ -833,17 +833,23 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 
 ### Experience Summary
 - **Total Professional Experience:** January 2023 - Present
-- **Companies Worked At:** 1 (Purplle.com)
-- **Current Company:** Purplle.com
+- **Companies Worked At:** Purplle.com (full-time) + Freelancer / Self-employed (multi-company, Mar 2026 – Present)
+- **Current engagement:** Freelancer · Self-employed · DevOps Engineer (multi-company)
+- **Previous company:** Purplle.com (Jan 2023 – Feb 2026)
 - **Current role:** See Experience section (Resume or LinkedIn)
-- **Projects Deployed to Production:** 11+ (Purplle + Grid OSS; see Featured Projects)
+- **Projects Deployed to Production:** 11+ (Purplle + freelance client work + Grid OSS; see Featured Projects)
 - **Cloud Platforms:** GCP, AWS
 - **99%+ uptime** achieved across production systems
 
 ### Experience by Company
 
-**Purplle.com (January 2023 - Present):**
-- **Total Duration:** January 2023 - Present
+**Freelancer · Self-employed (March 2026 - Present):**
+- **Engagement:** Self-employed · India (Remote) · multi-company freelance DevOps
+- **Role:** DevOps Engineer
+- **Key Project:** AI-powered CI/CD SaaS infrastructure & compliance (see Featured Project 11); additional company engagements under the same freelance practice
+
+**Purplle.com (January 2023 - February 2026):**
+- **Total Duration:** January 2023 - February 2026
 - **Roles:** See Experience section — LinkedIn (broken into roles) or Portfolio for full progression; Resume for consolidated view.
 - **Key Projects:** Main e-commerce platform (Purplle.com), PurplleAds (AdTech), Nexus (POS), Data Science Infrastructure, Data Engineering Infrastructure, Legacy Admin Panels Infrastructure, Agentic RAG Sentiment Platform, Unified Observability Stack, Infrastructure as Code (IaC), Security Hardening & Zero-Trust; Grid Platform (OSS)
 
