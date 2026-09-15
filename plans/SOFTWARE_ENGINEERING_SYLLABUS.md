@@ -1326,6 +1326,7 @@ Status key:
 | CI platforms (GitHub Actions) | Workflows + runners on GitHub | **HERE-deep** ([GitHub_Actions 01–24](../../Deep-Dives/DevOps-Handbook/CiCd/GitHub_Actions/README.md)) | `CiCd/GitHub_Actions/` |
 | CI platforms (GitLab CI) | `.gitlab-ci.yml` + GitLab platform literacy | **HERE-deep** ([GitLab_CI 01–26](../../Deep-Dives/DevOps-Handbook/CiCd/GitLab_CI/README.md)) | `CiCd/GitLab_CI/` |
 | CI platforms (Jenkins) | Automation server; Pipeline + classical estates | **HERE-deep** ([Jenkins 01–26](../../Deep-Dives/DevOps-Handbook/CiCd/Jenkins/README.md)) | `CiCd/Jenkins/` |
+| CI platforms (Tekton) | K8s-native Pipelines/Triggers/PAC/Chains | **HERE-deep** ([Tekton 01–26](../../Deep-Dives/DevOps-Handbook/CiCd/Tekton/README.md)) | `CiCd/Tekton/` |
 | CI platforms (CircleCI) | CircleCI Cloud + config.yml | **HERE-deep** ([CircleCI 01–24](../../Deep-Dives/DevOps-Handbook/CiCd/CircleCI/README.md)) | `CiCd/CircleCI/` |
 | CI platforms (Buildkite) | Buildkite Pipelines + agents | **HERE-deep** ([Buildkite 01–26](../../Deep-Dives/DevOps-Handbook/CiCd/Buildkite/README.md)) | `CiCd/Buildkite/` |
 | CI platforms (Bitbucket) | Bitbucket Cloud + Pipelines | **HERE-deep** ([Bitbucket 01–21](../../Deep-Dives/DevOps-Handbook/CiCd/Bitbucket/README.md)) | `CiCd/Bitbucket/` |
@@ -1337,6 +1338,47 @@ Status key:
 | Package registries | npm, PyPI, Maven, Go proxy | **ENTRY+link** | Languages tracks + short CiCd entry |
 | Supply chain (SBOM, sign, provenance) | Syft/Grype, cosign/Sigstore, SLSA literacy | **GAP → HERE-plan** | `CiCd/` + `Security/` |
 | Feature flags | LaunchDarkly, Unleash, OpenFeature, custom | **HERE-plan** (practice) + **GAP** tool entry | `CiCd/3` / Methodologies |
+
+
+### Tekton track plan (CiCd/Tekton/) — from Archive scrape 2026-09-15
+
+**Stance:** Kubernetes-native CI/CD product surface (Pipelines core + Triggers + Pipelines-as-Code + CLI/Dashboard + Chains + Results/Pruner + Operator/Resolution + Catalog/Hub literacy). Not every hub.tekton.dev Task YAML; not contributor/developer internals encyclopedia.
+
+**Guardrails:** Part A rules 8–10 — plan lives here; public chapters Concepts→Advanced→Applications→official References only; no Archive leaks; full-spectrum doors to forge CI (Actions/GitLab/Jenkins) and GitOps CD (Argo/Flux); Containerization owns cluster internals.
+
+**Public MD files to add under `Deep-Dives/DevOps-Handbook/CiCd/Tekton/`:**
+
+| # | File | Focus |
+|---|------|--------|
+| 01 | `01_What_Is_Tekton.md` | CNCF automation; vs forge CI; when it fits |
+| 02 | `02_Install_Pipelines_And_Operator.md` | Release YAML install; Operator path; prereqs |
+| 03 | `03_Core_Model_Tasks_Pipelines_Runs.md` | Task / Pipeline / TaskRun / PipelineRun |
+| 04 | `04_First_Task_And_PipelineRun.md` | First apply; kubectl/`tkn`; lab loop |
+| 05 | `05_Tasks_Steps_Params_And_Results.md` | Steps, params, results, scripts, when |
+| 06 | `06_Pipelines_Ordering_And_Finally.md` | Graph, finally, pipelines-in-pipelines |
+| 07 | `07_Workspaces_Artifacts_And_Volumes.md` | Workspaces, artifacts, volumes, isolation |
+| 08 | `08_Auth_ServiceAccounts_And_RBAC.md` | SA, RBAC, registry push, secrets |
+| 09 | `09_Pod_Templates_Compute_And_Affinity.md` | PodTemplate, resources, affinity assistants |
+| 10 | `10_Matrix_CustomRuns_And_StepActions.md` | Matrix fan-out; CustomRun; StepAction literacy |
+| 11 | `11_Resolvers_Bundles_And_Remote_Resources.md` | Git/Hub/Bundle/Cluster/HTTP resolvers |
+| 12 | `12_Triggers_EventListeners_And_Interceptors.md` | Triggers stack; CEL interceptors |
+| 13 | `13_Pipelines_As_Code.md` | `.tekton/`; providers; Repository CRD |
+| 14 | `14_Catalog_Hub_And_Reusable_Tasks.md` | Catalog/Hub reuse; digest pin |
+| 15 | `15_CLI_tkn.md` | `tkn` day-2 |
+| 16 | `16_Dashboard.md` | Web UI literacy |
+| 17 | `17_Chains_Supply_Chain_Security.md` | Signing / SLSA / Sigstore door |
+| 18 | `18_Results_And_Pruner.md` | Long-term results; retention/GC |
+| 19 | `19_Operator_Platform_Config.md` | TektonConfig / component CRs |
+| 20 | `20_Observability_HA_Debug_And_Windows.md` | Metrics/events/HA/debug; Windows literacy |
+| 21 | `21_Worked_Example_Build_Test_Push.md` | End-to-end lab |
+| 22 | `22_Best_Practices_And_When_Not_Tekton.md` | Judgment; forge CI / Jenkins doors |
+| 23 | `23_Feature_And_Offering_Coverage_Map.md` | Full product + config inventory |
+| 24 | `24_YAML_CRD_Catalog_And_Troubleshooting.md` | Config index + playbook |
+| 25 | `25_Migrate_Versioning_And_Extras.md` | API migrations; extras |
+| 26 | `26_GitOps_Handoff_And_Spectrum.md` | Argo/Flux handoff; delivery spectrum |
+
+Plus folder `README.md` (track intro). Status: **public 01–26 + README added** (2026-09-16); **final harden/coverage pass** same day (offering-class complete; Hub encyclopedia upstream).
+
 
 ### C. Pipeline security (AppSec in delivery)
 
