@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Company:** Freelancer · Self-employed (multi-company client engagement)  
+**Company:** Freelancer · Self-employed  
 **Project Type:** Production Platform - AI-Powered CI/CD SaaS Infrastructure & Compliance  
 **Status:** Live & Operational  
 **Duration:** Mar 2026 - Present  

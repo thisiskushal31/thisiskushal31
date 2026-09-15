@@ -772,8 +772,8 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 
 **Overview (what I've done):** Own cloud infrastructure, platform engineering, deployment automation, security, and observability. Distributed CI caching (up to 80% faster), reusable CI with semantic versioning, full IaC with Atlantis, inventory/cost audit automation.
 
-**Duration:** Mar 2026 - Present | **Role:** DevOps Engineer · Freelancer (Self-employed, multi-company)  
-**Impact:** Multi-company freelance delivery · greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned.
+**Duration:** Mar 2026 - Present | **Role:** DevOps Engineer · Freelancer (Self-employed)  
+**Impact:** Greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned.
 
 ---
 
@@ -833,20 +833,20 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 
 ### Experience Summary
 - **Total Professional Experience:** January 2023 - Present
-- **Companies Worked At:** Purplle.com (full-time) + Freelancer / Self-employed (multi-company, Mar 2026 – Present)
-- **Current engagement:** Freelancer · Self-employed · DevOps Engineer (multi-company)
+- **Companies Worked At:** Purplle.com (full-time) + Freelancer / Self-employed (AI-powered CI/CD SaaS, Mar 2026 – Present)
+- **Current engagement:** Freelancer · Self-employed · DevOps Engineer
 - **Previous company:** Purplle.com (Jan 2023 – Feb 2026)
 - **Current role:** See Experience section (Resume or LinkedIn)
-- **Projects Deployed to Production:** 11+ (Purplle + freelance client work + Grid OSS; see Featured Projects)
+- **Projects Deployed to Production:** 11+ (Purplle + freelance AI CI/CD SaaS + Grid OSS; see Featured Projects)
 - **Cloud Platforms:** GCP, AWS
 - **99%+ uptime** achieved across production systems
 
 ### Experience by Company
 
 **Freelancer · Self-employed (March 2026 - Present):**
-- **Engagement:** Self-employed · India (Remote) · multi-company freelance DevOps
+- **Engagement:** Self-employed · India (Remote)
 - **Role:** DevOps Engineer
-- **Key Project:** AI-powered CI/CD SaaS infrastructure & compliance (see Featured Project 11); additional company engagements under the same freelance practice
+- **Key Project:** AI-powered CI/CD SaaS infrastructure & compliance (see Featured Project 11)
 
 **Purplle.com (January 2023 - February 2026):**
 - **Total Duration:** January 2023 - February 2026

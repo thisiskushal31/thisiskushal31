@@ -19,7 +19,7 @@ What I do today: DevOps, platform engineering, cloud-native architecture, and pr
 | **Code delivery** | 40%+ faster code delivery through CI/CD, IaC, and GitOps |
 | **Savings** | US$120K+ cloud cost reduction (30% spend cut); 93% AdTech infrastructure cost reduction by replacing third-party with in-house |
 | **Revenue platforms** | US$90M+ AdTech; US$5M+ POS across 200+ retail stores |
-| **Current (Freelance)** | Multi-company DevOps engagements — greenfield AI CI/CD SaaS on GCP; SOC 2 + ISO/IEC 27001–aligned platform; full IaC + GitOps |
+| **Current (Freelance)** | Greenfield AI-powered CI/CD SaaS on GCP — up to 80% faster CI; SOC 2 + ISO/IEC 27001–aligned platform; full IaC + GitOps |
 
 ---
 
@@ -27,9 +27,9 @@ What I do today: DevOps, platform engineering, cloud-native architecture, and pr
 
 ### Freelancer — DevOps Engineer · Self-employed · Mar 2026 – Present
 
-Freelance DevOps / platform engineering across multiple companies. Current and recent work includes building production platforms for AI-powered CI/CD SaaS on GCP: GitHub App control plane, ephemeral Compute Engine runners, GKE services, distributed caching, and compliance-ready delivery (Terraform, Atlantis, Argo CD, OpenTelemetry).
+Building the production platform for an AI-powered CI/CD SaaS on GCP: GitHub App control plane, ephemeral Compute Engine runners, GKE services, distributed caching, and compliance-ready delivery (Terraform, Atlantis, Argo CD, OpenTelemetry).
 
-Impact: Multi-company delivery · greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned controls · reusable CI with semantic versioning.
+Impact: Greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned controls · reusable CI with semantic versioning.
 
 ### Purplle.com — DevOps Engineer · Jan 2023 – Feb 2026
 
@@ -73,7 +73,7 @@ Cloud platforms (production experience on GCP and AWS):
 | Identity & secrets | IAM, Secret Manager | IAM, Secrets Manager |
 | Observability | Cloud Monitoring, OpenTelemetry | CloudWatch, OpenTelemetry |
 
-*Production hybrid: GKE workloads with AWS edge networking (Route 53, ALB, VPC, WAF) at Purplle; freelance multi-company platform work on GCP. Kubernetes and IaC patterns apply across both clouds.*
+*Production hybrid: GKE workloads with AWS edge networking (Route 53, ALB, VPC, WAF) at Purplle; freelance AI CI/CD SaaS platform work on GCP. Kubernetes and IaC patterns apply across both clouds.*
 
 Data & AI (deployments / infra): MySQL, MongoDB, Redis, Elasticsearch, Kafka, Qdrant, Vertex AI  
 Security: Zero Trust, RBAC, secrets management, compliance (SOC 2, ISO 27001, DPDP)
