@@ -1332,12 +1332,12 @@ Status key:
 | CI platforms (Bitbucket) | Bitbucket Cloud + Pipelines | **HERE-deep** ([Bitbucket 01–21](../../Deep-Dives/DevOps-Handbook/CiCd/Bitbucket/README.md)) | `CiCd/Bitbucket/` |
 | CI platforms (Azure DevOps) | Azure DevOps (Pipelines + suite) | **HERE-deep** ([Azure_DevOps 01–25](../../Deep-Dives/DevOps-Handbook/CiCd/Azure_DevOps/README.md)) | `CiCd/Azure_DevOps/` |
 | CD / GitOps | Argo CD, Flux | **HERE-deep** (Argo CD **01–18**; Flux **01–22** full track) | `CiCd/Argo_CD/`, `CiCd/Flux/` |
-| Progressive delivery | Argo Rollouts, flags | **HERE-deep** ([Argo_Rollouts 01–16](../../Deep-Dives/DevOps-Handbook/CiCd/Argo_Rollouts/README.md); Unleash still entry) | `CiCd/3`, `CiCd/9`, tool folders |
+| Progressive delivery | Argo Rollouts, flags | **HERE-deep** ([Argo_Rollouts 01–16](../../Deep-Dives/DevOps-Handbook/CiCd/Argo_Rollouts/README.md); [Unleash 01–22](../../Deep-Dives/DevOps-Handbook/CiCd/Unleash/README.md)) | `CiCd/3`, `CiCd/9`, tool folders |
 | Full path test→deploy→verify | Environments, promotion, approvals | **HERE-plan** | `CiCd/` + `Methodologies/` |
 | Artifact registries | GHCR, ECR, GCR/AR, Harbor, Artifactory, Nexus | **GAP → HERE-plan** (concepts + 1–2 tools) | New under `CiCd/` or `Servers/` adjacent — **artifact management chapter** |
 | Package registries | npm, PyPI, Maven, Go proxy | **ENTRY+link** | Languages tracks + short CiCd entry |
 | Supply chain (SBOM, sign, provenance) | Syft/Grype, cosign/Sigstore, SLSA literacy | **GAP → HERE-plan** | `CiCd/` + `Security/` |
-| Feature flags | LaunchDarkly, Unleash, OpenFeature, custom | **HERE-plan** (practice) + **GAP** tool entry | `CiCd/3` / Methodologies |
+| Feature flags | LaunchDarkly, Unleash, OpenFeature, custom | **HERE-deep** ([Unleash 01–22](../../Deep-Dives/DevOps-Handbook/CiCd/Unleash/README.md)) + OpenFeature door; other vendors literacy | `CiCd/Unleash/`, `CiCd/3` / Methodologies |
 
 
 ### Tekton track plan (CiCd/Tekton/) — from Archive scrape 2026-09-15
