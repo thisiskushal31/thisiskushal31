@@ -1260,7 +1260,9 @@ Public intro: [Deep-Dives/DevOps-Handbook/Datacenter/README.md](../../Deep-Dives
 
 **Cloud advanced:** tenant how-to in `Cloud/15–22`; colo path stays `Datacenter/Provider-Use`.
 
-**Datacenter closed (move-on confirmed):** physical curriculum + accessibility entry path complete. Next Lane A: Cloud-Native everyday tools (step 9).
+**Datacenter closed (move-on confirmed):** physical curriculum + accessibility entry path complete.
+
+**Setup-And-Bring-Up (visual + experience pass):** new Floor 8b — rack→cable→LAN→OOB→image→RAID→WLAN/AP→role playbooks (**15 chapters**); Assets under `Assets/Datacenter/`; Networks cross-links for RF/enterprise. Track open for your photo review—not a claim every plate matches your OEM.
 
 ### Deep TOC (contract — filenames match track READMEs)
 
@@ -1275,10 +1277,11 @@ Public intro: [Deep-Dives/DevOps-Handbook/Datacenter/README.md](../../Deep-Dives
 | Accelerators | 1–10 | **5 filled** |
 | Storage-Physical | 1–12 | **6 filled** |
 | Fabric-Physical | 1–12 | **6 filled** |
+| Setup-And-Bring-Up | 1–15 | **S0–S4 filled** (review photos) |
 | Markets-And-Operators | 1–16 | **7 filled** |
 | Provider-Use | 1–10 | **7 filled** |
-| Integration | 1–10 | **8 filled** |
-| Jobs | 1–12 | **8 filled** |
+| Integration | 1–11 | **filled** |
+| Jobs | 1–13 | **filled** |
 
 ### Living operator index (majors + minor/regional — expand anytime)
 
