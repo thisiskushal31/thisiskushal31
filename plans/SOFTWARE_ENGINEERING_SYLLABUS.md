@@ -412,7 +412,7 @@ Counts below are file-level (September 2026). A file with `*(Content TBD)*` or �
 
 | Home | Plan | Places (honest) | Stub-ish files |
 |------|------|-----------------|----------------|
-| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine scaffold. Cloud 1–22 (incl. advanced 15–22); Datacenter on-ramp + all deep tracks filled + living operator index. | ~120+ |
+| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine scaffold. Cloud **0–34 + Catalogs closed**; Datacenter **closed**. Security/IAC/Observability still open. | ~120+ |
 | [Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | Part E | Docker, Podman, K8s (incl. self-managed/vanilla), OpenShift, Rancher, Swarm, GKE/EKS/AKS written. Later sections stub. | ~29 |
 | [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) | Part E | Core layers written. Mesh / extra labs stub. | ~17 |
 | [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | Part E | Six engines written. Other engines stub. **Qdrant added.** | ~113 (was 108) |
@@ -1201,7 +1201,7 @@ These were already promised in the completeness plan. They stay on this write-or
 | SE orientation | [Methodologies/0](./Methodologies/0_SE_Learning_DevOps_Start_Here.md) | exists |
 | Artifact registries | [CiCd/4](./CiCd/4_Artifacts_And_Registries.md) | **filled** (concepts); Harbor/Artifactory *folders* still optional |
 | Supply-chain (SBOM, cosign, SLSA) | [CiCd/6](./CiCd/6_Supply_Chain_And_Signing.md) + `Security/` | **filled** (concepts); tool folders deepen as needed |
-| Cloud literacy | [Cloud/](./Cloud/README.md) | **HERE-deep** ([Cloud 1–22](../../Deep-Dives/DevOps-Handbook/Cloud/README.md)) — providers 1–14 + tenant how-to 15–22 |
+| Cloud literacy | [Cloud/](./Cloud/README.md) | **HERE-deep / closed** ([Cloud 0–34](../../Deep-Dives/DevOps-Handbook/Cloud/README.md) + [Catalogs/](../../Deep-Dives/DevOps-Handbook/Cloud/Catalogs/README.md)) — jobs + **full product catalogs** (what / when / why not); official docs = deeper API only. Colo plant → `Datacenter/`. |
 | Datacenter / on-prem / vSphere | [Datacenter/](./Datacenter/README.md) | **HERE-deep / closed** — start [0](../../Deep-Dives/DevOps-Handbook/Datacenter/0_How_To_Read_And_Quality_Bar.md)/[0b](../../Deep-Dives/DevOps-Handbook/Datacenter/0b_Equipment_In_Plain_Language.md); on-ramp [1–12](../../Deep-Dives/DevOps-Handbook/Datacenter/README.md) + deep tracks (Facility→Jobs) incl. report→steer ([Integration/11](../../Deep-Dives/DevOps-Handbook/Datacenter/Integration/11_Aggregate_Telemetry_Reports_And_Steering.md), [Jobs/13](../../Deep-Dives/DevOps-Handbook/Datacenter/Jobs/13_Reading_Dashboards_Reports_And_Steering.md)); living operator index below in Part E |
 | Docker/Podman door | [README](./README.md) Containers row | exists |
 | Data / messaging / cache doors | [README](./README.md) | exists; Kafka *engine* → DE `Systems/` |
@@ -1225,7 +1225,7 @@ These were already promised in the completeness plan. They stay on this write-or
 | Folder | README | Role |
 |--------|--------|------|
 | [Servers/](./Servers/) | Yes | nginx, Apache, Caddy, Traefik, HAProxy, IIS, host lifecycle |
-| [Cloud/](./Cloud/) | Yes | Named provider solutions (IaaS/PaaS, managed K8s SKUs including ROSA/ARO/ROKS) |
+| [Cloud/](./Cloud/) | Yes | Named provider solutions + **tenant job depth** (IAM→observability doors) + **[Catalogs/](../../Deep-Dives/DevOps-Handbook/Cloud/Catalogs/README.md)** (full what/when/why-not). Staircase: 0 how-to; 1–3 foundations; 15–34 jobs; 4–14 providers; 21–22 kin/hybrid. Colo plant → `Datacenter/`. |
 | [Datacenter/](./Datacenter/) | Yes | On-ramp 1–12 + deep tracks (Facility, Electrical, Mechanical, White-Space, Compute, Accelerators, Storage-Physical, Fabric-Physical, Markets-And-Operators, Provider-Use, Integration, Jobs). Global. API tenant use → `Cloud/`. Not a 12th repo |
 
 **Not a new folder here:** Application frameworks → [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive). Related-repo pointers live on the [README](./README.md).
@@ -1258,7 +1258,11 @@ Public intro: [Deep-Dives/DevOps-Handbook/Datacenter/README.md](../../Deep-Dives
 
 **Accessibility + steering add-on:** `Datacenter/0` + `0b` (plain language + quality bar with Disconfirm/Confirm); `Integration/11` + `Jobs/13` (aggregate telemetry → reports → steering). Deep chapters remain; entry path is now beginner-safe.
 
-**Cloud advanced:** tenant how-to in `Cloud/15–22`; colo path stays `Datacenter/Provider-Use`.
+**Cloud advanced (historical):** tenant how-to started as `Cloud/15–22`; colo path stays `Datacenter/Provider-Use`.
+
+**Cloud catalog pass (done):** [Catalogs/](../../Deep-Dives/DevOps-Handbook/Cloud/Catalogs/README.md) lists **product families / primary SKUs** with **what it is for · when to choose · why not**—handbook is the final choice destination; References only for deeper API. Not a cert dump of console clicks. Security/IAC/Observability still open.
+
+**Cloud closed (move-on confirmed):** literacy 0–34 + catalogs complete; reopen only when a *new durable job* or major product family appears.
 
 **Datacenter closed (move-on confirmed):** physical curriculum + accessibility entry path complete.
 
@@ -1622,7 +1626,7 @@ Plus folder `README.md` (track intro). Status: **public 01–26 + README added**
 | OpenTofu | Terraform-compatible fork | **GAP → ENTRY+link** | Under `IAC/Terraform` or short entry |
 | Config management / deploy automation | Ansible, Chef, Puppet | **HERE-deep** (scaffold) | `Automation/` + `IAC/` |
 | Image baking | Packer | **GAP → ENTRY+link** | `IAC/` or `Servers/` |
-| Cloud providers (SE literacy) | AWS, GCP, Azure, OCI, IBM, Aliyun, Tencent, Huawei, OVH, Telekom, CtrlS/Yotta | **HERE-deep** ([Cloud 1–14](../../Deep-Dives/DevOps-Handbook/Cloud/README.md)) | `Cloud/` — **not** cert dumps; **not** kubeadm/OpenShift/Rancher/vSphere |
+| Cloud providers (SE literacy) | AWS, GCP, Azure, OCI, IBM, Aliyun, Tencent, Huawei, OVH, Telekom, CtrlS/Yotta | **HERE-deep** ([Cloud 0–30](../../Deep-Dives/DevOps-Handbook/Cloud/README.md)) | `Cloud/` — jobs first, provider wiring second; **not** cert dumps; **not** kubeadm/OpenShift/Rancher/vSphere |
 | Datacenter / on-prem / vSphere | Owned DC, colo, hosted private, vSphere, KVM/Hyper-V/OpenStack, DR/hybrid; physical deep tracks + Provider-Use | **HERE-deep** ([Datacenter/](../../Deep-Dives/DevOps-Handbook/Datacenter/README.md)) | On-ramp 1–12 filled; deep catalogs Batch 0; bodies Batches 1–8 |
 | Cost / FinOps literacy | Rightsizing, idle resources, budgets | **GAP → ENTRY+link** | Methodologies or Cloud entry |
 | DNS / CDN / global edge | Route53/Cloud DNS, CloudFront/Cloudflare, Fastly | **ENTRY+link** | Handbook short entry → [System-Design fundamentals](https://github.com/thisiskushal31/System-Design-Concepts) (+ Networks for DNS depth) |
@@ -1710,7 +1714,7 @@ When work resumes, treat these as **explicit backlog** (entry or folder—not op
 1. **SE orientation page** in handbook root or Methodologies — “If you are an SE learning DevOps, start here” + matrix link to this plan’s map (or a reader-facing trimmed version).  
 2. **Artifact registries** chapter (promote immutable artifacts; don’t rebuild per env).  
 3. **Supply-chain literacy** (SBOM, signing/cosign, provenance).  
-4. **Cloud provider literacy** track — **filled** `Cloud/` **1–14** + **advanced 15–22** (IAM, VPC, on-ramps, instances, CLI/API, FinOps, VPS kin, hybrid). On-prem/colo physical depth → handbook `Datacenter/` (on-ramp 1–12 + deep tracks filled Batches 0–9). Living operator index in this syllabus Part E. Not cert dumps.  
+4. **Cloud provider literacy** track — **closed** `Cloud/` **0–34** + [Catalogs/](../../Deep-Dives/DevOps-Handbook/Cloud/Catalogs/README.md) (jobs + full what/when/why-not choose surface). Not cert dumps / not console tours — living API depth stays in **official vendor documentation**. Colo → `Datacenter/`.  
 5. **Docker/Podman entry** in handbook that **must** link Containerization-Deep-Dive (today easy to miss).  
 6. **Data/Messaging/cache DevOps entries** linking Databases + System-Design.  
 7. **DNS/CDN/LB/API gateway** short entries linking System-Design (+ Networks where deep).  
@@ -1829,7 +1833,7 @@ Distinguish: proxy vs app upstream vs K8s Ingress vs WAF.
 |------|--------|
 | Methodologies / CiCd / IAC / Automation / Cloud-Native / Observability / Security | Scaffolded or partial — **fill** |
 | Operating-Systems / Languages | Strong — **cross-link** for deploy & SE paths |
-| Servers / Cloud literacy / artifact+supply-chain entries | Cloud **1–14 filled**; Datacenter **on-ramp 1–12 + Batch 0 deep catalogs + living operator index**; deep chapter bodies Batches 1–8; Servers / artifact+supply-chain still **planned / gaps** |
+| Servers / Cloud literacy / artifact+supply-chain entries | Cloud **0–34 + Catalogs closed**; Datacenter **closed**; Servers / artifact+supply-chain still **planned / gaps** |
 | Related deep-dives | **Link from SE entries** — do not duplicate |
 
 ---
@@ -1877,7 +1881,7 @@ Write these in [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskusha
 - [ ] Confirm CI security track (SAST/DAST/SCA/secrets/IaC/image/WAF/sign-SBOM)  
 - [ ] Confirm SonarQube + ZAP as primary examples  
 - [ ] Confirm artifact registry + supply-chain chapters in CiCd/Security  
-- [x] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC) — `Cloud/` **1–22** (providers + tenant how-to); IAC stays Terraform/etc.; `Datacenter/` physical deep + accessibility **closed**  
+- [x] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC) — `Cloud/` **0–34 + Catalogs closed** (jobs + what/when/why-not; docs = API depth); IAC stays Terraform/etc.; `Datacenter/` **closed**; Security/IAC/Observability still open  
 - [ ] Confirm Docker/Podman handbook entry → Containerization-Deep-Dive  
 - [ ] Confirm data/Messaging/CDN/LB entries → Databases + System-Design + Networks  
 - [x] `Servers/`, `Cloud/`, and `Datacenter/` exist; frameworks live in Tooling — do not add `Frameworks/` here  
