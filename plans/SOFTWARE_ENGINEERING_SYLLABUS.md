@@ -77,7 +77,7 @@ All 11 clones: `Deep-Dives/`
 
 | # | Repo | This home writes | Top folders |
 |---|------|------------------|-------------|
-| 1 | [Deep-Dives/DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | How software is **delivered** | `Methodologies/` `CiCd/` `IAC/` `Automation/` `Cloud/` `Cloud-Native/` `Servers/` `Observability/` `Security/` `Operating-Systems/` `Languages/` |
+| 1 | [Deep-Dives/DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | How software is **delivered** | `Methodologies/` `CiCd/` `IAC/` `Automation/` `Cloud/` `Datacenter/` `Cloud-Native/` `Servers/` `Observability/` `Security/` `Operating-Systems/` `Languages/` |
 | 2 | [Deep-Dives/Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | What **containers and clusters** are | `Containerization-Basic/` `Runtimes/` `Orchestration/` `Managed-Services/` `Networking-Advanced/` `Security-Advanced/` `Local-Dev/` `GitOps-Packaging/` `Serverless-Containers/` |
 | 3 | [Deep-Dives/Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) | How **bits move** | `Foundations/` `Transport/` `Routing-Switching/` `Services/` `Security/` `Cloud-Native/` `Observability/` `Advanced/` `Labs/` `Service-Mesh/` |
 | 4 | [Deep-Dives/Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | **Data at rest** | `Concepts/` `Relational/` `Document/` `Key-Value/` `Wide-Column/` `Graph/` `Cache/` `Time-Series/` `Search-Engine/` `Vector/` `Blob-Object/` `NoSQL/` `Cloud-Managed/` `Data-Platform/` |
@@ -412,8 +412,8 @@ Counts below are file-level (September 2026). A file with `*(Content TBD)*` or �
 
 | Home | Plan | Places (honest) | Stub-ish files |
 |------|------|-----------------|----------------|
-| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine (CiCd, IAC, Security, Observability, Methodologies) is scaffold. | ~98 |
-| [Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | Part E | Docker, Podman, K8s, OpenShift, Swarm, GKE/EKS/AKS written. Later sections stub. | ~29 |
+| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine scaffold. Cloud 1–22 (incl. advanced 15–22); Datacenter on-ramp + all deep tracks filled + living operator index. | ~120+ |
+| [Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | Part E | Docker, Podman, K8s (incl. self-managed/vanilla), OpenShift, Rancher, Swarm, GKE/EKS/AKS written. Later sections stub. | ~29 |
 | [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) | Part E | Core layers written. Mesh / extra labs stub. | ~17 |
 | [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | Part E | Six engines written. Other engines stub. **Qdrant added.** | ~113 (was 108) |
 | [System-Design-Concepts](../../Deep-Dives/System-Design-Concepts/) | Part E | Fundamentals exist (many thin). primer-gaps and later cases stub. | ~38 |
@@ -1154,7 +1154,7 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 1. [Methodologies/0 — SE learning DevOps](./Methodologies/0_SE_Learning_DevOps_Start_Here.md)
 2. [Operating-Systems/Fundamentals/](./Operating-Systems/README.md) if processes/memory are new
 3. [CiCd/](./CiCd/README.md) — how software ships
-4. [IAC/](./IAC/README.md) → [Cloud/](./Cloud/README.md)
+4. [IAC/](./IAC/README.md) → [Cloud/](./Cloud/README.md) (providers) / [Datacenter/](./Datacenter/README.md) (metal / hall)
 5. [Observability/](./Observability/README.md) + [Security/](./Security/README.md) (pipeline grain)
 6. Related repos on the [README](./README.md) when you need Docker / networks / DBs in full
 
@@ -1184,8 +1184,8 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 | 5 | [Observability/1–3](./Observability/README.md) | Metrics, logs/traces, tools map |
 | 6 | [Methodologies/](./Methodologies/README.md) topics 1–8 | Culture → branching → SRE/on-call → DORA → ChatOps → docs → FinOps (as needed) |
 | 7 | [README](./README.md) related-repos table | Keep pointers current — no `Entry-Points/` folder |
-| 8 | [Servers/](./Servers/README.md) / [Cloud/](./Cloud/README.md) | Web servers + cloud literacy when delivery notes need them |
-| 9 | [Cloud-Native/4_CNCF_Everyday_Tools.md](./Cloud-Native/4_CNCF_Everyday_Tools.md) + tool stubs | cert-manager, ExternalDNS, Backstage |
+| 8 | [Servers/](./Servers/README.md) / [Cloud/](./Cloud/README.md) / [Datacenter/](./Datacenter/README.md) | Web servers + provider literacy + on-prem when delivery notes need them |
+| 9 | [Cloud-Native/4_CNCF_Everyday_Tools.md](./Cloud-Native/4_CNCF_Everyday_Tools.md) + tool stubs | cert-manager, ExternalDNS, Backstage — **filled** (concepts 3–4 + three tool folders); Helm/Istio/Linkerd/K8s entries remain |
 | 10 | Vendor / tool folders under CiCd, Security, IAC, Observability | After concepts exist — one folder at a time when you use the tool |
 
 **Defer:** `Languages/` (mature), deep per-tool prose in every CiCd vendor folder until concepts exist. **After Lane A concepts:** Part A → Networks `Security/`.
@@ -1199,9 +1199,10 @@ These were already promised in the completeness plan. They stay on this write-or
 | PLAN item | Home in this repo (or pointer) | Status in tree |
 |-----------|--------------------------------|----------------|
 | SE orientation | [Methodologies/0](./Methodologies/0_SE_Learning_DevOps_Start_Here.md) | exists |
-| Artifact registries | [CiCd/4](./CiCd/4_Artifacts_And_Registries.md) | stub/concept |
-| Supply-chain (SBOM, cosign, SLSA) | `CiCd/` + `Security/` | planned |
-| Cloud literacy | [Cloud/](./Cloud/README.md) | folder exists |
+| Artifact registries | [CiCd/4](./CiCd/4_Artifacts_And_Registries.md) | **filled** (concepts); Harbor/Artifactory *folders* still optional |
+| Supply-chain (SBOM, cosign, SLSA) | [CiCd/6](./CiCd/6_Supply_Chain_And_Signing.md) + `Security/` | **filled** (concepts); tool folders deepen as needed |
+| Cloud literacy | [Cloud/](./Cloud/README.md) | **HERE-deep** ([Cloud 1–22](../../Deep-Dives/DevOps-Handbook/Cloud/README.md)) — providers 1–14 + tenant how-to 15–22 |
+| Datacenter / on-prem / vSphere | [Datacenter/](./Datacenter/README.md) | **HERE-deep / closed** — start [0](../../Deep-Dives/DevOps-Handbook/Datacenter/0_How_To_Read_And_Quality_Bar.md)/[0b](../../Deep-Dives/DevOps-Handbook/Datacenter/0b_Equipment_In_Plain_Language.md); on-ramp [1–12](../../Deep-Dives/DevOps-Handbook/Datacenter/README.md) + deep tracks (Facility→Jobs) incl. report→steer ([Integration/11](../../Deep-Dives/DevOps-Handbook/Datacenter/Integration/11_Aggregate_Telemetry_Reports_And_Steering.md), [Jobs/13](../../Deep-Dives/DevOps-Handbook/Datacenter/Jobs/13_Reading_Dashboards_Reports_And_Steering.md)); living operator index below in Part E |
 | Docker/Podman door | [README](./README.md) Containers row | exists |
 | Data / messaging / cache doors | [README](./README.md) | exists; Kafka *engine* → DE `Systems/` |
 | DNS / CDN / LB doors | [README](./README.md) Networking + System Design rows | exists |
@@ -1210,7 +1211,7 @@ These were already promised in the completeness plan. They stay on this write-or
 | Atlantis | [IAC/Atlantis](./IAC/Atlantis/README.md) | exists |
 | FinOps | [Methodologies/](./Methodologies/README.md) | stub |
 | OpenTofu / Packer | [IAC/](./IAC/README.md) | planned |
-| Kyverno / Loki / Backstage | Cloud-Native / Observability indexes | planned |
+| Kyverno / Loki / Backstage | Cloud-Native / Observability indexes | Backstage **filled**; Kyverno literacy at [Cloud-Native/Kyverno](../../Deep-Dives/DevOps-Handbook/Cloud-Native/Kyverno/README.md); Loki still planned |
 | Synthetic / e2e in verify (k6, Playwright) | `CiCd/` verify; Playwright → Tooling `Quality-And-Testing/Playwright` | planned |
 | DB migrations in pipelines | CiCd entry + Databases `Tools/Flyway` | planned |
 | Local dev parity | [README](./README.md) + Containerization `Local-Dev/` | planned |
@@ -1224,9 +1225,225 @@ These were already promised in the completeness plan. They stay on this write-or
 | Folder | README | Role |
 |--------|--------|------|
 | [Servers/](./Servers/) | Yes | nginx, Apache, Caddy, Traefik, HAProxy, IIS, host lifecycle |
-| [Cloud/](./Cloud/) | Yes | Multi-cloud literacy for SEs doing DevOps |
+| [Cloud/](./Cloud/) | Yes | Named provider solutions (IaaS/PaaS, managed K8s SKUs including ROSA/ARO/ROKS) |
+| [Datacenter/](./Datacenter/) | Yes | On-ramp 1–12 + deep tracks (Facility, Electrical, Mechanical, White-Space, Compute, Accelerators, Storage-Physical, Fabric-Physical, Markets-And-Operators, Provider-Use, Integration, Jobs). Global. API tenant use → `Cloud/`. Not a 12th repo |
 
 **Not a new folder here:** Application frameworks → [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskushal31/Tooling-and-Frameworks-Deep-Dive). Related-repo pointers live on the [README](./README.md).
+
+---
+
+## Datacenter deep track (Part E — planning)
+
+Public intro: [Deep-Dives/DevOps-Handbook/Datacenter/README.md](../../Deep-Dives/DevOps-Handbook/Datacenter/README.md).
+
+**Batch 0 done:** staircase README, all track folders with **full chapter catalogs**, on-ramp 1–12 “Go deeper” links, this TOC + living operator index seed.
+
+**Batch 1 done:** `Electrical/` 1–18 filled (utility → IST failure walks).
+
+**Batch 2 done:** `Mechanical/` 1–12 filled (heat/airflow → liquid → fire/water → failure walks → Cx).
+
+**Batch 3 done:** `White-Space/` 1–10 filled (racks → cabling → density → safety).
+
+**Batch 4 done:** `Compute/` 1–18 filled (form factors → CPU/memory/NUMA → BMC/firmware/boot → imaging → failure walks → hypervisor map).
+
+**Batch 5 done:** `Accelerators/` 1–10 filled (GPU power/interconnect → DPU/FPGA/HBM → optics/time/console/sensors → spares).
+
+**Batch 6 done:** `Storage-Physical/` 1–12 + `Fabric-Physical/` 1–12 filled.
+
+**Batch 7 done:** `Markets-And-Operators/` 1–16 + `Provider-Use/` 1–10 filled (taxonomy → hubs → landlord jobs). Living operator index remains syllabus Part E (expand anytime).
+
+**Batch 8 done:** `Integration/` 1–10 + `Jobs/` 1–12 filled (end-to-end walks + role KB + hyperscale honesty).
+
+**Batch 9 done:** `Facility/` 1–6 filled; Datacenter cross-links; living operator index grown; `Cloud/` advanced **15–22** filled (IAM → hybrid). Datacenter deep curriculum complete.
+
+**Accessibility + steering add-on:** `Datacenter/0` + `0b` (plain language + quality bar with Disconfirm/Confirm); `Integration/11` + `Jobs/13` (aggregate telemetry → reports → steering). Deep chapters remain; entry path is now beginner-safe.
+
+**Cloud advanced:** tenant how-to in `Cloud/15–22`; colo path stays `Datacenter/Provider-Use`.
+
+**Datacenter closed (move-on confirmed):** physical curriculum + accessibility entry path complete. Next Lane A: Cloud-Native everyday tools (step 9).
+
+### Deep TOC (contract — filenames match track READMEs)
+
+| Track | Chapters (count) | Body batch |
+|-------|------------------|------------|
+| On-ramp | 1–12 | **filled** |
+| Facility | 1–6 | **9 filled** |
+| Electrical | 1–18 | **1 filled** |
+| Mechanical | 1–12 | **2 filled** |
+| White-Space | 1–10 | **3 filled** |
+| Compute | 1–18 | **4 filled** |
+| Accelerators | 1–10 | **5 filled** |
+| Storage-Physical | 1–12 | **6 filled** |
+| Fabric-Physical | 1–12 | **6 filled** |
+| Markets-And-Operators | 1–16 | **7 filled** |
+| Provider-Use | 1–10 | **7 filled** |
+| Integration | 1–10 | **8 filled** |
+| Jobs | 1–12 | **8 filled** |
+
+### Living operator index (majors + minor/regional — expand anytime)
+
+**How to use:** classify by taxonomy row → note metros → who owns BMC/ToR → research method in Markets ch.3 (when written). This list is **awareness**, not a claim that every building is documented in public MD.
+
+**Taxonomy key:** I=interconnection colo · W=wholesale/hyperscale landlord · R=regional colo · T=telco/cable · B=bare-metal cloud · C=API/VPS/public cloud · H=hyperscaler campus · E=enterprise/owned · G=edge/CDN
+
+#### Global majors (seed)
+
+| Operator | Tax | Notes |
+|----------|-----|--------|
+| Equinix | I/W | IBX + xScale; Fabric; Smart Hands |
+| Digital Realty | I/W | Incl. Interxion (EU) |
+| NTT Global Data Centers | R/I | Global + Japan strength |
+| Vantage | W | Hyperscale campuses |
+| STACK Infrastructure | W | |
+| QTS (Blackstone) | W/I | |
+| CyrusOne | W | |
+| Compass Datacenters | W | |
+| AirTrunk | W | APAC hyperscale |
+| CoreSite (American Tower) | I | US interconnection |
+| Telehouse (KDDI) | I | |
+| China Telecom / China Unicom / China Mobile halls | R/T | China market |
+| Iron Mountain Data Centers | R | Incl. Web Werks JV awareness (India) |
+| Yondr | W | Hyperscale campuses |
+| Aligned | W | |
+| Princeton Digital Group | W | APAC |
+| OVHcloud | B | Water-cooled factories; Mumbai YNM etc. |
+| Hetzner | B | EU bare metal |
+| Leaseweb | B/R | |
+| AWS | C/H | Regions/AZs; campuses unpublished map |
+| Google Cloud | C/H | |
+| Microsoft Azure | C/H | |
+| Oracle Cloud | C/H | |
+| IBM Cloud | C | |
+| Alibaba Cloud | C | |
+| Tencent Cloud | C | |
+| Huawei Cloud / HCS | C | Public vs stack |
+| Akamai Linode | C | Tenant cloud — not colo peer |
+| DigitalOcean | C | |
+| Vultr | C | |
+| Meta / Microsoft / Google own campuses | H | Not customer colo |
+
+#### Americas (seed — majors + regional)
+
+| Operator | Tax | Metros / notes |
+|----------|-----|----------------|
+| Equinix | I | Ashburn, Chicago, Dallas, SV, São Paulo, Toronto, … |
+| Digital Realty | I/W | Same hubs |
+| CoreSite | I | VA, CA, NY, Chicago, … |
+| Cologix | R/I | Canada + US |
+| Flexential | R | US |
+| TierPoint | R | US |
+| DataBank | R | US |
+| EdgeConneX | R/W | |
+| Switch | R | US campuses |
+| Sabey | R | |
+| Stream Data Centers | W | |
+| Ascenty (Digital Realty) | R/W | Brazil |
+| Scala Data Centers | R/W | LatAm |
+| ODATA | R | LatAm |
+| HostDime | R | |
+| C3ntro | R | Mexico |
+| KIO Networks | R | Mexico / LatAm |
+| Bell / Rogers DC | T/R | Canada |
+| eStruxture | R | Canada |
+| Vantage | W | Americas campuses |
+| Iron Mountain | R | US + global |
+
+#### Europe / UK (seed)
+
+| Operator | Tax | Metros / notes |
+|----------|-----|----------------|
+| Equinix | I | LON, FRA, AMS, PAR, DUB, … |
+| Digital Realty / Interxion | I/W | FRA, AMS, LON, … |
+| Telehouse | I | London |
+| Global Switch | R | |
+| Virtus | R | UK |
+| Pulsant | R | UK |
+| Data4 | R | France |
+| Orange / BT / Deutsche Telekom DC | T | Telco |
+| OVHcloud | B | FR, DE, UK, … |
+| Hetzner | B | DE, FI |
+| Contabo | B | |
+| NorthC | R | Nordics/NL |
+| atNorth | R/W | Nordics |
+| Green Mountain | R | Norway |
+| Verne Global | R | Iceland |
+| Aruba | R | Italy |
+| Retelit | R | Italy |
+| IXcellerate | R | Russia (awareness) |
+| Rostelecom DC | T | |
+
+#### Middle East & Africa (seed)
+
+| Operator | Tax | Metros / notes |
+|----------|-----|----------------|
+| Equinix | I | Dubai, … |
+| Gulf Data Hub / Khazna / Moro | R/W | UAE |
+| Mobily / stc / Etisalat DC | T/R | KSA / UAE |
+| Oman Data Park | R | |
+| Saudi Telecom / center3 | T/R | KSA |
+| Africa Data Centres | R | Multi-country |
+| Teraco (Digital Realty) | I/R | South Africa |
+| Raxio | R | East Africa |
+| MainOne / MDXi | R/T | West Africa |
+| Rack Centre | R | Nigeria |
+| Azure / AWS / GCP ME & Africa regions | C | Region codes in Cloud |
+
+#### APAC ex-China ex-India (seed)
+
+| Operator | Tax | Metros / notes |
+|----------|-----|----------------|
+| Equinix | I | SG, TYO, SYD, HKG, SEOUL, JKT, … |
+| AirTrunk | W | SG, SYD, TYO, HK, … |
+| NTT GDC | R/I | |
+| Digital Realty | I/W | |
+| Keppel DC | R | SG / APAC |
+| STT GDC | R/W | APAC + India |
+| Telstra InfraCo / Singtel DC | T | |
+| NEXTDC | R | Australia |
+| CDC | R/W | Australia |
+| Canberra Data Centres | R | AU gov-adjacent |
+| PDC / Indo | R | Indonesia |
+| DCI Indonesia | R | |
+| BDx | R | SE Asia |
+| Bridge Data Centres | R | SE Asia |
+| Chindata / GDS (where present) | W | APAC/China-adjacent awareness |
+| Sakura / SoftBank / IDC Frontier | R | Japan |
+| LG U+ / KT DC | T/R | Korea |
+| Princeton Digital Group | W | SG / APAC |
+
+#### China (seed)
+
+| Operator | Tax | Notes |
+|----------|-----|--------|
+| GDS | W/R | |
+| Chindata | W | |
+| VNET | R | |
+| China Telecom / Unicom / Mobile IDC | T/R | |
+| Alibaba / Tencent / Huawei Cloud | C | Domestic stacks |
+| Equinix | I | Limited / partner models — research before assuming |
+
+#### India (seed — peer market, not center of gravity)
+
+| Operator | Tax | Notes |
+|----------|-----|--------|
+| Equinix | I | MB1–MB4 Mumbai; Chennai |
+| CtrlS | R | Multi-city Rated colo |
+| Yotta | R/W | NM1, D1, G1 campuses |
+| Nxtra (Airtel) | R | |
+| Sify | R | |
+| STT GDC India | R/W | |
+| Web Werks / Iron Mountain JV | R | |
+| NTT India | R | |
+| Pi Datacenters | R | |
+| AdaniConneX | W/R | Awareness — verify current footprint |
+| CtrlS / others edge | G | |
+| AWS ap-south-1 / ap-south-2 | C | Mumbai / Hyderabad |
+| GCP asia-south1 / asia-south2 | C | Mumbai / Delhi |
+| Azure India regions | C | |
+| OVH ap-south-mum (YNM) | B | |
+| Oracle / IBM India | C | |
+
+**Index rule:** when a client names an unfamiliar logo, add a row here (taxonomy + metro) the same session if possible. Public Markets chapters stay stable hubs.
 
 ---
 
@@ -1288,7 +1505,7 @@ Use **GitHub repo URLs** in public handbook content (same rule as root README).
 | Domain | Repository | SE should use it for |
 |--------|------------|----------------------|
 | **Networking** | [Networks-Deep-Dive](https://github.com/thisiskushal31/Networks-Deep-Dive) | TCP/HTTP, DNS deep, routing, firewalls, cloud-native net, net security |
-| **Containers & orchestration depth** | [Containerization-Deep-Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Docker/Podman, Swarm, OpenShift, managed K8s (GKE/EKS/AKS) depth |
+| **Containers & orchestration depth** | [Containerization-Deep-Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) | Docker/Podman, Kubernetes (incl. self-managed/vanilla), OpenShift, Rancher, Swarm, managed K8s (GKE/EKS/AKS) depth |
 | **Databases & object storage** | [Databases-Deep-Dive](https://github.com/thisiskushal31/Databases-Deep-Dive) | SQL/NoSQL/Cache/search/vector; **S3/GCS-style object stores** |
 | **System design** | [System-Design-Concepts](https://github.com/thisiskushal31/System-Design-Concepts) | LB, CDN, API gateway, caching, messaging, HA/DR, patterns |
 | **Commands cheat sheets** | [Commands-and-Cheatsheets](https://github.com/thisiskushal31/Commands-and-Cheatsheets) | Quick command lookup (incl. DevOps-And-Cloud-Essentials) |
@@ -1388,10 +1605,10 @@ Plus folder `README.md` (track intro). Status: **public 01–26 + README added**
 | SCA / deps | Snyk, Trivy, Dependabot/Renovate | **HERE-deep** / plan | `Security/` |
 | Secrets in git | gitleaks, platform secret scanning | **HERE-plan** | `Security/` + CiCd |
 | Secrets at rest | Vault | **HERE-deep** | `Security/Vault` |
-| IaC / policy scan | Checkov, OPA, Kyverno (K8s policy) | **HERE-deep** + **GAP** Kyverno entry | `Security/` / Cloud-Native |
+| IaC / policy scan | Checkov, OPA, Kyverno (K8s policy) | **HERE-deep** + Kyverno literacy folder | `Security/` · [Cloud-Native/Kyverno](../../Deep-Dives/DevOps-Handbook/Cloud-Native/Kyverno/README.md) |
 | Image scan | Trivy, Snyk Container | **HERE-deep** | `Security/` |
 | DAST | OWASP ZAP | **HERE-plan** | `Security/ZAP` |
-| WAF | Cloud/vendor WAF | **HERE-plan** | `Security/` |
+| WAF | Open-source (ModSecurity, Coraza, CrowdSec, …) + cloud/managed | **HERE-plan** (literacy folder) | [Security/WAF](../../Deep-Dives/DevOps-Handbook/Security/WAF/README.md) |
 | IAM / least privilege (DevOps angle) | Cloud IAM, OIDC to cloud from CI | **HERE-deep** (stub) + **GAP** OIDC-CI entry | `Security/1` + CiCd |
 
 ### D. Infrastructure, cloud, IaC, automation
@@ -1402,7 +1619,8 @@ Plus folder `README.md` (track intro). Status: **public 01–26 + README added**
 | OpenTofu | Terraform-compatible fork | **GAP → ENTRY+link** | Under `IAC/Terraform` or short entry |
 | Config management / deploy automation | Ansible, Chef, Puppet | **HERE-deep** (scaffold) | `Automation/` + `IAC/` |
 | Image baking | Packer | **GAP → ENTRY+link** | `IAC/` or `Servers/` |
-| Cloud providers (SE literacy) | AWS, GCP, Azure — regions, IAM, network, managed K8s | **GAP → HERE-plan** | New **`Cloud/`** entry track *or* strong entries under IAC/Cloud-Native — **not** full cloud cert dumps |
+| Cloud providers (SE literacy) | AWS, GCP, Azure, OCI, IBM, Aliyun, Tencent, Huawei, OVH, Telekom, CtrlS/Yotta | **HERE-deep** ([Cloud 1–14](../../Deep-Dives/DevOps-Handbook/Cloud/README.md)) | `Cloud/` — **not** cert dumps; **not** kubeadm/OpenShift/Rancher/vSphere |
+| Datacenter / on-prem / vSphere | Owned DC, colo, hosted private, vSphere, KVM/Hyper-V/OpenStack, DR/hybrid; physical deep tracks + Provider-Use | **HERE-deep** ([Datacenter/](../../Deep-Dives/DevOps-Handbook/Datacenter/README.md)) | On-ramp 1–12 filled; deep catalogs Batch 0; bodies Batches 1–8 |
 | Cost / FinOps literacy | Rightsizing, idle resources, budgets | **GAP → ENTRY+link** | Methodologies or Cloud entry |
 | DNS / CDN / global edge | Route53/Cloud DNS, CloudFront/Cloudflare, Fastly | **ENTRY+link** | Handbook short entry → [System-Design fundamentals](https://github.com/thisiskushal31/System-Design-Concepts) (+ Networks for DNS depth) |
 | Load balancers | Cloud LB, HAProxy, nginx LB | **HERE-plan** (Servers) + **ENTRY+link** design | `Servers/` + System-Design |
@@ -1423,10 +1641,14 @@ Plus folder `README.md` (track intro). Status: **public 01–26 + README added**
 |-------|--------------------------|--------|------|
 | Docker / Podman (operator literacy) | Build, run, compose | **ENTRY+link** (must be obvious from handbook) | Thin Cloud-Native or Servers entry → [Containerization-Deep-Dive](https://github.com/thisiskushal31/Containerization-Deep-Dive) |
 | Kubernetes (DevOps angle) | Workloads, services, deploys | **HERE-deep** (scaffold) | `Cloud-Native/Kubernetes` + Containerization for depth |
+| OpenShift (platform) | IPI, Routes, Operators, SCC | **HERE-deep** | Containerization `Orchestration/OpenShift/` — ROSA/ARO/ROKS stay Cloud SKUs |
+| Rancher | Multi-cluster manager, RKE2, k3s, Fleet | **HERE-deep** | Containerization `Orchestration/Rancher/` — not a cloud account |
 | Helm | Charts | **HERE-deep** | `Cloud-Native/Helm` |
 | Service mesh | Istio, Linkerd | **HERE-deep** | `Cloud-Native/` |
-| Managed K8s | EKS/GKE/AKS | **ENTRY+link** | Containerization `Managed-Services` |
-| CNCF starter (cert-manager, ExternalDNS, Gateway) | Everyday cluster add-ons | **HERE-plan** | `Cloud-Native/` |
+| Managed K8s | EKS/GKE/AKS + regional cousins; ROSA/ARO/ROKS as SKUs | **HERE-deep** (Cloud [3](../../Deep-Dives/DevOps-Handbook/Cloud/3_Managed_Kubernetes.md)) + **ENTRY+link** | `Cloud/3` → Containerization `Managed-Services`; OpenShift platform stays Containerization `Orchestration/OpenShift` |
+| Unmanaged K8s on cloud IaaS | kubeadm / CAPI / kops on VMs | **HERE-deep** ([Kubernetes 6](../../Deep-Dives/Containerization-Deep-Dive/Orchestration/Kubernetes/6_Self_Managed.md)) | Containerization `Orchestration/Kubernetes/6` — Cloud only names the VM SKU |
+| On-prem / hybrid / bare metal K8s | kubeadm, RKE2, k3s, Arc / EKS Anywhere / attached | **HERE-deep** ([Kubernetes 7](../../Deep-Dives/Containerization-Deep-Dive/Orchestration/Kubernetes/7_Vanilla_On_Bare_Metal.md) + [Datacenter/](../../Deep-Dives/DevOps-Handbook/Datacenter/README.md) + [Rancher](../../Deep-Dives/Containerization-Deep-Dive/Orchestration/Rancher/README.md)) | kubeadm/vanilla → Kubernetes 6–7; hall/vSphere → `Datacenter/`; Rancher → `Orchestration/Rancher/` |
+| CNCF starter (cert-manager, ExternalDNS, Gateway) | Everyday cluster add-ons | **HERE-deep** ([Cloud-Native/4](../../Deep-Dives/DevOps-Handbook/Cloud-Native/4_CNCF_Everyday_Tools.md) + Cert-Manager / ExternalDNS / Backstage) | `Cloud-Native/` |
 
 ### G. Observability & reliability
 
@@ -1463,7 +1685,7 @@ Plus folder `README.md` (track intro). Status: **public 01–26 + README added**
 
 | Topic | Day-to-day tools / ideas | Status | Home |
 |-------|--------------------------|--------|------|
-| IDP / paved road | Backstage, Port, custom portals | **HERE-deep** (platform stub) + **GAP** Backstage entry | `Cloud-Native/3` |
+| IDP / paved road | Backstage, Port, custom portals | **HERE-deep** ([Backstage](../../Deep-Dives/DevOps-Handbook/Cloud-Native/Backstage/README.md) + [Platform engineering 3](../../Deep-Dives/DevOps-Handbook/Cloud-Native/3_Platform_Engineering.md)) | `Cloud-Native/3` |
 | Internal templates | Cookiecutter, copier, org skeletons | **ENTRY+link** | Platform / Methodologies |
 | Local dev parity | Devcontainers, Tilt, Skaffold, compose | **GAP → ENTRY+link** | Cloud-Native / Containers entry |
 
@@ -1485,7 +1707,7 @@ When work resumes, treat these as **explicit backlog** (entry or folder—not op
 1. **SE orientation page** in handbook root or Methodologies — “If you are an SE learning DevOps, start here” + matrix link to this plan’s map (or a reader-facing trimmed version).  
 2. **Artifact registries** chapter (promote immutable artifacts; don’t rebuild per env).  
 3. **Supply-chain literacy** (SBOM, signing/cosign, provenance).  
-4. **Cloud provider literacy** track (AWS/GCP/Azure — shared concepts, not three encyclopedias).  
+4. **Cloud provider literacy** track — **filled** `Cloud/` **1–14** + **advanced 15–22** (IAM, VPC, on-ramps, instances, CLI/API, FinOps, VPS kin, hybrid). On-prem/colo physical depth → handbook `Datacenter/` (on-ramp 1–12 + deep tracks filled Batches 0–9). Living operator index in this syllabus Part E. Not cert dumps.  
 5. **Docker/Podman entry** in handbook that **must** link Containerization-Deep-Dive (today easy to miss).  
 6. **Data/Messaging/cache DevOps entries** linking Databases + System-Design.  
 7. **DNS/CDN/LB/API gateway** short entries linking System-Design (+ Networks where deep).  
@@ -1558,6 +1780,8 @@ Practice catalog, SAST/DAST tables, and Servers/web-server v1 lists from prior r
 | CI vs CD vs GitOps; testing in pipeline; artifacts; environments; approvals; strategies; rollback | `CiCd/` + `Methodologies/` |
 | Security gate chain | `CiCd/` + `Security/` |
 | Host / web-server deploy | **`Servers/`** + `Operating-Systems/` + `Automation/` |
+| Named cloud providers | **`Cloud/`** |
+| On-prem metal / colo / vSphere | **`Datacenter/`** |
 | ChatOps / DORA literacy / branching / incidents | `Methodologies/` |
 | Verify after deploy | `CiCd/` ↔ `Observability/` |
 | Platform / IDP | `Cloud-Native/3` |
@@ -1602,7 +1826,7 @@ Distinguish: proxy vs app upstream vs K8s Ingress vs WAF.
 |------|--------|
 | Methodologies / CiCd / IAC / Automation / Cloud-Native / Observability / Security | Scaffolded or partial — **fill** |
 | Operating-Systems / Languages | Strong — **cross-link** for deploy & SE paths |
-| Servers / Cloud literacy / artifact+supply-chain entries | **Planned / gaps** (frameworks → Tooling) |
+| Servers / Cloud literacy / artifact+supply-chain entries | Cloud **1–14 filled**; Datacenter **on-ramp 1–12 + Batch 0 deep catalogs + living operator index**; deep chapter bodies Batches 1–8; Servers / artifact+supply-chain still **planned / gaps** |
 | Related deep-dives | **Link from SE entries** — do not duplicate |
 
 ---
@@ -1650,10 +1874,10 @@ Write these in [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskusha
 - [ ] Confirm CI security track (SAST/DAST/SCA/secrets/IaC/image/WAF/sign-SBOM)  
 - [ ] Confirm SonarQube + ZAP as primary examples  
 - [ ] Confirm artifact registry + supply-chain chapters in CiCd/Security  
-- [ ] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC)  
+- [x] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC) — `Cloud/` **1–22** (providers + tenant how-to); IAC stays Terraform/etc.; `Datacenter/` physical deep + accessibility **closed**  
 - [ ] Confirm Docker/Podman handbook entry → Containerization-Deep-Dive  
 - [ ] Confirm data/Messaging/CDN/LB entries → Databases + System-Design + Networks  
-- [x] `Servers/` and `Cloud/` exist; frameworks live in Tooling — do not add `Frameworks/` here  
+- [x] `Servers/`, `Cloud/`, and `Datacenter/` exist; frameworks live in Tooling — do not add `Frameworks/` here  
 - [ ] Keep Languages = languages; OS = OS; deep dives = deep dives  
 
 ---
@@ -1733,8 +1957,9 @@ Most of `Containerization-Basic/`, `Runtimes/`, `Orchestration/Kubernetes`, and 
 | [Containerization-Basic/](./Containerization-Basic/README.md) | 4 topics | **Written** — concepts, images, net/storage, security basics |
 | [Runtimes/Docker/](./Runtimes/Docker/README.md) | 5 topics | **Written** — install through workshop |
 | [Runtimes/Podman/](./Runtimes/Podman/README.md) | 5 topics | **Written** |
-| [Orchestration/Kubernetes/](./Orchestration/Kubernetes/README.md) | 5 topics | **Written** — getting started → production |
+| [Orchestration/Kubernetes/](./Orchestration/Kubernetes/README.md) | 7 topics | **Written** — getting started → production + self-managed + vanilla on metal |
 | [Orchestration/OpenShift/](./Orchestration/OpenShift/README.md) | 10 topics | **Written** |
+| [Orchestration/Rancher/](./Orchestration/Rancher/README.md) | 1 topic | **Written** — overview / RKE2 / k3s |
 | [Orchestration/Swarm/](./Orchestration/Swarm/README.md) | 6 topics | **Written** |
 | [Managed-Services/GKE|eks|aks/](./Managed-Services/README.md) | 5+5+5 topics | **Written** |
 | [Managed-Services/](./Managed-Services/1_Overview_When_to_Use.md) | overview + turnkey | **Written** (turnkey = index only — see [Local-Dev/](./Local-Dev/README.md)) |
