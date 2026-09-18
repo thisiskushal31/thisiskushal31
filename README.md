@@ -19,7 +19,7 @@ What I do today: DevOps, platform engineering, cloud-native architecture, and pr
 | **Code delivery** | 40%+ faster code delivery through CI/CD, IaC, and GitOps |
 | **Savings** | US$120K+ cloud cost reduction (30% spend cut); 93% AdTech infrastructure cost reduction by replacing third-party with in-house |
 | **Revenue platforms** | US$90M+ AdTech; US$5M+ POS across 200+ retail stores |
-| **Current (Freelance)** | Greenfield AI-powered CI/CD SaaS on GCP — up to 80% faster CI; SOC 2 + ISO/IEC 27001–aligned platform; full IaC + GitOps |
+| **Current (Freelance)** | Greenfield AI-powered CI/CD SaaS on GCP — platform ownership, SOC 2-enabled controls, GitHub PR-driven delivery (Atlantis + ArgoCD), up to 80% faster CI |
 
 ---
 
@@ -27,9 +27,12 @@ What I do today: DevOps, platform engineering, cloud-native architecture, and pr
 
 ### Freelancer — DevOps Engineer · Self-employed · Mar 2026 – Present
 
-Building the production platform for an AI-powered CI/CD SaaS on GCP: GitHub App control plane, ephemeral Compute Engine runners, GKE services, distributed caching, and compliance-ready delivery (Terraform, Atlantis, Argo CD, OpenTelemetry).
+Own platform infrastructure and deployment for an AI-powered CI/CD SaaS on Google Cloud.
 
-Impact: Greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned controls · reusable CI with semantic versioning.
+- Deployed SOC 2-enabled infrastructure with required controls: least-privilege IAM, private IPs, and Zero Trust
+- Built a GitHub PR-driven platform: every Kubernetes and infrastructure change required a PR, with Atlantis for Terraform and drift checks; rightsized spend by 13%
+- Deployed the AI CI/CD platform with ArgoCD, including promotion flows, Kubernetes, databases, and NATS infrastructure
+- Engineered a MicroCeph cache with Kubernetes as the service layer (80% faster CI) and enabled OpenTelemetry / Google Cloud Monitoring
 
 ### Purplle.com — DevOps Engineer · Jan 2023 – Feb 2026
 

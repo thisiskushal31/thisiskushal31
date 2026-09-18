@@ -412,7 +412,7 @@ Counts below are file-level (September 2026). A file with `*(Content TBD)*` or �
 
 | Home | Plan | Places (honest) | Stub-ish files |
 |------|------|-----------------|----------------|
-| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine scaffold. Cloud **0–34 + Catalogs closed**; Datacenter **closed**. Security/IAC/Observability still open. | ~120+ |
+| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine scaffold. Cloud **0–34 + Catalogs closed**; Datacenter **closed**; Observability **0–3 + tools closed**. Security/IAC still open. | ~120+ |
 | [Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | Part E | Docker, Podman, K8s (incl. self-managed/vanilla), OpenShift, Rancher, Swarm, GKE/EKS/AKS written. Later sections stub. | ~29 |
 | [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) | Part E | Core layers written. Mesh / extra labs stub. | ~17 |
 | [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | Part E | Six engines written. Other engines stub. **Qdrant added.** | ~113 (was 108) |
@@ -1211,7 +1211,7 @@ These were already promised in the completeness plan. They stay on this write-or
 | Atlantis | [IAC/Atlantis](./IAC/Atlantis/README.md) | exists |
 | FinOps | [Methodologies/](./Methodologies/README.md) | stub |
 | OpenTofu / Packer | [IAC/](./IAC/README.md) | planned |
-| Kyverno / Loki / Backstage | Cloud-Native / Observability indexes | Backstage **filled**; Kyverno literacy at [Cloud-Native/Kyverno](../../Deep-Dives/DevOps-Handbook/Cloud-Native/Kyverno/README.md); Loki still planned |
+| Kyverno / Loki / Backstage | Cloud-Native / Observability indexes | Backstage **filled**; Kyverno literacy at [Cloud-Native/Kyverno](../../Deep-Dives/DevOps-Handbook/Cloud-Native/Kyverno/README.md); Loki (+ Tempo/Jaeger) at [Observability/](../../Deep-Dives/DevOps-Handbook/Observability/README.md) |
 | Synthetic / e2e in verify (k6, Playwright) | `CiCd/` verify; Playwright → Tooling `Quality-And-Testing/Playwright` | planned |
 | DB migrations in pipelines | CiCd entry + Databases `Tools/Flyway` | planned |
 | Local dev parity | [README](./README.md) + Containerization `Local-Dev/` | planned |
@@ -1260,7 +1260,9 @@ Public intro: [Deep-Dives/DevOps-Handbook/Datacenter/README.md](../../Deep-Dives
 
 **Cloud advanced (historical):** tenant how-to started as `Cloud/15–22`; colo path stays `Datacenter/Provider-Use`.
 
-**Cloud catalog pass (done):** [Catalogs/](../../Deep-Dives/DevOps-Handbook/Cloud/Catalogs/README.md) lists **product families / primary SKUs** with **what it is for · when to choose · why not**—handbook is the final choice destination; References only for deeper API. Not a cert dump of console clicks. Security/IAC/Observability still open.
+**Cloud catalog pass (done):** [Catalogs/](../../Deep-Dives/DevOps-Handbook/Cloud/Catalogs/README.md) lists **product families / primary SKUs** with **what it is for · when to choose · why not**—handbook is the final choice destination; References only for deeper API. Not a cert dump of console clicks.
+
+**Observability closed (move-on confirmed):** [Observability/](../../Deep-Dives/DevOps-Handbook/Observability/README.md) **0–3** + tool folders (Prom/Grafana/OTel/Loki/Tempo/Jaeger/Elastic/Datadog/New Relic/PagerDuty)—signal jobs + what/when/why-not; Cloud/30 + Methodologies/3 remain doors. Security/IAC still open.
 
 **Cloud closed (move-on confirmed):** literacy 0–34 + catalogs complete; reopen only when a *new durable job* or major product family appears.
 
@@ -1662,9 +1664,9 @@ Plus folder `README.md` (track intro). Status: **public 01–26 + README added**
 | Topic | Day-to-day tools / ideas | Status | Home |
 |-------|--------------------------|--------|------|
 | Metrics | Prometheus, Grafana, Datadog, New Relic | **HERE-deep** | `Observability/` |
-| Logs | Elastic/ELK, Loki (entry if missing) | **HERE-deep** + **GAP** Loki entry if needed | `Observability/` |
-| Traces | OpenTelemetry, Jaeger/Tempo literacy | **HERE-deep** (OTel) + **ENTRY** Tempo/Jaeger | `Observability/` |
-| SLO/SLI/error budgets | SRE practices | **HERE-deep** (stubs) | Observability + Methodologies |
+| Logs | Elastic/ELK, Loki | **HERE-deep** | `Observability/` |
+| Traces | OpenTelemetry, Jaeger/Tempo literacy | **HERE-deep** | `Observability/` (Tempo + Jaeger folders) |
+| SLO/SLI/error budgets | SRE practices | **HERE-deep** | Observability/1 + Methodologies/3 |
 | Synthetic / smoke after deploy | Scripts, k6, Playwright in CI | **GAP → HERE-plan** | `CiCd/` verify stage |
 
 ### H. Data, messaging, caching (SE apps — DevOps must know enough)
@@ -1881,7 +1883,7 @@ Write these in [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskusha
 - [ ] Confirm CI security track (SAST/DAST/SCA/secrets/IaC/image/WAF/sign-SBOM)  
 - [ ] Confirm SonarQube + ZAP as primary examples  
 - [ ] Confirm artifact registry + supply-chain chapters in CiCd/Security  
-- [x] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC) — `Cloud/` **0–34 + Catalogs closed** (jobs + what/when/why-not; docs = API depth); IAC stays Terraform/etc.; `Datacenter/` **closed**; Security/IAC/Observability still open  
+- [x] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC) — `Cloud/` **0–34 + Catalogs closed** (jobs + what/when/why-not; docs = API depth); IAC stays Terraform/etc.; `Datacenter/` **closed**; `Observability/` **closed**; Security/IAC still open  
 - [ ] Confirm Docker/Podman handbook entry → Containerization-Deep-Dive  
 - [ ] Confirm data/Messaging/CDN/LB entries → Databases + System-Design + Networks  
 - [x] `Servers/`, `Cloud/`, and `Datacenter/` exist; frameworks live in Tooling — do not add `Frameworks/` here  

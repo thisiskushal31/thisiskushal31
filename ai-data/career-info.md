@@ -846,7 +846,11 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 **Freelancer · Self-employed (March 2026 - Present):**
 - **Engagement:** Self-employed · India (Remote)
 - **Role:** DevOps Engineer
-- **Key Project:** AI-powered CI/CD SaaS infrastructure & compliance (see Featured Project 11)
+- Own platform infrastructure and deployment for an AI-powered CI/CD SaaS on Google Cloud
+- Deployed SOC 2-enabled infrastructure with required controls: least-privilege IAM, private IPs, and Zero Trust
+- Built a GitHub PR-driven platform: every Kubernetes and infrastructure change required a PR, with Atlantis for Terraform and drift checks; rightsized spend by 13%
+- Deployed the AI CI/CD platform with ArgoCD, including promotion flows, Kubernetes, databases, and NATS infrastructure
+- Engineered a MicroCeph cache with Kubernetes as the service layer (80% faster CI) and enabled OpenTelemetry / Google Cloud Monitoring
 
 **Purplle.com (January 2023 - February 2026):**
 - **Total Duration:** January 2023 - February 2026
