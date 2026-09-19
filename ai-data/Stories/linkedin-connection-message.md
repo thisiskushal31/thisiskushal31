@@ -1,19 +1,25 @@
 # LinkedIn Connection Message - DevOps Role Search
 
 **Areas of Expertise & Interest:**
+- Cloud-Native Architecture & System Design
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+
+**Current status (as of September 2026):** Self-employed DevOps Engineer (Mar 2026 – Present). Previously Purplle.com (Jan 2023 – Feb 2026). **3.8+ years** total. Immediate availability — no 60-day notice. **Narrative:** architect and operate production platforms (not a past job title).
+
+**Canonical metrics:** US$160M+ (₹1,300+ Cr) annual business, 10M+ users, 400K+ DAU, 4x on commerce and AdTech, 200+ POS stores, US$90M+ AdTech at 93% infra cost cut, 40% faster **infrastructure** delivery, 76% MTTR, 30% / US$120K+ cloud savings, 99.9% e-commerce availability. Current: SOC 2-enabled GCP platform, ArgoCD/Atlantis, up to 80% faster CI.
+
+---
 
 ## 🎯 Quick Subject Line Reference
 
 **Most Used:**
 - **DevOps Engineer - Exploring Opportunities**
-- **DevOps Engineer - Production Infrastructure (1cr+ Users) | Seeking Opportunities**
+- **DevOps Engineer - Production Infrastructure (10M+ Users) | Seeking Opportunities**
 - **DevOps Engineer - GCP, AWS, Kubernetes Experience**
 
 **For Recruiters:**
-- **DevOps Engineer - 300+ Services, 1cr+ Users | Open to Opportunities**
+- **DevOps Engineer - 10M+ Users, $160M+ Scale | Open to Opportunities**
 
 **For Hiring Managers:**
 - **DevOps Engineer - Security & Incident Response | Seeking Opportunities**
@@ -28,23 +34,23 @@
 ```
 Hi [Name],
 
-Hope you're doing well! I'm reaching out because I'm actively exploring DevOps opportunities and would love to connect with amazing professionals like you in the field.
+Hope you're doing well! I'm reaching out because I'm actively exploring DevOps / platform / cloud architecture / SRE opportunities and would love to connect.
 
-I'm an Experienced DevOps Engineer at Purplle.com, managing large-scale production infrastructure serving 7 million users. **Key projects:** Managed & maintained **Purplle.com** main e-commerce platform (₹700 Crore annual revenue as of Jan 1, 2026), deployed **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction, 100+ production services), **PurplleNexus POS** (100+ retail stores, 500+ daily employees, 40+ Crores revenue, 99%+ uptime). Managing 125+ Microservices Distributed Workload on GKE. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Achieved measurable results: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction (30min → 7min), 33% site downtime reduction, and 4x traffic spike handling during major sales events.
+I'm a Software / DevOps Engineer with 3.8+ years architecting and operating production infrastructure. Previously at Purplle.com (Jan 2023–Feb 2026) I designed and ran infrastructure for a ₹1,300+ Crore (US$160M+) e-commerce business, 10M+ users, 400K+ DAU, and 200+ retail stores — including in-house AdTech (US$90M+, 93% infra cost cut). Currently a self-employed DevOps Engineer owning platform architecture for an AI-powered CI/CD SaaS on GCP (SOC 2-enabled, ArgoCD/Atlantis, up to 80% faster CI). Tech: GCP, AWS, Kubernetes, Terraform, ArgoCD, Python, Prometheus, Grafana, OpenTelemetry. Results: 40% faster infrastructure delivery, 30% cloud cost reduction (US$120K+), 76% MTTR reduction (30min → 7min), 99.9% availability through 4x peak traffic.
 
-My notice period is 60 days (negotiable).
+I'm immediately available.
 
-I'd be delighted to share my CV and would love to connect! Here's a link to my resume: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
+I'd be delighted to share my CV: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
 
-You can also check out my detailed project documentation and architecture designs here: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
+Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
-Looking forward to connecting and learning from your experience in the DevOps space. Would be great to hear from you!
+Looking forward to connecting.
 
 Warm regards,
 Kushal Gupta
 ```
 
-**Character Count:** ~720 characters (Use in follow-up message after connection)
+**Character Count:** use in follow-up message after connection
 
 ---
 
@@ -56,7 +62,7 @@ Kushal Gupta
 ```
 Hi,
 
-Hope you're doing great! Experienced DevOps Engineer - Managed large-scale infrastructure at Purplle.com (₹700 Crore revenue), deployed PurplleAds (₹400+ Crore revenue, 93% cost reduction, 100+ production services) & PurplleNexus POS (100+ stores, 500+ daily employees, 40+ Crores revenue, 99%+ uptime). 7 million users, 125+ Microservices Distributed Workload. Tech: GCP, AWS, Kubernetes, Terraform, Jenkins, Python. 40%+ faster deployments, 76% MTTR reduction. Would love to connect and explore opportunities together!
+Hope you're doing great! DevOps Engineer with 3.8+ years architecting production platforms — previously Purplle.com (₹1,300+ Cr / US$160M+, 10M+ users, 200+ stores, US$90M+ AdTech at 93% infra cost cut). Currently owning GCP platform architecture for an AI-powered CI/CD SaaS (SOC 2-enabled, ArgoCD/Atlantis, up to 80% faster CI). Tech: GCP, AWS, Kubernetes, Terraform, Python. 40% faster infrastructure delivery, 76% MTTR cut. Would love to connect.
 
 CV: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
 Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
@@ -66,35 +72,31 @@ Best,
 Kushal
 ```
 
-**Character Count:** ~290 characters ✅ (Good for connection request)
+**Character Count:** check against LinkedIn connection-request limit if used as a note
 
 ---
 
 ## Message Template 3: Value-Focused
 
-**Subject/Opening:** DevOps Engineer - Production Infrastructure (1cr+ Users) | Seeking Opportunities
+**Subject/Opening:** DevOps Engineer - Production Infrastructure (10M+ Users) | Seeking Opportunities
 
 **📋 Copy-Paste Ready:**
 ```
 Hi [Name],
 
-Hope you're having a wonderful day! I'm reaching out as I'm actively looking for DevOps roles and would love to connect with wonderful professionals like you in the space.
+Hope you're having a wonderful day! I'm reaching out as I'm actively looking for DevOps / platform / SRE roles.
 
-As an Experienced DevOps Engineer at Purplle.com, I've managed and deployed large-scale production platforms: **Purplle.com** main e-commerce platform (₹700 Crore annual revenue as of Jan 1, 2026 - high-value infrastructure management), **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction, 100+ production services), **PurplleNexus POS** (100+ retail stores, 500+ daily employees, 40+ Crores revenue, 99%+ uptime). Managing 7 million users across 125+ Microservices Distributed Workload. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Delivered measurable impact: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction, 33% site downtime reduction, and 4x traffic spike handling during major sales events.
+Over 3.8+ years I've architected and operated production infrastructure at Purplle.com (Jan 2023–Feb 2026) for a ₹1,300+ Crore (US$160M+) business, 10M+ users, 400K+ DAU, and 200+ POS stores, plus in-house AdTech (US$90M+, 93% infra cost cut). Now I own platform architecture for an AI-powered CI/CD SaaS on GCP: SOC 2-enabled Zero Trust, PR-driven Atlantis + ArgoCD, up to 80% faster CI. Impact: 40% faster infrastructure delivery, 30% cloud cost reduction, 76% MTTR reduction, 99.9% availability through 4x peaks.
 
-My notice period is 60 days (negotiable).
+Immediately available. Happy to share my CV: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
 
-I'd be happy to share my CV with you! Here's a link: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
+Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
-You can also explore my detailed project documentation, architecture designs, and technical implementations here: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
-
-Would be wonderful to connect and learn from your experience. Looking forward to hearing from you!
+Would be wonderful to connect.
 
 Warm regards,
 Kushal Gupta
 ```
-
-**Character Count:** ~680 characters (Use in follow-up after connection)
 
 ---
 
@@ -106,58 +108,41 @@ Kushal Gupta
 ```
 Hi [Name],
 
-Hope you're doing well! Experienced DevOps Engineer - Managed large-scale infrastructure at Purplle.com (₹700 Crore revenue), deployed PurplleAds (₹400+ Crore revenue, 100+ production services) & PurplleNexus (100+ stores, 500+ daily employees, 40+ Crores revenue). 7 million users, 125+ Microservices Distributed Workload. 40%+ faster deployments, 76% MTTR reduction. GCP, AWS, Kubernetes, Terraform. Would love to connect and explore opportunities!
+DevOps Engineer, 3.8+ years architecting production platforms. Previously Purplle.com (US$160M+, 10M+ users, 200+ stores). Now GCP platform architecture for an AI CI/CD SaaS (ArgoCD/Atlantis, SOC 2-enabled). GCP, AWS, Kubernetes, Terraform. Would love to connect.
 
-CV: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
-Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
-
-Looking forward to connecting!
-Thanks,
+Best,
 Kushal
 ```
 
-**Character Count:** ~270 characters ✅ (Perfect for LinkedIn connection request)
+**Character Count:** keep under LinkedIn's connection-note limit
 
 ---
 
 ## 📋 LinkedIn Connection Request Strategy
 
-### Step 1: Send Connection Request (300 character limit)
+### Step 1: Send Connection Request
 Use **Template 4** or **Template 2** - keep it short and professional.
 
 ### Step 2: After They Accept (Follow-up message)
-Send **Template 1** or **Template 3** with more details about your experience and what you're looking for.
+Send **Template 1** or **Template 3** with more details.
 
 ---
 
 ## 🎯 Best Practices
 
-1. **Personalize when possible:**
-   - Mention something specific about their profile/company
-   - Reference mutual connections if any
-   - Show you've done your research
-
-2. **Keep connection requests short:**
-   - LinkedIn limits connection requests to 300 characters
-   - Save detailed info for follow-up messages
-
-3. **Be professional but friendly:**
-   - Avoid being too salesy
-   - Focus on building genuine connections
-   - Offer value, not just ask for help
-
-4. **Include your CV link:**
-   - Make it easy for them to review your background
-   - Use a shareable link (Google Drive works well)
+1. **Personalize when possible** — mention their profile, company, or mutual connections.
+2. **Keep connection requests short** — LinkedIn limits notes; save detail for follow-up.
+3. **Be professional but friendly** — offer value, don't only ask.
+4. **Include CV + projects links** in follow-ups.
 
 ---
 
 ## 💡 Customization Tips
 
 **For Recruiters:**
-- Add: "I noticed you recruit for DevOps roles..."
+- Add: "I noticed you recruit for DevOps / platform / SRE roles..."
 - Mention: "I'd be interested in learning about opportunities you're working on"
-- **Important:** Always mention your notice period (60 days, negotiable) - this helps recruiters plan timelines
+- **Availability:** Immediate (self-employed). Do **not** mention a 60-day Purplle notice.
 
 **For Hiring Managers:**
 - Add: "I'm impressed by [Company]'s work in [specific area]..."
@@ -169,25 +154,13 @@ Send **Template 1** or **Template 3** with more details about your experience an
 
 ---
 
-## 📧 Subject Line Options for LinkedIn Messages
-
-**Note:** LinkedIn messages don't have traditional subject lines, but you can:
-1. **Use as opening line** - Start your message with the subject
-2. **For email outreach** - If you're sending emails instead of LinkedIn messages
-3. **In message preview** - The first line appears in message previews, so make it count
-
-**How to use:**
-- **LinkedIn Messages:** Use the subject as your first line, then continue with the message
-- **Email Outreach:** Use as the email subject line
-- **Connection Requests:** Keep it short and use as the opening line
-
-### Subject Line Options:
+## 📧 Subject Line Options
 
 1. **DevOps Engineer - Exploring Opportunities**
-2. **DevOps Role Inquiry - 300+ Production Services, 1cr+ Users**
+2. **DevOps Role Inquiry - 10M+ Users, $160M+ Scale**
 3. **DevOps Engineer Seeking New Opportunities**
 4. **Connecting - DevOps Engineer with GCP/AWS/Kubernetes Experience**
-5. **DevOps Role - Production Infrastructure (1cr+ Users)**
+5. **DevOps Role - Production Infrastructure (10M+ Users)**
 6. **DevOps Engineer - Security & Incident Response Experience**
 7. **Exploring DevOps Opportunities - Production Experience**
 8. **DevOps Engineer - GCP, AWS, Kubernetes, Terraform**
@@ -195,205 +168,112 @@ Send **Template 1** or **Template 3** with more details about your experience an
 ### For Email Outreach (if applicable):
 - **Subject: DevOps Engineer - Exploring Opportunities | CV Attached**
 - **Subject: DevOps Role Inquiry - Production Infrastructure Experience**
-- **Subject: DevOps Engineer - 300+ Services, 1cr+ Users | Seeking Opportunities**
+- **Subject: DevOps Engineer - 10M+ Users, $160M+ Scale | Seeking Opportunities**
 
 ---
 
 ## ✅ Ready-to-Use Versions
 
 ### Connection Request (Copy-Paste Ready):
-**Subject/Opening:** DevOps Engineer - Exploring Opportunities
-
-**📋 Copy-Paste Ready:**
 ```
 Hi [Name],
 
-Hope you're doing well! Experienced DevOps Engineer - Managed large-scale infrastructure at Purplle.com (₹700 Crore revenue, 7 million users). 125+ Microservices Distributed Workload. GCP, AWS, Kubernetes, Terraform. Actively exploring opportunities. Would love to connect and learn from your experience!
+Hope you're doing well! DevOps Engineer, 3.8+ years architecting production platforms — previously Purplle.com (US$160M+, 10M+ users). Now GCP platform architecture for an AI CI/CD SaaS. GCP, AWS, Kubernetes, Terraform. Would love to connect.
 
 Best,
 Kushal
 ```
 
 ### Connection Request for International Reach:
-**Subject/Opening:** DevOps Engineer - Exploring Opportunities
-
-**📋 Copy-Paste Ready:**
 ```
 Hi [Name],
 
-I'm Kushal, a DevOps Engineer with experience in large scale cloud infrastructure, automation, and CI/CD pipelines. Managed 3 tier applications handling 0.25 million and 70 million users a year. I'd be happy to connect and discuss potential DevOps opportunities aligned with my background.
+I'm Kushal, a DevOps / Platform Engineer with 3.8+ years architecting systems on GCP and AWS. Previously designed and operated production infrastructure for a US$160M+ e-commerce business (10M+ users, 400K+ DAU). Currently own platform architecture for an AI-powered CI/CD SaaS on GCP. I'd be happy to connect and discuss DevOps / SRE / platform / cloud architecture roles.
 
 Best regards,
 Kushal
 ```
 
 ### Follow-up Message (After Connection):
-**Subject/Opening:** DevOps Engineer - Exploring Opportunities
-
-**📋 Copy-Paste Ready:**
 ```
 Hi [Name],
 
-Thanks so much for connecting! I really appreciate it. I'm actively exploring DevOps opportunities and would love to hear any insights or advice you might have.
+Thanks so much for connecting. I'm actively exploring DevOps / platform / SRE opportunities.
 
-As an Experienced DevOps Engineer at Purplle.com, I manage large-scale production infrastructure serving 7 million users. **Key projects:** Managed & maintained **Purplle.com** main e-commerce platform (₹700 Crore annual revenue as of Jan 1, 2026 - high-value infrastructure management), deployed **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction, 100+ production services), **PurplleNexus POS** (100+ retail stores, 500+ daily employees, 40+ Crores revenue, 99%+ uptime). Managing 125+ Microservices Distributed Workload on GKE. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Achieved results: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction (30min → 7min), 33% site downtime reduction, and 4x traffic spike handling during major sales events.
+Previously at Purplle.com (Jan 2023–Feb 2026) I architected and operated infrastructure for a ₹1,300+ Crore (US$160M+) business, 10M+ users, 400K+ DAU, and 200+ stores, plus in-house AdTech (US$90M+, 93% infra cost cut). Currently a self-employed DevOps Engineer owning GCP platform architecture for an AI-powered CI/CD SaaS (SOC 2-enabled, ArgoCD/Atlantis, up to 80% faster CI). Results: 40% faster infrastructure delivery, 30% cloud savings, 76% MTTR cut, 99.9% availability through 4x peaks.
 
-My notice period is 60 days (negotiable).
-
-I'd be happy to share my CV with you! Here's a link: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
-
-You can also explore my detailed project documentation, architecture designs, and technical implementations here: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
-
-Would be wonderful to connect and learn from your experience. Looking forward to hearing from you!
+Immediately available. CV: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
+Projects: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
 Warm regards,
 Kushal
-```
-
-### Follow-up Message with Subject (Alternative):
-**Subject:** DevOps Engineer - Production Infrastructure (1cr+ Users) | Seeking Opportunities
-
-**📋 Copy-Paste Ready:**
-```
-Hi [Name],
-
-Hope you're having a wonderful day! I'm reaching out as I'm actively exploring DevOps opportunities and would love to connect with amazing professionals like you in the field.
-
-I'm an Experienced DevOps Engineer at Purplle.com, managing large-scale production infrastructure serving 7 million users. **Key projects:** Managed & maintained **Purplle.com** main e-commerce platform (₹700 Crore annual revenue as of Jan 1, 2026), deployed **PurplleAds** (AdTech platform supporting ₹400+ Crore revenue with 93% cost reduction, 100+ production services), **PurplleNexus POS** (100+ retail stores, 500+ daily employees, 40+ Crores revenue, 99%+ uptime). Managing 125+ Microservices Distributed Workload on GKE. Tech stack: GCP, AWS, Kubernetes (GKE), Terraform, Jenkins, GitLab CI, Ansible, Python, Prometheus, Grafana, and security tools. Achieved measurable results: 40%+ faster deployments, 30% cloud cost reduction through usage audits and resource cleanup (improving security posture by removing unused resources), 76% MTTR reduction (30min → 7min), 33% site downtime reduction, and 4x traffic spike handling during major sales events.
-
-My notice period is 60 days (negotiable).
-
-I'd be delighted to share my CV and would love to connect! Here's a link to my resume: https://drive.google.com/file/d/1WsUNE6QT-DKWm3yj1y80U78mhwrVdtdj/view?usp=sharing
-
-You can also check out my detailed project documentation and architecture designs here: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
-
-Looking forward to connecting and learning from your experience in the DevOps space. Would be great to hear from you!
-
-Warm regards,
-Kushal Gupta
 ```
 
 ---
 
 ## 🛠️ Tech Stack Reference
 
-**Cloud Platforms:** GCP, AWS, GKE  
-**CI/CD & Automation:** Terraform, Jenkins, GitLab CI, GitHub CI, GitOps, Ansible, n8n  
+**Cloud Platforms:** GCP, AWS, GKE, Cloud Run  
+**CI/CD & Automation:** Terraform, Atlantis, ArgoCD, Helm, Jenkins, GitLab CI, GitHub Actions, GitOps, Ansible  
 **Containerization:** Docker, Kubernetes  
-**Monitoring & Observability:** Prometheus, Grafana  
-**Languages & Scripting:** Python, Bash/Shell, JavaScript, C/C++  
-**Databases:** MySQL, MongoDB, Elasticsearch, Redis, Kafka  
-**Security:** Secrets Manager, Trivy, IAM, SSO, Zero-Trust Architecture, Incident Response  
-**Other:** GitOps workflows, Production Workload Management
+**Monitoring & Observability:** Prometheus, Grafana, OpenTelemetry, Google Cloud Monitoring  
+**Languages & Scripting:** Python, Bash/Shell, JavaScript  
+**Databases:** PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, Kafka  
+**Security:** IAM, Zero Trust, Secrets Manager, Trivy, SSO, Incident Response  
 
-**Quick Tech Stack (for short messages):** GCP, AWS, Kubernetes, Terraform, Jenkins, Python, Prometheus/Grafana
+**Quick Tech Stack (for short messages):** GCP, AWS, Kubernetes, Terraform, ArgoCD, Python, Prometheus/Grafana
 
 ---
 
 ## 🚀 Featured Projects & Impact
 
-### **Purplle.com - Main E-Commerce Platform** ⭐⭐⭐
-**Managed & Maintained:** High-availability e-commerce platform infrastructure
-- **Revenue Impact:** ₹700 Crore annual revenue generation (as of Jan 1, 2026)
-- **Scale:** 7 million total users, 150K DAU typically (600K during major sales, 300K during minor sales)
-- **Infrastructure:** 125+ Microservices Distributed Workload on GKE, high-availability systems
-- **Reliability:** Reduced site downtime by 33% through infrastructure optimization
-- **Tech Stack:** GCP, GKE, Cloud SQL (4TB MySQL), Redis, Memorystore, Elasticsearch, MongoDB, Aerospike, WAF, Cloud NAT
-- **Impact:** Critical infrastructure supporting ₹700 Crore annual revenue, handling traffic spikes during major sales events
+### **Current — AI-powered CI/CD SaaS (Freelance)**
+- Platform ownership on GCP; SOC 2-enabled Zero Trust; PR-driven Atlantis + ArgoCD
+- MicroCeph cache with Kubernetes as the service layer — up to 80% faster CI; 13% rightsizing
+- PoW: `projects/11_Stealth_Startup_Infrastructure_Deployment`
 
-### **PurplleAds - In-House AdTech Platform** ⭐⭐
-**Deployed & Managed:** High-availability AdTech platform at `adtech.purplle.com`
-- **Revenue Impact:** ₹400+ Crore brand advertising revenue support
-- **Cost Savings:** 93% cost reduction (₹80 Lakh → ₹5.7 Lakh infrastructure cost)
-- **Scale:** 7 million total users, 150K DAU typically (600K during major sales, 300K during minor sales)
-- **Infrastructure:** 100+ production services on GKE, 99%+ uptime
-- **Tech Stack:** GCP, GKE, AWS, Route53, Terraform, Keycloak, WAF, VPC
-- **Impact:** Replaced ₹80 Lakh/year third-party software with in-house solution
+### **Purplle.com - Main E-Commerce Platform**
+- **Revenue / scale:** ₹1,300+ Crore (US$160M+), 10M+ users, 400K+ DAU, 99.9% availability, 4x peaks
+- **Reliability:** 50% sale-event downtime reduction; 76% MTTR
+- PoW: `projects/1_Purplle.com_Management`
 
-### **PurplleNexus - POS Application** ⭐
-**Deployed & Managed:** High-availability POS across 100+ retail stores
-- **Scale:** 100+ stores, 500+ daily employees, 40+ Crores revenue generation
-- **Reliability:** 99%+ uptime across all retail locations
-- **Traffic:** Handles 7 million total users with scalable infrastructure
-- **Infrastructure:** Auto-scaling (1-6 pods, avg 3), GCP (GKE, Cloud SQL, WAF, VPC)
-- **Tech Stack:** Kafka, Redis, Prometheus, Grafana, Terraform
+### **PurplleAds - In-House AdTech Platform**
+- **Revenue:** ₹750+ Crore (US$90M+); **93%** infrastructure cost reduction (in-house vs third-party)
+- **4x** traffic on AdTech during sales
+- PoW: `projects/5_Purplle.com_Adtech_Deployment`
 
-### **Infrastructure Automation** ⭐
-**Built & Deployed:** Automated infrastructure provisioning and management
-- **Deployment Speed:** 40%+ faster deployments through CI/CD automation
-- **Automation:** 40%+ of provisioning tasks automated
-- **Tools:** Terraform, Ansible, Python, GitLab CI, Jenkins, GitOps
-- **Impact:** Reduced manual overhead, improved environment consistency
+### **PurplleNexus - POS**
+- **200+ stores**, US$5M+, 99%+ uptime
+- PoW: `projects/6_PurplleNexus_Deployment`
 
-### **Cloud Cost Optimization** ⭐
-**Achieved:** 30% reduction in cloud spend through usage audits and resource cleanup
-- **Method:** Comprehensive usage audits and resource cleanup on exiting Purplle.com usage
-- **Impact:** 30% cloud cost reduction through systematic resource optimization, improved security posture by removing unused resources and reducing attack surface
-- **Approach:** Usage audits, resource cleanup, rightsizing, and autoscaling policies
-- **Security Benefit:** Reduced attack surface by eliminating orphaned resources and unused infrastructure
-
-### **Monitoring & Alerting** ⭐
-**Architected & Implemented:** Unified observability stack
-- **MTTR Reduction:** 76% reduction (30 minutes → 7 minutes)
-- **Migration:** 100% legacy alerting systems migrated to Grafana Alerts
-- **Tools:** Prometheus, Grafana, automated escalation
-- **Impact:** Proactive issue detection, faster incident response
-
-### **Security Enhancements** ⭐
-**Implemented:** Zero-trust security architecture
-- **Security Tools:** Kubernetes RBAC, Secure Boot, Trivy scanning, Secrets Manager, SSO, IAM
-- **Automation:** Automated IAM minimization, public IP cleanup
-- **Compliance:** Zero-trust architecture, defense-in-depth security
-- **Impact:** Reduced attack surface, improved compliance posture
-
-### **Elasticsearch Automation** ⭐
-**Built:** Agentic AI automation for cluster management
-- **Innovation:** AI-powered automation using n8n, Terraform, Ansible, Python
-- **Impact:** Streamlined provisioning, reduced manual overhead
+### **Infrastructure delivery / observability / security**
+- 40% faster **infrastructure** delivery (IaC, GitOps) — `projects/8_Purplle.com_IAC_Deployment`
+- 76% MTTR — `projects/7_PurplleInfra_Monitoring_Improvement`
+- Zero Trust / IAM / Trivy — `projects/9_Purplle.com_SecurityImprovement`
 
 ---
 
 ## 📊 Production Scale Metrics
 
-**Production Workload:**
-- **125+ Microservices Distributed Workload** managed on GKE
-- **7 million total users** across platforms
-- **₹700+ Crore annual revenue** - Purplle.com main e-commerce platform (high-value infrastructure management)
-- **₹400+ Crore brand advertising revenue** - PurplleAds platform
-- **99%+ uptime** maintained across all production systems
-- **33% site downtime reduction** - Through infrastructure optimization
-- **Security & Incident Response** - Managing security controls and handling production incidents
-
-**Key Achievements:**
-- **40%+ faster deployments** - Infrastructure automation and CI/CD
-- **30% cloud cost reduction** - Through usage audits and resource cleanup on exiting Purplle.com usage (improving security posture by removing unused resources)
-- **93% cost reduction** - PurplleAds platform (₹80 Lakh → ₹5.7 Lakh)
-- **76% MTTR reduction** - From 30 minutes to 7 minutes
-- **4x traffic spike handling** - During major sales events
-- **Production-grade security** - Zero-trust architecture, automated compliance
+- **10M+ users**, **400K+ DAU**, **4x** peaks on commerce and AdTech
+- **US$160M+ (₹1,300+ Cr)** e-commerce; **US$90M+ (₹750+ Cr)** AdTech; **US$5M+** POS across **200+** stores
+- **99.9%** e-commerce availability; **99%+** POS
+- **40%** faster infrastructure delivery; **30%** cloud cost cut (US$120K+ / ₹1 crore+); **76%** MTTR
+- **Current:** up to 80% faster CI; 13% rightsizing; SOC 2-enabled controls
 
 ---
 
-## ⏰ Notice Period Information
+## ⏰ Availability
 
 **Current Status:**
-- **Notice Period:** 60 days (negotiable) - Not currently serving notice
-- **Availability:** Actively exploring opportunities
-- **Negotiable:** Yes, can discuss notice period based on opportunity
-- **Current Employment:** Still working at Purplle.com, notice period applies when accepting new role
+- **Notice period:** None. Self-employed as of March 2026.
+- **Availability:** Immediate / actively exploring opportunities
+- **Previous employment:** Purplle.com ended February 2026 — do **not** quote a 60-day Purplle notice
 
 **When to Mention:**
-- ✅ **Always mention in follow-up messages** to recruiters and hiring managers
-- ✅ **Include in detailed messages** after connection
-- ⚠️ **Optional in connection requests** (keep it short, mention in follow-up)
-
-**Why It Matters:**
-- Helps recruiters plan hiring timelines
-- Shows professionalism and transparency
-- Allows for better opportunity matching
-- Negotiable notice period shows flexibility
+- ✅ Follow-ups to recruiters and hiring managers: immediately available
+- ⚠️ Optional in short connection requests
 
 ---
 
-**Last Updated:** Based on production experience, key projects (Purplle.com ₹700 Crore revenue, PurplleAds ₹400+ Crore revenue with 100+ production services, PurplleNexus POS 100+ stores with 500+ daily employees and 40+ Crores revenue), 7 million users, 125+ Microservices Distributed Workload, 40%+ faster deployments, 76% MTTR reduction, 33% site downtime reduction, 60-day notice period (negotiable)
-
+**Last Updated:** September 2026 — aligned to resume, LinkedIn About, portfolio experience, and GitHub README metrics

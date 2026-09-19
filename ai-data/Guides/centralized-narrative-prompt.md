@@ -9,12 +9,13 @@ I need to establish a **single source of truth** for my professional narrative t
 ## 📊 Current State Analysis
 
 ### Existing Centralized Files:
-1. **`/ai-data/career-context.md`** (734 lines)
-   - Single source of truth for LinkedIn
+1. **`/ai-data/career-info.md`**
+   - Single source of truth for LinkedIn / outreach
    - Contains: Work experience, achievements, skills, projects, education, certifications
    - Used for: LinkedIn optimization, resume tailoring, cold emails, interview prep
+   - Companion: `/resume-latex/career_summary.md` for short summary options
 
-2. **`/ai-data/freelancer-profile.md`** (446 lines)
+2. **`/ai-data/freelancer-profile.md`**
    - Single source of truth for freelancer platforms
    - Contains: Professional headline, skills, summary (full/short), portfolio, experience, education, qualifications, certifications
    - Business-driven, ROI-focused, USD currency
@@ -31,11 +32,11 @@ I need to establish a **single source of truth** for my professional narrative t
 |----------|---------|----------|------|-----------|
 | **Freelancer Profile** | Get freelance projects | International clients, business decision-makers | Business-driven, ROI-focused | "Software Engineer full-fledged" - cost savings, uptime, revenue impact |
 | **GitHub README** | Showcase technical skills | Tech-savvy developers, engineers | Technical, learning-focused | Tech-savvy individual who learns things - architecture, implementation |
-| **LinkedIn** | Job opportunities, networking | Recruiters, hiring managers, peers | Professional, experience-based | "Software Engineer full-fledged" (coming soon) - career progression, achievements |
-| **Portfolio Website** (`thisiskushal31.github.io`) | Professional presence | Mixed: recruiters, clients, peers | Professional, comprehensive | Projects, experience, technical journey |
-| **Bio Link** (`thisiskushal31.github.io/link`) | Central hub for all links | Anyone looking for my links | Clean, organized | Social profiles, important links |
-| **DocHub** (`thisiskushal31.github.io/dochub`) | Technical deep dives | Technical audience seeking depth | No non-sense, technical | Deep technical documentation, learning resources |
-| **Blog** (`thisiskushal31.github.io/blog`) | Manager-level insights | Managers, decision-makers | Strategic, accessible | High-level topics, then link to DocHub for depth |
+| **LinkedIn** | Job opportunities, networking | Recruiters, hiring managers, peers | Professional, experience-based | Timeless About (no freelancer / no client names); split Purplle roles; freelance as current experience |
+| **Portfolio Website** (`https://kushal.cv/`) | Professional presence | Mixed: recruiters, clients, peers | Professional, comprehensive | Projects, experience, technical journey |
+| **Bio Link** (`https://bio.kushal.cv/`) | Central hub for all links | Anyone looking for my links | Clean, organized | Social profiles, important links |
+| **DocHub** (`https://thisiskushal31.github.io/dochub/`) | Technical deep dives | Technical audience seeking depth | No non-sense, technical | Deep technical documentation, learning resources |
+| **Blog** (`https://blog.kushal.cv/`) | Manager-level insights | Managers, decision-makers | Strategic, accessible | High-level topics, then link to DocHub for depth |
 
 ---
 
@@ -53,42 +54,47 @@ I need to establish a **single source of truth** for my professional narrative t
 ## 📋 Key Information to Centralize
 
 ### Core Identity:
-- **Professional Title:** "Software Engineer" (full-fledged)
-- **Areas of Expertise:** DevOps & Platform Engineering, Security-Focused Software Development, Cloud-Native Engineering & System Design
-- **Experience Level:** Experienced Software Engineer with proven track record
-- **Current Role:** SDE1 - DevOps at Purplle.com
+- **Professional Title:** "Software Engineer" (full-fledged) who **architects and operates** production platforms
+- **Areas of Expertise:** Cloud-Native Architecture & System Design, DevOps & Platform Engineering, Security-Focused Software Development
+- **Experience Level:** 3.8+ years (Jan 2023 – Present)
+- **Current Role:** Freelancer · Self-employed · DevOps Engineer (Mar 2026 – Present)
+- **Previous Role:** Purplle.com Software Engineer, DevOps / SDE1 (Jan 2023 – Feb 2026)
+- **Architect narrative:** Design the platform shape, then own it in production. Not a past job title. Do not write “Architect at Purplle” or imply an architecture certification.
+- **LinkedIn About:** Timeless intro; architect and operate; no freelancer / no client names; metrics in highlights. Copy in `career-info.md` and `resume-latex/career_summary.md` Option 5.
 
 ### Key Achievements & Metrics:
 - 125+ Microservices Distributed Workload on GKE
-- 7M total users across platforms
-- $84M+ revenue systems (Purplle.com)
-- $48M+ revenue systems (PurplleAds)
-- 93% cost reduction (PurplleAds)
+- 10M+ users, 400K+ DAU, 4x peak traffic on commerce and AdTech
+- US$160M+ (₹1,300+ Cr) e-commerce
+- US$90M+ (₹750+ Cr) AdTech; 93% infrastructure cost reduction
+- US$5M+ POS across 200+ stores
 - 76% MTTR reduction (30min → 7min)
-- 40%+ faster deployments
-- 30% cloud cost reduction
-- 99%+ uptime
+- 40% faster infrastructure delivery (not software/code delivery)
+- 30% cloud cost reduction (US$120K+ / ₹1 crore+)
+- 99.9% e-commerce availability / 99%+ POS
+- Current freelance: SOC 2-enabled Zero Trust, ArgoCD/Atlantis, up to 80% faster CI, 13% rightsizing
 - 4TB MySQL with zero-downtime migrations
-- 300+ compute instances managed
 
 ### Projects (with proof of work):
+- Stealth Startup – AI CI/CD SaaS platform infrastructure
 - Purplle.com Infrastructure Management
 - PurplleAds - In-House AdTech Platform
 - Nexus POS Platform
+- Data / RAG / legacy admin infra
 - Infrastructure Automation
 - Monitoring & Alerting
 - Security Enhancements
-- Elasticsearch Automation
+- Grid Platform (OSS)
 
 **Proof of Work Link:** https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 
 ### Technical Stack:
 - Languages: Python, JavaScript, C/C++, Bash/Shell, Node.js, React
-- Cloud: GCP (GKE, GCR, GCS, Compute Engine, Cloud SQL, etc.), AWS (Route53, ALB)
-- Infrastructure: Terraform, Ansible, Docker, Kubernetes, GitOps
-- CI/CD: Jenkins, GitLab CI, GitHub CI, n8n
-- Databases: MySQL, MongoDB, Elasticsearch, Aerospike, Redis, Kafka
-- Monitoring: Prometheus, Grafana, GCP Stackdriver
+- Cloud: GCP (GKE, Cloud Run, GCR, GCS, Compute Engine, Cloud SQL, etc.), AWS (Route53, ALB)
+- Infrastructure: Terraform, Ansible, Docker, Kubernetes, Helm, GitOps
+- CI/CD: ArgoCD, Atlantis, Jenkins, GitLab CI, GitHub Actions, n8n
+- Databases: PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, Kafka
+- Monitoring: Prometheus, Grafana, OpenTelemetry, Google Cloud Monitoring
 - Security: Kubernetes RBAC, Trivy, Secrets Manager, SSO, IAM, Zero-Trust
 
 ### Education & Certifications:
@@ -101,7 +107,7 @@ I need to establish a **single source of truth** for my professional narrative t
 ## 🏗️ Proposed Architecture
 
 ### Option 1: Enhanced Master Data File
-- **File:** `/ai-data/master-narrative.md` or enhance existing `career-context.md`
+- **File:** `/ai-data/master-narrative.md` or enhance existing `career-info.md`
 - **Structure:** 
   - Raw data (facts, metrics, achievements)
   - Platform-specific transformation rules
@@ -222,7 +228,7 @@ I need to establish a **single source of truth** for my professional narrative t
 6. **Maintenance workflow** (how to keep everything in sync)
 
 **Constraints:**
-- Must work with existing files (`career-context.md`, `freelancer-profile.md`)
+- Must work with existing files (`career-info.md`, `freelancer-profile.md`, `resume-latex/career_summary.md`)
 - Must be maintainable by a single person
 - Must scale as career evolves (new companies, new achievements)
 - Must be AI-friendly (easy for AI to read, transform, generate)
@@ -237,8 +243,8 @@ I need to establish a **single source of truth** for my professional narrative t
 ├── LICENSE
 ├── projects/ (proof of work)
 ├── ai-data/
-│   ├── career-context.md (734 lines - LinkedIn source of truth)
-│   ├── freelancer-profile.md (446 lines - Freelancer source of truth)
+│   ├── career-info.md (LinkedIn / outreach source of truth)
+│   ├── freelancer-profile.md (Freelancer platforms source of truth)
 │   ├── Guides/
 │   │   ├── career-context-usage.md
 │   │   ├── cold-email-generator.md

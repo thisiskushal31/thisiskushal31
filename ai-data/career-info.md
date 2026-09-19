@@ -8,7 +8,7 @@
 - Company-specific optimization
 - **LinkedIn profile optimization** ⭐ (All LinkedIn data matches this document)
 - Interview preparation
-- **Bio & headline:** GitHub = **full-stack + DevOps** persona; LinkedIn = **MLOps + DevOps** persona. Maintain both in "👤 Personal Information" → Bifurcation section.
+- **Bio & headline:** GitHub = **DevOps, platform, and cloud-native architecture** (developer-facing). LinkedIn = **DevOps + platform + architecture + MLOps** (employer-facing). Architect is how the work is done (design + operate), not a past job title.
 
 **Context for AI/readers:** For full public profile (projects, tech stack, narrative), also read the **public GitHub README**: [thisiskushal31/thisiskushal31](https://github.com/thisiskushal31/thisiskushal31). Career-info.md and the README together give complete context.
 
@@ -23,7 +23,7 @@ https://github.com/thisiskushal31/thisiskushal31
 ```
 Raw README: `https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/main/README.md`
 
-**Last Updated:** Feb 2026
+**Last Updated:** September 2026
 
 > **📌 Important:** This document serves as the single source of truth for LinkedIn profile data. All LinkedIn content (About section, Experience entries) matches this document exactly.
 
@@ -70,11 +70,11 @@ Raw README: `https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/mai
 
 ## 👤 Personal Information
 
-> **⚠️ Bifurcation:** GitHub profile bio and README lead with **DevOps & platform engineering** (developer-facing, achievement + learning notes). LinkedIn headline/About lean **MLOps + DevOps** (employer-facing). Keep bios platform-appropriate—do not copy LinkedIn About verbatim onto GitHub.
+> **⚠️ Bifurcation:** GitHub profile bio and README lead with **DevOps, platform engineering, and cloud-native architecture** (developer-facing). LinkedIn headline/About lead with the same plus MLOps (employer-facing). **Architect narrative:** I architect and operate production platforms — not “Architect at Purplle” and not an architecture certification. Keep bios platform-appropriate—do not copy LinkedIn About verbatim onto GitHub.
 
 **Shared (use everywhere):**  
 **Name:** Kushal Gupta  
-**Location:** Mumbai, India  
+**Location:** Kolkata, India  
 **Timezone:** IST (UTC+5:30)  
 **Email:** guptakushal070@gmail.com  
 **GitHub profile URL:** https://github.com/thisiskushal31
@@ -83,13 +83,13 @@ Raw README: `https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/mai
 
 ### GitHub identity (profile bio)
 
-**Persona:** DevOps & platform engineering — production delivery, cloud (GCP/AWS), MLOps; full-stack/AI application work called out in README as personal-time learning, not the profile bio.
+**Persona:** DevOps, platform engineering, and cloud-native architecture — production delivery, cloud (GCP/AWS), MLOps; full-stack/AI application work called out in README as personal-time learning, not the profile bio.
 
 **Where it appears:** GitHub profile **Bio** field (160-character limit). Keep in sync with [README](https://github.com/thisiskushal31/thisiskushal31/README.md) tone—not a claim of full-stack production ownership.
 
 **Bio (copy-paste for GitHub profile):**
 ```
-Software Engineer | DevOps & Platform Engineering | Multi-Cloud Distributed Systems & Automation at scale | MLOps & AI
+Software Engineer | DevOps, Platform & Cloud Architecture | Multi-Cloud Distributed Systems at scale | MLOps & AI
 ```
 
 *Short pipe format like LinkedIn headline. ~118 characters. Wording tuned for international and India-based employers (office, hybrid, or remote).*
@@ -98,13 +98,13 @@ Software Engineer | DevOps & Platform Engineering | Multi-Cloud Distributed Syst
 
 ### LinkedIn identity (headline + About)
 
-**Persona:** MLOps + DevOps — shows your MLOps and DevOps persona (employer-facing, recruiter-facing).
+**Persona:** DevOps + platform + cloud-native architecture — architect and operate production platforms (employer-facing, recruiter-facing). Not a past job title.
 
 **Where it appears:** LinkedIn headline, About section, and any LinkedIn or employer-facing one-line summary.
 
 **Headline (copy-paste for LinkedIn):**
 ```
-Software Engineer | DevOps & Platform Engineering | Cloud Infrastructure (GCP/AWS) | MLOps & AI | Terraform, K8s, Generative AI | Production at scale
+Software Engineer | DevOps & Platform Engineering | Cloud-Native Architecture (GCP/AWS) | MLOps & AI | Terraform, K8s | Production at scale
 ```
 
 *Use this for LinkedIn only. Do not use the GitHub bio on LinkedIn. Wording tuned for international audiences.*
@@ -123,46 +123,51 @@ Software Engineer | DevOps & Platform Engineering | Cloud Infrastructure (GCP/AW
 4. **Monitoring and Alerting**
 5. **Automation**
 
-**Why these five:** They match your About section and experience—infrastructure + automation + observability—and are commonly searched for DevOps, Platform Engineer, and SRE roles. Keeps your profile consistent and hireable.
+**Why these five:** They match the architect + operate narrative—**Cloud-Native Architecture** first, then delivery, IaC, observability, automation. Commonly searched for Platform Engineer, Cloud Architect, DevOps, and SRE roles.
 
 ---
 
 **Areas of Expertise & Interest (shared context):**
 - **DevOps & Platform Engineering:** Infrastructure automation, CI/CD pipelines, GitOps workflows, and developer productivity tools
+- **Cloud-Native Architecture & System Design:** Architecting 4-tier / multi-cloud / Kubernetes platforms, then operating them — design the shape, own it in production
 - **Security-Focused Software Development:** Zero-trust architecture, automated security scanning, secrets management, and compliance implementation
-- **Cloud-Native Engineering & System Design:** Kubernetes orchestration, microservices architecture, multi-cloud deployments, and scalable system design
 
 ---
 
 ## 📝 LinkedIn About Section
 
-**Copy-Paste Ready Format:**
+**Copy-Paste Ready Format:** (paste if live About still says “contributed” / “Built” without architect. Intro stays timeless: no freelancer, no client names.)
 ```
-I'm a Software Engineer who handles infrastructure and writes code. I work across greenfield and brownfield—large-scale, data-driven, AI, and legacy infrastructure—and design and run production systems end-to-end: cloud-native (Kubernetes, GCP, AWS), IaC (Terraform, Ansible, GitOps), CI/CD, monitoring and alerting, automation. I've built and shipped application and tooling code when it moves the needle.
+I'm a Software Engineer passionate about solving practical engineering challenges by architecting complex systems to be more reliable, scalable, and easier to operate. Over 3.8+ years, I've architected and operated production infrastructure, cloud-native platforms, and developer delivery—across large-scale systems, greenfield platforms, and legacy products still running in production.
 
-What I've done (with data):
-• Cloud-native: 3+ years on GCP, AWS; 125+ microservices, 7M+ users, 99%+ uptime—e-commerce, AdTech, POS, data/ML
-• CI/CD & IaC: 40%+ faster deployments; standardized IaC across 125+ microservices (Terraform, Ansible, GitOps)
-• Monitoring and alerting: 76% MTTR reduction; unified observability (Prometheus, Grafana); on-call, incident response
-• Automation: 30% cloud cost reduction; ₹1 Crore+ cost savings; 93% AdTech infra cost reduction; agentic AI for Elasticsearch, CI/CD, IaC (n8n, Terraform, Ansible, Python)
-• Security & compliance: Zero-trust, K8s RBAC, Trivy, Secrets Manager, SSO; ISO 27001, NIST, CIS, OWASP
-• Beyond infra—what I build in my free time: MCP (Model Context Protocol), Grid Platform (open-source, AI-first infra management), and side projects. I code and ship so you see both what I've delivered at work and what I'm building now.
+A few highlights I'm proud of:
+- Architected production infrastructure supporting a US$160M+ annual business, 10M+ users, and 200+ retail stores.
+- Ran infrastructure for core e-commerce, an in-house AdTech platform (US$90M+), and POS across 200+ stores; handled 4x peak traffic on commerce and AdTech.
+- Operated infrastructure for data engineering, data science / ML, and RAG platforms so brand teams could get insight faster.
+- Improved infrastructure delivery by 40% through CI/CD automation, GitOps, and Infrastructure as Code.
+- Reduced MTTR by 76% through unified observability, monitoring, and incident response.
+- Reduced cloud costs by 30%, delivering US$120K+ (₹1 crore+) in infrastructure savings.
+- Built cloud-native platforms using Kubernetes, GCP, AWS, Terraform, GitOps, Cloud Run, PostgreSQL, and OpenTelemetry.
 
-System design: I care about the "why"—choosing the right architecture and trade-offs for each problem. I document and share what I learn (DevOps, containers, databases, system design) and am comfortable with ambiguity and cross-functional collaboration.
+I also contribute to open source and explore distributed systems, backend engineering, cloud platforms, AI, and developer tooling. I enjoy building software that continues to scale as products and teams grow.
 
-GitHub: https://github.com/thisiskushal31
+I believe good engineering isn't about chasing the latest technology—it's about understanding the problem, making thoughtful architectural decisions, and building reliable systems that create lasting value.
+
+I enjoy building in public. You can explore more of my work on GitHub:
+https://github.com/thisiskushal31
 ```
 
-**Character Count:** ~1,810 characters (within LinkedIn's 2,600 character limit ✅)
+**Character Count:** ~1,900 characters (within LinkedIn's 2,600 character limit ✅)
 
-**Structure:** (1) What I can do — short paragraph. (2) What I've done + records — bullets with data. (3) Closing + GitHub — unchanged.
+**Optional refreshable line (not required on LinkedIn About):** Outside of work, I build Grid Platform: https://gridplatform.org
+
+**Structure:** (1) Timeless intro — architect and operate; 3.8+ years; large-scale / greenfield / legacy. No freelancer, no client names. (2) Highlights with scale and metrics. First highlight leads with **Architected**. (3) Closing + GitHub.
 
 **Key Highlights:**
-- **Positioning:** Software Engineer who handles infrastructure and writes code; matches LinkedIn top 5 skills; employers see both work delivery and what you build now.
-- **Para 1:** Software Engineer, infrastructure + code. Greenfield and brownfield; large-scale, data-driven, AI, and legacy infra. End-to-end: cloud-native, IaC, CI/CD, monitoring, automation; ships code when it matters.
-- **Para 2 (bullets):** Cloud-native; CI/CD & IaC; Monitoring and alerting; Automation; Security & compliance; **Beyond infra (free time):** MCP, Grid Platform (OSS, AI-first infra), side projects—so employers see you code and ship now.
-- **Para 3 (unchanged):** System design, documentation, ambiguity, cross-functional; GitHub link.
-- **GitHub bio:** Includes "Infra + code when it matters" for generalist/coding signal.
+- **Positioning:** Software Engineer who architects and operates platforms. Do **not** put freelancer, client names, or “Architect at Purplle” in About.
+- **Para 1:** Architecting complex systems; 3.8+ years across large-scale systems, greenfield platforms, and legacy products still in production.
+- **Para 2 (highlights):** Architected US$160M+ / 10M+ users / 200+ stores; e-com + AdTech (US$90M+) + POS; 4x on commerce and AdTech; DE/DS/ML/RAG infra; 40% infrastructure delivery (not software delivery); 76% MTTR; 30% / US$120K+; stack without backend services.
+- **Closing:** OSS, thoughtful architectural decisions, GitHub. Grid is optional / outside work.
 
 ---
 
@@ -176,28 +181,52 @@ Experience is maintained in three formats in this document. Use the appropriate 
 
 ### LinkedIn Experience (broken into roles)
 
-#### 🏢 Company 1: Purplle.com
+#### 🏢 Company 1: Freelancer (Self-employed)
+
+**Company Overview:**
+- **Industry:** Software / Cloud Infrastructure (AI-powered CI/CD SaaS)
+- **Total Duration:** March 2026 - Present
+- **Location:** India · Remote
+
+**DevOps Engineer (Self-employed)**
+**Period:** March 2026 - Present  
+**Location:** India · Remote
+
+**Roles & responsibilities (summary for LinkedIn):** Own platform infrastructure and deployment for an AI-powered CI/CD SaaS on Google Cloud.
+
+**Copy-Paste Ready Description:**
+```
+- Own platform infrastructure and deployment for an AI-powered CI/CD SaaS on Google Cloud
+- Deployed SOC 2-enabled infrastructure with required controls: least-privilege IAM, private IPs, and Zero Trust
+- Built a GitHub PR-driven platform: every Kubernetes and infrastructure change required a PR, with Atlantis for Terraform and drift checks; rightsized spend by 13%
+- Deployed the AI CI/CD platform with ArgoCD, including promotion flows, Kubernetes, databases, and NATS infrastructure
+- Engineered a MicroCeph cache with Kubernetes as the service layer (80% faster CI) and enabled OpenTelemetry / Google Cloud Monitoring
+```
+
+---
+
+#### 🏢 Company 2: Purplle.com
 
 **Company Overview:**
 - **Industry:** E-Commerce (Beauty & Personal Care)
-- **Total Duration:** January 2023 - Present
+- **Total Duration:** January 2023 - February 2026
 - **Location:** Mumbai, Maharashtra, India
 - **Company Website:** https://www.purplle.com
 
 **SDE1 - DevOps**
-**Period:** May 2024 - Present (1 year 8 months)  
+**Period:** May 2024 - February 2026 (1 year 10 months)  
 **Location:** Mumbai, Maharashtra, India
 
-**Roles & responsibilities (summary for LinkedIn):** Deploying and managing high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99%+ uptime and optimized cloud operations. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
+**Roles & responsibilities (summary for LinkedIn):** Deployed and managed high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99.9% availability and optimized cloud operations. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
 
 **Copy-Paste Ready Description:**
 ```
-- Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling and 33% site downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
+- Achieved ₹1,300+ Crore (US$160M+) scale, 10M+ users, 4x traffic spike handling and 50% sale-event downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
 - Reduced time-to-insight for brand teams by ~50% operated infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
-- Maintained infrastructure for the ₹700 Cr revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
-- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
-- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
-- Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
+- Maintained infrastructure for the ₹1,300+ Cr (US$160M+) revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
+- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹750+ Crore (US$90M+) brand advertising revenue and 10M+ users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
+- Deployed high-availability Nexus (POS) across 200+ retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC)
+- Achieved 40% faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
 - Reduced MTTR from 30 to 7 minutes and incident response time by modernizing CI/CD (Jenkins freestyle → scripted pipelines, Slack alerts) and architecting unified observability (Prometheus, Grafana) with automated escalation
 - Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup (improving security posture by removing unused resources)
 - Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
@@ -231,94 +260,135 @@ Experience is maintained in three formats in this document. Use the appropriate 
 
 ### Resume Experience (consolidated under one role per company)
 
-One role per company; use for resume/CV (e.g. resume_concise.tex). All experience at a company is merged into one entry without dropping content.
+One role per company; use for resume/CV (Global and Domestic `.tex`). All experience at a company is merged into one entry without dropping content.
 
-#### 🏢 Company 1: Purplle.com
+#### 🏢 Company 1: Freelancer (Self-employed)
 
-**Role: DevOps Engineer**
-**Period:** January 2023 - Present  
-**Type:** Full-time (includes role progression from start date)
+**Role: DevOps Engineer (Self-employed)**
+**Period:** March 2026 - Present  
+**Type:** Freelance · India · Remote
 
 **Role Description:**
-Started by building and deploying monitoring and alerting systems for cloud infrastructure to improve uptime and reliability. Progressed to cloud cost optimization, disaster recovery, and security enhancements for operational efficiency and system resilience. Currently deploying and managing high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99%+ uptime and optimized cloud operations at Purplle.com. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
+Own platform infrastructure and deployment for an AI-powered CI/CD SaaS on Google Cloud.
+
+**Key Achievements:**
+- Own platform infrastructure and deployment for an AI-powered CI/CD SaaS on Google Cloud
+- Deployed SOC 2-enabled infrastructure with required controls: least-privilege IAM, private IPs, and Zero Trust
+- Built a GitHub PR-driven platform: every Kubernetes and infrastructure change required a PR, with Atlantis for Terraform and drift checks; rightsized spend by 13%
+- Deployed the AI CI/CD platform with ArgoCD, including promotion flows, Kubernetes, databases, and NATS infrastructure
+- Engineered a MicroCeph cache with Kubernetes as the service layer (80% faster CI) and enabled OpenTelemetry / Google Cloud Monitoring
+
+**Technologies Used:**
+GCP, GKE, Cloud Run, Kubernetes, Helm, Terraform, Atlantis, ArgoCD, GitHub, PostgreSQL, NATS, MicroCeph, OpenTelemetry, Google Cloud Monitoring, IAM, Zero Trust
+
+---
+
+#### 🏢 Company 2: Purplle.com
+
+**Role: Software Engineer, DevOps** (Domestic resume: SDE1 - DevOps)
+**Period:** January 2023 - February 2026  
+**Type:** Full-time (includes role progression from intern → ASE → SDE1)
+
+**Role Description:**
+Started by building and deploying monitoring and alerting systems for cloud infrastructure to improve uptime and reliability. Progressed to cloud cost optimization, disaster recovery, and security enhancements for operational efficiency and system resilience. Then deployed and managed high-availability infrastructure, observability, and production ML/AI systems for e-commerce, AdTech, POS, and data science—ensuring 99.9% availability and optimized cloud operations at Purplle.com. Ownership of CI/CD, Kubernetes, vector DB, and network; infrastructure only (no application code).
 
 **Key Achievements:**
 <!-- Key API -->
 - Achieved >98% uptime, 50% reduction in sale-event downtime, and MTTR from 30 to 7 minutes using unified observability and on-call alerting via Prometheus, Grafana, Slack, Jenkins pipeline modernization, and automated escalation—enabling faster detection and cross-team resolution of production issues
-- Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling, and 33% site downtime reduction using ECommerce platform infra (Purplle.com) and 125+ GKE deployments through backup and disaster recovery solutions (MySQL, MongoDB, Elasticsearch) that I designed and implemented, with multiple PoCs promoted to production
+- Achieved ₹1,300+ Crore (US$160M+) scale, 10M+ users, 4x traffic spike handling, and 50% sale-event downtime reduction using ECommerce platform infra (Purplle.com) and 125+ GKE deployments through backup and disaster recovery solutions (MySQL, MongoDB, Elasticsearch) that I designed and implemented, with multiple PoCs promoted to production
 - Achieved 30–50% cloud cost reduction using rightsizing (GCP/AWS), autoscaling policies, and resource cleanup—optimizing cloud spend and improving security posture by removing unused resources
 
 
 <!-- Key Projects -->
 - Reduced time-to-insight for brand teams by ~50% by operating infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
-- Maintained infrastructure for the ₹700 Cr revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
-- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
-- Deployed high-availability Nexus (POS) across 150+ retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
-- Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management, internal tools, and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
+- Maintained infrastructure for the ₹1,300+ Cr (US$160M+) revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
+- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹750+ Crore (US$90M+) brand advertising revenue and 10M+ users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
+- Deployed and managed the Nexus POS platform across 200+ retail stores, maintaining 99%+ uptime using Google Cloud and Kubernetes
+- Automated infrastructure provisioning and operations using Python, Terraform, Ansible, GitOps, and AI-driven workflows, accelerating infrastructure delivery by 40% and automating 40%+ of provisioning tasks
 
 <!-- Security & Compliance: -->
 - Strengthened cloud security posture via IAM minimization, Secure Boot, automated cleanup of public IPs and service accounts, Kubernetes RBAC, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture—improving compliance and reducing attack surface
 
 **Technologies Used:**
-GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/CD, Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Trivy, GitLab CI, Secrets Manager, SSO, IAM, Keycloak, ALB, GCLB, Route53, WAF, VPC
+GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/CD, Prometheus, Grafana, OpenTelemetry, MySQL, MongoDB, Elasticsearch, Trivy, GitLab CI, Secrets Manager, SSO, IAM, Keycloak, ALB, GCLB, Route53, WAF, VPC
 
 ---
 
 ### Portfolio Website Experience
 
-Use for **portfolio-website** `src/config/portfolio.ts` — the `experience` array. When adding a new company, copy from the Template below.
+Use for **portfolio-website** `src/config/portfolio.ts` — the `experience` array. Matches the live site config (do not require republishing the site from this file).
 
-#### 🏢 Company 1: Purplle.com
+#### 🏢 Company 1: Freelancer
 
-**SDE1 - DevOps**
-**portfolio.ts fields:** `company`, `role`, `location`, `duration`, `type`, `description`, `achievements`, `technologies`
+**portfolio.ts fields:** `company`, `location`, `type`, nested `roles[]`
 
-**duration:** May 2024 - Present  
-**type:** Full-time  
-**description:** Deployed and managed high-availability traditional infrastructure, automation, observability, and production ML/AI systems to ensure 99%+ uptime and optimize cloud operations at Purplle.com.
+**company:** Freelancer  
+**location:** India, Remote  
+**type:** Freelance
+
+**DevOps Engineer (Self-employed)**
+**startDate / endDate:** 2026-03 / present  
+**type:** Freelance  
+**description:** Own platform infrastructure and deployment for an AI-powered CI/CD SaaS on Google Cloud.
 
 **achievements:**
-- Achieved ₹700 Crore scale, 7M users, 4x traffic spike handling and 33% site downtime reduction through ECommerce platform infra (Purplle.com), 125+ GKE deployments, and DR/backups (MySQL, MongoDB, Elasticsearch)
-- Reduced time-to-insight for brand teams by ~50% operated infra for agentic RAG sentiment platform (vector DB, CI/CD for distributed Services), enabling faster campaigns and better decision-making on influencer content
-- Maintained infrastructure for the ₹700 Cr revenue marketing engine with 50–60% cost saving. CI/CD, servers, containerized applications (K8s), VectorDB (Qdrant) for recommendations and outcomes for brands and marketing.
-- Deployed and managed high-availability PurplleAds (AdTech) platform, supporting ₹400+ Crore brand advertising revenue and 7M total users with 4x traffic spike handling during major sales events, achieving 93% cost reduction by replacing third-party software with in-house solution
-- Deployed high-availability Nexus (POS) across retail stores, maintaining 99%+ uptime using GCP (GKE, GCR, Cloud SQL, Load Balancer, WAF, VPC), handling 7M total users with 4x traffic spike handling during major sales events
-- Achieved 40%+ faster infrastructure delivery and 40%+ provisioning automation through agentic AI for Elasticsearch cluster management and CI/CD and IaC (n8n, Python, Terraform, Ansible, Jenkins, GitOps)
-- Reduced MTTR from 30 to 7 minutes and incident response time by modernizing CI/CD (Jenkins freestyle → scripted pipelines, Slack alerts) and architecting unified observability (Prometheus, Grafana) with automated escalation
-- Achieved 30% cloud cost reduction through rightsizing GCP/AWS instances, autoscaling policies, and resource cleanup (improving security posture by removing unused resources)
-- Hardened security via Kubernetes RBAC, Secure Boot, automated IAM minimization, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and zero-trust architecture
+- Deployed SOC 2-enabled infrastructure with required controls: least-privilege IAM, private IPs, and Zero Trust
+- Built a GitHub PR-driven platform: every Kubernetes and infrastructure change required a PR, with Atlantis for Terraform and drift checks; rightsized spend by 13%
+- Deployed the AI CI/CD platform with ArgoCD, including promotion flows, Kubernetes, databases, and NATS infrastructure
+- Engineered a MicroCeph cache with Kubernetes as the service layer (80% faster CI) and enabled OpenTelemetry / Google Cloud Monitoring
 
-**technologies:** GCP, AWS, GKE, Kubernetes, Terraform, Ansible, Jenkins, GitOps, Python, n8n, CI/CD, Prometheus, Grafana, MySQL, MongoDB, Elasticsearch, Trivy, GitLab CI, Secrets Manager, SSO, IAM, Keycloak, ALB, GCLB, Route53, WAF, VPC
+**technologies:** GCP, Kubernetes, Terraform, Atlantis, ArgoCD, GitHub, Helm, PostgreSQL, NATS, MicroCeph, OpenTelemetry, IAM
+
+---
+
+#### 🏢 Company 2: Purplle.com
+
+**location:** Mumbai, India  
+**type:** Full-time
+
+**Software Engineer, DevOps**
+**startDate / endDate:** 2024-05 / 2026-02  
+**type:** Full-time
+
+**achievements:**
+- Built and operated cloud infrastructure powering Purplle's e-commerce platform, supporting a US$160M+ annual business, 400K+ daily active users, and 99.9% platform availability during 4x traffic spikes
+- Built a modern observability and incident response platform, reducing MTTR from 30 to 7 minutes (76%) through CI/CD modernization, Prometheus, Grafana, and automated alerting; cut peak-sale downtime by 50%
+- Optimized cloud infrastructure through rightsizing, autoscaling, and resource cleanup, reducing cloud costs by 30% and delivering US$120K+ in infrastructure savings while improving security posture
+- Designed and operated infrastructure for a RAG-based sentiment platform, reducing time-to-insight by 50% through scalable AI infrastructure and automated CI/CD pipelines
+- Built and operated cloud infrastructure powering PurplleAds, supporting a US$90M+ advertising business while reducing infrastructure costs by 93% through an in-house cloud-native solution
+- Deployed and managed the Nexus POS platform across 200+ retail stores, maintaining 99%+ uptime using Google Cloud and Kubernetes
+- Automated infrastructure provisioning and operations using Python, Terraform, Ansible, GitOps, and AI-driven workflows, accelerating infrastructure delivery by 40% and automating 40%+ of provisioning tasks
+- Strengthened cloud security posture via IAM minimization, Secure Boot, automated cleanup of public IPs and service accounts, Kubernetes RBAC, Trivy scanning (GitLab CI), Secrets Manager, SSO, IP whitelisting, and Zero Trust architecture
+
+**technologies:** GCP, AWS, Kubernetes, Terraform, Ansible, GitOps, Python, Prometheus, Grafana, CI/CD, IAM
 
 ---
 
 **Associate Software Engineer**
-**duration:** June 2023 - May 2024  
-**type:** Full-time  
-**description:** Focused on cloud cost optimization, disaster recovery, and security enhancements to improve operational efficiency and system resilience.
+**startDate / endDate:** 2023-06 / 2024-05  
+**type:** Full-time
 
 **achievements:**
-- Achieved 40–50% cost savings by performing cloud infrastructure rightsizing and cleaning up unused resources, resulting in optimized cloud spend
-- Improved system resilience by designing and implementing backup and disaster recovery solutions, with multiple PoCs promoted to production
-- Enhanced operational efficiency by deploying an on-call alerting system, reducing mean incident response time from 30 to 7 minutes
-- Reduced site downtime by 50% during sale events through infrastructure optimization and proactive monitoring
-- Enabled QA velocity by deploying Hypertest (A Third Party Testing Tool) infrastructure, delivering it ahead of schedule and handing over to the dev team
-- Strengthened cloud security posture by leading initiatives in IAM role minimization, Secure Boot, and automated cleanup of public IPs and service accounts — resulting in improved compliance and reduced attack surface
+- Optimized cloud infrastructure through rightsizing and resource cleanup, reducing cloud costs by 50%
+- Designed and implemented backup and disaster recovery solutions, with multiple PoCs adopted in production
+- Built an on-call alerting system, reducing mean time to respond (MTTR) from 30 to 7 minutes (76% reduction)
+- Optimized infrastructure and monitoring for high-traffic sale events, reducing site downtime by 50%
+- Provisioned and delivered Hypertest infrastructure ahead of schedule, accelerating QA and testing workflows
+- Strengthened cloud security by implementing IAM least privilege, Secure Boot, and automated cleanup of public IPs and service accounts
 
 **technologies:** GCP, AWS, Terraform, Python, Prometheus, Grafana, Kubernetes, CI/CD
 
 ---
 
-**DevOps Intern**
-**duration:** January 2023 - June 2023  
-**type:** Internship  
-**description:** Built and deployed monitoring systems for cloud infrastructure to improve uptime and system reliability.
+**DevOps Engineer** (first Purplle role; intern-equivalent tenure)
+**startDate / endDate:** 2023-01 / 2023-06  
+**type:** Full-time
 
 **achievements:**
-- Achieved >98% uptime by deploying a robust monitoring and alerting system using Prometheus and Grafana, resulting in faster detection and resolution of issues
-- Improved platform reliability by collaborating across teams to resolve high-impact issues in production infrastructure
+- Built production monitoring and observability using Prometheus and Grafana, contributing to 98%+ platform availability
+- Worked with Linux, Kubernetes, cloud infrastructure, networking, and Infrastructure as Code (IaC) to improve platform reliability and operational efficiency
 
-**technologies:** Prometheus, Grafana, GCP
+**technologies:** Prometheus, Grafana, Linux, Kubernetes, GCP, Terraform
 
 ---
 
@@ -412,13 +482,17 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 - Terraform
 - OpenTofu
 - ArgoCD
+- Atlantis
+- Helm
 - GitLab CI
 - GitHub Actions
+- GitHub
 
 ### Cloud & Infrastructure
 - Google Cloud Platform (GCP)
 - Amazon Web Services (AWS)
 - Google Kubernetes Engine (GKE)
+- Cloud Run
 - GCR
 - GCS
 - Compute Engine
@@ -428,6 +502,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 - WAF
 - Docker
 - Kubernetes
+- Helm
 - Route53
 - GCP CloudDNS
 
@@ -453,10 +528,13 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 ### Monitoring & Observability
 - Prometheus
 - Grafana
+- OpenTelemetry
+- Google Cloud Monitoring
 - Datadog
 - PagerDuty
 
 ### Databases
+- PostgreSQL
 - MySQL
 - MongoDB
 - Elasticsearch
@@ -515,15 +593,15 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Technologies:** Kubernetes, GKE, Nginx, Apache, MySQL, Elasticsearch, MongoDB, Redis, Terraform, GCP, AWS  
 **Demo:** [1_Purplle.com_Management](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/1_Purplle.com_Management)
 
-**Description:** Mission-critical infrastructure for ₹700 Crore revenue, 7M users, 99%+ uptime. 125+ microservices, 4x traffic spike handling. Nginx distributed reverse proxy; Apache VM-based application.
+**Description:** Mission-critical infrastructure for a US$160M+ (₹1,300+ Crore) annual business, 10M+ users, 400K+ DAU, 99.9% availability. 125+ microservices, 4x traffic spike handling. Nginx distributed reverse proxy; Apache VM-based application.
 
 **Overview (what I've done):** 125+ microservices, Nginx distributed reverse proxy, Apache VM-based application, MySQL migrations (mydumper/myloader, gh-ost), 4-tier architecture, 4x traffic spike handling. Infra only.
 
 **Key Features:**
-- ₹700 Crore revenue, 7M users, 99%+ uptime
+- US$160M+ (₹1,300+ Crore) revenue, 10M+ users, 400K+ DAU, 99.9% availability
 - 125+ Microservices Distributed Workload, 300+ application instances
 - Nginx: reverse proxy for distributed infrastructure; Apache: VM-based application for Purplle
-- 4x traffic spike handling (150K → 600K DAU)
+- 4x traffic spike handling (400K+ DAU)
 - Minimal downtime MySQL migrations (mydumper/myloader, gh-ost); 76% MTTR reduction with unified observability
 
 **Challenges:** Minimal downtime migrations on 4TB databases; 4x traffic spike handling during sales events; managing 125+ Microservices Distributed Workload.
@@ -531,7 +609,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Learnings:** Large-scale infrastructure management; multi-cloud architecture patterns; database migrations using mydumper/myloader and gh-ost for large table alterations.
 
 **Duration:** Jun 2023 - Feb 2026 | **Role:** DevOps Engineer  
-**Impact:** ₹700 Crore revenue | 7M users | 99%+ uptime | 4x traffic spike handling.
+**Impact:** US$160M+ (₹1,300+ Crore) revenue | 10M+ users | 99.9% availability | 4x traffic spike handling.
 
 ---
 
@@ -567,12 +645,12 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Technologies:** Kubernetes, Nginx, GCP, Vertex AI, Qdrant (vector DB), Jupyter, Cloud Functions, CI/CD, Git, Docker  
 **Demo:** [3_Purplle.com_Data_Science_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/3_Purplle.com_Data_Science_Infrastructure)
 
-**Description:** Infrastructure for the ₹700 Crore revenue marketing engine. Data engineering and storefront serve brands and marketing; recommendations and outcomes. 50–60% cost saving on manual tasks. Infra only.
+**Description:** Infrastructure for the ₹1,300+ Crore (US$160M+) revenue marketing engine. Data engineering and storefront serve brands and marketing; recommendations and outcomes. 50–60% cost saving on manual tasks. Infra only.
 
 **Overview (what I've done):** CI/CD, servers, containerized applications (K8s), vector DB (Qdrant), network (Nginx ingress, SSL, internal domain), Vertex AI and Cloud Function infra. Did not write application or DS code. Infra only.
 
 **Key Features:**
-- ₹700 Crore revenue backbone. Data engineering and storefront serve brands and marketing (requirements from them)
+- ₹1,300+ Crore (US$160M+) revenue backbone. Data engineering and storefront serve brands and marketing (requirements from them)
 - 50–60% cost saving on manual tasks (e.g. image tagging for Meta/Google ads)
 - Vector DB (Qdrant) and network maintained. Embeddings power recommendations
 - Multi-project GCP. CI/CD and security. Production ready. Infra only
@@ -582,7 +660,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Learnings:** Automation flow for data science infrastructure and user-facing service; recommendation engine (DS-managed embedding pipeline, infra-managed Qdrant) for marketing team.
 
 **Duration:** Jun 2023 - Feb 2026 | **Role:** DevOps / Infrastructure Engineer  
-**Impact:** ₹700 Cr revenue backbone. Data engineering and storefront serve brands and marketing. Recommendations and outcomes. 50–60% cost saving. CI/CD, servers, K8s, vector DB (Qdrant), network. Infra only.
+**Impact:** ₹1,300+ Cr (US$160M+) revenue backbone. Data engineering and storefront serve brands and marketing. Recommendations and outcomes. 50–60% cost saving. CI/CD, servers, K8s, vector DB (Qdrant), network. Infra only.
 
 ---
 
@@ -592,22 +670,22 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Technologies:** Kubernetes, Terraform, ArgoCD, Helm, GitLab CI, Jenkins, Kafka, MySQL, Pub/Sub, GCP Composer, Cloud Functions, BigQuery, GCP  
 **Demo:** [4_Purplle.com_Data_Engineering_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/4_Purplle.com_Data_Engineering_Infrastructure)
 
-**Description:** Pipeline powering the ₹700 Crore revenue backbone. 7M users’ data, legal and anonymous, PII-handled; flows to BigQuery/BigTable. Consumed by business teams, Data Science, Martech, SCM, and legacy panel. Infra only.
+**Description:** Pipeline powering the ₹1,300+ Crore (US$160M+) revenue backbone. 10M+ users’ data, legal and anonymous, PII-handled; flows to BigQuery/BigTable. Consumed by business teams, Data Science, Martech, SCM, and legacy panel. Infra only.
 
 **Overview (what I've done):** GKE, CI/CD, Kafka, MySQL, Pub/Sub, DAG sync to Composer, zero-trust networking. DE team owned BigQuery, BigTable, ETL, DAG logic. Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs). Infra only.
 
 **Key Features:**
-- ₹700 Crore revenue backbone; 7M users’ data, legal, anonymous, PII-handled
+- ₹1,300+ Crore (US$160M+) revenue backbone; 10M+ users’ data, legal, anonymous, PII-handled
 - Pipeline MySQL → BigQuery/BigTable; consumed by business teams, DS, Martech, SCM, legacy panel
 - Event-driven (Cloud Function → Dataflow → ETL) and time-driven (Composer DAGs)
 - Infra: GKE, CI/CD, Kafka, MySQL, Pub/Sub, DAG sync to Composer, zero-trust; DE team owned BigQuery, BigTable, ETL, DAG logic
 
-**Challenges:** Reliable pipeline from MySQL to BigQuery/BigTable for 7M users’ PII data; supporting event-driven and time-driven paths; DAG delivery from Git/GitLab to GCS for Composer/Airflow; zero-trust connectivity and minimum permissions (GCP IAM).
+**Challenges:** Reliable pipeline from MySQL to BigQuery/BigTable for 10M+ users’ PII data; supporting event-driven and time-driven paths; DAG delivery from Git/GitLab to GCS for Composer/Airflow; zero-trust connectivity and minimum permissions (GCP IAM).
 
 **Learnings:** Infra for DE pipeline lets DE team focus on data warehousing and processing; clear ownership split (infra vs DE) enables reliable revenue backbone pipeline; event-driven and time-driven triggers both need infra support with keyless auth and custom roles.
 
 **Duration:** Jan 2023 - Feb 2026 | **Role:** DevOps / Infrastructure Engineer  
-**Impact:** ₹700 Crore revenue backbone; 7M users; data for business teams, DS, Martech, SCM, legacy panel; infra only.
+**Impact:** ₹1,300+ Crore (US$160M+) revenue backbone; 10M+ users; data for business teams, DS, Martech, SCM, legacy panel; infra only.
 
 ---
 
@@ -617,12 +695,12 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Technologies:** PHP, Kubernetes, MySQL, Load Balancer, CI/CD, GCP  
 **Demo:** [10_Purplle.com_Legacy_Admin_Panels_Infrastructure](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/10_Purplle.com_Legacy_Admin_Panels_Infrastructure)
 
-**Description:** Backbone of the ₹700 Crore revenue management panel. Business teams run operations (banner, campaigns, Martech, logistics) without technical intervention—panel, few clicks, done. Infra only.
+**Description:** Backbone of the ₹1,300+ Crore (US$160M+) revenue management panel. Business teams run operations (banner, campaigns, Martech, logistics) without technical intervention—panel, few clicks, done. Infra only.
 
 **Overview (what I've done):** CI/CD, network, monolith deployment, load balancer (high load), MySQL, internal load balancer (legacy → distributed K8s). Application code owned by Storefront, Martech, SCM, Data Engineering, Data Science. Flow: business teams → panel → legacy PHP monolith → internal LB → K8s. Infra only.
 
 **Key Features:**
-- ₹700 Crore revenue panel; business teams run operations without technical intervention
+- ₹1,300+ Crore (US$160M+) revenue panel; business teams run operations without technical intervention
 - Flow: business teams → panel → legacy PHP monolith → internal LB → distributed K8s
 - Load balancer under high load; MySQL backing legacy; internal load balancer (legacy → K8s) managed by DevOps
 - Infra: CI/CD, network, monolith deployment, load balancer, MySQL; app code by other teams
@@ -632,7 +710,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Learnings:** Hybrid legacy + distributed supported by infra (internal load balancer, network) so business teams use one panel without tech intervention; clear split: application code by product/engineering teams, infra by DevOps; load balancer and internal LB critical for revenue management panel availability.
 
 **Duration:** Jan 2023 - Feb 2026 | **Role:** DevOps / Infrastructure Engineer  
-**Impact:** ₹700 Crore revenue panel; business teams run operations without technical intervention; infra only.
+**Impact:** ₹1,300+ Crore (US$160M+) revenue panel; business teams run operations without technical intervention; infra only.
 
 ---
 
@@ -667,12 +745,12 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Technologies:** Terraform, Ansible, Jenkins, GitLab CI, Python, Bash, GCP, Kubernetes  
 **Demo:** [8_Purplle.com_IAC_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/8_Purplle.com_IAC_Deployment)
 
-**Description:** 40%+ faster deployments, 40%+ automation with Terraform & Ansible. Standardized IAC across 125+ Microservices Distributed Workload.
+**Description:** 40% faster infrastructure delivery, 40%+ automation with Terraform & Ansible. Standardized IAC across 125+ Microservices Distributed Workload.
 
 **Overview (what I've implemented):** Terraform modules, Ansible, GitOps workflows, Jenkins/GitLab CI. Standardized IAC across 125+ Microservices Distributed Workload and multi-environment (DEV, SIT, UAT, PROD).
 
 **Key Features:**
-- 40%+ faster deployments through IAC automation
+- 40% faster infrastructure delivery through IAC automation
 - 40%+ provisioning tasks automated
 - Reusable Terraform modules for multi-environment
 - GitOps workflows with CI/CD integration
@@ -682,7 +760,7 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Learnings:** Infrastructure as Code best practices; Terraform module design; GitOps as single source of truth.
 
 **Duration:** Jun 2024 - Feb 2026 | **Role:** DevOps Engineer  
-**Impact:** 40%+ faster deployments | 40%+ automation | Zero deployment errors.
+**Impact:** 40% faster infrastructure delivery | 40%+ automation | Zero deployment errors.
 
 ---
 
@@ -717,13 +795,13 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Technologies:** Kubernetes, GKE, Terraform, GitLab CI, Jenkins, Python, GCP, AWS, Keycloak, Trivy  
 **Demo:** [5_Purplle.com_Adtech_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/5_Purplle.com_Adtech_Deployment)
 
-**Description:** ₹400+ Crore revenue, 93% cost reduction (₹80L → ₹5.7L). 4x traffic spike handling, 7M users. Multi-cloud architecture.
+**Description:** ₹750+ Crore (US$90M+) revenue, 93% infrastructure cost reduction. 4x traffic spike handling on AdTech, 10M+ users. Multi-cloud architecture.
 
 **Overview (what I've implemented):** GKE, 100+ production services, Terraform, GitLab CI, Jenkins, multi-cloud (AWS Route53 + GCP). Infra for in-house AdTech platform.
 
 **Key Features:**
-- ₹400+ Crore revenue, 93% cost reduction
-- 4x traffic spike handling (150K → 600K DAU)
+- ₹750+ Crore (US$90M+) revenue, 93% cost reduction
+- 4x traffic spike handling (400K+ DAU)
 - 100+ production services on GKE
 - Multi-cloud (AWS Route53 + GCP GKE)
 
@@ -732,24 +810,24 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Learnings:** 4-tier distributed architecture; cost optimization strategies; multi-cloud deployment patterns.
 
 **Duration:** Jul 2025 - Aug 2025 | **Role:** DevOps Engineer  
-**Impact:** 93% cost reduction | ₹400+ Crore revenue | 4x traffic spike handling.
+**Impact:** 93% cost reduction | ₹750+ Crore (US$90M+) revenue | 4x traffic spike handling.
 
 ---
 
-### 10. Purplle - POS Platform for 100+ Retail Stores
+### 10. Purplle - POS Platform for 200+ Retail Stores
 **Status:** Production  
 **Category:** Platform Engineering  
 **Technologies:** Kubernetes, GKE, Terraform, Jenkins, GitLab CI, Python, GCP, Kafka, Redis  
 **Demo:** [6_PurplleNexus_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/6_PurplleNexus_Deployment)
 
-**Description:** High-availability POS platform: 100+ stores, 500+ daily users, ₹40+ Crores revenue, 99%+ uptime. Kafka + Redis architecture.
+**Description:** High-availability POS platform: 200+ stores, 500+ daily users, US$5M+ revenue, 99%+ uptime. Kafka + Redis architecture.
 
 **Overview (what I've implemented):** GKE deployment across DEV, SIT, UAT, PROD, Kafka + Redis architecture, 4-tier pattern, high-availability for POS. Infra only.
 
 **Key Features:**
-- 100+ retail stores, 500+ daily employees
+- 200+ retail stores, 500+ daily employees
 - 99%+ uptime with scalable infrastructure
-- ₹40+ Crores revenue
+- US$5M+ revenue
 - Kafka + Redis for real-time processing
 
 **Challenges:** High-availability deployment for retail operations; scalable infrastructure; real-time data processing with Kafka.
@@ -757,23 +835,31 @@ Operating Systems, Data Structures, Algorithms, Computer Networks, Database Mana
 **Learnings:** POS platform architecture; auto-scaling strategies; real-time messaging patterns.
 
 **Duration:** Jun 2024 - Jul 2024 | **Role:** DevOps Engineer  
-**Impact:** 99%+ uptime | 100+ store support | ₹40+ Crores revenue.
+**Impact:** 99%+ uptime | 200+ store support | US$5M+ revenue.
 
 ---
 
 ### 11. Stealth Startup - Infrastructure Deployment & Software Compliance
 **Status:** Production  
 **Category:** Platform Engineering  
-**Client Type:** Freelance / Self-employed (Part-time)  
-**Technologies:** GCP, GKE, Compute Engine, PostgreSQL, NATS JetStream, Pub/Sub, MicroCeph, Terraform, Atlantis, Helm, Argo CD, OpenTelemetry  
+**Client Type:** Freelance / Self-employed  
+**Technologies:** GCP, GKE, Kubernetes, Terraform, Atlantis, ArgoCD, GitHub, Helm, PostgreSQL, NATS, MicroCeph, OpenTelemetry  
 **Demo:** [11_Stealth_Startup_Infrastructure_Deployment](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/11_Stealth_Startup_Infrastructure_Deployment)
 
-**Description:** AI-powered CI/CD SaaS platform infrastructure — GitHub App control plane, ephemeral runners, GitOps, SOC 2– and ISO/IEC 27001–aligned controls.
+**Description:** AI-powered CI/CD SaaS on GCP: owned platform infrastructure and deployment. GitHub PR-driven delivery (Atlantis for Terraform, ArgoCD for Kubernetes), SOC 2-enabled Zero Trust controls, and a MicroCeph cache with Kubernetes as the service layer (up to 80% faster CI).
 
-**Overview (what I've done):** Own cloud infrastructure, platform engineering, deployment automation, security, and observability. Distributed CI caching (up to 80% faster), reusable CI with semantic versioning, full IaC with Atlantis, inventory/cost audit automation.
+**Overview (what I've done):** Own platform infrastructure and deployment for an AI-powered CI/CD SaaS on Google Cloud. GitHub PRs gate every Kubernetes and infrastructure change (Atlantis for Terraform, ArgoCD for Kubernetes). Deployed SOC 2-enabled controls (least-privilege IAM, private IPs, Zero Trust), NATS as infrastructure (not product config), and a MicroCeph cache with Kubernetes as the service layer. Do **not** claim 15+ services / 45+ repos / 100+ CI jobs, zero-touch GitOps, operating NATS product config, audit/inventory/Secret Manager, or ISO 27001 as a freelance claim. SOC 2 is a control set in the job bullets, not a skill.
+
+**Key Features:**
+- Platform ownership for an AI-powered CI/CD SaaS
+- GitHub PR required for every Kubernetes and infrastructure change
+- SOC 2-enabled Zero Trust: least-privilege IAM, private IPs
+- Up to 80% faster CI via MicroCeph cache (Kubernetes service layer)
+- 13% spend reduction via rightsizing
+- OpenTelemetry / Google Cloud Monitoring
 
 **Duration:** Mar 2026 - Present | **Role:** DevOps Engineer · Freelancer (Self-employed)  
-**Impact:** Greenfield platform ownership · up to 80% faster CI · SOC 2 + ISO 27001–aligned.
+**Impact:** Up to 80% faster CI · SOC 2-enabled platform · 13% spend reduction via rightsizing.
 
 ---
 
@@ -817,19 +903,19 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 > **📝 Update Instructions:** When switching companies, update the "Experience Summary" section below with new totals. Keep company-specific metrics in their respective company sections.
 
 ### Production Metrics (Cumulative Across All Companies)
-- **₹700 Crore revenue** - Main e-commerce platform; **₹700 Crore revenue backbone** - Data Science Infrastructure (recommendations, DE/storefront, brand & marketing); **Data Engineering Infrastructure** (pipeline to BigQuery/BigTable for business teams, DS, Martech, SCM, legacy panel); **Legacy Admin Panels Infrastructure** (revenue management panel for business operations)
-- **₹400+ Crore revenue** - AdTech platform; **₹40+ Crores revenue** - POS (100+ retail stores)
-- **40%+ faster deployments** - Infrastructure automation and CI/CD modernization
-- **76% MTTR reduction** - From 30 minutes to 7 minutes via unified observability stack
-- **99%+ service uptime** - Sustained across retail stores and production systems
-- **30% cloud cost reduction** - Through rightsizing, autoscaling, and resource cleanup
-- **40-50% cost savings** - Cloud infrastructure rightsizing and optimization
+- **US$160M+ (₹1,300+ Crore) annual business** - Main e-commerce; same backbone for DS / DE / legacy admin panels
+- **10M+ users**, **400K+ DAU**, **4x** peak traffic on commerce and AdTech
+- **₹750+ Crore (US$90M+) AdTech** - 93% infrastructure cost reduction (in-house vs third-party)
+- **US$5M+ POS** - 200+ retail stores, 99%+ uptime
+- **40% faster infrastructure delivery** - CI/CD, GitOps, IaC (not software/code delivery)
+- **76% MTTR reduction** - 30 minutes → 7 minutes via unified observability
+- **99.9% e-commerce availability** / **99%+ POS uptime**
+- **30% cloud cost reduction** - US$120K+ (₹1 crore+) savings; rightsizing, autoscaling, resource cleanup
+- **50% sale-event downtime reduction**
 - **50-60% cost saving** - Data Science Infrastructure (e.g. image tagging for Meta/Google ads)
-- **93% cost reduction** - AdTech platform (₹80 Lakh → ₹5.7 Lakh)
-- **~50% faster time-to-insight** - Agentic RAG platform for brand teams
+- **~50% faster time-to-insight** - RAG infra for brand teams (infra only)
 - **125+ Microservices Distributed Workload** - Managed on GKE
-- **100% legacy system migration** - Unified monitoring (Prometheus, Grafana)
-- **₹1 Crore cost savings** - Infrastructure optimization and automation
+- **Current (Freelance):** up to 80% faster CI; SOC 2-enabled Zero Trust; 13% spend reduction; every Kubernetes and infra change through a GitHub PR
 
 ### Experience Summary
 - **Total Professional Experience:** January 2023 - Present
@@ -839,7 +925,7 @@ Real-time chat application created with NodeJS, Express, and Socket-IO on the ba
 - **Current role:** See Experience section (Resume or LinkedIn)
 - **Projects Deployed to Production:** 11+ (Purplle + freelance AI CI/CD SaaS + Grid OSS; see Featured Projects)
 - **Cloud Platforms:** GCP, AWS
-- **99%+ uptime** achieved across production systems
+- **99.9% e-commerce availability** / **99%+ POS uptime** across production systems
 
 ### Experience by Company
 
@@ -883,6 +969,7 @@ Comprehensive documentation and learning resources across multiple repositories:
 
 ### Primary Target Roles
 - **Platform Engineer** - Infrastructure orchestration, developer productivity
+- **Cloud Architect / Platform Architect / Infrastructure Architect** - design the platform shape, then own it in production (not a past job title)
 - **DevOps Engineer** - CI/CD, automation, cloud infrastructure
 - **Cloud Engineer** - GCP/AWS expertise, cloud-native solutions
 - **SRE (Site Reliability Engineer)** - Observability, reliability, incident response
@@ -890,9 +977,9 @@ Comprehensive documentation and learning resources across multiple repositories:
 
 ### Career Interests
 **Primary Focus Areas:**
+- **Cloud-Native Architecture & System Design** - Architecting 4-tier, multi-cloud, Kubernetes platforms; design then operate
 - **DevOps & Platform Engineering** - Infrastructure automation, CI/CD, GitOps, developer productivity
 - **Security-Focused Software Development** - Zero-trust architecture, automated security, compliance
-- **Cloud-Native Engineering & System Design** - Kubernetes, microservices, multi-cloud, scalable systems
 
 **Additional Interests:**
 - Infrastructure as Code
@@ -910,19 +997,21 @@ Comprehensive documentation and learning resources across multiple repositories:
 ## 💡 Unique Value Propositions
 
 ### What Sets Me Apart
-1. **Areas of Expertise:** DevOps & Platform Engineering, Security-Focused Software Development, Cloud-Native Engineering & System Design
-2. **Production-Proven Impact:** Quantifiable results (40%+ faster deployments, 76% MTTR reduction, 30% cloud cost reduction, 99%+ uptime)
-3. **Full-Stack Infrastructure Expertise:** From code to cloud, covering development, automation, and operations
-4. **AI-Powered Automation:** Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python
-5. **Kubernetes Expertise:** Managed 125+ Microservices Distributed Workload on GKE, ensuring production reliability and scalability
-6. **Security-First Mindset:** Zero-trust implementations, Kubernetes RBAC, Trivy scanning, automated compliance, proactive threat mitigation
-7. **Knowledge Sharing:** Active technical writer with comprehensive learning resources
-8. **Continuous Learning:** Building expertise in emerging technologies (Go, Crossplane, Kubernetes operators)
+1. **Areas of Expertise:** Cloud-Native Architecture & System Design, DevOps & Platform Engineering, Security-Focused Software Development
+2. **Architect + operate:** Design the platform (4-tier, multi-cloud, Zero Trust, greenfield CI/CD), then own it in production — not a past job title
+3. **Production-Proven Impact:** Quantifiable results (40% faster infrastructure delivery, 76% MTTR reduction, 30% cloud cost reduction, 99.9% e-commerce availability)
+4. **Full-Stack Infrastructure Expertise:** From code to cloud, covering development, automation, and operations
+5. **AI-Powered Automation:** Built agentic AI automation for Elasticsearch cluster management using n8n, Terraform, Ansible, and Python
+6. **Kubernetes Expertise:** Managed 125+ Microservices Distributed Workload on GKE, ensuring production reliability and scalability
+7. **Security-First Mindset:** Zero-trust implementations, Kubernetes RBAC, Trivy scanning, automated compliance, proactive threat mitigation
+8. **Knowledge Sharing:** Active technical writer with comprehensive learning resources
+9. **Continuous Learning:** Building expertise in emerging technologies (Go, Crossplane, Kubernetes operators)
 
 ### Key Differentiators
+- **Architect + operate:** Design the platform shape, then own it in production
 - **Automation-Focused:** Reduced manual tasks by 40%+ through intelligent automation and AI-powered workflows
 - **Cost-Conscious:** Achieved 30% cloud cost reduction and 40-50% cost savings through rightsizing, autoscaling, and optimization
-- **Reliability-Driven:** Maintained 99%+ uptime across retail stores and production systems
+- **Reliability-Driven:** Maintained 99.9% e-commerce availability and 99%+ POS uptime
 - **Security-Minded:** Implemented zero-trust principles, Kubernetes RBAC, Trivy scanning, and automated security controls
 - **Documentation-Oriented:** Clear docs, runbooks, and knowledge transfer
 
@@ -931,6 +1020,7 @@ Comprehensive documentation and learning resources across multiple repositories:
 ## 🔗 Open Source & Side Projects
 
 ### Featured Open Source Projects
+- **Grid Platform** - AI-first infra management ([gridplatform.org](https://gridplatform.org) · [github.com/gridplatform](https://github.com/gridplatform))
 - **Agility** - Task management app (React + MongoDB)
 - **SocialSplit** - Real-time chat app (Node.js + Socket.io + React)
 - **User Authenticated JSON Viewer** - Secure JSON viewer with Redis + MongoDB
@@ -944,8 +1034,8 @@ Comprehensive documentation and learning resources across multiple repositories:
 ## 📈 Career Trajectory
 
 ### Current Focus
+- Cloud-native architecture and platform design
 - Platform Engineering and Infrastructure Orchestration
-- Cloud-Native Development
 - Security and Compliance Automation
 - Knowledge Sharing through Technical Writing
 

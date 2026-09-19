@@ -1,6 +1,6 @@
 # Career Context Usage Guide
 
-Quick reference for using `career-context.md` with AI prompts for various career-related tasks.
+Quick reference for using `career-info.md` with AI prompts for various career-related tasks.
 
 ---
 
@@ -12,13 +12,13 @@ Quick reference for using `career-context.md` with AI prompts for various career
 ```
 I need to write a value-driven cold email. Here's my complete career context:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 And here's the job/opportunity information:
 - Company: [COMPANY_NAME]
@@ -44,19 +44,19 @@ Generate a short, crisp cold email (under 150 words) that:
 ```
 Based on my career context below, help me find and match job opportunities:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 Criteria:
 - Target roles: Platform Engineer, DevOps Engineer, Cloud Engineer, SRE
 - Preferred tech stack: [GCP, AWS, Kubernetes, Terraform, etc.]
-- Location: [Remote/Hybrid/Mumbai]
-- Experience level: [2+ years]
+- Location: [Remote/Hybrid/Kolkata]
+- Experience level: [3.8+ years]
 
 Analyze job postings and identify:
 1. Skills alignment percentage
@@ -74,13 +74,13 @@ Analyze job postings and identify:
 ```
 I need to optimize my resume/CV keywords for ATS systems. Here's my career context:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 And here's a job description:
 [JOB_DESCRIPTION]
@@ -103,13 +103,13 @@ Create a keyword-optimized version of my experience section.
 ```
 I need to customize my resume for this specific job. Here's my complete career context:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 Job Description:
 [JOB_DESCRIPTION]
@@ -135,13 +135,13 @@ Generate a customized resume section for this role.
 ```
 I'm applying to [COMPANY_NAME]. Here's my career context:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 Company Information:
 - Industry: [INDUSTRY]
@@ -166,19 +166,19 @@ Customize my application by:
 ```
 Optimize my LinkedIn profile. Here's my career context:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 Current LinkedIn: [LINKEDIN_URL]
 
 Generate:
 1. Optimized headline (120 characters)
-2. Compelling summary (2000 characters) - Use the professional summary from career-context.md
+2. Compelling summary (2000 characters) - Use the professional summary from career-info.md
 3. Experience descriptions with keywords
 4. Skills section (top 50 skills)
 5. Recommendations for profile completion
@@ -205,13 +205,13 @@ GitHub: https://github.com/thisiskushal31
 ```
 I have an interview for [ROLE] at [COMPANY]. Here's my career context:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 Job Description: [JD]
 
@@ -232,13 +232,13 @@ Prepare me by:
 ```
 I'm negotiating salary for [ROLE] at [COMPANY]. Here's my career context:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 Offer Details:
 - Base Salary: [AMOUNT]
@@ -261,13 +261,13 @@ Help me:
 ```
 Analyze skill gaps for my target role. Here's my career context:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 Target Role: [ROLE_TITLE]
 Job Description: [JD]
@@ -289,13 +289,13 @@ Identify:
 ```
 I want to connect with [PERSON_NAME] at [COMPANY]. Here's my career context:
 
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 Their Profile: [LINKEDIN_PROFILE or INFO]
 
@@ -311,7 +311,7 @@ Create a personalized connection request that:
 
 ## 🔄 Quick Workflow
 
-1. **Open** `career-context.md`
+1. **Open** `career-info.md`
 2. **Copy** relevant sections or entire document
 3. **Paste** into your AI prompt
 4. **Add** specific task requirements (JD, company info, etc.)
@@ -322,7 +322,7 @@ Create a personalized connection request that:
 
 ## 💡 Pro Tips
 
-- **Keep Context Updated:** Update `career-context.md` when you complete new projects, earn certifications, or achieve new milestones
+- **Keep Context Updated:** Update `career-info.md` when you complete new projects, earn certifications, or achieve new milestones
 - **Be Specific:** Always include the job description and company information for best results
 - **Quantify Impact:** Emphasize metrics and achievements (50% faster, 76% reduction, etc.)
 - **Match Language:** Use terminology from the job description in your responses

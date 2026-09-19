@@ -3,17 +3,17 @@
 **When to update:** Weekly or after major milestones
 
 > **🚀 Quick Reference for Company Switches:**
-> 1. Add new company section in `career-context.md` (use Company 2 template)
+> 1. Add new company section in `career-info.md` (use Company 2 template)
 > 2. Update previous company end date (change "Present" to actual date)
 > 3. Update Experience Summary section with new totals
-> 4. Add new company in LinkedIn Experience Section of `career-context.md` (use Company 2 template)
+> 4. Add new company in LinkedIn Experience Section of `career-info.md` (use Company 2 template)
 > 5. Keep all historical data - never delete previous companies
 
 ---
 
 ## ✅ Update Triggers
 
-Update `career-context.md` when you:
+Update `career-info.md` when you:
 
 - [ ] **Switch companies** - Add new company section, update previous company end date
 - [ ] **Get promoted or change roles** - Add new role entry within current company
@@ -31,7 +31,7 @@ Update `career-context.md` when you:
 
 ## 📝 Quick Update Process
 
-1. **Open** `career-context.md`
+1. **Open** `career-info.md`
 2. **Find** the relevant section
 3. **Update** the information
 4. **Save** the file
@@ -45,7 +45,7 @@ Update `career-context.md` when you:
 - [ ] Contact details changed
 - [ ] Location changed
 - [ ] Professional title updated
-- [ ] Areas of expertise updated (DevOps & Platform Engineering, Security-Focused Software Development, Cloud-Native Engineering & System Design)
+- [ ] Areas of expertise updated (Cloud-Native Architecture & System Design, DevOps & Platform Engineering, Security-Focused Software Development)
 
 ### Work Experience
 - [ ] **New company added** - Used Company 2 template, filled in all details
@@ -94,7 +94,7 @@ Update `career-context.md` when you:
 ## 🔄 How to Update When Switching Companies
 
 ### Step 1: Add New Company Section
-1. Go to `career-context.md` → Work Experience section
+1. Go to `career-info.md` → Work Experience section
 2. Find "Company 2: [Future Company Name]" template
 3. Replace `[Future Company Name]` with actual company name
 4. Fill in:
@@ -119,7 +119,7 @@ Update `career-context.md` when you:
 2. Add new company to "Experience by Company" list
 
 ### Step 4: Update LinkedIn Experience
-1. Go to `career-context.md` → LinkedIn Experience Section
+1. Go to `career-info.md` → LinkedIn Experience Section
 2. Add new company section using Company 2 template
 3. Update previous company end dates
 4. Keep all historical entries
@@ -135,7 +135,7 @@ Update `career-context.md` when you:
 ## 🔄 For n8n Workflows
 
 When your n8n automation runs:
-1. It reads `career-context.md`
+1. It reads `career-info.md`
 2. Uses it to generate outputs
 3. **You update context** periodically to keep it fresh
 

@@ -14,7 +14,7 @@
 - Copy entire file
 
 ### Step 2: Copy Career Context
-- Open `career-context.md`
+- Open `career-info.md`
 - Copy entire file
 
 ### Step 3: Paste & Fill
@@ -38,7 +38,7 @@
 | File | Purpose | When to Use |
 |------|---------|-------------|
 | **Guides/quick-prompt.txt** ⭐ | Standalone prompt (no formatting) | Mobile, quick use |
-| **career-context.md** | Your complete professional profile | Always include this |
+| **career-info.md** | Your complete professional profile | Always include this |
 | **Guides/cold-email-generator.md** | Two-stage structured process | Thorough approach |
 | **Guides/update-checklist.md** | When to update context | Weekly review |
 | **Guides/career-context-usage.md** | 10 use cases with prompts | Specific tasks |
@@ -46,7 +46,7 @@
 | **Guides/centralized-narrative-prompt-quick.md** 🆕 | Quick version for new chat | Start centralized system |
 | **Stories/** | Project stories and templates | Interview prep, networking |
 
-### 📋 **career-context.md**
+### 📋 **career-info.md**
 **Your complete professional profile** - All your experience, skills, achievements, projects, and metrics in one place.
 
 **Update this when:**
@@ -57,10 +57,11 @@
 - Metrics improved
 
 **Source files to reference:**
-- `/resume-latex/resume.tex`
+- `/resume-latex/KushalGupta_3y9m_Global.tex` and `KushalGupta_3y9m_Domestic.tex`
+- `/resume-latex/career_summary.md`
 - `/thisiskushal31/README.md`
-- `/thisiskushal31.github.io/src/config/portfolio.ts`
-- `/thisiskushal31.github.io/src/pages/Experience.tsx`
+- `/portfolio-website/src/config/portfolio.ts` and `projectDetails.ts`
+- Live LinkedIn About + experience; bio: https://bio.kushal.cv/
 
 ### 📧 **Guides/cold-email-generator.md**
 **Two-stage structured process** for generating cold emails with detailed prompts.
@@ -115,12 +116,12 @@
 ## 🔄 For n8n Automation
 
 **Setup:**
-1. n8n reads `career-context.md`
+1. n8n reads `career-info.md`
 2. Processes job listings/updates
 3. Generates outputs
 
 **Your part:**
-- Update `career-context.md` weekly (see `Guides/update-checklist.md`)
+- Update `career-info.md` weekly (see `Guides/update-checklist.md`)
 - Use updated context in n8n workflows
 
 **n8n can handle:**
@@ -146,7 +147,7 @@ Research Company
     ↓
 Copy Guides/quick-prompt.txt
     ↓
-Copy career-context.md
+Copy career-info.md
     ↓
 Paste in AI tool
     ↓
@@ -173,7 +174,7 @@ That's it! Just 3 things.
 
 ## 🔄 Keep Context Updated
 
-**Update `career-context.md` when:**
+**Update `career-info.md` when:**
 - New projects completed
 - New achievements unlocked
 - New skills learned
@@ -189,10 +190,10 @@ That's it! Just 3 things.
 
 **For quick mobile use:**
 1. `Guides/quick-prompt.txt` ⭐
-2. `career-context.md`
+2. `career-info.md`
 
 **For detailed workflows:**
-1. `career-context.md`
+1. `career-info.md`
 2. `Guides/cold-email-generator.md`
 3. `Guides/career-context-usage.md` (for specific tasks)
 
@@ -205,7 +206,7 @@ That's it! Just 3 things.
 3. **Research company first** - better research = better email
 4. **Customize output** - AI gives you a starting point, personalize it
 5. **Save templates** - save good emails as templates for similar roles
-6. **Keep context updated:** Update `career-context.md` regularly for best results
+6. **Keep context updated:** Update `career-info.md` regularly for best results
 7. **Research first:** Always research company before generating email
 
 ---
@@ -213,7 +214,7 @@ That's it! Just 3 things.
 ## 🆘 Troubleshooting
 
 **Problem:** AI output is generic
-- **Solution:** Make sure you pasted the full `career-context.md`
+- **Solution:** Make sure you pasted the full `career-info.md`
 
 **Problem:** Email is too long
 - **Solution:** Ask AI to shorten to under 150 words
@@ -222,7 +223,7 @@ That's it! Just 3 things.
 - **Solution:** Make sure JD is complete and detailed
 
 **Problem:** Context is outdated
-- **Solution:** Update `career-context.md` (see `Guides/update-checklist.md`)
+- **Solution:** Update `career-info.md` (see `Guides/update-checklist.md`)
 
 ---
 
@@ -243,5 +244,5 @@ That's it! Just 3 things.
 
 ---
 
-**Ready to go!** Start with `Guides/quick-prompt.txt` + `career-context.md` 🚀
+**Ready to go!** Start with `Guides/quick-prompt.txt` + `career-info.md` 🚀
 

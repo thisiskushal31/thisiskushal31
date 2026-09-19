@@ -7,8 +7,9 @@ Copy this into a new chat to get started:
 I need to establish a **single source of truth** for my professional narrative that syncs across multiple platforms while preserving each platform's unique purpose.
 
 ## Current State:
-- **`/ai-data/career-context.md`** (734 lines) - LinkedIn source of truth
-- **`/ai-data/freelancer-profile.md`** (446 lines) - Freelancer platforms source of truth
+- **`/ai-data/career-info.md`** - LinkedIn / outreach source of truth
+- **`/resume-latex/career_summary.md`** - Short summary options (incl. shipped LinkedIn About)
+- **`/ai-data/freelancer-profile.md`** - Freelancer platforms source of truth
 - **GitHub README** - Tech-savvy individual who learns things
 - **Portfolio Website** - Professional presence
 - **LinkedIn** - Job opportunities (Software Engineer full-fledged coming soon)
@@ -35,10 +36,11 @@ I need to establish a **single source of truth** for my professional narrative t
 5. Scalable (easy to add platforms)
 
 ## Key Data to Centralize:
-- Professional title: "Software Engineer" (full-fledged)
-- Experienced Software Engineer with proven track record
-- Key metrics: 125+ K8s deployments, 7M users, $84M+ revenue systems, 93% cost reduction, 76% MTTR reduction, 40%+ faster deployments, 99%+ uptime
-- Projects: Purplle.com, PurplleAds, Nexus POS, Infrastructure Automation, Monitoring, Security, Elasticsearch
+- Professional title: "Software Engineer" who architects and operates production platforms
+- Architect narrative: design the platform shape, then own it in production (not a past job title)
+- Current role: Freelancer · DevOps Engineer (self-employed, Mar 2026 – Present); previously Purplle.com (Jan 2023 – Feb 2026)
+- Key metrics: 10M+ users, 400K+ DAU, US$160M+ e-commerce, US$90M+ AdTech (93% infra cost cut), 200+ POS stores, 40% faster infrastructure delivery, 76% MTTR, 99.9% availability, up to 80% faster CI on current GCP platform
+- Projects: Stealth AI CI/CD SaaS, Purplle.com, PurplleAds, Nexus POS, IaC, observability, security, Grid OSS
 - Proof of work: https://github.com/thisiskushal31/thisiskushal31/tree/main/projects
 - Technical stack: Python, JavaScript, GCP, AWS, Terraform, Ansible, Kubernetes, CI/CD, databases, monitoring, security
 

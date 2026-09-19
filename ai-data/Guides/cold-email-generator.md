@@ -2,13 +2,13 @@
 
 A recursive prompt system to generate short, crisp, and value-driven cold emails that demonstrate excitement and clear value proposition.
 
-> **📌 Important:** Before using these prompts, load the comprehensive career context from `../career-context.md` which contains all your professional information, achievements, skills, projects, and metrics. This will ensure your emails are accurate and value-driven.
+> **📌 Important:** Before using these prompts, load the comprehensive career context from `../career-info.md` which contains all your professional information, achievements, skills, projects, and metrics. This will ensure your emails are accurate and value-driven.
 
 ## 📋 Two-Stage Process
 
 ### Stage 1: Information Collection
 
-**IMPORTANT:** First, load the career context from `../career-context.md` to get all professional information, achievements, and skills.
+**IMPORTANT:** First, load the career context from `../career-info.md` to get all professional information, achievements, and skills.
 
 **Prompt to use:**
 
@@ -16,13 +16,13 @@ A recursive prompt system to generate short, crisp, and value-driven cold emails
 I need to craft a value-driven cold email. I've provided my complete career context below. Please use it along with the following information:
 
 **My Career Context:**
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Key Areas of Expertise:**
 - DevOps & Platform Engineering
 - Security-Focused Software Development
-- Cloud-Native Engineering & System Design
+- Cloud-Native Architecture & System Design
 
 **Stage 1 - Additional Information Needed:**
 
@@ -59,7 +59,7 @@ Once you have all this information, I'll move to Stage 2 to generate the persona
 Based on the following information, generate a short, crisp, value-driven cold email:
 
 **My Complete Career Context:**
-https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-context.md
+https://raw.githubusercontent.com/thisiskushal31/thisiskushal31/refs/heads/main/ai-data/career-info.md
 (Please fetch and read the content from this URL)
 
 **Job Description:**
@@ -156,13 +156,13 @@ I'm [your name], [brief role/background]. Here's how I can contribute:
 
 ## 🔗 Related Documents
 
-- **Career Context:** `../career-context.md` - Complete professional profile, achievements, skills, and projects
+- **Career Context:** `../career-info.md` - Complete professional profile, achievements, skills, and projects
 - **Job Search Strategy:** `../plans/JOB_CHANGE_TASKS.md` - Job search tasks and alignment strategy
 - **GitHub Profile:** `../README.md` - Public GitHub profile information
 
 ## 💡 Quick Start
 
-1. **Load Career Context:** Read `../career-context.md` to get all your professional information
+1. **Load Career Context:** Read `../career-info.md` to get all your professional information
 2. **Research Company:** Gather JD and company information
 3. **Run Stage 1 Prompt:** Provide career context + company/JD info
 4. **Run Stage 2 Prompt:** Generate the email
