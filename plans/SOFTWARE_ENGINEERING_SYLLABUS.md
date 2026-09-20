@@ -128,7 +128,7 @@ Leave alone unless asked: `blog`, `portfolio-website`, `dochub`, `Archive`, `res
 
 | Priority | Skill you named | Home (write here) | Finish these first |
 |----------|-----------------|-------------------|--------------------|
-| 1 | **DevOps** | [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Delivery spine **concepts** (not every tool folder): `Methodologies/0` → `CiCd/1–7` → `Security/1–5` (esp. gate chain) → `IAC/1–3` → `Monitoring-And-Observability/0–34` (concepts; tool folders after gate). Do not start a new Languages course. Vendor tool READMEs (Jenkins, Prometheus, nginx, …) after concepts. |
+| 1 | **DevOps** | [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Delivery spine **concepts** (not every tool folder): `Methodologies/0` → `CiCd/1–7` → `Security/1–5` (esp. gate chain) → `IAC/1–3` → `Monitoring-And-Observability/0–37` (concepts; tool folders after gate). Do not start a new Languages course. Vendor tool READMEs (Jenkins, Prometheus, nginx, …) after concepts. |
 | 2 | **Network security** | [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) `Security/` | After DevOps spine: TLS, threat-on-the-wire, common attacks/defenses. Tooling `Security/` = install/lab only when you need a scanner. |
 | 3 | **System design** | [System-Design-Concepts](../../Deep-Dives/System-Design-Concepts/) | After DevOps + Networks: `Fundamentals/` (short → defendable) + the cases you will actually interview/design with. `Security-Tradeoffs/` when it touches the design. |
 | 4 | **Database** | [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | `Concepts/` + the engines you operate (e.g. PostgreSQL, Redis). Other engines stay stub until after the deadline. |
@@ -412,7 +412,7 @@ Counts below are file-level (September 2026). A file with `*(Content TBD)*` or �
 
 | Home | Plan | Places (honest) | Stub-ish files |
 |------|------|-----------------|----------------|
-| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine scaffold. Cloud **0–34 + Catalogs closed**; Datacenter **closed**; Monitoring-And-Observability **concept track 0–34 closed** (tools primers exist; deepen tools later). Security/IAC still open. | ~120+ |
+| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine scaffold. Cloud **0–34 + Catalogs closed**; Datacenter **closed**; Monitoring-And-Observability **concept track 0–37 closed** (tools primers exist; deepen tools later). Security/IAC still open. | ~120+ |
 | [Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | Part E | Docker, Podman, K8s (incl. self-managed/vanilla), OpenShift, Rancher, Swarm, GKE/EKS/AKS written. Later sections stub. | ~29 |
 | [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) | Part E | Core layers written. Mesh / extra labs stub. | ~17 |
 | [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | Part E | Six engines written. Other engines stub. **Qdrant added.** | ~113 (was 108) |
@@ -1181,7 +1181,7 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 | 2 | [CiCd/1–7](./CiCd/README.md) | Full delivery loop: pipelines → tools map → strategies → artifacts → verify → supply chain → DB migrations |
 | 3 | [Security/1–5](./Security/README.md) | Secrets, compliance grain, tools map, **gate chain**, OIDC/CI least privilege |
 | 4 | [IAC/1–3](./IAC/README.md) | Patterns, state/modules/backends, multi-cloud practices |
-| 5 | [Monitoring-And-Observability/0–34](./Monitoring-And-Observability/README.md) | Detect + explain craft, stacks, scorecard; tools after gate |
+| 5 | [Monitoring-And-Observability/0–37](./Monitoring-And-Observability/README.md) | Detect + explain craft, runtime/estates, stacks, scorecard; tools after gate |
 | 6 | [Methodologies/](./Methodologies/README.md) topics 1–8 | Culture → branching → SRE/on-call → DORA → ChatOps → docs → FinOps (as needed) |
 | 7 | [README](./README.md) related-repos table | Keep pointers current — no `Entry-Points/` folder |
 | 8 | [Servers/](./Servers/README.md) / [Cloud/](./Cloud/README.md) / [Datacenter/](./Datacenter/README.md) | Web servers + provider literacy + on-prem when delivery notes need them |
@@ -1262,7 +1262,7 @@ Public intro: [Deep-Dives/DevOps-Handbook/Datacenter/README.md](../../Deep-Dives
 
 **Cloud catalog pass (done):** [Catalogs/](../../Deep-Dives/DevOps-Handbook/Cloud/Catalogs/README.md) lists **product families / primary SKUs** with **what it is for · when to choose · why not**—handbook is the final choice destination; References only for deeper API. Not a cert dump of console clicks.
 
-**Monitoring-And-Observability concept track closed:** [Monitoring-And-Observability/](../../Deep-Dives/DevOps-Handbook/Monitoring-And-Observability/README.md) **0–34** (paired monitoring+observability jobs, stacks, scorecard, topologies). Tool folder primers exist—deepen after concepts. Cloud/30 + Methodologies/3 remain doors. Security/IAC still open.
+**Monitoring-And-Observability concept track closed:** [Monitoring-And-Observability/](../../Deep-Dives/DevOps-Handbook/Monitoring-And-Observability/README.md) **0–37** (paired monitoring+observability jobs, stacks, runtime/estate shapes, RUM/coverage, scorecard, topologies). Tool folder primers exist—deepen after concepts. Cloud/30 + Methodologies/3 remain doors. Security/IAC still open.
 
 **Cloud closed (move-on confirmed):** literacy 0–34 + catalogs complete; reopen only when a *new durable job* or major product family appears.
 
@@ -1883,7 +1883,7 @@ Write these in [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskusha
 - [ ] Confirm CI security track (SAST/DAST/SCA/secrets/IaC/image/WAF/sign-SBOM)  
 - [ ] Confirm SonarQube + ZAP as primary examples  
 - [ ] Confirm artifact registry + supply-chain chapters in CiCd/Security  
-- [x] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC) — `Cloud/` **0–34 + Catalogs closed** (jobs + what/when/why-not; docs = API depth); IAC stays Terraform/etc.; `Datacenter/` **closed**; `Monitoring-And-Observability/` **0–34 concepts closed** (tools later); Security/IAC still open  
+- [x] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC) — `Cloud/` **0–34 + Catalogs closed** (jobs + what/when/why-not; docs = API depth); IAC stays Terraform/etc.; `Datacenter/` **closed**; `Monitoring-And-Observability/` **0–37 concepts closed** (tools later); Security/IAC still open  
 - [ ] Confirm Docker/Podman handbook entry → Containerization-Deep-Dive  
 - [ ] Confirm data/Messaging/CDN/LB entries → Databases + System-Design + Networks  
 - [x] `Servers/`, `Cloud/`, and `Datacenter/` exist; frameworks live in Tooling — do not add `Frameworks/` here  
