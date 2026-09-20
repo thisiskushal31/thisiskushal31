@@ -77,7 +77,7 @@ All 11 clones: `Deep-Dives/`
 
 | # | Repo | This home writes | Top folders |
 |---|------|------------------|-------------|
-| 1 | [Deep-Dives/DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | How software is **delivered** | `Methodologies/` `CiCd/` `IAC/` `Automation/` `Cloud/` `Datacenter/` `Cloud-Native/` `Servers/` `Observability/` `Security/` `Operating-Systems/` `Languages/` |
+| 1 | [Deep-Dives/DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | How software is **delivered** | `Methodologies/` `CiCd/` `IAC/` `Automation/` `Cloud/` `Datacenter/` `Cloud-Native/` `Servers/` `Monitoring-And-Observability/` `Security/` `Operating-Systems/` `Languages/` |
 | 2 | [Deep-Dives/Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | What **containers and clusters** are | `Containerization-Basic/` `Runtimes/` `Orchestration/` `Managed-Services/` `Networking-Advanced/` `Security-Advanced/` `Local-Dev/` `GitOps-Packaging/` `Serverless-Containers/` |
 | 3 | [Deep-Dives/Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) | How **bits move** | `Foundations/` `Transport/` `Routing-Switching/` `Services/` `Security/` `Cloud-Native/` `Observability/` `Advanced/` `Labs/` `Service-Mesh/` |
 | 4 | [Deep-Dives/Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | **Data at rest** | `Concepts/` `Relational/` `Document/` `Key-Value/` `Wide-Column/` `Graph/` `Cache/` `Time-Series/` `Search-Engine/` `Vector/` `Blob-Object/` `NoSQL/` `Cloud-Managed/` `Data-Platform/` |
@@ -128,7 +128,7 @@ Leave alone unless asked: `blog`, `portfolio-website`, `dochub`, `Archive`, `res
 
 | Priority | Skill you named | Home (write here) | Finish these first |
 |----------|-----------------|-------------------|--------------------|
-| 1 | **DevOps** | [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Delivery spine **concepts** (not every tool folder): `Methodologies/0` → `CiCd/1–7` → `Security/1–5` (esp. gate chain) → `IAC/1–3` → `Observability/1–3`. Do not start a new Languages course. Vendor tool READMEs (Jenkins, Prometheus, nginx, …) after concepts. |
+| 1 | **DevOps** | [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Delivery spine **concepts** (not every tool folder): `Methodologies/0` → `CiCd/1–7` → `Security/1–5` (esp. gate chain) → `IAC/1–3` → `Monitoring-And-Observability/0–34` (concepts; tool folders after gate). Do not start a new Languages course. Vendor tool READMEs (Jenkins, Prometheus, nginx, …) after concepts. |
 | 2 | **Network security** | [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) `Security/` | After DevOps spine: TLS, threat-on-the-wire, common attacks/defenses. Tooling `Security/` = install/lab only when you need a scanner. |
 | 3 | **System design** | [System-Design-Concepts](../../Deep-Dives/System-Design-Concepts/) | After DevOps + Networks: `Fundamentals/` (short → defendable) + the cases you will actually interview/design with. `Security-Tradeoffs/` when it touches the design. |
 | 4 | **Database** | [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | `Concepts/` + the engines you operate (e.g. PostgreSQL, Redis). Other engines stay stub until after the deadline. |
@@ -412,7 +412,7 @@ Counts below are file-level (September 2026). A file with `*(Content TBD)*` or �
 
 | Home | Plan | Places (honest) | Stub-ish files |
 |------|------|-----------------|----------------|
-| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine scaffold. Cloud **0–34 + Catalogs closed**; Datacenter **closed**; Observability **0–3 + tools closed**. Security/IAC still open. | ~120+ |
+| [DevOps-Handbook](../../Deep-Dives/DevOps-Handbook/) | Part E | Languages + OS written. Delivery spine scaffold. Cloud **0–34 + Catalogs closed**; Datacenter **closed**; Monitoring-And-Observability **concept track 0–34 closed** (tools primers exist; deepen tools later). Security/IAC still open. | ~120+ |
 | [Containerization-Deep-Dive](../../Deep-Dives/Containerization-Deep-Dive/) | Part E | Docker, Podman, K8s (incl. self-managed/vanilla), OpenShift, Rancher, Swarm, GKE/EKS/AKS written. Later sections stub. | ~29 |
 | [Networks-Deep-Dive](../../Deep-Dives/Networks-Deep-Dive/) | Part E | Core layers written. Mesh / extra labs stub. | ~17 |
 | [Databases-Deep-Dive](../../Deep-Dives/Databases-Deep-Dive/) | Part E | Six engines written. Other engines stub. **Qdrant added.** | ~113 (was 108) |
@@ -777,7 +777,7 @@ Phases are **themes**, not rigid gates. Overlap is fine; security depth stays in
 | DevOps `Operating-Systems/` | Process, memory, I/O, shell, services, virtualization |
 | DevOps `CiCd/` + `IAC/` | Pipelines, GitOps, Terraform/Pulumi patterns |
 | DevOps `Cloud-Native/` | K8s concepts, service mesh intro, cloud primitives |
-| DevOps `Observability/` | Metrics, logs, traces, SLO/SLI |
+| DevOps `Monitoring-And-Observability/` | Metrics, logs, traces, SLO/SLI |
 | DevOps `Security/` (intro) | Secrets, least privilege, SAST/DAST in pipeline — not full AppSec yet |
 | Containerization Deep Dive | Docker/Podman, K8s networking/storage, managed clusters |
 | DSA | Arrays, trees, graphs, DP, system-relevant patterns |
@@ -1155,7 +1155,7 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 2. [Operating-Systems/Fundamentals/](./Operating-Systems/README.md) if processes/memory are new
 3. [CiCd/](./CiCd/README.md) — how software ships
 4. [IAC/](./IAC/README.md) → [Cloud/](./Cloud/README.md) (providers) / [Datacenter/](./Datacenter/README.md) (metal / hall)
-5. [Observability/](./Observability/README.md) + [Security/](./Security/README.md) (pipeline grain)
+5. [Monitoring-And-Observability/](./Monitoring-And-Observability/README.md) + [Security/](./Security/README.md) (pipeline grain)
 6. Related repos on the [README](./README.md) when you need Docker / networks / DBs in full
 
 *(Content TBD — stub created September 2026)*
@@ -1181,7 +1181,7 @@ You can start this repo knowing nothing about DevOps. Languages/ is from-scratch
 | 2 | [CiCd/1–7](./CiCd/README.md) | Full delivery loop: pipelines → tools map → strategies → artifacts → verify → supply chain → DB migrations |
 | 3 | [Security/1–5](./Security/README.md) | Secrets, compliance grain, tools map, **gate chain**, OIDC/CI least privilege |
 | 4 | [IAC/1–3](./IAC/README.md) | Patterns, state/modules/backends, multi-cloud practices |
-| 5 | [Observability/1–3](./Observability/README.md) | Metrics, logs/traces, tools map |
+| 5 | [Monitoring-And-Observability/0–34](./Monitoring-And-Observability/README.md) | Detect + explain craft, stacks, scorecard; tools after gate |
 | 6 | [Methodologies/](./Methodologies/README.md) topics 1–8 | Culture → branching → SRE/on-call → DORA → ChatOps → docs → FinOps (as needed) |
 | 7 | [README](./README.md) related-repos table | Keep pointers current — no `Entry-Points/` folder |
 | 8 | [Servers/](./Servers/README.md) / [Cloud/](./Cloud/README.md) / [Datacenter/](./Datacenter/README.md) | Web servers + provider literacy + on-prem when delivery notes need them |
@@ -1206,12 +1206,12 @@ These were already promised in the completeness plan. They stay on this write-or
 | Docker/Podman door | [README](./README.md) Containers row | exists |
 | Data / messaging / cache doors | [README](./README.md) | exists; Kafka *engine* → DE `Systems/` |
 | DNS / CDN / LB doors | [README](./README.md) Networking + System Design rows | exists |
-| On-call tooling | Practice: [Methodologies/3](./Methodologies/3_Team_Patterns_SRE_Incident.md). Product: [Observability/PagerDuty](./Observability/PagerDuty/README.md) | exists |
+| On-call tooling | Practice: [Methodologies/3](./Methodologies/3_Team_Patterns_SRE_Incident.md). Product: [Monitoring-And-Observability/PagerDuty](./Monitoring-And-Observability/PagerDuty/README.md) | exists |
 | Azure DevOps / Buildkite / Unleash | [CiCd/](./CiCd/README.md) | exists |
 | Atlantis | [IAC/Atlantis](./IAC/Atlantis/README.md) | exists |
 | FinOps | [Methodologies/](./Methodologies/README.md) | stub |
 | OpenTofu / Packer | [IAC/](./IAC/README.md) | planned |
-| Kyverno / Loki / Backstage | Cloud-Native / Observability indexes | Backstage **filled**; Kyverno literacy at [Cloud-Native/Kyverno](../../Deep-Dives/DevOps-Handbook/Cloud-Native/Kyverno/README.md); Loki (+ Tempo/Jaeger) at [Observability/](../../Deep-Dives/DevOps-Handbook/Observability/README.md) |
+| Kyverno / Loki / Backstage | Cloud-Native / Observability indexes | Backstage **filled**; Kyverno literacy at [Cloud-Native/Kyverno](../../Deep-Dives/DevOps-Handbook/Cloud-Native/Kyverno/README.md); Loki (+ Tempo/Jaeger) at [Monitoring-And-Observability/](../../Deep-Dives/DevOps-Handbook/Monitoring-And-Observability/README.md) |
 | Synthetic / e2e in verify (k6, Playwright) | `CiCd/` verify; Playwright → Tooling `Quality-And-Testing/Playwright` | planned |
 | DB migrations in pipelines | CiCd entry + Databases `Tools/Flyway` | planned |
 | Local dev parity | [README](./README.md) + Containerization `Local-Dev/` | planned |
@@ -1262,7 +1262,7 @@ Public intro: [Deep-Dives/DevOps-Handbook/Datacenter/README.md](../../Deep-Dives
 
 **Cloud catalog pass (done):** [Catalogs/](../../Deep-Dives/DevOps-Handbook/Cloud/Catalogs/README.md) lists **product families / primary SKUs** with **what it is for · when to choose · why not**—handbook is the final choice destination; References only for deeper API. Not a cert dump of console clicks.
 
-**Observability closed (move-on confirmed):** [Observability/](../../Deep-Dives/DevOps-Handbook/Observability/README.md) **0–3** + tool folders (Prom/Grafana/OTel/Loki/Tempo/Jaeger/Elastic/Datadog/New Relic/PagerDuty)—signal jobs + what/when/why-not; Cloud/30 + Methodologies/3 remain doors. Security/IAC still open.
+**Monitoring-And-Observability concept track closed:** [Monitoring-And-Observability/](../../Deep-Dives/DevOps-Handbook/Monitoring-And-Observability/README.md) **0–34** (paired monitoring+observability jobs, stacks, scorecard, topologies). Tool folder primers exist—deepen after concepts. Cloud/30 + Methodologies/3 remain doors. Security/IAC still open.
 
 **Cloud closed (move-on confirmed):** literacy 0–34 + catalogs complete; reopen only when a *new durable job* or major product family appears.
 
@@ -1541,7 +1541,7 @@ Status key:
 | Branching / PR / trunk vs GitFlow | GitHub/GitLab/Bitbucket | **HERE-plan** | `Methodologies/` |
 | Agile / shift-left | Ceremony vs delivery | **HERE-deep** (named in stubs) | `Methodologies/` |
 | ChatOps / Slack-Teams notifications | Slack, Teams | **HERE-plan** | `Methodologies/` / `CiCd/` |
-| Incident / on-call | PagerDuty, Opsgenie, Grafana OnCall | **HERE-deep** (SRE stub) + **GAP** tool literacy | `Methodologies/3` + optional `Observability/` or Security ops entry |
+| Incident / on-call | PagerDuty, Opsgenie, Grafana OnCall | **HERE-deep** (SRE stub) + **GAP** tool literacy | `Methodologies/3` + optional `Monitoring-And-Observability/` or Security ops entry |
 | DORA / delivery metrics literacy | Deploy freq, lead time, CFR, MTTR | **HERE-plan** | `Methodologies/` |
 | Docs as code / runbooks | Markdown, Notion/Git | **ENTRY+link** | Short entry in Methodologies; don’t fork wiki products |
 
@@ -1663,10 +1663,10 @@ Plus folder `README.md` (track intro). Status: **public 01–26 + README added**
 
 | Topic | Day-to-day tools / ideas | Status | Home |
 |-------|--------------------------|--------|------|
-| Metrics | Prometheus, Grafana, Datadog, New Relic | **HERE-deep** | `Observability/` |
-| Logs | Elastic/ELK, Loki | **HERE-deep** | `Observability/` |
-| Traces | OpenTelemetry, Jaeger/Tempo literacy | **HERE-deep** | `Observability/` (Tempo + Jaeger folders) |
-| SLO/SLI/error budgets | SRE practices | **HERE-deep** | Observability/1 + Methodologies/3 |
+| Metrics | Prometheus, Grafana, Datadog, New Relic | **HERE-deep** | `Monitoring-And-Observability/` |
+| Logs | Elastic/ELK, Loki | **HERE-deep** | `Monitoring-And-Observability/` |
+| Traces | OpenTelemetry, Jaeger/Tempo literacy | **HERE-deep** | `Monitoring-And-Observability/` (Tempo + Jaeger folders) |
+| SLO/SLI/error budgets | SRE practices | **HERE-deep** | Monitoring-And-Observability/8 + Methodologies/3 |
 | Synthetic / smoke after deploy | Scripts, k6, Playwright in CI | **GAP → HERE-plan** | `CiCd/` verify stage |
 
 ### H. Data, messaging, caching (SE apps — DevOps must know enough)
@@ -1792,7 +1792,7 @@ Practice catalog, SAST/DAST tables, and Servers/web-server v1 lists from prior r
 | Named cloud providers | **`Cloud/`** |
 | On-prem metal / colo / vSphere | **`Datacenter/`** |
 | ChatOps / DORA literacy / branching / incidents | `Methodologies/` |
-| Verify after deploy | `CiCd/` ↔ `Observability/` |
+| Verify after deploy | `CiCd/` ↔ `Monitoring-And-Observability/` |
 | Platform / IDP | `Cloud-Native/3` |
 
 ---
@@ -1883,7 +1883,7 @@ Write these in [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskusha
 - [ ] Confirm CI security track (SAST/DAST/SCA/secrets/IaC/image/WAF/sign-SBOM)  
 - [ ] Confirm SonarQube + ZAP as primary examples  
 - [ ] Confirm artifact registry + supply-chain chapters in CiCd/Security  
-- [x] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC) — `Cloud/` **0–34 + Catalogs closed** (jobs + what/when/why-not; docs = API depth); IAC stays Terraform/etc.; `Datacenter/` **closed**; `Observability/` **closed**; Security/IAC still open  
+- [x] Confirm Cloud literacy approach (`Cloud/` vs entries under IAC) — `Cloud/` **0–34 + Catalogs closed** (jobs + what/when/why-not; docs = API depth); IAC stays Terraform/etc.; `Datacenter/` **closed**; `Monitoring-And-Observability/` **0–34 concepts closed** (tools later); Security/IAC still open  
 - [ ] Confirm Docker/Podman handbook entry → Containerization-Deep-Dive  
 - [ ] Confirm data/Messaging/CDN/LB entries → Databases + System-Design + Networks  
 - [x] `Servers/`, `Cloud/`, and `Datacenter/` exist; frameworks live in Tooling — do not add `Frameworks/` here  
@@ -1905,7 +1905,7 @@ Write these in [Tooling-and-Frameworks-Deep-Dive](https://github.com/thisiskusha
 
 - [Handbook README](./README.md)  
 - [Methodologies](./Methodologies/README.md) · [CiCd](./CiCd/README.md) · [IAC](./IAC/README.md) · [Automation](./Automation/README.md)  
-- [Cloud-Native](./Cloud-Native/README.md) · [Observability](./Observability/README.md) · [Security](./Security/README.md)  
+- [Cloud-Native](./Cloud-Native/README.md) · [Monitoring and observability](./Monitoring-And-Observability/README.md) · [Security](./Security/README.md)  
 - [Operating-Systems](./Operating-Systems/README.md) · [Languages](./Languages/README.md)  
 - Related repos: [Networks](https://github.com/thisiskushal31/Networks-Deep-Dive) · [Containers](https://github.com/thisiskushal31/Containerization-Deep-Dive) · [Databases](https://github.com/thisiskushal31/Databases-Deep-Dive) · [System Design](https://github.com/thisiskushal31/System-Design-Concepts) · [Commands](https://github.com/thisiskushal31/Commands-and-Cheatsheets)
 
@@ -2534,7 +2534,7 @@ Benchmark sources (August 2026): [DesignGurus 2026 rubric](https://www.designgur
 | Industry topic | Status | Where in repo | Gap action |
 |----------------|--------|---------------|------------|
 | Four golden signals / SLI-SLO | ⚠️ | [Observability/](./Observability/README.md) — **9 files thin** | **Batch deepen** Observability notes |
-| Distributed tracing | ⚠️ | [Observability/9_Distributed_Tracing.md](./Observability/9_Distributed_Tracing.md) | Deepen · 🔗 DevOps Observability |
+| Distributed tracing | ⚠️ | [Observability/9_Distributed_Tracing.md](./Observability/9_Distributed_Tracing.md) | Deepen · 🔗 DevOps Monitoring-And-Observability |
 | Cost vs performance | ⚠️ | [Performance/4_Cost_vs_Performance.md](./Performance/4_Cost_vs_Performance.md) | Deepen — **2026 rubric** |
 | Back-of-envelope / capacity math | ⚠️ | [Fundamentals/12_HLD_and_LLD.md](./Fundamentals/12_HLD_and_LLD.md) | Add dedicated section or primer |
 
@@ -2595,7 +2595,7 @@ Full list: Cases to fill below
 
 **You ARE missing depth and modern tier:**
 
-1. **~40+ short topic files** — especially `Observability/` and `Security/`
+1. **~40+ short topic files** — especially `Monitoring-And-Observability/` and `Security/`
 2. **12 primer-gaps stubs** — gossip, bloom filters, 2PC/saga standalone, search-at-scale, etc.
 3. **Cases** — most are outlines; need failure modes + capacity math
 4. **2026 tier** — RAG/Vector/LLM gateway design (stubs in `Primer-Gaps/`)
