@@ -1264,6 +1264,22 @@ Public intro: [Deep-Dives/DevOps-Handbook/Datacenter/README.md](../../Deep-Dives
 
 **Monitoring-And-Observability concept track closed:** [Monitoring-And-Observability/](../../Deep-Dives/DevOps-Handbook/Monitoring-And-Observability/README.md) **0–37** (paired monitoring+observability jobs, stacks, runtime/estate shapes, RUM/coverage, scorecard, topologies). Tool folder primers exist—deepen after concepts. Cloud/30 + Methodologies/3 remain doors. Security/IAC still open.
 
+**M&O tool deepen (active):**
+| Tool | Public | Archive sources | Status |
+|------|--------|-----------------|--------|
+| Datadog | **01–26** | `Archive/.../datadog/` | **done** |
+| Elastic (+ ELK) | **01–23** | `Archive/.../elastic/` | **done** |
+| AppDynamics | **01–16** | `Archive/.../appdynamics/` | **done** |
+| Splunk Enterprise/Cloud | primer stub | — | stub only |
+| **Grafana** | **01–16** (staircase A–D) | `Archive/.../grafana/` | **done** (concepts → advanced concepts → basic/advanced impl; Alloy + Agent) |
+
+**Grafana deepen goals (syllabus cards — Part A rule 10):**
+1. **Basic → Advanced → Applications + staff checklist** on every chapter; standalone handbook voice; official URLs only in References.
+2. **Full spectrum:** greenfield **Grafana Alloy** *and* brownfield **Grafana Agent** (Static / Flow / Operator) + migrate-to-Alloy — not Alloy-only.
+3. **Grafana the glass:** datasources, Explore, dashboards/visualizations, provisioning/as-code, alerting boundaries vs Prometheus AM, auth/orgs literacy; Cloud vs OSS/Enterprise.
+4. **Not** a second Loki/Tempo/Mimir book — cross-link sibling tracks for backend depth.
+5. Expand track toward Archive `CHAPTER_PLAN` ~**01–13** (rewrite existing 01–08; add Agent legacy + admin/enablement chapters).
+
 **Cloud closed (move-on confirmed):** literacy 0–34 + catalogs complete; reopen only when a *new durable job* or major product family appears.
 
 **Datacenter closed (move-on confirmed):** physical curriculum + accessibility entry path complete.
