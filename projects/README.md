@@ -6,7 +6,7 @@ This directory holds **one README per project**. Each project has its own scale,
 
 #### [Stealth Startup Infrastructure Deployment & Software Compliance](./11_Stealth_Startup_Infrastructure_Deployment/)
 ![Quick Info Image](../assets/projects/11_Stealth_Startup_Infrastructure_Deployment.png)
-**AI CI SaaS** - GitHub App → control/orchestration plane → ephemeral GCP runners; SOC 2–aligned compliance  
+**AI-Powered CI SaaS** - GitHub App → control/orchestration plane → ephemeral GCP runners; SOC 2–aligned compliance  
 - **Architecture:** Customer GitHub Org → platform control layer (runner provisioning, AI RCA, caching, compliance scanning) → ephemeral Compute Engine runners (C4D, us-central1)  
 - **GCP:** GKE (stateful + stateless), PostgreSQL, Vertex AI; Silicon → Dev → Staging → Prod; BYOC planned (customer data plane)  
 - **Messaging & cache:** NATS JetStream (runners/capacity/auth); Pub/Sub (ad hoc triggers); MicroCeph (CI caching)  
@@ -133,7 +133,7 @@ Each project follows a consistent documentation structure:
 
 | Project | Type | Key metric | Status |
 |---------|------|------------|--------|
-| [Stealth Startup Infra & Compliance](./11_Stealth_Startup_Infrastructure_Deployment/) | AI CI SaaS Platform | 80% faster CI · SOC 2 + ISO 27001 | ✅ Live (current) |
+| [Stealth Startup Infra & Compliance](./11_Stealth_Startup_Infrastructure_Deployment/) | AI-Powered CI SaaS Platform | 80% faster CI · SOC 2 + ISO 27001 | ✅ Live (current) |
 | [Purplle.com Management](./1_Purplle.com_Management/) | E-Commerce Platform | 10M+ users, 400K+ DAU | ✅ Live |
 | [Purplle.com RAG Sentiment Platform](./2_Purplle.com_Agentic_RAG_Sentiment_Platform/) | AI/ML Infrastructure | Agentic RAG, Qdrant, GPU | ✅ Live |
 | [Purplle.com Data Science Infrastructure](./3_Purplle.com_Data_Science_Infrastructure/) | DS/ML Infra | Ingress, K8s, Composer, Vertex AI, Qdrant | ✅ Live |

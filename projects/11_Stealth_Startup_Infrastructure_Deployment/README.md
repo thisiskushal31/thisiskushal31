@@ -3,16 +3,16 @@
 ## Project Overview
 
 **Company:** Stealth Startup · Full-time  
-**Project Type:** Production Platform - AI CI SaaS Infrastructure & Compliance  
+**Project Type:** Production Platform - AI-Powered CI SaaS Infrastructure & Compliance  
 **Status:** Live & Operational  
 **Duration:** Mar 2026 - Present  
-**Platform:** Early-stage AI CI SaaS (GitHub-integrated control plane + ephemeral runners)  
+**Platform:** Early-stage AI-Powered CI SaaS (GitHub-integrated control plane + ephemeral runners)  
 **Deployment:** Google Cloud — GKE (application plane) + Compute Engine (ephemeral CI runners)  
 **Role:** DevOps Engineer — working on cloud infrastructure, platform engineering, deployment automation, security, and observability  
 
 ## Executive Summary
 
-Working on an early-stage **AI CI SaaS**. Customers connect their **GitHub Organization** via a **GitHub App**. The platform’s **control / orchestration layer** provisions CI runners, orchestrates workflows and AI agents, analyzes build logs for RCA, manages Docker and GitHub Actions caching, and runs security/compliance scanning. **Ephemeral GCP Compute Engine runners** execute GitHub CI jobs on on-demand VMs, then return results and logs.
+Working on an early-stage **AI-Powered CI SaaS**. Customers connect their **GitHub Organization** via a **GitHub App**. The platform’s **control / orchestration layer** provisions CI runners, orchestrates workflows and AI agents, analyzes build logs for RCA, manages Docker and GitHub Actions caching, and runs security/compliance scanning. **Ephemeral GCP Compute Engine runners** execute GitHub CI jobs on on-demand VMs, then return results and logs.
 
 Application components (stateful and stateless) run on **GKE/Kubernetes**. Persistent data lives in **PostgreSQL**. Messaging is split by purpose: **NATS JetStream** is the distributed communication backbone for runners, capacity, and authenticator services (runner ↔ service / community service); **Pub/Sub** handles ad hoc triggers (add-ons, log analysis, debug, and similar one-shot jobs). **MicroCeph** provides distributed **caching** (up to **80% faster CI**). **Vertex AI** hosts open-model AI workloads today; a **GPU pipeline** is in progress to self-host open models and run inference internally. Environments progress from a fully breakable **Silicon** sandbox through **development**, **staging**, and **production**.
 
@@ -162,11 +162,11 @@ Controls are treated as **platform architecture**, not documentation-only.
 
 ## Key Achievements (LinkedIn / Resume)
 
-- ✅ **Platform ownership** — Cloud infrastructure, platform engineering, deployment automation, security, and observability for an AI CI SaaS  
+- ✅ **Platform ownership** — Cloud infrastructure, platform engineering, deployment automation, security, and observability for an AI-Powered CI SaaS  
 - ✅ **Full IaC + GitOps** — Terraform + **[Atlantis](https://www.runatlantis.io/)** for infra PRs; Argo CD deploys from branch/tag; monitoring and alerting deployed as platform infra  
 - ✅ **Release ops automation** — Automated inventory generation and cost auditing with Slack notifications for production release readiness  
 - ✅ **Up to 80% faster CI** — Distributed caching with MicroCeph and Kubernetes-native storage  
-- ✅ **Production GCP platform** — Greenfield deployment of Kubernetes, Cloud Run, PostgreSQL, **NATS JetStream**, **Pub/Sub**, **MicroCeph**, Terraform, Helm, ArgoCD, and GitOps for a growing AI CI SaaS  
+- ✅ **Production GCP platform** — Greenfield deployment of Kubernetes, Cloud Run, PostgreSQL, **NATS JetStream**, **Pub/Sub**, **MicroCeph**, Terraform, Helm, ArgoCD, and GitOps for a growing AI-Powered CI SaaS  
 - ✅ **SOC 2– and ISO/IEC 27001–aligned compliance** — Private networking, Zero Trust, least-privilege IAM, secure service-to-service communication  
 - ✅ **Semver + immutable images** — `dev` tags `YYYY.MM.DD.dev-sha-<shortsha>` (never `:latest`); `main` RC `X.Y.Z-rc.N` → production `X.Y.Z`; reusable CI; **runners not versioned**  
 - ✅ **End-to-end observability** — OpenTelemetry and Google Cloud Monitoring across cloud services, Kubernetes, and VMs  
