@@ -4,14 +4,7 @@
 
 Good to see you. I care about the whole path — how something is designed, shipped, and kept running in production — and I build in the open when I can.
 
-[![Portfolio](https://img.shields.io/badge/portfolio-kushal.cv-111111?style=flat-square)](https://kushal.cv/)
-[![Blog](https://img.shields.io/badge/blog-blog.kushal.cv-0A66C2?style=flat-square)](https://blog.kushal.cv/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-thisiskushalgupta-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thisiskushalgupta/)
-[![X](https://img.shields.io/badge/X-thisis__kushal-111111?style=flat-square&logo=x&logoColor=white)](https://x.com/thisis_kushal)
-
-**[Portfolio](https://kushal.cv/) · [Bio](https://bio.kushal.cv/) · [Blog](https://blog.kushal.cv/) · [DocHub](https://thisiskushal31.github.io/dochub/) · [Email](mailto:guptakushal070@gmail.com)**
-
-[Grid Platform](https://gridplatform.org) · [Projects](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects) · [DocHub](https://thisiskushal31.github.io/dochub/) · [Blog](https://blog.kushal.cv/)
+**[Portfolio](https://kushal.cv/) · [Bio](https://bio.kushal.cv/) · [Blog](https://blog.kushal.cv/) · [DocHub](https://thisiskushal31.github.io/dochub/) · [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/) · [X](https://x.com/thisis_kushal) · [Email](mailto:guptakushal070@gmail.com)**
 
 </div>
 
@@ -165,16 +158,6 @@ Technical notes and deep dives—browse everything in [DocHub](https://thisiskus
 
 ---
 
-<div align="center">
-
 ## 🤝 Let's Connect
 
-Open to DevOps, platform, cloud, and MLOps roles—on-site, hybrid, or remote (India and global).
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-thisiskushalgupta-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thisiskushalgupta/)
-[![X](https://img.shields.io/badge/X-thisis__kushal-111111?style=flat-square&logo=x&logoColor=white)](https://x.com/thisis_kushal)
-[![Email](https://img.shields.io/badge/Email-guptakushal070@gmail.com-444444?style=flat-square)](mailto:guptakushal070@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-kushal.cv-111111?style=flat-square)](https://kushal.cv/)
-[![Bio](https://img.shields.io/badge/Bio-bio.kushal.cv-111111?style=flat-square)](https://bio.kushal.cv/)
-
-</div>
+Open to DevOps, platform, cloud, and MLOps roles — full-time or contract, on-site, hybrid, or remote (India and global).
