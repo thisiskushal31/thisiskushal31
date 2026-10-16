@@ -4,6 +4,15 @@ This directory holds **one README per project**. Each project has its own scale,
 
 ## Project list
 
+#### [Grid Platform](./12_GridPlatform_OSS_Project/) — Featured
+![Quick Info Image](../assets/projects/12_GridPlatform_OSS_Project.png)
+**Open-source control plane** — in active development. Git intent, one release path on every cloud, a catalog per cloud.
+- **Features:** Sync, plan / apply / destroy, Terraform and Kubernetes engines, console, RBAC, remote state, host monitoring, VM install
+- **GitHub:** https://github.com/gridplatform
+- **Site:** https://gridplatform.org
+- **Key Technologies:** Node.js, TypeScript, React, Terraform, Kubernetes, Docker, GitOps
+- [View Details →](./12_GridPlatform_OSS_Project/)
+
 #### [Stealth Startup Infrastructure Deployment & Software Compliance](./11_Stealth_Startup_Infrastructure_Deployment/)
 ![Quick Info Image](../assets/projects/11_Stealth_Startup_Infrastructure_Deployment.png)
 **AI-Powered CI SaaS** - GitHub App → control/orchestration plane → ephemeral GCP runners; SOC 2–aligned compliance  
@@ -106,16 +115,6 @@ This directory holds **one README per project**. Each project has its own scale,
 - **Key Technologies:** PHP (legacy), Kubernetes, MySQL, Load balancer, CI/CD
 - [View Details →](./10_Purplle.com_Legacy_Admin_Panels_Infrastructure/)
 
-#### [Grid Platform - OSS Project](./12_GridPlatform_OSS_Project/)
-![Quick Info Image](../assets/projects/12_GridPlatform_OSS_Project.png)
-**AI-First Infrastructure Management Platform** - Open-source infrastructure automation 
-- **Scale:** Open-source platform for infrastructure management
-- **Infrastructure:** AI-powered automation, multi-cloud support, Infrastructure as Code
-- **Achievements:** 60-80% cost reduction, days to minutes setup time, vendor lock-in elimination
-- **Key Technologies:** Node.js, TypeScript, React, Terraform, OpenTofu, Ansible, Kubernetes, Docker, GitOps
-- **GitHub:** https://github.com/gridplatform
-- **Demo:** https://gridplatform.org
-
 ## How to read this page
 
 Each project above is self-contained: **scale, tech stack, achievements, and implementation details** live in that project's README, `architecture.md`, and `metrics.md`. Scroll through the project cards for an overview; open a project folder for full details. Nothing in this README duplicates project-specific numbers or stacks, so adding or changing projects doesn't require updating this file.
@@ -133,6 +132,7 @@ Each project follows a consistent documentation structure:
 
 | Project | Type | Key metric | Status |
 |---------|------|------------|--------|
+| [Grid Platform](./12_GridPlatform_OSS_Project/) | Open-source control plane | Catalog per cloud · Git intent · plan / apply / destroy | ★ Featured |
 | [Stealth Startup Infra & Compliance](./11_Stealth_Startup_Infrastructure_Deployment/) | AI-Powered CI SaaS Platform | 80% faster CI · SOC 2 + ISO 27001 | ✅ Live (current) |
 | [Purplle.com Management](./1_Purplle.com_Management/) | E-Commerce Platform | 10M+ users, 400K+ DAU | ✅ Live |
 | [Purplle.com RAG Sentiment Platform](./2_Purplle.com_Agentic_RAG_Sentiment_Platform/) | AI/ML Infrastructure | Agentic RAG, Qdrant, GPU | ✅ Live |
@@ -144,7 +144,6 @@ Each project follows a consistent documentation structure:
 | [IAC Deployment](./8_Purplle.com_IAC_Deployment/) | Infrastructure Automation | 40%+ faster | ✅ Implemented |
 | [Security Improvement](./9_Purplle.com_SecurityImprovement/) | Security Hardening | 125+ Microservices Distributed Workload | ✅ Implemented |
 | [Purplle.com Legacy Admin Panels](./10_Purplle.com_Legacy_Admin_Panels_Infrastructure/) | Legacy Admin | PHP monolith + internal LB to K8s; infra only | ✅ Live |
-| [Grid Platform](./12_GridPlatform_OSS_Project/) | OSS Platform | AI-first automation | 🚧 Active Development |
 
 ## Usage
 

@@ -21,7 +21,7 @@ What I do today: DevOps, platform engineering, cloud-native architecture, and pr
 | **Revenue platforms** | US$90M+ AdTech; US$5M+ POS across 200+ retail stores |
 | **Current** | Working on platform infrastructure for an early-stage AI-Powered CI SaaS on GCP — SOC 2-enabled controls, GitHub PR-driven delivery (Atlantis + ArgoCD), up to 80% faster CI |
 
----
+
 
 ## 💼 Where I've Done It
 
@@ -36,6 +36,24 @@ Impact: up to 80% faster CI · SOC 2-enabled Zero Trust · 13% spend reduction �
 Owned production infrastructure and platform work for India's leading beauty e-commerce company—core commerce, AdTech, POS, data/ML platforms, and legacy admin systems. Hybrid GCP + AWS production (e.g. GKE workloads with Route 53, ALB, VPC, and WAF on AWS for AdTech and edge traffic).
 
 Impact: US$160M+ business backbone · 10M+ users · 40%+ faster code delivery · 76% MTTR reduction · US$120K+ savings (30% cloud spend cut) · 99.9% availability through peak traffic.
+
+
+## Featured Projects
+
+Work I build in the open. This is the project I want you to look at first.
+
+### [Grid Platform](https://gridplatform.org)
+
+Open source, in active development. A self-hosted control plane: JSON in Git, the same plan / apply / destroy path on every cloud, and a catalog of types for each cloud.
+
+- Intent stays in a repository you own. Sync updates inventory. A deleted file is stale, not an automatic destroy.
+- Releases carry live logs, audit, and environment approvals.
+- Terraform units generate from a module bank, use remote state, and leave plain Terraform you can run yourself.
+- Kubernetes workloads use the same release path through cluster GitOps.
+- Console for infrastructure, deployments, releases, topology, monitoring, alerts, and admin — with users, roles, and private Git auth.
+- You install it on your own VM.
+
+[Website](https://gridplatform.org) · [GitHub](https://github.com/gridplatform) · [Write-up](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/12_GridPlatform_OSS_Project/README.md)
 
 ---
 
@@ -88,7 +106,7 @@ Learning & personal time: Python, JavaScript, TypeScript, React, Node.js, FastAP
 
 | Project | What it is |
 | :--- | :--- |
-| [Grid Platform](https://gridplatform.org) | AI-first infra management · [docs](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects/12_GridPlatform_OSS_Project) |
+| [Grid Platform](https://gridplatform.org) | Open-source control plane · [GitHub](https://github.com/gridplatform) |
 | [TrendSignal](https://github.com/thisiskushal31/TrendSignal) | AI agent: YouTube trend analysis from a screenshot · MCP, FastAPI, GPT-4 Vision |
 | [Agility](https://github.com/thisiskushal31/Agility) | React + MongoDB task management |
 | [SocialSplit](https://github.com/thisiskushal31/SocialSplit) | Real-time chat · Node.js, Socket.io, React |
