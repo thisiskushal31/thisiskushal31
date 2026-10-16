@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey there
+# Hey there 👋
 
 Good to see you. I care about the whole path — how something is designed, shipped, and kept running in production — and I build in the open when I can.
 
