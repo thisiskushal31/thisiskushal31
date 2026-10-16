@@ -24,6 +24,7 @@ What I do today: DevOps, platform engineering, cloud-native architecture, and pr
 | :--- | :--- |
 | **Scale** | Production systems for a US$160M+ annual business, 10M+ users, 400K+ DAU, and 4x traffic spikes during major sales |
 | **Reliability** | 99.9% availability on mission-critical platforms; 76% MTTR reduction (30 min → 7 min) |
+| **Security** | Zero Trust across production services, with SAST and DAST in the delivery path |
 | **Code delivery** | 40%+ faster code delivery through CI/CD, IaC, and GitOps |
 | **Savings** | US$120K+ cloud cost reduction (30% spend cut); 93% AdTech infrastructure cost reduction by replacing third-party with in-house |
 | **Revenue platforms** | US$90M+ AdTech; US$5M+ POS across 200+ retail stores |
