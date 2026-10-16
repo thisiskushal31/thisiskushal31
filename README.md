@@ -1,10 +1,27 @@
-# 👋 Hey there, I'm Kushal Gupta
+<div align="center">
+
+# Kushal Gupta
+
+### DevOps and Platform Engineer
+
+End-to-end ownership of how teams design, ship, deploy, operate, and improve software in production.
+
+[![Portfolio](https://img.shields.io/badge/portfolio-kushal.cv-111111?style=flat-square)](https://kushal.cv/)
+[![Blog](https://img.shields.io/badge/blog-blog.kushal.cv-0A66C2?style=flat-square)](https://blog.kushal.cv/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-thisiskushalgupta-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thisiskushalgupta/)
+[![X](https://img.shields.io/badge/X-thisis__kushal-111111?style=flat-square&logo=x&logoColor=white)](https://x.com/thisis_kushal)
+
+**[Portfolio](https://kushal.cv/) · [Bio](https://bio.kushal.cv/) · [Blog](https://blog.kushal.cv/) · [DocHub](https://thisiskushal31.github.io/dochub/) · [Email](mailto:guptakushal070@gmail.com)**
+
+[Grid Platform](https://gridplatform.org) · [Projects](https://github.com/thisiskushal31/thisiskushal31/tree/main/projects) · [DocHub](https://thisiskushal31.github.io/dochub/) · [Blog](https://blog.kushal.cv/)
+
+</div>
+
+---
 
 I'm a DevOps and Platform Engineer with end-to-end ownership across the product lifecycle—how teams design, ship, deploy, operate, and improve software in production. My day-to-day work sits at the intersection of platform engineering, DevOps, cloud engineering, AI/ML deployments, and MLOps, with a focus on reliability, security, and measurable business outcomes.
 
 What I do today: DevOps, platform engineering, cloud-native architecture, and production ML/MLOps infrastructure. What I've done: architecture design for distributed systems, and operating production platforms under real traffic and commercial load. What I'm building toward: full-stack application development, AI engineering, and stronger software engineering practices—I learn and write code in personal time through side projects and open source. I collaborate closely with product, engineering, and operations teams—on-site, hybrid, or remote, depending on what the role and team need.
-
-🌐 Quick Links: [Portfolio](https://kushal.cv/) · [Bio](https://bio.kushal.cv/) · [Blog](https://blog.kushal.cv/) · [DocHub](https://thisiskushal31.github.io/dochub/)
 
 ---
 
@@ -21,7 +38,7 @@ What I do today: DevOps, platform engineering, cloud-native architecture, and pr
 | **Revenue platforms** | US$90M+ AdTech; US$5M+ POS across 200+ retail stores |
 | **Current** | Working on platform infrastructure for an early-stage AI-Powered CI SaaS on GCP — SOC 2-enabled controls, GitHub PR-driven delivery (Atlantis + ArgoCD), up to 80% faster CI |
 
-
+---
 
 ## 💼 Where I've Done It
 
@@ -37,6 +54,7 @@ Owned production infrastructure and platform work for India's leading beauty e-c
 
 Impact: US$160M+ business backbone · 10M+ users · 40%+ faster code delivery · 76% MTTR reduction · US$120K+ savings (30% cloud spend cut) · 99.9% availability through peak traffic.
 
+---
 
 ## Featured Projects
 
@@ -149,11 +167,16 @@ Technical notes and deep dives—browse everything in [DocHub](https://thisiskus
 
 ---
 
+<div align="center">
+
 ## 🤝 Let's Connect
 
 Open to DevOps, platform, cloud, and MLOps roles—on-site, hybrid, or remote (India and global).
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/)
-- 🐦 [X (Twitter)](https://x.com/thisis_kushal)
-- 📧 [Email](mailto:guptakushal070@gmail.com)
-- 🌐 [Portfolio](https://kushal.cv/) · [Bio Links](https://bio.kushal.cv/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-thisiskushalgupta-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thisiskushalgupta/)
+[![X](https://img.shields.io/badge/X-thisis__kushal-111111?style=flat-square&logo=x&logoColor=white)](https://x.com/thisis_kushal)
+[![Email](https://img.shields.io/badge/Email-guptakushal070@gmail.com-444444?style=flat-square)](mailto:guptakushal070@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kushal.cv-111111?style=flat-square)](https://kushal.cv/)
+[![Bio](https://img.shields.io/badge/Bio-bio.kushal.cv-111111?style=flat-square)](https://bio.kushal.cv/)
+
+</div>
