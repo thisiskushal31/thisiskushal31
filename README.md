@@ -1,10 +1,8 @@
 <div align="center">
 
-# Kushal Gupta
+# Hey there
 
-### DevOps and Platform Engineer
-
-End-to-end ownership of how teams design, ship, deploy, operate, and improve software in production.
+Good to see you. I care about the whole path — how something is designed, shipped, and kept running in production — and I build in the open when I can.
 
 [![Portfolio](https://img.shields.io/badge/portfolio-kushal.cv-111111?style=flat-square)](https://kushal.cv/)
 [![Blog](https://img.shields.io/badge/blog-blog.kushal.cv-0A66C2?style=flat-square)](https://blog.kushal.cv/)
