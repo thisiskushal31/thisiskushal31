@@ -52,14 +52,13 @@ Work I build in the open. This is the project I want you to look at first.
 
 ### [Grid Platform](https://gridplatform.org)
 
-Open source, in active development. A self-hosted control plane: JSON in Git, the same plan / apply / destroy path on every cloud, and a catalog of types for each cloud.
+Open source, in active development. Grid is a tool you run yourself to manage infrastructure across clouds.
 
-- Intent stays in a repository you own. Sync updates inventory. A deleted file is stale, not an automatic destroy.
-- Releases carry live logs, audit, and environment approvals.
-- Terraform units generate from a module bank, use remote state, and leave plain Terraform you can run yourself.
-- Kubernetes workloads use the same release path through cluster GitOps.
-- Console for infrastructure, deployments, releases, topology, monitoring, alerts, and admin — with users, roles, and private Git auth.
-- You install it on your own VM.
+What should exist, what is actually running, and who changed it usually live in different consoles, scripts, and tickets. Grid is the place that holds that together. You describe the infrastructure you want. Grid creates it, changes it, and removes it the same way on every cloud, then shows you the result: what is deployed, what is in progress, and what needs attention.
+
+You keep the infrastructure. Grid does not host it for you, and you can keep operating what it created if you stop using Grid.
+
+The flow — how a change goes from what you asked for to something running — is on [gridplatform.org](https://gridplatform.org). How it is built is in the write-up.
 
 [Website](https://gridplatform.org) · [GitHub](https://github.com/gridplatform) · [Write-up](https://github.com/thisiskushal31/thisiskushal31/blob/main/projects/12_GridPlatform_OSS_Project/README.md)
 
