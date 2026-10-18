@@ -1,0 +1,67 @@
+---
+# Grid Platform — how the control plane is configured
+# Default install: Docker Compose on a Linux VM (install.sh).
+# Native alternative: systemd grid-core + host nginx, same directories.
+# Monitoring stays on the host (systemd). It is not a Compose service.
+# Reference: projects/12_GridPlatform_OSS_Project/README.md
+# Install: grid-core/install (compose, systemd, .env)
+---
+
+flowchart TB
+  Operator[Operator browser]
+
+  subgraph VM["Linux VM"]
+    subgraph Compose["Docker Compose — default"]
+      UI["grid-ui<br/>nginx :80<br/>GHCR image or source build"]
+      Core["grid-core<br/>API :3000<br/>auth · sync · releases"]
+      Engines["grid-cli + Terraform<br/>inside the core image"]
+      UI -->|/api| Core
+      Core --> Engines
+    end
+
+    subgraph Disk["Control-plane disk"]
+      Data["/var/lib/grid/data<br/>users · audit · Git credentials"]
+      Desired["/var/lib/grid/desired-state<br/>intent checkout"]
+      Work["/var/lib/grid/workspaces<br/>generated Terraform"]
+    end
+
+    subgraph Mon["Host systemd — survives Grid stop"]
+      Prom["Prometheus :9090"]
+      AM["Alertmanager :9093"]
+      Alloy["Alloy<br/>optional collector"]
+      Alloy -->|remote_write| Prom
+      Prom --> AM
+    end
+  end
+
+  subgraph Git["Git"]
+    Intent["Your intent repository<br/>JSON · one unit per path"]
+    Bank["grid-terraform<br/>module bank · pinned ref"]
+  end
+
+  subgraph Store["Remote state — required before apply"]
+    Backend["One backend<br/>S3 · GCS · Azure · OCI · OSS · COS"]
+    Archive["archive/ in the same store<br/>plain Terraform you can run yourself"]
+  end
+
+  subgraph Targets["What a release changes"]
+    Clouds["Target cloud<br/>catalog for that cloud"]
+    Argo["Cluster GitOps<br/>Argo CD / OpenShift<br/>optional · off by default"]
+  end
+
+  Operator -->|":80"| UI
+  Intent -->|sync| Desired
+  Core --> Data
+  Core --> Desired
+  Engines --> Work
+  Bank --> Engines
+  Engines --> Backend
+  Engines --> Archive
+  Engines -->|plan · apply · destroy| Clouds
+  Core -->|when GRID_ARGO_ENABLED| Argo
+  Core -->|host.docker.internal| Prom
+  Core -->|host.docker.internal| AM
+  Core -->|writes rules · /etc/prometheus| Prom
+
+  classDef accent fill:#e8f4fc,stroke:#2b6cb0,color:#1a202c
+  class UI,Core,Engines,Intent,Bank,Backend,Clouds accent

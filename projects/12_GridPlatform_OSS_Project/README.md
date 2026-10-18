@@ -37,4 +37,4 @@ You run Grid on your own machine. It is not a hosted service. Terraform and Kube
 
 ## Links
 
-[Website](https://gridplatform.org) · [Organization](https://github.com/gridplatform) · [Docs](https://github.com/gridplatform/grid-docs)
+[Website](https://gridplatform.org) · [Organization](https://github.com/gridplatform) · [Docs](https://github.com/gridplatform/grid-docs) · [Architecture diagram](architecture-diagram.mmd)
