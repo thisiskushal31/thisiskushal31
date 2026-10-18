@@ -1,18 +1,16 @@
-<div align="center">
-
 # Hey there 👋
 
 Good to see you. I care about the whole path — how something is designed, shipped, and kept running in production — and I build in the open when I can.
 
-**[Portfolio](https://kushal.cv/) · [Bio](https://bio.kushal.cv/) · [Blog](https://blog.kushal.cv/) · [DocHub](https://thisiskushal31.github.io/dochub/) · [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/) · [X](https://x.com/thisis_kushal) · [Email](mailto:guptakushal070@gmail.com)**
-
-</div>
-
----
-
 I'm a DevOps and Platform Engineer with end-to-end ownership across the product lifecycle—how teams design, ship, deploy, operate, and improve software in production. My day-to-day work sits at the intersection of platform engineering, DevOps, cloud engineering, AI/ML deployments, and MLOps, with a focus on reliability, security, and measurable business outcomes.
 
 What I do today: DevOps, platform engineering, cloud-native architecture, and production ML/MLOps infrastructure. What I've done: architecture design for distributed systems, and operating production platforms under real traffic and commercial load. What I'm building toward: full-stack application development, AI engineering, and stronger software engineering practices—I learn and write code in personal time through side projects and open source. I collaborate closely with product, engineering, and operations teams—on-site, hybrid, or remote, depending on what the role and team need.
+
+<div align="center">
+
+**[Portfolio](https://kushal.cv/) · [Bio](https://bio.kushal.cv/) · [Blog](https://blog.kushal.cv/) · [DocHub](https://thisiskushal31.github.io/dochub/) · [LinkedIn](https://www.linkedin.com/in/thisiskushalgupta/) · [X](https://x.com/thisis_kushal) · [Email](mailto:guptakushal070@gmail.com)**
+
+</div>
 
 ---
 
